@@ -151,6 +151,7 @@ Management panel: Settings → Plugins.
 - [dsh-split-panes](https://github.com/dsh-external/dsh-split-panes) - Split panes.
 - [dsh-ui-progress](https://github.com/dsh-external/dsh-ui-progress) - Progress indicators.
 - [dsh-skins](https://github.com/dsh-external/dsh-skins) - Web UI skins.
+- [dsh-skin](https://github.com/KinGao294/dsh-skin) - Codex-style skin switcher + custom wallpaper for the Web UI: curated --dsw-alias-* palettes and a translucent wallpaper layer with opacity/blur controls.
 - [dsh-chat-thumb](https://github.com/dsh-external/dsh-chat-thumb) - Chat thumbnails (cordis).
 - [show-bash-command](https://github.com/dsh-external/show-bash-command) - Show actual command content instead of descriptions.
 - [turtle-ui](https://github.com/dsh-external/turtle-ui) - Official UI plugin reference implementation.
