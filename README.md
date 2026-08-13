@@ -186,6 +186,7 @@ Management panel: Settings → Plugins.
 - [mstar-workflow](https://github.com/dsh-external/mstar-workflow) - Workflow engine.
 - [dsh-spur](https://github.com/dsh-external/dsh-spur) - Task engine.
 - [dsh-involute](https://github.com/dsh-external/dsh-involute) - Embedded task-management engine.
+- [dsh-review-loop](https://github.com/wuxiangru915/dsh-review-loop) - Incremental diff reviewer: checkpoint-based since-review queue with a Web UI panel, /review command, and feedback injection into the agent.
 
 ## Notifications & Channels
 
