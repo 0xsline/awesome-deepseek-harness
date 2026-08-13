@@ -225,6 +225,7 @@ Management panel: Settings → Plugins.
 
 - [deepseek-harness-desktop](https://github.com/Easyhoov/deepseek-harness-desktop) - Unofficial in-process Windows desktop app with tray residency, native notifications, and an IPC bridge.
 - [plugin-registry](https://github.com/dsh-external/plugin-registry) - Plugin console + make-dsh-plugin skill + dev guide.
+- [dsh-plugin-manager-registry](https://github.com/Jesse-njx/dsh-plugin-manager-registry) - Offline-tolerant registry that discovers and deduplicates DSH plugins from awesome lists, GitHub topics, and npm.
 - [marisa](https://github.com/dsh-external/marisa) - External plugin manager (parasitic install/CLI/settings panel).
 - [hub](https://github.com/dsh-external/hub) - Org-wide index + unified catalog.json (CI-generated).
 - [dshx-update-check](https://github.com/dsh-external/dshx-update-check) - Plugin update checker.
