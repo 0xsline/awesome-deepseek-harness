@@ -179,7 +179,7 @@ Management panel: Settings → Plugins.
 - [dsh-git-identity](https://github.com/dsh-external/dsh-git-identity) - Pin Git commit authorship to the environment identity (gh account + noreply email).
 - [dsh-gh-bridge](https://github.com/dsh-external/dsh-gh-bridge) - Bridge macOS Keychain GitHub token into sandboxed gh.
 - [dsh-auto-blame](https://github.com/dsh-external/dsh-auto-blame) - Auto blame.
-- [dsh-tool-git](https://github.com/lxj808624/dsh-tool-git) - Structured git tools (status/diff/log/branch/stage/commit/stash/show) with a destructive-command guard.
+- [dsh-tool-git](https://github.com/lxj808624/dsh-tool-git) - Structured Git tools (status/diff/log/branch/stage/commit/stash/show) with a destructive-command guard.
 - [dsh-plugin-check](https://github.com/dsh-external/dsh-plugin-check) - Plugin health checks (manifest/patch format/build pitfalls/hub status).
 - [dsh-inspect](https://github.com/dsh-external/dsh-inspect) - Adversarial checkup → fix → review loop.
 - [dsh-alphasolve](https://github.com/dsh-external/dsh-alphasolve) - AlphaSolve workflow.
@@ -220,6 +220,7 @@ Management panel: Settings → Plugins.
 
 ## Infrastructure & Development
 
+- [deepseek-harness-desktop](https://github.com/Easyhoov/deepseek-harness-desktop) - Unofficial in-process Windows desktop app with tray residency, native notifications, and an IPC bridge.
 - [plugin-registry](https://github.com/dsh-external/plugin-registry) - Plugin console + make-dsh-plugin skill + dev guide.
 - [marisa](https://github.com/dsh-external/marisa) - External plugin manager (parasitic install/CLI/settings panel).
 - [hub](https://github.com/dsh-external/hub) - Org-wide index + unified catalog.json (CI-generated).
