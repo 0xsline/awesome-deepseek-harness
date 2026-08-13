@@ -196,6 +196,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-weixin-bot](https://github.com/dsh-external/dsh-weixin-bot) - 微信 bot
 - [dsh-voice-chat](https://github.com/dsh-external/dsh-voice-chat) - 语音对话
 - [dsh-web-ui-notify](https://github.com/dsh-external/dsh-web-ui-notify) - WebUI 通知
+- [dsh-notify-windows](https://github.com/SeverusZh/dsh-notify-windows) - Windows 通知，零依赖
 - [dsh-ica](https://github.com/dsh-external/dsh-ica) - icalingua 前端
 - [dsh-grok-tui](https://github.com/dsh-external/dsh-grok-tui) - grok-build TUI
 - [dsh-opencode-server](https://github.com/dsh-external/dsh-opencode-server) - opencode attach 丝滑 TUI

@@ -198,6 +198,7 @@ Management panel: Settings → Plugins.
 - [dsh-weixin-bot](https://github.com/dsh-external/dsh-weixin-bot) - WeChat bot.
 - [dsh-voice-chat](https://github.com/dsh-external/dsh-voice-chat) - Voice chat.
 - [dsh-web-ui-notify](https://github.com/dsh-external/dsh-web-ui-notify) - WebUI notifications.
+- [dsh-notify-windows](https://github.com/SeverusZh/dsh-notify-windows) - Windows notifications, zero dependencies.
 - [dsh-ica](https://github.com/dsh-external/dsh-ica) - ICalingua frontend.
 - [dsh-grok-tui](https://github.com/dsh-external/dsh-grok-tui) - TUI built with grok-build.
 - [dsh-opencode-server](https://github.com/dsh-external/dsh-opencode-server) - Smooth TUI via opencode attach.
