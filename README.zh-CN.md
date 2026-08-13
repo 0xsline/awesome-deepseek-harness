@@ -107,6 +107,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Context & Search
 
+- [billion-context-dsh](https://github.com/Tyan66666/billion-context-dsh) - DeepSeek Harness 的模型驱动上下文压缩（ACP），移植自 billion-context-pi：由模型决定何时压缩、压缩什么。
 - [dsh-session-search](https://github.com/dsh-external/dsh-session-search) - 跨 dsh/Codex/Claude Code/pi/OpenCode 会话只读搜索，无索引
 - [cross-harness-cite](https://github.com/dsh-external/cross-harness-cite) - 跨 harness 引用历史对话
 - [dsh-session-cluster](https://github.com/dsh-external/dsh-session-cluster) - 会话聚类
