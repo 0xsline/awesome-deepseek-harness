@@ -242,4 +242,3 @@ Please have a look at [contributing.md](contributing.md). Entry standard: reposi
 ## Thanks
 
 Thanks to the [Linux Do community](https://linux.do/) for the support and exchange.
-
