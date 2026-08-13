@@ -33,7 +33,7 @@
 | [DSH-UI4A](https://github.com/dsh-external/DSH-UI4A) | UI4A（UI for Agent）的 DSH 实现（macaron-ui4a-interactive-ai） |
 | [DSH-better-sidebar](https://github.com/dsh-external/DSH-better-sidebar) | 右侧侧边栏增强：文件预览/终端/Git，可拖拽自定义位置 |
 | [chat-width](https://github.com/dsh-external/chat-width) | 自由调节正文与输入框的展示宽度 |
-| [context-doctor](https://github.com/Zhenyu98/context-doctor) | DSH 上下文注入审计插件：统计 AGENTS.md 指令链 |
+| [dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor) | 上下文注入审计：指令链/技能目录/工具 schema 的 token 成本量化 + 重复/冲突检测 + 裁剪建议（Web 圆环 + context_audit） |
 | [cross-harness-cite](https://github.com/dsh-external/cross-harness-cite) | 跨 Harness 引用 codex / claude code 的历史对话 |
 | [deepseek-manners](https://github.com/dsh-external/deepseek-manners) | 给每次消息后注入感谢语（deepseek-manners） |
 | [distill](https://github.com/dsh-external/distill) | 自动对话蒸馏：后台 subagent 反省 + 技能 create/update |
