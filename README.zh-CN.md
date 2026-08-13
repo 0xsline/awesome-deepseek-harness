@@ -150,6 +150,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [turtle-ui](https://github.com/dsh-external/turtle-ui) - 官方 UI 插件参考实现
 - [dsh-pi-tui](https://github.com/lqhl/dsh-pi-tui) - 基于 pi-tui 的 DeepSeek Harness 终端前端：流式 Markdown、thinking 折叠、工具卡片、slash 命令、审批/提问交互与 Web 会话共享
 - [deepseek-harness-desktop](https://github.com/chyra-moon/deepseek-harness-desktop) - Windows 原生桌面外壳:一比一加载官方 Web UI,内置服务器托管、托盘驻留与掉线自动恢复
+- [dsh-milestone](https://github.com/SnowCrescenter-tech/dsh-milestone) - 右侧圆点时间轴导航栏，快速跳转到任意用户消息。
 
 ## Browser & Remote
 
@@ -185,6 +186,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-spur](https://github.com/dsh-external/dsh-spur) - 任务引擎
 - [dsh-involute](https://github.com/dsh-external/dsh-involute) - 内嵌任务管理引擎
 - [dsh-review-loop](https://github.com/wuxiangru915/dsh-review-loop) - 增量代码审查插件：checkpoint 增量队列 + Web 审查面板 + /review 命令，审查意见注入 agent
+- [dsh-test-runner](https://github.com/suimi8/dsh-test-runner) - 结构化测试运行工具（test_run）：自动识别 Vitest/Jest/pytest/node:test，运行测试并为模型解析失败摘要。
 
 ## Notifications & Channels
 
@@ -206,7 +208,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 ## Fun & Lifestyle
 
 - [dsh-ui-whale](https://github.com/dsh-external/dsh-ui-whale) - 像素鲸鱼伙伴（眨眼/摆尾/喷水/爱心）
-- [dsh-pet](https://github.com/dsh-external/dsh-pet) - 桌面小鲸鱼，实时感知会话状态
+- [dsh-pet](https://github.com/FlytoMAYDAY80/dsh-pet) - 桌面小鲸鱼，实时感知会话状态
 - [dsh-pet-rs](https://github.com/dsh-external/dsh-pet-rs) - 桌宠 Rust 版
 - [dsh-stickers](https://github.com/dsh-external/dsh-stickers) - 贴纸
 - [dsh-ads](https://github.com/dsh-external/dsh-ads) - 2005 中文站风格广告层（整活）
@@ -228,6 +230,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-github-integration](https://github.com/dsh-external/dsh-github-integration) - GitHub 集成插件
 - [dsh-super-injector](https://github.com/dsh-external/dsh-super-injector) - super-injector 插件（cordis）
 - [dsh-mcp-manager](https://github.com/hyqhyq3/dsh-mcp-manager) - MCP 服务器管理器：设置页添加服务器，OAuth（PKCE + 动态客户端注册）或静态 token 认证，工具注册为 mcp__<name>__*
+- [dsh-doctor](https://github.com/asdf17128/dsh-doctor) - Profile 体检：检出 patch 整体替换 config 而丢失的字段、指向不存在 entry id 的 patch，以及工具重名冲突。
 
 ## Related
 

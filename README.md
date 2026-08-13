@@ -152,6 +152,7 @@ Management panel: Settings → Plugins.
 - [show-bash-command](https://github.com/dsh-external/show-bash-command) - Show actual command content instead of descriptions.
 - [turtle-ui](https://github.com/dsh-external/turtle-ui) - Official UI plugin reference implementation.
 - [deepseek-harness-desktop](https://github.com/chyra-moon/deepseek-harness-desktop) - Native Windows desktop shell: 1:1 official web UI with embedded server hosting, tray and auto-recovery.
+- [dsh-milestone](https://github.com/SnowCrescenter-tech/dsh-milestone) - Right-side dot-timeline rail to jump between user messages.
 
 ## Browser & Remote
 
@@ -187,6 +188,7 @@ Management panel: Settings → Plugins.
 - [dsh-spur](https://github.com/dsh-external/dsh-spur) - Task engine.
 - [dsh-involute](https://github.com/dsh-external/dsh-involute) - Embedded task-management engine.
 - [dsh-review-loop](https://github.com/wuxiangru915/dsh-review-loop) - Incremental diff reviewer: checkpoint-based since-review queue with a Web UI panel, /review command, and feedback injection into the agent.
+- [dsh-test-runner](https://github.com/suimi8/dsh-test-runner) - Structured test runner tool (test_run): auto-detect Vitest/Jest/pytest/node:test, run tests, parse failure summaries for the model.
 
 ## Notifications & Channels
 
@@ -208,7 +210,7 @@ Management panel: Settings → Plugins.
 ## Fun & Lifestyle
 
 - [dsh-ui-whale](https://github.com/dsh-external/dsh-ui-whale) - Pixel whale companion (blink/tail/spout/hearts).
-- [dsh-pet](https://github.com/dsh-external/dsh-pet) - Desktop whale pet with live session state.
+- [dsh-pet](https://github.com/FlytoMAYDAY80/dsh-pet) - Desktop whale pet with live session state.
 - [dsh-pet-rs](https://github.com/dsh-external/dsh-pet-rs) - Desktop pet, Rust edition.
 - [dsh-stickers](https://github.com/dsh-external/dsh-stickers) - Stickers.
 - [dsh-ads](https://github.com/dsh-external/dsh-ads) - 2005 Chinese-web-style ad layer (joke plugin).
@@ -230,6 +232,7 @@ Management panel: Settings → Plugins.
 - [dsh-github-integration](https://github.com/dsh-external/dsh-github-integration) - GitHub integration plugin.
 - [dsh-super-injector](https://github.com/dsh-external/dsh-super-injector) - Super-injector (cordis).
 - [dsh-mcp-manager](https://github.com/hyqhyq3/dsh-mcp-manager) - MCP server manager: Settings page with OAuth (PKCE + dynamic client registration) or static-token auth; tools registered as mcp__<name>__*.
+- [dsh-doctor](https://github.com/asdf17128/dsh-doctor) - Profile health check: finds config fields a patch dropped by whole-config replacement, patches targeting missing entry ids, and tool-name collisions.
 
 ## Related
 
