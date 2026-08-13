@@ -179,6 +179,7 @@ Management panel: Settings → Plugins.
 - [dsh-git-identity](https://github.com/dsh-external/dsh-git-identity) - Pin Git commit authorship to the environment identity (gh account + noreply email).
 - [dsh-gh-bridge](https://github.com/dsh-external/dsh-gh-bridge) - Bridge macOS Keychain GitHub token into sandboxed gh.
 - [dsh-auto-blame](https://github.com/dsh-external/dsh-auto-blame) - Auto blame.
+- [dsh-tool-git](https://github.com/lxj808624/dsh-tool-git) - Structured git tools (status/diff/log/branch/stage/commit/stash/show) with a destructive-command guard.
 - [dsh-plugin-check](https://github.com/dsh-external/dsh-plugin-check) - Plugin health checks (manifest/patch format/build pitfalls/hub status).
 - [dsh-inspect](https://github.com/dsh-external/dsh-inspect) - Adversarial checkup → fix → review loop.
 - [dsh-alphasolve](https://github.com/dsh-external/dsh-alphasolve) - AlphaSolve workflow.
