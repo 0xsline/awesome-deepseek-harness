@@ -186,6 +186,7 @@ Management panel: Settings → Plugins.
 - [mstar-workflow](https://github.com/dsh-external/mstar-workflow) - Workflow engine.
 - [dsh-spur](https://github.com/dsh-external/dsh-spur) - Task engine.
 - [dsh-involute](https://github.com/dsh-external/dsh-involute) - Embedded task-management engine.
+- [dsh-test-runner](https://github.com/suimi8/dsh-test-runner) - Structured test runner tool (test_run): auto-detect vitest/jest/pytest/node:test, run tests, parse failure summaries for the model.
 
 ## Notifications & Channels
 
@@ -241,3 +242,4 @@ Please have a look at [contributing.md](contributing.md). Entry standard: reposi
 ## Thanks
 
 Thanks to the [Linux Do community](https://linux.do/) for the support and exchange.
+
