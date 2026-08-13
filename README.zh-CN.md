@@ -177,6 +177,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-git-identity](https://github.com/dsh-external/dsh-git-identity) - Git 提交固定环境作者身份（gh 登录账号 + noreply 邮箱）
 - [dsh-gh-bridge](https://github.com/dsh-external/dsh-gh-bridge) - macOS Keychain GitHub token 桥入 sandbox gh
 - [dsh-auto-blame](https://github.com/dsh-external/dsh-auto-blame) - 自动 blame
+- [dsh-tool-git](https://github.com/lxj808624/dsh-tool-git) - 结构化 Git 工具（status/diff/log/branch/stage/commit/stash/show）+ 破坏性命令安全护栏
 - [dsh-plugin-check](https://github.com/dsh-external/dsh-plugin-check) - 插件健康检查（清单/patch 格式/构建陷阱/hub 收录）
 - [dsh-inspect](https://github.com/dsh-external/dsh-inspect) - checkup → fix → review 对抗式闭环
 - [dsh-alphasolve](https://github.com/dsh-external/dsh-alphasolve) - AlphaSolve 工作流
