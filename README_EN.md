@@ -4,8 +4,6 @@
   </p>
 </div>
 
-<h1 align="center">Awesome DeepSeek Harness</h1>
-
 <p align="center">
   <a href="README.md">简体中文</a> · English · <a href="README_JA.md">日本語</a>
 </p>
