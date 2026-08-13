@@ -21,7 +21,12 @@ def fetch_topic_repos(token=None):
         repos.extend(items)
         if not items or len(repos) >= data.get("total_count", len(repos)):
             break
-    return repos
+    unique = {}
+    for repo in repos:
+        key = (repo.get("html_url") or repo.get("full_name") or "").rstrip("/").lower()
+        if key:
+            unique[key] = repo
+    return list(unique.values())
 
 # Public-facing catalog: drop internal program repos, rewrite notes referencing the test phase.
 DROP_REPOS = {"group-chat-diary", "onboarding", "review-panel", "dsh-club"}
