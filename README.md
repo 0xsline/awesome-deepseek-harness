@@ -24,7 +24,7 @@
 <br>
 
 <p align="center">
-	<b>Curated list of plugins, tools &amp; ecosystem for DeepSeek Harness.</b><br>
+	<b>Curated DeepSeek Harness (DSH) ecosystem: plugins, tools &amp; infrastructure. Sources: dsh-external/hub catalog and the public GitHub dsh-plugin topic.</b><br>
 </p>
 
 <br>

@@ -23,7 +23,7 @@
 <br>
 
 <p align="center">
-	<b>DeepSeek Harness 生态精选：插件、工具与基建。</b><br>
+	<b>DeepSeek Harness (DSH) 生态精选：插件、工具与基建（数据源：dsh-external/hub catalog + GitHub 公开 dsh-plugin Topic）。</b><br>
 </p>
 
 <br>
