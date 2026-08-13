@@ -49,11 +49,23 @@
 
 ## Install
 
-- Bundle plugin (one-line Git source): `dsh plugin --profile web add "github:dsh-external/<repo>#main"`
-- Sub-path form: `dsh plugin --profile web add "github:dsh-external/plugin-registry#main&path:/packages/plugin/console"`
-- Repository plugin: Settings → Plugins → add `github:owner/repo#ref` to repository plugin sources (takes effect immediately).
+Install the official runtime with Node.js:
 
-Restart `dsh web` after installing a bundle plugin. Management panel: Settings → Plugins.
+```sh
+npx @deepseek-ai/dsh web
+```
+
+Install an external profile bundle with pnpm on your `PATH`:
+
+```sh
+dsh plugin --profile web add "github:owner/repo#ref"
+```
+
+`dsh plugin` forwards package operations to pnpm, so npm, Git/GitHub, local path, `file:` and `link:` package specs are supported. Only packages declaring `dsh.bundle.patch` become active profile layers; plain dependencies remain installed but inactive. Restart `dsh --profile web` after installing or updating a bundle.
+
+The former `&path:` sub-path and Repository Plugin installation forms are not part of the current official bundle flow; use an installable package that declares `dsh.bundle.patch`.
+
+Management panel: Settings → Plugins.
 
 ## Recently Added
 
