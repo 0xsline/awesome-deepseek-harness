@@ -207,7 +207,7 @@ Management panel: Settings → Plugins.
 ## Fun & Lifestyle
 
 - [dsh-ui-whale](https://github.com/dsh-external/dsh-ui-whale) - Pixel whale companion (blink/tail/spout/hearts).
-- [dsh-pet](https://github.com/dsh-external/dsh-pet) - Desktop whale pet with live session state.
+- [dsh-pet](https://github.com/FlytoMAYDAY80/dsh-pet) - Desktop whale pet with live session state.
 - [dsh-pet-rs](https://github.com/dsh-external/dsh-pet-rs) - Desktop pet, Rust edition.
 - [dsh-stickers](https://github.com/dsh-external/dsh-stickers) - Stickers.
 - [dsh-ads](https://github.com/dsh-external/dsh-ads) - 2005 Chinese-web-style ad layer (joke plugin).

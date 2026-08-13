@@ -205,7 +205,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 ## Fun & Lifestyle
 
 - [dsh-ui-whale](https://github.com/dsh-external/dsh-ui-whale) - 像素鲸鱼伙伴（眨眼/摆尾/喷水/爱心）
-- [dsh-pet](https://github.com/dsh-external/dsh-pet) - 桌面小鲸鱼，实时感知会话状态
+- [dsh-pet](https://github.com/FlytoMAYDAY80/dsh-pet) - 桌面小鲸鱼，实时感知会话状态
 - [dsh-pet-rs](https://github.com/dsh-external/dsh-pet-rs) - 桌宠 Rust 版
 - [dsh-stickers](https://github.com/dsh-external/dsh-stickers) - 贴纸
 - [dsh-ads](https://github.com/dsh-external/dsh-ads) - 2005 中文站风格广告层（整活）
