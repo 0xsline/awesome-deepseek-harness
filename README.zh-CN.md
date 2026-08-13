@@ -149,6 +149,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-chat-thumb](https://github.com/dsh-external/dsh-chat-thumb) - Chat 缩略图（cordis）
 - [show-bash-command](https://github.com/dsh-external/show-bash-command) - 显示命令具体内容而非描述
 - [turtle-ui](https://github.com/dsh-external/turtle-ui) - 官方 UI 插件参考实现
+- [dsh-pi-tui](https://github.com/lqhl/dsh-pi-tui) - 基于 pi-tui 的 DeepSeek Harness 终端前端：流式 Markdown、thinking 折叠、工具卡片、slash 命令、审批/提问交互与 Web 会话共享
 
 ## Browser & Remote
 
