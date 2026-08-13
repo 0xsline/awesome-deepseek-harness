@@ -185,6 +185,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [mstar-workflow](https://github.com/dsh-external/mstar-workflow) - 工作流引擎
 - [dsh-spur](https://github.com/dsh-external/dsh-spur) - 任务引擎
 - [dsh-involute](https://github.com/dsh-external/dsh-involute) - 内嵌任务管理引擎
+- [dsh-review-loop](https://github.com/wuxiangru915/dsh-review-loop) - 增量代码审查插件：checkpoint 增量队列 + Web 审查面板 + /review 命令，审查意见注入 agent
 - [dsh-test-runner](https://github.com/suimi8/dsh-test-runner) - 结构化测试运行工具（test_run）：自动识别 Vitest/Jest/pytest/node:test，运行测试并为模型解析失败摘要。
 
 ## Notifications & Channels
