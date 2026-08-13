@@ -135,6 +135,7 @@ Management panel: Settings → Plugins.
 
 ## UI & Experience
 
+- [dsh-balance-meter](https://github.com/Ghost011118/dsh-balance-meter) - DeepSeek account balance and session cost in the DSH Web composer dock (auto-fetched official pricing, peak/off-peak support).
 - [dsh-live-stats](https://github.com/dsh-external/dsh-live-stats) - Live token estimates and generation TPS.
 - [dsh-tps](https://github.com/dsh-external/dsh-tps) - TPS meter.
 - [dsh-cc-tui](https://github.com/dsh-external/dsh-cc-tui) - Claude Code-style fullscreen TUI (streaming expand / double-Esc rollback).
