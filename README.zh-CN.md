@@ -56,7 +56,7 @@
 
 ## Recently Added
 
-- [context-doctor](https://github.com/dsh-external/context-doctor) - DSH 上下文注入审计：统计 AGENTS.md 指令链。
+- [context-doctor](https://github.com/Zhenyu98/context-doctor) - DSH 上下文注入审计：统计 AGENTS.md 指令链。
 - [dsh-agent-rp](https://github.com/dsh-external/dsh-agent-rp) - SillyTavern 迁移与下一代 DSH Agent RP。
 - [dsh-aigc-canvas](https://github.com/dsh-external/dsh-aigc-canvas) - AIGC 画布插件（cordis）。
 - [dsh-better-sidebar-plugin-office](https://github.com/dsh-external/dsh-better-sidebar-plugin-office) - better-sidebar 的 Office 集成。
