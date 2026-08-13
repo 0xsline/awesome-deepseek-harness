@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">滑动变祖器</title>
+  <desc id="desc">从小难梁到梁祖的梁系强度校准器预览卡片，点击进入完整交互版。</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="0.55" stop-color="#172554"/>
+      <stop offset="1" stop-color="#312e81"/>
+    </linearGradient>
+    <linearGradient id="track" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#67e8f9"/>
+      <stop offset="0.5" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#f0abfc"/>
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#020617" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <rect x="4" y="4" width="1192" height="352" rx="32" fill="url(#background)" stroke="#6366f1" stroke-opacity="0.5" stroke-width="8"/>
+  <circle cx="1088" cy="58" r="88" fill="#a855f7" opacity="0.12"/>
+  <circle cx="1127" cy="300" r="120" fill="#22d3ee" opacity="0.08"/>
+
+  <text x="64" y="84" fill="#c7d2fe" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="700" letter-spacing="3">AWESOME DEEPSEEK HARNESS · 彩蛋</text>
+  <text x="64" y="145" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="54" font-weight="800">滑动变祖器</text>
+  <text x="64" y="184" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="23">梁系强度校准器 · 从「小难梁」一路进化到「梁祖」</text>
+
+  <rect x="84" y="244" width="878" height="16" rx="8" fill="#334155"/>
+  <rect x="84" y="244" width="878" height="16" rx="8" fill="url(#track)"/>
+
+  <g fill="#94a3b8">
+    <rect x="84" y="232" width="3" height="40" rx="1.5"/>
+    <rect x="230" y="236" width="2" height="32" rx="1"/>
+    <rect x="376" y="236" width="2" height="32" rx="1"/>
+    <rect x="523" y="236" width="2" height="32" rx="1"/>
+    <rect x="669" y="236" width="2" height="32" rx="1"/>
+    <rect x="815" y="236" width="2" height="32" rx="1"/>
+    <rect x="959" y="232" width="3" height="40" rx="1.5"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <circle cx="742" cy="252" r="34" fill="#ffffff"/>
+    <circle cx="742" cy="252" r="23" fill="#818cf8"/>
+    <circle cx="734" cy="244" r="6" fill="#ffffff" opacity="0.8"/>
+  </g>
+
+  <text x="84" y="308" fill="#a5f3fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="21" font-weight="700">小难梁</text>
+  <text x="962" y="308" fill="#f5d0fe" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="21" font-weight="700">梁祖</text>
+
+  <rect x="1002" y="208" width="142" height="88" rx="22" fill="#ffffff" opacity="0.96"/>
+  <text x="1073" y="242" fill="#312e81" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="800">点击进入</text>
+  <text x="1073" y="269" fill="#4f46e5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="800">交互版 ↗</text>
+</svg>
