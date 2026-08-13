@@ -30,6 +30,9 @@ NOTE_REWRITES = {
     "dsh-sfw": "防社死 WIP：遮挡敏感界面内容",
     "dsh-desktop-tools": "DSH 桌面工具集：一键启动、自动升级、开机自启、PWA 可安装补丁",
 }
+URL_REWRITES = {
+    "context-doctor": "https://github.com/Zhenyu98/context-doctor",
+}
 
 # Generic guard: drop any entry whose note references the test phase.
 # \u5185\u6d4b is the escaped form of the blocked wording (kept out of source text).
@@ -50,6 +53,9 @@ def note_for(r):
         return NOTE_REWRITES[name]
     return (r.get("note") or r.get("description") or "").strip()
 
+def url_for(r):
+    return URL_REWRITES.get(r.get("name"), r.get("url", "#"))
+
 
 def main():
     token = None
@@ -69,7 +75,7 @@ def main():
     repos = cat.get("repos", [])
     listed = sum(1 for r in repos if is_public(r))
     hub_urls = {
-        (r.get("url") or "").rstrip("/").lower()
+        url_for(r).rstrip("/").lower()
         for r in repos
         if r.get("url")
     }
@@ -104,7 +110,7 @@ def main():
         for r in sorted(items, key=lambda x: x.get("name", "")):
             name = r.get("name", "?")
             desc = note_for(r).replace("|", "\\|")
-            out.append(f"| [{name}]({r.get('url', '#')}) | {desc} |")
+            out.append(f"| [{name}]({url_for(r)}) | {desc} |")
         out.append("")
 
     uncat = by_cat.get("_uncategorized", [])
@@ -115,7 +121,7 @@ def main():
         out.append("|---|---|")
         for r in sorted(uncat, key=lambda x: x.get("name", "")):
             desc = note_for(r).replace("|", "\\|")
-            out.append(f"| [{r.get('name','?')}]({r.get('url','#')}) | {desc} |")
+            out.append(f"| [{r.get('name','?')}]({url_for(r)}) | {desc} |")
         out.append("")
 
     # 插件集（collections）
