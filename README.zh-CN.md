@@ -175,6 +175,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-mnemon](https://github.com/dsh-external/dsh-mnemon) - 助记层
 - [dsh-slice-agent-loop](https://github.com/dsh-external/dsh-slice-agent-loop) - Drop-in agent loop：有界 slice 上下文引擎（cordis）
 - [savemoneybenchmark](https://github.com/dsh-external/savemoneybenchmark) - 降本增效 benchmark（examples + skills）
+- [dsh-harness-mcp-server](https://github.com/chushixixin/dsh-harness-mcp-server) - MCP server 暴露 Harness agent：任意 MCP 客户端（如 Hermes）驱动 Harness 当「胳膊」。
 
 ## Git & Engineering
 
