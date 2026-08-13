@@ -129,6 +129,7 @@ Management panel: Settings → Plugins.
 - [dsh-input-history](https://github.com/dsh-external/dsh-input-history) - Input history.
 - [dsh-multimedia-webui-input](https://github.com/dsh-external/dsh-multimedia-webui-input) - Multimedia file/folder input.
 - [dsh-office](https://github.com/dsh-external/dsh-office) - Office file read/write bundle: model edits Office files, docx/pdf preview in web client.
+- [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) - Import Claude Code JSONL transcripts (tool history + thinking blocks) as resumable DeepSeek Harness sessions.
 
 ## UI & Experience
 
