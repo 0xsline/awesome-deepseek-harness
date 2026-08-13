@@ -57,7 +57,7 @@ Restart `dsh web` after installing a bundle plugin. Management panel: Settings â
 
 ## Recently Added
 
-- [context-doctor](https://github.com/dsh-external/context-doctor) - Audit the AGENTS.md instruction chain injected into DSH context.
+- [context-doctor](https://github.com/Zhenyu98/context-doctor) - Audit the AGENTS.md instruction chain injected into DSH context.
 - [dsh-agent-rp](https://github.com/dsh-external/dsh-agent-rp) - SillyTavern migration and next-generation agent roleplay for DSH.
 - [dsh-aigc-canvas](https://github.com/dsh-external/dsh-aigc-canvas) - AIGC canvas plugin (cordis).
 - [dsh-better-sidebar-plugin-office](https://github.com/dsh-external/dsh-better-sidebar-plugin-office) - Office integration for DSH-better-sidebar.
