@@ -1,0 +1,35 @@
+name: sync-catalog
+
+on:
+  schedule:
+    # 每天 03:00 UTC（北京时间 11:00）
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch hub catalog and generate CATALOG.md
+        env:
+          HUB_TOKEN: ${{ secrets.HUB_TOKEN }}
+        run: |
+          python3 scripts/generate-catalog.py "$HUB_TOKEN"
+
+      - name: Commit if changed
+        run: |
+          git config user.name "awesome-dsh-sync[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet CATALOG.md; then
+            echo "no changes"
+          else
+            git add CATALOG.md
+            git commit -m "chore: 自动同步 hub catalog（$(date -u +%Y-%m-%d)）"
+            git push
+          fi
