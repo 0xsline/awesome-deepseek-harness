@@ -7,6 +7,10 @@
 <h1 align="center">Awesome DeepSeek Harness</h1>
 
 <p align="center">
+  简体中文 · <a href="README_EN.md">English</a> · <a href="README_JA.md">日本語</a>
+</p>
+
+<p align="center">
   DeepSeek Harness 终极指南：资料、教程、插件与工具<br>
 </p>
 
@@ -46,6 +50,7 @@
   - [上下文、会话与输入](#上下文会话与输入)
   - [浏览器、视觉与界面](#浏览器视觉与界面)
   - [主题与皮肤](#主题与皮肤)
+- [外部集成](#外部集成)
 - [开发工具](#开发工具)
 - [致谢](#致谢)
 
@@ -55,7 +60,7 @@
 
 ### 启动 Web UI
 
-安装 [Node.js](https://nodejs.org/) 后执行：
+安装 [Node.js](https://nodejs.org/) 22.19.x 或 24+（推荐 24+）后执行：
 
 ```bash
 npx @deepseek-ai/dsh web
@@ -96,16 +101,16 @@ dsh --profile web --dump-config
 
 ## 官方资源
 
-官方提供了开源仓库及对应论文，以及相当详细的参考文档，并在积极运营开发者社区。
+官方提供开源仓库、配套论文和较完整的参考文档，并持续运营开发者社区。
 
 ### 安装集成
 
-- [@deepseek-ai/dsh](https://www.npmjs.com/package/@deepseek-ai/dsh)：官方 CLI 与 Web UI 的 NPM 启动包
+- [@deepseek-ai/dsh](https://www.npmjs.com/package/@deepseek-ai/dsh)：官方 CLI 与 Web UI 的 npm 启动包
 - [deepseek-harness-sdk](https://pypi.org/project/deepseek-harness-sdk/)：用于程序化集成 DSH 的官方 Python SDK
 
 ### 源码仓库
 
-- [Github](https://github.com/deepseek-ai/deepseek-harness)：查看源码、Issue、版本与贡献者
+- [GitHub](https://github.com/deepseek-ai/deepseek-harness)：查看源码、Issue、版本与贡献者
 - [Paper](https://github.com/cordiverse/paper)：基于 Cordis 的产品架构详解论文
 
 ### 官方文档
@@ -116,7 +121,7 @@ dsh --profile web --dump-config
 ### 讨论社区
 
 - [GitHub Discussions](https://github.com/deepseek-ai/deepseek-harness/discussions)：问题反馈、使用交流和提案讨论
-- [# dsh-plugin](https://github.com/topics/dsh-plugin)：Github 上的 DSH 插件项目集合
+- [# dsh-plugin](https://github.com/topics/dsh-plugin)：GitHub 上的 DSH 插件项目集合
 - [Discord DeepSeek](https://discord.gg/Ycq5dCaS4)：官方 Discord 社区，以中文讨论为主
 - ["DeepSeek Harness"](https://x.com/search?q=%22DeepSeek%20Harness%22%20OR%20dsh-plugin&src=typed_query&f=live)：X 上有关 DSH 的实时搜索结果
 
@@ -139,7 +144,6 @@ dsh --profile web --dump-config
   </tbody>
 </table>
 
-
 ## 社区资源
 
 ### 分析教程
@@ -159,15 +163,14 @@ dsh --profile web --dump-config
 | [《DeepSeek Harness 内测技术拆解：架构、生态、任务引擎与运维机制》](https://mp.weixin.qq.com/s?src=11&timestamp=1786636586&ver=6902&signature=5qBFaqg8tUoHqeaARYXZXqQR7TIhm6-A8hTn1l89K7fBYg75lM9%2AgkvFwRsFlpuNZxkOLFMp3Pz5RC0FXAVb5kSFba2A1f6OHfmA3Eb08bNBQi330OvXQaffRB2FKNI%2A&new=1)                     | cookbook之杂七杂八 | 作者自述连续跟踪十余天内测快照，并开发配套工具；覆盖 Cordis 事件、Session Log、Surface、上下文压缩、持久化与运维机制。相关项目：[fakechris/dsh-track](https://github.com/fakechris/dsh-track)                                                     |
 | [《DeepSeek Harness，可能是最能满足你想象力的 Agent Harness》](https://mp.weixin.qq.com/s?src=11&timestamp=1786636558&ver=6902&signature=ea1xi1hCFVZn4aDcUyC1SuFiyIr7xADTcQK%2AM1YmlXj2ffHZ6-ensj06csdXXayjppWFX00kyH8C7vTtl9EOEyfXLnWFmffmcqMmFAfdi8NApznAvYLtb11iP8%2AHjpgE&new=1)                          | GTOC               | 作者自述参与内测并移植 Humanize；讨论 Web UI 相比 TUI 的生态价值、Plugin 与 Skill 的区别、Trajectory 时间轴和产品化玩法。相关项目：[zevorn/dsh-humanize](https://github.com/zevorn/dsh-humanize)                                                  |
 | [《参与 dsh 内测有感》](https://mp.weixin.qq.com/s?src=11&timestamp=1786637135&ver=6902&signature=f2kUSJauxSlkVXP-gNNPIRTnOpnLFlErLe4br99jXqa5DQMhCDnbDWewbtAMfQ6VIMH0W6Ac95tZ4VyWhtAVyNZawkPrsAw5igtwqPl5lNxNl8Mhd9tbuMK3IW%2AAvojR&new=1)                                                                   | 减AI               | 作者明确自述入选内测，并公开了 [dsh-ads](https://github.com/Nagi-ovo/dsh-ads)、[dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) 和 [dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins)；适合观察插件作者如何理解早期生态。 |
-
-
 ### 社区讨论
 
-收录包含完整论述、实践细节或一手背景的公开社交媒体长帖，了解更多发展历程中的细节。
+收录包含完整论述、实践细节或一手背景的公开社交媒体长帖，补充官方资料未覆盖的背景与实践细节。
 
-| 长帖                                                                            | 作者与背景                                                                              | 内容摘要                                                                                                                                                  |
-| ------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [从早期参与者视角理解 DSH](https://x.com/jiayuan_jy/status/2087911060154314963) | [Jiayuan (JY) Zhang](https://x.com/jiayuan_jy) · 2026-08-13；作者自述提前一个月进入仓库 | 将 DSH 同时理解为可运行的 Coding Agent 和 Agent 开发框架；用“乐高汽车”解释一切皆插件，并讨论 Runtime 自扩展、自进化软件雏形、当前成熟度和函数式编程特征。 |
+| 长帖                                                                                                                                                                    | 作者与背景                                                                              | 内容摘要                                                                                                                                                  |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [从早期参与者视角理解 DSH](https://x.com/jiayuan_jy/status/2087911060154314963)                                                                                         | [Jiayuan (JY) Zhang](https://x.com/jiayuan_jy) · 2026-08-13；作者自述提前一个月进入仓库 | 将 DSH 同时理解为可运行的 Coding Agent 和 Agent 开发框架；用“乐高汽车”解释一切皆插件，并讨论 Runtime 自扩展、自进化软件雏形、当前成熟度和函数式编程特征。 |
+| [从 Agent Runtime / Agent OS 视角理解 DSH](https://x.com/anion_ex/status/2087910193783025853)                                                                           | [Anionex](https://x.com/anion_ex) · 2026-08-13；内测参与者与插件作者                    | 从模型、工具、策略、存储、上下文、界面和 Loop 的可组合性解释 DSH，并讨论 Agent 对运行时的有限观察与自扩展。                                               |
 
 ## 第三方客户端
 
@@ -186,14 +189,16 @@ dsh --profile web --dump-config
 
 ### 终端、移动与 Web 体验
 
-| 项目                                                            | 类型            | 说明                                                          |
-| --------------------------------------------------------------- | --------------- | ------------------------------------------------------------- |
-| [dsh-cc-tui](https://github.com/ccch1mneyyy/dsh-cc-tui)         | TUI Bundle      | Claude Code 风格全屏终端、流式状态、上下文仪表与会话回退      |
-| [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | TUI Bundle      | 基于天枢演进的完整终端交互层，状态来自 DSH 会话事件流         |
-| [Orbis](https://github.com/icodesign/orbis)                     | 移动远控 · Beta | 通过 DSH 插件完成设备配对、端到端加密传输和多设备实时更新     |
-| [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui)       | Web UI 集合     | 汇总任务看板、Git Graph、移动界面、皮肤、宠物和运行统计等组件 |
+| 项目                                                            | 类型              | 说明                                                                                              |
+| --------------------------------------------------------------- | ----------------- | ------------------------------------------------------------------------------------------------- |
+| [dsh-cc-tui](https://github.com/ccch1mneyyy/dsh-cc-tui)         | TUI Bundle        | Claude Code 风格全屏终端、流式状态、上下文仪表与会话回退                                          |
+| [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | TUI Bundle        | 基于天枢演进的完整终端交互层，状态来自 DSH 会话事件流                                             |
+| [dsh-tui](https://github.com/openguardrails/dsh-tui)            | TUI Bundle · 早期 | 支持本地 DeepSeek 与离线运行；仍处于活跃开发期，移植前的测试套件尚未恢复运行                      |
+| [Orbis](https://github.com/icodesign/orbis)                     | 移动远控 · Beta   | 通过 DSH 插件完成设备配对、端到端加密传输和多设备实时更新                                         |
+| [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui)       | Web UI 集合       | 汇总任务看板、Git Graph、移动界面、皮肤、宠物和运行统计等组件                                     |
+| [dsh-web](https://github.com/Tom6814/dsh-web)                   | Docker Web · 早期 | 通过 Docker 部署完整 Web 界面、工作区和插件市场；项目处于高速开发期，需挂载数据卷持久化配置与会话 |
 
-> 产品被收录不代表已经签名、公证、自包含或适合生产环境；请查看各项目 README 和 Releases 中的当前说明。
+> 项目被收录不代表已经签名、公证、自包含或适合生产环境；请查看各项目 README 和 Releases 中的当前说明。
 
 ## 精选插件
 
@@ -205,6 +210,9 @@ dsh --profile web --dump-config
 - [dsh-auto-approval](https://github.com/Andy8647/dsh-auto-approval)：使用规则和模型分类工具调用，输出 `allow / deny` 自动审批决策。
 - [mstar-harness](https://github.com/btspoony/mstar-harness)：以 Skill 驱动的 Harness / Loop Engineering 工作流插件。
 - [dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams)：为 DSH 提供 Agent Teams 能力。
+- [dsh-automation](https://github.com/titanwings/dsh-automation)：按计划在全新根 Agent 和 Session 中执行独立任务，保留定义修订、运行历史和明确的工作区与权限边界。
+- [dsh-plannotator](https://github.com/titanwings/dsh-plannotator)：对 Agent 计划逐段批注并提交结构化反馈，提供草稿隔离、版本绑定和过期计划拒绝。
+- [dsh-record-replay](https://github.com/humblebanana/dsh-record-replay)：录制 macOS 桌面工作流并生成 Skill；当前依赖 Xcode Command Line Tools 和独立的 `open-record-replay` 本地源码副本。
 
 ### 上下文、会话与输入
 
@@ -219,6 +227,10 @@ dsh --profile web --dump-config
 
 - [dsh-browser](https://github.com/Lum1104/dsh-browser)：Chrome 侧边栏扩展，让 DSH 直接操作当前浏览器页面。
 - [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit)：图片问答、长截图 OCR、UI 还原、Grounding 和像素对比。
+- [dsh-computer-use](https://github.com/Anionex/dsh-computer-use)：原生 macOS Computer Use Bundle，优先使用 Accessibility，拒绝过期观察并按应用、Session 和操作范围管理权限；当前为早期 `0.1.0`，需从源码检出目录安装。
+- [modlens](https://github.com/liustack/modlens)：通过粘贴图片和模型路由让纯文本模型获得视觉能力，是以独立视觉工具处理工作区图片之外的另一种方案。
+- [dsh-better-browser](https://github.com/titanwings/dsh-better-browser)：通过外部 Kimi WebBridge 操作保留登录态的真实浏览器，按任务维护标签页会话；需另行安装并运行 WebBridge。
+- [dsh-web-review](https://github.com/CanglongCl/dsh-web-review)：在 DSH 内预览网页、点选元素并提交选择器、可访问名称和修改意图，附真实前端修改评测套件；当前仓库尚未声明许可证。
 - [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar)：集成文件、终端、Git、子 Agent 和第三方 Tab 的侧边栏工作台。
 - [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil)：在 DSH 中预览和编辑 OpenPencil 设计。
 - [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize)：在对话流中生成沙箱化的可交互 HTML 卡片。
@@ -229,9 +241,16 @@ dsh --profile web --dump-config
 
 - [dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale)：DSH Web GUI 的鲸鱼娘主题皮肤集合；当前包含可热插拔的 `maid-atelier` Web Client Bundle，可通过 `dsh plugin --profile web add ...` 安装和卸载。项目采用 **CC BY-NC-SA 4.0**，禁止商业性使用。
 
+## 外部集成
+
+- [Nowledge Mem](https://mem.nowledge.co/integrations/deepseek-harness)：为 DSH 提供 Working Memory、提示时检索、MCP 工具和会话捕获；依赖外部 Nowledge Mem 产品与 `nmem` CLI，适合与开源插件分开评估。
+- [dsh-multica-runtime](https://github.com/forrestchang/dsh-multica-runtime)：连接 Multica 与 DSH 的早期运行时桥接；当前包标记为 `private`、`UNLICENSED`，安装与分发边界仍不完整。
+
 ## 开发工具
 
 - [dsh-plugin-check](https://github.com/omdsh-dev/dsh-plugin-check)：检查 Manifest、Patch、构建陷阱和目录收录状态。
+- [dsh-suite](https://whyihaveyou.github.io/dsh-suite/zh.html)：中英双语 DSH 生态索引，提供插件搜索、`create-dsh-plugin` 脚手架和基础兼容性元数据；当前处于早期阶段，兼容性检查主要为静态依赖比对，安装与配置组装验证尚未完成。
+- [deepseek-harness-plugin-mcp](https://github.com/bobleer/deepseek-harness-plugin-mcp)：让其他 Agent 通过 MCP 发现、检查、安装和调用 DSH 插件；安装与运行默认关闭，只有显式启用 `--allow-install` / `--allow-runtime` 才会产生对应副作用。
 - [dsh-payload-capture](https://github.com/Moeblack/dsh-payload-capture)：捕获并落盘上行模型 API Payload，便于调试请求组装。
 - [dsh-custom-tool](https://github.com/omdsh-dev/dsh-custom-tool)：通过 Monaco 编辑器创建和管理沙箱化 JavaScript 工具。
 - [dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode)：从 Web UI 直接在 VS Code 中打开当前工作区。
@@ -240,4 +259,4 @@ dsh --profile web --dump-config
 
 感谢 DeepSeek Harness 团队、Cordis 社区、首批内测开发者，以及所有公开文档、插件、客户端、实践和生态索引的贡献者。
 
-[![滑动变祖器：从小难梁一路进化到梁祖，点击进入完整交互版](assets/media/liang-intensity-calibrator-card.svg)](https://lichtspektrum.github.io/liang-intensity-calibrator/)
+[![滑动变祖器：当前状态为梁圣，点击进入完整交互版](assets/media/liang-intensity-calibrator-card-liangsheng-v2.png)](https://lichtspektrum.github.io/liang-intensity-calibrator/)
