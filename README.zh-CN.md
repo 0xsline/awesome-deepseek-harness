@@ -107,7 +107,6 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Context & Search
 
-- [billion-context-dsh](https://github.com/Tyan66666/billion-context-dsh) - DeepSeek Harness 的模型驱动上下文压缩（ACP），移植自 billion-context-pi：由模型决定何时压缩、压缩什么。
 - [dsh-session-search](https://github.com/dsh-external/dsh-session-search) - 跨 dsh/Codex/Claude Code/pi/OpenCode 会话只读搜索，无索引
 - [cross-harness-cite](https://github.com/dsh-external/cross-harness-cite) - 跨 harness 引用历史对话
 - [dsh-session-cluster](https://github.com/dsh-external/dsh-session-cluster) - 会话聚类
@@ -150,6 +149,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [show-bash-command](https://github.com/dsh-external/show-bash-command) - 显示命令具体内容而非描述
 - [turtle-ui](https://github.com/dsh-external/turtle-ui) - 官方 UI 插件参考实现
 - [dsh-pi-tui](https://github.com/lqhl/dsh-pi-tui) - 基于 pi-tui 的 DeepSeek Harness 终端前端：流式 Markdown、thinking 折叠、工具卡片、slash 命令、审批/提问交互与 Web 会话共享
+- [deepseek-harness-desktop](https://github.com/chyra-moon/deepseek-harness-desktop) - Windows 原生桌面外壳:一比一加载官方 Web UI,内置服务器托管、托盘驻留与掉线自动恢复
 
 ## Browser & Remote
 

@@ -151,6 +151,7 @@ Management panel: Settings → Plugins.
 - [dsh-chat-thumb](https://github.com/dsh-external/dsh-chat-thumb) - Chat thumbnails (cordis).
 - [show-bash-command](https://github.com/dsh-external/show-bash-command) - Show actual command content instead of descriptions.
 - [turtle-ui](https://github.com/dsh-external/turtle-ui) - Official UI plugin reference implementation.
+- [deepseek-harness-desktop](https://github.com/chyra-moon/deepseek-harness-desktop) - Native Windows desktop shell: 1:1 official web UI with embedded server hosting, tray and auto-recovery.
 
 ## Browser & Remote
 
