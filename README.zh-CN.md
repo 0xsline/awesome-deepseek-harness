@@ -148,6 +148,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-chat-thumb](https://github.com/dsh-external/dsh-chat-thumb) - Chat 缩略图（cordis）
 - [show-bash-command](https://github.com/dsh-external/show-bash-command) - 显示命令具体内容而非描述
 - [turtle-ui](https://github.com/dsh-external/turtle-ui) - 官方 UI 插件参考实现
+- [deepseek-harness-desktop](https://github.com/chyra-moon/deepseek-harness-desktop) - Windows 原生桌面外壳:一比一加载官方 Web UI,内置服务器托管、托盘驻留与掉线自动恢复
 
 ## Browser & Remote
 
