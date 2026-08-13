@@ -222,6 +222,7 @@ Management panel: Settings → Plugins.
 - [toybox](https://github.com/dsh-external/toybox) - MCP plugin collection (almanac/bug-tamer/naming master/time capsule, etc.).
 - [dsh-github-integration](https://github.com/dsh-external/dsh-github-integration) - GitHub integration plugin.
 - [dsh-super-injector](https://github.com/dsh-external/dsh-super-injector) - Super-injector (cordis).
+- [dsh-mcp-manager](https://github.com/hyqhyq3/dsh-mcp-manager) - MCP server manager: Settings page with OAuth (PKCE + dynamic client registration) or static-token auth; tools registered as mcp__<name>__*.
 
 ## Related
 
