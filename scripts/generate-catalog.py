@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate CATALOG.md from dsh-external/hub catalog.json (full index section)."""
+"""Generate CATALOG.md from hub plus GitHub's public dsh-plugin topic."""
 import json, re, sys, urllib.request, datetime
 
 def fetch(url, token=None):
@@ -8,6 +8,20 @@ def fetch(url, token=None):
         req.add_header("Authorization", f"Bearer {token}")
     with urllib.request.urlopen(req, timeout=30) as r:
         return json.load(r)
+
+def fetch_topic_repos(token=None):
+    """Fetch public repositories tagged with GitHub's dsh-plugin topic."""
+    repos = []
+    for page in range(1, 11):
+        data = fetch(
+            f"https://api.github.com/search/repositories?q=topic%3Adsh-plugin&per_page=100&page={page}",
+            token,
+        )
+        items = data.get("items", [])
+        repos.extend(items)
+        if not items or len(repos) >= data.get("total_count", len(repos)):
+            break
+    return repos
 
 # Public-facing catalog: drop internal program repos, rewrite notes referencing the test phase.
 DROP_REPOS = {"group-chat-diary", "onboarding", "review-panel", "dsh-club"}
@@ -46,6 +60,7 @@ def main():
         token = None
     try:
         cat = fetch(url, token)
+        topic_repos = fetch_topic_repos(token)
     except Exception as e:
         print(f"fetch failed: {e}", file=sys.stderr)
         return 1
@@ -53,6 +68,15 @@ def main():
     cats = cat.get("categories", {})
     repos = cat.get("repos", [])
     listed = sum(1 for r in repos if is_public(r))
+    hub_urls = {
+        (r.get("url") or "").rstrip("/").lower()
+        for r in repos
+        if r.get("url")
+    }
+    topic_missing = [
+        r for r in topic_repos
+        if (r.get("html_url") or "").rstrip("/").lower() not in hub_urls
+    ]
 
     out = ["# 完整目录（自动生成）", ""]
     out.append(f"> 由 GitHub Actions 从 [dsh-external/hub](https://github.com/dsh-external/hub) 的 `catalog.json` 自动生成 · {cat.get('generated', '')[:10]}")
@@ -115,10 +139,30 @@ def main():
                 out.append(f"| `{p.get('id','?')}` | {desc} · `{src}` |")
             out.append("")
 
+    if topic_missing:
+        out.append(f"## 🌐 公开插件 Topic（{len(topic_missing)}）")
+        out.append("")
+        out.append(
+            f"> 来自 GitHub 公开 [dsh-plugin Topic](https://github.com/topics/dsh-plugin)；"
+            f"共发现 {len(topic_repos)} 个仓库，上方 hub 目录未覆盖的公开仓库列于此处。"
+        )
+        out.append("")
+        out.append("| 仓库 | 描述 |")
+        out.append("|---|---|")
+        for r in sorted(topic_missing, key=lambda x: x.get("full_name", "").lower()):
+            name = r.get("full_name", r.get("name", "?"))
+            desc = (r.get("description") or "").strip() or "暂无描述"
+            desc = desc.replace("|", "\\|")
+            out.append(f"| [{name}]({r.get('html_url', '#')}) | {desc} |")
+        out.append("")
+
     out.append("---")
     out.append(f"*Generated {datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}*")
     open("CATALOG.md", "w").write("\n".join(out))
-    print(f"CATALOG.md written: {len(out)} lines, {listed} repos")
+    print(
+        f"CATALOG.md written: {len(out)} lines, {listed} hub repos, "
+        f"{len(topic_repos)} public topic repos ({len(topic_missing)} added)"
+    )
     return 0
 
 if __name__ == "__main__":

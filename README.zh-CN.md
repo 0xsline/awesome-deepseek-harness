@@ -16,7 +16,7 @@
 <p align="center">
 	<a href="#install">安装</a>&nbsp;&nbsp;&nbsp;
 	<a href="contributing.md">贡献指南</a>&nbsp;&nbsp;&nbsp;
-	<a href="https://github.com/dsh-external/hub">完整目录</a>&nbsp;&nbsp;&nbsp;
+	<a href="https://github.com/topics/dsh-plugin">公开插件目录</a>&nbsp;&nbsp;&nbsp;
 	<a href="https://github.com/dsh-external/issues">Issues</a>&nbsp;&nbsp;&nbsp;
 </p>
 
@@ -27,7 +27,7 @@
 </p>
 
 <br>
-> 注意：dsh-external 组织仓库已于 2026-08 转为私有，链接需要相应访问权限。
+> 注意：GitHub 的 [`dsh-plugin` Topic](https://github.com/topics/dsh-plugin) 是公开的；部分 `dsh-external` 仓库链接仍可能需要组织访问权限。
 
 ## Contents
 

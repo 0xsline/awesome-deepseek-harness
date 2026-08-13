@@ -16,7 +16,7 @@
 <p align="center">
 	<a href="#install">Install</a>&nbsp;&nbsp;&nbsp;
 	<a href="contributing.md">Contribution guide</a>&nbsp;&nbsp;&nbsp;
-	<a href="https://github.com/dsh-external/hub">Full catalog</a>&nbsp;&nbsp;&nbsp;
+	<a href="https://github.com/topics/dsh-plugin">Public plugin topic</a>&nbsp;&nbsp;&nbsp;
 	<a href="https://github.com/dsh-external/issues">Issues</a>&nbsp;&nbsp;&nbsp;
 	<a href="CATALOG.md">完整目录</a>&nbsp;&nbsp;&nbsp;
 </p>
@@ -28,7 +28,7 @@
 </p>
 
 <br>
-> Note: the `dsh-external` org went private in Aug 2026 — repository links require access to that org.
+> Note: the GitHub [`dsh-plugin` topic](https://github.com/topics/dsh-plugin) is public; some `dsh-external` repository links may still require org access.
 
 ## Contents
 

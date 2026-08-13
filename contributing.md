@@ -2,6 +2,8 @@
 
 Thanks for considering a contribution! This list is a **hand-curated selection** — the full index lives in [dsh-external/hub](https://github.com/dsh-external/hub) (`catalog.json`, CI-generated).
 
+For public discovery, also check GitHub's [`dsh-plugin` topic](https://github.com/topics/dsh-plugin). `CATALOG.md` includes topic repositories that are not already present in the hub catalog.
+
 ## Entry standard
 
 Every entry must be:
