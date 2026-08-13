@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
 	<a href="README.md">English</a>&nbsp;&nbsp;|&nbsp;&nbsp;
 	<a href="README.zh-CN.md">简体中文</a>
 </p>
@@ -152,6 +152,7 @@ Management panel: Settings → Plugins.
 - [show-bash-command](https://github.com/dsh-external/show-bash-command) - Show actual command content instead of descriptions.
 - [turtle-ui](https://github.com/dsh-external/turtle-ui) - Official UI plugin reference implementation.
 - [deepseek-harness-desktop](https://github.com/chyra-moon/deepseek-harness-desktop) - Native Windows desktop shell: 1:1 official web UI with embedded server hosting, tray and auto-recovery.
+- [dsh-milestone](https://github.com/SnowCrescenter-tech/dsh-milestone) - Right-side dot-timeline rail to jump between user messages.
 
 ## Browser & Remote
 
