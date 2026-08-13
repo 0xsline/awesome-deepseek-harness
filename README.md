@@ -132,6 +132,7 @@ Management panel: Settings → Plugins.
 - [dsh-multimedia-webui-input](https://github.com/dsh-external/dsh-multimedia-webui-input) - Multimedia file/folder input.
 - [dsh-office](https://github.com/dsh-external/dsh-office) - Office file read/write bundle: model edits Office files, docx/pdf preview in web client.
 - [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) - Import Claude Code JSONL transcripts (tool history + thinking blocks) as resumable DeepSeek Harness sessions.
+- [dsh-sticky-note](https://github.com/Meredith2328/dsh-sticky-note) - Quick sticky notes in the composer: ideas/feelings/TODO with Markdown preview, auto-save, one-click send to chat.
 
 ## UI & Experience
 
