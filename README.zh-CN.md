@@ -44,6 +44,7 @@
 - [Fun & Lifestyle](#fun--lifestyle)
 - [Infrastructure & Development](#infrastructure--development)
 - [Related](#related)
+- [Thanks](#thanks)
 
 ## Install
 
@@ -213,3 +214,7 @@
 ## Contributing
 
 Please have a look at [contributing.md](contributing.md). 条目标准：仓库 + 一句话描述 + 链接；精选人工维护，全量索引以 hub 为准。
+
+## 致谢
+
+感谢 [LinuxDO 社区](https://linux.do/) 的支持与交流。

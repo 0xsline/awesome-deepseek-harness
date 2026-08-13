@@ -45,6 +45,7 @@
 - [Fun & Lifestyle](#fun--lifestyle)
 - [Infrastructure & Development](#infrastructure--development)
 - [Related](#related)
+- [Thanks](#thanks)
 
 ## Install
 
@@ -214,3 +215,7 @@ Restart `dsh web` after installing a bundle plugin. Management panel: Settings â
 ## Contributing
 
 Please have a look at [contributing.md](contributing.md). Entry standard: repository + one-line description + link; the curated list is maintained by hand, the full index lives in hub.
+
+## Thanks
+
+Thanks to the [Linux Do community](https://linux.do/) for the support and exchange.
