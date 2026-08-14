@@ -261,6 +261,7 @@ Management panel: Settings → Plugins.
 
 - [dsh-feishu-bot](https://github.com/dsh-external/dsh-feishu-bot) - Feishu bot.
 - [dsh-feishu-notify](https://github.com/dsh-external/dsh-feishu-notify) - Feishu notifications (session end / input needed).
+- [dsh-lark-meeting-notifier](https://github.com/yeruizhi/dsh-lark-meeting-notifier) - Feishu meeting reminder: a right-side floating panel listing today's/tomorrow's Feishu meetings with multi-alarm flashing reminders.
 - [telegram](https://github.com/dsh-external/telegram) - Channel integration for Telegram.
 - [dsh-telegram-channel](https://github.com/hi-wenw/dsh-telegram-channel) - Telegram mobile remote for live DSH Web sessions: `/sessions` picker, bind/unbind, same trajectory as desktop (Codex-style).
 - [tg-bot](https://github.com/dsh-external/tg-bot) - Telegram bot.
