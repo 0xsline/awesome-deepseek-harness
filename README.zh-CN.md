@@ -104,6 +104,9 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-kb-sieve](https://github.com/dsh-external/dsh-kb-sieve) - knowledge-base 插件：构建可审计 KB 包（references + SQL）
 - [dsh-payload-capture](https://github.com/moeblack/dsh-payload-capture) - 捕捉每一次上行模型 API payload 存为 JSON（调试与观测）
 - [dsh-memento](https://github.com/PerryLink/dsh-memento) - 有界、分层、带审批门、可审计的跨会话记忆：ctx.memory 服务、零依赖 SQLite、memory 工具与冻结快照注入。
+- [dsh-news-plugin](https://github.com/canghai666x/dsh-news-plugin) - RSS 新闻采集工具：抓取 10+ 中英文源为结构化条目（标题/链接/来源/时间/摘要），逐源超时，供模型评分筛选与编排简报（cordis）。
+- [dsh-news-briefing](https://github.com/canghai666x/dsh-news-briefing) - 新闻早晚报 Skill：五维评分筛选（故事性/时代感/深度性/趣味性/独特性）、反标题党铁律、Tier 内容偏好、去 AI 味中文写作规范。
+- [dsh-web-novel-research](https://github.com/canghai666x/dsh-web-novel-research) - 中文网文剧情检索 Skill：免费转载站工作流（GBK 解码、跨卷同名章节消歧、多源断更验证），不依赖起点等付费站。
 
 ## Input & Editing
 

@@ -106,6 +106,9 @@ Management panel: Settings → Plugins.
 - [dsh-kb-sieve](https://github.com/dsh-external/dsh-kb-sieve) - Knowledge-base plugin: build auditable KB packages (references + SQL).
 - [dsh-payload-capture](https://github.com/moeblack/dsh-payload-capture) - Capture every upstream model API payload to JSON (debug & observability).
 - [dsh-memento](https://github.com/PerryLink/dsh-memento) - Bounded, layered, approval-gated, auditable cross-session memory: typed ctx.memory seam, zero-dependency SQLite provider, memory tool and frozen snapshot injection.
+- [dsh-news-plugin](https://github.com/canghai666x/dsh-news-plugin) - RSS news fetch tool: grabs 10+ CN/EN feeds into structured items (title/link/source/date/summary) with per-source timeout, ready for model-side scoring and briefing (cordis).
+- [dsh-news-briefing](https://github.com/canghai666x/dsh-news-briefing) - News briefing skill: 5-dimension scoring (story/timeliness/depth/fun/uniqueness), anti-clickbait writing rules, Tier-based content preference, de-AI-style Chinese writing guide.
+- [dsh-web-novel-research](https://github.com/canghai666x/dsh-web-novel-research) - Chinese web-novel plot lookup skill: free mirror-site workflow (GBK decoding, cross-volume duplicate chapter disambiguation, multi-source completion check) without paid sources.
 
 ## Input & Editing
 
