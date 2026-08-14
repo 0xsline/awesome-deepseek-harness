@@ -34,7 +34,6 @@
 ## Contents
 
 - [Install](#install)
-- [Recently Added](#recently-added)
 - [Core & Official](#core--official)
 - [Context & Search](#context--search)
 - [Input & Editing](#input--editing)
@@ -69,52 +68,24 @@ The former `&path:` sub-path and Repository Plugin installation forms are not pa
 
 Management panel: Settings → Plugins.
 
-## Recently Added
-- [dsh-session-cleaner](https://github.com/fountunt/dsh-session-cleaner) - Delete sessions from a running web runtime: live store, workspace records, and on-disk artifacts (no restart needed). · [Infrastructure & Development]
-
-- [dsh-plugin-quote-reply](https://github.com/yangYzc/dsh-plugin-quote-reply) - Select text in a conversation, then quote it into the composer or reply in a new window. · [Input & Editing]
-- [dsh-pin-recall](https://github.com/kerwin2046/dsh-pin-recall) - Pin assistant replies from the Web action strip and recall them into the next model turn (`/pin` `/recall`, with optional wake). · [UI & Experience]
-- [dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor) - See exactly what every request carries: token cost of the AGENTS.md chain, skill catalog and tool schemas, with duplicate/conflict detection and actionable pruning tips (Web UI gauge + context_audit tool). · [Context & Search]
-- [dsh-agent-rp](https://github.com/dsh-external/dsh-agent-rp) - SillyTavern migration and next-generation agent roleplay for DSH. · [Fun & Lifestyle]
-- [dsh-aigc-canvas](https://github.com/dsh-external/dsh-aigc-canvas) - AIGC canvas plugin (cordis). · [UI & Experience]
-- [dsh-better-sidebar-plugin-office](https://github.com/dsh-external/dsh-better-sidebar-plugin-office) - Office integration for DSH-better-sidebar. · [Input & Editing]
-- [dsh-cot-summary](https://github.com/dsh-external/dsh-cot-summary) - External Summary-CoT plugin workspace. · [Context & Search]
-- [dsh-deepcel](https://github.com/dsh-external/dsh-deepcel) - Deepcel spreadsheet skin and standalone distribution. · [UI & Experience]
-- [dsh-deeplink](https://github.com/dsh-external/dsh-deeplink) - Open DSH WebUI sessions or workspaces directly from URL parameters. · [Browser & Remote]
-- [dsh-deepresearch](https://github.com/dsh-external/dsh-deepresearch) - DeepResearch plugin (cordis). · [Core & Official]
-- [dsh-diff-viewer](https://github.com/dsh-external/dsh-diff-viewer) - PiUI-style Web diff viewer replacing the default diff view. · [UI & Experience]
-- [dsh-emoji](https://github.com/dsh-external/dsh-emoji) - Emoji plugin (cordis). · [Fun & Lifestyle]
-- [dsh-explain](https://github.com/dsh-external/dsh-explain) - Learning mode that explains each agent step (WIP). · [Context & Search]
-- [dsh-hmz](https://github.com/dsh-external/dsh-hmz) - Placeholder repository; description pending. · [Infrastructure & Development]
-- [dsh-interpreters](https://github.com/dsh-external/dsh-interpreters) - Interpreter plugin (cordis). · [Infrastructure & Development]
-- [dsh-learn-everything](https://github.com/cendaifeng/dsh-learn-everything) - Feynman learning-mode plugin: teach → teach-back → judge → re-explain loop rendered as rich HTML lesson cards (mermaid diagrams + shiki code highlighting). · [Context & Search]
-- [dsh-mobile](https://github.com/dsh-external/dsh-mobile) - Mobile client plugin (cordis + dsh.plugin.json). · [UI & Experience]
-- [dsh-notebooks](https://github.com/dsh-external/dsh-notebooks) - Notebooks plugin (cordis). · [Infrastructure & Development]
-- [dsh-openmaic](https://github.com/dsh-external/dsh-openmaic) - Generate interactive OpenMAIC AI classrooms. · [Science & Research]
-- [dsh-openpencil](https://github.com/dsh-external/dsh-openpencil) - OpenPencil design preview and editing plugin. · [UI & Experience]
-- [dsh-plugin-radar](https://github.com/dsh-external/dsh-plugin-radar) - Daily DSH plugin compatibility radar, renamed from dsh-external-research. · [Infrastructure & Development]
-- [dsh-scout](https://github.com/dsh-external/dsh-scout) - Scout plugin (cordis). · [Infrastructure & Development]
-- [dsh-share](https://github.com/dsh-external/dsh-share) - Share DSH conversations. · [Infrastructure & Development]
-- [dsh-sonar](https://github.com/dsh-external/dsh-sonar) - Sonar plugin (cordis). · [Infrastructure & Development]
-- [dsh-stock-market](https://github.com/dsh-external/dsh-stock-market) - Stock market data plugin. · [Fun & Lifestyle]
-- [dsh-suggested-replies](https://github.com/dsh-external/dsh-suggested-replies) - Suggested replies above the DSH Web composer. · [Input & Editing]
-- [dsh-travel-plugin](https://github.com/dsh-external/dsh-travel-plugin) - Travel plugin. · [Fun & Lifestyle]
-- [dsh-turn-navigator](https://github.com/dsh-external/dsh-turn-navigator) - DSH Web turn navigation plugin. · [UI & Experience]
-- [dsh-ultra-ui](https://github.com/dsh-external/dsh-ultra-ui) - Ultra UI plugin (cordis). · [UI & Experience]
-- [dsh_workflow](https://github.com/dsh-external/dsh_workflow) - Dynamic workflow for DSH (placeholder). · [Core & Official]
-- [context-vista](https://github.com/GooodWei/context-vista) - A right-side floating panel and /context command for DeepSeek Harness — a live donut chart of context token usage, allocation, and estimated cost. · [Context & Search]
-
 ## Core & Official
 
+- [dsh-deepresearch](https://github.com/dsh-external/dsh-deepresearch) - DeepResearch plugin (cordis). · [Core & Official]
 - [dsh-plan-execute](https://github.com/dsh-external/dsh-plan-execute) - Dual-model plan/execute routing: planner model thinks, executor model acts.
 - [dsh-toolkit](https://github.com/dsh-external/dsh-toolkit) - Official tool suite (calculator/csv/diff/encoding/json/markdown/regex/time).
 - [dsh-deep-research](https://github.com/dsh-external/dsh-deep-research) - Adaptive deep-research orchestrator (official workflow engine).
 - [dsh-101](https://github.com/dsh-external/dsh-101) - DSH documentation reading mode.
 - [dsh-client-ui-plan-execute](https://github.com/dsh-external/dsh-client-ui-plan-execute) - Web Settings row for plan/execute model routing.
 
+- [dsh_workflow](https://github.com/dsh-external/dsh_workflow) - Dynamic workflow for DSH (placeholder). · [Core & Official]
 ## Context & Search
 
 - [billion-context-dsh](https://github.com/Tyan66666/billion-context-dsh) - Model-driven context compression (ACP) for DeepSeek Harness, ported from billion-context-pi; the model decides when and what to compress.
+- [context-vista](https://github.com/GooodWei/context-vista) - A right-side floating panel and /context command for DeepSeek Harness — a live donut chart of context token usage, allocation, and estimated cost. · [Context & Search]
+- [dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor) - See exactly what every request carries: token cost of the AGENTS.md chain, skill catalog and tool schemas, with duplicate/conflict detection and actionable pruning tips (Web UI gauge + context_audit tool). · [Context & Search]
+- [dsh-cot-summary](https://github.com/dsh-external/dsh-cot-summary) - External Summary-CoT plugin workspace. · [Context & Search]
+- [dsh-explain](https://github.com/dsh-external/dsh-explain) - Learning mode that explains each agent step (WIP). · [Context & Search]
+- [dsh-learn-everything](https://github.com/cendaifeng/dsh-learn-everything) - Feynman learning-mode plugin: teach → teach-back → judge → re-explain loop rendered as rich HTML lesson cards (mermaid diagrams + shiki code highlighting). · [Context & Search]
 - [dsh-session-search](https://github.com/dsh-external/dsh-session-search) - Index-free read-only search across dsh/Codex/Claude Code/pi/OpenCode sessions.
 - [cross-harness-cite](https://github.com/dsh-external/cross-harness-cite) - Cite past conversations across harnesses.
 - [dsh-session-cluster](https://github.com/dsh-external/dsh-session-cluster) - Session clustering.
@@ -132,6 +103,7 @@ Management panel: Settings → Plugins.
 
 ## Input & Editing
 
+- [dsh-better-sidebar-plugin-office](https://github.com/dsh-external/dsh-better-sidebar-plugin-office) - Office integration for DSH-better-sidebar. · [Input & Editing]
 - [dsh-message-edit](https://github.com/dsh-external/dsh-message-edit) - Branch-based message editing / reroll / retry / version timeline.
 - [dsh-prompt-studio](https://github.com/dsh-external/dsh-prompt-studio) - Edit system-prompt sections with live preview.
 - [dsh-paste-input](https://github.com/dsh-external/dsh-paste-input) - Ctrl+V paste files / drag & drop / picker.
@@ -143,9 +115,17 @@ Management panel: Settings → Plugins.
 - [dsh-sticky-note](https://github.com/Meredith2328/dsh-sticky-note) - Quick sticky notes in the composer: ideas/feelings/TODO with Markdown preview, auto-save, one-click send to chat.
 - [dsh-plugin-quote-reply](https://github.com/yangYzc/dsh-plugin-quote-reply) - Select text in a conversation, then quote it into the composer or reply in a new window.
 
+- [dsh-suggested-replies](https://github.com/dsh-external/dsh-suggested-replies) - Suggested replies above the DSH Web composer. · [Input & Editing]
 ## UI & Experience
 
+- [dsh-aigc-canvas](https://github.com/dsh-external/dsh-aigc-canvas) - AIGC canvas plugin (cordis). · [UI & Experience]
+- [dsh-deepcel](https://github.com/dsh-external/dsh-deepcel) - Deepcel spreadsheet skin and standalone distribution. · [UI & Experience]
+- [dsh-diff-viewer](https://github.com/dsh-external/dsh-diff-viewer) - PiUI-style Web diff viewer replacing the default diff view. · [UI & Experience]
+- [dsh-mobile](https://github.com/dsh-external/dsh-mobile) - Mobile client plugin (cordis + dsh.plugin.json). · [UI & Experience]
+- [dsh-openpencil](https://github.com/dsh-external/dsh-openpencil) - OpenPencil design preview and editing plugin. · [UI & Experience]
 - [dsh-pin-recall](https://github.com/kerwin2046/dsh-pin-recall) - Pin assistant replies from the Web action strip and recall them into the next model turn (`/pin` `/recall`, with optional wake).
+- [dsh-turn-navigator](https://github.com/dsh-external/dsh-turn-navigator) - DSH Web turn navigation plugin. · [UI & Experience]
+- [dsh-ultra-ui](https://github.com/dsh-external/dsh-ultra-ui) - Ultra UI plugin (cordis). · [UI & Experience]
 - [dsh-web-billing](https://github.com/bpc-oss/dsh-web-billing) - RMB/USD token billing for the DSH web: official-policy auto pricing (incl. peak/off-peak hours), per-message cost ledger, account balance, locale-driven currency display.
 - [dsh-balance-meter](https://github.com/Ghost011118/dsh-balance-meter) - DeepSeek account balance and session cost in the DSH Web composer dock (auto-fetched official pricing, peak/off-peak support).
 - [dsh-plugin-cost](https://github.com/yweilai77-dev/dsh-plugin-cost) - Session cost estimate in the DSH Web composer dock (tokenUsage × configurable price table, one-click official-price refresh).
@@ -179,6 +159,7 @@ Management panel: Settings → Plugins.
 
 - [dsh-browser-panel](https://github.com/dsh-external/dsh-browser-panel) - Headed browser embedded in the WebUI, model-driven (Codex-style, zero vision deps).
 - [dsh-browser](https://github.com/dsh-external/dsh-browser) - Chrome sidebar extension.
+- [dsh-deeplink](https://github.com/dsh-external/dsh-deeplink) - Open DSH WebUI sessions or workspaces directly from URL parameters. · [Browser & Remote]
 - [dsh-remote](https://github.com/dsh-external/dsh-remote) - SSH remote control.
 - [ego-browser](https://github.com/dsh-external/ego-browser) - Browser agent.
 - [dsh-webbridge](https://github.com/dsh-external/dsh-webbridge) - Web bridge.
@@ -233,6 +214,10 @@ Management panel: Settings → Plugins.
 
 ## Fun & Lifestyle
 
+- [dsh-agent-rp](https://github.com/dsh-external/dsh-agent-rp) - SillyTavern migration and next-generation agent roleplay for DSH. · [Fun & Lifestyle]
+- [dsh-emoji](https://github.com/dsh-external/dsh-emoji) - Emoji plugin (cordis). · [Fun & Lifestyle]
+- [dsh-stock-market](https://github.com/dsh-external/dsh-stock-market) - Stock market data plugin. · [Fun & Lifestyle]
+- [dsh-travel-plugin](https://github.com/dsh-external/dsh-travel-plugin) - Travel plugin. · [Fun & Lifestyle]
 - [dsh-ui-whale](https://github.com/dsh-external/dsh-ui-whale) - Pixel whale companion (blink/tail/spout/hearts).
 - [dsh-pet](https://github.com/FlytoMAYDAY80/dsh-pet) - Desktop whale pet with live session state.
 - [dsh-pet-rs](https://github.com/dsh-external/dsh-pet-rs) - Desktop pet, Rust edition.
@@ -248,6 +233,13 @@ Management panel: Settings → Plugins.
 ## Infrastructure & Development
 
 - [deepseek-harness-desktop](https://github.com/Easyhoov/deepseek-harness-desktop) - Unofficial in-process Windows desktop app with tray residency, native notifications, and an IPC bridge.
+- [dsh-hmz](https://github.com/dsh-external/dsh-hmz) - Placeholder repository; description pending. · [Infrastructure & Development]
+- [dsh-interpreters](https://github.com/dsh-external/dsh-interpreters) - Interpreter plugin (cordis). · [Infrastructure & Development]
+- [dsh-notebooks](https://github.com/dsh-external/dsh-notebooks) - Notebooks plugin (cordis). · [Infrastructure & Development]
+- [dsh-plugin-radar](https://github.com/dsh-external/dsh-plugin-radar) - Daily DSH plugin compatibility radar, renamed from dsh-external-research. · [Infrastructure & Development]
+- [dsh-scout](https://github.com/dsh-external/dsh-scout) - Scout plugin (cordis). · [Infrastructure & Development]
+- [dsh-share](https://github.com/dsh-external/dsh-share) - Share DSH conversations. · [Infrastructure & Development]
+- [dsh-sonar](https://github.com/dsh-external/dsh-sonar) - Sonar plugin (cordis). · [Infrastructure & Development]
 - [plugin-registry](https://github.com/dsh-external/plugin-registry) - Plugin console + make-dsh-plugin skill + dev guide.
 - [dsh-plugin-manager-registry](https://github.com/Jesse-njx/dsh-plugin-manager-registry) - Offline-tolerant registry that discovers and deduplicates DSH plugins from awesome lists, GitHub topics, and npm.
 - [marisa](https://github.com/dsh-external/marisa) - External plugin manager (parasitic install/CLI/settings panel).
@@ -265,6 +257,7 @@ Management panel: Settings → Plugins.
 
 ## Science & Research
 
+- [dsh-openmaic](https://github.com/dsh-external/dsh-openmaic) - Generate interactive OpenMAIC AI classrooms. · [Science & Research]
 - [dsh-science](https://github.com/biociao/dsh-science) - Claude Science-style research workbench: ReAct research-loop engine (research_* tools), versioned artifacts with provenance (artifact_* tools), and 10 science skills for genomics/pathogens/bioinformatics.
 
 ## Related

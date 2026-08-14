@@ -33,7 +33,6 @@
 ## Contents
 
 - [Install](#install)
-- [Recently Added](#recently-added)
 - [Core & Official](#core--official)
 - [Context & Search](#context--search)
 - [Input & Editing](#input--editing)
@@ -68,51 +67,23 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 管理面板：设置 → 「插件」。
 
-## Recently Added
-- [dsh-session-cleaner](https://github.com/fountunt/dsh-session-cleaner) - 无需重启即可删除运行中 Web 运行时里的会话：实时存储、工作区记录与磁盘工件一并清理。 · [Infrastructure & Development]
-
-- [dsh-plugin-quote-reply](https://github.com/yangYzc/dsh-plugin-quote-reply) - 在会话中划选文字，一键「引用回复」插入输入框，或「新窗口回复」开新会话并预填引用。 · [Input & Editing]
-- [dsh-pin-recall](https://github.com/kerwin2046/dsh-pin-recall) - 在 Web 助手消息操作条钉住回复，再通过 `/pin` `/recall` 召回进下一轮模型上下文（可一键唤醒）。 · [UI & Experience]
-- [dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor) - 看清模型每个请求到底背着多少上下文：指令链/技能目录/工具 schema 的 token 成本逐项量化，自动检测重复与冲突，给出可执行裁剪建议（Web 圆环面板 + context_audit 工具，全程只读）。 · [Context & Search]
-- [dsh-agent-rp](https://github.com/dsh-external/dsh-agent-rp) - SillyTavern 迁移与下一代 DSH Agent RP。 · [Fun & Lifestyle]
-- [dsh-aigc-canvas](https://github.com/dsh-external/dsh-aigc-canvas) - AIGC 画布插件（cordis）。 · [UI & Experience]
-- [dsh-better-sidebar-plugin-office](https://github.com/dsh-external/dsh-better-sidebar-plugin-office) - better-sidebar 的 Office 集成。 · [Input & Editing]
-- [dsh-cot-summary](https://github.com/dsh-external/dsh-cot-summary) - 外置 Summary-CoT 插件工作区。 · [Context & Search]
-- [dsh-deepcel](https://github.com/dsh-external/dsh-deepcel) - Deepcel 电子表格皮肤与独立分发仓库。 · [UI & Experience]
-- [dsh-deeplink](https://github.com/dsh-external/dsh-deeplink) - 通过 URL 参数直接打开 DSH WebUI 会话或工作区。 · [Browser & Remote]
-- [dsh-deepresearch](https://github.com/dsh-external/dsh-deepresearch) - deepresearch 插件（cordis）。 · [Core & Official]
-- [dsh-diff-viewer](https://github.com/dsh-external/dsh-diff-viewer) - PiUI 风格 Web diff 查看器，替换默认 diff 视图。 · [UI & Experience]
-- [dsh-emoji](https://github.com/dsh-external/dsh-emoji) - emoji 插件（cordis）。 · [Fun & Lifestyle]
-- [dsh-explain](https://github.com/dsh-external/dsh-explain) - 学习模式插件，解释 agent 的每一步（WIP）。 · [Context & Search]
-- [dsh-hmz](https://github.com/dsh-external/dsh-hmz) - 占位仓库，描述待补充。 · [Infrastructure & Development]
-- [dsh-interpreters](https://github.com/dsh-external/dsh-interpreters) - 解释器插件（cordis）。 · [Infrastructure & Development]
-- [dsh-learn-everything](https://github.com/cendaifeng/dsh-learn-everything) - 费曼学习法插件：讲解 → 复述 → 判定 → 回讲教学闭环，富 HTML 教学卡片（mermaid 图 + shiki 代码高亮）。 · [Context & Search]
-- [dsh-mobile](https://github.com/dsh-external/dsh-mobile) - 手机端插件（cordis + dsh.plugin.json）。 · [UI & Experience]
-- [dsh-notebooks](https://github.com/dsh-external/dsh-notebooks) - notebooks 插件（cordis）。 · [Infrastructure & Development]
-- [dsh-openmaic](https://github.com/dsh-external/dsh-openmaic) - 生成 OpenMAIC 交互式 AI 课堂。 · [Science & Research]
-- [dsh-openpencil](https://github.com/dsh-external/dsh-openpencil) - OpenPencil 设计预览与编辑插件。 · [UI & Experience]
-- [dsh-plugin-radar](https://github.com/dsh-external/dsh-plugin-radar) - DSH 插件兼容性雷达，原 dsh-external-research 改名。 · [Infrastructure & Development]
-- [dsh-scout](https://github.com/dsh-external/dsh-scout) - scout 插件（cordis）。 · [Infrastructure & Development]
-- [dsh-share](https://github.com/dsh-external/dsh-share) - DSH 对话分享插件。 · [Infrastructure & Development]
-- [dsh-sonar](https://github.com/dsh-external/dsh-sonar) - sonar 插件（cordis）。 · [Infrastructure & Development]
-- [dsh-stock-market](https://github.com/dsh-external/dsh-stock-market) - 股票行情插件。 · [Fun & Lifestyle]
-- [dsh-suggested-replies](https://github.com/dsh-external/dsh-suggested-replies) - DSH Web 输入框上方的预测回复插件。 · [Input & Editing]
-- [dsh-travel-plugin](https://github.com/dsh-external/dsh-travel-plugin) - 旅行小插件。 · [Fun & Lifestyle]
-- [dsh-turn-navigator](https://github.com/dsh-external/dsh-turn-navigator) - DSH Web turn 导航插件。 · [UI & Experience]
-- [dsh-ultra-ui](https://github.com/dsh-external/dsh-ultra-ui) - ultra-ui 插件（cordis）。 · [UI & Experience]
-- [dsh_workflow](https://github.com/dsh-external/dsh_workflow) - Dynamic Workflow for dsh（占位）。 · [Core & Official]
-- [context-vista](https://github.com/GooodWei/context-vista) - 为 DeepSeek Harness 提供右侧悬浮栏以及 /context 命令，用环形图实时展示当前上下文 token 用量与分配及消费估算 · [Context & Search]
-
 ## Core & Official
 
+- [dsh-deepresearch](https://github.com/dsh-external/dsh-deepresearch) - deepresearch 插件（cordis）。 · [Core & Official]
 - [dsh-plan-execute](https://github.com/dsh-external/dsh-plan-execute) - plan/execute 双模型路由：规划模型思考、执行模型干活
 - [dsh-toolkit](https://github.com/dsh-external/dsh-toolkit) - 官方工具套件（calculator/csv/diff/encoding/json/markdown/regex/time）
 - [dsh-deep-research](https://github.com/dsh-external/dsh-deep-research) - 自适应深度研究编排器（官方 workflow 引擎）
 - [dsh-101](https://github.com/dsh-external/dsh-101) - DSH 文档阅读模式
 - [dsh-client-ui-plan-execute](https://github.com/dsh-external/dsh-client-ui-plan-execute) - Web 设置页「规划/执行模型」配置行
 
+- [dsh_workflow](https://github.com/dsh-external/dsh_workflow) - Dynamic Workflow for dsh（占位）。 · [Core & Official]
 ## Context & Search
 
+- [context-vista](https://github.com/GooodWei/context-vista) - 为 DeepSeek Harness 提供右侧悬浮栏以及 /context 命令，用环形图实时展示当前上下文 token 用量与分配及消费估算 · [Context & Search]
+- [dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor) - 看清模型每个请求到底背着多少上下文：指令链/技能目录/工具 schema 的 token 成本逐项量化，自动检测重复与冲突，给出可执行裁剪建议（Web 圆环面板 + context_audit 工具，全程只读）。 · [Context & Search]
+- [dsh-cot-summary](https://github.com/dsh-external/dsh-cot-summary) - 外置 Summary-CoT 插件工作区。 · [Context & Search]
+- [dsh-explain](https://github.com/dsh-external/dsh-explain) - 学习模式插件，解释 agent 的每一步（WIP）。 · [Context & Search]
+- [dsh-learn-everything](https://github.com/cendaifeng/dsh-learn-everything) - 费曼学习法插件：讲解 → 复述 → 判定 → 回讲教学闭环，富 HTML 教学卡片（mermaid 图 + shiki 代码高亮）。 · [Context & Search]
 - [dsh-session-search](https://github.com/dsh-external/dsh-session-search) - 跨 dsh/Codex/Claude Code/pi/OpenCode 会话只读搜索，无索引
 - [cross-harness-cite](https://github.com/dsh-external/cross-harness-cite) - 跨 harness 引用历史对话
 - [dsh-session-cluster](https://github.com/dsh-external/dsh-session-cluster) - 会话聚类
@@ -130,6 +101,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Input & Editing
 
+- [dsh-better-sidebar-plugin-office](https://github.com/dsh-external/dsh-better-sidebar-plugin-office) - better-sidebar 的 Office 集成。 · [Input & Editing]
 - [dsh-message-edit](https://github.com/dsh-external/dsh-message-edit) - 分支式消息编辑 / reroll / retry / 版本时间线
 - [dsh-prompt-studio](https://github.com/dsh-external/dsh-prompt-studio) - 系统提示词分段编辑 + 实时预览
 - [dsh-paste-input](https://github.com/dsh-external/dsh-paste-input) - Ctrl+V 粘贴文件 / 拖拽 / 选择
@@ -141,9 +113,17 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-sticky-note](https://github.com/Meredith2328/dsh-sticky-note) - 输入框工具栏快速便签：点子/感想/TODO，Markdown 预览、自动保存、一键发送到对话。
 - [dsh-plugin-quote-reply](https://github.com/yangYzc/dsh-plugin-quote-reply) - 在会话中划选文字，一键「引用回复」插入输入框，或「新窗口回复」开新会话并预填引用。
 
+- [dsh-suggested-replies](https://github.com/dsh-external/dsh-suggested-replies) - DSH Web 输入框上方的预测回复插件。 · [Input & Editing]
 ## UI & Experience
 
+- [dsh-aigc-canvas](https://github.com/dsh-external/dsh-aigc-canvas) - AIGC 画布插件（cordis）。 · [UI & Experience]
+- [dsh-deepcel](https://github.com/dsh-external/dsh-deepcel) - Deepcel 电子表格皮肤与独立分发仓库。 · [UI & Experience]
+- [dsh-diff-viewer](https://github.com/dsh-external/dsh-diff-viewer) - PiUI 风格 Web diff 查看器，替换默认 diff 视图。 · [UI & Experience]
+- [dsh-mobile](https://github.com/dsh-external/dsh-mobile) - 手机端插件（cordis + dsh.plugin.json）。 · [UI & Experience]
+- [dsh-openpencil](https://github.com/dsh-external/dsh-openpencil) - OpenPencil 设计预览与编辑插件。 · [UI & Experience]
 - [dsh-pin-recall](https://github.com/kerwin2046/dsh-pin-recall) - 在 Web 助手消息操作条钉住回复，再通过 `/pin` `/recall` 召回进下一轮模型上下文（可一键唤醒）。
+- [dsh-turn-navigator](https://github.com/dsh-external/dsh-turn-navigator) - DSH Web turn 导航插件。 · [UI & Experience]
+- [dsh-ultra-ui](https://github.com/dsh-external/dsh-ultra-ui) - ultra-ui 插件（cordis）。 · [UI & Experience]
 - [dsh-web-billing](https://github.com/bpc-oss/dsh-web-billing) - DSH Web 人民币/美元 token 计费插件：官方政策自动计价（含峰谷时段）、逐条消息费用账本、账号余额、按界面语言切换币种。
 - [dsh-balance-meter](https://github.com/Ghost011118/dsh-balance-meter) - DeepSeek 账户余额与当前会话成本显示在 DSH Web 编辑器 dock 中（自动获取官方价格，支持峰时/非峰时计价）。
 - [dsh-plugin-cost](https://github.com/yweilai77-dev/dsh-plugin-cost) - DSH Web 聊天框底部的会话费用估算：token 四桶 × 可配置价格表，一键刷新官方价格（估算非账单）。
@@ -177,6 +157,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [dsh-browser-panel](https://github.com/dsh-external/dsh-browser-panel) - WebUI 内嵌有头浏览器，模型实时操控（Codex 式，0 视觉依赖）
 - [dsh-browser](https://github.com/dsh-external/dsh-browser) - Chrome 侧边栏扩展
+- [dsh-deeplink](https://github.com/dsh-external/dsh-deeplink) - 通过 URL 参数直接打开 DSH WebUI 会话或工作区。 · [Browser & Remote]
 - [dsh-remote](https://github.com/dsh-external/dsh-remote) - SSH 远端控制
 - [ego-browser](https://github.com/dsh-external/ego-browser) - 浏览器代理
 - [dsh-webbridge](https://github.com/dsh-external/dsh-webbridge) - Web 桥接
@@ -231,6 +212,10 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Fun & Lifestyle
 
+- [dsh-agent-rp](https://github.com/dsh-external/dsh-agent-rp) - SillyTavern 迁移与下一代 DSH Agent RP。 · [Fun & Lifestyle]
+- [dsh-emoji](https://github.com/dsh-external/dsh-emoji) - emoji 插件（cordis）。 · [Fun & Lifestyle]
+- [dsh-stock-market](https://github.com/dsh-external/dsh-stock-market) - 股票行情插件。 · [Fun & Lifestyle]
+- [dsh-travel-plugin](https://github.com/dsh-external/dsh-travel-plugin) - 旅行小插件。 · [Fun & Lifestyle]
 - [dsh-ui-whale](https://github.com/dsh-external/dsh-ui-whale) - 像素鲸鱼伙伴（眨眼/摆尾/喷水/爱心）
 - [dsh-pet](https://github.com/FlytoMAYDAY80/dsh-pet) - 桌面小鲸鱼，实时感知会话状态
 - [dsh-pet-rs](https://github.com/dsh-external/dsh-pet-rs) - 桌宠 Rust 版
@@ -246,6 +231,13 @@ dsh plugin --profile web add "github:owner/repo#ref"
 ## Infrastructure & Development
 
 - [deepseek-harness-desktop](https://github.com/Easyhoov/deepseek-harness-desktop) - 非官方 Windows 进程内桌面应用，提供托盘常驻、原生通知与 IPC 桥接。
+- [dsh-hmz](https://github.com/dsh-external/dsh-hmz) - 占位仓库，描述待补充。 · [Infrastructure & Development]
+- [dsh-interpreters](https://github.com/dsh-external/dsh-interpreters) - 解释器插件（cordis）。 · [Infrastructure & Development]
+- [dsh-notebooks](https://github.com/dsh-external/dsh-notebooks) - notebooks 插件（cordis）。 · [Infrastructure & Development]
+- [dsh-plugin-radar](https://github.com/dsh-external/dsh-plugin-radar) - DSH 插件兼容性雷达，原 dsh-external-research 改名。 · [Infrastructure & Development]
+- [dsh-scout](https://github.com/dsh-external/dsh-scout) - scout 插件（cordis）。 · [Infrastructure & Development]
+- [dsh-share](https://github.com/dsh-external/dsh-share) - DSH 对话分享插件。 · [Infrastructure & Development]
+- [dsh-sonar](https://github.com/dsh-external/dsh-sonar) - sonar 插件（cordis）。 · [Infrastructure & Development]
 - [plugin-registry](https://github.com/dsh-external/plugin-registry) - 插件控制台 + make-dsh-plugin skill + 开发指引
 - [dsh-plugin-manager-registry](https://github.com/Jesse-njx/dsh-plugin-manager-registry) - 离线容错的插件注册表，聚合并去重 awesome 列表、GitHub Topic 与 npm 中的 DSH 插件。
 - [marisa](https://github.com/dsh-external/marisa) - 外部插件管理器（寄生安装/CLI/设置页面板）
@@ -263,6 +255,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Science & Research
 
+- [dsh-openmaic](https://github.com/dsh-external/dsh-openmaic) - 生成 OpenMAIC 交互式 AI 课堂。 · [Science & Research]
 - [dsh-science](https://github.com/biociao/dsh-science) — 面向 DSH 的 Claude Science 式科研工作台：ReAct 研究循环引擎（research_* 工具）、带溯源的版本化工件（artifact_* 工具）与面向基因组/病原体/生物信息的 10 个科研技能。
 
 ## Related
