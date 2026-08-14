@@ -135,6 +135,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 ## UI & Experience
 
 - [dsh-balance-meter](https://github.com/Ghost011118/dsh-balance-meter) - DeepSeek 账户余额与当前会话成本显示在 DSH Web 编辑器 dock 中（自动获取官方价格，支持峰时/非峰时计价）。
+- [dsh-plugin-cost](https://github.com/yweilai77-dev/dsh-plugin-cost) - DSH Web 聊天框底部的会话费用估算：token 四桶 × 可配置价格表，一键刷新官方价格（估算非账单）。
 - [dsh-live-stats](https://github.com/dsh-external/dsh-live-stats) - 实时 token 估算与生成 TPS
 - [dsh-view-modes](https://github.com/NigelYao/dsh-view-modes) - DSH Web 输出模式插件：提供详尽、普通和摘要视图，按语义分组工具调用与思考，并显示实时执行状态。
 - [dsh-tps](https://github.com/dsh-external/dsh-tps) - TPS 仪表
