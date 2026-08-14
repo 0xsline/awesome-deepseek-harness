@@ -88,6 +88,7 @@ Management panel: Settings → Plugins.
 - [dsh-cot-summary](https://github.com/dsh-external/dsh-cot-summary) - External Summary-CoT plugin workspace.
 - [dsh-explain](https://github.com/dsh-external/dsh-explain) - Learning mode that explains each agent step (WIP).
 - [dsh-learn-everything](https://github.com/cendaifeng/dsh-learn-everything) - Feynman learning-mode plugin: teach → teach-back → judge → re-explain loop rendered as rich HTML lesson cards (mermaid diagrams + shiki code highlighting).
+- [dsh-memory-vault](https://github.com/flymysql/dsh-memory) - Cross-session memory vault: memory_remember / memory_recall / memory_forget tools, latest entries injected into system-prompt assembly, Settings page (记忆库 / Memory).
 - [dsh-session-search](https://github.com/dsh-external/dsh-session-search) - Index-free read-only search across dsh/Codex/Claude Code/pi/OpenCode sessions.
 - [cross-harness-cite](https://github.com/dsh-external/cross-harness-cite) - Cite past conversations across harnesses.
 - [dsh-session-cluster](https://github.com/dsh-external/dsh-session-cluster) - Session clustering.
@@ -178,6 +179,7 @@ Management panel: Settings → Plugins.
 - [dsh-browser](https://github.com/dsh-external/dsh-browser) - Chrome sidebar extension.
 - [dsh-deeplink](https://github.com/dsh-external/dsh-deeplink) - Open DSH WebUI sessions or workspaces directly from URL parameters.
 - [dsh-remote](https://github.com/dsh-external/dsh-remote) - SSH remote control.
+- [dsh-remote](https://github.com/flymysql/dsh-remote) - Remote-access assistant: prints the exact SSH local-forward / autossh / reverse-tunnel / reverse-proxy commands for the live instance (the web GUI binds loopback only).
 - [ego-browser](https://github.com/dsh-external/ego-browser) - Browser agent.
 - [dsh-webbridge](https://github.com/dsh-external/dsh-webbridge) - Web bridge.
 - [browser4-dsh](https://github.com/dsh-external/browser4-dsh) - Browser4 AI-native browser engine (skills).
