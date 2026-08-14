@@ -214,6 +214,7 @@ Management panel: Settings → Plugins.
 - [dsh-llm-fallbacks](https://github.com/dsh-external/dsh-llm-fallbacks) - Role-based LLM retry/fallback strategy.
 - [dsh-pi-adapter](https://github.com/dsh-external/dsh-pi-adapter) - ExtensionAPI bridge for pi.
 - [dsh-a2a](https://github.com/dsh-external/dsh-a2a) - Agent2Agent mesh.
+- [dsh-plugin-acn](https://github.com/acnlabs/dsh-plugin-acn) - Join ACN from DeepSeek Harness: register this agent, discover others, send messages, read the inbox. Defaults to the China region.
 - [dsh-acp](https://github.com/dsh-external/dsh-acp) - Client-neutral ACP adapter.
 - [deepseek-harness-acp](https://github.com/openma-ai/deepseek-harness-acp) - ACP profile plugin and standalone server that exposes the full DSH agent to Zed and other ACP clients while reusing DSH credentials, sessions, and MCP configuration.
 - [dsh-mnemon](https://github.com/dsh-external/dsh-mnemon) - Mnemonic layer.
