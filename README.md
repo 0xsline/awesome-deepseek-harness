@@ -244,6 +244,7 @@ Management panel: Settings → Plugins.
 - [dsh-super-injector](https://github.com/dsh-external/dsh-super-injector) - Super-injector (cordis).
 - [dsh-mcp-manager](https://github.com/hyqhyq3/dsh-mcp-manager) - MCP server manager: Settings page with OAuth (PKCE + dynamic client registration) or static-token auth; tools registered as mcp__<name>__*.
 - [dsh-doctor](https://github.com/asdf17128/dsh-doctor) - Profile health check: finds config fields a patch dropped by whole-config replacement, patches targeting missing entry ids, and tool-name collisions.
+- [dsh-portable-launcher](https://github.com/15828148/dsh-portable-launcher) - One-click portable Windows launcher for the dsh Web UI: auto-installs Node.js and dsh, CN mirror fallback, retries and resume.
 - [dshp](https://github.com/asdf17128/dshp) - Profile manager: list, create, clone and diff profiles, and export a whole setup (bundle order, plugin versions, patch) as one portable file.
 - [dsh-recommend](https://github.com/zp-home/dsh-recommend) - Transparent plugin rankings and recommendations: daily auto-fetched dsh-plugin topic data, open scoring model, rank/search/recommend tools and a settings-page leaderboard.
 - [dsh-eval](https://github.com/hccccc01333/dsh-eval) - Agent evaluation platform: benchmark YAML, headless dsh runs, trace-based metrics, scripted grading, and run compare/report.
