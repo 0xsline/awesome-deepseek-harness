@@ -126,7 +126,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-input-history](https://github.com/dsh-external/dsh-input-history) - 输入历史
 - [dsh-multimedia-webui-input](https://github.com/dsh-external/dsh-multimedia-webui-input) - 多媒体文件/文件夹输入
 - [dsh-office](https://github.com/dsh-external/dsh-office) - Office 文件读写 bundle：模型读写 Office 文件，docx/pdf 预览
-- [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) - 从 Claude Code / Codex / ChatGPT / Cursor / Gemini / Reasonix / opencode 全保真导入历史会话（含工具调用/思考块），导入后可在 DSH 续聊
+- [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) - 全保真导入 13 款编码 Agent 的历史会话（Claude Code / Codex / ChatGPT / Cursor / Gemini / Reasonix / opencode / ZCode / Grok Build / OpenClaw / Pi / Hermes / Kimi），导入后可在 DSH 续聊，并支持反向导出/同步回 Claude Code
 - [dsh-file-claim](https://github.com/Nwflower/dsh-file-claim) - 同一工作区并行多会话的文件认领与写入保护（claim/release、心跳 stale 接管、pending 三路合并）
 - [dsh-sticky-note](https://github.com/Meredith2328/dsh-sticky-note) - 输入框工具栏快速便签：点子/感想/TODO，Markdown 预览、自动保存、一键发送到对话。
 - [dsh-plugin-quote-reply](https://github.com/yangYzc/dsh-plugin-quote-reply) - 在会话中划选文字，一键「引用回复」插入输入框，或「新窗口回复」开新会话并预填引用。
