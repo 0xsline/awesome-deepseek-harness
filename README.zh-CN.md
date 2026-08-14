@@ -121,6 +121,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [dsh-aigc-canvas](https://github.com/dsh-external/dsh-aigc-canvas) - AIGC 画布插件（cordis）。
 - [dsh-deepcel](https://github.com/dsh-external/dsh-deepcel) - Deepcel 电子表格皮肤与独立分发仓库。
+- [dsh-deepseek-quota](https://github.com/yingjunnan/dsh-deepseek-quota) - DSH Web 页面右下角悬浮卡片展示 DeepSeek API 余额（自动刷新 + 手动刷新）。
 - [dsh-diff-viewer](https://github.com/dsh-external/dsh-diff-viewer) - PiUI 风格 Web diff 查看器，替换默认 diff 视图。
 - [dsh-mobile](https://github.com/dsh-external/dsh-mobile) - 手机端插件（cordis + dsh.plugin.json）。
 - [dsh-openpencil](https://github.com/dsh-external/dsh-openpencil) - OpenPencil 设计预览与编辑插件。
