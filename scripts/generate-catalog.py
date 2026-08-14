@@ -999,8 +999,9 @@ def main():
     ]
 
     out = ["# 完整目录（自动生成）", ""]
-    out.append(f"> 由 GitHub Actions 从 [dsh-external/hub](https://github.com/dsh-external/hub) 的 `catalog.json` 自动生成 · {cat.get('generated', '')[:10]}")
-    out.append(f"> 精选列表见 [README](README.md)，本页为公开生态全量索引（{listed} 仓库）")
+    now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
+    out.append(f"> 汇集 [dsh-external/hub](https://github.com/dsh-external/hub) 的 `catalog.json` 与 GitHub 公开 [dsh-plugin Topic](https://github.com/topics/dsh-plugin) 的全量生态索引 · 生成于 {now}")
+    out.append(f"> 精选列表见 [README](README.md)；本页为公开生态全量索引（{listed} hub 仓库 + {len(topic_repos)} 公开 topic 仓库）")
     out.append("")
 
     # 分类顺序
