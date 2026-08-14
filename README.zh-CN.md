@@ -119,6 +119,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [session-chatlog](https://github.com/dsh-external/session-chatlog) - 会话聊天记录
 - [dsh-memory-evolve](https://github.com/dsh-external/dsh-memory-evolve) - 跨会话长期记忆 + 后台自我进化（五轨记忆/Git 分支感知/技能进化）
 - [dsh-engram-relay](https://github.com/dsh-external/dsh-engram-relay) - 内置 <1B 模型实现 100k 等效长记忆，因果图精准唤醒
+- [dsh-mneme](https://github.com/modusensus/dsh-mneme) - 跨会话记忆且主权归用户：SQLite + 可人工编辑的 Markdown 双写、autoDream 后台记忆巩固、106 个测试护航。
 - [dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) - Mnemon 驱动的本地记忆系统：三层记忆（运行时热记忆/项目档案 Documents/长期记忆体 Memory Spaces），受监督写回、检索工具与 Web UI
 - [zotero-harvest](https://github.com/dsh-external/zotero-harvest) - Zotero 文献库接入
 - [zotero-wave-rag](https://github.com/dsh-external/zotero-wave-rag) - Zotero RAG 检索
