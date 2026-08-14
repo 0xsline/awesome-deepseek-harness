@@ -186,6 +186,8 @@ Management panel: Settings → Plugins.
 - [dsh-slice-agent-loop](https://github.com/dsh-external/dsh-slice-agent-loop) - Drop-in agent loop with bounded-slice context engine (cordis).
 - [savemoneybenchmark](https://github.com/dsh-external/savemoneybenchmark) - Cost-reduction benchmark (examples + skills).
 - [dsh-harness-mcp-server](https://github.com/chushixixin/dsh-harness-mcp-server) - MCP server exposing Harness agent: any MCP client (e.g. Hermes) drives Harness as its 'arms'.
+- [dsh-subagent-tools](https://github.com/lynx-gt/dsh-subagent-tools) - Per-call model / provider / persona / toolFilter overrides for subagent delegation, @preset: references, provider/model composite ids (bundle, no patched files).
+- [dsh-subagent-cwd](https://github.com/lynx-gt/dsh-subagent-cwd) - dsh-subagent-tools plus a per-call cwd for subagents, with the two in-process provider patches it requires.
 
 ## Git & Engineering
 

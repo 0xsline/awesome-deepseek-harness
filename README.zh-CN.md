@@ -184,6 +184,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-slice-agent-loop](https://github.com/dsh-external/dsh-slice-agent-loop) - Drop-in agent loop：有界 slice 上下文引擎（cordis）
 - [savemoneybenchmark](https://github.com/dsh-external/savemoneybenchmark) - 降本增效 benchmark（examples + skills）
 - [dsh-harness-mcp-server](https://github.com/chushixixin/dsh-harness-mcp-server) - MCP server 暴露 Harness agent：任意 MCP 客户端（如 Hermes）驱动 Harness 当「胳膊」。
+- [dsh-subagent-tools](https://github.com/lynx-gt/dsh-subagent-tools) - 子代理委派按次覆盖 model / provider / persona / toolFilter、@preset: 引用、provider/model 复合 id（bundle，不改官方文件）。
+- [dsh-subagent-cwd](https://github.com/lynx-gt/dsh-subagent-cwd) - dsh-subagent-tools 加按次 cwd（子代理工作目录），附所需的两处进程内 provider 补丁。
 
 ## Git & Engineering
 
