@@ -217,6 +217,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-harness-mcp-server](https://github.com/chushixixin/dsh-harness-mcp-server) - MCP server 暴露 Harness agent：任意 MCP 客户端（如 Hermes）驱动 Harness 当「胳膊」。
 - [dsh-subagent-tools](https://github.com/lynx-gt/dsh-subagent-tools) - 子代理委派按次覆盖 model / provider / persona / toolFilter、@preset: 引用、provider/model 复合 id（bundle，不改官方文件）。
 - [dsh-subagent-cwd](https://github.com/lynx-gt/dsh-subagent-cwd) - dsh-subagent-tools 加按次 cwd（子代理工作目录），附所需的两处进程内 provider 补丁。
+- [dsh-subscription-auth](https://github.com/Khellendros97/dsh-subscription-auth) - 订阅会员 OAuth 登录：ChatGPT/Claude/Grok/Kimi 按订阅账号（非 API key）访问模型，登录后自动发现官方模型列表
 
 ## Git & Engineering
 
