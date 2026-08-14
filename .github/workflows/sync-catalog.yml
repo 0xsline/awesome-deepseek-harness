@@ -1,9 +1,6 @@
 name: sync-catalog
 
 on:
-  schedule:
-    # 每天 03:00 UTC（北京时间 11:00）
-    - cron: '0 3 * * *'
   workflow_dispatch:
 
 permissions:
