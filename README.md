@@ -221,6 +221,7 @@ Management panel: Settings → Plugins.
 - [dsh-emoji](https://github.com/dsh-external/dsh-emoji) - Emoji plugin (cordis). · [Fun & Lifestyle]
 - [dsh-stock-market](https://github.com/dsh-external/dsh-stock-market) - Stock market data plugin. · [Fun & Lifestyle]
 - [dsh-travel-plugin](https://github.com/dsh-external/dsh-travel-plugin) - Travel plugin. · [Fun & Lifestyle]
+- [dsh-weather](https://github.com/sunshine-lang/dsh-weather) - Weather tool: current conditions and multi-day forecasts via Open-Meteo (free, no API key).
 - [dsh-ui-whale](https://github.com/dsh-external/dsh-ui-whale) - Pixel whale companion (blink/tail/spout/hearts).
 - [dsh-pet](https://github.com/FlytoMAYDAY80/dsh-pet) - Desktop whale pet with live session state.
 - [dsh-pet-rs](https://github.com/dsh-external/dsh-pet-rs) - Desktop pet, Rust edition.
