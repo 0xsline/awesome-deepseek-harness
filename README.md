@@ -261,6 +261,7 @@ Management panel: Settings → Plugins.
 - [tg-bot](https://github.com/dsh-external/tg-bot) - Telegram bot.
 - [qqbot](https://github.com/dsh-external/qqbot) - QQ bot.
 - [dsh-wecom-bot](https://github.com/dsh-external/dsh-wecom-bot) - WeCom bot.
+- [dsh-im-hub](https://github.com/ThreeBody6666/dsh-im-hub) - Multi-platform IM gateway: Feishu (Lark) WebSocket long connection, WeCom (WeChat Work) encrypted callbacks, and Telegram long polling; per-chat agent sessions, whitelist access, no public endpoint required.
 - [dsh-weixin-bot](https://github.com/dsh-external/dsh-weixin-bot) - WeChat bot.
 - [dsh-voice-chat](https://github.com/dsh-external/dsh-voice-chat) - Voice chat.
 - [dsh-web-ui-notify](https://github.com/dsh-external/dsh-web-ui-notify) - WebUI notifications.
