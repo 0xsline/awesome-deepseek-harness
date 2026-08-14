@@ -310,6 +310,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-mcp-panel](https://github.com/PerryLink/dsh-mcp-panel) - 官方 MCP 客户端的只读运行时管理面板：/mcp 命令与设置页 MCP 页签展示连接状态、已注册工具、错误与重连计数，脱敏展示并提供启停 patch 建议。
 - [dsh-passwords](https://github.com/slywalker2006/dsh-passwords) - DSH Web UI 登录网关：首次配置、bcrypt + 静态加密（AES-256-GCM/HMAC）、防暴力破解、审计日志、TLS 1.2+ 与 80→443 跳转、CSRF 与防嵌框。
 
+- [easyeda-agent](https://github.com/zhoushoujianwork/easyeda-agent) - 嘉立创EDA专业版(EasyEDA Pro)自动化：Go daemon + 编辑器内连接器 + agent skill + stdio MCP server，typed 原理图/PCB 动作、流程门禁与 DRC。
 - [dsh-adb](https://github.com/SamXiaBing/dsh-adb) - ADB 设备与台架运维：设备发现、结构化 logcat（后台采集）、apk 安装、文件 pull/push、性能快照
 - [dsh-restart](https://github.com/anweat/dsh-restart) - DSH 重启插件：可配置的重启方式（Node 原生/旧 PowerShell 适配）、重启后自动继续的提示词、可选看门狗自动拉起。
 
