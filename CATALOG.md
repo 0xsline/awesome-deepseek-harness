@@ -244,6 +244,7 @@
 | [dsh-feishu-bot](https://github.com/dsh-external/dsh-feishu-bot) | 飞书 remote channel |
 | [dsh-ica](https://github.com/dsh-external/dsh-ica) | dsh 接 icalingua（QQ 客户端）前端（推断：IM 渠道，待作者确认） |
 | [dsh-wecom-bot](https://github.com/dsh-external/dsh-wecom-bot) | 企业微信 remote channel |
+| [dsh-im-hub](https://github.com/ThreeBody6666/dsh-im-hub) | 多平台 IM 网关：飞书（Lark）WebSocket 长连接、企业微信加密回调、Telegram 长轮询；每会话独立 agent、白名单访问、默认无需公网地址 |
 | [dsh-weixin-bot](https://github.com/dsh-external/dsh-weixin-bot) | 微信 remote channel |
 | [qqbot](https://github.com/dsh-external/qqbot) | QQ remote channel |
 | [telegram](https://github.com/dsh-external/telegram) | Telegram Bot API 桥接（长轮询、per-chat 会话） |

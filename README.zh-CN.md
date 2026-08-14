@@ -257,6 +257,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [tg-bot](https://github.com/dsh-external/tg-bot) - Telegram bot
 - [qqbot](https://github.com/dsh-external/qqbot) - QQ bot
 - [dsh-wecom-bot](https://github.com/dsh-external/dsh-wecom-bot) - 企业微信 bot
+- [dsh-im-hub](https://github.com/ThreeBody6666/dsh-im-hub) - 多平台 IM 网关：飞书（Lark）WebSocket 长连接、企业微信加密回调、Telegram 长轮询；每会话独立 agent、白名单访问、默认无需公网地址。
 - [dsh-weixin-bot](https://github.com/dsh-external/dsh-weixin-bot) - 微信 bot
 - [dsh-voice-chat](https://github.com/dsh-external/dsh-voice-chat) - 语音对话
 - [dsh-web-ui-notify](https://github.com/dsh-external/dsh-web-ui-notify) - WebUI 通知
