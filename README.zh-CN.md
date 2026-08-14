@@ -253,6 +253,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-recommend](https://github.com/zp-home/dsh-recommend) - 插件透明排行与推荐：每日自动抓取 dsh-plugin 话题生态、公开评分模型，提供榜单/搜索/推荐工具与设置页排行榜。
 - [dsh-eval](https://github.com/hccccc01333/dsh-eval) - Agent 评测平台：benchmark YAML、headless dsh 运行、trace 指标、脚本化评分与 run 对比/报告。
 - [dsh-session-cleaner](https://github.com/fountunt/dsh-session-cleaner) - 无需重启即可删除运行中 Web 运行时里的会话：实时存储、工作区记录与磁盘工件一并清理。
+- [dsh-mcp-panel](https://github.com/PerryLink/dsh-mcp-panel) - 官方 MCP 客户端的只读运行时管理面板：/mcp 命令与设置页 MCP 页签展示连接状态、已注册工具、错误与重连计数，脱敏展示并提供启停 patch 建议。
 
 ## Science & Research
 
