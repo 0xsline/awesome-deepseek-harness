@@ -194,6 +194,7 @@ Management panel: Settings → Plugins.
 ## Models & Inference
 
 - [dsh-vision](https://github.com/dsh-external/dsh-vision) - Vision bridge: view_image tool over any OpenAI-compatible VLM (Zhipu free tier by default).
+- [dsh-plugin-vision](https://github.com/tdf1995/dsh-plugin-vision) - Vision for text-only LLMs: image description / OCR / VQA via free Gemini and GLM vision APIs.
 - [dsh-advisor](https://github.com/dsh-external/dsh-advisor) - Second model passively reviews each turn and injects notes.
 - [dsh-llm-fallbacks](https://github.com/dsh-external/dsh-llm-fallbacks) - Role-based LLM retry/fallback strategy.
 - [dsh-pi-adapter](https://github.com/dsh-external/dsh-pi-adapter) - ExtensionAPI bridge for pi.
