@@ -41,6 +41,7 @@
 - [Browser & Remote](#browser--remote)
 - [Models & Inference](#models--inference)
 - [Git & Engineering](#git--engineering)
+- [输出与交付](#输出与交付)
 - [Notifications & Channels](#notifications--channels)
 - [Fun & Lifestyle](#fun--lifestyle)
 - [Infrastructure & Development](#infrastructure--development)
@@ -203,6 +204,10 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-review-loop](https://github.com/wuxiangru915/dsh-review-loop) - 增量代码审查插件：checkpoint 增量队列 + Web 审查面板 + /review 命令，审查意见注入 agent
 - [dsh-test-runner](https://github.com/suimi8/dsh-test-runner) - 结构化测试运行工具（test_run）：自动识别 Vitest/Jest/pytest/node:test，运行测试并为模型解析失败摘要。
 - [dsh-doublecheck](https://github.com/PerryLink/dsh-doublecheck) - 工程纪律闭环：动工前盘问需求、红绿测试证据门、交付前对抗式审查。
+
+## 输出与交付
+
+- [dsh-report-studio](https://github.com/ciceroyang/dsh-report-studio) - 把 DeepSeek Harness 会话一键变成工作日报/周报/交接文档/公众号文章，附可验证凭据（报告与产物哈希）。
 
 ## Notifications & Channels
 
