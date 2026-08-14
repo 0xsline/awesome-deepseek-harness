@@ -33,7 +33,7 @@
 ## Contents
 
 - [Install](#install)
-- [Core & Official](#core--official)
+- [Core](#core)
 - [Context & Search](#context--search)
 - [Input & Editing](#input--editing)
 - [UI & Experience](#ui--experience)
@@ -67,16 +67,16 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 管理面板：设置 → 「插件」。
 
-## Core & Official
+## Core
 
-- [dsh-deepresearch](https://github.com/dsh-external/dsh-deepresearch) - deepresearch 插件（cordis）。 · [Core & Official]
+- [dsh-deepresearch](https://github.com/dsh-external/dsh-deepresearch) - deepresearch 插件（cordis）。 · [Core]
 - [dsh-plan-execute](https://github.com/dsh-external/dsh-plan-execute) - plan/execute 双模型路由：规划模型思考、执行模型干活
-- [dsh-toolkit](https://github.com/dsh-external/dsh-toolkit) - 官方工具套件（calculator/csv/diff/encoding/json/markdown/regex/time）
-- [dsh-deep-research](https://github.com/dsh-external/dsh-deep-research) - 自适应深度研究编排器（官方 workflow 引擎）
+- [dsh-toolkit](https://github.com/dsh-external/dsh-toolkit) - 零依赖工具套件（calculator/csv/diff/encoding/json/markdown/regex/time）
+- [dsh-deep-research](https://github.com/dsh-external/dsh-deep-research) - 自适应深度研究编排器（workflow 引擎）
 - [dsh-101](https://github.com/dsh-external/dsh-101) - DSH 文档阅读模式
 - [dsh-client-ui-plan-execute](https://github.com/dsh-external/dsh-client-ui-plan-execute) - Web 设置页「规划/执行模型」配置行
 
-- [dsh_workflow](https://github.com/dsh-external/dsh_workflow) - Dynamic Workflow for dsh（占位）。 · [Core & Official]
+- [dsh_workflow](https://github.com/dsh-external/dsh_workflow) - Dynamic Workflow for dsh（占位）。 · [Core]
 ## Context & Search
 
 - [context-vista](https://github.com/GooodWei/context-vista) - 为 DeepSeek Harness 提供右侧悬浮栏以及 /context 命令，用环形图实时展示当前上下文 token 用量与分配及消费估算 · [Context & Search]

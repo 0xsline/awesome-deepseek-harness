@@ -34,7 +34,7 @@
 ## Contents
 
 - [Install](#install)
-- [Core & Official](#core--official)
+- [Core](#core)
 - [Context & Search](#context--search)
 - [Input & Editing](#input--editing)
 - [UI & Experience](#ui--experience)
@@ -68,16 +68,16 @@ The former `&path:` sub-path and Repository Plugin installation forms are not pa
 
 Management panel: Settings → Plugins.
 
-## Core & Official
+## Core
 
-- [dsh-deepresearch](https://github.com/dsh-external/dsh-deepresearch) - DeepResearch plugin (cordis). · [Core & Official]
+- [dsh-deepresearch](https://github.com/dsh-external/dsh-deepresearch) - DeepResearch plugin (cordis). · [Core]
 - [dsh-plan-execute](https://github.com/dsh-external/dsh-plan-execute) - Dual-model plan/execute routing: planner model thinks, executor model acts.
-- [dsh-toolkit](https://github.com/dsh-external/dsh-toolkit) - Official tool suite (calculator/csv/diff/encoding/json/markdown/regex/time).
-- [dsh-deep-research](https://github.com/dsh-external/dsh-deep-research) - Adaptive deep-research orchestrator (official workflow engine).
+- [dsh-toolkit](https://github.com/dsh-external/dsh-toolkit) - Zero-dependency tool suite (calculator/csv/diff/encoding/json/markdown/regex/time).
+- [dsh-deep-research](https://github.com/dsh-external/dsh-deep-research) - Adaptive deep-research orchestrator (workflow engine).
 - [dsh-101](https://github.com/dsh-external/dsh-101) - DSH documentation reading mode.
 - [dsh-client-ui-plan-execute](https://github.com/dsh-external/dsh-client-ui-plan-execute) - Web Settings row for plan/execute model routing.
 
-- [dsh_workflow](https://github.com/dsh-external/dsh_workflow) - Dynamic workflow for DSH (placeholder). · [Core & Official]
+- [dsh_workflow](https://github.com/dsh-external/dsh_workflow) - Dynamic workflow for DSH (placeholder). · [Core]
 ## Context & Search
 
 - [billion-context-dsh](https://github.com/Tyan66666/billion-context-dsh) - Model-driven context compression (ACP) for DeepSeek Harness, ported from billion-context-pi; the model decides when and what to compress.
