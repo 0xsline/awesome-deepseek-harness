@@ -348,6 +348,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [dsh-external/issues](https://github.com/dsh-external/issues) - Issue 聚合仓库
 - [dsh-meme-hub](https://github.com/the-beating-light-of-the-nail/dsh-meme-hub) - 社区整活插件导航（皮肤/桌宠/小游戏），中英双语
+- [DeepSeek Harness Handbook](https://github.com/sandbaseai/deepseek-harness-handbook) - 从 Agent 视角讲解 DSH 运行、扩展与排障的来源可追溯手册，提供多语言导航和可下载的速查指南
 - [DeepSeek](https://deepseek.com) - 官方入口
 
 ## Contributing
