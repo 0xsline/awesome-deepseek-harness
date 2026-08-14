@@ -210,6 +210,8 @@ Management panel: Settings → Plugins.
 - [dsh-auto-blame](https://github.com/dsh-external/dsh-auto-blame) - Auto blame.
 - [dsh-tool-git](https://github.com/lxj808624/dsh-tool-git) - Structured Git tools (status/diff/log/branch/stage/commit/stash/show) with a destructive-command guard.
 - [dsh-plugin-check](https://github.com/dsh-external/dsh-plugin-check) - Plugin health checks (manifest/patch format/build pitfalls/hub status).
+- [dsh-telemetry-redactor](https://github.com/030611/dsh-telemetry-redactor) - Redacts supported secret patterns from the `session-telemetry/record` export copy before configured telemetry backends receive it.
+- [dsh-verification-receipt](https://github.com/030611/dsh-verification-receipt) - Writes local JSONL summaries of per-turn tool counts and coarse verification signals without storing prompts, tool arguments, or result text.
 - [dsh-inspect](https://github.com/dsh-external/dsh-inspect) - Adversarial checkup → fix → review loop.
 - [dsh-alphasolve](https://github.com/dsh-external/dsh-alphasolve) - AlphaSolve workflow.
 - [mstar-workflow](https://github.com/dsh-external/mstar-workflow) - Workflow engine.
