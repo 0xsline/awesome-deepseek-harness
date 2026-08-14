@@ -114,6 +114,7 @@ Management panel: Settings → Plugins.
 - [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) - Import Claude Code JSONL transcripts (tool history + thinking blocks) as resumable DeepSeek Harness sessions.
 - [dsh-sticky-note](https://github.com/Meredith2328/dsh-sticky-note) - Quick sticky notes in the composer: ideas/feelings/TODO with Markdown preview, auto-save, one-click send to chat.
 - [dsh-plugin-quote-reply](https://github.com/yangYzc/dsh-plugin-quote-reply) - Select text in a conversation, then quote it into the composer or reply in a new window.
+- [@picgo/dsh-plugin](https://github.com/PicGo/dsh-plugin) - Official PicGo plugin: upload local files to your image host and get public URLs, reusing the hosts and uploader plugins already configured in PicGo.
 
 - [dsh-suggested-replies](https://github.com/dsh-external/dsh-suggested-replies) - Suggested replies above the DSH Web composer. · [Input & Editing]
 ## UI & Experience
