@@ -1234,7 +1234,7 @@
 | [NexusAgentX/dsh-mcp-adapter](https://github.com/NexusAgentX/dsh-mcp-adapter) | MCP adapter for DeepSeek Harness — one proxy tool instead of dumping every MCP schema into context. |
 | [NinjaSln-labs/dsh-plugins](https://github.com/NinjaSln-labs/dsh-plugins) | DSH plugin collection: DeepSeek Harness community plugins (session-health, knowledge, ...) |
 | [NoWint/Oh-My-DSH](https://github.com/NoWint/Oh-My-DSH) | 🐋 DeepSeek Harness 插件精选集 · 300+ dsh-plugin 收录 · 22 大分类 |
-| [Nwflower/dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) | 从Claude Code、Codex、Reasonix等Agent工具导入历史消息，并在DSH中继续对话 |
+| [Nwflower/dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) | 从 Claude Code、Codex、ChatGPT、Cursor、Gemini、Reasonix、opencode 7 种 Agent 工具导入历史消息，并在 DSH 中继续对话 |
 | [Nwflower/dsh-file-claim](https://github.com/Nwflower/dsh-file-claim) | File claim / protection for concurrent DeepSeek Harness (DSH) sessions working the same workspace: claim/release, heartbeat stale takeover, async pending merge area (git 3-way merge). DSH Host plugin. |
 | [octoparse/agent-skills](https://github.com/octoparse/agent-skills) | Collection of Octoparse agent skills |
 | [omdsh-dev/dsh-book2skill](https://github.com/omdsh-dev/dsh-book2skill) | DSH book-to-skill plugin: a 5-stage long task (fetch → parse → understand → generate → install) with 3 human gates, host tools for the agent and a browser timeline panel |
