@@ -198,6 +198,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 ## Browser & Remote
 
 - [dsh-browser-panel](https://github.com/dsh-external/dsh-browser-panel) - WebUI 内嵌有头浏览器，模型实时操控（Codex 式，0 视觉依赖）
+- [dsh-builtin-browser](https://github.com/wqty123/dsh-browser) - DSH 共享真实浏览器：用户可见、可随时接管的 WebContentsView，由 agent 通过 CDP 驱动（需要提供 `electronViewHost` 的桌面外壳）。
 - [dsh-browser](https://github.com/dsh-external/dsh-browser) - Chrome 侧边栏扩展
 - [dsh-deeplink](https://github.com/dsh-external/dsh-deeplink) - 通过 URL 参数直接打开 DSH WebUI 会话或工作区。
 - [dsh-remote](https://github.com/flymysql/dsh-remote) - 多机远程工作区：管理多个 SSH 主机，在原生 Add-workspace 流程中选择本地或远程工作区（系统文件夹/路径浏览），把远程工作区镜像到本地真实文件夹，用 rw_* 工具操作。
