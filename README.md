@@ -196,8 +196,7 @@ Management panel: Settings → Plugins.
 - [dsh-browser-panel](https://github.com/dsh-external/dsh-browser-panel) - Headed browser embedded in the WebUI, model-driven (Codex-style, zero vision deps).
 - [dsh-browser](https://github.com/dsh-external/dsh-browser) - Chrome sidebar extension.
 - [dsh-deeplink](https://github.com/dsh-external/dsh-deeplink) - Open DSH WebUI sessions or workspaces directly from URL parameters.
-- [dsh-remote](https://github.com/dsh-external/dsh-remote) - SSH remote control.
-- [dsh-remote](https://github.com/flymysql/dsh-remote) - Remote-access assistant: prints the exact SSH local-forward / autossh / reverse-tunnel / reverse-proxy commands for the live instance (the web GUI binds loopback only).
+- [dsh-remote](https://github.com/flymysql/dsh-remote) - Remote workspace for DeepSeek Harness: connect a host over SSH (password or key), pick a remote workspace directory, and operate on it with rw_pick_workspace / rw_list_dir / rw_read_file / rw_exec tools.
 - [dsh-lan-access](https://github.com/Leon0555/dsh-lan-access) - LAN access for the Web GUI: 0.0.0.0 bind plus a crypto.randomUUID polyfill for non-secure (LAN HTTP) contexts (npm: dsh-lan-access).
 - [ego-browser](https://github.com/dsh-external/ego-browser) - Browser agent.
 - [dsh-webbridge](https://github.com/dsh-external/dsh-webbridge) - Web bridge.
