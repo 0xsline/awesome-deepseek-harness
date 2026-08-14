@@ -45,6 +45,7 @@
 - [Notifications & Channels](#notifications--channels)
 - [Fun & Lifestyle](#fun--lifestyle)
 - [Infrastructure & Development](#infrastructure--development)
+- [Data & Market](#data--market)
 - [Related](#related)
 - [Science & Research](#science--research)
 - [Thanks](#thanks)
@@ -280,7 +281,6 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [dsh-agent-rp](https://github.com/dsh-external/dsh-agent-rp) - SillyTavern 迁移与下一代 DSH Agent RP。
 - [dsh-emoji](https://github.com/dsh-external/dsh-emoji) - emoji 插件（cordis）。
-- [dsh-stock-market](https://github.com/dsh-external/dsh-stock-market) - 股票行情插件。
 - [dsh-travel-plugin](https://github.com/dsh-external/dsh-travel-plugin) - 旅行小插件。
 - [dsh-weather](https://github.com/sunshine-lang/dsh-weather) - 天气工具：实时天气与多日预报，数据来自 Open-Meteo（免费，无需 API key）。
 - [dsh-pdf](https://github.com/sunshine-lang/dsh-pdf) - PDF 工具箱：基于 pdfjs-dist 提取文本、元数据与页码范围（本地解析，无需 API key）。
@@ -337,6 +337,11 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [create-dsh-plugin](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/create-dsh-plugin) - 秒建 DSH 插件脚手架（tool/events/webui 模板、锁 `next` 版本、内置 `--verify` 冒烟验证）。
 - [plugin-manager](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-manager) - DSH Web UI 内置插件应用商店：目录浏览/搜索/一键安装/兼容徽章/已装列表。
 - [plugin-team-board](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-team-board) - 多 agent 共享任务板（创建/认领/流转/查询），状态物化为 Cordis 协作用键。
+
+## Data & Market
+
+- [dsh-stock-market](https://github.com/dsh-external/dsh-stock-market) - 沪深 A 股行情数据插件。
+- [dsh-us-stocks](https://github.com/Realyujie/dsh-us-stocks) - 美股行情、历史 K 线、财务报表、分析师共识与新闻，基于 yahoo-finance2。
 
 ## Science & Research
 
