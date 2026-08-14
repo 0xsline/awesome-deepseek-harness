@@ -267,6 +267,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 ## Related
 
 - [dsh-external/issues](https://github.com/dsh-external/issues) - Issue 聚合仓库
+- [dsh-meme-hub](https://github.com/the-beating-light-of-the-nail/dsh-meme-hub) - 社区整活插件导航（皮肤/桌宠/小游戏），中英双语
 - [DeepSeek](https://deepseek.com) - 官方入口
 
 ## Contributing
