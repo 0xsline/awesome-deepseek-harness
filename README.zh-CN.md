@@ -207,6 +207,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-voice-chat](https://github.com/dsh-external/dsh-voice-chat) - 语音对话
 - [dsh-web-ui-notify](https://github.com/dsh-external/dsh-web-ui-notify) - WebUI 通知
 - [dsh-notify-windows](https://github.com/SeverusZh/dsh-notify-windows) - Windows 通知，零依赖
+- [dsh-sound](https://github.com/yeshimei/dsh-sound) - 网络错误、审批、提问、回合完成的场景化提示音。
 - [dsh-ica](https://github.com/dsh-external/dsh-ica) - icalingua 前端
 - [dsh-opencode-server](https://github.com/dsh-external/dsh-opencode-server) - opencode attach 丝滑 TUI
 - [dsh-teamwork](https://github.com/dsh-external/dsh-teamwork) - 团队协作（cordis）

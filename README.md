@@ -209,6 +209,7 @@ Management panel: Settings → Plugins.
 - [dsh-voice-chat](https://github.com/dsh-external/dsh-voice-chat) - Voice chat.
 - [dsh-web-ui-notify](https://github.com/dsh-external/dsh-web-ui-notify) - WebUI notifications.
 - [dsh-notify-windows](https://github.com/SeverusZh/dsh-notify-windows) - Windows notifications, zero dependencies.
+- [dsh-sound](https://github.com/yeshimei/dsh-sound) - Distinct alert sounds for network errors, approvals, questions, and turn completions.
 - [dsh-ica](https://github.com/dsh-external/dsh-ica) - ICalingua frontend.
 - [dsh-opencode-server](https://github.com/dsh-external/dsh-opencode-server) - Smooth TUI via opencode attach.
 - [dsh-teamwork](https://github.com/dsh-external/dsh-teamwork) - Team collaboration (cordis).
