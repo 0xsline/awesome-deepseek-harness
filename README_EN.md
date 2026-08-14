@@ -38,7 +38,6 @@ This project follows a curated, quality-over-quantity approach to collecting exc
   - [Community](#community)
 - [Community Resources](#community-resources)
   - [Guides and Analysis](#guides-and-analysis)
-  - [Private Beta Experiences](#private-beta-experiences)
   - [Community Discussions](#community-discussions)
 - [Third-Party Clients](#third-party-clients)
   - [Desktop Apps and Distributions](#desktop-apps-and-distributions)
@@ -151,17 +150,7 @@ You are also welcome to join the Chinese DeepSeek Harness community. Scan the QR
 | [Dissecting DeepSeek Harness](https://xueai.app/slides/learn.html#dsh-1.html) | Interactive source-code course | Breaks down sessions, context, tools, sandboxing, Code Mode, Subagents, and other core mechanisms; some content requires signing in |
 | [DeepSeek Harness from Zero to One](https://yanhua1010.github.io/dsh-harness-tutorial/) | Chinese guide and demos | Covers concepts, source walkthroughs, eight demos, and a `mini-harness` teaching project; based on `0.1.0-rc.6` |
 | [Hello DSH](https://github.com/pingfanfan/hello-dsh) | Plugin introduction and Skills | Goes from terminal setup to a first code plugin, with 22 Chinese Skill examples, dry-run installation, and uninstall steps; verified on `0.1.0-rc.6` |
-
-### Private Beta Experiences
-
-The following articles come from DSH private-beta participants and plugin authors. They complement the official documentation with source-level practice, plugin development, and early community experience.
-
-| Article | WeChat Account | First-hand Evidence and Why It Matters |
-| --- | --- | --- |
-| [From Vibe Coding to Vibe Assembly: I Replaced DeepSeek Harness's Official Agent Loop](https://mp.weixin.qq.com/s?src=11&timestamp=1786637084&ver=6902&signature=AmuyYYqPuPbw5G2jpJYbyn32WfqGpqQ5LFXWFbkahd791Xoyf5AHdeO0xALhXn7HBVWBPHrcKBA1-73Hzux4HNsbi3QRok89GJsW7GadbXAn4MMl5xxa9D7BZYd98ISQ&new=1) | 自然膨胀 | The author states that they received a private-beta invitation and built an assembler that replaces the Agent Loop; includes a self-reported 76-round comparison and reflections on Vibe Assembly. Related project: [TT-Wang/sliceagent](https://github.com/TT-Wang/sliceagent) |
-| [DeepSeek Harness Private-Beta Technical Breakdown: Architecture, Ecosystem, Task Engine, and Operations](https://mp.weixin.qq.com/s?src=11&timestamp=1786636586&ver=6902&signature=5qBFaqg8tUoHqeaARYXZXqQR7TIhm6-A8hTn1l89K7fBYg75lM9%2AgkvFwRsFlpuNZxkOLFMp3Pz5RC0FXAVb5kSFba2A1f6OHfmA3Eb08bNBQi330OvXQaffRB2FKNI%2A&new=1) | cookbook之杂七杂八 | The author reports tracking private-beta snapshots for more than ten days and building supporting tools; covers Cordis events, Session Log, Surface, context compression, persistence, and operations. Related project: [fakechris/dsh-track](https://github.com/fakechris/dsh-track) |
-| [DeepSeek Harness May Be the Agent Harness That Best Matches Your Imagination](https://mp.weixin.qq.com/s?src=11&timestamp=1786636558&ver=6902&signature=ea1xi1hCFVZn4aDcUyC1SuFiyIr7xADTcQK%2AM1YmlXj2ffHZ6-ensj06csdXXayjppWFX00kyH8C7vTtl9EOEyfXLnWFmffmcqMmFAfdi8NApznAvYLtb11iP8%2AHjpgE&new=1) | GTOC | The author reports participating in the beta and porting Humanize; discusses the ecosystem value of the Web UI over a TUI, the difference between Plugins and Skills, the Trajectory timeline, and product possibilities. Related project: [zevorn/dsh-humanize](https://github.com/zevorn/dsh-humanize) |
-| [Thoughts After Participating in the DSH Private Beta](https://mp.weixin.qq.com/s?src=11&timestamp=1786637135&ver=6902&signature=f2kUSJauxSlkVXP-gNNPIRTnOpnLFlErLe4br99jXqa5DQMhCDnbDWewbtAMfQ6VIMH0W6Ac95tZ4VyWhtAVyNZawkPrsAw5igtwqPl5lNxNl8Mhd9tbuMK3IW%2AAvojR&new=1) | 减AI | The author explicitly states that they joined the beta and released [dsh-ads](https://github.com/Nagi-ovo/dsh-ads), [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize), and [dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins); useful for understanding how early plugin authors viewed the ecosystem. |
+| [DeepSeek Harness: From First Boot to Teardown](https://github.com/alchaincyf/deepseek-harness-orange-book) | Chinese hands-on ebook | Available as PDF, EPUB, and HTML, with the full system prompt, a 129-line default boot manifest, and three raw session logs; written within 24 hours of release, so details may change as DSH evolves |
 
 ### Community Discussions
 

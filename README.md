@@ -38,7 +38,6 @@
   - [讨论社区](#讨论社区)
 - [社区资源](#社区资源)
   - [分析教程](#分析教程)
-  - [内测体验](#内测体验)
   - [社区讨论](#社区讨论)
 - [第三方客户端](#第三方客户端)
   - [桌面与发行版](#桌面与发行版)
@@ -151,17 +150,8 @@ dsh --profile web --dump-config
 | [解剖 DeepSeek Harness](https://xueai.app/slides/learn.html#dsh-1.html)         | 交互式源码专题  | 拆解会话、上下文、工具、沙箱、Code Mode 和 Subagent 等核心机制；部分内容需登录 |
 | [DeepSeek Harness 从零到一](https://yanhua1010.github.io/dsh-harness-tutorial/) | 中文教程与 Demo | 包含原理、源码拆解、8 个 Demo 和 `mini-harness` 教学项目；基于 `0.1.0-rc.6`    |
 | [Hello DSH](https://github.com/pingfanfan/hello-dsh/blob/main/README.zh.md)     | 插件入门与 Skill | 从终端安装讲到首个代码插件，附 22 个中文 Skill 示例、dry-run 与卸载流程；已在 `0.1.0-rc.6` 验证 |
+| [DeepSeek Harness：从开机到拆开](https://github.com/alchaincyf/deepseek-harness-orange-book) | 中文实测电子书 | 提供 PDF、EPUB 和 HTML，收录完整系统提示词、129 行默认启动清单与三份原始会话日志；写于发布后 24 小时内，内容可能随版本演进而变化 |
 
-### 内测体验
-
-以下内容来自参与 DSH 内测的开发者和插件作者，补充官方文档未覆盖的源码实践、插件开发与社区体验。
-
-| 文章                                                                                                                                                                                                                                                                                                          | 公众号             | 一手证据与推荐理由                                                                                                                                                                                                                                |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [《从 Vibe Coding 到 Vibe Assembly：我把 DeepSeek Harness 的官方 Agent Loop 换成了自己的》](https://mp.weixin.qq.com/s?src=11&timestamp=1786637084&ver=6902&signature=AmuyYYqPuPbw5G2jpJYbyn32WfqGpqQ5LFXWFbkahd791Xoyf5AHdeO0xALhXn7HBVWBPHrcKBA1-73Hzux4HNsbi3QRok89GJsW7GadbXAn4MMl5xxa9D7BZYd98ISQ&new=1) | 自然膨胀           | 作者自述收到内测邀请，并开发了替换 Agent Loop 的组装器；包含 76 轮自述对比实验与 Vibe Assembly 思考。相关项目：[TT-Wang/sliceagent](https://github.com/TT-Wang/sliceagent)                                                                        |
-| [《DeepSeek Harness 内测技术拆解：架构、生态、任务引擎与运维机制》](https://mp.weixin.qq.com/s?src=11&timestamp=1786636586&ver=6902&signature=5qBFaqg8tUoHqeaARYXZXqQR7TIhm6-A8hTn1l89K7fBYg75lM9%2AgkvFwRsFlpuNZxkOLFMp3Pz5RC0FXAVb5kSFba2A1f6OHfmA3Eb08bNBQi330OvXQaffRB2FKNI%2A&new=1)                     | cookbook之杂七杂八 | 作者自述连续跟踪十余天内测快照，并开发配套工具；覆盖 Cordis 事件、Session Log、Surface、上下文压缩、持久化与运维机制。相关项目：[fakechris/dsh-track](https://github.com/fakechris/dsh-track)                                                     |
-| [《DeepSeek Harness，可能是最能满足你想象力的 Agent Harness》](https://mp.weixin.qq.com/s?src=11&timestamp=1786636558&ver=6902&signature=ea1xi1hCFVZn4aDcUyC1SuFiyIr7xADTcQK%2AM1YmlXj2ffHZ6-ensj06csdXXayjppWFX00kyH8C7vTtl9EOEyfXLnWFmffmcqMmFAfdi8NApznAvYLtb11iP8%2AHjpgE&new=1)                          | GTOC               | 作者自述参与内测并移植 Humanize；讨论 Web UI 相比 TUI 的生态价值、Plugin 与 Skill 的区别、Trajectory 时间轴和产品化玩法。相关项目：[zevorn/dsh-humanize](https://github.com/zevorn/dsh-humanize)                                                  |
-| [《参与 dsh 内测有感》](https://mp.weixin.qq.com/s?src=11&timestamp=1786637135&ver=6902&signature=f2kUSJauxSlkVXP-gNNPIRTnOpnLFlErLe4br99jXqa5DQMhCDnbDWewbtAMfQ6VIMH0W6Ac95tZ4VyWhtAVyNZawkPrsAw5igtwqPl5lNxNl8Mhd9tbuMK3IW%2AAvojR&new=1)                                                                   | 减AI               | 作者明确自述入选内测，并公开了 [dsh-ads](https://github.com/Nagi-ovo/dsh-ads)、[dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) 和 [dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins)；适合观察插件作者如何理解早期生态。 |
 ### 社区讨论
 
 收录包含完整论述、实践细节或一手背景的公开社交媒体长帖，补充官方资料未覆盖的背景与实践细节。
