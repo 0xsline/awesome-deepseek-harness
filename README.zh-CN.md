@@ -148,6 +148,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-split-panes](https://github.com/dsh-external/dsh-split-panes) - 分栏
 - [dsh-ui-progress](https://github.com/dsh-external/dsh-ui-progress) - 进度
 - [dsh-skins](https://github.com/dsh-external/dsh-skins) - Web UI 皮肤
+- [dsh-skin](https://github.com/KinGao294/dsh-skin) - Codex 风格换肤 + 自定义背景插件：内置多套 --dsw-alias-* 配色，支持透明度/模糊调节的半透明壁纸层。
 - [dsh-chat-thumb](https://github.com/dsh-external/dsh-chat-thumb) - Chat 缩略图（cordis）
 - [show-bash-command](https://github.com/dsh-external/show-bash-command) - 显示命令具体内容而非描述
 - [turtle-ui](https://github.com/dsh-external/turtle-ui) - 官方 UI 插件参考实现
