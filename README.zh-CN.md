@@ -203,6 +203,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [dsh-vision](https://github.com/dsh-external/dsh-vision) - 视觉桥接：view_image 工具接任意 OpenAI 兼容 VLM（默认智谱免费档）
 - [dsh-plugin-vision](https://github.com/tdf1995/dsh-plugin-vision) - 为纯文本大模型提供视觉能力：通过免费的 Gemini / GLM 视觉 API 完成图像描述、OCR 与视觉问答
+- [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) - 内置免 Key 视觉链 + 像素级视觉工具（看图问答、定位、裁剪、像素对比、取色、OCR、矢量化、抠图、截图）；粘贴图片即可用，无 Python，一条命令安装
 - [dsh-advisor](https://github.com/dsh-external/dsh-advisor) - 副模型每轮被动审查并注入建议
 - [dsh-llm-fallbacks](https://github.com/dsh-external/dsh-llm-fallbacks) - 角色化 LLM 重试/备用策略
 - [dsh-pi-adapter](https://github.com/dsh-external/dsh-pi-adapter) - pi ExtensionAPI 桥接
