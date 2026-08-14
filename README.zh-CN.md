@@ -217,6 +217,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-emoji](https://github.com/dsh-external/dsh-emoji) - emoji 插件（cordis）。 · [Fun & Lifestyle]
 - [dsh-stock-market](https://github.com/dsh-external/dsh-stock-market) - 股票行情插件。 · [Fun & Lifestyle]
 - [dsh-travel-plugin](https://github.com/dsh-external/dsh-travel-plugin) - 旅行小插件。 · [Fun & Lifestyle]
+- [dsh-weather](https://github.com/sunshine-lang/dsh-weather) - 天气工具：实时天气与多日预报，数据来自 Open-Meteo（免费，无需 API key）。
 - [dsh-ui-whale](https://github.com/dsh-external/dsh-ui-whale) - 像素鲸鱼伙伴（眨眼/摆尾/喷水/爱心）
 - [dsh-pet](https://github.com/FlytoMAYDAY80/dsh-pet) - 桌面小鲸鱼，实时感知会话状态
 - [dsh-pet-rs](https://github.com/dsh-external/dsh-pet-rs) - 桌宠 Rust 版
