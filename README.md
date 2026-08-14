@@ -298,6 +298,7 @@ Management panel: Settings → Plugins.
 
 ## Infrastructure & Development
 
+- [Code2Skill](https://github.com/leechen298/Code2Skill) - Generate Functions, MCP tools, workflow Skills, and offline test packages from user-authorized source code.
 - [deepseek-harness-desktop](https://github.com/Easyhoov/deepseek-harness-desktop) - Unofficial in-process Windows desktop app with tray residency, native notifications, and an IPC bridge.
 - [dsh-hmz](https://github.com/dsh-external/dsh-hmz) - Placeholder repository; description pending.
 - [dsh-interpreters](https://github.com/dsh-external/dsh-interpreters) - Interpreter plugin (cordis).
