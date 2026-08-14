@@ -90,6 +90,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-memory-vault](https://github.com/flymysql/dsh-memory) - 跨会话记忆库：memory_remember / memory_recall / memory_forget 三工具，最新条目自动注入系统提示词，设置页（记忆库 / Memory）管理。
 - [dsh-session-search](https://github.com/dsh-external/dsh-session-search) - 跨 dsh/Codex/Claude Code/pi/OpenCode 会话只读搜索，无索引
 - [cross-harness-cite](https://github.com/dsh-external/cross-harness-cite) - 跨 harness 引用历史对话
+- [task-passport](https://github.com/dongsheng123132/task-passport) - 通过机器可读检查点与乐观锁，在 DeepSeek Harness、WorkBuddy、Claude Code 和 Codex 之间交接持久任务状态。
 - [dsh-session-cluster](https://github.com/dsh-external/dsh-session-cluster) - 会话聚类
 - [session-chatlog](https://github.com/dsh-external/session-chatlog) - 会话聊天记录
 - [dsh-memoria](https://github.com/jiayan-xu/dsh-memoria) - Memoria 记忆后端：为 dsh agent 提供 observe/remember/search/recall 四个工具，支持向量+图记忆、命名空间隔离、自动写入与配置热重载。
