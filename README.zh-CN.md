@@ -215,6 +215,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) - 内置免 Key 视觉链 + 像素级视觉工具（看图问答、定位、裁剪、像素对比、取色、OCR、矢量化、抠图、截图）；粘贴图片即可用，无 Python，一条命令安装
 - [dsh-vision-proxy](https://github.com/Flyvhidbwo/dsh-vision-proxy) - DeepSeek 大脑 + 自动识图：GUI 附加的每张图片自动经 OpenAI 兼容 VLM 转译成文字，再交给纯文本的 DeepSeek 作答——有 key 自动走快速通道（默认 qwen3.7-flash，支持百炼/智谱/OpenRouter 等任意 OpenAI 兼容端点），无 key 自动探测本地 Ollama（零配置，图片不出本机）。
 - [dsh-advisor](https://github.com/dsh-external/dsh-advisor) - 副模型每轮被动审查并注入建议
+- [dsh-clawrouter](https://github.com/BlockRunAI/dsh-clawrouter) - 阻断式安全闸门：更强的模型对危险工具调用给出放行/拒绝/询问，由工具执行器强制执行，而非提示词劝阻。可选 BlockRun x402 路由，一个钱包按次调用 67 个模型。
 - [dsh-llm-fallbacks](https://github.com/dsh-external/dsh-llm-fallbacks) - 角色化 LLM 重试/备用策略
 - [dsh-pi-adapter](https://github.com/dsh-external/dsh-pi-adapter) - pi ExtensionAPI 桥接
 - [dsh-a2a](https://github.com/dsh-external/dsh-a2a) - Agent2Agent mesh
