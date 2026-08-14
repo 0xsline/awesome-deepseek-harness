@@ -252,6 +252,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-feishu-bot](https://github.com/dsh-external/dsh-feishu-bot) - 飞书机器人
 - [dsh-feishu-notify](https://github.com/dsh-external/dsh-feishu-notify) - 飞书通知（会话结束/等待输入）
 - [telegram](https://github.com/dsh-external/telegram) - Telegram 频道
+- [dsh-telegram-channel](https://github.com/hi-wenw/dsh-telegram-channel) - Telegram 手机遥控器：附着本机正在运行的 DSH Web 会话（`/sessions` 选择、绑定/解绑），与电脑同轨迹（Codex 风格）。
 - [tg-bot](https://github.com/dsh-external/tg-bot) - Telegram bot
 - [qqbot](https://github.com/dsh-external/qqbot) - QQ bot
 - [dsh-wecom-bot](https://github.com/dsh-external/dsh-wecom-bot) - 企业微信 bot
