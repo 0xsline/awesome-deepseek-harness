@@ -44,6 +44,7 @@
 - [Fun & Lifestyle](#fun--lifestyle)
 - [Infrastructure & Development](#infrastructure--development)
 - [Related](#related)
+- [Science & Research](#science--research)
 - [Thanks](#thanks)
 
 ## Install
@@ -252,6 +253,10 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dshp](https://github.com/asdf17128/dshp) - Profile 管理器：列出/新建/克隆/对比 profile，并把整套配置（bundle 顺序、插件版本、patch）导出为单个可移植文件。
 - [dsh-recommend](https://github.com/zp-home/dsh-recommend) - 插件透明排行与推荐：每日自动抓取 dsh-plugin 话题生态、公开评分模型，提供榜单/搜索/推荐工具与设置页排行榜。
 - [dsh-eval](https://github.com/hccccc01333/dsh-eval) - Agent 评测平台：benchmark YAML、headless dsh 运行、trace 指标、脚本化评分与 run 对比/报告。
+
+## Science & Research
+
+- [dsh-science](https://github.com/biociao/dsh-science) — 面向 DSH 的 Claude Science 式科研工作台：ReAct 研究循环引擎（research_* 工具）、带溯源的版本化工件（artifact_* 工具）与面向基因组/病原体/生物信息的 10 个科研技能。
 
 ## Related
 
