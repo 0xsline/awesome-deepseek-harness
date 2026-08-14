@@ -299,6 +299,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-doctor](https://github.com/asdf17128/dsh-doctor) - Profile 体检：检出 patch 整体替换 config 而丢失的字段、指向不存在 entry id 的 patch，以及工具重名冲突。
 - [dsh-portable-launcher](https://github.com/15828148/dsh-portable-launcher) - dsh Web UI 的 Windows 一键便携启动器：自动安装 Node.js 和 dsh，国内镜像回退，重试与断点续传。
 - [dsh-desktop-launcher](https://github.com/becomeless/dsh-desktop-launcher) - Windows 桌面启动器：双击图标一键启动 dsh Web（无命令行窗口，关窗即停、会话续接），一行命令安装。
+- [dsh-quickstart](https://github.com/qzhqzh/dsh-quickstart) - Windows 桌面启动器（零依赖 npm CLI）：双击桌面快捷方式无窗口启动 dsh web，就绪后自动打开浏览器。
 - [dshp](https://github.com/asdf17128/dshp) - Profile 管理器：列出/新建/克隆/对比 profile，并把整套配置（bundle 顺序、插件版本、patch）导出为单个可移植文件。
 - [dsh-recommend](https://github.com/zp-home/dsh-recommend) - 插件透明排行与推荐：每日自动抓取 dsh-plugin 话题生态、公开评分模型，提供榜单/搜索/推荐工具与设置页排行榜。
 - [dsh-eval](https://github.com/hccccc01333/dsh-eval) - Agent 评测平台：benchmark YAML、headless dsh 运行、trace 指标、脚本化评分与 run 对比/报告。
