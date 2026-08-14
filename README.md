@@ -256,6 +256,7 @@ Management panel: Settings → Plugins.
 - [dsh-feishu-bot](https://github.com/dsh-external/dsh-feishu-bot) - Feishu bot.
 - [dsh-feishu-notify](https://github.com/dsh-external/dsh-feishu-notify) - Feishu notifications (session end / input needed).
 - [telegram](https://github.com/dsh-external/telegram) - Channel integration for Telegram.
+- [dsh-telegram-channel](https://github.com/hi-wenw/dsh-telegram-channel) - Telegram mobile remote for live DSH Web sessions: `/sessions` picker, bind/unbind, same trajectory as desktop (Codex-style).
 - [tg-bot](https://github.com/dsh-external/tg-bot) - Telegram bot.
 - [qqbot](https://github.com/dsh-external/qqbot) - QQ bot.
 - [dsh-wecom-bot](https://github.com/dsh-external/dsh-wecom-bot) - WeCom bot.
