@@ -176,6 +176,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-pi-adapter](https://github.com/dsh-external/dsh-pi-adapter) - pi ExtensionAPI 桥接
 - [dsh-a2a](https://github.com/dsh-external/dsh-a2a) - Agent2Agent mesh
 - [dsh-acp](https://github.com/dsh-external/dsh-acp) - Client-neutral ACP 适配器
+- [deepseek-harness-acp](https://github.com/openma-ai/deepseek-harness-acp) - ACP profile 插件与独立 server，把完整 DSH agent 接入 Zed 等 ACP 客户端，并复用 DSH 的凭据、会话与 MCP 配置
 - [dsh-mnemon](https://github.com/dsh-external/dsh-mnemon) - 助记层
 - [dsh-slice-agent-loop](https://github.com/dsh-external/dsh-slice-agent-loop) - Drop-in agent loop：有界 slice 上下文引擎（cordis）
 - [savemoneybenchmark](https://github.com/dsh-external/savemoneybenchmark) - 降本增效 benchmark（examples + skills）

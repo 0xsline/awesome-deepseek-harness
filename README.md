@@ -178,6 +178,7 @@ Management panel: Settings → Plugins.
 - [dsh-pi-adapter](https://github.com/dsh-external/dsh-pi-adapter) - ExtensionAPI bridge for pi.
 - [dsh-a2a](https://github.com/dsh-external/dsh-a2a) - Agent2Agent mesh.
 - [dsh-acp](https://github.com/dsh-external/dsh-acp) - Client-neutral ACP adapter.
+- [deepseek-harness-acp](https://github.com/openma-ai/deepseek-harness-acp) - ACP profile plugin and standalone server that exposes the full DSH agent to Zed and other ACP clients while reusing DSH credentials, sessions, and MCP configuration.
 - [dsh-mnemon](https://github.com/dsh-external/dsh-mnemon) - Mnemonic layer.
 - [dsh-slice-agent-loop](https://github.com/dsh-external/dsh-slice-agent-loop) - Drop-in agent loop with bounded-slice context engine (cordis).
 - [savemoneybenchmark](https://github.com/dsh-external/savemoneybenchmark) - Cost-reduction benchmark (examples + skills).
