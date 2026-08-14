@@ -41,6 +41,7 @@ NAME_REWRITES = {
 }
 URL_REWRITES = {
     "context-doctor": "https://github.com/Zhenyu98/dsh-context-doctor",
+    "dsh-island": "https://github.com/ChuanTianML/dsh-island",
 }
 
 # ===== Manual topic categories (curated 2026-08-14; applied before keyword fallback) =====
