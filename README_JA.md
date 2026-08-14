@@ -38,7 +38,6 @@
   - [コミュニティ](#コミュニティ)
 - [コミュニティリソース](#コミュニティリソース)
   - [解説とチュートリアル](#解説とチュートリアル)
-  - [クローズドベータ体験](#クローズドベータ体験)
   - [コミュニティでの議論](#コミュニティでの議論)
 - [サードパーティクライアント](#サードパーティクライアント)
   - [デスクトップアプリとディストリビューション](#デスクトップアプリとディストリビューション)
@@ -151,17 +150,7 @@ Git リポジトリからインストールする場合は、commit を固定し
 | [DeepSeek Harness を解剖する](https://xueai.app/slides/learn.html#dsh-1.html) | インタラクティブなソース解説 | Session、コンテキスト、ツール、サンドボックス、Code Mode、Subagent などの主要メカニズムを解説。一部はログインが必要 |
 | [DeepSeek Harness ゼロから入門](https://yanhua1010.github.io/dsh-harness-tutorial/) | 中国語チュートリアルと Demo | 原理、ソース解説、8 個の Demo、`mini-harness` 学習プロジェクトを収録。`0.1.0-rc.6` ベース |
 | [Hello DSH](https://github.com/pingfanfan/hello-dsh) | プラグイン入門と Skill | ターミナルでの導入から最初のコードプラグインまでを解説し、22 個の中国語 Skill 例、dry-run、アンインストール手順を収録。`0.1.0-rc.6` で検証済み |
-
-### クローズドベータ体験
-
-以下の記事は、DSH のクローズドベータ参加者やプラグイン作者によるものです。公式ドキュメントでは扱われていないソースレベルの実践、プラグイン開発、初期コミュニティの体験を補完します。
-
-| 記事 | WeChat アカウント | 一次情報と注目点 |
-| --- | --- | --- |
-| [Vibe Coding から Vibe Assembly へ：DeepSeek Harness 公式 Agent Loop を自作版に置き換えた](https://mp.weixin.qq.com/s?src=11&timestamp=1786637084&ver=6902&signature=AmuyYYqPuPbw5G2jpJYbyn32WfqGpqQ5LFXWFbkahd791Xoyf5AHdeO0xALhXn7HBVWBPHrcKBA1-73Hzux4HNsbi3QRok89GJsW7GadbXAn4MMl5xxa9D7BZYd98ISQ&new=1) | 自然膨胀 | 作者はベータ招待を受け、Agent Loop を置き換えるアセンブラーを開発したと説明。自己申告による 76 ラウンドの比較実験と Vibe Assembly に関する考察を含む。関連プロジェクト：[TT-Wang/sliceagent](https://github.com/TT-Wang/sliceagent) |
-| [DeepSeek Harness クローズドベータ技術解説：アーキテクチャ、エコシステム、タスクエンジン、運用](https://mp.weixin.qq.com/s?src=11&timestamp=1786636586&ver=6902&signature=5qBFaqg8tUoHqeaARYXZXqQR7TIhm6-A8hTn1l89K7fBYg75lM9%2AgkvFwRsFlpuNZxkOLFMp3Pz5RC0FXAVb5kSFba2A1f6OHfmA3Eb08bNBQi330OvXQaffRB2FKNI%2A&new=1) | cookbook之杂七杂八 | 作者は 10 日以上にわたりベータ版スナップショットを追跡し、補助ツールを開発したと説明。Cordis イベント、Session Log、Surface、コンテキスト圧縮、永続化、運用を扱う。関連プロジェクト：[fakechris/dsh-track](https://github.com/fakechris/dsh-track) |
-| [DeepSeek Harness は想像力を最も満たす Agent Harness かもしれない](https://mp.weixin.qq.com/s?src=11&timestamp=1786636558&ver=6902&signature=ea1xi1hCFVZn4aDcUyC1SuFiyIr7xADTcQK%2AM1YmlXj2ffHZ6-ensj06csdXXayjppWFX00kyH8C7vTtl9EOEyfXLnWFmffmcqMmFAfdi8NApznAvYLtb11iP8%2AHjpgE&new=1) | GTOC | 作者はベータ参加と Humanize の移植について説明。TUI と比べた Web UI のエコシステム価値、Plugin と Skill の違い、Trajectory タイムライン、プロダクト化の可能性を論じる。関連プロジェクト：[zevorn/dsh-humanize](https://github.com/zevorn/dsh-humanize) |
-| [DSH クローズドベータに参加して感じたこと](https://mp.weixin.qq.com/s?src=11&timestamp=1786637135&ver=6902&signature=f2kUSJauxSlkVXP-gNNPIRTnOpnLFlErLe4br99jXqa5DQMhCDnbDWewbtAMfQ6VIMH0W6Ac95tZ4VyWhtAVyNZawkPrsAw5igtwqPl5lNxNl8Mhd9tbuMK3IW%2AAvojR&new=1) | 减AI | 作者はベータへの参加を明記し、[dsh-ads](https://github.com/Nagi-ovo/dsh-ads)、[dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize)、[dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) を公開。初期プラグイン作者がエコシステムをどう捉えていたかを知る資料として有用 |
+| [DeepSeek Harness：起動から分解まで](https://github.com/alchaincyf/deepseek-harness-orange-book) | 中国語の実践電子書 | PDF、EPUB、HTML で公開。完全なシステムプロンプト、129 行のデフォルト起動マニフェスト、3 件の生セッションログを収録。リリース後 24 時間以内に執筆されたため、DSH の進化に伴い内容が変わる可能性がある |
 
 ### コミュニティでの議論
 
@@ -244,6 +233,7 @@ Git リポジトリからインストールする場合は、commit を固定し
 
 ## 外部連携
 
+- [Sealos Skills](https://github.com/labring/sealos-skills)：Sealos チームが保守する DSH Profile Bundle。アプリのデプロイ、データベース、オブジェクトストレージなど、8 個のクラウドネイティブ Skill を提供。実際の利用では外部の Sealos Cloud リソースを変更するため、アカウントと関連認証情報が必要。ログイン時には `~/.sealos/kubeconfig` へ書き込み、一部のフローではサンドボックス権限の緩和が必要。`package.json` は MIT を宣言しているが、現在リポジトリのルートに `LICENSE` ファイルはない。
 - [Nowledge Mem](https://mem.nowledge.co/integrations/deepseek-harness)：DSH に Working Memory、プロンプト時の検索、MCP ツール、Session キャプチャを追加。外部製品 Nowledge Mem と `nmem` CLI に依存するため、オープンソースプラグインとは分けて評価するのが適切。
 - [dsh-multica-runtime](https://github.com/forrestchang/dsh-multica-runtime)：Multica と DSH を接続する初期段階の Runtime ブリッジ。現在パッケージは `private`、`UNLICENSED` とされ、インストールと配布の境界は未整備。
 - [dsh-lark-bot](https://github.com/PlutoKeating/dsh-lark-bot)：ローカル DSH を Feishu / Lark に接続し、ストリーミングカード、ワークスペース、Session 復元、承認を提供。AGPL-3.0 で、アプリ認証情報はモード `600` で保護されたローカルの平文設定に保存される。
