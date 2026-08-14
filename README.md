@@ -46,6 +46,7 @@
 - [Fun & Lifestyle](#fun--lifestyle)
 - [Infrastructure & Development](#infrastructure--development)
 - [Related](#related)
+- [Science & Research](#science--research)
 - [Thanks](#thanks)
 
 ## Install
@@ -255,6 +256,10 @@ Management panel: Settings → Plugins.
 - [dshp](https://github.com/asdf17128/dshp) - Profile manager: list, create, clone and diff profiles, and export a whole setup (bundle order, plugin versions, patch) as one portable file.
 - [dsh-recommend](https://github.com/zp-home/dsh-recommend) - Transparent plugin rankings and recommendations: daily auto-fetched dsh-plugin topic data, open scoring model, rank/search/recommend tools and a settings-page leaderboard.
 - [dsh-eval](https://github.com/hccccc01333/dsh-eval) - Agent evaluation platform: benchmark YAML, headless dsh runs, trace-based metrics, scripted grading, and run compare/report.
+
+## Science & Research
+
+- [dsh-science](https://github.com/biociao/dsh-science) - Claude Science-style research workbench: ReAct research-loop engine (research_* tools), versioned artifacts with provenance (artifact_* tools), and 10 science skills for genomics/pathogens/bioinformatics.
 
 ## Related
 
