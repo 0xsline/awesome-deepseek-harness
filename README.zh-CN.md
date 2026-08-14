@@ -138,6 +138,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-live-stats](https://github.com/dsh-external/dsh-live-stats) - 实时 token 估算与生成 TPS
 - [dsh-tps](https://github.com/dsh-external/dsh-tps) - TPS 仪表
 - [dsh-cc-tui](https://github.com/dsh-external/dsh-cc-tui) - Claude Code 风格全屏 TUI（流式展开/双击 Esc 回滚）
+- [dsh-grok-tui](https://github.com/chen-001/dsh-grok-tui) - grok-build TUI
 - [deepseek-harness-tui](https://github.com/openma-ai/deepseek-harness-tui) - Rust/ratatui 终端客户端，直接使用 DSH SDK JSON-RPC 协议，支持独立运行或作为 profile bundle 加载
 - [DSH-better-sidebar](https://github.com/dsh-external/DSH-better-sidebar) - 侧边栏：文件渲染/终端/Git/子代理/自定义 API
 - [dsh-web-panel](https://github.com/dsh-external/dsh-web-panel) - 内嵌终端 dock + Git Review + 文件视图
@@ -208,7 +209,6 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-web-ui-notify](https://github.com/dsh-external/dsh-web-ui-notify) - WebUI 通知
 - [dsh-notify-windows](https://github.com/SeverusZh/dsh-notify-windows) - Windows 通知，零依赖
 - [dsh-ica](https://github.com/dsh-external/dsh-ica) - icalingua 前端
-- [dsh-grok-tui](https://github.com/dsh-external/dsh-grok-tui) - grok-build TUI
 - [dsh-opencode-server](https://github.com/dsh-external/dsh-opencode-server) - opencode attach 丝滑 TUI
 - [dsh-teamwork](https://github.com/dsh-external/dsh-teamwork) - 团队协作（cordis）
 
