@@ -16,6 +16,7 @@
 <p align="center">
 	<a href="#install">安装</a>&nbsp;&nbsp;&nbsp;
 	<a href="contributing.md">贡献指南</a>&nbsp;&nbsp;&nbsp;
+	<a href="https://deepseekdocs.com/">DeepSeek Docs</a>&nbsp;&nbsp;&nbsp;
 	<a href="https://github.com/topics/dsh-plugin">公开插件目录</a>&nbsp;&nbsp;&nbsp;
 	<a href="https://github.com/dsh-external/issues">Issues</a>&nbsp;&nbsp;&nbsp;
 </p>
