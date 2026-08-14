@@ -190,10 +190,12 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-file-mentions](https://github.com/a903067276-rgb/dsh-file-mentions) - 回复中的可点击文件路径：Codex 风格内联打开、📂 文件管理器显示、回合末尾的文件提及 chip 列表。
 - [dsh-auto-continue](https://github.com/HsiangNianian/dsh-auto-continue) - DSH Web 请求中断自动续跑：网络/超时/宿主崩溃等非人为失败后自动发送「继续」，支持错误分类、自适应退避、模板化继续文本与浏览器通知；全部参数可在插件设置卡片中调整。
 - [dsh-trajectory-debug](https://github.com/devmom/dsh-trajectory-debug) - DeepSeek Harness 轨迹瀑布流、确定性回放、断点、改参重跑、分叉对比与性能分析。
+- [dsh-plugin-colorscheme](https://github.com/Civitasv/dsh-plugin-colorscheme) - Web UI 配色方案插件：在设置里一键切换并持久化主题，内置 8 款开源预设，支持自定义主题。
 
 ## IDE & Clients
 
 - [dsh4vscode](https://github.com/DoggyHU/dsh4vscode) - 基于 DSH agent 的 VS Code 聊天窗口：OpenCode 式独立会话、模型自动路由（Flash/Pro/Pro Max）。
+- [dsh-plugin-open-editor](https://github.com/Civitasv/dsh-plugin-open-editor) - 从会话页头一键用本地编辑器（VS Code / Cursor / JetBrains / Vim 等）打开当前项目。
 
 ## Browser & Remote
 
@@ -248,6 +250,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-test-runner](https://github.com/suimi8/dsh-test-runner) - 结构化测试运行工具（test_run）：自动识别 Vitest/Jest/pytest/node:test，运行测试并为模型解析失败摘要。
 - [dsh-git-branch-switcher](https://github.com/mixin-ai/dsh-git-branch-switcher) - 会话头部 Git 分支胶囊：显示当前项目分支，并可在 Web UI 中直接切换分支。
 - [dsh-doublecheck](https://github.com/PerryLink/dsh-doublecheck) - 工程纪律闭环：动工前盘问需求、红绿测试证据门、交付前对抗式审查。
+- [dsh-plugin-diff-review](https://github.com/Civitasv/dsh-plugin-diff-review) - 浮动面板中的 Codex 风格变动审查：逐轮查看会话更改 + git 工作区全量未提交更改（暂存/丢弃/提交/推送），含历史时间线。
 
 ## Output & Deliverables
 

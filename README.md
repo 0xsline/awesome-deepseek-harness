@@ -194,10 +194,12 @@ Management panel: Settings → Plugins.
 - [dsh-file-mentions](https://github.com/a903067276-rgb/dsh-file-mentions) - Clickable file paths in DSH replies: Codex-style inline open, 📂 reveal in file manager, and a mentioned-files chip list at the turn tail.
 - [dsh-auto-continue](https://github.com/HsiangNianian/dsh-auto-continue) - Auto-resumes interrupted DSH Web requests: sends a queued 「继续」 after network/timeout/host-crash failures, with error classification, adaptive backoff, templated continue text and browser notifications; everything configurable from the plugin settings card.
 - [dsh-trajectory-debug](https://github.com/devmom/dsh-trajectory-debug) - Trajectory waterfall, deterministic replay, breakpoints, edit-and-rerun, fork compare and performance analytics for DeepSeek Harness.
+- [dsh-plugin-colorscheme](https://github.com/Civitasv/dsh-plugin-colorscheme) - Web UI colorscheme plugin: switch and persist themes from Settings, with 8 built-in open-source presets plus custom themes.
 
 ## IDE & Clients
 
 - [dsh4vscode](https://github.com/DoggyHU/dsh4vscode) - VS Code chat windows backed by the DSH agent: OpenCode-style independent sessions, model auto-routing (Flash/Pro/Pro Max).
+- [dsh-plugin-open-editor](https://github.com/Civitasv/dsh-plugin-open-editor) - Open the current workspace in your local editor (VS Code, Cursor, JetBrains, Vim, ...) from the session header.
 
 ## Browser & Remote
 
@@ -252,6 +254,7 @@ Management panel: Settings → Plugins.
 - [dsh-test-runner](https://github.com/suimi8/dsh-test-runner) - Structured test runner tool (test_run): auto-detect Vitest/Jest/pytest/node:test, run tests, parse failure summaries for the model.
 - [dsh-git-branch-switcher](https://github.com/mixin-ai/dsh-git-branch-switcher) - Session-header Git branch pill: shows the current workspace branch and switches branches from the Web UI.
 - [dsh-doublecheck](https://github.com/PerryLink/dsh-doublecheck) - Engineering-discipline loop: requirement grilling before edits, red/green test-evidence gates, and an adversarial delivery review.
+- [dsh-plugin-diff-review](https://github.com/Civitasv/dsh-plugin-diff-review) - Codex-style diff review in a floating panel: per-round session changes plus a git workspace view with stage/revert/commit/push and a history timeline.
 
 ## Output & Deliverables
 
