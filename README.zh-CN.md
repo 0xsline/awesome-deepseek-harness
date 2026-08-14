@@ -88,6 +88,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [cross-harness-cite](https://github.com/dsh-external/cross-harness-cite) - 跨 harness 引用历史对话
 - [dsh-session-cluster](https://github.com/dsh-external/dsh-session-cluster) - 会话聚类
 - [session-chatlog](https://github.com/dsh-external/session-chatlog) - 会话聊天记录
+- [dsh-memoria](https://github.com/jiayan-xu/dsh-memoria) - memoria 记忆后端：为 dsh agent 提供 observe/remember/search/recall 四个工具，支持向量+图记忆、命名空间隔离、自动写入与配置热重载。 · [Context & Search]
 - [dsh-memory-evolve](https://github.com/dsh-external/dsh-memory-evolve) - 跨会话长期记忆 + 后台自我进化（五轨记忆/Git 分支感知/技能进化）
 - [dsh-engram-relay](https://github.com/dsh-external/dsh-engram-relay) - 内置 <1B 模型实现 100k 等效长记忆，因果图精准唤醒
 - [dsh-mneme](https://github.com/modusensus/dsh-mneme) - 跨会话记忆且主权归用户：SQLite + 可人工编辑的 Markdown 双写、autoDream 后台记忆巩固、106 个测试护航。
