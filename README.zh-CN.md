@@ -296,6 +296,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Infrastructure & Development
 
+- [Code2Skill](https://github.com/leechen298/Code2Skill) - 从用户授权的源码生成 Function、MCP 工具、工作流 Skill 与离线测试包。
 - [deepseek-harness-desktop](https://github.com/Easyhoov/deepseek-harness-desktop) - 非官方 Windows 进程内桌面应用，提供托盘常驻、原生通知与 IPC 桥接。
 - [dsh-hmz](https://github.com/dsh-external/dsh-hmz) - 占位仓库，描述待补充。
 - [dsh-interpreters](https://github.com/dsh-external/dsh-interpreters) - 解释器插件（cordis）。
