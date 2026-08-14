@@ -38,6 +38,7 @@
 - [Context & Search](#context--search)
 - [Input & Editing](#input--editing)
 - [UI & Experience](#ui--experience)
+- [IDE & Clients](#ide--clients)
 - [Browser & Remote](#browser--remote)
 - [Models & Inference](#models--inference)
 - [Git & Engineering](#git--engineering)
