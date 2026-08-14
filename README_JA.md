@@ -150,6 +150,7 @@ Git リポジトリからインストールする場合は、commit を固定し
 | --- | --- | --- |
 | [DeepSeek Harness を解剖する](https://xueai.app/slides/learn.html#dsh-1.html) | インタラクティブなソース解説 | Session、コンテキスト、ツール、サンドボックス、Code Mode、Subagent などの主要メカニズムを解説。一部はログインが必要 |
 | [DeepSeek Harness ゼロから入門](https://yanhua1010.github.io/dsh-harness-tutorial/) | 中国語チュートリアルと Demo | 原理、ソース解説、8 個の Demo、`mini-harness` 学習プロジェクトを収録。`0.1.0-rc.6` ベース |
+| [Hello DSH](https://github.com/pingfanfan/hello-dsh) | プラグイン入門と Skill | ターミナルでの導入から最初のコードプラグインまでを解説し、22 個の中国語 Skill 例、dry-run、アンインストール手順を収録。`0.1.0-rc.6` で検証済み |
 
 ### クローズドベータ体験
 
@@ -190,7 +191,7 @@ Git リポジトリからインストールする場合は、commit を固定し
 
 | プロジェクト | 種類 | 説明 |
 | --- | --- | --- |
-| [dsh-cc-tui](https://github.com/ccch1mneyyy/dsh-cc-tui) | TUI Bundle | Claude Code 風の全画面ターミナル、ストリーミング状態、コンテキスト計器、Session のロールバック |
+| [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | TUI Bundle | Claude Code 風の全画面ターミナル、ストリーミング状態、コンテキスト計器、Session のロールバック |
 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | TUI Bundle | Tianshu から発展した完全なターミナル操作レイヤー。状態は DSH Session イベントストリームから取得 |
 | [dsh-tui](https://github.com/openguardrails/dsh-tui) | TUI Bundle · 初期段階 | ローカル DeepSeek とオフライン実行に対応。活発に開発中で、移植前のテストスイートはまだ動作していない |
 | [Orbis](https://github.com/icodesign/orbis) | モバイル遠隔操作 · Beta | DSH プラグインによりデバイスのペアリング、エンドツーエンド暗号化転送、複数デバイスのリアルタイム更新を実現 |
@@ -221,6 +222,7 @@ Git リポジトリからインストールする場合は、commit を固定し
 - [dsh-message-edit](https://github.com/Moeblack/dsh-message-edit)：ブランチ型メッセージ編集、再試行、再生成、バージョンタイムライン。
 - [dsh-prompt-studio](https://github.com/Moeblack/dsh-prompt-studio)：システムプロンプト断片を編集し、リアルタイムプレビューを表示。
 - [dsh-turn-rewind](https://github.com/Anionex/dsh-turn-rewind)：永続的な Change Ledger に基づき、会話とワークスペース状態を巻き戻す。
+- [dsh-compaction-instant](https://github.com/KitDoesIt/dsh-compaction-instant)：LLM 要約を決定論的コンパイルに置き換え、`recall` / `search` で圧縮された内容を復元。内蔵 compactor の置換には npm alias が必要で、Runtime への比較的深い変更となる。
 
 ### ブラウザ・ビジョン・インターフェース
 
@@ -244,10 +246,13 @@ Git リポジトリからインストールする場合は、commit を固定し
 
 - [Nowledge Mem](https://mem.nowledge.co/integrations/deepseek-harness)：DSH に Working Memory、プロンプト時の検索、MCP ツール、Session キャプチャを追加。外部製品 Nowledge Mem と `nmem` CLI に依存するため、オープンソースプラグインとは分けて評価するのが適切。
 - [dsh-multica-runtime](https://github.com/forrestchang/dsh-multica-runtime)：Multica と DSH を接続する初期段階の Runtime ブリッジ。現在パッケージは `private`、`UNLICENSED` とされ、インストールと配布の境界は未整備。
+- [dsh-lark-bot](https://github.com/PlutoKeating/dsh-lark-bot)：ローカル DSH を Feishu / Lark に接続し、ストリーミングカード、ワークスペース、Session 復元、承認を提供。AGPL-3.0 で、アプリ認証情報はモード `600` で保護されたローカルの平文設定に保存される。
 
 ## 開発ツール
 
 - [dsh-plugin-check](https://github.com/omdsh-dev/dsh-plugin-check)：Manifest、Patch、ビルド上の落とし穴、ディレクトリ掲載状況を検査。
+- [dsh-fail-logger](https://github.com/Areium/dsh-fail-logger)：ツール失敗を秘匿化、重複排除、分類し、機械管理の Skill 記録へ蓄積。問題を記録するだけで、挙動を自動変更しない。
+- [deepseek-harness-action](https://github.com/Lixiaoyiao/deepseek-harness-action)：GitHub Actions 上で DSH による PR Review、CI 診断、自動修正、Issue → PR を実行。書き込み権限はデフォルトで無効で、検証は認証情報を持たないコンテナで行う。
 - [dsh-suite](https://whyihaveyou.github.io/dsh-suite/)：中国語・英語対応の DSH エコシステム索引。プラグイン検索、`create-dsh-plugin` スキャフォールダー、基本的な互換性メタデータを提供。まだ初期段階で、互換性検査は静的な依存関係比較が中心。インストールと設定組み立ての検証は未完成。
 - [deepseek-harness-plugin-mcp](https://github.com/bobleer/deepseek-harness-plugin-mcp)：他の Agent が MCP 経由で DSH プラグインを発見、検査、インストール、呼び出し可能にする。インストールと Runtime はデフォルトで無効で、`--allow-install` / `--allow-runtime` を明示的に有効化した場合のみ、それぞれの副作用が発生する。
 - [dsh-payload-capture](https://github.com/Moeblack/dsh-payload-capture)：モデル API へ送信する Payload を取得・保存し、リクエスト組み立てのデバッグに利用。
