@@ -415,6 +415,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-genie](https://github.com/swaylq/dsh-genie) - 把 `cordis_define` 的动态包固化为可跨重启存活的正式组合包；写包与注册 profile 层均不需要 pnpm、联网或构建授权。
 - [dsh-chat-tools](https://github.com/yj060464-commits/dsh-chat-tools) - headless 终端伴侣工具链：chat.sh 连续对话 REPL（滚动上下文/决策点拍板/工作流实时透传/思考档位切换）+ 会话日志 LLM 自动总结，零依赖纯 bash+Python
 
+- [dsh-plugin-guide](https://github.com/PerryLink/dsh-plugin-guide) - 插件开发知识库，作为按需加载的智能体技能：官方约束、任务工作流、API 参考与社区踩坑。
+
 ## Data & Market
 
 - [dsh-stock-market](https://github.com/dsh-external/dsh-stock-market) - 沪深 A 股行情数据插件。

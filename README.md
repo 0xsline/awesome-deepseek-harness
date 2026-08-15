@@ -419,6 +419,8 @@ Management panel: Settings → Plugins.
 - [dsh-genie](https://github.com/swaylq/dsh-genie) - Promote a `cordis_define` dynamic package into a real installed bundle that survives restart; writes the package and registers the profile layer without pnpm, network, or a build authorization.
 - [dsh-chat-tools](https://github.com/yj060464-commits/dsh-chat-tools) - Headless terminal companion toolkit: chat.sh continuous-conversation REPL (rolling context, decision-point voting, live workflow streaming, effort switching) + automatic LLM session-log summarization. Zero-dependency bash + Python.
 
+- [dsh-plugin-guide](https://github.com/PerryLink/dsh-plugin-guide) - Plugin-development knowledge base as an on-demand agent skill: official constraints, task workflows, API references, and community pitfalls.
+
 ## Data & Market
 
 - [dsh-stock-market](https://github.com/dsh-external/dsh-stock-market) - Shanghai and Shenzhen A-share market data plugin.
