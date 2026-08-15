@@ -448,6 +448,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-chat-tools](https://github.com/yj060464-commits/dsh-chat-tools) - headless 终端伴侣工具链：chat.sh 连续对话 REPL（滚动上下文/决策点拍板/工作流实时透传/思考档位切换）+ 会话日志 LLM 自动总结，零依赖纯 bash+Python
 
 - [dsh-plugin-guide](https://github.com/PerryLink/dsh-plugin-guide) - 插件开发知识库，作为按需加载的智能体技能：官方约束、任务工作流、API 参考与社区踩坑。
+- [awesome-dsh](https://github.com/stakeswky/awesome-dsh) - `dsh-plugin` topic 全量目录，自动更新（2600+ 仓库）：Cloudflare Worker 每 6 小时重新抓取，用 Workers AI 把英文简介译成中文，并提供相关度检索 API 与按需查找、安装插件的智能体技能。
 
 ## Data & Market
 
