@@ -293,6 +293,7 @@ Management panel: Settings → Plugins.
 - [dsh-plugin-scheduled-tasks](https://github.com/Ceelog/dsh-plugins/tree/main/src/plugins/dsh-plugin-scheduled-tasks) - Run per-project prompts in fresh headless agent sessions on one-time, interval or cron schedules, with durable run history.
 
 ## Output & Deliverables
+- [nyantused-cpun/folio](https://github.com/nyantused-cpun/folio) - Folio (兰亭): consulting document-generation engine (intake → memory → methodology → deliverable → proof) as a native DSH plugin stack: 15 tools, session-protocol events, L0 guard, agent preset; swappable methodology packs, zero-key start under DSH.
 
 - [dsh-report-studio](https://github.com/ciceroyang/dsh-report-studio) - Turn a DeepSeek Harness session into deliverable work reports (daily/weekly/handoff/article) with verifiable receipts.
 
