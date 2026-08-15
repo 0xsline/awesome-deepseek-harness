@@ -380,6 +380,7 @@ Management panel: Settings → Plugins.
 - [dsh-sfw](https://github.com/dsh-external/dsh-sfw) - Safety filter.
 - [ui-status-label](https://github.com/dsh-external/ui-status-label) - Custom status labels for the whale's deep-diving (cordis).
 - [dsh-digipet](https://github.com/swaylq/dsh-digipet) - Digimon-style raising pet: hatches from an egg, feeds on real work (turns, tools, errors), and evolves along four lines shaped by how you work; zero tokens, command-only.
+- [dsh-wildmon](https://github.com/swaylq/dsh-wildmon) - Pokemon-style catch-em-all: turns, tools and errors spawn wild encounters; throw balls, fill a 28-slot dex, team of six; zero tokens, command-only.
 
 - [xiekai886/dsh-MusicPlayer](https://github.com/xiekai886/dsh-MusicPlayer) - A collapsible/expandable draggable floating music player with NetEase Cloud Music playlist import and song/artist search; chat and listen at the same time.
 
