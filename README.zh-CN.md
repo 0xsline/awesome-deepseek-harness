@@ -448,6 +448,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-grok-geo](https://github.com/xuboboo/dsh-grok-geo) - GEO 品牌审计 skill 插件：覆盖 17+ AI 搜索引擎（ChatGPT/Perplexity/Claude/豆包/DeepSeek/Kimi/文心一言）的 AI 搜索可见性、推荐、引用、竞品对比与内容缺口诊断。
 - [dsh-rigorquant](https://github.com/linxichen/dsh-rigorquant) - 面向实证/计算数学研究（经济/金融/组合）的无人值守 Agent 预设 + 技能：隔离多智能体探索、双轨真值推导、仅反例淘汰的对抗审计、四重实现前校验，以及 jacobian/Lean 升级通道。
 - [dsh-wuyun-liuqi](https://github.com/dhicoc/dsh-wuyun-liuqi) - 完整 wuyun-liuqi（五运六气）中医运气学技能包，封装为 DeepSeek Harness 插件：年度与客气推算、临床辨证、病机推演。
+- [dsh-plugin-writing-guard](https://github.com/xmutfyh/dsh-plugin-writing-guard) - 论文写作守卫：本地正则扫描修改过程残留、防御性写作与 AI 写作痕迹（破折号滥用、不是X而是Y、LLM 高频词、三连排比）；writing_audit / writing_rules 工具，论文文件写入后增量自动审计。
 
 ## Related
 
