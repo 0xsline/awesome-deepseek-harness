@@ -346,6 +346,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-tavern-plugin](https://github.com/dsh-external/dsh-tavern-plugin) - 小酒馆角色卡
 - [dsh-sfw](https://github.com/dsh-external/dsh-sfw) - 安全过滤
 - [ui-status-label](https://github.com/dsh-external/ui-status-label) - 鲸鱼娘思考状态自定义标签（cordis）
+- [dsh-digipet](https://github.com/swaylq/dsh-digipet) - 数码宝贝式养成宠物：孵蛋、吃真实工作长大（回合、工具、报错都算营养），按工作方式走四条进化路线；零 token、纯命令交互。
 
 ## Infrastructure & Development
 
