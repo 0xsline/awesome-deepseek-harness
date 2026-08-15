@@ -134,6 +134,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [plur-ai/dsh-plugin](https://github.com/plur-ai/dsh-plugin) - PLUR 持久记忆：engram 在每次组装时渲染进系统提示词，而不是藏在工具调用之后，因此召回无需额外往返，记忆块也不会在上下文中累积；全本地检索（BM25 + BGE）、可直接编辑的纯 YAML 存储、按工作区划分 scope，并提供 /plur-memory 查看器。
 
 
+- [dsh-memory-plugin](https://github.com/volcengine/OpenViking/tree/main/examples/dsh-memory-plugin) - DeepSeek Harness 的 OpenViking 记忆/上下文插件：接入 OpenViking 的自进化上下文数据库，为 dsh 提供跨会话 Agent 记忆与知识 RAG。
 - [moguiyu/dsh-tavily](https://github.com/moguiyu/dsh-tavily) - Tavily 多密钥搜索：支持密钥轮换/故障转移、用量仪表盘与设置卡片。
 - [dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) - 持续自进化插件：从会话轨迹提炼提示词笔记、记忆、技能与子代理规范，并以版本化、可审计、可回滚的方式维护 Harness 状态。
 ## Input & Editing
