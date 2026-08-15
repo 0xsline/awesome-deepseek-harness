@@ -363,6 +363,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-science](https://github.com/biociao/dsh-science) — 面向 DSH 的 Claude Science 式科研工作台：ReAct 研究循环引擎（research_* 工具）、带溯源的版本化工件（artifact_* 工具）与面向基因组/病原体/生物信息的 10 个科研技能。
 - [dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) - 完整 reverse-skill（85 个 SKILL.md）的 DeepSeek Harness 插件：逆向工程、授权渗透测试与安全研究技能路由包。
 - [dsh-grok-geo](https://github.com/xuboboo/dsh-grok-geo) - GEO 品牌审计 skill 插件：覆盖 17+ AI 搜索引擎（ChatGPT/Perplexity/Claude/豆包/DeepSeek/Kimi/文心一言）的 AI 搜索可见性、推荐、引用、竞品对比与内容缺口诊断。
+- [dsh-rigorquant](https://github.com/linxichen/dsh-rigorquant) - 面向实证/计算数学研究（经济/金融/组合）的无人值守 Agent 预设 + 技能：隔离多智能体探索、双轨真值推导、仅反例淘汰的对抗审计、四重实现前校验，以及 jacobian/Lean 升级通道。
 
 ## Related
 
