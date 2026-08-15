@@ -35,6 +35,7 @@
 
 - [Install](#install)
 - [Core](#core)
+- [Agents & Orchestration](#agents--orchestration)
 - [Context & Search](#context--search)
 - [Input & Editing](#input--editing)
 - [UI & Experience](#ui--experience)
@@ -83,6 +84,10 @@ Management panel: Settings → Plugins.
 - [dsh_workflow](https://github.com/dsh-external/dsh_workflow) - Dynamic workflow for DSH (placeholder).
 - [dsh-equip-engine](https://github.com/wuykjl/dsh-equip-engine) - Task-driven plugin equip engine: dual retrieval (curated rules + LLM semantic), combo scoring (synergy/conflict/cost/trust), conflict detection and install-command export. 配装引擎：按任务自动配整套插件，区别于目录/搜索。
 
+
+## Agents & Orchestration
+
+- [dsh-collaboration](https://github.com/Socialist-Sister/dsh-collaboration) - Multi-agent collaboration suite: user-configured specialist roster, persistent on-demand dispatch (team_call/team_message/team_status/team_close), clone instances, star-topology relay, model comparison and a multimodal vision bridge.
 ## Context & Search
 
 - [dsh-context](https://github.com/bowenliang123/dsh-context) - Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats.

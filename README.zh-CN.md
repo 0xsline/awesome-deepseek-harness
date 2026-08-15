@@ -34,6 +34,7 @@
 
 - [Install](#install)
 - [Core](#core)
+- [Agents & Orchestration](#agents--orchestration)
 - [Context & Search](#context--search)
 - [Input & Editing](#input--editing)
 - [UI & Experience](#ui--experience)
@@ -80,6 +81,10 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-client-ui-plan-execute](https://github.com/dsh-external/dsh-client-ui-plan-execute) - Web 设置页「规划/执行模型」配置行
 
 - [dsh_workflow](https://github.com/dsh-external/dsh_workflow) - Dynamic Workflow for dsh（占位）。
+
+## Agents & Orchestration
+
+- [dsh-collaboration](https://github.com/Socialist-Sister/dsh-collaboration) - 多智能体协同套件：用户可配置的专家名册 + 持久专家实例（可多分身）按需雇佣、星型拓扑追问/中转、团队状态面板、模型对比与多模态视觉桥。
 ## Context & Search
 
 - [dsh-context](https://github.com/bowenliang123/dsh-context) - 上下文洞察面板：一眼看清模型上下文窗口的组成与变化——构成对照窗口大小、按请求历史趋势、压缩/注入事件、消息级 token 统计。
