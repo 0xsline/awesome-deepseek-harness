@@ -81,6 +81,9 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "Khellendros97/dsh-better-model-selector", "name": "dsh-better-model-selector",
      "html_url": "https://github.com/Khellendros97/dsh-better-model-selector",
      "description": "将输入框模型选择器拆成「可搜索 + 收藏」的下拉选单和「推理强度滑动条」，支持 Ctrl+P / Ctrl+T 快速切换"},
+    {"full_name": "xuboboo/dsh-gui", "name": "dsh-gui",
+     "html_url": "https://github.com/xuboboo/dsh-gui",
+     "description": "DeepSeek Harness 第三方 Windows 桌面客户端：原生窗口、品牌主题与启动动画、启动崩溃修复、Token 用量统计"},
 ]
 
 
@@ -107,6 +110,7 @@ TOPIC_MANUAL = {
     "sailingloong/loongport-dsh": "模型与推理",
     "toolclub/agent_team_gui": "Agent 与自动化",
     "khellendros97/dsh-better-model-selector": "界面与体验",
+    "xuboboo/dsh-gui": "桌面客户端",
     "121103qwq/dsh-vision-sidecar": "视觉与图像",
     "147228/dsh-black-whale": "界面与体验",
     "147228/dsh-xiaoyao-skins": "界面与体验",
