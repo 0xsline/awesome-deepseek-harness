@@ -141,6 +141,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-message-edit](https://github.com/dsh-external/dsh-message-edit) - 分支式消息编辑 / reroll / retry / 版本时间线
 - [dsh-prompt-studio](https://github.com/dsh-external/dsh-prompt-studio) - 系统提示词分段编辑 + 实时预览
 - [dsh-paste-input](https://github.com/dsh-external/dsh-paste-input) - Ctrl+V 粘贴文件 / 拖拽 / 选择
+- [dsh-voice](https://github.com/motongv/dsh-voice) - 语音输入（语音转文字）+ 回答朗读（Edge 神经网络音色）
 - [dsh-drag-and-drop](https://github.com/dsh-external/dsh-drag-and-drop) - 跨平台拖拽插入原始路径
 - [dsh-file-uploads](https://github.com/l541402398/dsh-file-uploads) - 从 Web 输入框上传任意本地文件，以待发送卡片展示，并在设置中管理已存文件。
 - [dsh-input-history](https://github.com/dsh-external/dsh-input-history) - 输入历史
