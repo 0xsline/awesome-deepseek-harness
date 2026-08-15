@@ -287,6 +287,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-service-control](https://github.com/Semidia/dsh-service-control) - 侧边栏底部重启 / 关闭按钮：经 ctx.appExit 优雅关闭，由脱离宿主管理的独立进程自动重启 dsh web。
 - [loongport-dsh](https://github.com/SailingLoong/loongport-dsh) - 多站点中转服务商接入：签名目录（身份、地址、模型）、Settings → LoongPort 服务商与 API Key 手动配置页、OpenAI 兼容路由（npm 包：loongport）。
 - [dsh-output-styles](https://github.com/PerryLink/dsh-output-styles) - 运行时切换模型输出风格（对标 Claude Code outputStyles）：/style 命令、按会话持久化、systemPrompt 注入与 Web 选择器。
+- [NOirBRight/dsh-llm-ollama](https://github.com/NOirBRight/dsh-llm-ollama) — Ollama Cloud 原生聊天适配器：注册 `ollama-cloud` LLM 路由，原生模型发现（上下文窗口、视觉、推理、工具调用），并接入 web 搜索/抓取 provider。
 
 ## Git & Engineering
 

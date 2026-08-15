@@ -291,6 +291,7 @@ Management panel: Settings → Plugins.
 - [dsh-sampling-sliders](https://github.com/Semidia/dsh-sampling-sliders) - Composer sampling panel: temperature / maxTokens sliders with hot-apply and persist-to-file modes, applied to every provider via the agent/request hook.
 - [dsh-service-control](https://github.com/Semidia/dsh-service-control) - Restart & shutdown buttons in the sidebar footer: graceful appExit shutdown, auto-restart of `dsh web` via a detached helper process.
 - [dsh-output-styles](https://github.com/PerryLink/dsh-output-styles) - Runtime-switchable model output styles with Claude Code outputStyles parity: a /style command, per-session persistence, systemPrompt injection, and a web picker.
+- [NOirBRight/dsh-llm-ollama](https://github.com/NOirBRight/dsh-llm-ollama) - Ollama Cloud native chat adapter: registers an `ollama-cloud` LLM route with native model discovery (context windows, vision, thinking, tools) and web search/fetch providers.
 
 ## Git & Engineering
 
