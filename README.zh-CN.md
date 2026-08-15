@@ -288,6 +288,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-plugin-scheduled-tasks](https://github.com/Ceelog/dsh-plugins/tree/main/src/plugins/dsh-plugin-scheduled-tasks) - 按项目调度提示词，在全新的无头 Agent 会话中执行，支持单次、固定间隔和 cron 计划，并持久化运行历史。
 
 ## Output & Deliverables
+- [nyantused-cpun/folio](https://github.com/nyantused-cpun/folio) - Folio（兰亭）：咨询/汇报材料生成引擎（接入材料 → 建立记忆 → 应用方法论 → 生成产出 → 守住质量）——DSH 原生插件栈：15 个工具、会话协议事件、L0 守卫、agent preset；方法论包可换，DSH 下零 key 起步。
 
 - [dsh-report-studio](https://github.com/ciceroyang/dsh-report-studio) - 把 DeepSeek Harness 会话一键变成工作日报/周报/交接文档/公众号文章，附可验证凭据（报告与产物哈希）。
 
