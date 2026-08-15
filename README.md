@@ -303,7 +303,7 @@ Management panel: Settings → Plugins.
 
 ## Output & Deliverables
 
-- [folio](https://github.com/nyantused-cpun/folio) - Folio (兰亭): consulting document-generation engine (intake → memory → methodology → deliverable → proof) as a native DSH plugin stack: 15 tools, session-protocol events, L0 guard, agent preset; swappable methodology packs, zero-key start under DSH.
+- [folio](https://github.com/nyantused-cpun/folio) - Consulting document-generation engine (intake → memory → methodology → deliverable → proof) as a native DSH plugin stack: 15 tools, session-protocol events, L0 guard, agent preset; swappable methodology packs, zero-key start under DSH.
 
 - [dsh-report-studio](https://github.com/ciceroyang/dsh-report-studio) - Turn a DeepSeek Harness session into deliverable work reports (daily/weekly/handoff/article) with verifiable receipts.
 
