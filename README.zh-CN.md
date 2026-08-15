@@ -233,6 +233,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [dsh-git-identity](https://github.com/dsh-external/dsh-git-identity) - Git 提交固定环境作者身份（gh 登录账号 + noreply 邮箱）
 - [dsh-gh-bridge](https://github.com/dsh-external/dsh-gh-bridge) - macOS Keychain GitHub token 桥入 sandbox gh
+- [dsh-atomgit](https://github.com/xiongjiamu/dsh-atomgit) - AtomGit 插件 bundle：内置 atomgit-skills 工作流（规划/实现/审查/合并 Issue 与 PR）、ag CLI 与平台托管的 GitCode MCP 工具
 - [deepseek-harness-action](https://github.com/Lixiaoyiao/deepseek-harness-action) - 在 GitHub 中运行 DeepSeek Harness，用于 PR 审查、CI 诊断、受信任修复和 Issue → PR。
 - [dsh-auto-blame](https://github.com/dsh-external/dsh-auto-blame) - 自动 blame
 - [dsh-tool-git](https://github.com/lxj808624/dsh-tool-git) - 结构化 Git 工具（status/diff/log/branch/stage/commit/stash/show）+ 破坏性命令安全护栏
