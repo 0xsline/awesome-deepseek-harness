@@ -353,6 +353,9 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-sfw](https://github.com/dsh-external/dsh-sfw) - 安全过滤
 - [ui-status-label](https://github.com/dsh-external/ui-status-label) - 鲸鱼娘思考状态自定义标签（cordis）
 
+
+- [xiekai886/dsh-MusicPlayer](https://github.com/xiekai886/dsh-MusicPlayer) - 可折叠/展开、自由拖动的悬浮音乐播放器，接入网易云音乐，支持歌单导入和按歌名或歌手搜索单曲导入，边对话边听歌。
+
 ## Infrastructure & Development
 
 - [Code2Skill](https://github.com/leechen298/Code2Skill) - 从用户授权的源码生成 Function、MCP 工具、工作流 Skill 与离线测试包。
