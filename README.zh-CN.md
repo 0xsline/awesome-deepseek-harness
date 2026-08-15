@@ -346,6 +346,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-teamwork](https://github.com/dsh-external/dsh-teamwork) - 团队协作（cordis）
 
 - [plugin-notify](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-notify) - 回合完成/出错/需审批时发 IM webhook 与本机通知（飞书/企微/钉钉/Slack/Discord/自定义）。
+- [dsh-monitor](https://github.com/AbnerAI/dsh-monitor) - 常驻后台监视器（文件收件箱/命令输出）：新消息一到即唤醒 Agent，是 Claude Code Monitor 工具的 Harness 对应实现。
 
 ## Fun & Lifestyle
 

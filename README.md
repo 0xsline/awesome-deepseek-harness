@@ -351,6 +351,7 @@ Management panel: Settings → Plugins.
 - [dsh-teamwork](https://github.com/dsh-external/dsh-teamwork) - Team collaboration (cordis).
 
 - [plugin-notify](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-notify) - IM webhook + local notifications on turn completion / errors / approval requests (Feishu, WeCom, DingTalk, Slack, Discord, custom).
+- [dsh-monitor](https://github.com/AbnerAI/dsh-monitor) - Persistent background watchers (file inbox / command output) that wake the agent on new messages; the harness analog of Claude Code's Monitor tool.
 
 ## Fun & Lifestyle
 
