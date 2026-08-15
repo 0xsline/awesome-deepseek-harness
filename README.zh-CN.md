@@ -391,6 +391,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-interpreters](https://github.com/dsh-external/dsh-interpreters) - 解释器插件（cordis）。
 - [dsh-notebooks](https://github.com/dsh-external/dsh-notebooks) - notebooks 插件（cordis）。
 - [dsh-plugin-radar](https://github.com/dsh-external/dsh-plugin-radar) - DSH 插件兼容性雷达，原 dsh-external-research 改名。
+- [MicroMilo/upstream-radar](https://github.com/MicroMilo/upstream-radar) - 面向 DSH 插件的常驻依赖安全监控：追踪实际安装路径、OSV 漏洞、npm 发布与兼容性信号，并路由给了解项目的 DSH Agent。
 - [dsh-scout](https://github.com/dsh-external/dsh-scout) - scout 插件（cordis）。
 - [dsh-share](https://github.com/dsh-external/dsh-share) - DSH 对话分享插件。
 - [dsh-sonar](https://github.com/dsh-external/dsh-sonar) - sonar 插件（cordis）。
