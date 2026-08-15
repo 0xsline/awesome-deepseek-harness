@@ -249,6 +249,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-gui](https://github.com/xuboboo/dsh-gui) - DeepSeek Harness 第三方 Windows 桌面客户端：原生窗口、品牌主题与启动动画、启动崩溃修复、Token 用量统计。
 - [DSH Studio](https://github.com/Moresyl/dsh-studio) - 跨平台 Rust/Tauri 桌面外壳：托管 `dsh web`、回收进程树、自动选择空闲端口，并发布 Windows/Linux/macOS 安装包，无需 fork 上游 UI。
 - [DSH Deck](https://github.com/Socialist-Sister/dsh-deck) - 非官方 Electron 桌面外壳：复用官方 DSH Web UI 与数据，支持附加到现有 Harness、防止双写会话损坏、托盘常驻与单文件便携版。
+- [DshCockpit](https://github.com/Lxiayu/DshCockpit) - Electron 桌面驾驶舱：托盘常驻后台任务、Token 用量与成本统计（预算报警）、运行时自动更新与回滚、Quick Ask 全局热键、定时任务、会话全文检索。
 
 ## Browser & Remote
 
