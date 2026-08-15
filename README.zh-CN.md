@@ -144,6 +144,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-file-claim](https://github.com/Nwflower/dsh-file-claim) - 同一工作区并行多会话的文件认领与写入保护（claim/release、心跳 stale 接管、pending 三路合并）
 - [dsh-sticky-note](https://github.com/Meredith2328/dsh-sticky-note) - 输入框工具栏快速便签：点子/感想/TODO，Markdown 预览、自动保存、一键发送到对话。
 - [dsh-plugin-quote-reply](https://github.com/yangYzc/dsh-plugin-quote-reply) - 在会话中划选文字，一键「引用回复」插入输入框，或「新窗口回复」开新会话并预填引用。
+- [dsh-pathlink](https://github.com/penguin-oo/dsh-pathlink) - 在对话中 Ctrl+点击文件路径与链接：路径在文件管理器中定位所在文件夹，链接在新标签页打开。
 - [@picgo/dsh-plugin](https://github.com/PicGo/dsh-plugin) - PicGo 官方插件：把本地文件传到图床拿到公网链接，复用你已在 PicGo 配好的图床与上传器插件。
 
 - [dsh-suggested-replies](https://github.com/dsh-external/dsh-suggested-replies) - DSH Web 输入框上方的预测回复插件。
