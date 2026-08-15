@@ -19,18 +19,18 @@ jobs:
         run: |
           python3 scripts/generate-catalog.py "$HUB_TOKEN"
 
-      - name: Generate Plugin Store catalog (store/catalog.json)
+      - name: Generate Plugin Store catalog (docs/catalog.json)
         run: |
-          python3 scripts/generate-store-catalog.py CATALOG.md store/catalog.json
+          python3 scripts/generate-store-catalog.py CATALOG.md docs/catalog.json
 
       - name: Commit if changed
         run: |
           git config user.name "awesome-dsh-sync[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet CATALOG.md store/catalog.json; then
+          if git diff --quiet CATALOG.md docs/catalog.json; then
             echo "no changes"
           else
-            git add CATALOG.md store/catalog.json
+            git add CATALOG.md docs/catalog.json
             git commit -m "chore: 自动同步 hub catalog 与插件商店目录（$(date -u +%Y-%m-%d)）"
             git push
           fi

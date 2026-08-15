@@ -77,7 +77,7 @@ Management panel: Settings → Plugins.
 
 Browse and install the whole ecosystem with a pre-install **conflict check** against the plugins already installed in your profile.
 
-**Storefront** (GitHub Pages): <https://0xsline.github.io/awesome-deepseek-harness/> — search/filter the catalog, view plugin details, copy the install or check command. Powered by the committed [`store/catalog.json`](store/catalog.json), regenerated automatically from `CATALOG.md`.
+**Storefront** (GitHub Pages): <https://0xsline.github.io/awesome-deepseek-harness/> — search/filter the catalog, view plugin details, copy the install or check command. Powered by the committed [`docs/catalog.json`](docs/catalog.json), regenerated automatically from `CATALOG.md`.
 
 **CLI** — zero-dependency, conflict-checking installer (Node >= 18):
 

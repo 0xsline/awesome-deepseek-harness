@@ -104,7 +104,7 @@ async function loadCatalog() {
   if (_catalogCache) return _catalogCache;
 
   // 1) local generated catalog.json (committed to the repo)
-  const local = path.join(repoRoot(), 'store', 'catalog.json');
+  const local = path.join(repoRoot(), 'docs', 'catalog.json');
   if (fs.existsSync(local)) {
     try {
       _catalogCache = JSON.parse(fs.readFileSync(local, 'utf8'));
@@ -114,7 +114,7 @@ async function loadCatalog() {
   }
 
   // 2) remote generated catalog.json
-  const raw = await fetchRaw(STORE_REPO, 'store/catalog.json', 'store/catalog.json');
+  const raw = await fetchRaw(STORE_REPO, 'docs/catalog.json', 'docs/catalog.json');
   if (raw) {
     try {
       _catalogCache = JSON.parse(raw.text);
@@ -127,7 +127,7 @@ async function loadCatalog() {
   //    generate-store-catalog.py script, kept tiny).
   const md = await fetchRaw(STORE_REPO, 'CATALOG.md', 'CATALOG.md');
   if (!md) {
-    fail('无法读取插件目录：本地 store/catalog.json 不存在，且无法访问 ' +
+    fail('无法读取插件目录：本地 docs/catalog.json 不存在，且无法访问 ' +
          `https://github.com/${STORE_REPO}（需要网络）`);
   }
   _catalogCache = parseCatalogMd(md.text);

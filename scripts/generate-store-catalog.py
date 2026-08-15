@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-"""Generate store/catalog.json from CATALOG.md — the data feed of the Plugin Store.
+"""Generate docs/catalog.json from CATALOG.md — the data feed of the Plugin Store.
 
 Parses the auto-generated CATALOG.md (hub sections + public dsh-plugin Topic
 section) into a flat, deduplicated JSON list consumed by:
-  * store/  — the GitHub-Pages Plugin Store frontend
+  * docs/  — the GitHub-Pages Plugin Store frontend
   * scripts/dsh-store.js — the CLI installer / conflict checker
 
 Usage:
-    python3 scripts/generate-store-catalog.py [CATALOG.md] [-o store/catalog.json]
+    python3 scripts/generate-store-catalog.py [CATALOG.md] [-o docs/catalog.json]
 
 The generated file is committed to the repo (and refreshed by the
 sync-catalog workflow), so the store and the CLI can both work offline.
@@ -22,7 +22,7 @@ from datetime import date, datetime, timezone
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.dirname(HERE)
 DEFAULT_IN = os.path.join(REPO_ROOT, "CATALOG.md")
-DEFAULT_OUT = os.path.join(REPO_ROOT, "store", "catalog.json")
+DEFAULT_OUT = os.path.join(REPO_ROOT, "docs", "catalog.json")
 
 GITHUB_RE = re.compile(r"^https?://github\.com/([^/]+)/([^/?#]+)")
 ROW_RE = re.compile(r"^\|\s*(\[[^\]]+\]\(([^)]+)\)|`([^`]+)`)\s*\|\s*(.*?)\s*\|$")

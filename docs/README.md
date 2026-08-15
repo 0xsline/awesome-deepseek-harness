@@ -1,17 +1,19 @@
 # DSH Plugin Store 🐋
 
-Plugin storefront for the DeepSeek Harness ecosystem (this directory is deployed
-to GitHub Pages) plus the data feed for the `dsh-store` CLI.
+Plugin storefront for the DeepSeek Harness ecosystem. This directory is
+deployed to **GitHub Pages** (source: branch `main`, folder `/docs`) and is
+also the data feed for the `dsh-store` CLI.
 
 | File | Purpose |
 |---|---|
 | `index.html` / `app.js` / `style.css` | Zero-dependency storefront (search / filter / detail / copy install & check commands) |
 | `catalog.json` | Data feed — **generated**, do not edit by hand |
+| `.nojekyll` | Tells GitHub Pages to serve the folder as plain static files |
 
 ## Regenerating catalog.json
 
 ```sh
-python3 scripts/generate-store-catalog.py CATALOG.md store/catalog.json
+python3 scripts/generate-store-catalog.py CATALOG.md docs/catalog.json
 ```
 
 The `sync-catalog` workflow regenerates it on every hub-catalog sync, and the
@@ -26,6 +28,6 @@ Install and conflict-checking live in [`scripts/dsh-store`](../scripts/dsh-store
 ## Local preview
 
 ```sh
-python3 -m http.server 8080 --directory store
+python3 -m http.server 8080 --directory docs
 # open http://127.0.0.1:8080
 ```

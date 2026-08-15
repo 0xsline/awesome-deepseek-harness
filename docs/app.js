@@ -41,7 +41,7 @@ async function loadCatalog() {
     return data;
   } catch (e) {
     $('#stats').textContent = 'catalog.json 加载失败';
-    $('#notice').textContent = '无法加载 catalog.json（' + e.message + '）。请确认 store/catalog.json 已生成并随仓库发布。';
+    $('#notice').textContent = '无法加载 catalog.json（' + e.message + '）。请确认 docs/catalog.json 已生成并随仓库发布。';
   }
 }
 

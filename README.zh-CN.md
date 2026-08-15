@@ -76,7 +76,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 插件商店：浏览并一键安装整个生态，**安装前自动做冲突检查**（对照当前 profile 已装插件）。
 
-**商店网页**（GitHub Pages）：<https://0xsline.github.io/awesome-deepseek-harness/> —— 搜索/筛选全部插件、查看详情、复制安装或检查命令。数据来自随仓库提交的 [`store/catalog.json`](store/catalog.json)，由 `CATALOG.md` 自动生成。
+**商店网页**（GitHub Pages）：<https://0xsline.github.io/awesome-deepseek-harness/> —— 搜索/筛选全部插件、查看详情、复制安装或检查命令。数据来自随仓库提交的 [`docs/catalog.json`](docs/catalog.json)，由 `CATALOG.md` 自动生成。
 
 **命令行工具** —— 零依赖、带冲突预检的安装器（Node >= 18）：
 

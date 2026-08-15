@@ -5,7 +5,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'store/**'
+      - 'docs/**'
       - 'CATALOG.md'
       - 'scripts/generate-store-catalog.py'
       - 'scripts/generate-catalog.py'
@@ -28,12 +28,12 @@ jobs:
 
       - name: Regenerate store catalog (keeps Pages data fresh)
         run: |
-          python3 scripts/generate-store-catalog.py CATALOG.md store/catalog.json
+          python3 scripts/generate-store-catalog.py CATALOG.md docs/catalog.json
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: store
+          path: docs
 
   deploy:
     needs: build
