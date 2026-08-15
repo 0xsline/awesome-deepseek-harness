@@ -271,6 +271,7 @@ Management panel: Settings → Plugins.
 - [qqbot](https://github.com/dsh-external/qqbot) - QQ bot.
 - [dsh-wecom-bot](https://github.com/dsh-external/dsh-wecom-bot) - WeCom bot.
 - [dsh-weixin-bot](https://github.com/dsh-external/dsh-weixin-bot) - WeChat bot.
+- [dsh-im-hub](https://github.com/ThreeBody6666/dsh-im-hub) - Multi-platform IM gateway: Feishu (Lark) WebSocket long connection (no public URL), WeCom AES-encrypted callbacks, Telegram long polling; per-chat agent sessions, whitelist access, visual settings card.
 - [dsh-voice-chat](https://github.com/dsh-external/dsh-voice-chat) - Voice chat.
 - [dsh-web-ui-notify](https://github.com/dsh-external/dsh-web-ui-notify) - WebUI notifications.
 - [dsh-notify-windows](https://github.com/SeverusZh/dsh-notify-windows) - Windows notifications, zero dependencies.
