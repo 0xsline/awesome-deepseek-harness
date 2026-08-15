@@ -202,7 +202,7 @@ Management panel: Settings → Plugins.
 ## Browser & Remote
 
 - [dsh-browser-panel](https://github.com/dsh-external/dsh-browser-panel) - Headed browser embedded in the WebUI, model-driven (Codex-style, zero vision deps).
-- [dsh-builtin-browser](https://github.com/wqty123/dsh-browser) - Shared real browser for DSH: a visible WebContentsView the human can take over, driven by the agent over CDP (needs an `electronViewHost` desktop shell).
+- [dsh-builtin-browser](https://github.com/wqty123/dsh-browser) - Shared real browser for DSH: a visible browser window the human can take over, driven by the agent over CDP (snapshot/execute/content/tab management).
 - [dsh-browser](https://github.com/dsh-external/dsh-browser) - Chrome sidebar extension.
 - [dsh-deeplink](https://github.com/dsh-external/dsh-deeplink) - Open DSH WebUI sessions or workspaces directly from URL parameters.
 - [dsh-remote](https://github.com/flymysql/dsh-remote) - Multi-machine remote workspace: manage many SSH hosts, pick a local or remote workspace in the native Add-workspace flow (system folder / path browse), mirror a remote workspace to a real local folder, and operate it with rw_* tools.
