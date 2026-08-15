@@ -235,6 +235,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-trajectory-reader](https://github.com/flyingtimes/dsh-trajectory-reader) - 轨迹解读标签页：按用户轮次逐轮解读助手做了什么（需求/思路/执行/结果，规则引擎 + 可选 LLM 叙述），涉及文件、命令与错误一目了然，用户消息原样保留。
 - [dsh-session-manager](https://github.com/Semidia/dsh-session-manager) - 侧边栏会话行右键菜单：置顶、重命名、归档、在新聊天中继续、标记未读、复制工作目录/标题/ID/深度链接、在资源管理器中打开、在新窗口中打开。
 
+- [dsh-cost-crystal](https://github.com/xxvk/dsh-cost-crystal) - DSH Web UI 成本水晶球：余额卡片、实时 tok/s 速率、波峰/低峰计费倒计时、近 24h 消耗，以及 🔮 下一条消息消耗预测，全部时区感知。
 ## IDE & Clients
 
 - [dsh4vscode](https://github.com/DoggyHU/dsh4vscode) - 基于 DSH agent 的 VS Code 聊天窗口：OpenCode 式独立会话、模型自动路由（Flash/Pro/Pro Max）。
