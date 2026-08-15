@@ -355,6 +355,7 @@ Management panel: Settings → Plugins.
 
 ## Infrastructure & Development
 
+- [create-dsh-plugin](https://github.com/ciceroyang/create-dsh-plugin) - Scaffold a battle-tested DeepSeek Harness plugin (bundle, tool, runtime skill, tests, CI) in one command, zero dependencies.
 - [Code2Skill](https://github.com/leechen298/Code2Skill) - Generate Functions, MCP tools, workflow Skills, and offline test packages from user-authorized source code.
 - [dsh-movein](https://github.com/sjh9714/dsh-movein) - Move a whole Claude Code setup into DSH in one command: skills, MCP servers, hooks, subagents and permission rules, with a dry-run moving estimate, a migration diff report, and a movein_from_claude_code agent tool.
 - [dsh-observation-journal](https://github.com/Cavan-Ou/dsh-observation-journal) - Zero-touch runtime telemetry for DSH: every session auto-writes task, model tier, tools, failures, duration, status into a human-readable journal with a stats section (pure observer — no tools, no LLM calls, no injection).
