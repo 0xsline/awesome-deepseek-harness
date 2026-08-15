@@ -249,6 +249,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-browser](https://github.com/dsh-external/dsh-browser) - Chrome 侧边栏扩展
 - [dsh-deeplink](https://github.com/dsh-external/dsh-deeplink) - 通过 URL 参数直接打开 DSH WebUI 会话或工作区。
 - [dsh-remote](https://github.com/flymysql/dsh-remote) - 多机远程工作区：管理多个 SSH 主机，在原生 Add-workspace 流程中选择本地或远程工作区（系统文件夹/路径浏览），把远程工作区镜像到本地真实文件夹，用 rw_* 工具操作。
+- [dsh-ssh](https://github.com/jmcc-guo/dsh-ssh) - DeepSeek Harness 的 SSH 终端面板与 AI 连接管理：对话内自主 connect/exec/list/status/disconnect，WebUI 内 XShell 风格多标签 PTY 实时终端。
 - [dsh-lan-access](https://github.com/Leon0555/dsh-lan-access) - 局域网访问：Web GUI 绑定 0.0.0.0 + crypto.randomUUID polyfill（修复非安全上下文下 RPC 崩溃），npm 可装
 - [ego-browser](https://github.com/dsh-external/ego-browser) - 浏览器代理
 - [dsh-webbridge](https://github.com/dsh-external/dsh-webbridge) - Web 桥接
