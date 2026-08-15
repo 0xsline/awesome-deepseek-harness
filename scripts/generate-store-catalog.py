@@ -160,8 +160,19 @@ def main():
 
     plugins.sort(key=lambda p: (p["source"] != "hub", p["name"].lower()))
 
+    # preserve the previous generatedAt when plugin content is unchanged, so
+    # regeneration is a no-op for git unless the catalog actually changed
+    generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    try:
+        with open(out, encoding="utf-8") as f:
+            prev = json.load(f)
+        if prev.get("plugins") == plugins:
+            generated_at = prev.get("generatedAt", generated_at)
+    except (OSError, ValueError, KeyError):
+        pass
+
     data = {
-        "generatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "generatedAt": generated_at,
         "catalogDate": date.today().isoformat(),
         "source": os.path.basename(src),
         "count": len(plugins),
