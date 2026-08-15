@@ -88,7 +88,7 @@ Management panel: Settings → Plugins.
 ## Agents & Orchestration
 
 - [dsh-collaboration](https://github.com/Socialist-Sister/dsh-collaboration) - Multi-agent collaboration suite: user-configured specialist roster, persistent on-demand dispatch (team_call/team_message/team_status/team_close), clone instances, star-topology relay, model comparison and a multimodal vision bridge.
-- [dsh-agent-team-gui](https://github.com/toolclub/agent_team_gui) - Global persistent agent squads with per-agent model/tool policies: manage them in Settings, select and toggle one per conversation, then collaborate on normal sends in a fixed or model-planned order.
+- [dsh-agent-team-gui](https://github.com/toolclub/dsh-agent-team-gui) - Global persistent agent squads with per-agent model/tool policies: manage them in Settings, select and toggle one per conversation, then collaborate on normal sends in a fixed or model-planned order.
 
 ## Context & Search
 
