@@ -211,7 +211,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-plugin-setting-mcp](https://github.com/Ceelog/dsh-plugins/tree/main/src/plugins/dsh-plugin-setting-mcp) - 在 Web 设置面板中添加、编辑、删除、启用或停用 MCP 服务器，保存后热重载。
 - [dsh-theme-plugin](https://github.com/BeiZi6/dsh-theme-plugin) - DSH Web GUI 主题工作室：5 套内置预设 + 完全可自定义的浅/深配色（强调色、背景、前景、UI 与代码字体、半透明侧栏、对比度），即时热切换并持久化到 localStorage。
 - [dsh-opencodego-usage](https://github.com/BeiZi6/dsh-opencodego-usage) - OpenCodeGo 剩余额度监视器：输入框右下角呼吸指示灯（按剩余额度绿/黄/红），液态玻璃面板显示滚动/周/月用量窗口与重置时间，每 30 秒自动刷新；API Key 自动读取 DSH 凭据。
-- [dsh-smooth-stream](https://github.com/SpookySandwich/dsh-smooth-stream) - 按段落淡入显示助手回复，而不是逐 token 跳动。
+- [dsh-smooth-stream](https://github.com/SpookySandwich/dsh-smooth-stream) - 给 DeepSeek Harness 加入更好的流式文字动画。
 
 ## IDE & Clients
 
