@@ -303,6 +303,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-yolo-mode](https://github.com/SeverusZh/dsh-yolo-mode) - 沙箱升权申请的 LLM 自动审批：预设 + 逐工具权限层级，fail-closed 兜底。
 - [dsh-plugin-scheduled-tasks](https://github.com/Ceelog/dsh-plugins/tree/main/src/plugins/dsh-plugin-scheduled-tasks) - 按项目调度提示词，在全新的无头 Agent 会话中执行，支持单次、固定间隔和 cron 计划，并持久化运行历史。
 - [dsh-permission-rules](https://github.com/PerryLink/dsh-permission-rules) - 声明式 allow/deny/ask 权限规则：在 tools/pre-execute 瀑布上匹配工具名、参数、工作区路径与 agent 身份，带会话日志审计、干跑模式与热重载。
+- [dsh-checkpoint-rewind](https://github.com/PerryLink/dsh-checkpoint-rewind) - DSH 的 Claude Code /rewind 等价能力：变更型工具执行前 git 优先工作区快照，轮次边界 fork 会话，一条 /rewind 命令恢复文件并把会话回退到检查点。
 
 ## Output & Deliverables
 
