@@ -241,6 +241,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [DSH-for-VSC](https://github.com/yauntyour/DSH-for-VSC) - 把 DSH 的 WebUI 搬进 VS Code：编辑器内嵌面板 + 侧边栏控制台（服务状态/一键启停），离线自动拉起、日志随时可查、状态栏常驻指示。
 - [dsh-gui](https://github.com/xuboboo/dsh-gui) - DeepSeek Harness 第三方 Windows 桌面客户端：原生窗口、品牌主题与启动动画、启动崩溃修复、Token 用量统计。
 - [DSH Studio](https://github.com/Moresyl/dsh-studio) - 跨平台 Rust/Tauri 桌面外壳：托管 `dsh web`、回收进程树、自动选择空闲端口，并发布 Windows/Linux/macOS 安装包，无需 fork 上游 UI。
+- [DSH Deck](https://github.com/Socialist-Sister/dsh-deck) - 非官方 Electron 桌面外壳：复用官方 DSH Web UI 与数据，支持附加到现有 Harness、防止双写会话损坏、托盘常驻与单文件便携版。
 
 ## Browser & Remote
 
