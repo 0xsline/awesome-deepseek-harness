@@ -345,6 +345,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-im-hub](https://github.com/ThreeBody6666/dsh-im-hub) - 多平台 IM 网关：飞书（Lark）WebSocket 长连接（无需公网）、企业微信 AES 加密回调、Telegram 长轮询；每会话独立 agent、白名单访问、GUI 可视化设置卡片
 - [dsh-im-bridge](https://github.com/MHfire/dsh-im-bridge) - 企业微信渠道桥接：WebSocket 长连接直连（无需公网），进程内 Agent + 按发送者持久会话（GUI 实时可见、可续聊），人设可定制，流式进度动画。
 - [DSH-WX-Msg-Tool](https://github.com/yauntyour/DSH-WX-Msg-Tool) - 微信 ClawBot/iLink 渠道插件：在 DSH Web 扫码登录，提供消息发送、轮询与状态工具、后台长轮询，并可按发送者维持 DSH 会话后自动回复微信消息。
+- [super-wechat-bridge](https://github.com/Qshuai0213/super-wechat-bridge) - 微信 iLink ClawBot 桥接：官方腾讯 iLink 协议直连，Web 设置界面（扫码登录/模型/预设/权限/会话管理含删除），24h 到期前自动推送新二维码续期，全程不断线。
 - [dsh-voice-chat](https://github.com/dsh-external/dsh-voice-chat) - 语音对话
 - [dsh-web-ui-notify](https://github.com/dsh-external/dsh-web-ui-notify) - WebUI 通知
 - [dsh-notify-windows](https://github.com/SeverusZh/dsh-notify-windows) - Windows 通知，零依赖
