@@ -307,6 +307,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-scout](https://github.com/dsh-external/dsh-scout) - scout 插件（cordis）。
 - [dsh-share](https://github.com/dsh-external/dsh-share) - DSH 对话分享插件。
 - [dsh-sonar](https://github.com/dsh-external/dsh-sonar) - sonar 插件（cordis）。
+- [dsh-workloads](https://github.com/yewenyell-lang/dsh-workloads) - 为 DeepSeek Harness 提供工作区级持久进程托管、就绪检测与运行中心。
 - [plugin-registry](https://github.com/dsh-external/plugin-registry) - 插件控制台 + make-dsh-plugin skill + 开发指引
 - [dsh-plugin-manager-registry](https://github.com/Jesse-njx/dsh-plugin-manager-registry) - 离线容错的插件注册表，聚合并去重 awesome 列表、GitHub Topic 与 npm 中的 DSH 插件。
 - [marisa](https://github.com/dsh-external/marisa) - 外部插件管理器（寄生安装/CLI/设置页面板）

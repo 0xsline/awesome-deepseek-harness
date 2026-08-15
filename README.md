@@ -311,6 +311,7 @@ Management panel: Settings → Plugins.
 - [dsh-scout](https://github.com/dsh-external/dsh-scout) - Scout plugin (cordis).
 - [dsh-share](https://github.com/dsh-external/dsh-share) - Share DSH conversations.
 - [dsh-sonar](https://github.com/dsh-external/dsh-sonar) - Sonar plugin (cordis).
+- [dsh-workloads](https://github.com/yewenyell-lang/dsh-workloads) - Workspace-owned durable process supervision, readiness checks, and a Runtime Center for DeepSeek Harness.
 - [plugin-registry](https://github.com/dsh-external/plugin-registry) - Plugin console + make-dsh-plugin skill + dev guide.
 - [dsh-plugin-manager-registry](https://github.com/Jesse-njx/dsh-plugin-manager-registry) - Offline-tolerant registry that discovers and deduplicates DSH plugins from awesome lists, GitHub topics, and npm.
 - [marisa](https://github.com/dsh-external/marisa) - External plugin manager (parasitic install/CLI/settings panel).
