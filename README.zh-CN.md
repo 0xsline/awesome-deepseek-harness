@@ -406,6 +406,10 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [DeepSeek Harness Handbook](https://github.com/sandbaseai/deepseek-harness-handbook) - 从 Agent 视角讲解 DSH 运行、扩展与排障的来源可追溯手册，提供多语言导航和可下载的速查指南
 - [DeepSeek](https://deepseek.com) - 官方入口
 
+### 友情链接
+
+- [DeepSeek Harness Desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) - 为 DeepSeek Harness 生态打造的现代化桌面端：无需配置 Node.js 或执行命令即可启动和管理本地 Harness 服务；后续将支持插件市场、移动端远程控制与 IM Channels。[访问官网](https://www.dshdesktop.cn)
+
 ## Contributing
 
 Please have a look at [contributing.md](contributing.md). 条目标准：仓库 + 一句话描述 + 链接；精选人工维护，全量索引以 hub 为准。
