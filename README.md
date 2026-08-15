@@ -467,6 +467,7 @@ Management panel: Settings → Plugins.
 - [dsh-plugin-guide](https://github.com/PerryLink/dsh-plugin-guide) - Plugin-development knowledge base as an on-demand agent skill: official constraints, task workflows, API references, and community pitfalls.
 - [awesome-dsh](https://github.com/stakeswky/awesome-dsh) - Auto-updating catalog of the whole `dsh-plugin` topic (2600+ repos): a Cloudflare Worker recrawls every 6 hours, translates English descriptions to Chinese with Workers AI, and serves a ranked search API plus an agent skill that finds and installs plugins on demand.
 - [dsh-guardian](https://github.com/cdxiaodong/dsh-guardian) - Agent security guardrail: intercepts and audits every tool call, requiring human confirmation on sensitive operations.
+- [loongsuite/dsh-plugin](https://github.com/loongsuite/dsh-plugin) - OpenTelemetry GenAI tracing for DSH: one span tree per turn (steps, LLM calls with TTFT, tool executions, token usage), exported over standard OTLP to any compatible backend, content capture off by default.
 
 ## Data & Market
 

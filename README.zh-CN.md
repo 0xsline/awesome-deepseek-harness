@@ -462,6 +462,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-plugin-guide](https://github.com/PerryLink/dsh-plugin-guide) - 插件开发知识库，作为按需加载的智能体技能：官方约束、任务工作流、API 参考与社区踩坑。
 - [awesome-dsh](https://github.com/stakeswky/awesome-dsh) - `dsh-plugin` topic 全量目录，自动更新（2600+ 仓库）：Cloudflare Worker 每 6 小时重新抓取，用 Workers AI 把英文简介译成中文，并提供相关度检索 API 与按需查找、安装插件的智能体技能。
 - [dsh-guardian](https://github.com/cdxiaodong/dsh-guardian) - Agent 安全护栏：拦截并审计所有工具调用，命中敏感操作就要求人工确认。
+- [loongsuite/dsh-plugin](https://github.com/loongsuite/dsh-plugin) - DSH 的 OpenTelemetry GenAI 调用链插件：每轮生成一棵 span 树（步骤、带 TTFT 的 LLM 调用、工具执行、token 用量），通过标准 OTLP 上报到任意兼容后端，正文采集默认关闭。
 
 ## Data & Market
 
