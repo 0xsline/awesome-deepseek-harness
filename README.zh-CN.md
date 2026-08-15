@@ -185,6 +185,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-desktop](https://github.com/foolgry/dsh-desktop) - 开箱即用的 Electron 桌面版（macOS/Windows 安装包）：无需 Node.js 和命令行，自动跟随上游 `@deepseek-ai/dsh` 发版，内置 Web UI 与自动更新
 - [dsh-milestone](https://github.com/SnowCrescenter-tech/dsh-milestone) - 右侧圆点时间轴导航栏，快速跳转到任意用户消息。
 - [dsh-turn-index](https://github.com/Simon314620/dsh-turn-index) - 轮次索引侧边栏：每条索引对应一轮用户提问，点击跳转并闪烁高亮，滚动时自动高亮当前轮次。
+- [dsh-outline](https://github.com/urzeye/dsh-outline) - DSH Web 会话页实时大纲面板：用户问题 + Markdown 标题（1~6 级）大纲树，流式生成实时更新，点击节点定位高亮，支持展开层级调节、搜索与会话级收藏。
 - [dsh-web-attention-badge](https://github.com/Luaphes/dsh-web-attention-badge) - 关注提醒：会话等待输入或后台完成未打开时，左上角角标、标签页标题 (N) 计数与鲸鱼 favicon 换色三处联动。
 - [dsh-plugin-description](https://github.com/MysaDC/dsh-plugin-description) - 为 Web 设置插件列表页的每张插件卡片补上中英文功能说明，并提供 `pluginDescriptions` 服务供其他插件注册自己的说明。
 - [dsh-builtin-toggles](https://github.com/Starfie1d1272/dsh-builtin-toggles) - DSH Web 官方内置插件的人类可读目录，提供状态解释与经过审核的安全 UI 开关。
