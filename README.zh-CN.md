@@ -236,6 +236,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-harness-mcp-server](https://github.com/chushixixin/dsh-harness-mcp-server) - MCP server 暴露 Harness agent：任意 MCP 客户端（如 Hermes）驱动 Harness 当「胳膊」。
 - [dsh-subagent-tools](https://github.com/lynx-gt/dsh-subagent-tools) - 子代理委派按次覆盖 model / provider / persona / toolFilter、@preset: 引用、provider/model 复合 id（bundle，不改官方文件）。
 - [dsh-subagent-cwd](https://github.com/lynx-gt/dsh-subagent-cwd) - dsh-subagent-tools 加按次 cwd（子代理工作目录），附所需的两处进程内 provider 补丁。
+- [dsh-plugin-subagent-director](https://github.com/SeverusZh/dsh-plugin-subagent-director) - 子代理 LLM 供应商/模型选择与角色模板（subagent_role 工具）。
 - [dsh-subscription-auth](https://github.com/Khellendros97/dsh-subscription-auth) - 订阅会员 OAuth 登录：ChatGPT/Claude/Grok/Kimi 按订阅账号（非 API key）访问模型，登录后自动发现官方模型列表
 - [dsh-llm-fallback](https://github.com/Visol-456/dsh-llm-fallback) - Provider 回退链：请求本身永远是链头（你选的模型永不被改写），失败按备用目标顺序自动切换重试；带 Web UI 配置面板
 
@@ -260,6 +261,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-git-branch-switcher](https://github.com/mixin-ai/dsh-git-branch-switcher) - 会话头部 Git 分支胶囊：显示当前项目分支，并可在 Web UI 中直接切换分支。
 - [dsh-doublecheck](https://github.com/PerryLink/dsh-doublecheck) - 工程纪律闭环：动工前盘问需求、红绿测试证据门、交付前对抗式审查。
 - [dsh-plugin-diff-review](https://github.com/Civitasv/dsh-plugin-diff-review) - 浮动面板中的 Codex 风格变动审查：逐轮查看会话更改 + git 工作区全量未提交更改（暂存/丢弃/提交/推送），含历史时间线。
+- [dsh-yolo-mode](https://github.com/SeverusZh/dsh-yolo-mode) - 沙箱升权申请的 LLM 自动审批：预设 + 逐工具权限层级，fail-closed 兜底。
 
 ## Output & Deliverables
 
