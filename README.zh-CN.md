@@ -163,6 +163,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## UI & Experience
 
+- [dsh-office](https://github.com/Fayelin12/dsh-office) - 办公室工作区/会话仪表盘：悬浮 6 列精灵面板，可视化工作区、会话、token 用量与子代理。
 - [dsh-spotlight](https://github.com/0xsline/dsh-spotlight) - DeepSeek Harness Web 的键盘优先命令面板。
 - [dsh-sticky-disclosure](https://github.com/Han-1413141/dsh-sticky-disclosure) - 将滑出屏幕的 Think/工具/命令标签钉在 DSH Web 会话顶部，并支持一键收起所有展开区块与自定义快捷键。
 - [dsh-better-model-selector](https://github.com/Khellendros97/dsh-better-model-selector) - 将输入框模型选择器拆成「可搜索 + 收藏」的下拉选单和「推理强度滑动条」两个独立控件，支持 Ctrl+P / Ctrl+T 快速切换。
