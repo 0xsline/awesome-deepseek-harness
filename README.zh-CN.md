@@ -269,6 +269,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-sampling-sliders](https://github.com/Semidia/dsh-sampling-sliders) - 输入栏采样面板：temperature / maxTokens 滑杆，热调 + 持久化两种模式，经 agent/request 钩子作用于所有 Provider。
 - [dsh-service-control](https://github.com/Semidia/dsh-service-control) - 侧边栏底部重启 / 关闭按钮：经 ctx.appExit 优雅关闭，由脱离宿主管理的独立进程自动重启 dsh web。
 - [loongport-dsh](https://github.com/SailingLoong/loongport-dsh) - 多站点中转服务商接入：签名目录（身份、地址、模型）、Settings → LoongPort 服务商与 API Key 手动配置页、OpenAI 兼容路由（npm 包：loongport）。
+- [dsh-output-styles](https://github.com/PerryLink/dsh-output-styles) - 运行时切换模型输出风格（对标 Claude Code outputStyles）：/style 命令、按会话持久化、systemPrompt 注入与 Web 选择器。
 
 ## Git & Engineering
 
