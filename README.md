@@ -47,6 +47,7 @@
   - [工作流与 Agent](#工作流与-agent)
   - [上下文、会话与输入](#上下文会话与输入)
   - [浏览器、视觉与界面](#浏览器视觉与界面)
+  - [沙箱与执行](#沙箱与执行)
   - [主题与皮肤](#主题与皮肤)
 - [外部集成](#外部集成)
 - [开发工具](#开发工具)
@@ -105,6 +106,7 @@ dsh --profile web --dump-config
 
 - [@deepseek-ai/dsh](https://www.npmjs.com/package/@deepseek-ai/dsh)：官方 CLI 与 Web UI 的 npm 启动包
 - [deepseek-harness-sdk](https://pypi.org/project/deepseek-harness-sdk/)：用于程序化集成 DSH 的官方 Python SDK
+- [Ollama](https://github.com/ollama/ollama/blob/e5a81899d014a847a08d47393351908b53d74008/docs/integrations/deepseek-harness.mdx)：通过 `ollama launch dsh` 安装并启动 DSH、选择 Ollama 模型和配置 Web 搜索；会将独立设置写入 `~/.ollama/launch/dsh/settings.yaml`，当前标注为开发者预览
 
 ### 源码仓库
 
@@ -172,6 +174,7 @@ dsh --profile web --dump-config
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [从早期参与者视角理解 DSH](https://x.com/jiayuan_jy/status/2087911060154314963)                                                                                         | [Jiayuan (JY) Zhang](https://x.com/jiayuan_jy) · 2026-08-13；作者自述提前一个月进入仓库 | 将 DSH 同时理解为可运行的 Coding Agent 和 Agent 开发框架；用“乐高汽车”解释一切皆插件，并讨论 Runtime 自扩展、自进化软件雏形、当前成熟度和函数式编程特征。 |
 | [从 Agent Runtime / Agent OS 视角理解 DSH](https://x.com/anion_ex/status/2087910193783025853)                                                                           | [Anionex](https://x.com/anion_ex) · 2026-08-13；内测参与者与插件作者                    | 从模型、工具、策略、存储、上下文、界面和 Loop 的可组合性解释 DSH，并讨论 Agent 对运行时的有限观察与自扩展。                                               |
+| [玩了一夜 DeepSeek Harness，我发现它在用《我的世界》的方式干掉 Claude Code](https://www.pingwest.com/a/316436)                                                        | 品玩 · 2026-08-14；发布首夜的媒体观察                                                  | 用《我的世界》的原版、Mod、CurseForge 与整合包类比 DSH 本体、插件、目录和发行版，并记录首夜的兼容性与安全争议；项目数量和状态仅代表当时快照。               |
 
 ## 第三方客户端
 
@@ -184,7 +187,7 @@ dsh --profile web --dump-config
 | 项目                                                                    | 平台 / 形态                    | 说明                                                                                                                   |
 | ----------------------------------------------------------------------- | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
 | [TinyWhale](https://github.com/aimierbear/TinyWhale)                    | macOS · Electron · 发行版 Fork | 直接 Fork `deepseek-ai/deepseek-harness` 并增加独立桌面壳；连接已有 Web UI，或启动完整的 `dsh web` Runtime，不属于插件 |
-| [Oh-DSH-Desktop](https://github.com/hust-open-atom-club/oh-dsh-desktop) | macOS · Electron               | 打包 DSH Runtime、Node.js、PTY、工作区工具和插件市场预览的可扩展工作台                                                 |
+| [Oh-DSH](https://github.com/hust-open-atom-club/oh-dsh)                 | macOS / Linux / Windows · 社区发行版 | 将 DSH、Node.js 与本地能力打包为 Desktop、Web 和 TUI 三种形态，提供分层安装包与统一的 `ohdsh` 启动器                   |
 | [DSH Desktop](https://github.com/dataelement/dsh-desktop)               | macOS / Windows · Electron     | 管理本地 Harness、工作区、随机端口、Profile、插件和会话的跨平台桌面端                                                  |
 | [dsh-launcher](https://github.com/Ruler4396/dsh-launcher)               | Windows · WebView2             | 提供静默启动、独立窗口、便携包和 MSI 的轻量启动器                                                                      |
 
@@ -231,13 +234,20 @@ dsh --profile web --dump-config
 - [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit)：图片问答、长截图 OCR、UI 还原、Grounding 和像素对比。
 - [dsh-computer-use](https://github.com/Anionex/dsh-computer-use)：原生 macOS Computer Use Bundle，优先使用 Accessibility，拒绝过期观察并按应用、Session 和操作范围管理权限；当前为早期 `0.1.0`，需从源码检出目录安装。
 - [modlens](https://github.com/liustack/modlens)：通过粘贴图片和模型路由让纯文本模型获得视觉能力，是以独立视觉工具处理工作区图片之外的另一种方案。
+- [ModSearch](https://github.com/liustack/modsearch)：为 DSH 补充 Web 搜索、X 搜索和网页正文读取，返回结构化证据；MIT，已发布 `v5.4.2`，不同搜索通道可能依赖外部 CLI、登录、API Key、额度与各自服务条款。
 - [dsh-better-browser](https://github.com/titanwings/dsh-better-browser)：通过外部 Kimi WebBridge 操作保留登录态的真实浏览器，按任务维护标签页会话；需另行安装并运行 WebBridge。
 - [dsh-web-review](https://github.com/CanglongCl/dsh-web-review)：在 DSH 内预览网页、点选元素并提交选择器、可访问名称和修改意图，附真实前端修改评测套件；当前仓库尚未声明许可证。
+- [dsh-mcp-apps](https://github.com/sugarforever/dsh-mcp-apps)：让 DSH Web 成为 MCP Apps Host，在带 CSP 和 Permission Policy 的沙箱 iframe 中渲染交互应用；MIT、`v0.1.1`，但项目仍新，标注为早期。
+- [dsh-genui](https://github.com/omdsh-dev/dsh-genui)：在回复中渲染图表、表单、Mermaid、3D 场景等交互组件，并将操作事件送回模型；MIT、尚无正式 Release，当前主要通过 Git 安装，标注为早期。
 - [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar)：集成文件、终端、Git、子 Agent 和第三方 Tab 的侧边栏工作台。
 - [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil)：在 DSH 中预览和编辑 OpenPencil 设计。
 - [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize)：在对话流中生成沙箱化的可交互 HTML 卡片。
 - [dsh-notification](https://github.com/omdsh-dev/dsh-notification)：按任务结果和关键词配置桌面通知。
 - [dsh-share](https://github.com/hellodigua/dsh-share)：一键生成并分享 DSH 对话内容。
+
+### 沙箱与执行
+
+- [sandbox-micro](https://github.com/omdsh-dev/sandbox-micro)：提供 fail-closed 的 microsandbox microVM 能力；安装后 Provider 与模型工具均默认关闭，必须分别显式启用，平台检查失败时不会降级为无约束宿主执行。含测试目录但尚无正式 Release；`package.json` 声明 BSD-3-Clause，但仓库根目录没有 `LICENSE` 文件，标注为早期。
 
 ### 主题与皮肤
 
@@ -247,14 +257,17 @@ dsh --profile web --dump-config
 
 - [Sealos Skills](https://github.com/labring/sealos-skills)：由 Sealos 团队维护的 DSH Profile Bundle，提供应用部署、数据库、对象存储等八个云原生 Skills；实际使用会操作外部 Sealos Cloud 资源，需要账号与相关凭据，登录会写入 `~/.sealos/kubeconfig`，部分流程需放宽沙箱权限。`package.json` 声明 MIT，但仓库根目录当前缺少 `LICENSE` 文件。
 - [Nowledge Mem](https://mem.nowledge.co/integrations/deepseek-harness)：为 DSH 提供 Working Memory、提示时检索、MCP 工具和会话捕获；依赖外部 Nowledge Mem 产品与 `nmem` CLI，适合与开源插件分开评估。
+- [Open Design](https://github.com/nexu-io/open-design)：本地优先的开源设计应用，通过原生 DSH Runtime 适配提供结构化流式输出、模型发现、取消和会话恢复；Apache-2.0，属于大型独立产品而非普通插件。
 - [dsh-multica-runtime](https://github.com/forrestchang/dsh-multica-runtime)：连接 Multica 与 DSH 的早期运行时桥接；当前包标记为 `private`、`UNLICENSED`，安装与分发边界仍不完整。
 - [dsh-lark-bot](https://github.com/PlutoKeating/dsh-lark-bot)：把本地 DSH 接入飞书 / Lark，提供流式卡片、工作区、会话恢复与审批；采用 AGPL-3.0，应用凭据以权限 `600` 的明文配置保存在本机。
+- [dsh-qqbot](https://github.com/tencent-connect/dsh-qqbot)：腾讯团队维护的 QQ Bot 插件，支持扫码绑定、私聊与群聊会话隔离及重启恢复；MIT、`0.1.0`，绑定过程会把凭据保存到本地 Profile。
 
 ## 开发工具
 
 - [dsh-plugin-check](https://github.com/omdsh-dev/dsh-plugin-check)：检查 Manifest、Patch、构建陷阱和目录收录状态。
 - [dsh-fail-logger](https://github.com/Areium/dsh-fail-logger)：脱敏、去重并分类记录工具失败，将机器维护的实录沉淀进 Skill；只记录问题，不自动修改行为。
 - [deepseek-harness-action](https://github.com/Lixiaoyiao/deepseek-harness-action)：在 GitHub Actions 中使用 DSH 做 PR Review、CI 诊断、自动修复和 Issue → PR；写权限默认关闭，并将验证放在无凭据容器中运行。
+- [Awesome DSH Plugins Radar](https://github.com/AdamPlatin123/awesome-dsh-plugins)：自动扫描并分别展示发现、静态、编译和运行级信号的兼容性雷达；MIT、数据高速变化且尚无 Release，“运行可用”不等于安全审计或内容质量，标注为早期。
 - [dsh-suite](https://whyihaveyou.github.io/dsh-suite/zh.html)：中英双语 DSH 生态索引，提供插件搜索、`create-dsh-plugin` 脚手架和基础兼容性元数据；当前处于早期阶段，兼容性检查主要为静态依赖比对，安装与配置组装验证尚未完成。
 - [deepseek-harness-plugin-mcp](https://github.com/bobleer/deepseek-harness-plugin-mcp)：让其他 Agent 通过 MCP 发现、检查、安装和调用 DSH 插件；安装与运行默认关闭，只有显式启用 `--allow-install` / `--allow-runtime` 才会产生对应副作用。
 - [dsh-payload-capture](https://github.com/Moeblack/dsh-payload-capture)：捕获并落盘上行模型 API Payload，便于调试请求组装。

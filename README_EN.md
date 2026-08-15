@@ -47,6 +47,7 @@ This project follows a curated, quality-over-quantity approach to collecting exc
   - [Workflows and Agents](#workflows-and-agents)
   - [Context, Sessions, and Input](#context-sessions-and-input)
   - [Browser, Vision, and Interface](#browser-vision-and-interface)
+  - [Sandboxing and Execution](#sandboxing-and-execution)
   - [Themes and Skins](#themes-and-skins)
 - [External Integrations](#external-integrations)
 - [Developer Tools](#developer-tools)
@@ -105,6 +106,7 @@ The official project provides an open-source repository, a companion paper, exte
 
 - [@deepseek-ai/dsh](https://www.npmjs.com/package/@deepseek-ai/dsh): official npm launcher package for the CLI and Web UI
 - [deepseek-harness-sdk](https://pypi.org/project/deepseek-harness-sdk/): official Python SDK for programmatic DSH integration
+- [Ollama](https://github.com/ollama/ollama/blob/e5a81899d014a847a08d47393351908b53d74008/docs/integrations/deepseek-harness.mdx): installs and launches DSH, selects Ollama models, and configures Web search through `ollama launch dsh`; writes separate settings to `~/.ollama/launch/dsh/settings.yaml` and is currently marked as a developer preview
 
 ### Source Repositories
 
@@ -172,6 +174,7 @@ Public long-form social posts with substantial arguments, practical detail, or f
 | --- | --- | --- |
 | [Understanding DSH from an Early Participant's Perspective](https://x.com/jiayuan_jy/status/2087911060154314963) | [Jiayuan (JY) Zhang](https://x.com/jiayuan_jy) · 2026-08-13; the author reports receiving repository access one month early | Frames DSH as both a working Coding Agent and an Agent development framework; uses a “LEGO car” analogy for Everything is a Plugin and discusses runtime self-extension, early self-evolving software, current maturity, and functional-programming characteristics. |
 | [Understanding DSH as an Agent Runtime / Agent OS](https://x.com/anion_ex/status/2087910193783025853) | [Anionex](https://x.com/anion_ex) · 2026-08-13; private-beta participant and plugin author | Explains DSH through the composability of models, tools, policies, storage, context, interfaces, and Loops, then discusses limited Agent visibility into the runtime and controlled self-extension. |
+| [After a Night with DeepSeek Harness, I Found It Challenging Claude Code the Minecraft Way](https://www.pingwest.com/a/316436) | PingWest · 2026-08-14; launch-night media observation | Maps DSH core, plugins, directories, and distributions to Minecraft vanilla, Mods, CurseForge, and modpacks, while recording launch-night compatibility and security debates; project counts and status are a point-in-time snapshot. |
 
 ## Third-Party Clients
 
@@ -184,7 +187,7 @@ The following projects provide standalone user interfaces, distribution formats,
 | Project | Platform / Form | Description |
 | --- | --- | --- |
 | [TinyWhale](https://github.com/aimierbear/TinyWhale) | macOS · Electron · Distribution fork | Directly forks `deepseek-ai/deepseek-harness` and adds a desktop shell; connects to an existing Web UI or launches a full `dsh web` Runtime, so it is not a plugin |
-| [Oh-DSH-Desktop](https://github.com/hust-open-atom-club/oh-dsh-desktop) | macOS · Electron | Extensible workbench bundling the DSH Runtime, Node.js, PTY, workspace tools, and a plugin-market preview |
+| [Oh-DSH](https://github.com/hust-open-atom-club/oh-dsh) | macOS / Linux / Windows · Community distribution | Packages DSH, Node.js, and local capabilities as Desktop, Web, and TUI editions with tiered installers and a unified `ohdsh` launcher |
 | [DSH Desktop](https://github.com/dataelement/dsh-desktop) | macOS / Windows · Electron | Cross-platform desktop client for managing local Harness instances, workspaces, random ports, Profiles, plugins, and sessions |
 | [dsh-launcher](https://github.com/Ruler4396/dsh-launcher) | Windows · WebView2 | Lightweight launcher with silent startup, a standalone window, portable packages, and MSI distribution |
 
@@ -231,13 +234,20 @@ The following projects provide standalone user interfaces, distribution formats,
 - [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit): image Q&A, long-screenshot OCR, UI reconstruction, grounding, and pixel comparison.
 - [dsh-computer-use](https://github.com/Anionex/dsh-computer-use): native macOS Computer Use Bundle that prioritizes Accessibility, rejects stale observations, and scopes permissions by app, Session, and action; currently an early `0.1.0` release installed from a source checkout.
 - [modlens](https://github.com/liustack/modlens): gives text-only models vision through pasted images and model routing, offering an alternative to standalone vision tools that process workspace images.
+- [ModSearch](https://github.com/liustack/modsearch): adds Web search, X search, and focused page reading to DSH with structured evidence; MIT and released as `v5.4.2`, while individual engines may require external CLIs, sign-in, API keys, quotas, and their own service terms.
 - [dsh-better-browser](https://github.com/titanwings/dsh-better-browser): controls a real browser with retained login state through the external Kimi WebBridge and maintains tab sessions per task; requires WebBridge to be installed and running separately.
 - [dsh-web-review](https://github.com/CanglongCl/dsh-web-review): previews pages inside DSH, lets users select elements, and submits selectors, accessible names, and change intent; includes a real frontend-modification eval suite, but currently declares no license.
+- [dsh-mcp-apps](https://github.com/sugarforever/dsh-mcp-apps): turns DSH Web into an MCP Apps Host and renders interactive Apps in sandboxed iframes with CSP and Permission Policy controls; MIT and `v0.1.1`, but still new and marked Early.
+- [dsh-genui](https://github.com/omdsh-dev/dsh-genui): renders charts, forms, Mermaid diagrams, 3D scenes, and other interactive components in replies, then sends action events back to the model; MIT, no formal Release yet, and mainly Git-installed, so marked Early.
 - [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar): sidebar workbench integrating files, terminal, Git, Subagents, and third-party tabs.
 - [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil): previews and edits OpenPencil designs inside DSH.
 - [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize): generates sandboxed, interactive HTML cards in the conversation stream.
 - [dsh-notification](https://github.com/omdsh-dev/dsh-notification): configurable desktop notifications based on task outcomes and keywords.
 - [dsh-share](https://github.com/hellodigua/dsh-share): generates and shares DSH conversation content in one click.
+
+### Sandboxing and Execution
+
+- [sandbox-micro](https://github.com/omdsh-dev/sandbox-micro): provides a fail-closed microsandbox microVM capability; both the Provider and model-facing tools stay disabled after installation until separately enabled, and failed platform checks never degrade to unconstrained host execution. It has test directories but no formal Release; `package.json` declares BSD-3-Clause, but the repository has no root `LICENSE` file, so it is marked Early.
 
 ### Themes and Skins
 
@@ -247,14 +257,17 @@ The following projects provide standalone user interfaces, distribution formats,
 
 - [Sealos Skills](https://github.com/labring/sealos-skills): a DSH Profile Bundle maintained by the Sealos team, providing eight cloud-native Skills for application deployment, databases, object storage, and related workflows. Actual use changes external Sealos Cloud resources and requires an account and relevant credentials; login writes `~/.sealos/kubeconfig`, and some flows require a relaxed sandbox. `package.json` declares MIT, but the repository currently has no root `LICENSE` file.
 - [Nowledge Mem](https://mem.nowledge.co/integrations/deepseek-harness): adds Working Memory, prompt-time retrieval, MCP tools, and session capture to DSH; depends on the external Nowledge Mem product and `nmem` CLI and should be evaluated separately from open-source plugins.
+- [Open Design](https://github.com/nexu-io/open-design): local-first open-source design application with a native DSH runtime adapter for structured streaming, model discovery, cancellation, and session resume; Apache-2.0 and a large standalone product rather than an ordinary plugin.
 - [dsh-multica-runtime](https://github.com/forrestchang/dsh-multica-runtime): early runtime bridge connecting Multica and DSH; the package is currently marked `private` and `UNLICENSED`, with incomplete installation and distribution boundaries.
 - [dsh-lark-bot](https://github.com/PlutoKeating/dsh-lark-bot): connects local DSH to Feishu / Lark with streaming cards, workspaces, session recovery, and approvals; licensed under AGPL-3.0, with app credentials stored locally in plaintext configuration protected by mode `600`.
+- [dsh-qqbot](https://github.com/tencent-connect/dsh-qqbot): Tencent-maintained QQ Bot plugin with QR-code binding, isolated direct/group sessions, and restart recovery; MIT and `0.1.0`, with credentials saved to the local Profile during binding.
 
 ## Developer Tools
 
 - [dsh-plugin-check](https://github.com/omdsh-dev/dsh-plugin-check): checks Manifests, Patches, build traps, and directory inclusion status.
 - [dsh-fail-logger](https://github.com/Areium/dsh-fail-logger): redacts, deduplicates, and categorizes tool failures into a machine-maintained Skill record; it records problems without changing behavior automatically.
 - [deepseek-harness-action](https://github.com/Lixiaoyiao/deepseek-harness-action): uses DSH in GitHub Actions for PR review, CI diagnosis, automated fixes, and Issue-to-PR workflows; write access is off by default, and validation runs in a credential-free container.
+- [Awesome DSH Plugins Radar](https://github.com/AdamPlatin123/awesome-dsh-plugins): automated compatibility radar separating discovery, static, compile, and runtime signals; MIT, fast-changing, and without a Release, while “runtime usable” is not a security audit or quality guarantee, so marked Early.
 - [dsh-suite](https://whyihaveyou.github.io/dsh-suite/): bilingual DSH ecosystem index with plugin search, a `create-dsh-plugin` scaffolder, and basic compatibility metadata; still early, with compatibility checks currently limited to static dependency comparison while install and configuration-assembly validation remain unfinished.
 - [deepseek-harness-plugin-mcp](https://github.com/bobleer/deepseek-harness-plugin-mcp): lets other Agents discover, inspect, install, and invoke DSH plugins through MCP; installation and runtime are disabled by default and produce their respective side effects only when `--allow-install` / `--allow-runtime` is explicitly enabled.
 - [dsh-payload-capture](https://github.com/Moeblack/dsh-payload-capture): captures and stores outbound model API Payloads for request-assembly debugging.

@@ -47,6 +47,7 @@
   - [ワークフローと Agent](#ワークフローと-agent)
   - [コンテキスト・Session・入力](#コンテキストsession入力)
   - [ブラウザ・ビジョン・インターフェース](#ブラウザビジョンインターフェース)
+  - [サンドボックスと実行](#サンドボックスと実行)
   - [テーマとスキン](#テーマとスキン)
 - [外部連携](#外部連携)
 - [開発ツール](#開発ツール)
@@ -105,6 +106,7 @@ Git リポジトリからインストールする場合は、commit を固定し
 
 - [@deepseek-ai/dsh](https://www.npmjs.com/package/@deepseek-ai/dsh)：公式 CLI と Web UI の npm 起動パッケージ
 - [deepseek-harness-sdk](https://pypi.org/project/deepseek-harness-sdk/)：DSH をプログラムから利用するための公式 Python SDK
+- [Ollama](https://github.com/ollama/ollama/blob/e5a81899d014a847a08d47393351908b53d74008/docs/integrations/deepseek-harness.mdx)：`ollama launch dsh` で DSH の導入と起動、Ollama モデル選択、Web 検索設定を行う。独立設定を `~/.ollama/launch/dsh/settings.yaml` に保存し、現在は Developer Preview と明記されている
 
 ### ソースリポジトリ
 
@@ -172,6 +174,7 @@ Git リポジトリからインストールする場合は、commit を固定し
 | --- | --- | --- |
 | [初期参加者の視点から DSH を理解する](https://x.com/jiayuan_jy/status/2087911060154314963) | [Jiayuan (JY) Zhang](https://x.com/jiayuan_jy) · 2026-08-13。作者は 1 か月早くリポジトリに参加したと説明 | DSH を、実際に動作する Coding Agent と Agent 開発フレームワークの両方として捉える。「LEGO の車」で Everything is a Plugin を説明し、Runtime の自己拡張、自己進化ソフトウェアの原型、現在の成熟度、関数型プログラミング的な特徴を論じる |
 | [Agent Runtime / Agent OS の視点から DSH を理解する](https://x.com/anion_ex/status/2087910193783025853) | [Anionex](https://x.com/anion_ex) · 2026-08-13。クローズドベータ参加者、プラグイン作者 | モデル、ツール、ポリシー、ストレージ、コンテキスト、インターフェース、Loop の合成可能性から DSH を説明し、Agent による Runtime の限定的な観測と制御された自己拡張を論じる |
+| [DeepSeek Harness を一晩試し、『Minecraft』方式で Claude Code に挑むと感じた理由](https://www.pingwest.com/a/316436) | 品玩 · 2026-08-14。公開初夜のメディア観察 | DSH 本体、プラグイン、ディレクトリ、ディストリビューションを Minecraft の Vanilla、Mod、CurseForge、Modpack にたとえ、初夜の互換性と安全性の議論を記録。プロジェクト数と状態は当時の Snapshot に限られる |
 
 ## サードパーティクライアント
 
@@ -184,7 +187,7 @@ Git リポジトリからインストールする場合は、commit を固定し
 | プロジェクト | プラットフォーム／形態 | 説明 |
 | --- | --- | --- |
 | [TinyWhale](https://github.com/aimierbear/TinyWhale) | macOS · Electron · ディストリビューション Fork | `deepseek-ai/deepseek-harness` を直接 Fork して独立デスクトップシェルを追加。既存 Web UI に接続するか、完全な `dsh web` Runtime を起動するため、プラグインではない |
-| [Oh-DSH-Desktop](https://github.com/hust-open-atom-club/oh-dsh-desktop) | macOS · Electron | DSH Runtime、Node.js、PTY、ワークスペースツール、プラグインマーケットのプレビューを同梱した拡張可能なワークベンチ |
+| [Oh-DSH](https://github.com/hust-open-atom-club/oh-dsh) | macOS / Linux / Windows · コミュニティディストリビューション | DSH、Node.js、ローカル機能を Desktop、Web、TUI の 3 形態にパッケージし、段階別インストーラーと統一 `ohdsh` ランチャーを提供 |
 | [DSH Desktop](https://github.com/dataelement/dsh-desktop) | macOS / Windows · Electron | ローカル Harness、ワークスペース、ランダムポート、Profile、プラグイン、Session を管理するクロスプラットフォームデスクトップクライアント |
 | [dsh-launcher](https://github.com/Ruler4396/dsh-launcher) | Windows · WebView2 | サイレント起動、独立ウィンドウ、ポータブルパッケージ、MSI を提供する軽量ランチャー |
 
@@ -231,13 +234,20 @@ Git リポジトリからインストールする場合は、commit を固定し
 - [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit)：画像 Q&A、長いスクリーンショットの OCR、UI 再現、Grounding、ピクセル比較。
 - [dsh-computer-use](https://github.com/Anionex/dsh-computer-use)：Accessibility を優先し、古い観測を拒否し、アプリ・Session・操作単位で権限を管理するネイティブ macOS Computer Use Bundle。現在は初期 `0.1.0` で、ソースチェックアウトからインストールする必要がある。
 - [modlens](https://github.com/liustack/modlens)：画像の貼り付けとモデルルーティングによってテキスト専用モデルに視覚能力を与える。ワークスペース画像を独立したビジョンツールで処理する方式とは異なる選択肢。
+- [ModSearch](https://github.com/liustack/modsearch)：DSH に Web 検索、X 検索、ページ本文取得を追加し、構造化された根拠を返す。MIT、`v5.4.2`。検索経路によって外部 CLI、ログイン、API Key、Quota、各サービス規約への対応が必要。
 - [dsh-better-browser](https://github.com/titanwings/dsh-better-browser)：外部 Kimi WebBridge を通じてログイン状態を保持した実ブラウザを操作し、タスクごとにタブ Session を管理。WebBridge は別途インストールして実行する必要がある。
 - [dsh-web-review](https://github.com/CanglongCl/dsh-web-review)：DSH 内で Web ページをプレビューし、要素を選択して selector、アクセシブル名、変更意図を送信。実際のフロントエンド変更 Eval スイートを含むが、現在リポジトリにライセンス表記はない。
+- [dsh-mcp-apps](https://github.com/sugarforever/dsh-mcp-apps)：DSH Web を MCP Apps Host にし、CSP と Permission Policy を備えた sandbox iframe で対話アプリを表示。MIT、`v0.1.1` だが新しいため初期段階。
+- [dsh-genui](https://github.com/omdsh-dev/dsh-genui)：返信内にチャート、フォーム、Mermaid、3D Scene などを描画し、操作 Event をモデルへ返す。MIT、正式 Release はなく主に Git から導入するため初期段階。
 - [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar)：ファイル、ターミナル、Git、Subagent、サードパーティ Tab を統合するサイドバーワークベンチ。
 - [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil)：DSH 内で OpenPencil デザインをプレビュー、編集。
 - [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize)：会話ストリーム内にサンドボックス化されたインタラクティブ HTML カードを生成。
 - [dsh-notification](https://github.com/omdsh-dev/dsh-notification)：タスク結果とキーワードに応じて設定できるデスクトップ通知。
 - [dsh-share](https://github.com/hellodigua/dsh-share)：DSH の会話内容をワンクリックで生成・共有。
+
+### サンドボックスと実行
+
+- [sandbox-micro](https://github.com/omdsh-dev/sandbox-micro)：fail-closed な microsandbox microVM 能力を提供。導入後も Provider とモデル向け Tool は個別に明示有効化するまで無効で、プラットフォーム検査に失敗しても無制限の Host 実行へフォールバックしない。テストディレクトリはあるが正式 Release はなく、`package.json` は BSD-3-Clause を宣言する一方でルートに `LICENSE` ファイルがないため初期段階。
 
 ### テーマとスキン
 
@@ -247,14 +257,17 @@ Git リポジトリからインストールする場合は、commit を固定し
 
 - [Sealos Skills](https://github.com/labring/sealos-skills)：Sealos チームが保守する DSH Profile Bundle。アプリのデプロイ、データベース、オブジェクトストレージなど、8 個のクラウドネイティブ Skill を提供。実際の利用では外部の Sealos Cloud リソースを変更するため、アカウントと関連認証情報が必要。ログイン時には `~/.sealos/kubeconfig` へ書き込み、一部のフローではサンドボックス権限の緩和が必要。`package.json` は MIT を宣言しているが、現在リポジトリのルートに `LICENSE` ファイルはない。
 - [Nowledge Mem](https://mem.nowledge.co/integrations/deepseek-harness)：DSH に Working Memory、プロンプト時の検索、MCP ツール、Session キャプチャを追加。外部製品 Nowledge Mem と `nmem` CLI に依存するため、オープンソースプラグインとは分けて評価するのが適切。
+- [Open Design](https://github.com/nexu-io/open-design)：構造化 Streaming、モデル検出、Cancel、Session 再開に対応する DSH ネイティブ Runtime Adapter を備えた Local-first のオープンソースデザインアプリ。Apache-2.0 で、通常のプラグインではなく大規模な独立製品。
 - [dsh-multica-runtime](https://github.com/forrestchang/dsh-multica-runtime)：Multica と DSH を接続する初期段階の Runtime ブリッジ。現在パッケージは `private`、`UNLICENSED` とされ、インストールと配布の境界は未整備。
 - [dsh-lark-bot](https://github.com/PlutoKeating/dsh-lark-bot)：ローカル DSH を Feishu / Lark に接続し、ストリーミングカード、ワークスペース、Session 復元、承認を提供。AGPL-3.0 で、アプリ認証情報はモード `600` で保護されたローカルの平文設定に保存される。
+- [dsh-qqbot](https://github.com/tencent-connect/dsh-qqbot)：Tencent が管理する QQ Bot プラグイン。QR Code 連携、Private/Group Session の分離、再起動後の復元に対応。MIT、`0.1.0` で、連携時に認証情報をローカル Profile へ保存する。
 
 ## 開発ツール
 
 - [dsh-plugin-check](https://github.com/omdsh-dev/dsh-plugin-check)：Manifest、Patch、ビルド上の落とし穴、ディレクトリ掲載状況を検査。
 - [dsh-fail-logger](https://github.com/Areium/dsh-fail-logger)：ツール失敗を秘匿化、重複排除、分類し、機械管理の Skill 記録へ蓄積。問題を記録するだけで、挙動を自動変更しない。
 - [deepseek-harness-action](https://github.com/Lixiaoyiao/deepseek-harness-action)：GitHub Actions 上で DSH による PR Review、CI 診断、自動修正、Issue → PR を実行。書き込み権限はデフォルトで無効で、検証は認証情報を持たないコンテナで行う。
+- [Awesome DSH Plugins Radar](https://github.com/AdamPlatin123/awesome-dsh-plugins)：発見、静的、Compile、Runtime の信号を分離して表示する自動互換性レーダー。MIT、データ変動が速く Release もなく、「Runtime で利用可能」は Security Audit や品質保証ではないため初期段階。
 - [dsh-suite](https://whyihaveyou.github.io/dsh-suite/)：中国語・英語対応の DSH エコシステム索引。プラグイン検索、`create-dsh-plugin` スキャフォールダー、基本的な互換性メタデータを提供。まだ初期段階で、互換性検査は静的な依存関係比較が中心。インストールと設定組み立ての検証は未完成。
 - [deepseek-harness-plugin-mcp](https://github.com/bobleer/deepseek-harness-plugin-mcp)：他の Agent が MCP 経由で DSH プラグインを発見、検査、インストール、呼び出し可能にする。インストールと Runtime はデフォルトで無効で、`--allow-install` / `--allow-runtime` を明示的に有効化した場合のみ、それぞれの副作用が発生する。
 - [dsh-payload-capture](https://github.com/Moeblack/dsh-payload-capture)：モデル API へ送信する Payload を取得・保存し、リクエスト組み立てのデバッグに利用。
