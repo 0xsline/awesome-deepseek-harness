@@ -38,6 +38,7 @@
   - [讨论社区](#讨论社区)
 - [社区资源](#社区资源)
   - [分析教程](#分析教程)
+  - [早期参与者文章](#早期参与者文章)
   - [社区讨论](#社区讨论)
 - [第三方客户端](#第三方客户端)
   - [桌面与发行版](#桌面与发行版)
@@ -151,6 +152,17 @@ dsh --profile web --dump-config
 | [DeepSeek Harness 从零到一](https://yanhua1010.github.io/dsh-harness-tutorial/) | 中文教程与 Demo | 包含原理、源码拆解、8 个 Demo 和 `mini-harness` 教学项目；基于 `0.1.0-rc.6`    |
 | [Hello DSH](https://github.com/pingfanfan/hello-dsh/blob/main/README.zh.md)     | 插件入门与 Skill | 从终端安装讲到首个代码插件，附 22 个中文 Skill 示例、dry-run 与卸载流程；已在 `0.1.0-rc.6` 验证 |
 | [DeepSeek Harness：从开机到拆开](https://github.com/alchaincyf/deepseek-harness-orange-book) | 中文实测电子书 | 提供 PDF、EPUB 和 HTML，收录完整系统提示词、129 行默认启动清单与三份原始会话日志；写于发布后 24 小时内，内容可能随版本演进而变化 |
+
+### 早期参与者文章
+
+以下文章来自明确自述参与 DSH 内测的开发者或插件作者。链接使用由公众号文章 `__biz`、`mid` 和 `idx` 标识组成的永久地址；内容反映 **2026 年 8 月内测快照**，其中的实验数据与主观判断未经本项目独立复现。
+
+| 文章 | 公众号与一手背景 | 内容摘要 |
+| --- | --- | --- |
+| [从 Vibe Coding 到 Vibe Assembly：我把 DeepSeek Harness 的官方 Agent Loop 换成了自己的](https://mp.weixin.qq.com/s?__biz=Mzg3NzU2OTExNA%3D%3D&mid=2247483841&idx=1) | 自然膨胀；作者自述收到内测邀请，并开发了相关的 [TT-Wang/sliceagent](https://github.com/TT-Wang/sliceagent) | 记录替换官方 Agent Loop 的实践、76 轮自述对比实验，以及从 Vibe Coding 走向可组装 Agent 的 Vibe Assembly 思考。 |
+| [DeepSeek Harness 内测技术拆解：架构、生态、任务引擎与运维机制](https://mp.weixin.qq.com/s?__biz=MzU3OTI3NjQ1Mg%3D%3D&mid=2247483810&idx=1) | cookbook之杂七杂八；作者自述连续跟踪十余天内测快照，并开发了 [fakechris/dsh-track](https://github.com/fakechris/dsh-track) | 深入讨论 Cordis 事件、Session Log、Surface、上下文压缩、持久化，以及快照轮换、恢复和生产等价路径验收。 |
+| [DeepSeek Harness，可能是最能满足你想象力的 Agent Harness](https://mp.weixin.qq.com/s?__biz=Mzk0MTcyNzIyOA%3D%3D&mid=2247485085&idx=1) | GTOC；作者自述参与内测，并将 Humanize 移植为 [zevorn/dsh-humanize](https://github.com/zevorn/dsh-humanize) | 从插件作者视角讨论 Web UI 的生态价值、Plugin 与 Skill 的区别、Trajectory 时间轴和产品化扩展空间。 |
+| [参与 dsh 内测有感](https://mp.weixin.qq.com/s?__biz=MzYzMzY1NTAwNA%3D%3D&mid=2247483740&idx=1) | 减AI；作者明确自述入选内测，并公开了 [dsh-ads](https://github.com/Nagi-ovo/dsh-ads)、[dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) 和 [dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) | 以首批插件作者的视角记录可视化、界面玩法和早期社区协作方式，适合作为内测生态的简短一手侧写。 |
 
 ### 社区讨论
 

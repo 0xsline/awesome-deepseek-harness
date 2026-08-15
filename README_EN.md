@@ -38,6 +38,7 @@ This project follows a curated, quality-over-quantity approach to collecting exc
   - [Community](#community)
 - [Community Resources](#community-resources)
   - [Guides and Analysis](#guides-and-analysis)
+  - [Early Participant Articles](#early-participant-articles)
   - [Community Discussions](#community-discussions)
 - [Third-Party Clients](#third-party-clients)
   - [Desktop Apps and Distributions](#desktop-apps-and-distributions)
@@ -151,6 +152,17 @@ You are also welcome to join the Chinese DeepSeek Harness community. Scan the QR
 | [DeepSeek Harness from Zero to One](https://yanhua1010.github.io/dsh-harness-tutorial/) | Chinese guide and demos | Covers concepts, source walkthroughs, eight demos, and a `mini-harness` teaching project; based on `0.1.0-rc.6` |
 | [Hello DSH](https://github.com/pingfanfan/hello-dsh) | Plugin introduction and Skills | Goes from terminal setup to a first code plugin, with 22 Chinese Skill examples, dry-run installation, and uninstall steps; verified on `0.1.0-rc.6` |
 | [DeepSeek Harness: From First Boot to Teardown](https://github.com/alchaincyf/deepseek-harness-orange-book) | Chinese hands-on ebook | Available as PDF, EPUB, and HTML, with the full system prompt, a 129-line default boot manifest, and three raw session logs; written within 24 hours of release, so details may change as DSH evolves |
+
+### Early Participant Articles
+
+These articles come from developers or plugin authors who explicitly describe participating in the DSH private beta. Their links use durable WeChat article identifiers—`__biz`, `mid`, and `idx`—rather than expiring Sogou signatures. They reflect the **August 2026 private-beta snapshot**; this project has not independently reproduced their experimental results or subjective judgments.
+
+| Article | Account and First-Hand Context | Summary |
+| --- | --- | --- |
+| [From Vibe Coding to Vibe Assembly: Replacing DeepSeek Harness's Official Agent Loop](https://mp.weixin.qq.com/s?__biz=Mzg3NzU2OTExNA%3D%3D&mid=2247483841&idx=1) | 自然膨胀; the author reports receiving private-beta access and developed the related [TT-Wang/sliceagent](https://github.com/TT-Wang/sliceagent) | Describes replacing the official Agent Loop, a self-reported 76-turn comparison, and the idea of moving from Vibe Coding toward composable-agent “Vibe Assembly.” |
+| [DeepSeek Harness Private-Beta Technical Breakdown: Architecture, Ecosystem, Task Engine, and Operations](https://mp.weixin.qq.com/s?__biz=MzU3OTI3NjQ1Mg%3D%3D&mid=2247483810&idx=1) | cookbook之杂七杂八; the author reports tracking private-beta snapshots for more than ten days and developed [fakechris/dsh-track](https://github.com/fakechris/dsh-track) | Examines Cordis events, the Session Log, Surfaces, context compaction, persistence, snapshot rotation, recovery, and production-equivalent acceptance checks. |
+| [DeepSeek Harness May Be the Agent Harness That Best Satisfies Your Imagination](https://mp.weixin.qq.com/s?__biz=Mzk0MTcyNzIyOA%3D%3D&mid=2247485085&idx=1) | GTOC; the author reports participating in the private beta and ported Humanize as [zevorn/dsh-humanize](https://github.com/zevorn/dsh-humanize) | Discusses the ecosystem value of a Web UI, the distinction between Plugins and Skills, the Trajectory timeline, and opportunities for product-oriented extensions. |
+| [Reflections on Participating in the DSH Private Beta](https://mp.weixin.qq.com/s?__biz=MzYzMzY1NTAwNA%3D%3D&mid=2247483740&idx=1) | 减AI; the author explicitly reports being selected and published [dsh-ads](https://github.com/Nagi-ovo/dsh-ads), [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize), and [dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) | A concise first-hand view from an early plugin author, covering visualization, interface experiments, and the community's initial collaboration style. |
 
 ### Community Discussions
 

@@ -38,6 +38,7 @@
   - [コミュニティ](#コミュニティ)
 - [コミュニティリソース](#コミュニティリソース)
   - [解説とチュートリアル](#解説とチュートリアル)
+  - [初期参加者の記事](#初期参加者の記事)
   - [コミュニティでの議論](#コミュニティでの議論)
 - [サードパーティクライアント](#サードパーティクライアント)
   - [デスクトップアプリとディストリビューション](#デスクトップアプリとディストリビューション)
@@ -151,6 +152,17 @@ Git リポジトリからインストールする場合は、commit を固定し
 | [DeepSeek Harness ゼロから入門](https://yanhua1010.github.io/dsh-harness-tutorial/) | 中国語チュートリアルと Demo | 原理、ソース解説、8 個の Demo、`mini-harness` 学習プロジェクトを収録。`0.1.0-rc.6` ベース |
 | [Hello DSH](https://github.com/pingfanfan/hello-dsh) | プラグイン入門と Skill | ターミナルでの導入から最初のコードプラグインまでを解説し、22 個の中国語 Skill 例、dry-run、アンインストール手順を収録。`0.1.0-rc.6` で検証済み |
 | [DeepSeek Harness：起動から分解まで](https://github.com/alchaincyf/deepseek-harness-orange-book) | 中国語の実践電子書 | PDF、EPUB、HTML で公開。完全なシステムプロンプト、129 行のデフォルト起動マニフェスト、3 件の生セッションログを収録。リリース後 24 時間以内に執筆されたため、DSH の進化に伴い内容が変わる可能性がある |
+
+### 初期参加者の記事
+
+以下は、DSH のクローズドベータに参加したことを明記している開発者またはプラグイン作者の記事です。リンクには期限付きの Sogou 署名ではなく、WeChat 記事を識別する `__biz`、`mid`、`idx` を使用しています。内容は **2026 年 8 月のクローズドベータ時点**を反映しており、実験データや主観的評価を本プロジェクトが独自に再現したものではありません。
+
+| 記事 | アカウントと一次的な背景 | 概要 |
+| --- | --- | --- |
+| [Vibe Coding から Vibe Assembly へ：DeepSeek Harness の公式 Agent Loop を置き換える](https://mp.weixin.qq.com/s?__biz=Mzg3NzU2OTExNA%3D%3D&mid=2247483841&idx=1) | 自然膨胀。作者はクローズドベータへの招待を受け、関連する [TT-Wang/sliceagent](https://github.com/TT-Wang/sliceagent) を開発 | 公式 Agent Loop の置き換え、76 Turn の自己申告による比較実験、Vibe Coding から合成可能な Agent の「Vibe Assembly」へ進むという考えを記録。 |
+| [DeepSeek Harness クローズドベータ技術解説：アーキテクチャ、エコシステム、タスクエンジン、運用](https://mp.weixin.qq.com/s?__biz=MzU3OTI3NjQ1Mg%3D%3D&mid=2247483810&idx=1) | cookbook之杂七杂八。作者は 10 日以上にわたりクローズドベータの Snapshot を追跡し、[fakechris/dsh-track](https://github.com/fakechris/dsh-track) を開発 | Cordis Event、Session Log、Surface、コンテキスト圧縮、永続化、Snapshot ローテーション、復旧、本番相当経路での受け入れ確認を詳しく解説。 |
+| [DeepSeek Harness は想像力を最も満たす Agent Harness かもしれない](https://mp.weixin.qq.com/s?__biz=Mzk0MTcyNzIyOA%3D%3D&mid=2247485085&idx=1) | GTOC。作者はクローズドベータに参加し、Humanize を [zevorn/dsh-humanize](https://github.com/zevorn/dsh-humanize) として移植 | Web UI のエコシステム上の価値、Plugin と Skill の違い、Trajectory タイムライン、プロダクト指向の拡張余地をプラグイン作者の視点から論じる。 |
+| [DSH クローズドベータ参加所感](https://mp.weixin.qq.com/s?__biz=MzYzMzY1NTAwNA%3D%3D&mid=2247483740&idx=1) | 减AI。作者は選出されたことを明記し、[dsh-ads](https://github.com/Nagi-ovo/dsh-ads)、[dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize)、[dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) を公開 | 初期プラグイン作者の視点から、可視化、UI の試み、初期コミュニティの協働方法を簡潔に記録した一次的な側写。 |
 
 ### コミュニティでの議論
 
