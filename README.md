@@ -82,12 +82,13 @@ Management panel: Settings → Plugins.
 - [dsh-client-ui-plan-execute](https://github.com/dsh-external/dsh-client-ui-plan-execute) - Web Settings row for plan/execute model routing.
 
 - [dsh_workflow](https://github.com/dsh-external/dsh_workflow) - Dynamic workflow for DSH (placeholder).
-- [dsh-equip-engine](https://github.com/wuykjl/dsh-equip-engine) - Task-driven plugin equip engine: dual retrieval (curated rules + LLM semantic), combo scoring (synergy/conflict/cost/trust), conflict detection and install-command export. 配装引擎：按任务自动配整套插件，区别于目录/搜索。
+- [dsh-equip-engine](https://github.com/wuykjl/dsh-equip-engine) - Task-driven plugin equip engine: dual retrieval (curated rules + LLM semantic), combo scoring (synergy/conflict/cost/trust), conflict detection and install-command export.
 
 
 ## Agents & Orchestration
 
 - [dsh-collaboration](https://github.com/Socialist-Sister/dsh-collaboration) - Multi-agent collaboration suite: user-configured specialist roster, persistent on-demand dispatch (team_call/team_message/team_status/team_close), clone instances, star-topology relay, model comparison and a multimodal vision bridge.
+
 ## Context & Search
 
 - [dsh-context](https://github.com/bowenliang123/dsh-context) - Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats.
@@ -275,7 +276,7 @@ Management panel: Settings → Plugins.
 - [dsh-telemetry-redactor](https://github.com/030611/dsh-telemetry-redactor) - Redacts supported secret patterns from the `session-telemetry/record` export copy before configured telemetry backends receive it.
 - [dsh-verification-receipt](https://github.com/030611/dsh-verification-receipt) - Writes local JSONL summaries of per-turn tool counts and coarse verification signals without storing prompts, tool arguments, or result text.
 - [dsh-inspect](https://github.com/dsh-external/dsh-inspect) - Adversarial checkup → fix → review loop.
-- [Cavan-Ou/hermes-dsh-collab](https://github.com/Cavan-Ou/hermes-dsh-collab) - Hook DeepSeek Harness into a Hermes pipeline: dispatch-spec template, model-tier routing, orchestrator-run quality gates, git single-writer rule, as a SKILL.md pack (bundle installable).
+- [hermes-dsh-collab](https://github.com/Cavan-Ou/hermes-dsh-collab) - Hook DeepSeek Harness into a Hermes pipeline: dispatch-spec template, model-tier routing, orchestrator-run quality gates, git single-writer rule, as a SKILL.md pack (bundle installable).
 - [dsh-alphasolve](https://github.com/dsh-external/dsh-alphasolve) - AlphaSolve workflow.
 - [mstar-workflow](https://github.com/dsh-external/mstar-workflow) - Workflow engine.
 - [dsh-spur](https://github.com/dsh-external/dsh-spur) - Task engine.
@@ -340,7 +341,7 @@ Management panel: Settings → Plugins.
 ## Infrastructure & Development
 
 - [Code2Skill](https://github.com/leechen298/Code2Skill) - Generate Functions, MCP tools, workflow Skills, and offline test packages from user-authorized source code.
-- [Cavan-Ou/dsh-observation-journal](https://github.com/Cavan-Ou/dsh-observation-journal) - Zero-touch runtime telemetry for DSH: every session auto-writes task, model tier, tools, failures, duration, status into a human-readable journal with a stats section (pure observer — no tools, no LLM calls, no injection).
+- [dsh-observation-journal](https://github.com/Cavan-Ou/dsh-observation-journal) - Zero-touch runtime telemetry for DSH: every session auto-writes task, model tier, tools, failures, duration, status into a human-readable journal with a stats section (pure observer — no tools, no LLM calls, no injection).
 - [deepseek-harness-desktop](https://github.com/Easyhoov/deepseek-harness-desktop) - Unofficial in-process Windows desktop app with tray residency, native notifications, and an IPC bridge.
 - [sandbase-harness](https://github.com/sandbaseai/sandbase-harness) - Persistent managed-agent runtime for DSH via a native bundle and stdio MCP, with sandboxed sessions, audit, and replay.
 - [sandbase-skills](https://github.com/sandbaseai/sandbase-skills) - Verified SKILL.md catalog and installer with 88 installable skill bundles for DSH and compatible agents.
@@ -389,6 +390,7 @@ Management panel: Settings → Plugins.
 
 - [dsh-stock-market](https://github.com/dsh-external/dsh-stock-market) - Shanghai and Shenzhen A-share market data plugin.
 - [dsh-us-stocks](https://github.com/Realyujie/dsh-us-stocks) - US stock quotes, price history, financial statements, analyst consensus and news via yahoo-finance2.
+
 ## Science & Research
 
 - [dsh-openmaic](https://github.com/dsh-external/dsh-openmaic) - Generate interactive OpenMAIC AI classrooms.

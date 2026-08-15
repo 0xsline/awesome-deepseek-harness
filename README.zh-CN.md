@@ -81,10 +81,12 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-client-ui-plan-execute](https://github.com/dsh-external/dsh-client-ui-plan-execute) - Web 设置页「规划/执行模型」配置行
 
 - [dsh_workflow](https://github.com/dsh-external/dsh_workflow) - Dynamic Workflow for dsh（占位）。
+- [dsh-equip-engine](https://github.com/wuykjl/dsh-equip-engine) - 任务驱动插件配装引擎：双路检索（人工精选规则 + LLM 语义）、组合评分（协同/冲突/成本/信任）、冲突检测与安装命令导出。
 
 ## Agents & Orchestration
 
 - [dsh-collaboration](https://github.com/Socialist-Sister/dsh-collaboration) - 多智能体协同套件：用户可配置的专家名册 + 持久专家实例（可多分身）按需雇佣、星型拓扑追问/中转、团队状态面板、模型对比与多模态视觉桥。
+
 ## Context & Search
 
 - [dsh-context](https://github.com/bowenliang123/dsh-context) - 上下文洞察面板：一眼看清模型上下文窗口的组成与变化——构成对照窗口大小、按请求历史趋势、压缩/注入事件、消息级 token 统计。
@@ -269,7 +271,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-telemetry-redactor](https://github.com/030611/dsh-telemetry-redactor) - 在已配置遥测后端接收前，对 `session-telemetry/record` 导出副本中的已支持秘密模式进行脱敏。
 - [dsh-verification-receipt](https://github.com/030611/dsh-verification-receipt) - 把每轮工具计数与粗粒度验证信号写入本地 JSONL，不保存提示词、工具参数或结果正文。
 - [dsh-inspect](https://github.com/dsh-external/dsh-inspect) - checkup → fix → review 对抗式闭环
-- [Cavan-Ou/hermes-dsh-collab](https://github.com/Cavan-Ou/hermes-dsh-collab) - 把 DeepSeek Harness 接进 Hermes 管线：派单 spec 模板、模型档位路由、质量门、git 唯一写者约定，SKILL.md 技能包（bundle 可安装）。
+- [hermes-dsh-collab](https://github.com/Cavan-Ou/hermes-dsh-collab) - 把 DeepSeek Harness 接进 Hermes 管线：派单 spec 模板、模型档位路由、质量门、git 唯一写者约定，SKILL.md 技能包（bundle 可安装）。
 - [dsh-alphasolve](https://github.com/dsh-external/dsh-alphasolve) - AlphaSolve 工作流
 - [mstar-workflow](https://github.com/dsh-external/mstar-workflow) - 工作流引擎
 - [dsh-spur](https://github.com/dsh-external/dsh-spur) - 任务引擎
@@ -313,6 +315,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Fun & Lifestyle
 
+- [dsh-clippy](https://github.com/sjh9714/clippy-harness) - Clippy 复活为办公室助理宠物：对真实 agent 状态做出反应，失败回合弹出经典「非法操作」对话框。
 - [dsh-agent-rp](https://github.com/dsh-external/dsh-agent-rp) - SillyTavern 迁移与下一代 DSH Agent RP。
 - [dsh-emoji](https://github.com/dsh-external/dsh-emoji) - emoji 插件（cordis）。
 - [dsh-travel-plugin](https://github.com/dsh-external/dsh-travel-plugin) - 旅行小插件。
@@ -333,7 +336,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 ## Infrastructure & Development
 
 - [Code2Skill](https://github.com/leechen298/Code2Skill) - 从用户授权的源码生成 Function、MCP 工具、工作流 Skill 与离线测试包。
-- [Cavan-Ou/dsh-observation-journal](https://github.com/Cavan-Ou/dsh-observation-journal) - 把 DeepSeek Harness 的零侵入运行事实遥测：每个会话自动把任务/模型档位/工具/失败/时长/状态写入人机共读观测卡并附统计区（纯观察者——零工具、零 LLM、零注入）。
+- [dsh-observation-journal](https://github.com/Cavan-Ou/dsh-observation-journal) - 把 DeepSeek Harness 的零侵入运行事实遥测：每个会话自动把任务/模型档位/工具/失败/时长/状态写入人机共读观测卡并附统计区（纯观察者——零工具、零 LLM、零注入）。
 - [deepseek-harness-desktop](https://github.com/Easyhoov/deepseek-harness-desktop) - 非官方 Windows 进程内桌面应用，提供托盘常驻、原生通知与 IPC 桥接。
 - [sandbase-harness](https://github.com/sandbaseai/sandbase-harness) - 通过原生 bundle 与 stdio MCP 接入 DSH 的持久化托管 Agent 运行时，提供沙箱会话、审计与回放。
 - [sandbase-skills](https://github.com/sandbaseai/sandbase-skills) - 经校验的 SKILL.md 目录与安装器，为 DSH 和兼容 Agent 提供 88 个可安装技能包。
@@ -382,6 +385,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [dsh-stock-market](https://github.com/dsh-external/dsh-stock-market) - 沪深 A 股行情数据插件。
 - [dsh-us-stocks](https://github.com/Realyujie/dsh-us-stocks) - 美股行情、历史 K 线、财务报表、分析师共识与新闻，基于 yahoo-finance2。
+
 ## Science & Research
 
 - [dsh-openmaic](https://github.com/dsh-external/dsh-openmaic) - 生成 OpenMAIC 交互式 AI 课堂。
