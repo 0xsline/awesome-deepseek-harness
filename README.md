@@ -449,6 +449,7 @@ Management panel: Settings → Plugins.
 - [dsh-chat-tools](https://github.com/yj060464-commits/dsh-chat-tools) - Headless terminal companion toolkit: chat.sh continuous-conversation REPL (rolling context, decision-point voting, live workflow streaming, effort switching) + automatic LLM session-log summarization. Zero-dependency bash + Python.
 
 - [dsh-plugin-guide](https://github.com/PerryLink/dsh-plugin-guide) - Plugin-development knowledge base as an on-demand agent skill: official constraints, task workflows, API references, and community pitfalls.
+- [awesome-dsh](https://github.com/stakeswky/awesome-dsh) - Auto-updating catalog of the whole `dsh-plugin` topic (2600+ repos): a Cloudflare Worker recrawls every 6 hours, translates English descriptions to Chinese with Workers AI, and serves a ranked search API plus an agent skill that finds and installs plugins on demand.
 
 ## Data & Market
 
