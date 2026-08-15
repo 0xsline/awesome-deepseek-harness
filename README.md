@@ -34,6 +34,7 @@
 ## Contents
 
 - [Install](#install)
+- [Plugin Store](#plugin-store)
 - [Core](#core)
 - [Agents & Orchestration](#agents--orchestration)
 - [Context & Search](#context--search)
@@ -71,6 +72,44 @@ dsh plugin --profile web add "github:owner/repo#ref"
 The former `&path:` sub-path and Repository Plugin installation forms are not part of the current official bundle flow; use an installable package that declares `dsh.bundle.patch`.
 
 Management panel: Settings → Plugins.
+
+## Plugin Store
+
+Browse and install the whole ecosystem with a pre-install **conflict check** against the plugins already installed in your profile.
+
+**Storefront** (GitHub Pages): <https://0xsline.github.io/awesome-deepseek-harness/> — search/filter the catalog, view plugin details, copy the install or check command. Powered by the committed [`store/catalog.json`](store/catalog.json), regenerated automatically from `CATALOG.md`.
+
+**CLI** — zero-dependency, conflict-checking installer (Node >= 18):
+
+```sh
+# one-line install (or use scripts/dsh-store directly from a clone)
+curl -fsSL https://raw.githubusercontent.com/0xsline/awesome-deepseek-harness/main/scripts/install-dsh-store.sh | bash
+
+dsh-store search  ssh                 # browse the catalog
+dsh-store info    dsh-spotlight       # details + install command
+dsh-store list                        # plugins installed in your profile
+dsh-store check   dsh-spotlight       # pre-install conflict check  ← run before installing
+dsh-store install dsh-spotlight       # check conflicts, then install via `dsh plugin`
+dsh-store remove  @scope/package      # remove from your profile
+dsh-store update  dsh-spotlight       # upgrade to the latest ref
+dsh-store open                        # open the storefront
+```
+
+`<plugin>` accepts a catalog name (`dsh-spotlight`), `owner/repo`, a `github:` spec (with optional `#ref` / `&path:`), or a full URL. Use `--profile <name>` to target a different profile (default: `web`).
+
+**What the conflict check looks at** (best-effort static analysis; the primary blockers are reliable, the rest are review points):
+
+| Severity | Dimension | Meaning |
+|---|---|---|
+| 🚫 blocker | already-installed | The package is already in your profile (suggest `update` instead) |
+| 🚫 blocker | entry-id | The candidate's Cordis patch inserts entry ids already used by installed plugins — the loader would override/disable one side |
+| ⚠ warn | service | Both provide the same service (ambiguous routing) |
+| ⚠ warn | command | Both register the same command (last loader wins) |
+| ⚠ warn | tool | Both register the same tool name (model may confuse them) |
+| ⚠ warn | slot | Both register the same client slot |
+| ⚠ warn | dep | Same dependency declared with different version ranges |
+
+`dsh-store install` runs the check automatically and refuses to install on 🚫 blockers unless you pass `--force`. Add `--yes` to skip the warning prompt. Always restart `dsh --profile <name>` after installing.
 
 ## Core
 

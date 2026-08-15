@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# dsh-store — Plugin Store CLI wrapper (delegates to dsh-store.js).
+# Usage:  scripts/dsh-store <command> [args]
+set -euo pipefail
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+exec node "$DIR/dsh-store.js" "$@"

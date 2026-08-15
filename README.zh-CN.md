@@ -33,6 +33,7 @@
 ## Contents
 
 - [Install](#install)
+- [Plugin Store](#plugin-store)
 - [Core](#core)
 - [Agents & Orchestration](#agents--orchestration)
 - [Context & Search](#context--search)
@@ -70,6 +71,44 @@ dsh plugin --profile web add "github:owner/repo#ref"
 旧的 `&path:` 子路径写法和 Repository Plugin 安装方式已不属于当前官方 bundle 流程；请使用声明了 `dsh.bundle.patch` 的可安装包。
 
 管理面板：设置 → 「插件」。
+
+## Plugin Store
+
+插件商店：浏览并一键安装整个生态，**安装前自动做冲突检查**（对照当前 profile 已装插件）。
+
+**商店网页**（GitHub Pages）：<https://0xsline.github.io/awesome-deepseek-harness/> —— 搜索/筛选全部插件、查看详情、复制安装或检查命令。数据来自随仓库提交的 [`store/catalog.json`](store/catalog.json)，由 `CATALOG.md` 自动生成。
+
+**命令行工具** —— 零依赖、带冲突预检的安装器（Node >= 18）：
+
+```sh
+# 一行安装（或直接使用克隆目录里的 scripts/dsh-store）
+curl -fsSL https://raw.githubusercontent.com/0xsline/awesome-deepseek-harness/main/scripts/install-dsh-store.sh | bash
+
+dsh-store search  ssh                 # 浏览目录
+dsh-store info    dsh-spotlight       # 插件详情 + 安装命令
+dsh-store list                        # 当前 profile 已装插件
+dsh-store check   dsh-spotlight       # 安装前冲突检查  ← 先查再装
+dsh-store install dsh-spotlight       # 检查冲突后，经 `dsh plugin` 一键安装
+dsh-store remove  @scope/package      # 从 profile 移除
+dsh-store update  dsh-spotlight       # 升级到最新 ref
+dsh-store open                        # 打开商店网页
+```
+
+`<插件>` 支持目录名（`dsh-spotlight`）、`owner/repo`、`github:` 规范（可带 `#ref` / `&path:`）或完整 URL。用 `--profile <name>` 指定其他 profile（默认 `web`）。
+
+**冲突检查维度**（尽力而为的静态分析；阻止项可靠，警告项供人工评估）：
+
+| 级别 | 维度 | 含义 |
+|---|---|---|
+| 🚫 阻止 | 已安装 | 该包已在 profile 中（建议改用 `update`） |
+| 🚫 阻止 | entry-id | 候选插件 patch 插入的 Cordis entry id 与已装插件重复，loader 会覆盖/禁用其中一方 |
+| ⚠ 警告 | 服务 | 双方提供同名服务（路由可能歧义） |
+| ⚠ 警告 | 命令 | 双方注册同名命令（后加载者生效） |
+| ⚠ 警告 | 工具名 | 双方注册同名工具（模型可能混淆） |
+| ⚠ 警告 | Slot | 双方注册同一客户端 Slot |
+| ⚠ 警告 | 依赖 | 同一依赖声明了不同版本范围 |
+
+`dsh-store install` 会自动先做检查，遇到 🚫 阻止项默认拒绝安装，除非加 `--force`；加 `--yes` 跳过警告确认。安装后记得重启 `dsh --profile <name>`。
 
 ## Core
 

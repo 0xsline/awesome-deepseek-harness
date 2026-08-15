@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DSH Plugin Store · DeepSeek Harness 插件商店</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐋</text></svg>">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <span class="brand-logo">🐋</span>
+      <div>
+        <h1>DSH Plugin Store</h1>
+        <p class="tagline">DeepSeek Harness 插件商店 · 浏览 / 搜索 / 安装前冲突检查</p>
+      </div>
+    </div>
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+
+<main>
+  <section class="controls">
+    <input id="search" type="search" placeholder="搜索插件名 / 描述 / owner/repo …" autocomplete="off">
+    <select id="category">
+      <option value="">全部类别</option>
+    </select>
+    <select id="source">
+      <option value="">全部来源</option>
+      <option value="hub">精选（hub）</option>
+      <option value="topic">公开 Topic</option>
+    </select>
+    <label class="chk"><input type="checkbox" id="bundleOnly"> 只看插件集条目</label>
+  </section>
+
+  <div class="notice" id="notice">
+    💡 安装前会做冲突预检。命令行工具：<code>dsh-store check &lt;插件&gt;</code> 先检查，<code>dsh-store install &lt;插件&gt;</code> 检查后一键安装。
+    安装命令格式：<code>dsh plugin --profile &lt;profile&gt; add "github:owner/repo"</code>
+  </div>
+
+  <section id="grid" class="grid" aria-live="polite"></section>
+  <div id="empty" class="empty hidden">没有匹配的插件 🐳</div>
+</main>
+
+<div id="modal" class="modal hidden" role="dialog" aria-modal="true">
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-card">
+    <button class="modal-close" data-close aria-label="关闭">✕</button>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<footer class="foot">
+  数据源：<a href="https://github.com/0xsline/awesome-deepseek-harness" target="_blank" rel="noopener">awesome-deepseek-harness</a>
+  · <code>store/catalog.json</code> 由 <code>scripts/generate-store-catalog.py</code> 自动生成
+  · 安装引擎：<code>scripts/dsh-store</code>（<a href="https://github.com/0xsline/awesome-deepseek-harness/tree/main/scripts" target="_blank" rel="noopener">CLI 说明</a>）
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
