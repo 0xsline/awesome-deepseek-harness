@@ -86,6 +86,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 ## Agents & Orchestration
 
 - [dsh-collaboration](https://github.com/Socialist-Sister/dsh-collaboration) - 多智能体协同套件：用户可配置的专家名册 + 持久专家实例（可多分身）按需雇佣、星型拓扑追问/中转、团队状态面板、模型对比与多模态视觉桥。
+- [dsh-agent-team-gui](https://github.com/toolclub/agent_team_gui) - 可复用 Agent 小队：每个成员独立配置 provider/model 路由与工具策略，支持串行/并行派单、spawn/fork/chain 上下文模式和 Web 管理面板。
 
 ## Context & Search
 
