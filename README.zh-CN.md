@@ -386,6 +386,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 
 - [xiekai886/dsh-MusicPlayer](https://github.com/xiekai886/dsh-MusicPlayer) - 可折叠/展开、自由拖动的悬浮音乐播放器，接入网易云音乐，支持歌单导入和按歌名或歌手搜索单曲导入，边对话边听歌。
+- [dsh-wildmon](https://github.com/swaylq/dsh-wildmon) - 宝可梦式收集猎游：工作惊动草丛 —— 野生遭遇、扔球捕捉、28 格图鉴、6 只队伍；零 token、纯命令交互。
 
 ## Infrastructure & Development
 
