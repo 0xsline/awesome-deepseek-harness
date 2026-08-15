@@ -46,6 +46,7 @@
 - [Notifications & Channels](#notifications--channels)
 - [Fun & Lifestyle](#fun--lifestyle)
 - [Infrastructure & Development](#infrastructure--development)
+- [Data & Market](#data--market)
 - [Science & Research](#science--research)
 - [Related](#related)
 - [Thanks](#thanks)
@@ -290,7 +291,6 @@ Management panel: Settings → Plugins.
 
 - [dsh-agent-rp](https://github.com/dsh-external/dsh-agent-rp) - SillyTavern migration and next-generation agent roleplay for DSH.
 - [dsh-emoji](https://github.com/dsh-external/dsh-emoji) - Emoji plugin (cordis).
-- [dsh-stock-market](https://github.com/dsh-external/dsh-stock-market) - Stock market data plugin.
 - [dsh-travel-plugin](https://github.com/dsh-external/dsh-travel-plugin) - Travel plugin.
 - [dsh-weather](https://github.com/sunshine-lang/dsh-weather) - Weather tool: current conditions and multi-day forecasts via Open-Meteo (free, no API key).
 - [dsh-pdf](https://github.com/sunshine-lang/dsh-pdf) - PDF toolbox: extract text, metadata, and page ranges via pdfjs-dist (local, no API key).
@@ -347,6 +347,11 @@ Management panel: Settings → Plugins.
 - [create-dsh-plugin](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/create-dsh-plugin) - Scaffold a DSH plugin in seconds (tool / events / webui templates, `next`-tag version pinning, built-in `--verify` smoke test).
 - [plugin-manager](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-manager) - In-app plugin store for the DSH Web UI: browse, search, one-click install, compat badges, installed list.
 - [plugin-team-board](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-team-board) - Shared multi-agent task board (create / claim / transition / query) over a Cordis service key.
+
+## Data & Market
+
+- [dsh-stock-market](https://github.com/dsh-external/dsh-stock-market) - Shanghai and Shenzhen A-share market data plugin.
+- [dsh-us-stocks](https://github.com/Realyujie/dsh-us-stocks) - US stock quotes, price history, financial statements, analyst consensus and news via yahoo-finance2.
 
 ## Science & Research
 
