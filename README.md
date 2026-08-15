@@ -159,6 +159,8 @@ Management panel: Settings → Plugins.
 - [Boliban/dsh-enter-customizer](https://github.com/Boliban/dsh-enter-customizer) - Take over the system input shortcuts for the chat input box and configure behavior independently for each shortcut.
 
 
+- [PerryLink/dsh-composer-history](https://github.com/PerryLink/dsh-composer-history) - Terminal-style input history for the web composer: edge-first arrow-key recall with exact draft/caret restore, browser-local persisted history, Ctrl+R reverse search, and sliding-context awareness (compaction summaries join recall and search).
+
 ## UI & Experience
 
 - [dsh-spotlight](https://github.com/0xsline/dsh-spotlight) - Keyboard-first command palette for DeepSeek Harness Web.

@@ -155,6 +155,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-steer-button](https://github.com/lbh1nb/dsh-plugins/tree/main/packages/dsh-steer-button) - 输入框常驻「插话」按钮：一键把草稿注入运行中的轮次（等同 Ctrl/Cmd+Enter）。
 - [Boliban/dsh-enter-customizer](https://github.com/Boliban/dsh-enter-customizer) — 接管聊天输入框的回车等快捷键，每个快捷键的行为都能单独配置。
 
+- [PerryLink/dsh-composer-history](https://github.com/PerryLink/dsh-composer-history) - 为 Web 作曲器提供终端风格输入历史：边缘优先方向键召回并精确还原草稿与光标、浏览器本地持久化历史、Ctrl+R 反向搜索与滑动上下文感知（压缩摘要加入召回与搜索）。
+
 ## UI & Experience
 
 - [dsh-spotlight](https://github.com/0xsline/dsh-spotlight) - DeepSeek Harness Web 的键盘优先命令面板。
