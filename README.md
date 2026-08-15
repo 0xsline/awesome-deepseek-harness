@@ -296,7 +296,7 @@ Management panel: Settings → Plugins.
 - [dsh-review-loop](https://github.com/wuxiangru915/dsh-review-loop) - Incremental diff reviewer: checkpoint-based since-review queue with a Web UI panel, /review command, and feedback injection into the agent.
 - [dsh-test-runner](https://github.com/suimi8/dsh-test-runner) - Structured test runner tool (test_run): auto-detect Vitest/Jest/pytest/node:test, run tests, parse failure summaries for the model.
 - [dsh-git-branch-switcher](https://github.com/mixin-ai/dsh-git-branch-switcher) - Session-header Git branch pill: shows the current workspace branch and switches branches from the Web UI.
-- [dsh-doublecheck](https://github.com/PerryLink/dsh-doublecheck) - Engineering-discipline loop: requirement grilling before edits, red/green test-evidence gates, and an adversarial delivery review.
+- [dsh-doublecheck](https://github.com/PerryLink/dsh-doublecheck) - Engineering-discipline loop: requirement grilling before edits, red/green test-evidence gates, adversarial delivery review, and a report with per-dimension verification.
 - [dsh-plugin-diff-review](https://github.com/Civitasv/dsh-plugin-diff-review) - Codex-style diff review in a floating panel: per-round session changes plus a git workspace view with stage/revert/commit/push and a history timeline.
 - [dsh-yolo-mode](https://github.com/SeverusZh/dsh-yolo-mode) - LLM auto-approval for sandbox escalation requests: presets, per-tool levels, fail-closed.
 - [dsh-plugin-scheduled-tasks](https://github.com/Ceelog/dsh-plugins/tree/main/src/plugins/dsh-plugin-scheduled-tasks) - Run per-project prompts in fresh headless agent sessions on one-time, interval or cron schedules, with durable run history.
