@@ -129,6 +129,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-web-search-exa](https://github.com/TonyDua/dsh-web-search-exa) - 零配置 Exa 网页搜索提供方：无 key 走匿名 MCP 兜底（mcp.exa.ai/mcp），配 key 自动切 REST，接入 ctx.web 接缝。
 - [dsh-web-search-pro](https://github.com/anweat/dsh-web-search-pro) - DSH 增强型、可持久化的网页搜索：多引擎路由（DeepSeek/Exa/DDG/Bing/Jina + GitHub/B站/YouTube/V2EX/小红书/Twitter/Reddit/RSS）、SQLite+LRU 缓存、userscript 风格抽取、Playwright 渲染。
 - [dsh-session-archive](https://github.com/lbh1nb/dsh-plugins/tree/main/packages/dsh-session-archive) - 设置页查看归档会话并两步确认永久删除死会话（运行中会话锁定）。
+- [dsh-engramory](https://github.com/tinqiao-oss/engramory/tree/master/adapters/dsh) - 基于文件的策展式记忆：带行数/字节上限的 `MEMORY.md` 索引 + 每条事实单独一个 markdown 文件，由 git 版本化、不借助工具即可阅读。上限由 `ctx.tools.guard()` 强制执行而非靠提示词约束，协议注册为运行时 skill；同一份记忆库也被 Claude Code、Codex、Kiro 与 OpenClaw 读取。
 
 
 ## Input & Editing
