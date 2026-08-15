@@ -111,6 +111,7 @@ TOPIC_MANUAL = {
     "toolclub/agent_team_gui": "Agent 与自动化",
     "khellendros97/dsh-better-model-selector": "界面与体验",
     "xuboboo/dsh-gui": "桌面客户端",
+    "strukto-ai/mirage": "开发与工程",
     "121103qwq/dsh-vision-sidecar": "视觉与图像",
     "147228/dsh-black-whale": "界面与体验",
     "147228/dsh-xiaoyao-skins": "界面与体验",
