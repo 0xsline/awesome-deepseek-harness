@@ -84,6 +84,9 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "xuboboo/dsh-gui", "name": "dsh-gui",
      "html_url": "https://github.com/xuboboo/dsh-gui",
      "description": "DeepSeek Harness 第三方 Windows 桌面客户端：原生窗口、品牌主题与启动动画、启动崩溃修复、Token 用量统计"},
+    {"full_name": "ChuanTianML/dsh-open-with", "name": "dsh-open-with",
+     "html_url": "https://github.com/ChuanTianML/dsh-open-with",
+     "description": "从 DSH Web UI 的已登记工作区列表中，使用自动检测或手动配置的本机编辑器、终端或文件管理器打开目录，并记住浏览器首选目标"},
 ]
 
 
