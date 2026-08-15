@@ -405,6 +405,7 @@ Management panel: Settings → Plugins.
 
 - [dsh-tray](https://github.com/KAIbsb/dsh-tray) - Windows tray manager for DSH Web: start/restart/stop, crash auto-restart, status icon, and autostart.
 - [mirage-dsh](https://github.com/strukto-ai/mirage/tree/main/typescript/packages/dsh) - Swaps the filesystem and bash providers for a mirage virtual workspace: file tools and shell commands run over mounted resources (RAM, S3, Redis, Slack, Gmail, Notion, Postgres) instead of the host disk, with per-mount read/write/exec modes, per-command sandbox routing (monty, pyodide, quickjs in process; docker, e2b, daytona remote), and installed CLIs (git, gh, slack, linear, ntn, gws, or one you register) as head words in the virtual terminal.
+- [dsh-genie](https://github.com/swaylq/dsh-genie) - Promote a `cordis_define` dynamic package into a real installed bundle that survives restart; writes the package and registers the profile layer without pnpm, network, or a build authorization.
 
 ## Data & Market
 
