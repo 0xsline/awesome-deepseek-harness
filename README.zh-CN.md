@@ -239,6 +239,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-session-manager](https://github.com/Semidia/dsh-session-manager) - 侧边栏会话行右键菜单：置顶、重命名、归档、在新聊天中继续、标记未读、复制工作目录/标题/ID/深度链接、在资源管理器中打开、在新窗口中打开。
 
 - [dsh-cost-crystal](https://github.com/xxvk/dsh-cost-crystal) - DSH Web UI 成本水晶球：余额卡片、实时 tok/s 速率、波峰/低峰计费倒计时、近 24h 消耗，以及 🔮 下一条消息消耗预测，全部时区感知。
+- [dsh-homepage-skin](https://github.com/yushi-xxh/dsh-homepage-skin) - 给 dsh web 铺上 DeepSeek Harness 首页同款背景：WebGL 流体光效、点线网格与数字鲸鱼，深浅双主题。
 ## IDE & Clients
 
 - [dsh4vscode](https://github.com/DoggyHU/dsh4vscode) - 基于 DSH agent 的 VS Code 聊天窗口：OpenCode 式独立会话、模型自动路由（Flash/Pro/Pro Max）。
