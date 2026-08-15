@@ -395,6 +395,7 @@ Management panel: Settings → Plugins.
 - [dsh-interpreters](https://github.com/dsh-external/dsh-interpreters) - Interpreter plugin (cordis).
 - [dsh-notebooks](https://github.com/dsh-external/dsh-notebooks) - Notebooks plugin (cordis).
 - [dsh-plugin-radar](https://github.com/dsh-external/dsh-plugin-radar) - Daily DSH plugin compatibility radar, renamed from dsh-external-research.
+- [MicroMilo/upstream-radar](https://github.com/MicroMilo/upstream-radar) - Always-on dependency security monitoring for DSH plugins: exact installed paths, OSV vulnerabilities, npm releases, and compatibility signals routed to a project-aware DSH Agent.
 - [dsh-scout](https://github.com/dsh-external/dsh-scout) - Scout plugin (cordis).
 - [dsh-share](https://github.com/dsh-external/dsh-share) - Share DSH conversations.
 - [dsh-sonar](https://github.com/dsh-external/dsh-sonar) - Sonar plugin (cordis).
