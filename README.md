@@ -245,6 +245,7 @@ Management panel: Settings → Plugins.
 - [DSH-for-VSC](https://github.com/yauntyour/DSH-for-VSC) - VS Code extension embedding the DSH WebUI as an editor panel: sidebar console with service status and start/stop, hidden auto-restart, status-bar indicator and run logs.
 - [dsh-gui](https://github.com/xuboboo/dsh-gui) - Third-party Windows desktop client for DeepSeek Harness: native window, branded theme & splash, startup crash fixes, token usage statistics.
 - [DSH Studio](https://github.com/Moresyl/dsh-studio) - Cross-platform Rust/Tauri desktop shell that supervises `dsh web`, reclaims process trees, selects free ports, and publishes Windows/Linux/macOS installers without forking the upstream UI.
+- [DSH Deck](https://github.com/Socialist-Sister/dsh-deck) - Unofficial Electron desktop shell for the official DSH Web UI (same code, same data): attach-to-existing-harness mode prevents dual-writer session corruption, session-log relocated to the session row menu, tray residency, single portable exe.
 
 ## Browser & Remote
 
