@@ -1,6 +1,6 @@
 <div>
   <p align="center">
-    <img width="100%" alt="Awesome DeepSeek Harness — DSH エコシステムをつなぐ光るクジラ" src="assets/media/awesome-deepseek-harness-banner.png">
+    <img width="100%" alt="Agent = Model + Harness — DSH エコシステムをつなぐ光るクジラ" src="assets/media/awesome-deepseek-harness-banner.png">
   </p>
 </div>
 
@@ -38,7 +38,6 @@
   - [コミュニティ](#コミュニティ)
 - [コミュニティリソース](#コミュニティリソース)
   - [解説とチュートリアル](#解説とチュートリアル)
-  - [初期参加者の記事](#初期参加者の記事)
   - [コミュニティでの議論](#コミュニティでの議論)
 - [サードパーティクライアント](#サードパーティクライアント)
   - [デスクトップアプリとディストリビューション](#デスクトップアプリとディストリビューション)
@@ -106,7 +105,6 @@ Git リポジトリからインストールする場合は、commit を固定し
 
 - [@deepseek-ai/dsh](https://www.npmjs.com/package/@deepseek-ai/dsh)：公式 CLI と Web UI の npm 起動パッケージ
 - [deepseek-harness-sdk](https://pypi.org/project/deepseek-harness-sdk/)：DSH をプログラムから利用するための公式 Python SDK
-- [Ollama](https://github.com/ollama/ollama/blob/e5a81899d014a847a08d47393351908b53d74008/docs/integrations/deepseek-harness.mdx)：`ollama launch dsh` で DSH の導入と起動、Ollama モデル選択、Web 検索設定を行う。独立設定を `~/.ollama/launch/dsh/settings.yaml` に保存し、現在は Developer Preview と明記されている
 
 ### ソースリポジトリ
 
@@ -121,28 +119,9 @@ Git リポジトリからインストールする場合は、commit を固定し
 ### コミュニティ
 
 - [GitHub Discussions](https://github.com/deepseek-ai/deepseek-harness/discussions)：質問、利用者同士の交流、提案
-- [# dsh-plugin](https://github.com/topics/dsh-plugin)：GitHub 上の DSH プラグインプロジェクト
 - [DeepSeek Discord](https://discord.gg/Ycq5dCaS4)：中国語を中心とする公式 Discord コミュニティ
 - ["DeepSeek Harness"](https://x.com/search?q=%22DeepSeek%20Harness%22%20OR%20dsh-plugin&src=typed_query&f=live)：DSH に関する X のリアルタイム検索結果
-
-中国語の DeepSeek Harness コミュニティにも参加できます。QR コードから WeCom アシスタントを追加し、参加フォームに回答すると、確認後にグループへ招待されます。
-
-<table>
-  <thead>
-    <tr>
-      <th align="center">WeCom アシスタント</th>
-      <th align="center">参加フォーム</th>
-      <th align="center">WeChat 公式アカウント</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center"><img src="https://raw.githubusercontent.com/deepseek-ai/deepseek-harness/master/assets/community-wecom-assistant.png" alt="DeepSeek Harness WeCom アシスタントの QR コード" width="180" height="180"></td>
-      <td align="center"><a href="https://trtgsjkv6r.feishu.cn/share/base/form/shrcnIt5twSVdLGD52KJBckGCgg"><img src="https://raw.githubusercontent.com/deepseek-ai/deepseek-harness/master/assets/community-wecom-survey.png" alt="DeepSeek Harness コミュニティ参加フォームの QR コード" width="180" height="180"></a></td>
-      <td align="center"><img src="https://raw.githubusercontent.com/deepseek-ai/deepseek-harness/master/assets/community-wechat-official-account.png" alt="DeepSeek Harness チーム WeChat 公式アカウントの QR コード" width="180" height="180"></td>
-    </tr>
-  </tbody>
-</table>
+- [# dsh-plugin](https://github.com/topics/dsh-plugin)：GitHub 上の DSH プラグインプロジェクト
 
 ## コミュニティリソース
 
@@ -150,21 +129,11 @@ Git リポジトリからインストールする場合は、commit を固定し
 
 | ガイド | 形式 | 内容 |
 | --- | --- | --- |
-| [DeepSeek Harness を解剖する](https://xueai.app/slides/learn.html#dsh-1.html) | インタラクティブなソース解説 | Session、コンテキスト、ツール、サンドボックス、Code Mode、Subagent などの主要メカニズムを解説。一部はログインが必要 |
-| [DeepSeek Harness ゼロから入門](https://yanhua1010.github.io/dsh-harness-tutorial/) | 中国語チュートリアルと Demo | 原理、ソース解説、8 個の Demo、`mini-harness` 学習プロジェクトを収録。`0.1.0-rc.6` ベース |
-| [Hello DSH](https://github.com/pingfanfan/hello-dsh) | プラグイン入門と Skill | ターミナルでの導入から最初のコードプラグインまでを解説し、22 個の中国語 Skill 例、dry-run、アンインストール手順を収録。`0.1.0-rc.6` で検証済み |
-| [DeepSeek Harness：起動から分解まで](https://github.com/alchaincyf/deepseek-harness-orange-book) | 中国語の実践電子書 | PDF、EPUB、HTML で公開。完全なシステムプロンプト、129 行のデフォルト起動マニフェスト、3 件の生セッションログを収録。リリース後 24 時間以内に執筆されたため、DSH の進化に伴い内容が変わる可能性がある |
-
-### 初期参加者の記事
-
-以下は、DSH のクローズドベータに参加したことを明記している開発者またはプラグイン作者の記事です。リンクには期限付きの Sogou 署名ではなく、WeChat 記事を識別する `__biz`、`mid`、`idx` を使用しています。内容は **2026 年 8 月のクローズドベータ時点**を反映しており、実験データや主観的評価を本プロジェクトが独自に再現したものではありません。
-
-| 記事 | アカウントと一次的な背景 | 概要 |
-| --- | --- | --- |
-| [Vibe Coding から Vibe Assembly へ：DeepSeek Harness の公式 Agent Loop を置き換える](https://mp.weixin.qq.com/s?__biz=Mzg3NzU2OTExNA%3D%3D&mid=2247483841&idx=1) | 自然膨胀。作者はクローズドベータへの招待を受け、関連する [TT-Wang/sliceagent](https://github.com/TT-Wang/sliceagent) を開発 | 公式 Agent Loop の置き換え、76 Turn の自己申告による比較実験、Vibe Coding から合成可能な Agent の「Vibe Assembly」へ進むという考えを記録。 |
-| [DeepSeek Harness クローズドベータ技術解説：アーキテクチャ、エコシステム、タスクエンジン、運用](https://mp.weixin.qq.com/s?__biz=MzU3OTI3NjQ1Mg%3D%3D&mid=2247483810&idx=1) | cookbook之杂七杂八。作者は 10 日以上にわたりクローズドベータの Snapshot を追跡し、[fakechris/dsh-track](https://github.com/fakechris/dsh-track) を開発 | Cordis Event、Session Log、Surface、コンテキスト圧縮、永続化、Snapshot ローテーション、復旧、本番相当経路での受け入れ確認を詳しく解説。 |
-| [DeepSeek Harness は想像力を最も満たす Agent Harness かもしれない](https://mp.weixin.qq.com/s?__biz=Mzk0MTcyNzIyOA%3D%3D&mid=2247485085&idx=1) | GTOC。作者はクローズドベータに参加し、Humanize を [zevorn/dsh-humanize](https://github.com/zevorn/dsh-humanize) として移植 | Web UI のエコシステム上の価値、Plugin と Skill の違い、Trajectory タイムライン、プロダクト指向の拡張余地をプラグイン作者の視点から論じる。 |
-| [DSH クローズドベータ参加所感](https://mp.weixin.qq.com/s?__biz=MzYzMzY1NTAwNA%3D%3D&mid=2247483740&idx=1) | 减AI。作者は選出されたことを明記し、[dsh-ads](https://github.com/Nagi-ovo/dsh-ads)、[dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize)、[dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) を公開 | 初期プラグイン作者の視点から、可視化、UI の試み、初期コミュニティの協働方法を簡潔に記録した一次的な側写。 |
+| [DeepSeek Harness ゼロから入門](https://yanhua1010.github.io/dsh-harness-tutorial/) | 中国語チュートリアルと Demo | 原理、ソース解説、8 個の Demo、`mini-harness` 学習プロジェクトを収録 |
+| [DeepSeek Harness：起動から分解まで](https://github.com/alchaincyf/deepseek-harness-orange-book) | 中国語の実践電子書 | PDF、EPUB、HTML で公開。完全なシステムプロンプト、129 行のデフォルト起動マニフェスト、3 件の生セッションログを収録 |
+| [DeepSeek Harness を解剖する](https://xueai.app/slides/learn.html#dsh-1.html) | インタラクティブなソース解説 | Session、コンテキスト、ツール、サンドボックス、Code Mode、Subagent などの主要メカニズムを解説 |
+| [Cordis は何をしているか：DeepSeek Harness から見る](https://blog.antinomie.org) | 中国語のアーキテクチャ短文 | プラグイン作者の視点から Cordis のメンタルモデルを説明し、複雑さがシステム内部へ移ることを論じる |
+| [DeepSeek Harness ハンドブック](https://github.com/Electricitysheep/dsh-handbook) | 中国語・英語のマニュアル | インストール、プラグイン開発、セキュリティ、コストまで 14 章。オンライン版、PDF、実行可能な例を収録。内容は CC BY-NC-SA 4.0 で、`0.1.0-rc.6` を基準とする |
 
 ### コミュニティでの議論
 
@@ -172,9 +141,10 @@ Git リポジトリからインストールする場合は、commit を固定し
 
 | 投稿 | 作者と背景 | 概要 |
 | --- | --- | --- |
-| [初期参加者の視点から DSH を理解する](https://x.com/jiayuan_jy/status/2087911060154314963) | [Jiayuan (JY) Zhang](https://x.com/jiayuan_jy) · 2026-08-13。作者は 1 か月早くリポジトリに参加したと説明 | DSH を、実際に動作する Coding Agent と Agent 開発フレームワークの両方として捉える。「LEGO の車」で Everything is a Plugin を説明し、Runtime の自己拡張、自己進化ソフトウェアの原型、現在の成熟度、関数型プログラミング的な特徴を論じる |
-| [Agent Runtime / Agent OS の視点から DSH を理解する](https://x.com/anion_ex/status/2087910193783025853) | [Anionex](https://x.com/anion_ex) · 2026-08-13。クローズドベータ参加者、プラグイン作者 | モデル、ツール、ポリシー、ストレージ、コンテキスト、インターフェース、Loop の合成可能性から DSH を説明し、Agent による Runtime の限定的な観測と制御された自己拡張を論じる |
-| [DeepSeek Harness を一晩試し、『Minecraft』方式で Claude Code に挑むと感じた理由](https://www.pingwest.com/a/316436) | 品玩 · 2026-08-14。公開初夜のメディア観察 | DSH 本体、プラグイン、ディレクトリ、ディストリビューションを Minecraft の Vanilla、Mod、CurseForge、Modpack にたとえ、初夜の互換性と安全性の議論を記録。プロジェクト数と状態は当時の Snapshot に限られる |
+| [初期参加者の視点から DSH を理解する](https://x.com/jiayuan_jy/status/2087911060154314963) | [Jiayuan (JY) Zhang](https://x.com/jiayuan_jy)。作者は 1 か月早くリポジトリへのアクセス権を得たと説明 | DSH を、実際に動作する Coding Agent と Agent 開発フレームワークの両方として捉える。「LEGO の車」で Everything is a Plugin を説明し、Runtime の自己拡張、自己進化ソフトウェアの原型、現在の成熟度、関数型プログラミング的な特徴を論じる |
+| [Agent Runtime / Agent OS の視点から DSH を理解する](https://x.com/anion_ex/status/2087910193783025853) | [Anionex](https://x.com/anion_ex)。クローズドベータ参加者、プラグイン作者 | モデル、ツール、ポリシー、ストレージ、コンテキスト、インターフェース、Loop の合成可能性から DSH を説明し、Agent による Runtime の限定的な観測と制御された自己拡張を論じる |
+| [DeepSeek Harness を一晩試し、『Minecraft』方式で Claude Code に挑むと感じた理由](https://www.pingwest.com/a/316436) | 品玩。公開初夜のメディア観察 | DSH 本体、プラグイン、ディレクトリ、ディストリビューションを Minecraft の Vanilla、Mod、CurseForge、Modpack にたとえ、初夜の互換性と安全性の議論を記録 |
+| [ソースから DSH と Codex を対照する：宣言的プラグイン vs 差し替え可能な Agent Loop](https://x.com/grapeot/status/2088019011561005382) | [鴨哥](https://x.com/grapeot)。ソースを読んだうえで Codex と行単位で対照。展開版は [yage.ai](https://yage.ai/share/dsh-deep-analysis-20260813.html) | Codex の宣言的プラグインと DSH のプロセス内命令的プラグインを対比し、日常のコーディングに Cordis の複雑さは不要だと論じる。構造上の唯一の利点は、Agent Loop 自体をホットスワップできることであり、自己進化する Harness のための物理スロットになる |
 
 ## サードパーティクライアント
 
@@ -186,6 +156,9 @@ Git リポジトリからインストールする場合は、commit を固定し
 
 | プロジェクト | プラットフォーム／形態 | 説明 |
 | --- | --- | --- |
+| [DeepSeek Harness Desktop (anywhere-labs)](https://github.com/anywhere-labs/deepseek-harness-desktop) | macOS (Apple Silicon) / Windows · Electron · 初期段階 | 公式 Runtime と Web UI を、ローカルサービスのライフサイクル管理、システムトレイ、デスクトップウィンドウとともにパッケージ化。現在は `v0.1.0` で、プラグインマーケット、モバイル遠隔操作、Channels はまだ計画段階 |
+| [DeepSeek Harness Desktop (steven-kid)](https://github.com/steven-kid/deepseek-harness-desktop) | macOS / Windows / Linux · Electron · 初期段階 | 公式 Web UI を維持する最小構成のシェル。ランダムなループバックポート、Electron サンドボックス、`contextIsolation` を採用し、各プラットフォームの配布物で起動スモークテストを実施。macOS 版は未公証、Windows 版は商用コード署名なし |
+| [DeepSeek Harness Desktop App](https://github.com/vibeinging/deepseek-harness-desktop-app) | macOS / Windows · Electron · 初期ワークベンチ | 同じ DSH Runtime 経路にプロジェクト、Git Worktree、ブラウザ、Canvas、Site、Office 成果物を追加。現在は `v0.0.1` で、インストールパッケージの実機検証はまだ初期段階 |
 | [TinyWhale](https://github.com/aimierbear/TinyWhale) | macOS · Electron · ディストリビューション Fork | `deepseek-ai/deepseek-harness` を直接 Fork して独立デスクトップシェルを追加。既存 Web UI に接続するか、完全な `dsh web` Runtime を起動するため、プラグインではない |
 | [Oh-DSH](https://github.com/hust-open-atom-club/oh-dsh) | macOS / Linux / Windows · コミュニティディストリビューション | DSH、Node.js、ローカル機能を Desktop、Web、TUI の 3 形態にパッケージし、段階別インストーラーと統一 `ohdsh` ランチャーを提供 |
 | [DSH Desktop](https://github.com/dataelement/dsh-desktop) | macOS / Windows · Electron | ローカル Harness、ワークスペース、ランダムポート、Profile、プラグイン、Session を管理するクロスプラットフォームデスクトップクライアント |
@@ -222,6 +195,7 @@ Git リポジトリからインストールする場合は、commit を固定し
 
 - [dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor)：AGENTS.md、Skill ディレクトリ、ツール Schema のコンテキスト Token コストと競合を監査。
 - [dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve)：Session をまたぐ記憶、バックグラウンド進化、ブランチ認識機能。
+- [dsh-noema](https://github.com/ZSeven-W/dsh-noema)：ローカル優先の Noema 長期記憶を DSH に接続し、作業前の想起、設定ページでの管理、Codex / Claude Code / Cursor などからの既存記憶インポートに対応。MIT、`0.1.0-rc.1`。DSH `0.1.0-rc.6` で検証済みだが新しいため初期段階。
 - [dsh-at-file](https://github.com/omdsh-dev/dsh-at-file)：入力欄の `@file` でワークスペース内のファイルを検索し、内容を添付。
 - [dsh-message-edit](https://github.com/Moeblack/dsh-message-edit)：ブランチ型メッセージ編集、再試行、再生成、バージョンタイムライン。
 - [dsh-prompt-studio](https://github.com/Moeblack/dsh-prompt-studio)：システムプロンプト断片を編集し、リアルタイムプレビューを表示。
@@ -255,6 +229,7 @@ Git リポジトリからインストールする場合は、commit を固定し
 
 ## 外部連携
 
+- [Ollama](https://github.com/ollama/ollama/blob/main/docs/integrations/deepseek-harness.mdx)：Ollama 公式が提供する起動方法であり、DeepSeek 公式の配布物ではない。`ollama launch dsh` で DSH の導入と起動、Ollama モデル選択、Web 検索設定を行う。独立設定は `~/.ollama/launch/dsh/settings.yaml` に保存され、`~/.dsh/settings.yaml` は変更しない。現在は Developer Preview と明記されている。
 - [Sealos Skills](https://github.com/labring/sealos-skills)：Sealos チームが保守する DSH Profile Bundle。アプリのデプロイ、データベース、オブジェクトストレージなど、8 個のクラウドネイティブ Skill を提供。実際の利用では外部の Sealos Cloud リソースを変更するため、アカウントと関連認証情報が必要。ログイン時には `~/.sealos/kubeconfig` へ書き込み、一部のフローではサンドボックス権限の緩和が必要。`package.json` は MIT を宣言しているが、現在リポジトリのルートに `LICENSE` ファイルはない。
 - [Nowledge Mem](https://mem.nowledge.co/integrations/deepseek-harness)：DSH に Working Memory、プロンプト時の検索、MCP ツール、Session キャプチャを追加。外部製品 Nowledge Mem と `nmem` CLI に依存するため、オープンソースプラグインとは分けて評価するのが適切。
 - [Open Design](https://github.com/nexu-io/open-design)：構造化 Streaming、モデル検出、Cancel、Session 再開に対応する DSH ネイティブ Runtime Adapter を備えた Local-first のオープンソースデザインアプリ。Apache-2.0 で、通常のプラグインではなく大規模な独立製品。
@@ -273,6 +248,7 @@ Git リポジトリからインストールする場合は、commit を固定し
 - [dsh-payload-capture](https://github.com/Moeblack/dsh-payload-capture)：モデル API へ送信する Payload を取得・保存し、リクエスト組み立てのデバッグに利用。
 - [dsh-custom-tool](https://github.com/omdsh-dev/dsh-custom-tool)：Monaco エディターでサンドボックス化された JavaScript ツールを作成・管理。
 - [dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode)：Web UI から現在のワークスペースを VS Code で直接開く。
+- [dsh-movein](https://github.com/sjh9714/dsh-movein)：1 コマンドで Claude Code の Skill、MCP、hooks、グローバル指示を DSH へ移行。デフォルトはドライラン。`CLAUDE.md` は DSH がネイティブに読み、Session 履歴は対象外。MIT。DSH `0.1.0-rc.6` で検証済みだが新しいため初期段階。
 
 ## 謝辞
 

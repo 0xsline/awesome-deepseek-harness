@@ -1,6 +1,6 @@
 <div>
   <p align="center">
-    <img width="100%" alt="Awesome DeepSeek Harness — a luminous whale connecting the DSH ecosystem" src="assets/media/awesome-deepseek-harness-banner.png">
+    <img width="100%" alt="Agent = Model + Harness — a luminous whale connecting the DSH ecosystem" src="assets/media/awesome-deepseek-harness-banner.png">
   </p>
 </div>
 
@@ -38,7 +38,6 @@ This project follows a curated, quality-over-quantity approach to collecting exc
   - [Community](#community)
 - [Community Resources](#community-resources)
   - [Guides and Analysis](#guides-and-analysis)
-  - [Early Participant Articles](#early-participant-articles)
   - [Community Discussions](#community-discussions)
 - [Third-Party Clients](#third-party-clients)
   - [Desktop Apps and Distributions](#desktop-apps-and-distributions)
@@ -106,7 +105,6 @@ The official project provides an open-source repository, a companion paper, exte
 
 - [@deepseek-ai/dsh](https://www.npmjs.com/package/@deepseek-ai/dsh): official npm launcher package for the CLI and Web UI
 - [deepseek-harness-sdk](https://pypi.org/project/deepseek-harness-sdk/): official Python SDK for programmatic DSH integration
-- [Ollama](https://github.com/ollama/ollama/blob/e5a81899d014a847a08d47393351908b53d74008/docs/integrations/deepseek-harness.mdx): installs and launches DSH, selects Ollama models, and configures Web search through `ollama launch dsh`; writes separate settings to `~/.ollama/launch/dsh/settings.yaml` and is currently marked as a developer preview
 
 ### Source Repositories
 
@@ -121,28 +119,9 @@ The official project provides an open-source repository, a companion paper, exte
 ### Community
 
 - [GitHub Discussions](https://github.com/deepseek-ai/deepseek-harness/discussions): questions, usage discussions, and proposals
-- [# dsh-plugin](https://github.com/topics/dsh-plugin): DSH plugin projects on GitHub
 - [DeepSeek Discord](https://discord.gg/Ycq5dCaS4): official Discord community, primarily in Chinese
 - ["DeepSeek Harness"](https://x.com/search?q=%22DeepSeek%20Harness%22%20OR%20dsh-plugin&src=typed_query&f=live): live X search results for DSH
-
-You are also welcome to join the Chinese DeepSeek Harness community. Scan the QR code to add the WeCom assistant and complete the group application form; the assistant will invite you after submission.
-
-<table>
-  <thead>
-    <tr>
-      <th align="center">WeCom Assistant</th>
-      <th align="center">Group Application</th>
-      <th align="center">WeChat Official Account</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center"><img src="https://raw.githubusercontent.com/deepseek-ai/deepseek-harness/master/assets/community-wecom-assistant.png" alt="DeepSeek Harness WeCom assistant QR code" width="180" height="180"></td>
-      <td align="center"><a href="https://trtgsjkv6r.feishu.cn/share/base/form/shrcnIt5twSVdLGD52KJBckGCgg"><img src="https://raw.githubusercontent.com/deepseek-ai/deepseek-harness/master/assets/community-wecom-survey.png" alt="DeepSeek Harness community application QR code" width="180" height="180"></a></td>
-      <td align="center"><img src="https://raw.githubusercontent.com/deepseek-ai/deepseek-harness/master/assets/community-wechat-official-account.png" alt="DeepSeek Harness team WeChat Official Account QR code" width="180" height="180"></td>
-    </tr>
-  </tbody>
-</table>
+- [# dsh-plugin](https://github.com/topics/dsh-plugin): DSH plugin projects on GitHub
 
 ## Community Resources
 
@@ -150,21 +129,11 @@ You are also welcome to join the Chinese DeepSeek Harness community. Scan the QR
 
 | Guide | Format | Coverage |
 | --- | --- | --- |
-| [Dissecting DeepSeek Harness](https://xueai.app/slides/learn.html#dsh-1.html) | Interactive source-code course | Breaks down sessions, context, tools, sandboxing, Code Mode, Subagents, and other core mechanisms; some content requires signing in |
-| [DeepSeek Harness from Zero to One](https://yanhua1010.github.io/dsh-harness-tutorial/) | Chinese guide and demos | Covers concepts, source walkthroughs, eight demos, and a `mini-harness` teaching project; based on `0.1.0-rc.6` |
-| [Hello DSH](https://github.com/pingfanfan/hello-dsh) | Plugin introduction and Skills | Goes from terminal setup to a first code plugin, with 22 Chinese Skill examples, dry-run installation, and uninstall steps; verified on `0.1.0-rc.6` |
-| [DeepSeek Harness: From First Boot to Teardown](https://github.com/alchaincyf/deepseek-harness-orange-book) | Chinese hands-on ebook | Available as PDF, EPUB, and HTML, with the full system prompt, a 129-line default boot manifest, and three raw session logs; written within 24 hours of release, so details may change as DSH evolves |
-
-### Early Participant Articles
-
-These articles come from developers or plugin authors who explicitly describe participating in the DSH private beta. Their links use durable WeChat article identifiers—`__biz`, `mid`, and `idx`—rather than expiring Sogou signatures. They reflect the **August 2026 private-beta snapshot**; this project has not independently reproduced their experimental results or subjective judgments.
-
-| Article | Account and First-Hand Context | Summary |
-| --- | --- | --- |
-| [From Vibe Coding to Vibe Assembly: Replacing DeepSeek Harness's Official Agent Loop](https://mp.weixin.qq.com/s?__biz=Mzg3NzU2OTExNA%3D%3D&mid=2247483841&idx=1) | 自然膨胀; the author reports receiving private-beta access and developed the related [TT-Wang/sliceagent](https://github.com/TT-Wang/sliceagent) | Describes replacing the official Agent Loop, a self-reported 76-turn comparison, and the idea of moving from Vibe Coding toward composable-agent “Vibe Assembly.” |
-| [DeepSeek Harness Private-Beta Technical Breakdown: Architecture, Ecosystem, Task Engine, and Operations](https://mp.weixin.qq.com/s?__biz=MzU3OTI3NjQ1Mg%3D%3D&mid=2247483810&idx=1) | cookbook之杂七杂八; the author reports tracking private-beta snapshots for more than ten days and developed [fakechris/dsh-track](https://github.com/fakechris/dsh-track) | Examines Cordis events, the Session Log, Surfaces, context compaction, persistence, snapshot rotation, recovery, and production-equivalent acceptance checks. |
-| [DeepSeek Harness May Be the Agent Harness That Best Satisfies Your Imagination](https://mp.weixin.qq.com/s?__biz=Mzk0MTcyNzIyOA%3D%3D&mid=2247485085&idx=1) | GTOC; the author reports participating in the private beta and ported Humanize as [zevorn/dsh-humanize](https://github.com/zevorn/dsh-humanize) | Discusses the ecosystem value of a Web UI, the distinction between Plugins and Skills, the Trajectory timeline, and opportunities for product-oriented extensions. |
-| [Reflections on Participating in the DSH Private Beta](https://mp.weixin.qq.com/s?__biz=MzYzMzY1NTAwNA%3D%3D&mid=2247483740&idx=1) | 减AI; the author explicitly reports being selected and published [dsh-ads](https://github.com/Nagi-ovo/dsh-ads), [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize), and [dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) | A concise first-hand view from an early plugin author, covering visualization, interface experiments, and the community's initial collaboration style. |
+| [DeepSeek Harness from Zero to One](https://yanhua1010.github.io/dsh-harness-tutorial/) | Chinese guide and demos | Covers concepts, source walkthroughs, eight demos, and a `mini-harness` teaching project |
+| [DeepSeek Harness: From First Boot to Teardown](https://github.com/alchaincyf/deepseek-harness-orange-book) | Chinese hands-on ebook | Available as PDF, EPUB, and HTML, with the full system prompt, a 129-line default boot manifest, and three raw session logs |
+| [Dissecting DeepSeek Harness](https://xueai.app/slides/learn.html#dsh-1.html) | Interactive source-code course | Breaks down sessions, context, tools, sandboxing, Code Mode, Subagents, and other core mechanisms |
+| [What Cordis Is Doing, Seen Through DeepSeek Harness](https://blog.antinomie.org) | Chinese architecture essay | Explains the Cordis mental model from a plugin author's perspective and how complexity moves inside the system |
+| [DeepSeek Harness Handbook](https://github.com/Electricitysheep/dsh-handbook) | Bilingual handbook | 14 chapters on install, plugin development, security, and cost, with online reading, PDFs, and runnable examples; content is CC BY-NC-SA 4.0 and based on `0.1.0-rc.6` |
 
 ### Community Discussions
 
@@ -172,9 +141,10 @@ Public long-form social posts with substantial arguments, practical detail, or f
 
 | Post | Author and Context | Summary |
 | --- | --- | --- |
-| [Understanding DSH from an Early Participant's Perspective](https://x.com/jiayuan_jy/status/2087911060154314963) | [Jiayuan (JY) Zhang](https://x.com/jiayuan_jy) · 2026-08-13; the author reports receiving repository access one month early | Frames DSH as both a working Coding Agent and an Agent development framework; uses a “LEGO car” analogy for Everything is a Plugin and discusses runtime self-extension, early self-evolving software, current maturity, and functional-programming characteristics. |
-| [Understanding DSH as an Agent Runtime / Agent OS](https://x.com/anion_ex/status/2087910193783025853) | [Anionex](https://x.com/anion_ex) · 2026-08-13; private-beta participant and plugin author | Explains DSH through the composability of models, tools, policies, storage, context, interfaces, and Loops, then discusses limited Agent visibility into the runtime and controlled self-extension. |
-| [After a Night with DeepSeek Harness, I Found It Challenging Claude Code the Minecraft Way](https://www.pingwest.com/a/316436) | PingWest · 2026-08-14; launch-night media observation | Maps DSH core, plugins, directories, and distributions to Minecraft vanilla, Mods, CurseForge, and modpacks, while recording launch-night compatibility and security debates; project counts and status are a point-in-time snapshot. |
+| [Understanding DSH from an Early Participant's Perspective](https://x.com/jiayuan_jy/status/2087911060154314963) | [Jiayuan (JY) Zhang](https://x.com/jiayuan_jy); the author reports receiving repository access one month early | Frames DSH as both a working Coding Agent and an Agent development framework; uses a “LEGO car” analogy for Everything is a Plugin and discusses runtime self-extension, early self-evolving software, current maturity, and functional-programming characteristics. |
+| [Understanding DSH as an Agent Runtime / Agent OS](https://x.com/anion_ex/status/2087910193783025853) | [Anionex](https://x.com/anion_ex); private-beta participant and plugin author | Explains DSH through the composability of models, tools, policies, storage, context, interfaces, and Loops, then discusses limited Agent visibility into the runtime and controlled self-extension. |
+| [After a Night with DeepSeek Harness, I Found It Challenging Claude Code the Minecraft Way](https://www.pingwest.com/a/316436) | PingWest; launch-night media observation | Maps DSH core, plugins, directories, and distributions to Minecraft vanilla, Mods, CurseForge, and modpacks, while recording launch-night compatibility and security debates. |
+| [Reading DSH Against Codex: Declarative Plugins vs a Swappable Agent Loop](https://x.com/grapeot/status/2088019011561005382) | [鸭哥](https://x.com/grapeot); line-by-line source comparison with Codex. Expanded essay at [yage.ai](https://yage.ai/share/dsh-deep-analysis-20260813.html) | Contrasts Codex's declarative plugins with DSH's in-process imperative plugins, arguing that everyday coding does not need Cordis complexity; the one structural advantage is a hot-swappable Agent Loop that gives a self-evolving harness a physical slot. |
 
 ## Third-Party Clients
 
@@ -186,6 +156,9 @@ The following projects provide standalone user interfaces, distribution formats,
 
 | Project | Platform / Form | Description |
 | --- | --- | --- |
+| [DeepSeek Harness Desktop (anywhere-labs)](https://github.com/anywhere-labs/deepseek-harness-desktop) | macOS (Apple Silicon) / Windows · Electron · Early | Packages the official Runtime and Web UI with local-service lifecycle management, a system tray, and desktop windows; currently at `v0.1.0`, while the plugin marketplace, mobile remote control, and Channels remain planned |
+| [DeepSeek Harness Desktop (steven-kid)](https://github.com/steven-kid/deepseek-harness-desktop) | macOS / Windows / Linux · Electron · Early | Minimal shell that preserves the upstream Web UI, uses a random loopback port, Electron sandboxing, and `contextIsolation`, and smoke-tests packaged startup across platforms; macOS builds are not notarized and Windows builds are not commercially signed |
+| [DeepSeek Harness Desktop App](https://github.com/vibeinging/deepseek-harness-desktop-app) | macOS / Windows · Electron · Early workbench | Adds projects, Git Worktrees, a browser, Canvas, Sites, and Office artifacts on the same DSH runtime path; currently at `v0.0.1`, with packaged-app validation still at an early stage |
 | [TinyWhale](https://github.com/aimierbear/TinyWhale) | macOS · Electron · Distribution fork | Directly forks `deepseek-ai/deepseek-harness` and adds a desktop shell; connects to an existing Web UI or launches a full `dsh web` Runtime, so it is not a plugin |
 | [Oh-DSH](https://github.com/hust-open-atom-club/oh-dsh) | macOS / Linux / Windows · Community distribution | Packages DSH, Node.js, and local capabilities as Desktop, Web, and TUI editions with tiered installers and a unified `ohdsh` launcher |
 | [DSH Desktop](https://github.com/dataelement/dsh-desktop) | macOS / Windows · Electron | Cross-platform desktop client for managing local Harness instances, workspaces, random ports, Profiles, plugins, and sessions |
@@ -222,6 +195,7 @@ The following projects provide standalone user interfaces, distribution formats,
 
 - [dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor): audits the context-token cost and conflicts of AGENTS.md, Skill directories, and tool Schemas.
 - [dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve): cross-session memory, background evolution, and branch-aware behavior.
+- [dsh-noema](https://github.com/ZSeven-W/dsh-noema): connects DSH to local-first Noema long-term memory, with recall-before-work, a settings page, and import from Codex, Claude Code, Cursor, and other tools; MIT and `0.1.0-rc.1`, verified on DSH `0.1.0-rc.6`, still new and marked Early.
 - [dsh-at-file](https://github.com/omdsh-dev/dsh-at-file): searches workspace files with `@file` in the composer and attaches their content.
 - [dsh-message-edit](https://github.com/Moeblack/dsh-message-edit): branch-based message editing, retry, regeneration, and version timelines.
 - [dsh-prompt-studio](https://github.com/Moeblack/dsh-prompt-studio): edits system-prompt fragments with a live preview.
@@ -255,6 +229,7 @@ The following projects provide standalone user interfaces, distribution formats,
 
 ## External Integrations
 
+- [Ollama](https://github.com/ollama/ollama/blob/main/docs/integrations/deepseek-harness.mdx): Ollama's official launcher for DSH, not a DeepSeek-official distribution. Use `ollama launch dsh` to install and start DSH, choose an Ollama model, and configure Web search; settings are stored separately in `~/.ollama/launch/dsh/settings.yaml` and do not modify `~/.dsh/settings.yaml`. Currently marked as a developer preview.
 - [Sealos Skills](https://github.com/labring/sealos-skills): a DSH Profile Bundle maintained by the Sealos team, providing eight cloud-native Skills for application deployment, databases, object storage, and related workflows. Actual use changes external Sealos Cloud resources and requires an account and relevant credentials; login writes `~/.sealos/kubeconfig`, and some flows require a relaxed sandbox. `package.json` declares MIT, but the repository currently has no root `LICENSE` file.
 - [Nowledge Mem](https://mem.nowledge.co/integrations/deepseek-harness): adds Working Memory, prompt-time retrieval, MCP tools, and session capture to DSH; depends on the external Nowledge Mem product and `nmem` CLI and should be evaluated separately from open-source plugins.
 - [Open Design](https://github.com/nexu-io/open-design): local-first open-source design application with a native DSH runtime adapter for structured streaming, model discovery, cancellation, and session resume; Apache-2.0 and a large standalone product rather than an ordinary plugin.
@@ -273,6 +248,7 @@ The following projects provide standalone user interfaces, distribution formats,
 - [dsh-payload-capture](https://github.com/Moeblack/dsh-payload-capture): captures and stores outbound model API Payloads for request-assembly debugging.
 - [dsh-custom-tool](https://github.com/omdsh-dev/dsh-custom-tool): creates and manages sandboxed JavaScript tools through a Monaco editor.
 - [dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode): opens the current workspace directly in VS Code from the Web UI.
+- [dsh-movein](https://github.com/sjh9714/dsh-movein): moves Claude Code Skills, MCP servers, hooks, and global instructions into DSH with one command; dry-run by default, `CLAUDE.md` is read natively, and session history is out of scope. MIT, verified on DSH `0.1.0-rc.6`, still new and marked Early.
 
 ## Acknowledgements
 

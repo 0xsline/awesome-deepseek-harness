@@ -1,6 +1,6 @@
 <div>
   <p align="center">
-    <img width="100%" alt="Awesome DeepSeek Harness — a luminous whale connecting the DSH ecosystem" src="assets/media/awesome-deepseek-harness-banner.png">
+    <img width="100%" alt="Agent = Model + Harness — 一只连接 DSH 生态的发光鲸鱼" src="assets/media/awesome-deepseek-harness-banner.png">
   </p>
 </div>
 
@@ -19,9 +19,9 @@
   <a href="https://github.com/libukai/awesome-deepseek-harness/issues"><img src="https://img.shields.io/badge/Issues-welcome-brightgreen.svg?style=flat-square" alt="Issues welcome"></a>
 </p>
 
-本项目致力于遵循少而精的原则，收集并精选有关 DeepSeek Harness 的优质资源，与更多 AI 从业者一同构建更繁荣的 Agent 生态。
+本项目秉持少而精的原则，精选并收录 DeepSeek Harness 相关优质资源，与更多 AI 从业者共同构建更繁荣的 Agent 生态。
 
-> 如果这个项目对你有帮助，还请不吝点一个 ⭐；也欢迎关注 𝕏 [@李不凯正在研究](https://x.com/libukai)，获取 Agent 相关的更多实践内容。
+> 如果这个项目对你有帮助，欢迎点一个 ⭐；也欢迎关注 𝕏 [@李不凯正在研究](https://x.com/libukai)，获取更多 Agent 实践内容。
 
 ## 目录
 
@@ -38,7 +38,6 @@
   - [讨论社区](#讨论社区)
 - [社区资源](#社区资源)
   - [分析教程](#分析教程)
-  - [早期参与者文章](#早期参与者文章)
   - [社区讨论](#社区讨论)
 - [第三方客户端](#第三方客户端)
   - [桌面与发行版](#桌面与发行版)
@@ -79,7 +78,7 @@ pnpm dsh web
 
 ### 使用 Python SDK
 
-官方 Python SDK 支持通过内置运行时程序化调用 Harness，无需系统提供 Node.js。当前要求 Python 3.10+，支持情况和平台限制以[官方 Python SDK 指南](https://deepseek-harness.github.io/deepseek-harness/guide/python-sdk)为准。
+官方 Python SDK 支持通过内置运行时以编程方式调用 Harness，无需在系统中安装 Node.js。当前要求 Python 3.10+，支持情况和平台限制以[官方 Python SDK 指南](https://deepseek-harness.github.io/deepseek-harness/guide/python-sdk)为准。
 
 ```bash
 python -m venv .venv
@@ -96,7 +95,7 @@ dsh plugin --profile web add <package-or-git-spec>
 dsh --profile web --dump-config
 ```
 
-从 Git 仓库安装时，建议固定 commit，并先检查安装脚本。pnpm 可能要求显式授权依赖的构建脚本；这段代码会在 Agent 沙箱之外执行。完整机制见[官方插件打包与安装教程](https://deepseek-harness.github.io/deepseek-harness/develop/basic/publish)。
+从 Git 仓库安装时，建议固定 commit，并先检查安装脚本。pnpm 可能要求显式授权依赖的构建脚本；这些构建脚本会在 Agent 沙箱之外执行。完整机制见[官方插件打包与安装教程](https://deepseek-harness.github.io/deepseek-harness/develop/basic/publish)。
 
 ## 官方资源
 
@@ -106,7 +105,6 @@ dsh --profile web --dump-config
 
 - [@deepseek-ai/dsh](https://www.npmjs.com/package/@deepseek-ai/dsh)：官方 CLI 与 Web UI 的 npm 启动包
 - [deepseek-harness-sdk](https://pypi.org/project/deepseek-harness-sdk/)：用于程序化集成 DSH 的官方 Python SDK
-- [Ollama](https://github.com/ollama/ollama/blob/e5a81899d014a847a08d47393351908b53d74008/docs/integrations/deepseek-harness.mdx)：通过 `ollama launch dsh` 安装并启动 DSH、选择 Ollama 模型和配置 Web 搜索；会将独立设置写入 `~/.ollama/launch/dsh/settings.yaml`，当前标注为开发者预览
 
 ### 源码仓库
 
@@ -121,60 +119,32 @@ dsh --profile web --dump-config
 ### 讨论社区
 
 - [GitHub Discussions](https://github.com/deepseek-ai/deepseek-harness/discussions)：问题反馈、使用交流和提案讨论
-- [# dsh-plugin](https://github.com/topics/dsh-plugin)：GitHub 上的 DSH 插件项目集合
 - [Discord DeepSeek](https://discord.gg/Ycq5dCaS4)：官方 Discord 社区，以中文讨论为主
 - ["DeepSeek Harness"](https://x.com/search?q=%22DeepSeek%20Harness%22%20OR%20dsh-plugin&src=typed_query&f=live)：X 上有关 DSH 的实时搜索结果
-
-特别欢迎加入 DeepSeek Harness 中文社区：扫码添加企微小助手并填写入群问卷，完成后小助手会邀请你入群。
-
-<table>
-  <thead>
-    <tr>
-      <th align="center">企微小助手</th>
-      <th align="center">入群问卷</th>
-      <th align="center">微信公众号</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center"><img src="https://raw.githubusercontent.com/deepseek-ai/deepseek-harness/master/assets/community-wecom-assistant.png" alt="DeepSeek Harness 企微小助手二维码" width="180" height="180"></td>
-      <td align="center"><a href="https://trtgsjkv6r.feishu.cn/share/base/form/shrcnIt5twSVdLGD52KJBckGCgg"><img src="https://raw.githubusercontent.com/deepseek-ai/deepseek-harness/master/assets/community-wecom-survey.png" alt="DeepSeek Harness 入群问卷二维码" width="180" height="180"></a></td>
-      <td align="center"><img src="https://raw.githubusercontent.com/deepseek-ai/deepseek-harness/master/assets/community-wechat-official-account.png" alt="DeepSeek Harness 团队微信公众号二维码" width="180" height="180"></td>
-    </tr>
-  </tbody>
-</table>
+- [# dsh-plugin](https://github.com/topics/dsh-plugin)：GitHub 上的 DSH 插件项目集合
 
 ## 社区资源
 
 ### 分析教程
 
-| 教程                                                                            | 形式            | 内容                                                                           |
-| ------------------------------------------------------------------------------- | --------------- | ------------------------------------------------------------------------------ |
-| [解剖 DeepSeek Harness](https://xueai.app/slides/learn.html#dsh-1.html)         | 交互式源码专题  | 拆解会话、上下文、工具、沙箱、Code Mode 和 Subagent 等核心机制；部分内容需登录 |
-| [DeepSeek Harness 从零到一](https://yanhua1010.github.io/dsh-harness-tutorial/) | 中文教程与 Demo | 包含原理、源码拆解、8 个 Demo 和 `mini-harness` 教学项目；基于 `0.1.0-rc.6`    |
-| [Hello DSH](https://github.com/pingfanfan/hello-dsh/blob/main/README.zh.md)     | 插件入门与 Skill | 从终端安装讲到首个代码插件，附 22 个中文 Skill 示例、dry-run 与卸载流程；已在 `0.1.0-rc.6` 验证 |
-| [DeepSeek Harness：从开机到拆开](https://github.com/alchaincyf/deepseek-harness-orange-book) | 中文实测电子书 | 提供 PDF、EPUB 和 HTML，收录完整系统提示词、129 行默认启动清单与三份原始会话日志；写于发布后 24 小时内，内容可能随版本演进而变化 |
-
-### 早期参与者文章
-
-以下文章来自明确自述参与 DSH 内测的开发者或插件作者。链接使用由公众号文章 `__biz`、`mid` 和 `idx` 标识组成的永久地址；内容反映 **2026 年 8 月内测快照**，其中的实验数据与主观判断未经本项目独立复现。
-
-| 文章 | 公众号与一手背景 | 内容摘要 |
-| --- | --- | --- |
-| [从 Vibe Coding 到 Vibe Assembly：我把 DeepSeek Harness 的官方 Agent Loop 换成了自己的](https://mp.weixin.qq.com/s?__biz=Mzg3NzU2OTExNA%3D%3D&mid=2247483841&idx=1) | 自然膨胀；作者自述收到内测邀请，并开发了相关的 [TT-Wang/sliceagent](https://github.com/TT-Wang/sliceagent) | 记录替换官方 Agent Loop 的实践、76 轮自述对比实验，以及从 Vibe Coding 走向可组装 Agent 的 Vibe Assembly 思考。 |
-| [DeepSeek Harness 内测技术拆解：架构、生态、任务引擎与运维机制](https://mp.weixin.qq.com/s?__biz=MzU3OTI3NjQ1Mg%3D%3D&mid=2247483810&idx=1) | cookbook之杂七杂八；作者自述连续跟踪十余天内测快照，并开发了 [fakechris/dsh-track](https://github.com/fakechris/dsh-track) | 深入讨论 Cordis 事件、Session Log、Surface、上下文压缩、持久化，以及快照轮换、恢复和生产等价路径验收。 |
-| [DeepSeek Harness，可能是最能满足你想象力的 Agent Harness](https://mp.weixin.qq.com/s?__biz=Mzk0MTcyNzIyOA%3D%3D&mid=2247485085&idx=1) | GTOC；作者自述参与内测，并将 Humanize 移植为 [zevorn/dsh-humanize](https://github.com/zevorn/dsh-humanize) | 从插件作者视角讨论 Web UI 的生态价值、Plugin 与 Skill 的区别、Trajectory 时间轴和产品化扩展空间。 |
-| [参与 dsh 内测有感](https://mp.weixin.qq.com/s?__biz=MzYzMzY1NTAwNA%3D%3D&mid=2247483740&idx=1) | 减AI；作者明确自述入选内测，并公开了 [dsh-ads](https://github.com/Nagi-ovo/dsh-ads)、[dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) 和 [dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) | 以首批插件作者的视角记录可视化、界面玩法和早期社区协作方式，适合作为内测生态的简短一手侧写。 |
+| 教程                                                                                         | 形式            | 内容                                                                             |
+| -------------------------------------------------------------------------------------------- | --------------- | -------------------------------------------------------------------------------- |
+| [DeepSeek Harness 从零到一](https://yanhua1010.github.io/dsh-harness-tutorial/)              | 中文教程与 Demo | 包含原理、源码拆解、8 个 Demo 和 `mini-harness` 教学项目                         |
+| [DeepSeek Harness：从开机到拆开](https://github.com/alchaincyf/deepseek-harness-orange-book) | 中文实测电子书  | 提供 PDF、EPUB 和 HTML，收录完整系统提示词、129 行默认启动清单与三份原始会话日志 |
+| [解剖 DeepSeek Harness](https://xueai.app/slides/learn.html#dsh-1.html)                      | 交互式源码专题  | 拆解会话、上下文、工具、沙箱、Code Mode 和 Subagent 等核心机制                   |
+| [Cordis 在做什么：从 DeepSeek Harness 看](https://blog.antinomie.org)                        | 中文架构短文    | 从插件作者视角解释 Cordis 心智模型，讨论复杂度如何转移到系统内部                 |
+| [DeepSeek Harness 白皮书](https://github.com/Electricitysheep/dsh-handbook)                  | 中英双语手册    | 14 章覆盖安装、插件开发、安全与成本，提供在线阅读、PDF 和可运行示例；内容采用 CC BY-NC-SA 4.0，基于 `0.1.0-rc.6` |
 
 ### 社区讨论
 
 收录包含完整论述、实践细节或一手背景的公开社交媒体长帖，补充官方资料未覆盖的背景与实践细节。
 
-| 长帖                                                                                                                                                                    | 作者与背景                                                                              | 内容摘要                                                                                                                                                  |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [从早期参与者视角理解 DSH](https://x.com/jiayuan_jy/status/2087911060154314963)                                                                                         | [Jiayuan (JY) Zhang](https://x.com/jiayuan_jy) · 2026-08-13；作者自述提前一个月进入仓库 | 将 DSH 同时理解为可运行的 Coding Agent 和 Agent 开发框架；用“乐高汽车”解释一切皆插件，并讨论 Runtime 自扩展、自进化软件雏形、当前成熟度和函数式编程特征。 |
-| [从 Agent Runtime / Agent OS 视角理解 DSH](https://x.com/anion_ex/status/2087910193783025853)                                                                           | [Anionex](https://x.com/anion_ex) · 2026-08-13；内测参与者与插件作者                    | 从模型、工具、策略、存储、上下文、界面和 Loop 的可组合性解释 DSH，并讨论 Agent 对运行时的有限观察与自扩展。                                               |
-| [玩了一夜 DeepSeek Harness，我发现它在用《我的世界》的方式干掉 Claude Code](https://www.pingwest.com/a/316436)                                                        | 品玩 · 2026-08-14；发布首夜的媒体观察                                                  | 用《我的世界》的原版、Mod、CurseForge 与整合包类比 DSH 本体、插件、目录和发行版，并记录首夜的兼容性与安全争议；项目数量和状态仅代表当时快照。               |
+| 长帖                                                                                                           | 作者与背景                                                                | 内容摘要                                                                                                                                                  |
+| -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [从早期参与者视角理解 DSH](https://x.com/jiayuan_jy/status/2087911060154314963)                                | [Jiayuan (JY) Zhang](https://x.com/jiayuan_jy)；作者自述提前一个月获得仓库访问权限 | 将 DSH 同时理解为可运行的 Coding Agent 和 Agent 开发框架；用“乐高汽车”解释一切皆插件，并讨论 Runtime 自扩展、自进化软件雏形、当前成熟度和函数式编程特征。 |
+| [从 Agent Runtime / Agent OS 视角理解 DSH](https://x.com/anion_ex/status/2087910193783025853)                  | [Anionex](https://x.com/anion_ex)；内测参与者与插件作者                           | 从模型、工具、策略、存储、上下文、界面和 Loop 的可组合性解释 DSH，并讨论 Agent 对运行时的有限观察与自扩展。                                               |
+| [玩了一夜 DeepSeek Harness，我发现它在用《我的世界》的方式干掉 Claude Code](https://www.pingwest.com/a/316436) | 品玩；发布首夜的媒体观察                                                        | 用《我的世界》的原版、Mod、CurseForge 与整合包类比 DSH 本体、插件、目录和发行版，并记录首夜的兼容性与安全争议。                                           |
+| [从源码对照 DSH 与 Codex：声明式插件 vs 可替换 Agent Loop](https://x.com/grapeot/status/2088019011561005382)   | [鸭哥](https://x.com/grapeot)；读完源码后与 Codex 逐行对照。展开文见 [yage.ai](https://yage.ai/share/dsh-deep-analysis-20260813.html) | 将 Codex 的声明式插件与 DSH 的命令式进程内插件对照，认为日常写代码并不需要 Cordis 的复杂度；唯一结构性优势是 Agent Loop 本身可热替换，从而为自进化 Harness 提供物理插槽。 |
 
 ## 第三方客户端
 
@@ -184,12 +154,15 @@ dsh --profile web --dump-config
 
 ### 桌面与发行版
 
-| 项目                                                                    | 平台 / 形态                    | 说明                                                                                                                   |
-| ----------------------------------------------------------------------- | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
-| [TinyWhale](https://github.com/aimierbear/TinyWhale)                    | macOS · Electron · 发行版 Fork | 直接 Fork `deepseek-ai/deepseek-harness` 并增加独立桌面壳；连接已有 Web UI，或启动完整的 `dsh web` Runtime，不属于插件 |
-| [Oh-DSH](https://github.com/hust-open-atom-club/oh-dsh)                 | macOS / Linux / Windows · 社区发行版 | 将 DSH、Node.js 与本地能力打包为 Desktop、Web 和 TUI 三种形态，提供分层安装包与统一的 `ohdsh` 启动器                   |
-| [DSH Desktop](https://github.com/dataelement/dsh-desktop)               | macOS / Windows · Electron     | 管理本地 Harness、工作区、随机端口、Profile、插件和会话的跨平台桌面端                                                  |
-| [dsh-launcher](https://github.com/Ruler4396/dsh-launcher)               | Windows · WebView2             | 提供静默启动、独立窗口、便携包和 MSI 的轻量启动器                                                                      |
+| 项目                                                      | 平台 / 形态                          | 说明                                                                                                                   |
+| --------------------------------------------------------- | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
+| [DeepSeek Harness Desktop (anywhere-labs)](https://github.com/anywhere-labs/deepseek-harness-desktop) | macOS (Apple Silicon) / Windows · Electron · 早期 | 基于官方 Runtime 与 Web UI 打包本地服务、系统托盘和桌面窗口；当前仅有 `v0.1.0`，插件市场、移动遥控和 Channels 仍在规划中 |
+| [DeepSeek Harness Desktop (steven-kid)](https://github.com/steven-kid/deepseek-harness-desktop) | macOS / Windows / Linux · Electron · 早期 | 保持原版 Web UI 的最小桌面壳，使用随机回环端口、Electron 沙箱和 `contextIsolation`，发行包通过跨平台启动冒烟测试；macOS 尚未公证，Windows 尚未商业签名 |
+| [DeepSeek Harness Desktop App](https://github.com/vibeinging/deepseek-harness-desktop-app) | macOS / Windows · Electron · 早期工作台 | 在同一 DSH 运行链上增加项目、Git Worktree、浏览器、Canvas、Site 和 Office 产物；当前为 `v0.0.1`，安装包仍处于实机验收早期 |
+| [TinyWhale](https://github.com/aimierbear/TinyWhale)      | macOS · Electron · 发行版 Fork       | 直接 Fork `deepseek-ai/deepseek-harness` 并增加独立桌面壳；连接已有 Web UI，或启动完整的 `dsh web` Runtime，不属于插件 |
+| [Oh-DSH](https://github.com/hust-open-atom-club/oh-dsh)   | macOS / Linux / Windows · 社区发行版 | 将 DSH、Node.js 与本地能力打包为 Desktop、Web 和 TUI 三种形态，提供分层安装包与统一的 `ohdsh` 启动器                   |
+| [DSH Desktop](https://github.com/dataelement/dsh-desktop) | macOS / Windows · Electron           | 管理本地 Harness、工作区、随机端口、Profile、插件和会话的跨平台桌面端                                                  |
+| [dsh-launcher](https://github.com/Ruler4396/dsh-launcher) | Windows · WebView2                   | 提供静默启动、独立窗口、便携包和 MSI 的轻量启动器                                                                      |
 
 ### 终端、移动与 Web 体验
 
@@ -222,6 +195,7 @@ dsh --profile web --dump-config
 
 - [dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor)：审计 AGENTS.md、Skill 目录和工具 Schema 的上下文 Token 成本与冲突。
 - [dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve)：跨会话记忆、后台演进和分支感知能力。
+- [dsh-noema](https://github.com/ZSeven-W/dsh-noema)：为 DSH 接入本地优先的 Noema 长期记忆，支持工作前召回、设置页管理和从 Codex、Claude Code、Cursor 等导入已有记忆；MIT、`0.1.0-rc.1`，已在 DSH `0.1.0-rc.6` 验证，项目仍新，标注为早期。
 - [dsh-at-file](https://github.com/omdsh-dev/dsh-at-file)：在输入框中通过 `@file` 搜索工作区文件并附加内容。
 - [dsh-message-edit](https://github.com/Moeblack/dsh-message-edit)：分支式消息编辑、重试、重新生成和版本时间线。
 - [dsh-prompt-studio](https://github.com/Moeblack/dsh-prompt-studio)：编辑系统提示词片段并提供实时预览。
@@ -255,6 +229,7 @@ dsh --profile web --dump-config
 
 ## 外部集成
 
+- [Ollama](https://github.com/ollama/ollama/blob/main/docs/integrations/deepseek-harness.mdx)：Ollama 官方提供的启动方式，不是 DeepSeek 官方发行包。通过 `ollama launch dsh` 安装并启动 DSH、选择 Ollama 模型和配置 Web 搜索；独立设置写入 `~/.ollama/launch/dsh/settings.yaml`，不会改动 `~/.dsh/settings.yaml`。当前标注为开发者预览。
 - [Sealos Skills](https://github.com/labring/sealos-skills)：由 Sealos 团队维护的 DSH Profile Bundle，提供应用部署、数据库、对象存储等八个云原生 Skills；实际使用会操作外部 Sealos Cloud 资源，需要账号与相关凭据，登录会写入 `~/.sealos/kubeconfig`，部分流程需放宽沙箱权限。`package.json` 声明 MIT，但仓库根目录当前缺少 `LICENSE` 文件。
 - [Nowledge Mem](https://mem.nowledge.co/integrations/deepseek-harness)：为 DSH 提供 Working Memory、提示时检索、MCP 工具和会话捕获；依赖外部 Nowledge Mem 产品与 `nmem` CLI，适合与开源插件分开评估。
 - [Open Design](https://github.com/nexu-io/open-design)：本地优先的开源设计应用，通过原生 DSH Runtime 适配提供结构化流式输出、模型发现、取消和会话恢复；Apache-2.0，属于大型独立产品而非普通插件。
@@ -273,6 +248,7 @@ dsh --profile web --dump-config
 - [dsh-payload-capture](https://github.com/Moeblack/dsh-payload-capture)：捕获并落盘上行模型 API Payload，便于调试请求组装。
 - [dsh-custom-tool](https://github.com/omdsh-dev/dsh-custom-tool)：通过 Monaco 编辑器创建和管理沙箱化 JavaScript 工具。
 - [dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode)：从 Web UI 直接在 VS Code 中打开当前工作区。
+- [dsh-movein](https://github.com/sjh9714/dsh-movein)：一条命令把 Claude Code 的 Skills、MCP、hooks 和全局指令迁入 DSH；默认预演，`CLAUDE.md` 由 DSH 原生读取，会话历史不在范围内。MIT，已在 DSH `0.1.0-rc.6` 验证，项目仍新，标注为早期。
 
 ## 致谢
 
