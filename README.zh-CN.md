@@ -216,6 +216,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [dsh4vscode](https://github.com/DoggyHU/dsh4vscode) - 基于 DSH agent 的 VS Code 聊天窗口：OpenCode 式独立会话、模型自动路由（Flash/Pro/Pro Max）。
 - [dsh-plugin-open-editor](https://github.com/Civitasv/dsh-plugin-open-editor) - 从会话页头一键用本地编辑器（VS Code / Cursor / JetBrains / Vim 等）打开当前项目。
+- [DSH-for-VSC](https://github.com/yauntyour/DSH-for-VSC) - 把 DSH 的 WebUI 搬进 VS Code：编辑器内嵌面板 + 侧边栏控制台（服务状态/一键启停），离线自动拉起、日志随时可查、状态栏常驻指示。
 
 ## Browser & Remote
 
@@ -238,6 +239,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-plugin-vision](https://github.com/tdf1995/dsh-plugin-vision) - 为纯文本大模型提供视觉能力：通过免费的 Gemini / GLM 视觉 API 完成图像描述、OCR 与视觉问答
 - [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) - 内置免 Key 视觉链 + 像素级视觉工具（看图问答、定位、裁剪、像素对比、取色、OCR、矢量化、抠图、截图）；粘贴图片即可用，无 Python，一条命令安装
 - [dsh-vision-proxy](https://github.com/Flyvhidbwo/dsh-vision-proxy) - DeepSeek 大脑 + 自动识图：GUI 附加的每张图片自动经 OpenAI 兼容 VLM 转译成文字，再交给纯文本的 DeepSeek 作答——有 key 自动走快速通道（默认 qwen3.7-flash，支持百炼/智谱/OpenRouter 等任意 OpenAI 兼容端点），无 key 自动探测本地 Ollama（零配置，图片不出本机）。
+- [DSH-Multimodal](https://github.com/yauntyour/DSH-Multimodal) - 按输入文件类型配置多模态处理模型链：图片/视频/音频等文件先经预设模型转为 Prompt Tokens 再交给纯文本会话模型，支持多模型回退链与「Multimodal」设置页。
 - [dsh-advisor](https://github.com/dsh-external/dsh-advisor) - 副模型每轮被动审查并注入建议
 - [dsh-clawrouter](https://github.com/BlockRunAI/dsh-clawrouter) - 阻断式安全闸门：更强的模型对危险工具调用给出放行/拒绝/询问，由工具执行器强制执行，而非提示词劝阻。可选 BlockRun x402 路由，一个钱包按次调用 67 个模型。
 - [dsh-llm-fallbacks](https://github.com/dsh-external/dsh-llm-fallbacks) - 角色化 LLM 重试/备用策略
@@ -254,6 +256,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-subagent-cwd](https://github.com/lynx-gt/dsh-subagent-cwd) - dsh-subagent-tools 加按次 cwd（子代理工作目录），附所需的两处进程内 provider 补丁。
 - [dsh-plugin-subagent-director](https://github.com/SeverusZh/dsh-plugin-subagent-director) - 子代理 LLM 供应商/模型选择与角色模板（subagent_role 工具）。
 - [dsh-subscription-auth](https://github.com/Khellendros97/dsh-subscription-auth) - 订阅会员 OAuth 登录：ChatGPT/Claude/Grok/Kimi 按订阅账号（非 API key）访问模型，登录后自动发现官方模型列表
+- [dsh-llm-oauth](https://github.com/ziyou979/dsh-llm-oauth) - 订阅套餐 OAuth 登录插件：Grok / GitHub Copilot / OpenAI Codex / Anthropic / OpenRouter，持久凭据 + 请求路径自动刷新 token，不改仓库（Grok/Copilot 可用，Codex 慎用）。
 - [dsh-llm-fallback](https://github.com/Visol-456/dsh-llm-fallback) - Provider 回退链：请求本身永远是链头（你选的模型永不被改写），失败按备用目标顺序自动切换重试；带 Web UI 配置面板
 - [dsh-sampling-sliders](https://github.com/Semidia/dsh-sampling-sliders) - 输入栏采样面板：temperature / maxTokens 滑杆，热调 + 持久化两种模式，经 agent/request 钩子作用于所有 Provider。
 - [dsh-service-control](https://github.com/Semidia/dsh-service-control) - 侧边栏底部重启 / 关闭按钮：经 ctx.appExit 优雅关闭，由脱离宿主管理的独立进程自动重启 dsh web。
@@ -299,6 +302,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-lark-meeting-notifier](https://github.com/yeruizhi/dsh-lark-meeting-notifier) - 飞书会议提醒：右侧悬浮框显示今日/明日飞书会议，多闹钟闪烁提醒。
 - [telegram](https://github.com/dsh-external/telegram) - Telegram 频道
 - [dsh-telegram-channel](https://github.com/hi-wenw/dsh-telegram-channel) - Telegram 手机遥控器：附着本机正在运行的 DSH Web 会话（`/sessions` 选择、绑定/解绑），与电脑同轨迹（Codex 风格）。
+- [harness-remote](https://github.com/Hyna-hla/harness-remote) - 第三方手机遥控端：局域网或 cpolar 连接电脑上的 DSH（扫码自动连接），流式聊天、审批横幅与后台高优先级推送、会话内切换模型与权限。
 - [tg-bot](https://github.com/dsh-external/tg-bot) - Telegram bot
 - [qqbot](https://github.com/dsh-external/qqbot) - QQ bot
 - [dsh-wecom-bot](https://github.com/dsh-external/dsh-wecom-bot) - 企业微信 bot

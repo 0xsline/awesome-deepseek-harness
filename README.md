@@ -221,6 +221,7 @@ Management panel: Settings → Plugins.
 
 - [dsh4vscode](https://github.com/DoggyHU/dsh4vscode) - VS Code chat windows backed by the DSH agent: OpenCode-style independent sessions, model auto-routing (Flash/Pro/Pro Max).
 - [dsh-plugin-open-editor](https://github.com/Civitasv/dsh-plugin-open-editor) - Open the current workspace in your local editor (VS Code, Cursor, JetBrains, Vim, ...) from the session header.
+- [DSH-for-VSC](https://github.com/yauntyour/DSH-for-VSC) - VS Code extension embedding the DSH WebUI as an editor panel: sidebar console with service status and start/stop, hidden auto-restart, status-bar indicator and run logs.
 
 ## Browser & Remote
 
@@ -243,6 +244,7 @@ Management panel: Settings → Plugins.
 - [dsh-plugin-vision](https://github.com/tdf1995/dsh-plugin-vision) - Vision for text-only LLMs: image description / OCR / VQA via free Gemini and GLM vision APIs.
 - [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) - Free vision for text-only agents: built-in keyless vision chain plus pixel tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots); paste an image and it just works — no Python, one-command install.
 - [dsh-vision-proxy](https://github.com/Flyvhidbwo/dsh-vision-proxy) - DeepSeek brain + automatic image transcription: attach images in the GUI and each one is transcribed to text via any OpenAI-compatible VLM before reaching the text-only DeepSeek — a keyed fast path (default qwen3.7-flash; DashScope/Zhipu/OpenRouter or any OpenAI-compatible endpoint) with your own key, or local Ollama auto-detected with zero config.
+- [DSH-Multimodal](https://github.com/yauntyour/DSH-Multimodal) - Per-file-type multimodal chains: preset processing models per wildcard convert image/video/audio files into prompt tokens before they reach the text-only session model, with per-preset fallback chains and a Multimodal settings page.
 - [dsh-advisor](https://github.com/dsh-external/dsh-advisor) - Second model passively reviews each turn and injects notes.
 - [dsh-clawrouter](https://github.com/BlockRunAI/dsh-clawrouter) - Blocking safety gate: a stronger model rules allow/deny/ask on risky tool calls, enforced by the tool executor rather than by prompt. Optional BlockRun x402 route for 67 models, paid per request from a wallet.
 - [dsh-llm-fallbacks](https://github.com/dsh-external/dsh-llm-fallbacks) - Role-based LLM retry/fallback strategy.
@@ -259,6 +261,7 @@ Management panel: Settings → Plugins.
 - [dsh-subagent-cwd](https://github.com/lynx-gt/dsh-subagent-cwd) - Extends dsh-subagent-tools with a per-call cwd for subagents and the two in-process provider patches it requires.
 - [dsh-plugin-subagent-director](https://github.com/SeverusZh/dsh-plugin-subagent-director) - Per-subagent LLM provider/model selection with role templates (subagent_role tool).
 - [dsh-subscription-auth](https://github.com/Khellendros97/dsh-subscription-auth) - Subscription OAuth login: use ChatGPT/Claude/Grok/Kimi subscription accounts (not API keys) with automatic model discovery.
+- [dsh-llm-oauth](https://github.com/ziyou979/dsh-llm-oauth) - OAuth / subscription-plan LLM login (Grok, GitHub Copilot, OpenAI Codex, Anthropic, OpenRouter): durable credential store with on-request token refresh, no repo patches (Grok/Copilot verified; use Codex with caution).
 - [dsh-llm-fallback](https://github.com/Visol-456/dsh-llm-fallback) - Provider fallback chain: the request head is never rewritten (your picked model stays); on switchable failure it retries through the configured backup targets in order, with a Web UI settings panel.
 - [dsh-sampling-sliders](https://github.com/Semidia/dsh-sampling-sliders) - Composer sampling panel: temperature / maxTokens sliders with hot-apply and persist-to-file modes, applied to every provider via the agent/request hook.
 - [dsh-service-control](https://github.com/Semidia/dsh-service-control) - Restart & shutdown buttons in the sidebar footer: graceful appExit shutdown, auto-restart of `dsh web` via a detached helper process.
@@ -304,6 +307,7 @@ Management panel: Settings → Plugins.
 - [dsh-lark-meeting-notifier](https://github.com/yeruizhi/dsh-lark-meeting-notifier) - Feishu meeting reminder: a right-side floating panel listing today's/tomorrow's Feishu meetings with multi-alarm flashing reminders.
 - [telegram](https://github.com/dsh-external/telegram) - Channel integration for Telegram.
 - [dsh-telegram-channel](https://github.com/hi-wenw/dsh-telegram-channel) - Telegram mobile remote for live DSH Web sessions: `/sessions` picker, bind/unbind, same trajectory as desktop (Codex-style).
+- [harness-remote](https://github.com/Hyna-hla/harness-remote) - Third-party mobile remote client for DSH: connect to the PC service over LAN or cpolar (QR auto-connect), stream chat with approval banners, background push notifications, model/permission switching.
 - [tg-bot](https://github.com/dsh-external/tg-bot) - Telegram bot.
 - [qqbot](https://github.com/dsh-external/qqbot) - QQ bot.
 - [dsh-wecom-bot](https://github.com/dsh-external/dsh-wecom-bot) - WeCom bot.

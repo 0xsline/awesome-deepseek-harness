@@ -53,6 +53,8 @@ TOPIC_MANUAL = {
     "0sour/dsh-plugins": "开发与工程",
     "0xsline/awesome-deepseek-harness": "开发与工程",
     "0xsline/dsh-spotlight": "界面与体验",
+    "yauntyour/dsh-for-vsc": "开发与工程",
+    "ziyou979/dsh-llm-oauth": "模型与推理",
     "121103qwq/dsh-vision-sidecar": "视觉与图像",
     "147228/dsh-black-whale": "界面与体验",
     "147228/dsh-xiaoyao-skins": "界面与体验",
