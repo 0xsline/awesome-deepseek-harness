@@ -124,6 +124,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-web-novel-research](https://github.com/canghai666x/dsh-web-novel-research) - 中文网文剧情检索 Skill：免费转载站工作流（GBK 解码、跨卷同名章节消歧、多源断更验证），不依赖起点等付费站。
 - [dsh-web-search-exa](https://github.com/TonyDua/dsh-web-search-exa) - 零配置 Exa 网页搜索提供方：无 key 走匿名 MCP 兜底（mcp.exa.ai/mcp），配 key 自动切 REST，接入 ctx.web 接缝。
 - [dsh-web-search-pro](https://github.com/anweat/dsh-web-search-pro) - DSH 增强型、可持久化的网页搜索：多引擎路由（DeepSeek/Exa/DDG/Bing/Jina + GitHub/B站/YouTube/V2EX/小红书/Twitter/Reddit/RSS）、SQLite+LRU 缓存、userscript 风格抽取、Playwright 渲染。
+- [dsh-session-archive](https://github.com/lbh1nb/dsh-plugins/tree/main/packages/dsh-session-archive) - 设置页查看归档会话并两步确认永久删除死会话（运行中会话锁定）。
 
 
 ## Input & Editing
@@ -147,6 +148,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-wordbox](https://github.com/arcmosin/dsh-wordbox) - 输入框旁的常驻常用词/句面板，支持全局/当前项目双桶与一键插入。
 - [dsh-voice-webspeech](https://github.com/anweat/dsh-voice-webspeech) - DSH 浏览器 Web Speech API 语音输入：零服务端、零密钥、零模型下载（Edge=Azure 语音、Chrome=Google 语音）。
 - [dsh-plugin-anydoc](https://github.com/beancookie/dsh-plugin-anydoc) - 该插件封装了一个可复用的函数，通过 @firecrawl/anydoc 提取文件内容（支持文件路径或 Buffer 输入），并返回 GitHub‑Flavored Markdown（GFM）。同时提供可选的配置项（如输出目录、是否覆盖已有文件）。
+- [dsh-attachment-upload](https://github.com/lbh1nb/dsh-plugins/tree/main/packages/dsh-attachment-upload) - 输入框「📎 附件」按钮：上传文件到当前工作区 .dsh-attachments 并把路径插入草稿。
+- [dsh-steer-button](https://github.com/lbh1nb/dsh-plugins/tree/main/packages/dsh-steer-button) - 输入框常驻「插话」按钮：一键把草稿注入运行中的轮次（等同 Ctrl/Cmd+Enter）。
 
 ## UI & Experience
 

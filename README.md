@@ -127,6 +127,7 @@ Management panel: Settings → Plugins.
 - [dsh-web-novel-research](https://github.com/canghai666x/dsh-web-novel-research) - Chinese web-novel plot lookup skill: free mirror-site workflow (GBK decoding, cross-volume duplicate chapter disambiguation, multi-source completion check) without paid sources.
 - [dsh-web-search-exa](https://github.com/TonyDua/dsh-web-search-exa) - Zero-config Exa web search provider: keyless anonymous MCP fallback (mcp.exa.ai/mcp) plus keyed REST search, for the ctx.web seam.
 - [dsh-web-search-pro](https://github.com/anweat/dsh-web-search-pro) - Persistent enhanced web search for DSH: multi-engine routing (DeepSeek/Exa/DDG/Bing/Jina + GitHub/Bilibili/YouTube/V2EX/Xiaohongshu/Twitter/Reddit/RSS), SQLite+LRU cache, userscript-style extraction, Playwright rendering.
+- [dsh-session-archive](https://github.com/lbh1nb/dsh-plugins/tree/main/packages/dsh-session-archive) - Settings section to view archived sessions and permanently delete dead conversations (two-step confirm, running sessions locked).
 
 
 ## Input & Editing
@@ -150,6 +151,8 @@ Management panel: Settings → Plugins.
 - [dsh-wordbox](https://github.com/arcmosin/dsh-wordbox) - Persistent common-word/phrase panel beside the composer input with global/current-project buckets and one-click insert.
 - [dsh-voice-webspeech](https://github.com/anweat/dsh-voice-webspeech) - Browser Web Speech API voice input for DSH: zero server, zero keys, zero model downloads (Edge=Azure, Chrome=Google speech).
 - [dsh-plugin-anydoc](https://github.com/beancookie/dsh-plugin-anydoc) - This plugin exports a reusable function that takes a file path or a Buffer, extracts the content via @firecrawl/anydoc, and returns GitHub‑Flavored Markdown (GFM). It also includes configuration options and an example usage.
+- [dsh-attachment-upload](https://github.com/lbh1nb/dsh-plugins/tree/main/packages/dsh-attachment-upload) - Composer attach button: uploads files into the workspace's .dsh-attachments directory and inserts the path into the draft.
+- [dsh-steer-button](https://github.com/lbh1nb/dsh-plugins/tree/main/packages/dsh-steer-button) - Always-visible steer button in the composer: one click injects the draft into the running turn (equals Ctrl/Cmd+Enter).
 
 
 
