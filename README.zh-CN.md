@@ -331,6 +331,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-lsp-actions](https://github.com/PerryLink/dsh-lsp-actions) - LSP 动作面：诊断、格式化、补全、代码动作、符号、签名提示、inlay 提示与重命名工具，由真实语言服务器驱动。
 - [dsh-git-status](https://github.com/Wongzexu/dsh-git-status) - 专精于 Git 分支与状态处理：Git 状态浮窗，commit DAG 泳道图、未提交改动与 stash、行内 diff，右键分支/tag 切换、合并、重命名、删除、新建，一键拉取远程
 - [dsh-orcana](https://github.com/Leo-Ayh-Oday/dsh-orcana) - 运行时治理组合包：零进展转向、证据时效完成门、能力披露，以及带资源限制、网络隔离、fail-closed 降级与有界审计日志的 Linux 沙箱加固。
+- [Starfie1d1272/dsh-github-skills](https://github.com/Starfie1d1272/dsh-github-skills) - 面向 DSH 的 GitHub 工作流 Skill Pack，覆盖 PR 分诊、review 反馈、GitHub Actions 诊断和安全的 draft PR 发布，并复用已有 GitHub/Git 能力。
 
 ## Output & Deliverables
 
