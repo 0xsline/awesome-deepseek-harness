@@ -316,6 +316,7 @@ Management panel: Settings → Plugins.
 - [dsh-permission-rules](https://github.com/PerryLink/dsh-permission-rules) - Declarative allow/deny/ask permission rules on the tools/pre-execute waterfall: tool/argument/path/agent matching, session-log audit, dry-run mode, hot reload.
 - [dsh-checkpoint-rewind](https://github.com/PerryLink/dsh-checkpoint-rewind) - Claude Code /rewind for DSH: git-first workspace snapshots before every mutating tool, turn-boundary session forks, and a one-shot /rewind command that restores files and forks the session back to a checkpoint.
 - [dsh-lsp-actions](https://github.com/PerryLink/dsh-lsp-actions) - LSP action surface: diagnostics, formatting, completion, code actions, symbols, signature help, inlay hints, and rename tools over real language servers.
+- [dsh-git-status](https://github.com/Wongzexu/dsh-git-status) - Specialized in Git branch and status handling: a Git status drawer with a commit DAG lane graph, uncommitted changes/stash rows, inline diffs, and right-click branch/tag operations
 
 ## Output & Deliverables
 
