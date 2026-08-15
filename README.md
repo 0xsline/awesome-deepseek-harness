@@ -393,6 +393,7 @@ Management panel: Settings → Plugins.
 - [dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) - Complete reverse-skill pack (85 SKILL.md) as a DeepSeek Harness Cordis plugin: reverse engineering, authorized pentesting and security-research skill router.
 - [dsh-grok-geo](https://github.com/xuboboo/dsh-grok-geo) - GEO brand audit skill bundle: AI-search visibility, recommendations, citations, competitor presence and content-gap diagnosis across 17+ AI engines (ChatGPT/Perplexity/Claude/豆包/DeepSeek/Kimi/文心一言).
 - [dsh-rigorquant](https://github.com/linxichen/dsh-rigorquant) - Agent preset + skill for unattended empirical/computational mathematics research (econ/finance/portfolio): walled multi-agent exploration, dual-track ground-truth derivation, adversarial counterexample-only audit, four-part pre-implementation check battery, and a jacobian/Lean escalation lane.
+- [dsh-wuyun-liuqi](https://github.com/dhicoc/dsh-wuyun-liuqi) - Complete wuyun-liuqi (five-evolutions-six-qi / 五运六气) Traditional Chinese Medicine skill pack as a DeepSeek Harness Cordis plugin: annual and guest-qi calculation, clinical pattern differentiation, and pathogenesis reasoning.
 
 ## Related
 
