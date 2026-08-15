@@ -44,6 +44,23 @@ URL_REWRITES = {
     "dsh-island": "https://github.com/ChuanTianML/dsh-island",
 }
 
+# ===== Curated additions: repos missing from the dsh-plugin topic search =====
+# (no topic, or beyond the search API's 1000-result cap). They flow into the 🌐
+# section so they stay discoverable in CATALOG.md and the site store.
+EXTRA_TOPIC_REPOS = [
+    {"full_name": "yauntyour/DSH-Multimodal", "name": "DSH-Multimodal",
+     "html_url": "https://github.com/yauntyour/DSH-Multimodal",
+     "description": "DSH 多模态输入插件：按文件类型（图片/视频/音频）配置独立处理模型链，文件先转成 Prompt Tokens 再交给纯文本会话模型"},
+    {"full_name": "Hyna-hla/harness-remote", "name": "harness-remote",
+     "html_url": "https://github.com/Hyna-hla/harness-remote",
+     "description": "第三方 DeepSeek Harness 手机遥控端：局域网/cpolar 连接、扫码自动连接、流式聊天、审批横幅与后台推送"},
+    {"full_name": "ThreeBody6666/dsh-im-hub", "name": "dsh-im-hub",
+     "html_url": "https://github.com/ThreeBody6666/dsh-im-hub",
+     "description": "多平台 IM 网关：飞书（Lark）长连接、企业微信加密回调、Telegram 长轮询；GUI 可视化设置"},
+]
+
+
+
 # ===== Manual topic categories (curated 2026-08-14; applied before keyword fallback) =====
 TOPIC_MANUAL = {
     "01Virex/dsh-status-rotator": "界面与体验",
@@ -55,6 +72,9 @@ TOPIC_MANUAL = {
     "0xsline/dsh-spotlight": "界面与体验",
     "yauntyour/dsh-for-vsc": "开发与工程",
     "ziyou979/dsh-llm-oauth": "模型与推理",
+    "yauntyour/dsh-multimodal": "视觉与图像",
+    "hyna-hla/harness-remote": "消息与通知",
+    "threebody6666/dsh-im-hub": "消息与通知",
     "121103qwq/dsh-vision-sidecar": "视觉与图像",
     "147228/dsh-black-whale": "界面与体验",
     "147228/dsh-xiaoyao-skins": "界面与体验",
@@ -1064,6 +1084,10 @@ def main():
     try:
         cat = fetch(url, token)
         topic_repos = fetch_topic_repos(token)
+        fetched_topics = len(topic_repos)
+        topic_urls = {(r.get("html_url") or "").rstrip("/").lower() for r in topic_repos}
+        manual = [dict(r) for r in EXTRA_TOPIC_REPOS if (r["html_url"].rstrip("/").lower()) not in topic_urls]
+        topic_repos = topic_repos + manual
     except Exception as e:
         print(f"fetch failed: {e}", file=sys.stderr)
         return 1
@@ -1084,7 +1108,7 @@ def main():
     out = ["# 完整目录（自动生成）", ""]
     now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
     out.append(f"> 汇集 [dsh-external/hub](https://github.com/dsh-external/hub) 的 `catalog.json` 与 GitHub 公开 [dsh-plugin Topic](https://github.com/topics/dsh-plugin) 的全量生态索引 · 生成于 {now}")
-    out.append(f"> 精选列表见 [README](README.md)；本页为公开生态全量索引（{listed} hub 仓库 + {len(topic_repos)} 公开 topic 仓库）")
+    out.append(f"> 精选列表见 [README](README.md)；本页为公开生态全量索引（{listed} hub 仓库 + {fetched_topics} 公开 topic 仓库{f' + {len(manual)} 手动补充' if manual else ''}）")
     out.append("")
 
     # 分类顺序
@@ -1148,7 +1172,7 @@ def main():
         out.append("")
         out.append(
             f"> 来自 GitHub 公开 [dsh-plugin Topic](https://github.com/topics/dsh-plugin)；"
-            f"共发现 {len(topic_repos)} 个仓库，上方 hub 目录未覆盖的公开仓库列于此处。"
+            f"共发现 {fetched_topics} 个仓库{f'，另有 {len(manual)} 个为维护者手动补充' if manual else ''}，上方 hub 目录未覆盖的公开仓库列于此处。"
         )
         out.append("")
 
