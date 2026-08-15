@@ -315,6 +315,7 @@ Management panel: Settings → Plugins.
 - [dsh-plugin-scheduled-tasks](https://github.com/Ceelog/dsh-plugins/tree/main/src/plugins/dsh-plugin-scheduled-tasks) - Run per-project prompts in fresh headless agent sessions on one-time, interval or cron schedules, with durable run history.
 - [dsh-permission-rules](https://github.com/PerryLink/dsh-permission-rules) - Declarative allow/deny/ask permission rules on the tools/pre-execute waterfall: tool/argument/path/agent matching, session-log audit, dry-run mode, hot reload.
 - [dsh-checkpoint-rewind](https://github.com/PerryLink/dsh-checkpoint-rewind) - Claude Code /rewind for DSH: git-first workspace snapshots before every mutating tool, turn-boundary session forks, and a one-shot /rewind command that restores files and forks the session back to a checkpoint.
+- [dsh-lsp-actions](https://github.com/PerryLink/dsh-lsp-actions) - LSP action surface: diagnostics, formatting, completion, code actions, symbols, signature help, inlay hints, and rename tools over real language servers.
 
 ## Output & Deliverables
 
