@@ -282,6 +282,7 @@ Management panel: Settings → Plugins.
 
 ## Fun & Lifestyle
 
+- [dsh-clippy](https://github.com/sjh9714/clippy-harness) - Clippy revived as an office assistant pet that reacts to real agent state, with a classic "illegal operation" dialog on failed turns.
 - [dsh-agent-rp](https://github.com/dsh-external/dsh-agent-rp) - SillyTavern migration and next-generation agent roleplay for DSH.
 - [dsh-emoji](https://github.com/dsh-external/dsh-emoji) - Emoji plugin (cordis).
 - [dsh-stock-market](https://github.com/dsh-external/dsh-stock-market) - Stock market data plugin.
