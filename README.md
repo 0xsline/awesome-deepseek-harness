@@ -300,6 +300,7 @@ Management panel: Settings → Plugins.
 - [dsh-plugin-diff-review](https://github.com/Civitasv/dsh-plugin-diff-review) - Codex-style diff review in a floating panel: per-round session changes plus a git workspace view with stage/revert/commit/push and a history timeline.
 - [dsh-yolo-mode](https://github.com/SeverusZh/dsh-yolo-mode) - LLM auto-approval for sandbox escalation requests: presets, per-tool levels, fail-closed.
 - [dsh-plugin-scheduled-tasks](https://github.com/Ceelog/dsh-plugins/tree/main/src/plugins/dsh-plugin-scheduled-tasks) - Run per-project prompts in fresh headless agent sessions on one-time, interval or cron schedules, with durable run history.
+- [dsh-git-status](https://github.com/Wongzexu/dsh-git-status) - Specialized in Git branch and status handling: a Git status drawer with a commit DAG lane graph, uncommitted changes/stash rows, inline diffs, and right-click branch/tag operations
 
 ## Output & Deliverables
 
