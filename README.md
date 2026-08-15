@@ -340,6 +340,7 @@ Management panel: Settings → Plugins.
 - [dsh-wecom-bot](https://github.com/dsh-external/dsh-wecom-bot) - WeCom bot.
 - [dsh-weixin-bot](https://github.com/dsh-external/dsh-weixin-bot) - WeChat bot.
 - [dsh-im-hub](https://github.com/ThreeBody6666/dsh-im-hub) - Multi-platform IM gateway: Feishu (Lark) WebSocket long connection (no public URL), WeCom AES-encrypted callbacks, Telegram long polling; per-chat agent sessions, whitelist access, visual settings card.
+- [dsh-im-bridge](https://github.com/MHfire/dsh-im-bridge) - WeCom (WeChat Work) channel bridge: WebSocket long connection (no public URL), in-process agents with per-sender persistent sessions visible in the Web GUI, customizable persona, streaming progress animation.
 - [dsh-voice-chat](https://github.com/dsh-external/dsh-voice-chat) - Voice chat.
 - [dsh-web-ui-notify](https://github.com/dsh-external/dsh-web-ui-notify) - WebUI notifications.
 - [dsh-notify-windows](https://github.com/SeverusZh/dsh-notify-windows) - Windows notifications, zero dependencies.
