@@ -277,6 +277,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-subscription-auth](https://github.com/Khellendros97/dsh-subscription-auth) - 订阅会员 OAuth 登录：ChatGPT/Claude/Grok/Kimi 按订阅账号（非 API key）访问模型，登录后自动发现官方模型列表
 - [dsh-llm-oauth](https://github.com/ziyou979/dsh-llm-oauth) - 订阅套餐 OAuth 登录插件：Grok / GitHub Copilot / OpenAI Codex / Anthropic / OpenRouter，持久凭据 + 请求路径自动刷新 token，不改仓库（Grok/Copilot 可用，Codex 慎用）。
 - [dsh-llm-fallback](https://github.com/Visol-456/dsh-llm-fallback) - Provider 回退链：请求本身永远是链头（你选的模型永不被改写），失败按备用目标顺序自动切换重试；带 Web UI 配置面板
+- [dsh-smart-route](https://github.com/Semidia/dsh-smart-route) - 智能路由：对话栏按钮一键启用/停用，任一渠道报错（含 4xx）自动切换下一家，模型列表干净（只暴露一个虚拟 provider）。
 - [dsh-sampling-sliders](https://github.com/Semidia/dsh-sampling-sliders) - 输入栏采样面板：temperature / maxTokens 滑杆，热调 + 持久化两种模式，经 agent/request 钩子作用于所有 Provider。
 - [dsh-service-control](https://github.com/Semidia/dsh-service-control) - 侧边栏底部重启 / 关闭按钮：经 ctx.appExit 优雅关闭，由脱离宿主管理的独立进程自动重启 dsh web。
 - [loongport-dsh](https://github.com/SailingLoong/loongport-dsh) - 多站点中转服务商接入：签名目录（身份、地址、模型）、Settings → LoongPort 服务商与 API Key 手动配置页、OpenAI 兼容路由（npm 包：loongport）。
