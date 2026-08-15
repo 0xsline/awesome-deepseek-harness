@@ -87,7 +87,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [dsh-collaboration](https://github.com/Socialist-Sister/dsh-collaboration) - 多智能体协同套件：用户可配置的专家名册 + 持久专家实例（可多分身）按需雇佣、星型拓扑追问/中转、团队状态面板、模型对比与多模态视觉桥。
 - [dsh-plans](https://github.com/Optim-Agent/dsh-plans) - 计划先行 Agent 预设：把仓库变更调研沉淀为 dsh-plans/ 下可追溯的 Markdown 计划，经 reviewer/criticizer 子代理多轮打磨，再作为 DSH goal 按验证清单执行。
-- [dsh-agent-team-gui](https://github.com/toolclub/agent_team_gui) - 可复用 Agent 小队：每个成员独立配置 provider/model 路由与工具策略，支持串行/并行派单、spawn/fork/chain 上下文模式和 Web 管理面板。
+- [dsh-agent-team-gui](https://github.com/toolclub/dsh-agent-team-gui) - 全局持久 Agent 小队：每个成员独立配置模型与工具策略；在 Settings 中管理、按对话选择并开关协作，普通发送按固定顺序或由模型规划执行。
 
 ## Context & Search
 
