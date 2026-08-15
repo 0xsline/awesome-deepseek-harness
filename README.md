@@ -319,6 +319,7 @@ Management panel: Settings → Plugins.
 - [dsh-checkpoint-rewind](https://github.com/PerryLink/dsh-checkpoint-rewind) - Claude Code /rewind for DSH: git-first workspace snapshots before every mutating tool, turn-boundary session forks, and a one-shot /rewind command that restores files and forks the session back to a checkpoint.
 - [dsh-lsp-actions](https://github.com/PerryLink/dsh-lsp-actions) - LSP action surface: diagnostics, formatting, completion, code actions, symbols, signature help, inlay hints, and rename tools over real language servers.
 - [dsh-git-status](https://github.com/Wongzexu/dsh-git-status) - Specialized in Git branch and status handling: a Git status drawer with a commit DAG lane graph, uncommitted changes/stash rows, inline diffs, and right-click branch/tag operations
+- [dsh-orcana](https://github.com/Leo-Ayh-Oday/dsh-orcana) - Runtime-governance bundles for zero-progress steering, evidence-fresh completion gates, capability disclosure, and Linux sandbox hardening with resource limits, network isolation, fail-closed degradation, and bounded audit logs.
 
 ## Output & Deliverables
 
