@@ -35,6 +35,7 @@
 
 - [Install](#install)
 - [Core](#core)
+- [Agents & Orchestration](#agents--orchestration)
 - [Context & Search](#context--search)
 - [Input & Editing](#input--editing)
 - [UI & Experience](#ui--experience)
@@ -80,6 +81,10 @@ Management panel: Settings → Plugins.
 - [dsh-client-ui-plan-execute](https://github.com/dsh-external/dsh-client-ui-plan-execute) - Web Settings row for plan/execute model routing.
 
 - [dsh_workflow](https://github.com/dsh-external/dsh_workflow) - Dynamic workflow for DSH (placeholder).
+
+## Agents & Orchestration
+
+- [dsh-collaboration](https://github.com/Socialist-Sister/dsh-collaboration) - Multi-agent collaboration suite: user-configured specialist roster, persistent on-demand dispatch (team_call/team_message/team_status/team_close), clone instances, star-topology relay, model comparison and a multimodal vision bridge.
 ## Context & Search
 
 - [billion-context-dsh](https://github.com/Tyan66666/billion-context-dsh) - Model-driven context compression (ACP) for DeepSeek Harness, ported from billion-context-pi; the model decides when and what to compress.
