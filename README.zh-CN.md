@@ -361,11 +361,12 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [plugin-manager](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-manager) - DSH Web UI 内置插件应用商店：目录浏览/搜索/一键安装/兼容徽章/已装列表。
 - [plugin-team-board](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-team-board) - 多 agent 共享任务板（创建/认领/流转/查询），状态物化为 Cordis 协作用键。
 
+- [dsh-tray](https://github.com/KAIbsb/dsh-tray) - Windows 托盘管理器:启动/重启/停止 DSH Web、崩溃自动拉起、状态图标与开机自启。
+
 ## Data & Market
 
 - [dsh-stock-market](https://github.com/dsh-external/dsh-stock-market) - 沪深 A 股行情数据插件。
 - [dsh-us-stocks](https://github.com/Realyujie/dsh-us-stocks) - 美股行情、历史 K 线、财务报表、分析师共识与新闻，基于 yahoo-finance2。
-
 ## Science & Research
 
 - [dsh-openmaic](https://github.com/dsh-external/dsh-openmaic) - 生成 OpenMAIC 交互式 AI 课堂。
