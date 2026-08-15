@@ -264,6 +264,7 @@ Management panel: Settings → Plugins.
 
 
 - [plugin-session-export](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-session-export) - Export the append-only session log as human-readable Markdown or HTML, grouped by trajectory source.
+- [dsh-xiaohongshu-viral-note](https://github.com/xuboboo/dsh-xiaohongshu-viral-note) - Bundled Xiaohongshu/RED viral-note agent skill: hot-note research, note generation/rewrite, verification, authorized account analysis, QR login and controlled publishing.
 
 ## Notifications & Channels
 
