@@ -431,6 +431,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-share](https://github.com/dsh-external/dsh-share) - DSH 对话分享插件。
 - [dsh-sonar](https://github.com/dsh-external/dsh-sonar) - sonar 插件（cordis）。
 - [dsh-workloads](https://github.com/yewenyell-lang/dsh-workloads) - 为 DeepSeek Harness 提供工作区级持久进程托管、就绪检测与运行中心。
+- [dsh-launch](https://github.com/Khellendros97/dsh-launch) - 在独立 broker 进程中监督长驻服务（dev server、watcher、mock API），服务在对话回合结束、会话关闭、DSH 重启后继续运行；自带 Service 侧边栏 tab（经 better-sidebar 扩展 API 注入）与 service_start/stop/restart/list/logs 模型工具。
 - [plugin-registry](https://github.com/dsh-external/plugin-registry) - 插件控制台 + make-dsh-plugin skill + 开发指引
 - [dsh-plugin-manager-registry](https://github.com/Jesse-njx/dsh-plugin-manager-registry) - 离线容错的插件注册表，聚合并去重 awesome 列表、GitHub Topic 与 npm 中的 DSH 插件。
 - [marisa](https://github.com/dsh-external/marisa) - 外部插件管理器（寄生安装/CLI/设置页面板）
