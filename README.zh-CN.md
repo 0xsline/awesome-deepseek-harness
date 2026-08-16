@@ -448,6 +448,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Runtime & Operations
 
+- [dsh-env-switcher](https://github.com/Oyama-Mahiro-F/dsh-env-switcher) - Windows/WSL2 双环境一键切换插件（共存模式）：两个 DSH 实例分别在 3080/3081 端口同时运行，Web UI 内一键切换，不杀任何进程。
 - [dsh-payload-capture](https://github.com/moeblack/dsh-payload-capture) - 捕捉每一次上行模型 API payload 存为 JSON（调试与观测）
 - [dsh-doctor](https://github.com/ciceroyang/dsh-doctor) - DeepSeek Harness 本地环境一键体检：node/pnpm/dsh 版本、端口 3080、DSH_HOME 可写性、profile 清单、会话日志、zstd。
 - [dsh-observation-journal](https://github.com/Cavan-Ou/dsh-observation-journal) - 把 DeepSeek Harness 的零侵入运行事实遥测：每个会话自动把任务/模型档位/工具/失败/时长/状态写入人机共读观测卡并附统计区（纯观察者——零工具、零 LLM、零注入）。
