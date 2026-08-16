@@ -354,7 +354,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 ## Security & Governance
 
 - [dsh-skill-pack-security](https://github.com/PerryLink/dsh-skill-pack-security) - 安全审计技能包：提供密钥扫描、依赖审计、供应链评审、提示注入审查、审计编排、威胁建模、漏洞情报与事件响应八个中英双语 agent 技能。
-- [dsh-encrypt](https://github.com/yauntyour/DSH-Encrypt) - DSH 凭证加密插件：使用密码保护的 Argon2id 存储、scrypt 密钥派生与 SHA3-256 完整性校验，仅在运行时临时解密。
+- [dsh-encrypt](https://github.com/yauntyour/DSH-Encrypt) - DSH 凭证加密插件：密码保护的 AES-256-GCM 存储、Argon2id 密钥派生（旧版 scrypt v2 密文自动升级）与 SHA3-256 完整性校验，仅在运行时临时解密。
 - [dsh-telemetry-redactor](https://github.com/030611/dsh-telemetry-redactor) - 在已配置遥测后端接收前，对 `session-telemetry/record` 导出副本中的已支持秘密模式进行脱敏。
 - [dsh-yolo-mode](https://github.com/SeverusZh/dsh-yolo-mode) - 沙箱升权申请的 LLM 自动审批：预设 + 逐工具权限层级，fail-closed 兜底。
 - [dsh-auto-review](https://github.com/PerryLink/dsh-auto-review) - 审批链上的第二模型 AI 自动审查：只读审查子代理返回带理由的 allow/deny 结构化裁决，默认 fail-closed。

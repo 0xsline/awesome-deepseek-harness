@@ -355,7 +355,7 @@ Management panel: Settings → Plugins.
 ## Security & Governance
 
 - [dsh-skill-pack-security](https://github.com/PerryLink/dsh-skill-pack-security) - Security-audit skill pack: eight agent skills (secret scan, dependency audit, supply-chain review, prompt-injection review, audit orchestration, threat modeling, vulnerability intelligence and incident response) in Chinese and English editions.
-- [dsh-encrypt](https://github.com/yauntyour/DSH-Encrypt) - Credential provider for DSH with password-protected Argon2id storage, scrypt key derivation, SHA3-256 integrity checks, and temporary runtime decryption.
+- [dsh-encrypt](https://github.com/yauntyour/DSH-Encrypt) - Credential provider for DSH with password-protected AES-256-GCM storage, Argon2id key derivation (legacy scrypt v2 auto-upgrade), SHA3-256 integrity checks, and temporary runtime decryption.
 - [dsh-telemetry-redactor](https://github.com/030611/dsh-telemetry-redactor) - Redacts supported secret patterns from the `session-telemetry/record` export copy before configured telemetry backends receive it.
 - [dsh-yolo-mode](https://github.com/SeverusZh/dsh-yolo-mode) - LLM auto-approval for sandbox escalation requests: presets, per-tool levels, fail-closed.
 - [dsh-auto-review](https://github.com/PerryLink/dsh-auto-review) - Second-model AI auto-review on the approval answerer chain: a read-only reviewer subagent returns structured allow/deny verdicts with reasons, fail-closed by default.
