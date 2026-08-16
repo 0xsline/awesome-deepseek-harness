@@ -207,6 +207,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-plugin-setting-mcp](https://github.com/Ceelog/dsh-plugins/tree/main/src/plugins/dsh-plugin-setting-mcp) - 在 Web 设置面板中添加、编辑、删除、启用或停用 MCP 服务器，保存后热重载。
 - [dsh-theme-plugin](https://github.com/BeiZi6/dsh-theme-plugin) - DSH Web GUI 主题工作室：5 套内置预设 + 完全可自定义的浅/深配色（强调色、背景、前景、UI 与代码字体、半透明侧栏、对比度），即时热切换并持久化到 localStorage。
 - [dsh-smooth-stream](https://github.com/SpookySandwich/dsh-smooth-stream) - 给 DeepSeek Harness 加入更好的流式文字动画。
+- [dsh-smooth-stream](https://github.com/Laplace-bit/dsh-smooth-stream) - 丝滑流式渲染：字跟着模型到达走、换行滑入、不闪，滚动归用户，尊重 prefers-reduced-motion。
 - [dsh-whale-switch](https://github.com/bowen507/dsh-whale-switch) - 最小开关闭环：桌面快捷方式启动 dsh web + 右上角鲸鱼动画退出按钮（悬停升起、点击俯冲入水后优雅退出并关页）。
 - [dsh-homepage-skin](https://github.com/yushi-xxh/dsh-homepage-skin) - 给 dsh web 铺上 DeepSeek Harness 首页同款背景：WebGL 流体光效、点线网格与数字鲸鱼，深浅双主题。
 - [dsh-plugin-help](https://github.com/Semidia/dsh-plugin-help) - 已安装插件操作说明汇总面板：右下角悬浮 📖 按钮，中文标题优先、默认全部展开 README、蓝色圆形序号徽标、每个插件一键更新（`dsh plugin update`，环回端点）。
