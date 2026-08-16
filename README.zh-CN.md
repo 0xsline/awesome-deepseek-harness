@@ -134,6 +134,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) - 持续自进化插件：从会话轨迹提炼提示词笔记、记忆、技能与子代理规范，并以版本化、可审计、可回滚的方式维护 Harness 状态。
 - [ccch713/deepddw](https://github.com/ccch713/deepddw) - deepDDW：为 DSH 补齐记忆 + 知识库 + 文档检索，局域网内任意设备（电脑/手机/平板）可访问——封装自企业级 AI 底座平台（团队就绪，支持 20 人以下小团队）。
 - [dsh-mnemon](https://github.com/dsh-external/dsh-mnemon) - 助记层
+- [memory-mcp-server](https://github.com/BingoAgentTouch/Personal_MCP) - 分层长期记忆 MCP 服务器：原始轮次 → 任务片段 → 每日总结 → 主题索引；本地 MiniLM 384 维嵌入或 OpenAI 兼容 API 后端，语义 + Jaccard 兜底检索，支持 dsh plugin add 一键安装。
 
 ## Input & Editing
 
