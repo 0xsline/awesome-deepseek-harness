@@ -372,6 +372,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-timeline-studio-plugin](https://github.com/MartinDelophy/dsh-timeline-studio-plugin) - 将 DSH 接入 Timeline Studio，可检查 `.timeline` 工程、预演语义编辑、事务式写入，并验证 MP4 渲染结果。
 - [plugin-session-export](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-session-export) - 把 append-only 会话日志导出为人可读的 Markdown/HTML，按轨迹来源（系统提示/思维链/工具调用/子 agent）分组。
 - [dsh-xiaohongshu-viral-note](https://github.com/xuboboo/dsh-xiaohongshu-viral-note) - 小红书爆款笔记 agent skill 插件：热门笔记研究、选题、种草文案生成/改写、合规校验、授权账号权重分析、扫码登录与受控发布。
+- [dsh-translate](https://github.com/PerryLink/dsh-translate) - DeepSeek Harness 厂商参数翻译与确定性 JSON 修复：/translate 命令映射 11 家厂商的 13 个规范参数，post-execute 修复层（含 fix_json 工具）修复工具输出中的坏 JSON 且绝不编造数据
 
 ## Notifications & Channels
 
