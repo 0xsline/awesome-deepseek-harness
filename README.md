@@ -472,6 +472,7 @@ Management panel: Settings → Plugins.
 - [dsh-github-integration](https://github.com/dsh-external/dsh-github-integration) - GitHub integration plugin.
 - [dsh-super-injector](https://github.com/dsh-external/dsh-super-injector) - Super-injector (cordis).
 - [dsh-mcp-manager](https://github.com/hyqhyq3/dsh-mcp-manager) - MCP server manager: Settings page with OAuth (PKCE + dynamic client registration) or static-token auth; tools registered as mcp__<name>__*.
+- [dsh-mcp-skill-panel](https://github.com/lilyblessing/dsh-mcp-skill-panel) - MCP & Skill manager: real-time enable/disable for MCP servers and skills to free context; optional AI middle layer (mcp_search/mcp_call) with state-based visibility filtering.
 - [dsh-recommend](https://github.com/zp-home/dsh-recommend) - Transparent plugin rankings and recommendations: daily auto-fetched dsh-plugin topic data, open scoring model, rank/search/recommend tools and a settings-page leaderboard.
 - [dsh-capability-index](https://github.com/777-Zen/dsh-capability-index) - Pre-flight plugin-library check for DSH agents: task-type requests trigger a Top-K hint of suitable plugins with use_when/not_for capability declarations, making plugin usage predictable instead of opportunistic.
 - [dsh-eval](https://github.com/hccccc01333/dsh-eval) - Agent evaluation platform: benchmark YAML, headless dsh runs, trace-based metrics, scripted grading, and run compare/report.
