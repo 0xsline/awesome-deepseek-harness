@@ -354,6 +354,7 @@ Management panel: Settings → Plugins.
 
 ## Security & Governance
 
+- [zoahdev/dsh-poison-guard](https://github.com/zoahdev/dsh-poison-guard) - Pre-install supply-chain poison scanner for DSH plugins: AST (JS-X-Ray) + deobfuscation decoder + regex heuristics; exits non-zero on findings for CI gating.
 - [dsh-skill-pack-security](https://github.com/PerryLink/dsh-skill-pack-security) - Security-audit skill pack: eight agent skills (secret scan, dependency audit, supply-chain review, prompt-injection review, audit orchestration, threat modeling, vulnerability intelligence and incident response) in Chinese and English editions.
 - [dsh-encrypt](https://github.com/yauntyour/DSH-Encrypt) - Credential provider for DSH with password-protected AES-256-GCM storage, Argon2id key derivation (legacy scrypt v2 auto-upgrade), SHA3-256 integrity checks, and temporary runtime decryption.
 - [dsh-telemetry-redactor](https://github.com/030611/dsh-telemetry-redactor) - Redacts supported secret patterns from the `session-telemetry/record` export copy before configured telemetry backends receive it.
