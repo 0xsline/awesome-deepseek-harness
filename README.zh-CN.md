@@ -172,6 +172,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## UI & Experience
 
+- [deepseek-harness-zh-tw](https://github.com/chiyulogg-commits/deepseek-harness-zh-tw) - DeepSeek Harness 繁体中文（台湾用语）语系扩展版：新增繁体中文界面选项，25 个 Web UI 套件全量台湾用语中文化。
 - [dsh-token-pet](https://github.com/pk7j7sqryy-ops/dsh-token-pet) - 会话头部卡通用量小部件：实时上下文占用、会话累计与构成，附日期周几、天气、3 天预报与极端天气预警，跟随主题色。
 - [dsh-token-usage](https://github.com/jiamuAi/dsh-token-usage) - Codex 风格 Token 用量面板：全实例累计/单会话峰值 Token、最长聊天时长与连续天数、每日/每周/累计活动热力图，以及插件/Skill Top5。
 - [dsh-office](https://github.com/Fayelin12/dsh-office) - 办公室工作区/会话仪表盘：悬浮 6 列精灵面板，可视化工作区、会话、token 用量与子代理。
