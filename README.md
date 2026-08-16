@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
  <a href="README.md">English</a>&nbsp;&nbsp;|&nbsp;&nbsp;
  <a href="README.zh-CN.md">简体中文</a>
 </p>
@@ -172,6 +172,7 @@ Management panel: Settings → Plugins.
 - [solarized-dsh-theme](https://github.com/zhijun-dai/Solarized-dsh-theme) - Solarized + Selenized theme plugin: four faithful palettes registered into the DSH Web theme runtime.
 - [arcana](https://github.com/GooodWei/arcana) - A floating command deck that lists every slash command in DeepSeek Harness as runnable buttons, sorted by usage.
 - [dsh-aigc-canvas](https://github.com/dsh-external/dsh-aigc-canvas) - AIGC canvas plugin (cordis).
+- [pbr-render](https://github.com/dhb861832993-star/pbr-render) - PBR 3D model preview for game art: GLB/GLTF with textures, IBL environment, orbit controls, and a material channel inspector (baseColor/normal/roughness/metallic/AO/emissive/wireframe) via the pbr3d fence and pbr_render tool.
 - [dsh-deepcel](https://github.com/dsh-external/dsh-deepcel) - Deepcel spreadsheet skin and standalone distribution.
 - [dsh-diff-viewer](https://github.com/dsh-external/dsh-diff-viewer) - PiUI-style Web diff viewer replacing the default diff view.
 - [dsh-mobile](https://github.com/dsh-external/dsh-mobile) - Mobile client plugin (cordis + dsh.plugin.json).
