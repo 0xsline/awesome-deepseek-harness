@@ -269,6 +269,7 @@ Management panel: Settings → Plugins.
 - [dsh-cost-crystal](https://github.com/xxvk/dsh-cost-crystal) - Floating cost crystal for the DSH Web UI: balance card, real-time tok/s, peak/off-peak billing countdown, last-24h spend, and a 🔮 next-message cost forecast, all timezone-aware.
 - [dsh-session-repair-ui](https://github.com/Semidia/dsh-session-repair-ui) - Session repair button in the conversation header: detects & fixes session-log corruption — tool-call id swaps, empty call ids (`message must have tool source`), unknown event types from disabled plugins (marks `ignorable`), torn zstd tails, missing final-frame newlines; ghost-style UI, auto-backup before writes.
 - [plugin-team-board](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-team-board) - Shared multi-agent task board (create / claim / transition / query) over a Cordis service key.
+- [dsh-event-auditor](https://github.com/qing3a/dsh-event-auditor) - Event-flow audit panel: event types, distribution, counts, and recent events for plugin authors.
 - [dsh-session-pin](https://github.com/PerryLink/dsh-session-pin) - Pin sessions and workspaces to the top of the Web sidebar with per-pin row colors, a header toggle, and a pinned panel.
 
 ## IDE & Clients
@@ -294,6 +295,7 @@ Management panel: Settings → Plugins.
 - [dsh-shell](https://github.com/TaoSmile/dsh-shell) - Zero-install desktop shell for an already-installed DeepSeek Harness: attaches to a running `dsh web` or auto-launches it with your existing Node environment; Electron shell with tray plus a double-click Edge app-mode launcher.
 - [dsh-desktop](https://github.com/xiaoyanzi191/dsh-desktop) - Electron desktop wrapper for DeepSeek Harness: double-click to start, automatically manages the dsh Web service lifecycle.
 - [dsh-chat-tools](https://github.com/yj060464-commits/dsh-chat-tools) - Headless terminal companion toolkit: chat.sh continuous-conversation REPL (rolling context, decision-point voting, live workflow streaming, effort switching) + automatic LLM session-log summarization. Zero-dependency bash + Python.
+- [dsh-companion](https://github.com/qing3a/dsh-companion) - Desktop shell for DeepSeek Harness (Rust single exe): self-bootstrapping Node, tray, autostart, plugin store.
 
 - [ccgui / desktop-cc-gui](https://github.com/zhukunpenglinyutong/desktop-cc-gui) - Multi-engine AI coding desktop client (Tauri): Claude Code, Codex, Gemini, OpenCode, DeepSeek Harness and more in one GUI — not a DSH Web UI shell or `dsh-plugin`.
 
@@ -379,6 +381,7 @@ Management panel: Settings → Plugins.
 - [dsh-lsp-actions](https://github.com/PerryLink/dsh-lsp-actions) - LSP action surface: diagnostics, formatting, completion, code actions, symbols, signature help, inlay hints, and rename tools over real language servers.
 - [dsh-git-status](https://github.com/Wongzexu/dsh-git-status) - Specialized in Git branch and status handling: a Git status drawer with a commit DAG lane graph, uncommitted changes/stash rows, inline diffs, and right-click branch/tag operations.
 - [Starfie1d1272/dsh-github-skills](https://github.com/Starfie1d1272/dsh-github-skills) - Skill-first GitHub workflows for DSH covering PR triage, review feedback, GitHub Actions diagnosis, and safe draft-PR publishing over existing capabilities.
+- [dsh-repo-context](https://github.com/qing3a/dsh-repo-context) - Injects git status and repo conventions into the system prompt via the official system-prompt seam.
 
 ## Security & Governance
 
@@ -394,6 +397,7 @@ Management panel: Settings → Plugins.
 - [MicroMilo/upstream-radar](https://github.com/MicroMilo/upstream-radar) - Always-on dependency security monitoring for DSH plugins: exact installed paths, OSV vulnerabilities, npm releases, and compatibility signals routed to a project-aware DSH Agent.
 - [dsh-passwords](https://github.com/slywalker2006/dsh-passwords) - Login gateway for the DSH web UI: first-run setup, bcrypt + at-rest encryption (AES-256-GCM/HMAC), brute-force lockout, audit log, TLS 1.2+ with 80→443 redirect, CSRF and anti-framing headers.
 - [dsh-guardian](https://github.com/cdxiaodong/dsh-guardian) - Agent security guardrail: intercepts and audits every tool call, requiring human confirmation on sensitive operations.
+- [dsh-plugin-verify](https://github.com/qing3a/dsh-plugin-verify) - Runtime behavior verification CLI: mock-llm agent loop, 7/7 waterfall, zero-side-effect checks, reproducible reports.
 - [dsh-safeguard](https://github.com/ZhijiangTang/dsh-safeguard) - Pre-execution guardrail: vetoes dangerous shell commands and blocks secret/credential leaks before they run.
 
 ## Output & Deliverables
