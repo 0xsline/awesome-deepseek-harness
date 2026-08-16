@@ -388,6 +388,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-voice-chat](https://github.com/dsh-external/dsh-voice-chat) - 语音对话
 - [dsh-web-ui-notify](https://github.com/dsh-external/dsh-web-ui-notify) - WebUI 通知
 - [dsh-notify-windows](https://github.com/SeverusZh/dsh-notify-windows) - Windows 通知，零依赖
+- [dsh-notify-win](https://github.com/Andyqwe44/dsh-notify-win) - 原生 Windows toast + 任务栏闪烁，任务完成/审批/提问时触发，支持 Win10/11，npm 安装 `dsh plugin --profile web add dsh-notify-win`
 - [dsh-ica](https://github.com/dsh-external/dsh-ica) - icalingua 前端
 - [dsh-opencode-server](https://github.com/dsh-external/dsh-opencode-server) - opencode attach 丝滑 TUI
 - [dsh-teamwork](https://github.com/dsh-external/dsh-teamwork) - 团队协作（cordis）
