@@ -114,6 +114,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-web-search-exa](https://github.com/TonyDua/dsh-web-search-exa) - 零配置 Exa 网页搜索提供方：无 key 走匿名 MCP 兜底（mcp.exa.ai/mcp），配 key 自动切 REST，接入 ctx.web 接缝。
 - [dsh-web-search-pro](https://github.com/anweat/dsh-web-search-pro) - DSH 增强型、可持久化的网页搜索：多引擎路由（DeepSeek/Exa/DDG/Bing/Jina + GitHub/B站/YouTube/V2EX/小红书/Twitter/Reddit/RSS）、SQLite+LRU 缓存、userscript 风格抽取、Playwright 渲染。
 - [moguiyu/dsh-tavily](https://github.com/moguiyu/dsh-tavily) - Tavily 多密钥搜索：支持密钥轮换/故障转移、用量仪表盘与设置卡片。
+- [dsh-session-sync](https://github.com/PerryLink/dsh-session-sync) - 跨设备会话同步：专用 git 镜像与仅追加的双方保留冲突裁决，附 /sync 命令与 sync_status/sync_pull/sync_push 工具。
 
 ## Memory & Knowledge
 
