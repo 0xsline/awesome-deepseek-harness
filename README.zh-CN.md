@@ -346,6 +346,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [folio](https://github.com/nyantused-cpun/folio) - Folio（兰亭）：咨询文档生成引擎（接案 → 记忆 → 方法论 → 交付物 → 凭证）的原生 DSH 插件栈：15 个工具、会话协议事件、L0 防护、Agent 预设；方法论包可替换，DSH 内零密钥起步。
 - [dsh-report-studio](https://github.com/ciceroyang/dsh-report-studio) - 把 DeepSeek Harness 会话一键变成工作日报/周报/交接文档/公众号文章，附可验证凭据（报告与产物哈希）。
 
+- [dsh-timeline-studio-plugin](https://github.com/MartinDelophy/dsh-timeline-studio-plugin) - 将 DSH 接入 Timeline Studio，可检查 `.timeline` 工程、预演语义编辑、事务式写入，并验证 MP4 渲染结果。
+
 
 - [plugin-session-export](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-session-export) - 把 append-only 会话日志导出为人可读的 Markdown/HTML，按轨迹来源（系统提示/思维链/工具调用/子 agent）分组。
 - [dsh-xiaohongshu-viral-note](https://github.com/xuboboo/dsh-xiaohongshu-viral-note) - 小红书爆款笔记 agent skill 插件：热门笔记研究、选题、种草文案生成/改写、合规校验、授权账号权重分析、扫码登录与受控发布。

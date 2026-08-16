@@ -352,6 +352,8 @@ Management panel: Settings → Plugins.
 
 - [dsh-report-studio](https://github.com/ciceroyang/dsh-report-studio) - Turn a DeepSeek Harness session into deliverable work reports (daily/weekly/handoff/article) with verifiable receipts.
 
+- [dsh-timeline-studio-plugin](https://github.com/MartinDelophy/dsh-timeline-studio-plugin) - Connects DSH to Timeline Studio for `.timeline` project inspection, semantic edit previews, transactional edits, and verified MP4 rendering.
+
 
 - [plugin-session-export](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-session-export) - Export the append-only session log as human-readable Markdown or HTML, grouped by trajectory source.
 - [dsh-xiaohongshu-viral-note](https://github.com/xuboboo/dsh-xiaohongshu-viral-note) - Bundled Xiaohongshu/RED viral-note agent skill: hot-note research, note generation/rewrite, verification, authorized account analysis, QR login and controlled publishing.
