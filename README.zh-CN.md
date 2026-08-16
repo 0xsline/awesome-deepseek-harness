@@ -325,6 +325,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-bash-rtk](https://github.com/DeepTrial/dsh-bash-rtk) - 在 DSH bash 执行器内把符合条件的 bash 命令路由给 rtk（Rust Token Killer）以压缩工具输出、节省 token；rtk 缺失时安全透传。
 - [dsh-tool-git](https://github.com/lxj808624/dsh-tool-git) - 结构化 Git 工具（status/diff/log/branch/stage/commit/stash/show）+ 破坏性命令安全护栏
 - [dsh-plugin-check](https://github.com/dsh-external/dsh-plugin-check) - 插件健康检查（清单/patch 格式/构建陷阱/hub 收录）
+- [dsh-code-security](https://github.com/ihuajiu/dsh-code-security) - DSH 安全审计套件：自动审计新安装的插件，并通过会话预设提供 13 个审计技能与 5 个仓库扫描工具，默认使用宿主模型。
 - [dsh-ops-skill](https://github.com/dragon43pp/dsh-ops-skill) - 只读 DSH 运行时可靠性工具包：版本化脱敏状态契约、受保护快照、面向人工审查的升级差异与隔离回归检查；默认不使用特权 Docker。*文件夹式 Skill，不是 DSH profile bundle。*
 - [dsh-telemetry-redactor](https://github.com/030611/dsh-telemetry-redactor) - 在已配置遥测后端接收前，对 `session-telemetry/record` 导出副本中的已支持秘密模式进行脱敏。
 - [dsh-verification-receipt](https://github.com/030611/dsh-verification-receipt) - 把每轮工具计数与粗粒度验证信号写入本地 JSONL，不保存提示词、工具参数或结果正文。
