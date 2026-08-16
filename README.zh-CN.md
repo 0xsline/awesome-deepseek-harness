@@ -94,6 +94,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-plans](https://github.com/Optim-Agent/dsh-plans) - 计划先行 Agent 预设：把仓库变更调研沉淀为 dsh-plans/ 下可追溯的 Markdown 计划，经 reviewer/criticizer 子代理多轮打磨，再作为 DSH goal 按验证清单执行。
 - [dsh-agent-team-gui](https://github.com/toolclub/dsh-agent-team-gui) - 全局持久 Agent 小队：每个成员独立配置模型与工具策略；在 Settings 中管理、按对话选择并开关协作，普通发送按固定顺序或由模型规划执行。
 - [cleverer-dsh](https://github.com/Classicoke/cleverer-dsh) - DSH 执行纪律套件：拦截同参重试、强制反思、约束待办执行、记忆查重，并将重复经验沉淀为技能（11 个插件 + 6 个技能）。
+- [february2015/dsh-taskswarm](https://github.com/february2015/dsh-taskswarm) - TaskPlane 的 DSH 移植版：按依赖分波、多 lane 并行执行（git worktree 隔离），任务包 + 跨模型评审 + 崩溃可恢复。
 - [timwhitez/dsh-self-evolving](https://github.com/timwhitez/dsh-self-evolving) - 证据优先、可崩溃恢复的 DSH 自进化引擎：有界生成 Cordis 插件候选，经一次性真实 Loader 隔离准入，Harbor 评估，并保存可审计的日志化谱系。
 - [Saktawdi/dsh-ha-orchestrator](https://github.com/Saktawdi/dsh-ha-orchestrator) - 模型高可用故障回退（隔离/熔断/探测恢复）与子智能体编排（fanout/pipeline/supervisor），附带双语设置界面。
 - [dsh-background-agents](https://github.com/PerryLink/dsh-background-agents) - 官方子代理接缝上的持久化后台子代理：任意会话中启动，Web 侧边栏看进度、随时留言与打断，支持按子代理限定工具、人格与委托深度。
@@ -379,7 +380,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 ## Security & Governance
 
 - [zoahdev/dsh-poison-guard](https://github.com/zoahdev/dsh-poison-guard) - DSH 插件安装前投毒扫描：AST（JS-X-Ray）+ 去混淆解码 + 正则启发式，拦截凭据外泄、动态执行、混淆导入与安装脚本；发现即非零退出，可作 CI 门禁。
-- [dsh-skill-pack-security](https://github.com/PerryLink/dsh-skill-pack-security) - 安全审计技能包 + plugin_vet 供应链门禁：提供密钥扫描、依赖审计、供应链评审、提示注入审查、审计编排、威胁建模、漏洞情报与事件响应八个中英双语 agent 技能，附 npm provider 包注册自动化 plugin_vet 安装前扫描。
+- [dsh-skill-pack-security](https://github.com/PerryLink/dsh-skill-pack-security) - 安全审计技能包：提供密钥扫描、依赖审计、供应链评审、提示注入审查、审计编排、威胁建模、漏洞情报与事件响应八个中英双语 agent 技能。
 - [dsh-encrypt](https://github.com/yauntyour/DSH-Encrypt) - DSH 凭证加密插件：密码保护的 AES-256-GCM 存储、Argon2id 密钥派生（旧版 scrypt v2 密文自动升级）与 SHA3-256 完整性校验，仅在运行时临时解密。
 - [dsh-telemetry-redactor](https://github.com/030611/dsh-telemetry-redactor) - 在已配置遥测后端接收前，对 `session-telemetry/record` 导出副本中的已支持秘密模式进行脱敏。
 - [dsh-yolo-mode](https://github.com/SeverusZh/dsh-yolo-mode) - 沙箱升权申请的 LLM 自动审批：预设 + 逐工具权限层级，fail-closed 兜底。
@@ -430,6 +431,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [plugin-notify](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-notify) - 回合完成/出错/需审批时发 IM webhook 与本机通知（飞书/企微/钉钉/Slack/Discord/自定义）。
 - [dsh-monitor](https://github.com/AbnerAI/dsh-monitor) - 常驻后台监视器（文件收件箱/命令输出）：新消息一到即唤醒 Agent，是 Claude Code Monitor 工具的 Harness 对应实现。
 - [dsh-island](https://github.com/cdxiaodong/dsh-island) - 通过 Unix socket 把 DSH agent 的会话、工具调用与审批实时桥接到 CodeIsland macOS 刘海面板，可直接在面板上批准/拒绝。
+- [february2015/dsh-dingo](https://github.com/february2015/dsh-dingo) - 多对话并行的声音提醒 + 对话直达：当前对话当/当当（crisp 清脆档），其他对话叮/叮叮（soft 柔和档）+ 右上角小卡片，点一下直达对应对话。
 
 ## Fun & Lifestyle
 

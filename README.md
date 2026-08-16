@@ -95,6 +95,7 @@ Management panel: Settings → Plugins.
 - [dsh-plans](https://github.com/Optim-Agent/dsh-plans) - Planning-first agent preset: research repository changes into traceable Markdown plans, refine them through reviewer/criticizer subagent rounds, then execute as a DSH goal with a verifier checklist.
 - [dsh-agent-team-gui](https://github.com/toolclub/dsh-agent-team-gui) - Global persistent agent squads with per-agent model/tool policies: manage them in Settings, select and toggle one per conversation, then collaborate on normal sends in a fixed or model-planned order.
 - [cleverer-dsh](https://github.com/Classicoke/cleverer-dsh) - Execution-discipline suite for DSH with identical-retry interception, forced reflection, todo enforcement, memory deduplication, and experience-to-skill promotion (11 plugins + 6 skills).
+- [february2015/dsh-taskswarm](https://github.com/february2015/dsh-taskswarm) - DSH port of TaskPlane: dependency-ordered waves run in parallel git-worktree lanes, with task packets, cross-model review, and crash recovery.
 - [timwhitez/dsh-self-evolving](https://github.com/timwhitez/dsh-self-evolving) - Evidence-first, crash-resumable self-evolution engine for DSH: generates bounded Cordis plugin candidates, admits them through a one-shot real Loader, evaluates with Harbor, and journals an auditable lineage.
 - [Saktawdi/dsh-ha-orchestrator](https://github.com/Saktawdi/dsh-ha-orchestrator) - Model high-availability failover (quarantine, circuit breaking, probe recovery) plus subagent orchestration (fanout/pipeline/supervisor) with a bilingual settings UI.
 - [dsh-background-agents](https://github.com/PerryLink/dsh-background-agents) - Durable background child agents on the official subagent seam: start from any session, watch progress in the Web UI sidebar, message and interrupt any time, with per-child tool scoping, persona and delegation-depth caps.
@@ -380,7 +381,7 @@ Management panel: Settings → Plugins.
 ## Security & Governance
 
 - [zoahdev/dsh-poison-guard](https://github.com/zoahdev/dsh-poison-guard) - Pre-install supply-chain poison scanner for DSH plugins: AST (JS-X-Ray) + deobfuscation decoder + regex heuristics; exits non-zero on findings for CI gating.
-- [dsh-skill-pack-security](https://github.com/PerryLink/dsh-skill-pack-security) - Security-audit skill pack plus the plugin_vet supply-chain gate: eight agent skills (secret scan, dependency audit, supply-chain review, prompt-injection review, audit orchestration, threat modeling, vulnerability intelligence and incident response) in Chinese and English editions, with an npm provider bundle that registers the automated plugin_vet pre-install scanner.
+- [dsh-skill-pack-security](https://github.com/PerryLink/dsh-skill-pack-security) - Security-audit skill pack: eight agent skills (secret scan, dependency audit, supply-chain review, prompt-injection review, audit orchestration, threat modeling, vulnerability intelligence and incident response) in Chinese and English editions.
 - [dsh-encrypt](https://github.com/yauntyour/DSH-Encrypt) - Credential provider for DSH with password-protected AES-256-GCM storage, Argon2id key derivation (legacy scrypt v2 auto-upgrade), SHA3-256 integrity checks, and temporary runtime decryption.
 - [dsh-telemetry-redactor](https://github.com/030611/dsh-telemetry-redactor) - Redacts supported secret patterns from the `session-telemetry/record` export copy before configured telemetry backends receive it.
 - [dsh-yolo-mode](https://github.com/SeverusZh/dsh-yolo-mode) - LLM auto-approval for sandbox escalation requests: presets, per-tool levels, fail-closed.
@@ -431,6 +432,7 @@ Management panel: Settings → Plugins.
 - [plugin-notify](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-notify) - IM webhook + local notifications on turn completion / errors / approval requests (Feishu, WeCom, DingTalk, Slack, Discord, custom).
 - [dsh-monitor](https://github.com/AbnerAI/dsh-monitor) - Persistent background watchers (file inbox / command output) that wake the agent on new messages; the harness analog of Claude Code's Monitor tool.
 - [dsh-island](https://github.com/cdxiaodong/dsh-island) - Bridge DSH agent sessions, tool calls, and approvals to the CodeIsland macOS notch panel over a Unix socket, with in-panel allow/deny.
+- [february2015/dsh-dingo](https://github.com/february2015/dsh-dingo) - Sound reminders with one-click jump for concurrent sessions: the current session gets crisp dang/dang-dang tones, other sessions a soft ding/ding-ding plus a top-right card that jumps straight to the replying conversation.
 
 ## Fun & Lifestyle
 
