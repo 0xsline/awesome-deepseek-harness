@@ -432,6 +432,7 @@ Management panel: Settings → Plugins.
 - [super-wechat-bridge](https://github.com/Qshuai0213/super-wechat-bridge) - WeChat iLink ClawBot bridge: official Tencent iLink protocol, Web UI settings (QR login / model / preset / permissions / session management with delete), 24h auto-renewal pushes a fresh QR before expiry, zero downtime.
 - [dsh-voice-chat](https://github.com/dsh-external/dsh-voice-chat) - Voice chat.
 - [dsh-web-ui-notify](https://github.com/dsh-external/dsh-web-ui-notify) - WebUI notifications.
+- [dsh-notification-sounds](https://github.com/qq33357486/dsh-notification-sounds) - Cross-platform browser audio alerts that play bundled Chinese prompts when DSH needs user input or finishes a task.
 - [dsh-notify-windows](https://github.com/SeverusZh/dsh-notify-windows) - Windows notifications, zero dependencies.
 - [dsh-notify-win](https://github.com/Andyqwe44/dsh-notify-win) - Native Windows toast + taskbar flash for task done / approval / ask_user_question; Win10/11, npm install `dsh plugin --profile web add dsh-notify-win`.
 - [dsh-ica](https://github.com/dsh-external/dsh-ica) - ICalingua frontend.
