@@ -456,6 +456,7 @@ Management panel: Settings → Plugins.
 
 ## Runtime & Operations
 
+- [zoahdev/dsh-trace](https://github.com/zoahdev/dsh-trace) - Aggregate observability dashboard: decode every `session.jsonl.zstd` under a sessions root and render tokens/tools/errors/latency as one self-contained HTML report (zero deps).
 - [dsh-launch](https://github.com/Khellendros97/dsh-launch) - Detached-broker supervision of long-running services (dev servers, watchers, mock APIs) that survive turns, sessions and DSH restarts, with a Service sidebar tab (registered via better-sidebar's extension API) and service_start/stop/restart/list/logs model tools.
 - [dsh-env-switcher](https://github.com/Oyama-Mahiro-F/dsh-env-switcher) - One-click Windows/WSL2 environment switcher for DSH (coexistence mode): both environments run simultaneously on separate ports and switch from the web UI without killing any process.
 - [dsh-payload-capture](https://github.com/moeblack/dsh-payload-capture) - Capture every upstream model API payload to JSON (debug & observability).

@@ -455,6 +455,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Runtime & Operations
 
+- [zoahdev/dsh-trace](https://github.com/zoahdev/dsh-trace) - 聚合可观测仪表盘：解码 sessions 根目录下的每个 `session.jsonl.zstd`，把 token/工具/错误/延迟渲染成一张自包含 HTML 报告（零依赖）。
 - [dsh-launch](https://github.com/Khellendros97/dsh-launch) - 在独立 broker 进程中监督长驻服务（dev server、watcher、mock API），服务在对话回合结束、会话关闭、DSH 重启后继续运行；自带 Service 侧边栏 tab（经 better-sidebar 扩展 API 注入）与 service_start/stop/restart/list/logs 模型工具。
 - [dsh-env-switcher](https://github.com/Oyama-Mahiro-F/dsh-env-switcher) - Windows/WSL2 双环境一键切换插件（共存模式）：两个 DSH 实例分别在 3080/3081 端口同时运行，Web UI 内一键切换，不杀任何进程。
 - [dsh-payload-capture](https://github.com/moeblack/dsh-payload-capture) - 捕捉每一次上行模型 API payload 存为 JSON（调试与观测）
