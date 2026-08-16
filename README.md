@@ -215,7 +215,7 @@ Management panel: Settings → Plugins.
 - [dsh-whale-switch](https://github.com/bowen507/dsh-whale-switch) - Minimal on/off loop: a desktop shortcut launches dsh web, and an animated whale button (hover to arm, click to dive) shuts it down gracefully and closes the tab.
 - [dsh-homepage-skin](https://github.com/yushi-xxh/dsh-homepage-skin) - Brings the DeepSeek Harness homepage background to DSH Web: WebGL fluid light, dot-line grid and a digital whale, with dark and light palettes.
 - [dsh-plugin-help](https://github.com/Semidia/dsh-plugin-help) - Installed-plugins README summary panel: floating 📖 button, zh-preferring titles, default-all-expanded READMEs, blue circular index badges, per-plugin one-click update (`dsh plugin update`) via a loopback endpoint.
-- [dsh-mcp-panel](https://github.com/PerryLink/dsh-mcp-panel) - Read-only runtime management panel for the official DSH MCP client: connection status, registered tools, errors and reconnect counts via the /mcp command and a Settings tab, with sanitized display and enable/disable patch suggestions.
+- [dsh-mcp-panel](https://github.com/PerryLink/dsh-mcp-panel) - MCP management console for the official DSH MCP client: server CRUD with approval-gated, backed-up profile writes, a tool trial console through the official tool pipeline, health diagnostics, and connection status.
 
 ## Dashboards & Session UX
 
