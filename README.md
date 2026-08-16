@@ -52,6 +52,7 @@
 - [Plugin Ecosystem & Development](#plugin-ecosystem--development)
 - [Runtime & Operations](#runtime--operations)
 - [Domain & Specialist Skills](#domain--specialist-skills)
+- [Tools & Utilities](#tools--utilities)
 - [Related](#related)
 - [Thanks](#thanks)
 
@@ -365,6 +366,7 @@ Management panel: Settings → Plugins.
 - [MicroMilo/upstream-radar](https://github.com/MicroMilo/upstream-radar) - Always-on dependency security monitoring for DSH plugins: exact installed paths, OSV vulnerabilities, npm releases, and compatibility signals routed to a project-aware DSH Agent.
 - [dsh-passwords](https://github.com/slywalker2006/dsh-passwords) - Login gateway for the DSH web UI: first-run setup, bcrypt + at-rest encryption (AES-256-GCM/HMAC), brute-force lockout, audit log, TLS 1.2+ with 80→443 redirect, CSRF and anti-framing headers.
 - [dsh-guardian](https://github.com/cdxiaodong/dsh-guardian) - Agent security guardrail: intercepts and audits every tool call, requiring human confirmation on sensitive operations.
+- [dsh-safeguard](https://github.com/ZhijiangTang/dsh-safeguard) - Pre-execution guardrail: vetoes dangerous shell commands and blocks secret/credential leaks before they run.
 
 ## Output & Deliverables
 
@@ -496,6 +498,22 @@ Management panel: Settings → Plugins.
 - [dsh-wuyun-liuqi](https://github.com/dhicoc/dsh-wuyun-liuqi) - Complete wuyun-liuqi (five-evolutions-six-qi / 五运六气) Traditional Chinese Medicine skill pack as a DeepSeek Harness Cordis plugin: annual and guest-qi calculation, clinical pattern differentiation, and pathogenesis reasoning.
 - [dsh-plugin-writing-guard](https://github.com/xmutfyh/dsh-plugin-writing-guard) - Academic writing guard: local-regex linter for revision-process residue, defensive writing and AI-writing tells (em-dash abuse, not-X-but-Y, LLM word spikes, rule of three); writing_audit + writing_rules with incremental auto-audit on paper file writes.
 - [write-chinese-long-screenplay](https://github.com/mudden2380078550-creator/write-chinese-long-screenplay) - Chinese long-form screenwriting skill (SKILL.md): two author input blocks (background + character bible) feeding a causal-value engine, anti-AI-flavor review, and a continuity ledger for 100+ scene projects.
+
+## Tools & Utilities
+
+- [dsh-case](https://github.com/ZhijiangTang/dsh-case) - Name-case conversion across 8 styles: camel, snake, kebab, Pascal, and more.
+- [dsh-clipboard](https://github.com/ZhijiangTang/dsh-clipboard) - Writes text to the system clipboard, cross-platform (macOS/Windows/Linux).
+- [dsh-cron-parse](https://github.com/ZhijiangTang/dsh-cron-parse) - Parses cron expressions into human-readable text and previews upcoming run times.
+- [dsh-dead-links](https://github.com/ZhijiangTang/dsh-dead-links) - Scans Markdown files for dead http(s) links.
+- [dsh-fetch-file](https://github.com/ZhijiangTang/dsh-fetch-file) - Downloads a URL into the workspace as a file, with a path fence, streaming, and a 200 MB cap.
+- [dsh-fmt](https://github.com/ZhijiangTang/dsh-fmt) - Formats and validates JSON/YAML/TOML/SQL, with line-and-column error locations.
+- [dsh-handoff](https://github.com/ZhijiangTang/dsh-handoff) - Exports the current session as a deterministic Markdown handoff document.
+- [dsh-http](https://github.com/ZhijiangTang/dsh-http) - Structured HTTP request tool: returns status, duration, and size, with basic/bearer auth helpers.
+- [dsh-jwt](https://github.com/ZhijiangTang/dsh-jwt) - Decodes a JWT for debugging without verifying its signature, and flags expiry.
+- [dsh-password](https://github.com/ZhijiangTang/dsh-password) - Generates strong random passwords and diceware passphrases via crypto.
+- [dsh-pkg-info](https://github.com/ZhijiangTang/dsh-pkg-info) - Queries npm/PyPI package metadata (version, license, dependencies).
+- [dsh-url-tools](https://github.com/ZhijiangTang/dsh-url-tools) - URL parsing, tracking-parameter removal, encode/decode, and redirect expansion.
+- [dsh-when](https://github.com/ZhijiangTang/dsh-when) - Parses natural-language relative time (e.g. "in 2 hours") into ISO timestamps, fail-fast.
 
 ## Related
 
