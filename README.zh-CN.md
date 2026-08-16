@@ -136,7 +136,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [url-manager-mcp](https://github.com/Piccolo123/url-manager-mcp) - url-manager 的 MCP 服务端：21 个工具（mcp__url_manager__*），支持收藏/搜索/分类/共享与魔法链接交付，支持 stdio 与 streamable-http。
 - [dsh-kb-sieve](https://github.com/dsh-external/dsh-kb-sieve) - knowledge-base 插件：构建可审计 KB 包（references + SQL）
 - [kb-rag](https://github.com/Breeze136/kb-rag) - 本地文献知识库 RAG：8 个工具（PDF/文件夹/Zotero 入库、BM25+向量+重排混合检索、DOI 可点击溯源问答、范围/严格模式、去重/清空/统计），全本地 bge 嵌入 + 单文件 SQLite，实测 242 篇 86s 入库、2 万块亚秒热查询。
-- [dsh-memento](https://github.com/PerryLink/dsh-memento) - 有界、分层、带审批门、可审计的跨会话记忆：ctx.memory 服务、零依赖 SQLite、memory 工具与冻结快照注入，并预演 dsh-memory-protocol v1（适配器注册表 + 一致性套件）。
+- [dsh-memento](https://github.com/PerryLink/dsh-memento) - 有界、分层、带审批门、可审计的跨会话记忆：ctx.memory 服务、零依赖 SQLite、memory 工具与冻结快照注入。
 - [dsh-engramory](https://github.com/tinqiao-oss/engramory/tree/master/adapters/dsh) - 基于文件的策展式记忆：带行数/字节上限的 `MEMORY.md` 索引 + 每条事实单独一个 markdown 文件，由 git 版本化、不借助工具即可阅读。上限由 `ctx.tools.guard()` 强制执行而非靠提示词约束，协议注册为运行时 skill；同一份记忆库也被 Claude Code、Codex、Kiro 与 OpenClaw 读取。
 - [plur-ai/dsh-plugin](https://github.com/plur-ai/dsh-plugin) - PLUR 持久记忆：engram 在每次组装时渲染进系统提示词，而不是藏在工具调用之后，因此召回无需额外往返，记忆块也不会在上下文中累积；全本地检索（BM25 + BGE）、可直接编辑的纯 YAML 存储、按工作区划分 scope，并提供 /plur-memory 查看器。
 - [dsh-memory-plugin](https://github.com/volcengine/OpenViking/tree/main/examples/dsh-memory-plugin) - DeepSeek Harness 的 OpenViking 记忆/上下文插件：接入 OpenViking 的自进化上下文数据库，为 dsh 提供跨会话 Agent 记忆与知识 RAG。
@@ -379,7 +379,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 ## Security & Governance
 
 - [zoahdev/dsh-poison-guard](https://github.com/zoahdev/dsh-poison-guard) - DSH 插件安装前投毒扫描：AST（JS-X-Ray）+ 去混淆解码 + 正则启发式，拦截凭据外泄、动态执行、混淆导入与安装脚本；发现即非零退出，可作 CI 门禁。
-- [dsh-skill-pack-security](https://github.com/PerryLink/dsh-skill-pack-security) - 安全审计技能包：提供密钥扫描、依赖审计、供应链评审、提示注入审查、审计编排、威胁建模、漏洞情报与事件响应八个中英双语 agent 技能。
+- [dsh-skill-pack-security](https://github.com/PerryLink/dsh-skill-pack-security) - 安全审计技能包 + plugin_vet 供应链门禁：提供密钥扫描、依赖审计、供应链评审、提示注入审查、审计编排、威胁建模、漏洞情报与事件响应八个中英双语 agent 技能，附 npm provider 包注册自动化 plugin_vet 安装前扫描。
 - [dsh-encrypt](https://github.com/yauntyour/DSH-Encrypt) - DSH 凭证加密插件：密码保护的 AES-256-GCM 存储、Argon2id 密钥派生（旧版 scrypt v2 密文自动升级）与 SHA3-256 完整性校验，仅在运行时临时解密。
 - [dsh-telemetry-redactor](https://github.com/030611/dsh-telemetry-redactor) - 在已配置遥测后端接收前，对 `session-telemetry/record` 导出副本中的已支持秘密模式进行脱敏。
 - [dsh-yolo-mode](https://github.com/SeverusZh/dsh-yolo-mode) - 沙箱升权申请的 LLM 自动审批：预设 + 逐工具权限层级，fail-closed 兜底。
