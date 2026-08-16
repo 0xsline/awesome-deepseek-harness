@@ -156,7 +156,8 @@ The following projects provide standalone user interfaces, distribution formats,
 
 | Project | Platform / Form | Description |
 | --- | --- | --- |
-| [DeepSeek Harness Desktop (anywhere-labs)](https://github.com/anywhere-labs/deepseek-harness-desktop) | macOS (Apple Silicon) / Windows · Electron · Early | Packages the official Runtime and Web UI with local-service lifecycle management, a system tray, and desktop windows; currently at `v0.1.0`, while the plugin marketplace, mobile remote control, and Channels remain planned |
+| [DeepSeek Harness Desktop (anywhere-labs)](https://github.com/anywhere-labs/deepseek-harness-desktop) | macOS (Apple Silicon) / Windows · Electron | Packages the official Runtime and Web UI with local-service lifecycle management, a system tray, and desktop windows; `v2.0.0` adds desktop Profile and pnpm services, while the plugin marketplace, mobile remote control, and Channels remain planned |
+| [dsh-desktop](https://github.com/bruc3van/dsh-desktop) | macOS / Windows · Electron · Early | Reuses the official Web UI unchanged and keeps long-running tasks alive in the tray; disables renderer Node integration, restricts navigation, and verifies update packages with SHA-256, but the Agent process retains normal user-level file access and release packages are not formally developer-signed |
 | [DeepSeek Harness Desktop (steven-kid)](https://github.com/steven-kid/deepseek-harness-desktop) | macOS / Windows / Linux · Electron · Early | Minimal shell that preserves the upstream Web UI, uses a random loopback port, Electron sandboxing, and `contextIsolation`, and smoke-tests packaged startup across platforms; macOS builds are not notarized and Windows builds are not commercially signed |
 | [DeepSeek Harness Desktop App](https://github.com/vibeinging/deepseek-harness-desktop-app) | macOS / Windows · Electron · Early workbench | Adds projects, Git Worktrees, a browser, Canvas, Sites, and Office artifacts on the same DSH runtime path; currently at `v0.0.1`, with packaged-app validation still at an early stage |
 | [TinyWhale](https://github.com/aimierbear/TinyWhale) | macOS · Electron · Distribution fork | Directly forks `deepseek-ai/deepseek-harness` and adds a desktop shell; connects to an existing Web UI or launches a full `dsh web` Runtime, so it is not a plugin |
@@ -171,6 +172,7 @@ The following projects provide standalone user interfaces, distribution formats,
 | [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | TUI Bundle | Claude Code-style full-screen terminal, streaming status, context instruments, and session rollback |
 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | TUI Bundle | Complete terminal interaction layer evolved from Tianshu, with state driven by the DSH session event stream |
 | [dsh-tui](https://github.com/openguardrails/dsh-tui) | TUI Bundle · Early | Supports local DeepSeek and offline use; under active development, and the pre-port test suite is not yet running |
+| [dsh-mini-tui](https://github.com/boxeryao/dsh-mini-tui) | TUI plugin · Early | Lightweight terminal UI connected directly to the DSH Runtime; MIT and `v0.2.0`, installed from npm and developed and tested against DSH `0.1.0-rc.6` |
 | [Orbis](https://github.com/icodesign/orbis) | Mobile remote control · Beta | Uses a DSH plugin for device pairing, end-to-end encrypted transport, and real-time multi-device updates |
 | [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | Web UI collection | Collects task boards, Git Graph, mobile UI, skins, pets, runtime statistics, and other components |
 | [dsh-web](https://github.com/Tom6814/dsh-web) | Docker Web · Early | Deploys a complete Web interface, workspace, and plugin market with Docker; development is moving quickly, and a data volume is required to persist configuration and sessions |
@@ -190,6 +192,7 @@ The following projects provide standalone user interfaces, distribution formats,
 - [dsh-automation](https://github.com/titanwings/dsh-automation): runs scheduled standalone tasks in fresh root Agents and Sessions, preserving definition revisions, run history, and explicit workspace and permission boundaries.
 - [dsh-plannotator](https://github.com/titanwings/dsh-plannotator): annotates Agent plans section by section and submits structured feedback, with draft isolation, version binding, and stale-plan rejection.
 - [dsh-record-replay](https://github.com/humblebanana/dsh-record-replay): records macOS desktop workflows and generates Skills; currently requires Xcode Command Line Tools and a separate local `open-record-replay` source checkout.
+- [dsh-science-workbench](https://github.com/poplarity/dsh-science-workbench): reproducible science workbench that records cells, figures, feedback, and rerun lineage in a manifest, together with environment snapshots and input/output hashes; MIT and `v0.1.1`, still Early.
 
 ### Context, Sessions, and Input
 
@@ -201,6 +204,7 @@ The following projects provide standalone user interfaces, distribution formats,
 - [dsh-prompt-studio](https://github.com/Moeblack/dsh-prompt-studio): edits system-prompt fragments with a live preview.
 - [dsh-turn-rewind](https://github.com/Anionex/dsh-turn-rewind): rewinds conversations and workspace state through a persistent Change Ledger.
 - [dsh-compaction-instant](https://github.com/KitDoesIt/dsh-compaction-instant): replaces LLM summarization with deterministic compilation and restores compressed content through `recall` / `search`; replacing the built-in compactor requires an npm alias and is a deeper runtime modification.
+- [dsh-whale-report](https://github.com/SenmuuuuW/dsh-whale-report): generates daily, weekly, monthly, yearly, and custom-range reports read-only from session event logs without rewriting session history; MIT and `v0.2.0`, still Early.
 
 ### Browser, Vision, and Interface
 
@@ -222,6 +226,7 @@ The following projects provide standalone user interfaces, distribution formats,
 ### Sandboxing and Execution
 
 - [sandbox-micro](https://github.com/omdsh-dev/sandbox-micro): provides a fail-closed microsandbox microVM capability; both the Provider and model-facing tools stay disabled after installation until separately enabled, and failed platform checks never degrade to unconstrained host execution. It has test directories but no formal Release; `package.json` declares BSD-3-Clause, but the repository has no root `LICENSE` file, so it is marked Early.
+- [dsh-win32](https://github.com/sjh9714/dsh-win32): Windows persistent shell that works inside the sandbox, plus a minimal mode and `doctor` diagnostics; MIT and `v0.9.3`, built against DSH `0.1.0-rc.6`. Its optional sandboxed mode downloads GPLv2 BusyBox, and `setup` enables pnpm through Corepack when missing, so run it only with informed consent.
 
 ### Themes and Skins
 
@@ -236,6 +241,7 @@ The following projects provide standalone user interfaces, distribution formats,
 - [dsh-multica-runtime](https://github.com/forrestchang/dsh-multica-runtime): early runtime bridge connecting Multica and DSH; the package is currently marked `private` and `UNLICENSED`, with incomplete installation and distribution boundaries.
 - [dsh-lark-bot](https://github.com/PlutoKeating/dsh-lark-bot): connects local DSH to Feishu / Lark with streaming cards, workspaces, session recovery, and approvals; licensed under AGPL-3.0, with app credentials stored locally in plaintext configuration protected by mode `600`.
 - [dsh-qqbot](https://github.com/tencent-connect/dsh-qqbot): Tencent-maintained QQ Bot plugin with QR-code binding, isolated direct/group sessions, and restart recovery; MIT and `0.1.0`, with credentials saved to the local Profile during binding.
+- [LoongSuite DSH Plugin](https://github.com/loongsuite/dsh-plugin): converts Agent turns, model calls, tool executions, and token usage into OpenTelemetry GenAI traces for OTLP backends such as Jaeger, Tempo, SigNoz, and Langfuse; Apache-2.0 and Beta, tested with DSH `0.1.0-rc.6` in headless and Web profiles. Content capture is off by default; enabling it may export source code, credentials, and personal data.
 
 ## Developer Tools
 
@@ -243,7 +249,8 @@ The following projects provide standalone user interfaces, distribution formats,
 - [dsh-fail-logger](https://github.com/Areium/dsh-fail-logger): redacts, deduplicates, and categorizes tool failures into a machine-maintained Skill record; it records problems without changing behavior automatically.
 - [deepseek-harness-action](https://github.com/Lixiaoyiao/deepseek-harness-action): uses DSH in GitHub Actions for PR review, CI diagnosis, automated fixes, and Issue-to-PR workflows; write access is off by default, and validation runs in a credential-free container.
 - [Awesome DSH Plugins Radar](https://github.com/AdamPlatin123/awesome-dsh-plugins): automated compatibility radar separating discovery, static, compile, and runtime signals; MIT, fast-changing, and without a Release, while “runtime usable” is not a security audit or quality guarantee, so marked Early.
-- [dsh-suite](https://whyihaveyou.github.io/dsh-suite/): bilingual DSH ecosystem index with plugin search, a `create-dsh-plugin` scaffolder, and basic compatibility metadata; still early, with compatibility checks currently limited to static dependency comparison while install and configuration-assembly validation remain unfinished.
+- [dsh-market](https://github.com/dsh-market/dsh-market): in-DSH plugin market for browsing, searching, installing, updating, and uninstalling projects listed by `awesome-dsh-plugin`; MIT and `v1.9.0`. Build scripts are blocked by default and the install endpoint accepts same-origin POST only, but directory inclusion is not a security endorsement.
+- [dsh-suite](https://whyihaveyou.github.io/dsh-suite/): bilingual DSH ecosystem index with plugin search, a `create-dsh-plugin` scaffolder, and basic compatibility metadata; its catalog refreshes hourly and it installs listed packages into a temporary Profile for daily compatibility checks. A successful install is not a security audit or quality guarantee.
 - [deepseek-harness-plugin-mcp](https://github.com/bobleer/deepseek-harness-plugin-mcp): lets other Agents discover, inspect, install, and invoke DSH plugins through MCP; installation and runtime are disabled by default and produce their respective side effects only when `--allow-install` / `--allow-runtime` is explicitly enabled.
 - [dsh-payload-capture](https://github.com/Moeblack/dsh-payload-capture): captures and stores outbound model API Payloads for request-assembly debugging.
 - [dsh-custom-tool](https://github.com/omdsh-dev/dsh-custom-tool): creates and manages sandboxed JavaScript tools through a Monaco editor.

@@ -156,7 +156,8 @@ Git リポジトリからインストールする場合は、commit を固定し
 
 | プロジェクト | プラットフォーム／形態 | 説明 |
 | --- | --- | --- |
-| [DeepSeek Harness Desktop (anywhere-labs)](https://github.com/anywhere-labs/deepseek-harness-desktop) | macOS (Apple Silicon) / Windows · Electron · 初期段階 | 公式 Runtime と Web UI を、ローカルサービスのライフサイクル管理、システムトレイ、デスクトップウィンドウとともにパッケージ化。現在は `v0.1.0` で、プラグインマーケット、モバイル遠隔操作、Channels はまだ計画段階 |
+| [DeepSeek Harness Desktop (anywhere-labs)](https://github.com/anywhere-labs/deepseek-harness-desktop) | macOS (Apple Silicon) / Windows · Electron | 公式 Runtime と Web UI を、ローカルサービスのライフサイクル管理、システムトレイ、デスクトップウィンドウとともにパッケージ化。`v2.0.0` ではデスクトップ Profile と pnpm サービスを提供し、プラグインマーケット、モバイル遠隔操作、Channels は引き続き計画段階 |
+| [dsh-desktop](https://github.com/bruc3van/dsh-desktop) | macOS / Windows · Electron · 初期段階 | 公式 Web UI を変更せず再利用し、長時間タスクをトレイで常駐させる。Renderer の Node 連携を無効化し、Navigation を制限し、更新パッケージを SHA-256 で検証するが、Agent プロセスは通常ユーザー相当のファイル権限を持ち、配布パッケージは正式な開発者署名を取得していない |
 | [DeepSeek Harness Desktop (steven-kid)](https://github.com/steven-kid/deepseek-harness-desktop) | macOS / Windows / Linux · Electron · 初期段階 | 公式 Web UI を維持する最小構成のシェル。ランダムなループバックポート、Electron サンドボックス、`contextIsolation` を採用し、各プラットフォームの配布物で起動スモークテストを実施。macOS 版は未公証、Windows 版は商用コード署名なし |
 | [DeepSeek Harness Desktop App](https://github.com/vibeinging/deepseek-harness-desktop-app) | macOS / Windows · Electron · 初期ワークベンチ | 同じ DSH Runtime 経路にプロジェクト、Git Worktree、ブラウザ、Canvas、Site、Office 成果物を追加。現在は `v0.0.1` で、インストールパッケージの実機検証はまだ初期段階 |
 | [TinyWhale](https://github.com/aimierbear/TinyWhale) | macOS · Electron · ディストリビューション Fork | `deepseek-ai/deepseek-harness` を直接 Fork して独立デスクトップシェルを追加。既存 Web UI に接続するか、完全な `dsh web` Runtime を起動するため、プラグインではない |
@@ -171,6 +172,7 @@ Git リポジトリからインストールする場合は、commit を固定し
 | [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | TUI Bundle | Claude Code 風の全画面ターミナル、ストリーミング状態、コンテキスト計器、Session のロールバック |
 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | TUI Bundle | Tianshu から発展した完全なターミナル操作レイヤー。状態は DSH Session イベントストリームから取得 |
 | [dsh-tui](https://github.com/openguardrails/dsh-tui) | TUI Bundle · 初期段階 | ローカル DeepSeek とオフライン実行に対応。活発に開発中で、移植前のテストスイートはまだ動作していない |
+| [dsh-mini-tui](https://github.com/boxeryao/dsh-mini-tui) | TUI プラグイン · 初期段階 | DSH Runtime に直接接続する軽量ターミナル UI。MIT、`v0.2.0`。npm から導入でき、DSH `0.1.0-rc.6` で開発・テスト済み |
 | [Orbis](https://github.com/icodesign/orbis) | モバイル遠隔操作 · Beta | DSH プラグインによりデバイスのペアリング、エンドツーエンド暗号化転送、複数デバイスのリアルタイム更新を実現 |
 | [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | Web UI コレクション | タスクボード、Git Graph、モバイル UI、スキン、ペット、実行統計などのコンポーネントを収録 |
 | [dsh-web](https://github.com/Tom6814/dsh-web) | Docker Web · 初期段階 | Docker で完全な Web UI、ワークスペース、プラグインマーケットを展開。開発は急速に進んでおり、設定と Session を永続化するにはデータボリュームのマウントが必要 |
@@ -190,6 +192,7 @@ Git リポジトリからインストールする場合は、commit を固定し
 - [dsh-automation](https://github.com/titanwings/dsh-automation)：新しいルート Agent と Session で独立タスクをスケジュール実行し、定義の改訂履歴、実行履歴、明示的なワークスペースと権限境界を保持。
 - [dsh-plannotator](https://github.com/titanwings/dsh-plannotator)：Agent の計画をセクションごとに注釈し、構造化フィードバックを送信。下書き分離、バージョン固定、古い計画の拒否に対応。
 - [dsh-record-replay](https://github.com/humblebanana/dsh-record-replay)：macOS デスクトップワークフローを記録して Skill を生成。現在は Xcode Command Line Tools と、別途用意した `open-record-replay` のローカルソースが必要。
+- [dsh-science-workbench](https://github.com/poplarity/dsh-science-workbench)：Cell、図、フィードバック、再実行の系譜を Manifest に記録し、環境 Snapshot と入出力 Hash も保存する再現可能な科学ワークベンチ。MIT、`v0.1.1` で、まだ初期段階。
 
 ### コンテキスト・Session・入力
 
@@ -201,6 +204,7 @@ Git リポジトリからインストールする場合は、commit を固定し
 - [dsh-prompt-studio](https://github.com/Moeblack/dsh-prompt-studio)：システムプロンプト断片を編集し、リアルタイムプレビューを表示。
 - [dsh-turn-rewind](https://github.com/Anionex/dsh-turn-rewind)：永続的な Change Ledger に基づき、会話とワークスペース状態を巻き戻す。
 - [dsh-compaction-instant](https://github.com/KitDoesIt/dsh-compaction-instant)：LLM 要約を決定論的コンパイルに置き換え、`recall` / `search` で圧縮された内容を復元。内蔵 compactor の置換には npm alias が必要で、Runtime への比較的深い変更となる。
+- [dsh-whale-report](https://github.com/SenmuuuuW/dsh-whale-report)：Session Event Log から日次、週次、月次、年次、任意期間の Report を読み取り専用で生成し、Session 履歴は書き換えない。MIT、`v0.2.0` で、まだ初期段階。
 
 ### ブラウザ・ビジョン・インターフェース
 
@@ -222,6 +226,7 @@ Git リポジトリからインストールする場合は、commit を固定し
 ### サンドボックスと実行
 
 - [sandbox-micro](https://github.com/omdsh-dev/sandbox-micro)：fail-closed な microsandbox microVM 能力を提供。導入後も Provider とモデル向け Tool は個別に明示有効化するまで無効で、プラットフォーム検査に失敗しても無制限の Host 実行へフォールバックしない。テストディレクトリはあるが正式 Release はなく、`package.json` は BSD-3-Clause を宣言する一方でルートに `LICENSE` ファイルがないため初期段階。
+- [dsh-win32](https://github.com/sjh9714/dsh-win32)：Windows 向けに Sandbox 内で動作する永続 Shell、Minimal Mode、`doctor` 診断を提供。MIT、`v0.9.3`、DSH `0.1.0-rc.6` ベース。任意の Sandboxed Mode は GPLv2 BusyBox を Download し、pnpm がなければ `setup` が Corepack 経由で有効化するため、内容を理解したうえで実行する必要がある。
 
 ### テーマとスキン
 
@@ -236,6 +241,7 @@ Git リポジトリからインストールする場合は、commit を固定し
 - [dsh-multica-runtime](https://github.com/forrestchang/dsh-multica-runtime)：Multica と DSH を接続する初期段階の Runtime ブリッジ。現在パッケージは `private`、`UNLICENSED` とされ、インストールと配布の境界は未整備。
 - [dsh-lark-bot](https://github.com/PlutoKeating/dsh-lark-bot)：ローカル DSH を Feishu / Lark に接続し、ストリーミングカード、ワークスペース、Session 復元、承認を提供。AGPL-3.0 で、アプリ認証情報はモード `600` で保護されたローカルの平文設定に保存される。
 - [dsh-qqbot](https://github.com/tencent-connect/dsh-qqbot)：Tencent が管理する QQ Bot プラグイン。QR Code 連携、Private/Group Session の分離、再起動後の復元に対応。MIT、`0.1.0` で、連携時に認証情報をローカル Profile へ保存する。
+- [LoongSuite DSH Plugin](https://github.com/loongsuite/dsh-plugin)：Agent Turn、Model Call、Tool 実行、Token 使用量を OpenTelemetry GenAI Trace に変換し、Jaeger、Tempo、SigNoz、Langfuse などの OTLP Backend へ送信する。Apache-2.0、Beta で、DSH `0.1.0-rc.6` の Headless / Web Profile で検証済み。Content Capture は既定で無効だが、有効化すると Source Code、Credential、個人情報が外部へ送られる可能性がある。
 
 ## 開発ツール
 
@@ -243,7 +249,8 @@ Git リポジトリからインストールする場合は、commit を固定し
 - [dsh-fail-logger](https://github.com/Areium/dsh-fail-logger)：ツール失敗を秘匿化、重複排除、分類し、機械管理の Skill 記録へ蓄積。問題を記録するだけで、挙動を自動変更しない。
 - [deepseek-harness-action](https://github.com/Lixiaoyiao/deepseek-harness-action)：GitHub Actions 上で DSH による PR Review、CI 診断、自動修正、Issue → PR を実行。書き込み権限はデフォルトで無効で、検証は認証情報を持たないコンテナで行う。
 - [Awesome DSH Plugins Radar](https://github.com/AdamPlatin123/awesome-dsh-plugins)：発見、静的、Compile、Runtime の信号を分離して表示する自動互換性レーダー。MIT、データ変動が速く Release もなく、「Runtime で利用可能」は Security Audit や品質保証ではないため初期段階。
-- [dsh-suite](https://whyihaveyou.github.io/dsh-suite/)：中国語・英語対応の DSH エコシステム索引。プラグイン検索、`create-dsh-plugin` スキャフォールダー、基本的な互換性メタデータを提供。まだ初期段階で、互換性検査は静的な依存関係比較が中心。インストールと設定組み立ての検証は未完成。
+- [dsh-market](https://github.com/dsh-market/dsh-market)：`awesome-dsh-plugin` 掲載プロジェクトを DSH 内で閲覧、検索、インストール、更新、削除できるプラグインマーケット。MIT、`v1.9.0`。Build Script は既定で遮断され、Install Endpoint は Same-origin POST のみを受け付けるが、ディレクトリ掲載は安全性の保証ではない。
+- [dsh-suite](https://whyihaveyou.github.io/dsh-suite/)：中国語・英語対応の DSH エコシステム索引。プラグイン検索、`create-dsh-plugin` スキャフォールダー、基本的な互換性メタデータを提供。Catalog は毎時更新され、収録パッケージを一時 Profile へ毎日インストールして互換性を確認する。インストール成功は Security Audit や品質保証ではない。
 - [deepseek-harness-plugin-mcp](https://github.com/bobleer/deepseek-harness-plugin-mcp)：他の Agent が MCP 経由で DSH プラグインを発見、検査、インストール、呼び出し可能にする。インストールと Runtime はデフォルトで無効で、`--allow-install` / `--allow-runtime` を明示的に有効化した場合のみ、それぞれの副作用が発生する。
 - [dsh-payload-capture](https://github.com/Moeblack/dsh-payload-capture)：モデル API へ送信する Payload を取得・保存し、リクエスト組み立てのデバッグに利用。
 - [dsh-custom-tool](https://github.com/omdsh-dev/dsh-custom-tool)：Monaco エディターでサンドボックス化された JavaScript ツールを作成・管理。

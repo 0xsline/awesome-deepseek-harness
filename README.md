@@ -156,7 +156,8 @@ dsh --profile web --dump-config
 
 | 项目                                                      | 平台 / 形态                          | 说明                                                                                                                   |
 | --------------------------------------------------------- | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
-| [DeepSeek Harness Desktop (anywhere-labs)](https://github.com/anywhere-labs/deepseek-harness-desktop) | macOS (Apple Silicon) / Windows · Electron · 早期 | 基于官方 Runtime 与 Web UI 打包本地服务、系统托盘和桌面窗口；当前仅有 `v0.1.0`，插件市场、移动遥控和 Channels 仍在规划中 |
+| [DeepSeek Harness Desktop (anywhere-labs)](https://github.com/anywhere-labs/deepseek-harness-desktop) | macOS (Apple Silicon) / Windows · Electron | 基于官方 Runtime 与 Web UI 打包本地服务、系统托盘和桌面窗口；`v2.0.0` 已提供桌面 Profile 与 pnpm 服务，插件市场、移动遥控和 Channels 仍在规划中 |
+| [dsh-desktop](https://github.com/bruc3van/dsh-desktop) | macOS / Windows · Electron · 早期 | 原样复用官方 Web UI，并让长任务常驻托盘；关闭渲染层 Node 集成、限制导航、更新包校验 SHA-256，但 Agent 进程仍拥有普通用户级文件权限，发行包也尚未正式开发者签名 |
 | [DeepSeek Harness Desktop (steven-kid)](https://github.com/steven-kid/deepseek-harness-desktop) | macOS / Windows / Linux · Electron · 早期 | 保持原版 Web UI 的最小桌面壳，使用随机回环端口、Electron 沙箱和 `contextIsolation`，发行包通过跨平台启动冒烟测试；macOS 尚未公证，Windows 尚未商业签名 |
 | [DeepSeek Harness Desktop App](https://github.com/vibeinging/deepseek-harness-desktop-app) | macOS / Windows · Electron · 早期工作台 | 在同一 DSH 运行链上增加项目、Git Worktree、浏览器、Canvas、Site 和 Office 产物；当前为 `v0.0.1`，安装包仍处于实机验收早期 |
 | [TinyWhale](https://github.com/aimierbear/TinyWhale)      | macOS · Electron · 发行版 Fork       | 直接 Fork `deepseek-ai/deepseek-harness` 并增加独立桌面壳；连接已有 Web UI，或启动完整的 `dsh web` Runtime，不属于插件 |
@@ -171,6 +172,7 @@ dsh --profile web --dump-config
 | [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI)               | TUI Bundle        | Claude Code 风格全屏终端、流式状态、上下文仪表与会话回退                                          |
 | [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | TUI Bundle        | 基于天枢演进的完整终端交互层，状态来自 DSH 会话事件流                                             |
 | [dsh-tui](https://github.com/openguardrails/dsh-tui)            | TUI Bundle · 早期 | 支持本地 DeepSeek 与离线运行；仍处于活跃开发期，移植前的测试套件尚未恢复运行                      |
+| [dsh-mini-tui](https://github.com/boxeryao/dsh-mini-tui)        | TUI 插件 · 早期   | 直接连接 DSH Runtime 的轻量终端界面；MIT、`v0.2.0`，通过 npm 安装，并以 DSH `0.1.0-rc.6` 开发与测试 |
 | [Orbis](https://github.com/icodesign/orbis)                     | 移动远控 · Beta   | 通过 DSH 插件完成设备配对、端到端加密传输和多设备实时更新                                         |
 | [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui)       | Web UI 集合       | 汇总任务看板、Git Graph、移动界面、皮肤、宠物和运行统计等组件                                     |
 | [dsh-web](https://github.com/Tom6814/dsh-web)                   | Docker Web · 早期 | 通过 Docker 部署完整 Web 界面、工作区和插件市场；项目处于高速开发期，需挂载数据卷持久化配置与会话 |
@@ -190,6 +192,7 @@ dsh --profile web --dump-config
 - [dsh-automation](https://github.com/titanwings/dsh-automation)：按计划在全新根 Agent 和 Session 中执行独立任务，保留定义修订、运行历史和明确的工作区与权限边界。
 - [dsh-plannotator](https://github.com/titanwings/dsh-plannotator)：对 Agent 计划逐段批注并提交结构化反馈，提供草稿隔离、版本绑定和过期计划拒绝。
 - [dsh-record-replay](https://github.com/humblebanana/dsh-record-replay)：录制 macOS 桌面工作流并生成 Skill；当前依赖 Xcode Command Line Tools 和独立的 `open-record-replay` 本地源码副本。
+- [dsh-science-workbench](https://github.com/poplarity/dsh-science-workbench)：面向可复现实验的工作台，把 Cell、图表、反馈与重跑链路记录到 Manifest，并保存环境快照和输入输出哈希；MIT、`v0.1.1`，功能仍处早期。
 
 ### 上下文、会话与输入
 
@@ -201,6 +204,7 @@ dsh --profile web --dump-config
 - [dsh-prompt-studio](https://github.com/Moeblack/dsh-prompt-studio)：编辑系统提示词片段并提供实时预览。
 - [dsh-turn-rewind](https://github.com/Anionex/dsh-turn-rewind)：基于持久 Change Ledger 回退对话和工作区状态。
 - [dsh-compaction-instant](https://github.com/KitDoesIt/dsh-compaction-instant)：以确定性编译替代 LLM 摘要，并通过 `recall` / `search` 恢复被压缩内容；替换内置压缩器时需要使用 npm alias，属于较深的运行时改造。
+- [dsh-whale-report](https://github.com/SenmuuuuW/dsh-whale-report)：从会话事件日志只读生成日报、周报、月报、年报和自定义区间报告，不改写会话历史；MIT、`v0.2.0`，仍属早期。
 
 ### 浏览器、视觉与界面
 
@@ -222,6 +226,7 @@ dsh --profile web --dump-config
 ### 沙箱与执行
 
 - [sandbox-micro](https://github.com/omdsh-dev/sandbox-micro)：提供 fail-closed 的 microsandbox microVM 能力；安装后 Provider 与模型工具均默认关闭，必须分别显式启用，平台检查失败时不会降级为无约束宿主执行。含测试目录但尚无正式 Release；`package.json` 声明 BSD-3-Clause，但仓库根目录没有 `LICENSE` 文件，标注为早期。
+- [dsh-win32](https://github.com/sjh9714/dsh-win32)：为 Windows 提供沙箱内可运行的持久 Shell、极简模式和 `doctor` 体检；MIT、`v0.9.3`，基于 DSH `0.1.0-rc.6`。可选的沙箱模式会下载 GPLv2 BusyBox，缺少 pnpm 时 `setup` 会通过 Corepack 启用，需明确知情后执行。
 
 ### 主题与皮肤
 
@@ -236,6 +241,7 @@ dsh --profile web --dump-config
 - [dsh-multica-runtime](https://github.com/forrestchang/dsh-multica-runtime)：连接 Multica 与 DSH 的早期运行时桥接；当前包标记为 `private`、`UNLICENSED`，安装与分发边界仍不完整。
 - [dsh-lark-bot](https://github.com/PlutoKeating/dsh-lark-bot)：把本地 DSH 接入飞书 / Lark，提供流式卡片、工作区、会话恢复与审批；采用 AGPL-3.0，应用凭据以权限 `600` 的明文配置保存在本机。
 - [dsh-qqbot](https://github.com/tencent-connect/dsh-qqbot)：腾讯团队维护的 QQ Bot 插件，支持扫码绑定、私聊与群聊会话隔离及重启恢复；MIT、`0.1.0`，绑定过程会把凭据保存到本地 Profile。
+- [LoongSuite DSH Plugin](https://github.com/loongsuite/dsh-plugin)：把 Agent Turn、模型调用、工具执行和 Token 使用转成 OpenTelemetry GenAI Trace，可发送到 Jaeger、Tempo、SigNoz、Langfuse 等 OTLP 后端；Apache-2.0、Beta，已在 DSH `0.1.0-rc.6` 的 Headless 与 Web Profile 验证。内容采集默认关闭，启用后可能外发源码、凭据和个人数据。
 
 ## 开发工具
 
@@ -243,7 +249,8 @@ dsh --profile web --dump-config
 - [dsh-fail-logger](https://github.com/Areium/dsh-fail-logger)：脱敏、去重并分类记录工具失败，将机器维护的实录沉淀进 Skill；只记录问题，不自动修改行为。
 - [deepseek-harness-action](https://github.com/Lixiaoyiao/deepseek-harness-action)：在 GitHub Actions 中使用 DSH 做 PR Review、CI 诊断、自动修复和 Issue → PR；写权限默认关闭，并将验证放在无凭据容器中运行。
 - [Awesome DSH Plugins Radar](https://github.com/AdamPlatin123/awesome-dsh-plugins)：自动扫描并分别展示发现、静态、编译和运行级信号的兼容性雷达；MIT、数据高速变化且尚无 Release，“运行可用”不等于安全审计或内容质量，标注为早期。
-- [dsh-suite](https://whyihaveyou.github.io/dsh-suite/zh.html)：中英双语 DSH 生态索引，提供插件搜索、`create-dsh-plugin` 脚手架和基础兼容性元数据；当前处于早期阶段，兼容性检查主要为静态依赖比对，安装与配置组装验证尚未完成。
+- [dsh-market](https://github.com/dsh-market/dsh-market)：DSH 内置插件市场，可浏览、搜索、安装、更新和卸载登记在 `awesome-dsh-plugin` 的项目；MIT、`v1.9.0`。构建脚本默认阻止，安装端点仅接受同源 POST，但目录收录不代表安全背书。
+- [dsh-suite](https://whyihaveyou.github.io/dsh-suite/zh.html)：中英双语 DSH 生态索引，提供插件搜索、`create-dsh-plugin` 脚手架和基础兼容性元数据；目录每小时刷新，并每天把收录包安装到临时 Profile 做兼容性检查。安装成功不等于安全审计或质量保证。
 - [deepseek-harness-plugin-mcp](https://github.com/bobleer/deepseek-harness-plugin-mcp)：让其他 Agent 通过 MCP 发现、检查、安装和调用 DSH 插件；安装与运行默认关闭，只有显式启用 `--allow-install` / `--allow-runtime` 才会产生对应副作用。
 - [dsh-payload-capture](https://github.com/Moeblack/dsh-payload-capture)：捕获并落盘上行模型 API Payload，便于调试请求组装。
 - [dsh-custom-tool](https://github.com/omdsh-dev/dsh-custom-tool)：通过 Monaco 编辑器创建和管理沙箱化 JavaScript 工具。
