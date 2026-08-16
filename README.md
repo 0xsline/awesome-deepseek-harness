@@ -368,6 +368,7 @@ Management panel: Settings → Plugins.
 
 ## Output & Deliverables
 
+- [dsh-netcafe](https://github.com/mario03690/dsh-netcafe) — Hosted outcome tools bundle (MCP over one config row): md→docx/pptx/pdf, tables with in-code arithmetic checks, China-reachability testing from a real mainland vantage (+ daily-refreshed README badge, 30-day watch), Chinese calendar/holidays. Free anonymous quota; per-call cost reporting. *(Disclosure: by the ainetcafe.com team.)*
 - [folio](https://github.com/nyantused-cpun/folio) - Consulting document-generation engine (intake → memory → methodology → deliverable → proof) as a native DSH plugin stack: 15 tools, session-protocol events, L0 guard, agent preset; swappable methodology packs, zero-key start under DSH.
 - [dsh-report-studio](https://github.com/ciceroyang/dsh-report-studio) - Turn a DeepSeek Harness session into deliverable work reports (daily/weekly/handoff/article) with verifiable receipts; cross-session weekly aggregation and Feishu/Notion publishing.
 - [dsh-timeline-studio-plugin](https://github.com/MartinDelophy/dsh-timeline-studio-plugin) - Connects DSH to Timeline Studio for `.timeline` project inspection, semantic edit previews, transactional edits, and verified MP4 rendering.
