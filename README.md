@@ -375,6 +375,8 @@ Management panel: Settings → Plugins.
 - [dsh-timeline-studio-plugin](https://github.com/MartinDelophy/dsh-timeline-studio-plugin) - Connects DSH to Timeline Studio for `.timeline` project inspection, semantic edit previews, transactional edits, and verified MP4 rendering.
 - [plugin-session-export](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-session-export) - Export the append-only session log as human-readable Markdown or HTML, grouped by trajectory source.
 - [dsh-xiaohongshu-viral-note](https://github.com/xuboboo/dsh-xiaohongshu-viral-note) - Bundled Xiaohongshu/RED viral-note agent skill: hot-note research, note generation/rewrite, verification, authorized account analysis, QR login and controlled publishing.
+- [inspiration-deck-workshop](https://github.com/zjsthmjialin/inspiration-deck-workshop) - Registers the Inspiration Deck Workshop skill: local static HTML presentation decks (6 deck templates, 25+ layouts, themes & motion showroom) with a validate + PNG/PDF export CLI, zero runtime deps.
+- [pdf-background-gray-codex-skill](https://github.com/zjsthmjialin/pdf-background-gray-codex-skill) - Whitens gray/off-white scan backgrounds in image-based PDFs while preserving resolution, page geometry and anti-aliased text edges (lossless Flate write-back) via a single Python script.
 
 ## Notifications & Channels
 
@@ -500,6 +502,7 @@ Management panel: Settings → Plugins.
 - [dsh-wuyun-liuqi](https://github.com/dhicoc/dsh-wuyun-liuqi) - Complete wuyun-liuqi (five-evolutions-six-qi / 五运六气) Traditional Chinese Medicine skill pack as a DeepSeek Harness Cordis plugin: annual and guest-qi calculation, clinical pattern differentiation, and pathogenesis reasoning.
 - [dsh-plugin-writing-guard](https://github.com/xmutfyh/dsh-plugin-writing-guard) - Academic writing guard: local-regex linter for revision-process residue, defensive writing and AI-writing tells (em-dash abuse, not-X-but-Y, LLM word spikes, rule of three); writing_audit + writing_rules with incremental auto-audit on paper file writes.
 - [write-chinese-long-screenplay](https://github.com/mudden2380078550-creator/write-chinese-long-screenplay) - Chinese long-form screenwriting skill (SKILL.md): two author input blocks (background + character bible) feeding a causal-value engine, anti-AI-flavor review, and a continuity ledger for 100+ scene projects.
+- [commercial-ui-ux-codex-skill](https://github.com/zjsthmjialin/commercial-ui-ux-codex-skill) - Registers the commercial-ui-ux skill: task-aware commercial UI/UX/GUI design, review, repair and implementation (SaaS, dashboards, admin panels, forms, design systems) with a reference-doc system and quality gates.
 
 ## Related
 
