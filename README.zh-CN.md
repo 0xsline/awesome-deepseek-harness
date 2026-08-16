@@ -144,6 +144,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-voice](https://github.com/motongv/dsh-voice) - 语音输入（语音转文字）+ 回答朗读（Edge 神经网络音色）
 - [dsh-drag-and-drop](https://github.com/dsh-external/dsh-drag-and-drop) - 跨平台拖拽插入原始路径
 - [dsh-file-uploads](https://github.com/l541402398/dsh-file-uploads) - 从 Web 输入框上传任意本地文件，以待发送卡片展示，并在设置中管理已存文件。
+- [dsh-postman](https://github.com/zhousun55-byte/dsh-postman) - 输入框内上传文件与文件夹：图片以真实图片块加入消息，文本写入草稿，文件夹按目录结构落盘。
 - [dsh-input-history](https://github.com/dsh-external/dsh-input-history) - 输入历史
 - [dsh-multimedia-webui-input](https://github.com/dsh-external/dsh-multimedia-webui-input) - 多媒体文件/文件夹输入
 - [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) - 全保真导入 13 款编码 Agent 的历史会话（Claude Code / Codex / ChatGPT / Cursor / Gemini / Reasonix / opencode / ZCode / Grok Build / OpenClaw / Pi / Hermes / Kimi），导入后可在 DSH 续聊，并支持反向导出/同步回 Claude Code
