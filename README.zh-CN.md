@@ -122,7 +122,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-memory-evolve](https://github.com/dsh-external/dsh-memory-evolve) - 跨会话长期记忆 + 后台自我进化（五轨记忆/Git 分支感知/技能进化）
 - [dsh-memory-gate](https://github.com/GIT121995/dsh-memory-gate) - 有界本地长期记忆：CBDC（Claim→Belief→Decision→Consumption）权威门控 + SQLite/FTS5，检索到≠注入，use/verify/ignore 可解释决策与完整审计，/memory 命令管理，每次最多注入 3 条 1200 字符，不增加模型调用。
 - [dsh-engram-relay](https://github.com/dsh-external/dsh-engram-relay) - 内置 <1B 模型实现 100k 等效长记忆，因果图精准唤醒
-- [dsh-mneme](https://github.com/modusensus/dsh-mneme) - 记忆主权跨会话记忆：SQLite + 可编辑 Markdown 双写，autoDream 自我修正（update 决策）+ 失败追踪，完全离线语义检索（本地向量 / 精排 / 聚类），233 测试。
+- [dsh-mneme](https://github.com/modusensus/dsh-mneme) - DeepSeek Harness 结构化记忆引擎。离线语义搜索、实体-属性-时间轴、autoDream 自我巩固、可人工编辑的 Markdown 存储。
 - [dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) - Mnemon 驱动的本地记忆系统：三层记忆（运行时热记忆/项目档案 Documents/长期记忆体 Memory Spaces），受监督写回、检索工具与 Web UI
 - [url-manager](https://github.com/Piccolo123/url-manager) - Agent 先行链接收藏与知识管理：从任意平台保存链接，自动分类/打标签，全文搜索，共享分类，并以魔法链接卡片交付结果。零配置——Agent 首次使用自动注册。
 - [url-manager-mcp](https://github.com/Piccolo123/url-manager-mcp) - url-manager 的 MCP 服务端：21 个工具（mcp__url_manager__*），支持收藏/搜索/分类/共享与魔法链接交付，支持 stdio 与 streamable-http。
