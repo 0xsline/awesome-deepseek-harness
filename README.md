@@ -92,6 +92,7 @@ Management panel: Settings → Plugins.
 - [dsh-collaboration](https://github.com/Socialist-Sister/dsh-collaboration) - Multi-agent collaboration suite: user-configured specialist roster, persistent on-demand dispatch (team_call/team_message/team_status/team_close), clone instances, star-topology relay, model comparison and a multimodal vision bridge.
 - [dsh-plans](https://github.com/Optim-Agent/dsh-plans) - Planning-first agent preset: research repository changes into traceable Markdown plans, refine them through reviewer/criticizer subagent rounds, then execute as a DSH goal with a verifier checklist.
 - [dsh-agent-team-gui](https://github.com/toolclub/dsh-agent-team-gui) - Global persistent agent squads with per-agent model/tool policies: manage them in Settings, select and toggle one per conversation, then collaborate on normal sends in a fixed or model-planned order.
+- [cleverer-dsh](https://github.com/Classicoke/cleverer-dsh) - Execution-discipline plugin suite for DSH: anti-stuck failure interception, forced reflection, todo discipline, memory dedup, self-evolving skills (11 plugins + 6 skills, zero dependencies, 426 tests; measured 49% faster and 44% fewer tokens on the same task).
 
 ## Context & Search
 
