@@ -266,6 +266,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [DSH Deck](https://github.com/Socialist-Sister/dsh-deck) - 非官方 Electron 桌面外壳：复用官方 DSH Web UI 与数据，支持附加到现有 Harness、防止双写会话损坏、托盘常驻与单文件便携版。
 - [DshCockpit](https://github.com/Lxiayu/DshCockpit) - Electron 桌面驾驶舱：托盘常驻后台任务、Token 用量与成本统计（预算报警）、运行时自动更新与回滚、Quick Ask 全局热键、定时任务、会话全文检索。
 - [deepseek-harness-desktop](https://github.com/Easyhoov/deepseek-harness-desktop) - 非官方 Windows 进程内桌面应用，提供托盘常驻、原生通知与 IPC 桥接。
+- [dsh-shell](https://github.com/TaoSmile/dsh-shell) - 面向已安装 DeepSeek Harness 的零安装桌面壳：自动附着运行中的 `dsh web`，或复用现有 Node 环境自动拉起；Electron 壳（托盘）+ 双击即用的 Edge 启动器。
 - [dsh-chat-tools](https://github.com/yj060464-commits/dsh-chat-tools) - headless 终端伴侣工具链：chat.sh 连续对话 REPL（滚动上下文/决策点拍板/工作流实时透传/思考档位切换）+ 会话日志 LLM 自动总结，零依赖纯 bash+Python
 
 ## Browser & Remote
