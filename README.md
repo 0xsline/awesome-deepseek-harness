@@ -368,6 +368,7 @@ Management panel: Settings → Plugins.
 
 ## Output & Deliverables
 
+- [dsh-artifacts](https://github.com/zoahdev/dsh-artifacts) - Claude-Artifacts-style renderer: turns Markdown + JSON into self-contained HTML documents, cards, dashboards, and galleries (CLI + `artifact_render` tool, zero runtime dependencies).
 - [folio](https://github.com/nyantused-cpun/folio) - Consulting document-generation engine (intake → memory → methodology → deliverable → proof) as a native DSH plugin stack: 15 tools, session-protocol events, L0 guard, agent preset; swappable methodology packs, zero-key start under DSH.
 - [dsh-report-studio](https://github.com/ciceroyang/dsh-report-studio) - Turn a DeepSeek Harness session into deliverable work reports (daily/weekly/handoff/article) with verifiable receipts; cross-session weekly aggregation and Feishu/Notion publishing.
 - [dsh-timeline-studio-plugin](https://github.com/MartinDelophy/dsh-timeline-studio-plugin) - Connects DSH to Timeline Studio for `.timeline` project inspection, semantic edit previews, transactional edits, and verified MP4 rendering.
