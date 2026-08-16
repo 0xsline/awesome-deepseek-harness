@@ -494,6 +494,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 ## Skills
 
 - [write-chinese-long-screenplay](https://github.com/mudden2380078550-creator/write-chinese-long-screenplay) - 中文长剧本写作 skill（SKILL.md）：双输入板块（背景 + 人物卡）+ 因果—价值内核，内置去 AI 味审查与连续性台账，支撑 100 场以上长篇幅项目。
+- [dsh-skill-pack-security](https://github.com/PerryLink/dsh-skill-pack-security) - 安全审计技能包：八个 agent 技能（密钥扫描、依赖审计、供应链评审、提示注入审查、审计总编排、威胁建模、漏洞情报、事件响应），中英双版本，经零运行时代码的 provider 安装包挂载。
 
 ## Related
 
