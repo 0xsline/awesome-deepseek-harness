@@ -365,7 +365,7 @@ Management panel: Settings → Plugins.
 ## Output & Deliverables
 
 - [folio](https://github.com/nyantused-cpun/folio) - Consulting document-generation engine (intake → memory → methodology → deliverable → proof) as a native DSH plugin stack: 15 tools, session-protocol events, L0 guard, agent preset; swappable methodology packs, zero-key start under DSH.
-- [dsh-report-studio](https://github.com/ciceroyang/dsh-report-studio) - Turn a DeepSeek Harness session into deliverable work reports (daily/weekly/handoff/article) with verifiable receipts.
+- [dsh-report-studio](https://github.com/ciceroyang/dsh-report-studio) - Turn a DeepSeek Harness session into deliverable work reports (daily/weekly/handoff/article) with verifiable receipts; cross-session weekly aggregation and Feishu/Notion publishing.
 - [dsh-timeline-studio-plugin](https://github.com/MartinDelophy/dsh-timeline-studio-plugin) - Connects DSH to Timeline Studio for `.timeline` project inspection, semantic edit previews, transactional edits, and verified MP4 rendering.
 - [plugin-session-export](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-session-export) - Export the append-only session log as human-readable Markdown or HTML, grouped by trajectory source.
 - [dsh-xiaohongshu-viral-note](https://github.com/xuboboo/dsh-xiaohongshu-viral-note) - Bundled Xiaohongshu/RED viral-note agent skill: hot-note research, note generation/rewrite, verification, authorized account analysis, QR login and controlled publishing.
@@ -420,7 +420,7 @@ Management panel: Settings → Plugins.
 
 ## Plugin Ecosystem & Development
 
-- [dsh-plugin-starter](https://github.com/ciceroyang/dsh-plugin-starter) - Scaffold a battle-tested DSH plugin (bundle, tool, runtime skill, tests, CI) in one command, zero dependencies.
+- [dsh-plugin-starter](https://github.com/ciceroyang/dsh-plugin-starter) - Scaffold a battle-tested DSH plugin (bundle, tool, runtime skill, tests, CI) in one command, zero dependencies, with a --verify smoke run.
 - [Code2Skill](https://github.com/leechen298/Code2Skill) - Generate Functions, MCP tools, workflow Skills, and offline test packages from user-authorized source code.
 - [dsh-movein](https://github.com/sjh9714/dsh-movein) - Move a whole Claude Code setup into DSH in one command: skills, MCP servers, hooks, subagents and permission rules, with a dry-run moving estimate, a migration diff report, and a movein_from_claude_code agent tool.
 - [sandbase-skills](https://github.com/sandbaseai/sandbase-skills) - Verified SKILL.md catalog and installer with 88 installable skill bundles for DSH and compatible agents.
@@ -454,7 +454,7 @@ Management panel: Settings → Plugins.
 - [dsh-launch](https://github.com/Khellendros97/dsh-launch) - Detached-broker supervision of long-running services (dev servers, watchers, mock APIs) that survive turns, sessions and DSH restarts, with a Service sidebar tab (registered via better-sidebar's extension API) and service_start/stop/restart/list/logs model tools.
 - [dsh-env-switcher](https://github.com/Oyama-Mahiro-F/dsh-env-switcher) - One-click Windows/WSL2 environment switcher for DSH (coexistence mode): both environments run simultaneously on separate ports and switch from the web UI without killing any process.
 - [dsh-payload-capture](https://github.com/moeblack/dsh-payload-capture) - Capture every upstream model API payload to JSON (debug & observability).
-- [dsh-doctor](https://github.com/ciceroyang/dsh-doctor) - One-command local environment health check for DSH: node/pnpm/dsh versions, port 3080, DSH_HOME writability, profile manifests, session logs, zstd.
+- [dsh-doctor](https://github.com/ciceroyang/dsh-doctor) - One-command local environment health check for DSH: node/pnpm/dsh versions, port 3080, DSH_HOME writability, profile manifests, multi-frame session-log health scan, dsh-doctor/v1 envelope.
 - [dsh-observation-journal](https://github.com/Cavan-Ou/dsh-observation-journal) - Zero-touch runtime telemetry for DSH: every session auto-writes task, model tier, tools, failures, duration, status into a human-readable journal with a stats section (pure observer — no tools, no LLM calls, no injection).
 - [sandbase-harness](https://github.com/sandbaseai/sandbase-harness) - Persistent managed-agent runtime for DSH via a native bundle and stdio MCP, with sandboxed sessions, audit, and replay.
 - [dsh-workloads](https://github.com/yewenyell-lang/dsh-workloads) - Workspace-owned durable process supervision, readiness checks, and a Runtime Center for DeepSeek Harness.
