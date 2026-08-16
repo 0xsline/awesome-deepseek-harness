@@ -215,6 +215,7 @@ Management panel: Settings → Plugins.
 - [dsh-web-panel](https://github.com/dsh-external/dsh-web-panel) - Embedded terminal dock + Git Review + file view.
 - [dsh-web-review](https://github.com/CanglongCl/dsh-web-review) - Isolated web page previews with element annotations and visual adjustments that guide source edits.
 - [dsh-markdown-preview](https://github.com/GitHubJiKe/dsh-markdown-preview) - In-chat preview for produced files: click a produced-file chip to render Markdown (markdown-it + highlight.js), images, or plain text in the conversation, with system-app open kept one click away.
+- [dsh-i18n](https://github.com/Semidia/dsh-i18n) - Chinese localization for tool results: intercepts tool execution output and translates English markers (`[exit code]`, `[timed out]`, `[sandbox: ...]`, etc.) into Chinese, with a settings toggle.
 - [dsh-mobileweb-adapter](https://github.com/dsh-external/dsh-mobileweb-adapter) - Mobile/PWA layout adaptation + LAN WebSocket fix.
 - [dsh-subagent-tree](https://github.com/dsh-external/dsh-subagent-tree) - Subagent tree visualization.
 - [dsh-web-workflow-visualizer](https://github.com/dsh-external/dsh-web-workflow-visualizer) - Workflow visualization.
