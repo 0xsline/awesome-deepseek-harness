@@ -494,6 +494,7 @@ Management panel: Settings → Plugins.
 ## Skills
 
 - [write-chinese-long-screenplay](https://github.com/mudden2380078550-creator/write-chinese-long-screenplay) - Chinese long-form screenwriting skill (SKILL.md): two author input blocks (background + character bible) feeding a causal-value engine, anti-AI-flavor review, and a continuity ledger for 100+ scene projects.
+- [dsh-skill-pack-security](https://github.com/PerryLink/dsh-skill-pack-security) - Security-audit skill pack: eight agent skills (secret scan, dependency audit, supply-chain review, prompt-injection review, audit orchestration, threat modeling, vuln intel, incident response) in Chinese and English editions, installed through a zero-runtime-code provider bundle.
 
 ## Related
 
