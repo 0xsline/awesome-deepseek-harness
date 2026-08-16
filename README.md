@@ -201,6 +201,7 @@ Management panel: Settings → Plugins.
 - [dsh-plugin-cost](https://github.com/yweilai77-dev/dsh-plugin-cost) - Session cost estimate in the DSH Web composer dock (tokenUsage × configurable price table, one-click official-price refresh).
 - [dsh-balance-tide](https://github.com/huanyuLv/dsh-balance-tide) - DeepSeek account balance and session cost under the composer, with a live peak/off-peak pricing badge (Beijing time), a countdown to the next pricing switch, and hover price tables with usage advice.
 - [dsh-spend](https://github.com/nonewind/dsh-spend) - Token usage and estimated spend for the DSH web UI: floating panel with per-model / per-day / per-session stats and auto-detected billing plans.
+- [dsh-worktime-board](https://github.com/spacexun2/dsh-worktime-board) - Agent worktime dashboard: floating day/week/month stats, multi-dimension heatmap, thread attendance Gantt, school-year calendar, and a 12-realm xianxia score system for agent activity.
 - [dsh-live-stats](https://github.com/dsh-external/dsh-live-stats) - Live token estimates and generation TPS.
 - [dsh-view-modes](https://github.com/NigelYao/dsh-view-modes) - DSH Web output modes with Verbose, Normal, and Summary views, semantic grouping for tool calls and thinking, and live execution status.
 - [dsh-tps](https://github.com/dsh-external/dsh-tps) - TPS meter.
