@@ -499,7 +499,8 @@ Management panel: Settings → Plugins.
 - [dsh-restart](https://github.com/anweat/dsh-restart) - Restart DSH: configurable restart method (Node native / legacy PowerShell), post-restart continue prompt, optional watchdog auto-relaunch.
 - [dsh-tray](https://github.com/KAIbsb/dsh-tray) - Windows tray manager for DSH Web: start/restart/stop, crash auto-restart, status icon, and autostart.
 - [mirage-dsh](https://github.com/strukto-ai/mirage/tree/main/typescript/packages/dsh) - Swaps the filesystem and bash providers for a mirage virtual workspace: file tools and shell commands run over mounted resources (RAM, S3, Redis, Slack, Gmail, Notion, Postgres) instead of the host disk, with per-mount read/write/exec modes, per-command sandbox routing (monty, pyodide, quickjs in process; docker, e2b, daytona remote), and installed CLIs (git, gh, slack, linear, ntn, gws, or one you register) as head words in the virtual terminal.
-- [loongsuite/dsh-plugin](https://github.com/loongsuite/dsh-plugin) - OpenTelemetry GenAI tracing for DSH: one span tree per turn (steps, LLM calls with TTFT, tool executions, token usage), exported over standard OTLP to any compatible backend, content capture off by default.
+- [loongsuite/dsh-plugin](https://github.com/loongsuite/dsh-plugin)
+- [dsh-config-manager](https://github.com/xiajiajun516/dsh-config-manager) - Backup / export / import / migrate the whole DSH configuration as one portable ZIP, restore it on any machine with one click (host engine + Web UI). - OpenTelemetry GenAI tracing for DSH: one span tree per turn (steps, LLM calls with TTFT, tool executions, token usage), exported over standard OTLP to any compatible backend, content capture off by default.
 
 ## Domain & Specialist Skills
 
