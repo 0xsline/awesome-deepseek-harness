@@ -51,6 +51,7 @@
 - [Plugin Ecosystem & Development](#plugin-ecosystem--development)
 - [Runtime & Operations](#runtime--operations)
 - [Domain & Specialist Skills](#domain--specialist-skills)
+- [Tools & Utilities](#tools--utilities)
 - [Related](#related)
 - [致谢](#致谢)
 
@@ -379,6 +380,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [MicroMilo/upstream-radar](https://github.com/MicroMilo/upstream-radar) - 面向 DSH 插件的常驻依赖安全监控：追踪实际安装路径、OSV 漏洞、npm 发布与兼容性信号，并路由给了解项目的 DSH Agent。
 - [dsh-passwords](https://github.com/slywalker2006/dsh-passwords) - Turns DeepSeek Harness into a server-grade multi-tenant platform: remote access + auto HTTPS, subuser permissions & token/daily quotas, sandbox enforcement, encrypted auth & audit log.
 - [dsh-guardian](https://github.com/cdxiaodong/dsh-guardian) - Agent 安全护栏：拦截并审计所有工具调用，命中敏感操作就要求人工确认。
+- [dsh-safeguard](https://github.com/ZhijiangTang/dsh-safeguard) - 执行前护栏：拦截危险 shell 命令与密钥泄漏，阻止其运行。
 
 ## Output & Deliverables
 
@@ -523,6 +525,22 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-plugin-writing-guard](https://github.com/xmutfyh/dsh-plugin-writing-guard) - 论文写作守卫：本地正则扫描修改过程残留、防御性写作与 AI 写作痕迹（破折号滥用、不是X而是Y、LLM 高频词、三连排比）；writing_audit / writing_rules 工具，论文文件写入后增量自动审计。
 - [write-chinese-long-screenplay](https://github.com/mudden2380078550-creator/write-chinese-long-screenplay) - 中文长剧本写作 skill（SKILL.md）：双输入板块（背景 + 人物卡）+ 因果—价值内核，内置去 AI 味审查与连续性台账，支撑 100 场以上长篇幅项目。
 - [commercial-ui-ux-codex-skill](https://github.com/zjsthmjialin/commercial-ui-ux-codex-skill) - 注册 commercial-ui-ux 技能：以任务为中心的商业界面 UI/UX/GUI 设计、审查、修复与实现（SaaS、仪表盘、后台、表单、设计系统），带参考文档体系与质量门禁。
+
+## Tools & Utilities
+
+- [dsh-case](https://github.com/ZhijiangTang/dsh-case) - 命名大小写转换，支持 camel/snake/kebab/Pascal 等 8 种风格。
+- [dsh-clipboard](https://github.com/ZhijiangTang/dsh-clipboard) - 跨平台将文本写入系统剪贴板。
+- [dsh-cron-parse](https://github.com/ZhijiangTang/dsh-cron-parse) - 解析 cron 表达式为人类可读描述，并预览未来运行时间。
+- [dsh-dead-links](https://github.com/ZhijiangTang/dsh-dead-links) - 检查 Markdown 文档中的失效 http(s) 链接。
+- [dsh-fetch-file](https://github.com/ZhijiangTang/dsh-fetch-file) - 将 URL 下载为工作区文件：路径围栏、流式、200MB 上限。
+- [dsh-fmt](https://github.com/ZhijiangTang/dsh-fmt) - JSON/YAML/TOML/SQL 格式化与校验，错误带行列定位。
+- [dsh-handoff](https://github.com/ZhijiangTang/dsh-handoff) - 将当前会话一键导出为确定性 Markdown 交接文档。
+- [dsh-http](https://github.com/ZhijiangTang/dsh-http) - 结构化 HTTP 请求工具：返回状态码、耗时与大小，支持 basic/bearer 认证。
+- [dsh-jwt](https://github.com/ZhijiangTang/dsh-jwt) - 调试用 JWT 解码（不验签），并判断是否过期。
+- [dsh-password](https://github.com/ZhijiangTang/dsh-password) - 基于 crypto 生成强随机密码与 diceware 口令短语。
+- [dsh-pkg-info](https://github.com/ZhijiangTang/dsh-pkg-info) - 查询 npm/PyPI 包信息（版本、许可证、依赖）。
+- [dsh-url-tools](https://github.com/ZhijiangTang/dsh-url-tools) - URL 解析、去跟踪参数、编解码与重定向展开。
+- [dsh-when](https://github.com/ZhijiangTang/dsh-when) - 将自然语言相对时间（如「2 小时后」）解析为 ISO 时间，fail-fast。
 
 ## Related
 
