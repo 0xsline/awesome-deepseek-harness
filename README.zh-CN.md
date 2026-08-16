@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
 	<a href="README.md">English</a>&nbsp;&nbsp;|&nbsp;&nbsp;
 	<a href="README.zh-CN.md">简体中文</a>
 </p>
@@ -171,6 +171,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [solarized-dsh-theme](https://github.com/zhijun-dai/Solarized-dsh-theme) - Solarized + Selenized 主题插件：向 DSH Web 主题运行时注册四套忠实色板。
 - [arcana](https://github.com/GooodWei/arcana) - DeepSeek Harness 的悬浮命令甲板：把所有斜杠命令列成可执行按钮，悬停看介绍，按使用次数排序。
 - [dsh-aigc-canvas](https://github.com/dsh-external/dsh-aigc-canvas) - AIGC 画布插件（cordis）。
+- [pbr-render](https://github.com/dhb861832993-star/pbr-render) - 游戏美术 PBR 3D 模型预览：GLB/GLTF 带贴图纹理、环境光照、轨道控制，以及材质通道检查器（基础色/法线/粗糙度/金属度/AO/自发光/线框），通过 pbr3d 围栏与 pbr_render 工具使用。
 - [dsh-deepcel](https://github.com/dsh-external/dsh-deepcel) - Deepcel 电子表格皮肤与独立分发仓库。
 - [dsh-diff-viewer](https://github.com/dsh-external/dsh-diff-viewer) - PiUI 风格 Web diff 查看器，替换默认 diff 视图。
 - [dsh-mobile](https://github.com/dsh-external/dsh-mobile) - 手机端插件（cordis + dsh.plugin.json）。
