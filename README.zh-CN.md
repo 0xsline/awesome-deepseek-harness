@@ -137,6 +137,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-memory-plugin](https://github.com/volcengine/OpenViking/tree/main/examples/dsh-memory-plugin) - DeepSeek Harness 的 OpenViking 记忆/上下文插件：接入 OpenViking 的自进化上下文数据库，为 dsh 提供跨会话 Agent 记忆与知识 RAG。
 - [moguiyu/dsh-tavily](https://github.com/moguiyu/dsh-tavily) - Tavily 多密钥搜索：支持密钥轮换/故障转移、用量仪表盘与设置卡片。
 - [dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) - 持续自进化插件：从会话轨迹提炼提示词笔记、记忆、技能与子代理规范，并以版本化、可审计、可回滚的方式维护 Harness 状态。
+- [ccch713/deepddw](https://github.com/ccch713/deepddw) - deepDDW：为 DSH 补齐记忆 + 知识库 + 文档检索，局域网内任意设备（电脑/手机/平板）可访问——封装自企业级 AI 底座平台（团队就绪，支持 20 人以下小团队）。
 ## Input & Editing
 
 - [dsh-better-sidebar-plugin-office](https://github.com/dsh-external/dsh-better-sidebar-plugin-office) - better-sidebar 的 Office 集成。
