@@ -479,6 +479,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-capability-index](https://github.com/777-Zen/dsh-capability-index) - 插件库起飞前检查单：任务型请求时注入 Top-K 适用插件提示（带作者声明的 use_when/not_for 能力声明），让插件库利用率可预期、不靠运气。
 - [dsh-eval](https://github.com/hccccc01333/dsh-eval) - Agent 评测平台：benchmark YAML、headless dsh 运行、trace 指标、脚本化评分与 run 对比/报告。
 - [dsh-suite](https://github.com/whyihaveyou/dsh-suite) - DSH 插件活目录（785+ 插件，每小时刷新）+ 每日兼容性 CI + 中英双语可搜索目录站 + 内置插件商店。
+- [dshget-data](https://github.com/bobby-sheng/dshget-data) - [DSH Get](https://www.dshget.com/) 的公开标准化目录快照；提供 2,460 个 DeepSeek Harness 插件的中英双语搜索、分类、安装命令和来源标注。
 - [create-dsh-plugin](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/create-dsh-plugin) - 秒建 DSH 插件脚手架（tool/events/webui 模板、锁 `next` 版本、内置 `--verify` 冒烟验证）。
 - [plugin-manager](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-manager) - DSH Web UI 内置插件应用商店：目录浏览/搜索/一键安装/兼容徽章/已装列表。
 - [dsh-genie](https://github.com/swaylq/dsh-genie) - 把 `cordis_define` 的动态包固化为可跨重启存活的正式组合包；写包与注册 profile 层均不需要 pnpm、联网或构建授权。
