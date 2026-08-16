@@ -454,6 +454,7 @@ Management panel: Settings → Plugins.
 - [dsh-wildmon](https://github.com/swaylq/dsh-wildmon) - Pokemon-style catch-em-all: turns, tools and errors spawn wild encounters; throw balls, fill a 28-slot dex, team of six; zero tokens, command-only.
 - [dsh-survival](https://github.com/Socialist-Sister/dsh-survival-mode) - Minecraft-survival game mode as a DSH agent preset: hard-settled HP/hunger/day-night/mobs, vanilla crafting gates and anvil repair, plus a browser status bar; built on the official preset plugin spec.
 - [xiekai886/dsh-MusicPlayer](https://github.com/xiekai886/dsh-MusicPlayer) - A collapsible/expandable draggable floating music player with NetEase Cloud Music playlist import and song/artist search; chat and listen at the same time.
+- [zoahdev/dsh-subscribe](https://github.com/zoahdev/dsh-subscribe) - Steam-style plugin marketplace: subscribe on the web, sync with one command into a dsh profile; 500+ community plugins with verified curation and a zero-dependency CLI.
 - [dsh-vibe-pack](https://github.com/LeemanCheung/dsh-vibe-pack) - Transactional data-only configuration pack manager with integrity, ownership, preview, diff, and rollback safeguards.
 
 ## Plugin Ecosystem & Development
