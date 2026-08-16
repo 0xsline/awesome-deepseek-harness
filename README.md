@@ -403,6 +403,7 @@ Management panel: Settings → Plugins.
 
 ## Fun & Lifestyle
 
+- [dsh-whale-companion](https://github.com/LeemanCheung/dsh-whale-companion) - Draggable whale companion with local progression, achievements, skins, and privacy-safe activity tracking.
 - [dsh-clippy](https://github.com/sjh9714/clippy-harness) - Clippy revived as an office assistant pet that reacts to real agent state, with a classic "illegal operation" dialog on failed turns.
 - [dsh-agent-rp](https://github.com/dsh-external/dsh-agent-rp) - SillyTavern migration and next-generation agent roleplay for DSH.
 - [dsh-emoji](https://github.com/dsh-external/dsh-emoji) - Emoji plugin (cordis).
