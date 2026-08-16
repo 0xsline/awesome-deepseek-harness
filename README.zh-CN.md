@@ -200,7 +200,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-whale-switch](https://github.com/bowen507/dsh-whale-switch) - 最小开关闭环：桌面快捷方式启动 dsh web + 右上角鲸鱼动画退出按钮（悬停升起、点击俯冲入水后优雅退出并关页）。
 - [dsh-homepage-skin](https://github.com/yushi-xxh/dsh-homepage-skin) - 给 dsh web 铺上 DeepSeek Harness 首页同款背景：WebGL 流体光效、点线网格与数字鲸鱼，深浅双主题。
 - [dsh-plugin-help](https://github.com/Semidia/dsh-plugin-help) - 已安装插件操作说明汇总面板：右下角悬浮 📖 按钮，中文标题优先、默认全部展开 README、蓝色圆形序号徽标、每个插件一键更新（`dsh plugin update`，环回端点）。
-- [dsh-mcp-panel](https://github.com/PerryLink/dsh-mcp-panel) - 官方 MCP 客户端的只读运行时管理面板：/mcp 命令与设置页 MCP 页签展示连接状态、已注册工具、错误与重连计数，脱敏展示并提供启停 patch 建议。
+- [dsh-mcp-panel](https://github.com/PerryLink/dsh-mcp-panel) - 官方 MCP 客户端（dsh-mcp-client）的管理控制台：/mcp 命令与设置页 MCP 页签提供服务器增删改（审批门 + 自动备份的 profile 写入）、走官方工具管线的工具试用台、健康诊断与连接状态。
 - [dsh-premium-themes](https://github.com/xiaoyanzi191/dsh-premium-themes) - 8 套精选配色方案与自定义调色板导入（名称+方案+种子色推导完整 token 映射），设置页「调色板」行，热插拔安装。
 
 ## Dashboards & Session UX
