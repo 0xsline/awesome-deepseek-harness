@@ -446,6 +446,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-super-injector](https://github.com/dsh-external/dsh-super-injector) - super-injector 插件（cordis）
 - [dsh-mcp-manager](https://github.com/hyqhyq3/dsh-mcp-manager) - MCP 服务器管理器：设置页添加服务器，OAuth（PKCE + 动态客户端注册）或静态 token 认证，工具注册为 mcp__<name>__*
 - [dsh-recommend](https://github.com/zp-home/dsh-recommend) - 插件透明排行与推荐：每日自动抓取 dsh-plugin 话题生态、公开评分模型，提供榜单/搜索/推荐工具与设置页排行榜。
+- [dsh-capability-index](https://github.com/777-Zen/dsh-capability-index) - 插件库起飞前检查单：任务型请求时注入 Top-K 适用插件提示（带作者声明的 use_when/not_for 能力声明），让插件库利用率可预期、不靠运气。
 - [dsh-eval](https://github.com/hccccc01333/dsh-eval) - Agent 评测平台：benchmark YAML、headless dsh 运行、trace 指标、脚本化评分与 run 对比/报告。
 - [dsh-suite](https://github.com/whyihaveyou/dsh-suite) - DSH 插件活目录（785+ 插件，每小时刷新）+ 每日兼容性 CI + 中英双语可搜索目录站 + 内置插件商店。
 - [create-dsh-plugin](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/create-dsh-plugin) - 秒建 DSH 插件脚手架（tool/events/webui 模板、锁 `next` 版本、内置 `--verify` 冒烟验证）。

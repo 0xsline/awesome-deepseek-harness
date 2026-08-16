@@ -447,6 +447,7 @@ Management panel: Settings → Plugins.
 - [dsh-super-injector](https://github.com/dsh-external/dsh-super-injector) - Super-injector (cordis).
 - [dsh-mcp-manager](https://github.com/hyqhyq3/dsh-mcp-manager) - MCP server manager: Settings page with OAuth (PKCE + dynamic client registration) or static-token auth; tools registered as mcp__<name>__*.
 - [dsh-recommend](https://github.com/zp-home/dsh-recommend) - Transparent plugin rankings and recommendations: daily auto-fetched dsh-plugin topic data, open scoring model, rank/search/recommend tools and a settings-page leaderboard.
+- [dsh-capability-index](https://github.com/777-Zen/dsh-capability-index) - Pre-flight plugin-library check for DSH agents: task-type requests trigger a Top-K hint of suitable plugins with use_when/not_for capability declarations, making plugin usage predictable instead of opportunistic.
 - [dsh-eval](https://github.com/hccccc01333/dsh-eval) - Agent evaluation platform: benchmark YAML, headless dsh runs, trace-based metrics, scripted grading, and run compare/report.
 - [dsh-suite](https://github.com/whyihaveyou/dsh-suite) - Living DSH plugin directory (785+ plugins, refreshed hourly) with a daily compatibility CI, a bilingual searchable catalog site, and an in-app plugin store.
 - [create-dsh-plugin](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/create-dsh-plugin) - Scaffold a DSH plugin in seconds (tool / events / webui templates, `next`-tag version pinning, built-in `--verify` smoke test).
