@@ -381,6 +381,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Output & Deliverables
 
+- [dsh-artifacts](https://github.com/zoahdev/dsh-artifacts) - Claude Artifacts 式渲染：把 Markdown + JSON 变成自包含 HTML 文档/卡片/仪表盘/画廊（CLI + `artifact_render` 工具，零运行时依赖）。
 - [folio](https://github.com/nyantused-cpun/folio) - Folio（兰亭）：咨询文档生成引擎（接案 → 记忆 → 方法论 → 交付物 → 凭证）的原生 DSH 插件栈：15 个工具、会话协议事件、L0 防护、Agent 预设；方法论包可替换，DSH 内零密钥起步。
 - [dsh-report-studio](https://github.com/ciceroyang/dsh-report-studio) - 把 DeepSeek Harness 会话一键变成工作日报/周报/交接文档/公众号文章，附可验证凭据；支持跨会话聚合周报与飞书/Notion 发布。
 - [dsh-trajectory](https://github.com/ciceroyang/dsh-trajectory) - 把 DeepSeek Harness 会话日志渲染成可分享的自包含 HTML 轨迹文档（回合、工具调用、Token 账本），附 SHA-256 审计戳。
