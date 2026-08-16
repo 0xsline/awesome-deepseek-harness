@@ -1,12 +1,12 @@
 <p align="center">
-	<a href="README.md">English</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-	<a href="README.zh-CN.md">简体中文</a>
+ <a href="README.md">English</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+ <a href="README.zh-CN.md">简体中文</a>
 </p>
 
 <br>
 
 <div align="center">
-	<img width="640" src="assets/banner.jpg" alt="Awesome DeepSeek Harness">
+ <img width="640" src="assets/banner.jpg" alt="Awesome DeepSeek Harness">
 </div>
 
 # Awesome DeepSeek Harness [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -14,18 +14,18 @@
 <!-- BANNER: luminous DeepSeek whale with agent-orchestration harness (1280×480) -->
 
 <p align="center">
-	<a href="#install">Install</a>&nbsp;&nbsp;&nbsp;
-	<a href="contributing.md">Contribution guide</a>&nbsp;&nbsp;&nbsp;
-	<a href="https://deepseekdocs.com/">DeepSeek Docs</a>&nbsp;&nbsp;&nbsp;
-	<a href="https://github.com/topics/dsh-plugin">Public plugin topic</a>&nbsp;&nbsp;&nbsp;
-	<a href="https://github.com/dsh-external/issues">Issues</a>&nbsp;&nbsp;&nbsp;
-	<a href="CATALOG.md">完整目录</a>&nbsp;&nbsp;&nbsp;
+ <a href="#install">Install</a>&nbsp;&nbsp;&nbsp;
+ <a href="contributing.md">Contribution guide</a>&nbsp;&nbsp;&nbsp;
+ <a href="https://deepseekdocs.com/">DeepSeek Docs</a>&nbsp;&nbsp;&nbsp;
+ <a href="https://github.com/topics/dsh-plugin">Public plugin topic</a>&nbsp;&nbsp;&nbsp;
+ <a href="https://github.com/dsh-external/issues">Issues</a>&nbsp;&nbsp;&nbsp;
+ <a href="CATALOG.md">完整目录</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
 
 <p align="center">
-	<b>Curated DeepSeek Harness (DSH) ecosystem: plugins, tools &amp; infrastructure. Sources: dsh-external/hub catalog and the public GitHub dsh-plugin topic.</b><br>
+ <b>Curated DeepSeek Harness (DSH) ecosystem: plugins, tools &amp; infrastructure. Sources: dsh-external/hub catalog and the public GitHub dsh-plugin topic.</b><br>
 </p>
 
 <br>
@@ -81,10 +81,9 @@ Management panel: Settings → Plugins.
 - [dsh-deep-research](https://github.com/dsh-external/dsh-deep-research) - Adaptive deep-research orchestrator (workflow engine).
 - [dsh-101](https://github.com/dsh-external/dsh-101) - DSH documentation reading mode.
 - [dsh-client-ui-plan-execute](https://github.com/dsh-external/dsh-client-ui-plan-execute) - Web Settings row for plan/execute model routing.
-
 - [dsh_workflow](https://github.com/dsh-external/dsh_workflow) - Dynamic workflow for DSH (placeholder).
 - [dsh-equip-engine](https://github.com/wuykjl/dsh-equip-engine) - Task-driven plugin equip engine: dual retrieval (curated rules + LLM semantic), combo scoring (synergy/conflict/cost/trust), conflict detection and install-command export.
-
+- [dsh-encrypt](https://github.com/yauntyour/DSH-Encrypt) - The DeepSeek Harness credential encryption plugin uses a password to perform full-process encryption and verification with AES-256-GCM and SHA3-256, temporarily decrypting at runtime while keeping memory secure.
 
 ## Agents & Orchestration
 
@@ -138,12 +137,12 @@ Management panel: Settings → Plugins.
 - [dsh-engramory](https://github.com/tinqiao-oss/engramory/tree/master/adapters/dsh) - File-based curated memory: a line/byte-capped `MEMORY.md` index plus one markdown file per fact, versioned with git and readable without a tool. The cap is enforced through `ctx.tools.guard()` rather than asked for in a prompt, and the protocol is registered as a runtime skill; the same store is also read by Claude Code, Codex, Kiro, and OpenClaw.
 - [plur-ai/dsh-plugin](https://github.com/plur-ai/dsh-plugin) - PLUR persistent memory: engrams are rendered into the system prompt on each assembly rather than sitting behind a tool call, so recall needs no round trip and the block never accumulates in context; fully local search (BM25 + BGE), plain YAML storage you can edit, per-workspace scoping, and a /plur-memory viewer.
 
-
 - [dsh-memory-plugin](https://github.com/volcengine/OpenViking/tree/main/examples/dsh-memory-plugin) - OpenViking memory/context plugin for DeepSeek Harness: connects dsh to OpenViking's self-evolving context database for cross-session agent memory and knowledge RAG.
 - [moguiyu/dsh-tavily](https://github.com/moguiyu/dsh-tavily) - Tavily search with multiple API keys, key rotation/failover, usage gauge, and a settings card for DSH.
 - [dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) - Continual self-evolution: versioned, auditable, rollback-safe harness state (prompt notes, memories, skills, subagent specs) refined from session trajectories.
 
 - [ccch713/deepddw](https://github.com/ccch713/deepddw) - deepDDW: memory + knowledge base + document search for DSH, reachable from ANY device on your LAN — built on a production-grade AI platform (team-ready, up to ~20 people).
+
 ## Input & Editing
 
 - [dsh-better-sidebar-plugin-office](https://github.com/dsh-external/dsh-better-sidebar-plugin-office) - Office integration for DSH-better-sidebar.
@@ -170,7 +169,6 @@ Management panel: Settings → Plugins.
 - [dsh-attachment-upload](https://github.com/lbh1nb/dsh-plugins/tree/main/packages/dsh-attachment-upload) - Composer attach button: uploads files into the workspace's .dsh-attachments directory and inserts the path into the draft.
 - [dsh-steer-button](https://github.com/lbh1nb/dsh-plugins/tree/main/packages/dsh-steer-button) - Always-visible steer button in the composer: one click injects the draft into the running turn (equals Ctrl/Cmd+Enter).
 - [Boliban/dsh-enter-customizer](https://github.com/Boliban/dsh-enter-customizer) - Take over the system input shortcuts for the chat input box and configure behavior independently for each shortcut.
-
 
 - [PerryLink/dsh-composer-history](https://github.com/PerryLink/dsh-composer-history) - Terminal-style input history for the web composer: edge-first arrow-key recall with exact draft/caret restore, browser-local persisted history, Ctrl+R reverse search, and sliding-context awareness (compaction summaries join recall and search).
 
@@ -255,6 +253,7 @@ Management panel: Settings → Plugins.
 
 - [dsh-cost-crystal](https://github.com/xxvk/dsh-cost-crystal) - Floating cost crystal for the DSH Web UI: balance card, real-time tok/s, peak/off-peak billing countdown, last-24h spend, and a 🔮 next-message cost forecast, all timezone-aware.
 - [dsh-homepage-skin](https://github.com/yushi-xxh/dsh-homepage-skin) - Brings the DeepSeek Harness homepage background to DSH Web: WebGL fluid light, dot-line grid and a digital whale, with dark and light palettes.
+
 ## IDE & Clients
 
 - [dsh4vscode](https://github.com/DoggyHU/dsh4vscode) - VS Code chat windows backed by the DSH agent: OpenCode-style independent sessions, model auto-routing (Flash/Pro/Pro Max).
@@ -280,7 +279,6 @@ Management panel: Settings → Plugins.
 - [browser4-dsh](https://github.com/dsh-external/browser4-dsh) - Browser4 AI-native browser engine (skills).
 - [dsh-browser-runtime](https://github.com/anweat/dsh-browser) - Self-contained browser runtime plugin: Playwright (chromium) + OpenCLI as plugin-local deps (global reuse fallback), exposes a `browser` service and interactive browser tools.
 - [dsh-computer-use](https://github.com/ZRui-C/dsh-computer-use) - Text-first computer use: background Chromium control via Playwright/CDP plus accessibility-first macOS control; actions stay pinned to the correct process and window without taking the user's pointer (Developer ID signed, notarized Universal 2 DMG).
-
 
 ## Models & Inference
 
@@ -359,7 +357,6 @@ Management panel: Settings → Plugins.
 - [dsh-report-studio](https://github.com/ciceroyang/dsh-report-studio) - Turn a DeepSeek Harness session into deliverable work reports (daily/weekly/handoff/article) with verifiable receipts.
 
 - [dsh-timeline-studio-plugin](https://github.com/MartinDelophy/dsh-timeline-studio-plugin) - Connects DSH to Timeline Studio for `.timeline` project inspection, semantic edit previews, transactional edits, and verified MP4 rendering.
-
 
 - [plugin-session-export](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-session-export) - Export the append-only session log as human-readable Markdown or HTML, grouped by trajectory source.
 - [dsh-xiaohongshu-viral-note](https://github.com/xuboboo/dsh-xiaohongshu-viral-note) - Bundled Xiaohongshu/RED viral-note agent skill: hot-note research, note generation/rewrite, verification, authorized account analysis, QR login and controlled publishing.
@@ -462,7 +459,6 @@ Management panel: Settings → Plugins.
 - [dsh-adb](https://github.com/SamXiaBing/dsh-adb) - ADB device & bench operations: device discovery, structured logcat (background streaming), apk install, file pull/push, dumpsys performance snapshots.
 - [dsh-restart](https://github.com/anweat/dsh-restart) - Restart DSH: configurable restart method (Node native / legacy PowerShell), post-restart continue prompt, optional watchdog auto-relaunch.
 
-
 - [dsh-suite](https://github.com/whyihaveyou/dsh-suite) - Living DSH plugin directory (785+ plugins, refreshed hourly) with a daily compatibility CI, a bilingual searchable catalog site, and an in-app plugin store.
 - [create-dsh-plugin](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/create-dsh-plugin) - Scaffold a DSH plugin in seconds (tool / events / webui templates, `next`-tag version pinning, built-in `--verify` smoke test).
 - [plugin-manager](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-manager) - In-app plugin store for the DSH Web UI: browse, search, one-click install, compat badges, installed list.
@@ -486,7 +482,7 @@ Management panel: Settings → Plugins.
 ## Science & Research
 
 - [dsh-openmaic](https://github.com/dsh-external/dsh-openmaic) - Generate interactive OpenMAIC AI classrooms.
-- [dsh-science](https://github.com/biociao/dsh-science) - Claude Science-style research workbench: ReAct research-loop engine (research_* tools), versioned artifacts with provenance (artifact_* tools), and 10 science skills for genomics/pathogens/bioinformatics.
+- [dsh-science](https://github.com/biociao/dsh-science) - Claude Science-style research workbench: ReAct research-loop engine (research_*tools), versioned artifacts with provenance (artifact_* tools), and 10 science skills for genomics/pathogens/bioinformatics.
 - [dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) - Complete reverse-skill pack (85 SKILL.md) as a DeepSeek Harness Cordis plugin: reverse engineering, authorized pentesting and security-research skill router.
 - [dsh-grok-geo](https://github.com/xuboboo/dsh-grok-geo) - GEO brand audit skill bundle: AI-search visibility, recommendations, citations, competitor presence and content-gap diagnosis across 17+ AI engines (ChatGPT/Perplexity/Claude/豆包/DeepSeek/Kimi/文心一言).
 - [dsh-rigorquant](https://github.com/linxichen/dsh-rigorquant) - Agent preset + skill for unattended empirical/computational mathematics research (econ/finance/portfolio): walled multi-agent exploration, dual-track ground-truth derivation, adversarial counterexample-only audit, four-part pre-implementation check battery, and a jacobian/Lean escalation lane.
