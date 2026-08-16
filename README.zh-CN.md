@@ -325,6 +325,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Git & Engineering
 
+- [gongyijie85/dsh-repo-setup](https://github.com/gongyijie85/dsh-repo-setup) - 只读仓库体检引导工具（repo_setup_scan）：识别技术栈/测试/文档/git/数据库线索，给出插件、MCP 与卫生文件的安装建议（claude-code-setup 对应版）。
 - [dsh-git-identity](https://github.com/dsh-external/dsh-git-identity) - Git 提交固定环境作者身份（gh 登录账号 + noreply 邮箱）
 - [dsh-gh-bridge](https://github.com/dsh-external/dsh-gh-bridge) - macOS Keychain GitHub token 桥入 sandbox gh
 - [dsh-tool-github](https://github.com/NEAZ71eve/dsh-tool-github) - GitHub REST API 工具 + 浏览器侧边栏面板：仓库/搜索/Issue/PR/评论、账号绑定与一键工作区集成。
@@ -484,6 +485,10 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Domain & Specialist Skills
 
+- [gongyijie85/mattpocock-skills-dsh](https://github.com/gongyijie85/mattpocock-skills-dsh) - Matt Pocock 完整发布技能集（25 个 SKILL.md：grilling、writing-for-agents、wait-what、TDD、code-review、wayfinder、ask-matt 路由）的 DSH 移植。
+- [gongyijie85/mattpocock-skills-dsh-zh](https://github.com/gongyijie85/mattpocock-skills-dsh-zh) - Matt Pocock 25 个技能正文全译中文（技术术语保留英文并附注释）。
+- [gongyijie85/dsh-ponytail](https://github.com/gongyijie85/dsh-ponytail) - Ponytail 最懒资深工程师模式：6 个技能，改编自 DietrichGebert/ponytail。
+- [gongyijie85/dsh-ecc](https://github.com/gongyijie85/dsh-ecc) - ECC（227k⭐ 操作员系统）273 个技能（95.8%）分四批移植到 DSH。
 - [dsh-learn-everything](https://github.com/cendaifeng/dsh-learn-everything) - 费曼学习法插件：讲解 → 复述 → 判定 → 回讲教学闭环，富 HTML 教学卡片（mermaid 图 + shiki 代码高亮）。
 - [zotero-harvest](https://github.com/dsh-external/zotero-harvest) - Zotero 文献库接入
 - [zotero-wave-rag](https://github.com/dsh-external/zotero-wave-rag) - Zotero RAG 检索
