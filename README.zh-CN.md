@@ -317,7 +317,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-smart-route](https://github.com/Semidia/dsh-smart-route) - 智能路由：对话栏按钮一键启用/停用，任一渠道报错（含 4xx）自动切换下一家；模型选择器显示链路名称但不暴露内部渠道/模型，支持多链路管理与设置页。
 - [dsh-sampling-sliders](https://github.com/Semidia/dsh-sampling-sliders) - 输入栏采样面板：temperature / maxTokens 滑杆，热调 + 持久化两种模式，经 agent/request 钩子作用于所有 Provider。
 - [dsh-service-control](https://github.com/Semidia/dsh-service-control) - 会话标题栏工具区的重启 / 关闭按钮：经 ctx.appExit 优雅关闭，通过计划任务调用启动器 `-ControlledRestart` 自动重启 `dsh web`。
-- [dsh-output-styles](https://github.com/PerryLink/dsh-output-styles) - 运行时切换模型输出风格（对标 Claude Code outputStyles）：/style 命令、按会话持久化、systemPrompt 注入与 Web 选择器。
+- [dsh-output-styles](https://github.com/PerryLink/dsh-output-styles) - 运行时切换模型输出风格（对标 Claude Code outputStyles：/style 命令、按会话持久化、Web 选择器），另加 output.render.* 呈现协议——渲染器注册表、按会话/按工具规则与 /export。
 - [NOirBRight/dsh-llm-ollama](https://github.com/NOirBRight/dsh-llm-ollama) — Ollama Cloud 原生聊天适配器：注册 `ollama-cloud` LLM 路由，原生模型发现（上下文窗口、视觉、推理、工具调用），并接入 web 搜索/抓取 provider。
 - [dsh-llm-inspector](https://github.com/cdxiaodong/dsh-llm-inspector) - 统一 LLM 请求/响应检查器：调 reasoning effort、外部思考(think)导出、流量与包分析。
 
