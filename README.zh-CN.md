@@ -47,9 +47,9 @@
 - [Fun & Lifestyle](#fun--lifestyle)
 - [Infrastructure & Development](#infrastructure--development)
 - [Data & Market](#data--market)
+- [Science & Research](#science--research)
 - [Skills](#skills)
 - [Related](#related)
-- [Science & Research](#science--research)
 - [Thanks](#thanks)
 
 ## Install
@@ -83,6 +83,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [dsh_workflow](https://github.com/dsh-external/dsh_workflow) - Dynamic Workflow for dsh（占位）。
 - [dsh-equip-engine](https://github.com/wuykjl/dsh-equip-engine) - 任务驱动插件配装引擎：双路检索（人工精选规则 + LLM 语义）、组合评分（协同/冲突/成本/信任）、冲突检测与安装命令导出。
+- [dsh-encrypt](https://github.com/yauntyour/DSH-Encrypt) - DSH 凭证加密插件：使用密码保护的 AES-256-GCM 存储、scrypt 密钥派生与 SHA3-256 完整性校验，仅在运行时临时解密。
 
 ## Agents & Orchestration
 
@@ -90,7 +91,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-collaboration](https://github.com/Socialist-Sister/dsh-collaboration) - 多智能体协同套件：用户可配置的专家名册 + 持久专家实例（可多分身）按需雇佣、星型拓扑追问/中转、团队状态面板、模型对比与多模态视觉桥。
 - [dsh-plans](https://github.com/Optim-Agent/dsh-plans) - 计划先行 Agent 预设：把仓库变更调研沉淀为 dsh-plans/ 下可追溯的 Markdown 计划，经 reviewer/criticizer 子代理多轮打磨，再作为 DSH goal 按验证清单执行。
 - [dsh-agent-team-gui](https://github.com/toolclub/dsh-agent-team-gui) - 全局持久 Agent 小队：每个成员独立配置模型与工具策略；在 Settings 中管理、按对话选择并开关协作，普通发送按固定顺序或由模型规划执行。
-- [cleverer-dsh](https://github.com/Classicoke/cleverer-dsh) - 执行纪律插件套件：死磕拦截（同参重试自动拒绝）、强制反思、任务规划提醒、记忆查重、经验自动沉淀技能（11 插件 + 6 技能，零依赖，426 项测试；同任务实测速度提升 49%、Token 省 44%）。
+- [cleverer-dsh](https://github.com/Classicoke/cleverer-dsh) - DSH 执行纪律套件：拦截同参重试、强制反思、约束待办执行、记忆查重，并将重复经验沉淀为技能（11 个插件 + 6 个技能）。
 
 ## Context & Search
 
