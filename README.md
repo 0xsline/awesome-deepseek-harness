@@ -160,7 +160,7 @@ Management panel: Settings → Plugins.
 - [dsh-attachment-upload](https://github.com/lbh1nb/dsh-plugins/tree/main/packages/dsh-attachment-upload) - Composer attach button: uploads files into the workspace's .dsh-attachments directory and inserts the path into the draft.
 - [dsh-steer-button](https://github.com/lbh1nb/dsh-plugins/tree/main/packages/dsh-steer-button) - Always-visible steer button in the composer: one click injects the draft into the running turn (equals Ctrl/Cmd+Enter).
 - [Boliban/dsh-enter-customizer](https://github.com/Boliban/dsh-enter-customizer) - Take over the system input shortcuts for the chat input box and configure behavior independently for each shortcut.
-- [PerryLink/dsh-composer-history](https://github.com/PerryLink/dsh-composer-history) - Terminal-style input history for the web composer: edge-first arrow-key recall with exact draft/caret restore, browser-local persisted history, Ctrl+R reverse search, and sliding-context awareness (compaction summaries join recall and search).
+- [PerryLink/dsh-composer-history](https://github.com/PerryLink/dsh-composer-history) - Terminal-style input history for the web composer (edge-first arrows, draft/caret restore, Ctrl+R search, sliding-context awareness) plus a smart input layer: cross-session snippets, prompt templates with variables, reuse insights, and compaction-summary highlighting.
 
 ## UI, Themes & Interaction
 
