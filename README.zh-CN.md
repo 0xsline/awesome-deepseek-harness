@@ -92,6 +92,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-plans](https://github.com/Optim-Agent/dsh-plans) - 计划先行 Agent 预设：把仓库变更调研沉淀为 dsh-plans/ 下可追溯的 Markdown 计划，经 reviewer/criticizer 子代理多轮打磨，再作为 DSH goal 按验证清单执行。
 - [dsh-agent-team-gui](https://github.com/toolclub/dsh-agent-team-gui) - 全局持久 Agent 小队：每个成员独立配置模型与工具策略；在 Settings 中管理、按对话选择并开关协作，普通发送按固定顺序或由模型规划执行。
 - [cleverer-dsh](https://github.com/Classicoke/cleverer-dsh) - DSH 执行纪律套件：拦截同参重试、强制反思、约束待办执行、记忆查重，并将重复经验沉淀为技能（11 个插件 + 6 个技能）。
+- [february2015/dsh-taskswarm](https://github.com/february2015/dsh-taskswarm) - TaskPlane 的 DSH 移植版：按依赖分波、多 lane 并行执行（git worktree 隔离），任务包 + 跨模型评审 + 崩溃可恢复。
 
 ## Context & Search
 
@@ -399,6 +400,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [plugin-notify](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-notify) - 回合完成/出错/需审批时发 IM webhook 与本机通知（飞书/企微/钉钉/Slack/Discord/自定义）。
 - [dsh-monitor](https://github.com/AbnerAI/dsh-monitor) - 常驻后台监视器（文件收件箱/命令输出）：新消息一到即唤醒 Agent，是 Claude Code Monitor 工具的 Harness 对应实现。
 - [dsh-island](https://github.com/cdxiaodong/dsh-island) - 通过 Unix socket 把 DSH agent 的会话、工具调用与审批实时桥接到 CodeIsland macOS 刘海面板，可直接在面板上批准/拒绝。
+- [february2015/dsh-dingo](https://github.com/february2015/dsh-dingo) - 多对话并行的声音提醒 + 对话直达：当前对话当/当当（crisp 清脆档），其他对话叮/叮叮（soft 柔和档）+ 右上角小卡片，点一下直达对应对话。
 
 ## Fun & Lifestyle
 

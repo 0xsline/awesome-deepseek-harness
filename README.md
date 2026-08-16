@@ -93,6 +93,7 @@ Management panel: Settings → Plugins.
 - [dsh-plans](https://github.com/Optim-Agent/dsh-plans) - Planning-first agent preset: research repository changes into traceable Markdown plans, refine them through reviewer/criticizer subagent rounds, then execute as a DSH goal with a verifier checklist.
 - [dsh-agent-team-gui](https://github.com/toolclub/dsh-agent-team-gui) - Global persistent agent squads with per-agent model/tool policies: manage them in Settings, select and toggle one per conversation, then collaborate on normal sends in a fixed or model-planned order.
 - [cleverer-dsh](https://github.com/Classicoke/cleverer-dsh) - Execution-discipline suite for DSH with identical-retry interception, forced reflection, todo enforcement, memory deduplication, and experience-to-skill promotion (11 plugins + 6 skills).
+- [february2015/dsh-taskswarm](https://github.com/february2015/dsh-taskswarm) - DSH port of TaskPlane: dependency-ordered waves run in parallel git-worktree lanes, with task packets, cross-model review, and crash recovery.
 
 ## Context & Search
 
@@ -400,6 +401,7 @@ Management panel: Settings → Plugins.
 - [plugin-notify](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-notify) - IM webhook + local notifications on turn completion / errors / approval requests (Feishu, WeCom, DingTalk, Slack, Discord, custom).
 - [dsh-monitor](https://github.com/AbnerAI/dsh-monitor) - Persistent background watchers (file inbox / command output) that wake the agent on new messages; the harness analog of Claude Code's Monitor tool.
 - [dsh-island](https://github.com/cdxiaodong/dsh-island) - Bridge DSH agent sessions, tool calls, and approvals to the CodeIsland macOS notch panel over a Unix socket, with in-panel allow/deny.
+- [february2015/dsh-dingo](https://github.com/february2015/dsh-dingo) - Sound reminders with one-click jump for concurrent sessions: the current session gets crisp dang/dang-dang tones, other sessions a soft ding/ding-ding plus a top-right card that jumps straight to the replying conversation.
 
 ## Fun & Lifestyle
 
