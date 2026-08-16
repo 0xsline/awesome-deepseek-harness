@@ -475,6 +475,7 @@ Management panel: Settings → Plugins.
 - [dsh-tray](https://github.com/KAIbsb/dsh-tray) - Windows tray manager for DSH Web: start/restart/stop, crash auto-restart, status icon, and autostart.
 - [mirage-dsh](https://github.com/strukto-ai/mirage/tree/main/typescript/packages/dsh) - Swaps the filesystem and bash providers for a mirage virtual workspace: file tools and shell commands run over mounted resources (RAM, S3, Redis, Slack, Gmail, Notion, Postgres) instead of the host disk, with per-mount read/write/exec modes, per-command sandbox routing (monty, pyodide, quickjs in process; docker, e2b, daytona remote), and installed CLIs (git, gh, slack, linear, ntn, gws, or one you register) as head words in the virtual terminal.
 - [loongsuite/dsh-plugin](https://github.com/loongsuite/dsh-plugin) - OpenTelemetry GenAI tracing for DSH: one span tree per turn (steps, LLM calls with TTFT, tool executions, token usage), exported over standard OTLP to any compatible backend, content capture off by default.
+- [dsh-observe](https://github.com/PerryLink/dsh-observe) - Observability exporter for DSH: turn/step/tool/LLM spans and token/cost metrics from the session/event stream to OTLP and Langfuse, with sanitized prompt/completion capture, async batching, a bounded durable offline buffer, and retry with backoff — off by default.
 
 ## Domain & Specialist Skills
 
