@@ -247,6 +247,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-cost-crystal](https://github.com/xxvk/dsh-cost-crystal) - DSH Web UI 成本水晶球：余额卡片、实时 tok/s 速率、波峰/低峰计费倒计时、近 24h 消耗，以及 🔮 下一条消息消耗预测，全部时区感知。
 - [dsh-session-repair-ui](https://github.com/Semidia/dsh-session-repair-ui) - 会话头部的修复按钮：检测并修复工具调用 ID 对不上、空 call ID、禁用插件产生的未知事件、损坏的 zstd 尾部和缺失的末帧换行，写入前自动备份。
 - [plugin-team-board](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-team-board) - 多 agent 共享任务板（创建/认领/流转/查询），状态物化为 Cordis 协作用键。
+- [dsh-event-auditor](https://github.com/qing3a/dsh-event-auditor) - 事件流审计面板：观察事件类型/分发模式/计数/最近事件，帮助插件作者理解 harness 内部
 
 ## IDE & Clients
 
@@ -271,6 +272,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-shell](https://github.com/TaoSmile/dsh-shell) - 面向已安装 DeepSeek Harness 的零安装桌面壳：自动附着运行中的 `dsh web`，或复用现有 Node 环境自动拉起；Electron 壳（托盘）+ 双击即用的 Edge 启动器。
 - [dsh-chat-tools](https://github.com/yj060464-commits/dsh-chat-tools) - headless 终端伴侣工具链：chat.sh 连续对话 REPL（滚动上下文/决策点拍板/工作流实时透传/思考档位切换）+ 会话日志 LLM 自动总结，零依赖纯 bash+Python
 - [dsh-desktop](https://github.com/xiaoyanzi191/dsh-desktop) - DeepSeek Harness 的 Electron 桌面封装：双击即启动，自动管理 dsh Web 服务生命周期。
+- [dsh-companion](https://github.com/qing3a/dsh-companion) - 桌面壳（Rust 单 exe）：双击即用 DSH，自动装 Node、托盘、开机自启、插件市场
 
 ## Browser & Remote
 
@@ -350,6 +352,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-lsp-actions](https://github.com/PerryLink/dsh-lsp-actions) - LSP 动作面：诊断、格式化、补全、代码动作、符号、签名提示、inlay 提示与重命名工具，由真实语言服务器驱动。
 - [dsh-git-status](https://github.com/Wongzexu/dsh-git-status) - 专精于 Git 分支与状态处理：Git 状态浮窗，commit DAG 泳道图、未提交改动与 stash、行内 diff，右键分支/tag 切换、合并、重命名、删除、新建，一键拉取远程
 - [Starfie1d1272/dsh-github-skills](https://github.com/Starfie1d1272/dsh-github-skills) - 面向 DSH 的 GitHub 工作流 Skill Pack，覆盖 PR 分诊、review 反馈、GitHub Actions 诊断和安全的 draft PR 发布，并复用已有 GitHub/Git 能力。
+- [dsh-repo-context](https://github.com/qing3a/dsh-repo-context) - 把 git 状态与仓库规范动态注入 system prompt（官方 system-prompt 缝隙插件）
 
 ## Security & Governance
 
@@ -364,6 +367,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [MicroMilo/upstream-radar](https://github.com/MicroMilo/upstream-radar) - 面向 DSH 插件的常驻依赖安全监控：追踪实际安装路径、OSV 漏洞、npm 发布与兼容性信号，并路由给了解项目的 DSH Agent。
 - [dsh-passwords](https://github.com/slywalker2006/dsh-passwords) - DSH Web UI 登录网关：首次配置、bcrypt + 静态加密（AES-256-GCM/HMAC）、防暴力破解、审计日志、TLS 1.2+ 与 80→443 跳转、CSRF 与防嵌框。
 - [dsh-guardian](https://github.com/cdxiaodong/dsh-guardian) - Agent 安全护栏：拦截并审计所有工具调用，命中敏感操作就要求人工确认。
+- [dsh-plugin-verify](https://github.com/qing3a/dsh-plugin-verify) - 运行时行为验证 CLI：一条命令跑 mock-llm 完整 agent 循环，检查 waterfall 链与零副作用，产出可复现验证报告
 
 ## Output & Deliverables
 
