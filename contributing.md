@@ -37,6 +37,7 @@ Open the matching category list in the README (English) and `README.zh-CN.md` (C
 | Fun & Lifestyle | Pets, games, music, themes, and lifestyle plugins |
 | Plugin Ecosystem & Development | Registries, managers, catalogs, SDKs, and plugin authoring |
 | Runtime & Operations | Launchers, runtime management, observability, repair, and maintenance |
+| Tools & Utilities | Standalone CLI tools, formatters, parsers, and developer utilities |
 | Domain & Specialist Skills | Data, finance, science, research, writing, and specialist skills |
 
 No matching category? Propose a new one in your PR.
