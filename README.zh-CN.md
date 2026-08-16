@@ -294,7 +294,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-shell](https://github.com/TaoSmile/dsh-shell) - 面向已安装 DeepSeek Harness 的零安装桌面壳：自动附着运行中的 `dsh web`，或复用现有 Node 环境自动拉起；Electron 壳（托盘）+ 双击即用的 Edge 启动器。
 - [dsh-chat-tools](https://github.com/yj060464-commits/dsh-chat-tools) - headless 终端伴侣工具链：chat.sh 连续对话 REPL（滚动上下文/决策点拍板/工作流实时透传/思考档位切换）+ 会话日志 LLM 自动总结，零依赖纯 bash+Python
 - [dsh-desktop](https://github.com/xiaoyanzi191/dsh-desktop) - DeepSeek Harness 的 Electron 桌面封装：双击即启动，自动管理 dsh Web 服务生命周期。
-- [dsh-companion](https://github.com/qing3a/dsh-companion) - 桌面壳（Rust 单 exe）：双击即用 DSH，自动装 Node、托盘、开机自启、插件市场
+- [dsh-come](https://github.com/qing3a/dsh-come) - 桌面壳（Rust 单 exe）：双击即用 DSH，自动装 Node、托盘、开机自启、插件市场
 
 - [ccgui / desktop-cc-gui](https://github.com/zhukunpenglinyutong/desktop-cc-gui) - multi-engine AI 编程桌面客户端（Tauri）：统一接入 Claude Code、Codex、Gemini、OpenCode、DeepSeek Harness 等 CLI runtime，不是 DSH Web UI 外壳，也不是 `dsh-plugin`。
 
