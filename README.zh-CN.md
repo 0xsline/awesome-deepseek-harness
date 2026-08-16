@@ -447,6 +447,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [ui-status-label](https://github.com/dsh-external/ui-status-label) - 鲸鱼娘思考状态自定义标签（cordis）
 - [dsh-digipet](https://github.com/swaylq/dsh-digipet) - 数码宝贝式养成宠物：孵蛋、吃真实工作长大（回合、工具、报错都算营养），按工作方式走四条进化路线；零 token、纯命令交互。
 - [dsh-wildmon](https://github.com/swaylq/dsh-wildmon) - 宝可梦式捕捉收集：回合、工具、报错刷出野外遭遇，投球捕捉、集 28 格图鉴、组 6 只队伍；零 token、纯命令交互。
+- [dsh-survival](https://github.com/Socialist-Sister/dsh-survival-mode) - Minecraft 生存玩法 Agent 预设：引擎硬结算生命/饥饿/昼夜/怪物，原版配方合成解锁高级工具，铁砧修复，浏览器状态栏；按官方预设插件规范构建。
 - [xiekai886/dsh-MusicPlayer](https://github.com/xiekai886/dsh-MusicPlayer) - 可折叠/展开、自由拖动的悬浮音乐播放器，接入网易云音乐，支持歌单导入和按歌名或歌手搜索单曲导入，边对话边听歌。
 
 ## Plugin Ecosystem & Development
