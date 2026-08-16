@@ -364,7 +364,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 ## Output & Deliverables
 
 - [folio](https://github.com/nyantused-cpun/folio) - Folio（兰亭）：咨询文档生成引擎（接案 → 记忆 → 方法论 → 交付物 → 凭证）的原生 DSH 插件栈：15 个工具、会话协议事件、L0 防护、Agent 预设；方法论包可替换，DSH 内零密钥起步。
-- [dsh-report-studio](https://github.com/ciceroyang/dsh-report-studio) - 把 DeepSeek Harness 会话一键变成工作日报/周报/交接文档/公众号文章，附可验证凭据（报告与产物哈希）。
+- [dsh-report-studio](https://github.com/ciceroyang/dsh-report-studio) - 把 DeepSeek Harness 会话一键变成工作日报/周报/交接文档/公众号文章，附可验证凭据；支持跨会话聚合周报与飞书/Notion 发布。
 - [dsh-timeline-studio-plugin](https://github.com/MartinDelophy/dsh-timeline-studio-plugin) - 将 DSH 接入 Timeline Studio，可检查 `.timeline` 工程、预演语义编辑、事务式写入，并验证 MP4 渲染结果。
 - [plugin-session-export](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-session-export) - 把 append-only 会话日志导出为人可读的 Markdown/HTML，按轨迹来源（系统提示/思维链/工具调用/子 agent）分组。
 - [dsh-xiaohongshu-viral-note](https://github.com/xuboboo/dsh-xiaohongshu-viral-note) - 小红书爆款笔记 agent skill 插件：热门笔记研究、选题、种草文案生成/改写、合规校验、授权账号权重分析、扫码登录与受控发布。
@@ -419,7 +419,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Plugin Ecosystem & Development
 
-- [dsh-plugin-starter](https://github.com/ciceroyang/dsh-plugin-starter) - 一条命令生成实战验证过的 DSH 插件工程（bundle、工具、运行时 skill、单测、CI），零依赖免构建。
+- [dsh-plugin-starter](https://github.com/ciceroyang/dsh-plugin-starter) - 一条命令生成实战验证过的 DSH 插件工程（bundle、工具、运行时 skill、单测、CI），零依赖免构建，带 --verify 冒烟。
 - [Code2Skill](https://github.com/leechen298/Code2Skill) - 从用户授权的源码生成 Function、MCP 工具、工作流 Skill 与离线测试包。
 - [dsh-movein](https://github.com/sjh9714/dsh-movein) - 一条命令把整套 Claude Code 配置迁入 DSH：技能、MCP 服务器、hooks、子代理与权限规则，附 dry-run 迁移清单、迁移差异报告与 movein_from_claude_code 工具。
 - [sandbase-skills](https://github.com/sandbaseai/sandbase-skills) - 经校验的 SKILL.md 目录与安装器，为 DSH 和兼容 Agent 提供 88 个可安装技能包。
@@ -453,7 +453,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-launch](https://github.com/Khellendros97/dsh-launch) - 在独立 broker 进程中监督长驻服务（dev server、watcher、mock API），服务在对话回合结束、会话关闭、DSH 重启后继续运行；自带 Service 侧边栏 tab（经 better-sidebar 扩展 API 注入）与 service_start/stop/restart/list/logs 模型工具。
 - [dsh-env-switcher](https://github.com/Oyama-Mahiro-F/dsh-env-switcher) - Windows/WSL2 双环境一键切换插件（共存模式）：两个 DSH 实例分别在 3080/3081 端口同时运行，Web UI 内一键切换，不杀任何进程。
 - [dsh-payload-capture](https://github.com/moeblack/dsh-payload-capture) - 捕捉每一次上行模型 API payload 存为 JSON（调试与观测）
-- [dsh-doctor](https://github.com/ciceroyang/dsh-doctor) - DeepSeek Harness 本地环境一键体检：node/pnpm/dsh 版本、端口 3080、DSH_HOME 可写性、profile 清单、会话日志、zstd。
+- [dsh-doctor](https://github.com/ciceroyang/dsh-doctor) - DeepSeek Harness 本地环境一键体检：node/pnpm/dsh 版本、端口 3080、DSH_HOME 可写性、profile 清单、多帧会话日志健康扫描、dsh-doctor/v1 信封。
 - [dsh-observation-journal](https://github.com/Cavan-Ou/dsh-observation-journal) - 把 DeepSeek Harness 的零侵入运行事实遥测：每个会话自动把任务/模型档位/工具/失败/时长/状态写入人机共读观测卡并附统计区（纯观察者——零工具、零 LLM、零注入）。
 - [sandbase-harness](https://github.com/sandbaseai/sandbase-harness) - 通过原生 bundle 与 stdio MCP 接入 DSH 的持久化托管 Agent 运行时，提供沙箱会话、审计与回放。
 - [dsh-workloads](https://github.com/yewenyell-lang/dsh-workloads) - 为 DeepSeek Harness 提供工作区级持久进程托管、就绪检测与运行中心。
