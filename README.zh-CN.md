@@ -218,6 +218,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Dashboards & Session UX
 
+- [zoahdev/dsh-replay](https://github.com/zoahdev/dsh-replay) - 时间旅行调试器：从 `session.jsonl.zstd` 回放、可视化并 diff 会话完整轨迹（零依赖，Node ≥ 22.19）。
 - [dsh-session-cluster](https://github.com/dsh-external/dsh-session-cluster) - 会话聚类
 - [session-chatlog](https://github.com/dsh-external/session-chatlog) - 会话聊天记录
 - [dsh-session-archive](https://github.com/lbh1nb/dsh-plugins/tree/main/packages/dsh-session-archive) - 设置页查看归档会话并两步确认永久删除死会话（运行中会话锁定）。
