@@ -345,6 +345,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-output-styles](https://github.com/PerryLink/dsh-output-styles) - 运行时切换模型输出风格（对标 Claude Code outputStyles）：/style 命令、按会话持久化、systemPrompt 注入与 Web 选择器。
 - [NOirBRight/dsh-llm-ollama](https://github.com/NOirBRight/dsh-llm-ollama) — Ollama Cloud 原生聊天适配器：注册 `ollama-cloud` LLM 路由，原生模型发现（上下文窗口、视觉、推理、工具调用），并接入 web 搜索/抓取 provider。
 - [dsh-llm-inspector](https://github.com/cdxiaodong/dsh-llm-inspector) - 统一 LLM 请求/响应检查器：调 reasoning effort、外部思考(think)导出、流量与包分析。
+- [dsh-github](https://github.com/PerryLink/dsh-github) - 官方级 GitHub CI 集成：composite action.yml、轮询 PR 评审机器人（幂等行内评论 + status-check 门禁）以及 PR/issue 工具，所有写入走人工审批门。
 
 ## Git & Engineering
 

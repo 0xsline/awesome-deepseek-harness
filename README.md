@@ -346,6 +346,7 @@ Management panel: Settings → Plugins.
 - [dsh-output-styles](https://github.com/PerryLink/dsh-output-styles) - Runtime-switchable model output styles with Claude Code outputStyles parity: a /style command, per-session persistence, systemPrompt injection, and a web picker.
 - [NOirBRight/dsh-llm-ollama](https://github.com/NOirBRight/dsh-llm-ollama) - Ollama Cloud native chat adapter: registers an `ollama-cloud` LLM route with native model discovery (context windows, vision, thinking, tools) and web search/fetch providers.
 - [dsh-llm-inspector](https://github.com/cdxiaodong/dsh-llm-inspector) - Unified LLM request/response inspector: reasoning-effort tuning, external-think export, traffic & bundle analysis.
+- [dsh-github](https://github.com/PerryLink/dsh-github) - Official-grade GitHub CI integration: composite action.yml, polling PR review bot with idempotent inline comments and a status-check gate, plus PR/issues tools with every write gated by human approval.
 
 ## Git & Engineering
 
