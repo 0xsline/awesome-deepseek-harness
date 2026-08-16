@@ -539,6 +539,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-wuyun-liuqi](https://github.com/dhicoc/dsh-wuyun-liuqi) - 完整 wuyun-liuqi（五运六气）中医运气学技能包，封装为 DeepSeek Harness 插件：年度与客气推算、临床辨证、病机推演。
 - [dsh-plugin-writing-guard](https://github.com/xmutfyh/dsh-plugin-writing-guard) - 论文写作守卫：本地正则扫描修改过程残留、防御性写作与 AI 写作痕迹（破折号滥用、不是X而是Y、LLM 高频词、三连排比）；writing_audit / writing_rules 工具，论文文件写入后增量自动审计。
 - [write-chinese-long-screenplay](https://github.com/mudden2380078550-creator/write-chinese-long-screenplay) - 中文长剧本写作 skill（SKILL.md）：双输入板块（背景 + 人物卡）+ 因果—价值内核，内置去 AI 味审查与连续性台账，支撑 100 场以上长篇幅项目。
+- [kubemd](https://github.com/guiyi-labs/kubemd) - 证据优先的 Kubernetes 运行时故障诊断 skill（含案例记忆）：诊断线上集群故障（CrashLoop/OOM/Pending/NetworkPolicy 误拦），dry-run 修复并沉淀已解案例供秒回；附 go install 免依赖 CLI。
 - [commercial-ui-ux-codex-skill](https://github.com/zjsthmjialin/commercial-ui-ux-codex-skill) - 注册 commercial-ui-ux 技能：以任务为中心的商业界面 UI/UX/GUI 设计、审查、修复与实现（SaaS、仪表盘、后台、表单、设计系统），带参考文档体系与质量门禁。
 
 ## Tools & Utilities
