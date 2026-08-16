@@ -135,7 +135,7 @@ Management panel: Settings → Plugins.
 - [dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) - Continual self-evolution: versioned, auditable, rollback-safe harness state (prompt notes, memories, skills, subagent specs) refined from session trajectories.
 - [ccch713/deepddw](https://github.com/ccch713/deepddw) - deepDDW: memory + knowledge base + document search for DSH, reachable from ANY device on your LAN — built on a production-grade AI platform (team-ready, up to ~20 people).
 - [dsh-mnemon](https://github.com/dsh-external/dsh-mnemon) - Mnemonic layer.
-
+- [memory-mcp-server](https://github.com/BingoAgentTouch/Personal_MCP) - Layered long-term memory MCP server: raw turns → task fragments → daily summaries → topic indexes, local MiniLM 384-dim embeddings or OpenAI-compatible API backend, semantic + Jaccard-fallback search, one-command DSH plugin install.
 ## Input & Editing
 
 - [dsh-better-sidebar-plugin-office](https://github.com/dsh-external/dsh-better-sidebar-plugin-office) - Office integration for DSH-better-sidebar.
