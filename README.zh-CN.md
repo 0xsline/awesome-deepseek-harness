@@ -475,6 +475,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [mirage-dsh](https://github.com/strukto-ai/mirage/tree/main/typescript/packages/dsh) - 把文件系统与 bash 提供者换成 mirage 虚拟工作区：文件工具与 shell 命令作用于挂载的资源（RAM、S3、Redis、Slack、Gmail、Notion、Postgres）而非宿主磁盘，支持按挂载点设置读/写/执行模式、按命令选择沙箱（进程内 monty、pyodide、quickjs；远程 docker、e2b、daytona），并可在虚拟终端中安装 CLI（git、gh、slack、linear、ntn、gws，或自行注册的程序树）作为命令头词。
 - [loongsuite/dsh-plugin](https://github.com/loongsuite/dsh-plugin) - DSH 的 OpenTelemetry GenAI 调用链插件：每轮生成一棵 span 树（步骤、带 TTFT 的 LLM 调用、工具执行、token 用量），通过标准 OTLP 上报到任意兼容后端，正文采集默认关闭。
 
+- [dsh-backup](https://github.com/xiaoyuyu6420/dsh-backup) - 一键备份与恢复 ~/.dsh 用户数据：/backup 命令族 + backup_dsh 工具 + Settings 面板，sha256 校验与加固的恢复条目审查（路径穿越/symlink 拒绝），重启不重置节奏的定时自动备份、轮换、本机下载路由与私有仓库 GitHub 同步。
 ## Domain & Specialist Skills
 
 - [dsh-learn-everything](https://github.com/cendaifeng/dsh-learn-everything) - 费曼学习法插件：讲解 → 复述 → 判定 → 回讲教学闭环，富 HTML 教学卡片（mermaid 图 + shiki 代码高亮）。
