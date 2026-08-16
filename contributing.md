@@ -20,16 +20,24 @@ Open the matching category list in the README (English) and `README.zh-CN.md` (C
 
 | Category | Description |
 |---|---|
-| Core & Official | Official bundles shipped with the composition |
-| Context & Search | Session search, memory, knowledge retrieval |
-| Input & Editing | Message/prompt/file input tooling |
-| UI & Experience | Web UI, TUI, panels, skins |
-| Browser & Remote | Browser automation, SSH remote control |
-| Models & Inference | Vision, fallbacks, adapters, agent bridges |
-| Git & Engineering | Git identity, workflows, plugin health |
-| Notifications & Channels | Chat bots, voice, notifications |
-| Fun & Lifestyle | Pets, games, skins, joke plugins |
-| Infrastructure & Development | Registries, managers, catalogs, SDK tooling |
+| Core & Bundles | Foundational bundles and core capability extensions |
+| Agents & Orchestration | Multi-agent coordination, planning, and execution |
+| Context & Search | Context management, compression, search, and session retrieval |
+| Memory & Knowledge | Cross-session memory, knowledge bases, and document retrieval |
+| Input & Editing | Message, prompt, file, and composer input tooling |
+| UI, Themes & Interaction | Web UI components, themes, layouts, and interaction improvements |
+| Dashboards & Session UX | Usage dashboards, status panels, and session navigation |
+| IDE & Clients | Desktop, terminal, and IDE clients |
+| Browser & Remote | Browser automation and remote-control integrations |
+| Models & Inference | Model providers, authentication, routing, vision, and inference tools |
+| Git & Engineering | Git, CI, code review, testing, and engineering workflows |
+| Security & Governance | Code audits, credentials, privacy, permissions, and sandbox governance |
+| Output & Deliverables | Reports, files, artifacts, and export tooling |
+| Notifications & Channels | Chat bots, voice, messaging channels, and notifications |
+| Fun & Lifestyle | Pets, games, music, themes, and lifestyle plugins |
+| Plugin Ecosystem & Development | Registries, managers, catalogs, SDKs, and plugin authoring |
+| Runtime & Operations | Launchers, runtime management, observability, repair, and maintenance |
+| Domain & Specialist Skills | Data, finance, science, research, writing, and specialist skills |
 
 No matching category? Propose a new one in your PR.
 
