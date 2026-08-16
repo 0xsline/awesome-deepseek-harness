@@ -268,6 +268,7 @@ Management panel: Settings → Plugins.
 - [DSH Deck](https://github.com/Socialist-Sister/dsh-deck) - Unofficial Electron desktop shell for the official DSH Web UI (same code, same data): attach-to-existing-harness mode prevents dual-writer session corruption, session-log relocated to the session row menu, tray residency, single portable exe.
 - [DshCockpit](https://github.com/Lxiayu/DshCockpit) - Electron desktop cockpit for `dsh web`: tray-resident background tasks, token/cost tracking with budget alarms, runtime auto-update with rollback, Quick Ask hotkey, scheduled tasks, full-text session search.
 - [deepseek-harness-desktop](https://github.com/Easyhoov/deepseek-harness-desktop) - Unofficial in-process Windows desktop app with tray residency, native notifications, and an IPC bridge.
+- [dsh-shell](https://github.com/TaoSmile/dsh-shell) - Zero-install desktop shell for an already-installed DeepSeek Harness: attaches to a running `dsh web` or auto-launches it with your existing Node environment; Electron shell with tray plus a double-click Edge app-mode launcher.
 - [dsh-chat-tools](https://github.com/yj060464-commits/dsh-chat-tools) - Headless terminal companion toolkit: chat.sh continuous-conversation REPL (rolling context, decision-point voting, live workflow streaming, effort switching) + automatic LLM session-log summarization. Zero-dependency bash + Python.
 
 ## Browser & Remote
