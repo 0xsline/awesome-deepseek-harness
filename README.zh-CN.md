@@ -252,6 +252,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-cost-crystal](https://github.com/xxvk/dsh-cost-crystal) - DSH Web UI 成本水晶球：余额卡片、实时 tok/s 速率、波峰/低峰计费倒计时、近 24h 消耗，以及 🔮 下一条消息消耗预测，全部时区感知。
 - [dsh-session-repair-ui](https://github.com/Semidia/dsh-session-repair-ui) - 会话头部的修复按钮：检测并修复工具调用 ID 对不上、空 call ID、禁用插件产生的未知事件、损坏的 zstd 尾部和缺失的末帧换行，写入前自动备份。
 - [plugin-team-board](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-team-board) - 多 agent 共享任务板（创建/认领/流转/查询），状态物化为 Cordis 协作用键。
+- [dsh-session-pin](https://github.com/PerryLink/dsh-session-pin) - 把会话与工作区置顶到 Web 侧边栏顶部：行级图钉与换色、会话头开关与已置顶面板。
 
 ## IDE & Clients
 
