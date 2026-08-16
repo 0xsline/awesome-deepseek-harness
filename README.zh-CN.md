@@ -424,6 +424,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Plugin Ecosystem & Development
 
+- [zoahdev/dsh-subscribe](https://github.com/zoahdev/dsh-subscribe) - Steam 式插件市场：网页一键订阅，一条命令同步到 dsh profile；500+ 社区插件，带验证精选，零依赖 CLI。
 - [dsh-plugin-starter](https://github.com/ciceroyang/dsh-plugin-starter) - 一条命令生成实战验证过的 DSH 插件工程（bundle、工具、运行时 skill、单测、CI），零依赖免构建，带 --verify 冒烟。
 - [Code2Skill](https://github.com/leechen298/Code2Skill) - 从用户授权的源码生成 Function、MCP 工具、工作流 Skill 与离线测试包。
 - [dsh-movein](https://github.com/sjh9714/dsh-movein) - 一条命令把整套 Claude Code 配置迁入 DSH：技能、MCP 服务器、hooks、子代理与权限规则，附 dry-run 迁移清单、迁移差异报告与 movein_from_claude_code 工具。
