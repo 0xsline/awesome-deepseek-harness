@@ -241,6 +241,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-fork-graph](https://github.com/chouyong/dsh-fork-graph) - 会话标题栏内联的 Git 风格 fork 血缘图：用彩色轨道与分叉曲线显示会话从何处分支，并可点击跳转。
 - [dsh-fork-diff](https://github.com/chouyong/dsh-fork-diff) - DSH Web 的只读父分支与兄弟分支比较：展示消息与工具差异、用量与耗时摘要，支持筛选和打开对应会话。
 - [dsh-usage-panel](https://github.com/AlfredChaos/dsh-usage-panel) - 设置页 Token 用量统计：累计 KPI、半年活跃热力图、按模型堆叠的每日柱状图与模型环形图，只读重算会话日志。
+- [dsh-what-changed](https://github.com/sjh9714/dsh-what-changed) - 会话顶栏的整会话改动审阅。列出本次会话 Agent 写过的每个文件与逐处改动，被权限拒绝的写入单独计数不算改动，数据来自 session projection 而非磁盘日志。
 - [dsh-token-usage-dashboard](https://github.com/solstice621/dsh-token-usage-dashboard) - Codex 风格 Token 用量仪表盘：5 张统计卡、GitHub 风格活动热力图（每日/每周视图）、洞察与模型排名；快照持久化 + 增量同步，删除会话后统计保留。
 - [dsh-web-billing](https://github.com/bpc-oss/dsh-web-billing) - DSH Web 人民币/美元 token 计费插件：官方政策自动计价（含峰谷时段）、逐条消息费用账本、账号余额、按界面语言切换币种。
 - [dsh-balance-meter](https://github.com/Ghost011118/dsh-balance-meter) - DeepSeek 账户余额与当前会话成本显示在 DSH Web 编辑器 dock 中（自动获取官方价格，支持峰时/非峰时计价）。
