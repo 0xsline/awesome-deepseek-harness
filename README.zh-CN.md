@@ -437,6 +437,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [super-wechat-bridge](https://github.com/Qshuai0213/super-wechat-bridge) - 微信 iLink ClawBot 桥接：官方腾讯 iLink 协议直连，Web 设置界面（扫码登录/模型/预设/权限/会话管理含删除），24h 到期前自动推送新二维码续期，全程不断线。
 - [dsh-voice-chat](https://github.com/dsh-external/dsh-voice-chat) - 语音对话
 - [dsh-web-ui-notify](https://github.com/dsh-external/dsh-web-ui-notify) - WebUI 通知
+- [dsh-notification-sounds](https://github.com/qq33357486/dsh-notification-sounds) - 跨平台浏览器音频提醒：DSH 需要用户操作时播放中文“任务等待”，任务完成时播放“任务完成”。
 - [dsh-notify-windows](https://github.com/SeverusZh/dsh-notify-windows) - Windows 通知，零依赖
 - [dsh-notify-win](https://github.com/Andyqwe44/dsh-notify-win) - 原生 Windows toast + 任务栏闪烁，任务完成/审批/提问时触发，支持 Win10/11，npm 安装 `dsh plugin --profile web add dsh-notify-win`
 - [dsh-ica](https://github.com/dsh-external/dsh-ica) - icalingua 前端
