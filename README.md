@@ -201,6 +201,7 @@ Management panel: Settings → Plugins.
 - [dsh-web-review](https://github.com/CanglongCl/dsh-web-review) - Isolated web page previews with element annotations and visual adjustments that guide source edits.
 - [dsh-markdown-preview](https://github.com/GitHubJiKe/dsh-markdown-preview) - In-chat preview for produced files: click a produced-file chip to render Markdown (markdown-it + highlight.js), images, or plain text in the conversation, with system-app open kept one click away.
 - [dsh-i18n](https://github.com/Semidia/dsh-i18n) - Chinese localization for tool results: intercepts tool execution output and translates English markers (`[exit code]`, `[timed out]`, `[sandbox: ...]`, etc.) into Chinese, with a settings toggle.
+- [dsh-settings-tuner](https://github.com/Semidia/dsh-settings-tuner) - System parameter adjustment UI: grouped settings page for timeouts, parallelism, LLM retry policy, model params, web search, permissions and presets; safe profile-config editing with line-level YAML matching and post-write validation.
 - [dsh-mobileweb-adapter](https://github.com/dsh-external/dsh-mobileweb-adapter) - Mobile/PWA layout adaptation + LAN WebSocket fix.
 - [dsh-split-panes](https://github.com/dsh-external/dsh-split-panes) - Split panes.
 - [dsh-skins](https://github.com/dsh-external/dsh-skins) - Web UI skins.
