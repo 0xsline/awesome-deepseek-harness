@@ -325,6 +325,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) - 内置免 Key 视觉链 + 像素级视觉工具（看图问答、定位、裁剪、像素对比、取色、OCR、矢量化、抠图、截图）；粘贴图片即可用，无 Python，一条命令安装
 - [dsh-vision-proxy](https://github.com/Flyvhidbwo/dsh-vision-proxy) - DeepSeek 大脑 + 自动识图：GUI 附加的每张图片自动经 OpenAI 兼容 VLM 转译成文字，再交给纯文本的 DeepSeek 作答——有 key 自动走快速通道（默认 qwen3.7-flash，支持百炼/智谱/OpenRouter 等任意 OpenAI 兼容端点），无 key 自动探测本地 Ollama（零配置，图片不出本机）。
 - [DSH-Multimodal](https://github.com/yauntyour/DSH-Multimodal) - 按输入文件类型配置多模态处理模型链：图片/视频/音频等文件先经预设模型转为 Prompt Tokens 再交给纯文本会话模型，支持多模型回退链与「Multimodal」设置页。
+- [dsh-draw](https://github.com/PerryLink/dsh-draw) - 统一静态图像生成路由：单一 image_generate 工具 + 标准参数，配置驱动的 OpenAI 兼容引擎路由（OpenAI Images、智谱 CogView 及任意兼容端点）与健康感知回退，工作区持久附件结果、按会话配额记账、对话内结果卡片，设置面板将 API key 存为凭据引用。
 - [dsh-advisor](https://github.com/dsh-external/dsh-advisor) - 副模型每轮被动审查并注入建议
 - [dsh-clawrouter](https://github.com/BlockRunAI/dsh-clawrouter) - 阻断式安全闸门：更强的模型对危险工具调用给出放行/拒绝/询问，由工具执行器强制执行，而非提示词劝阻。可选 BlockRun x402 路由，一个钱包按次调用 67 个模型。
 - [dsh-llm-fallbacks](https://github.com/dsh-external/dsh-llm-fallbacks) - 角色化 LLM 重试/备用策略
