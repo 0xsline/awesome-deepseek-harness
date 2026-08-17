@@ -138,6 +138,7 @@ Management panel: Settings → Plugins.
 
 ## Input & Editing
 
+- [zoahdev/dsh-zh](https://github.com/zoahdev/dsh-zh) - Chinese-thinking system-prompt section: makes the agent answer in simplified Chinese while keeping code/commands verbatim.
 - [dsh-better-sidebar-plugin-office](https://github.com/dsh-external/dsh-better-sidebar-plugin-office) - Office integration for DSH-better-sidebar.
 - [dsh-message-edit](https://github.com/dsh-external/dsh-message-edit) - Branch-based message editing / reroll / retry / version timeline.
 - [dsh-prompt-studio](https://github.com/dsh-external/dsh-prompt-studio) - Edit system-prompt sections with live preview.
@@ -251,6 +252,7 @@ Management panel: Settings → Plugins.
 
 ## IDE & Clients
 
+- [zoahdev/dsh-code](https://github.com/zoahdev/dsh-code) - VS Code extension: run one-shot DeepSeek Harness tasks (`dsh --profile headless`) from a command or panel.
 - [dsh-cc-tui](https://github.com/dsh-external/dsh-cc-tui) - Claude Code-style fullscreen TUI (streaming expand / double-Esc rollback).
 - [dsh-grok-tui](https://github.com/chen-001/dsh-grok-tui) - TUI built with grok-build.
 - [dsh-pi-tui](https://github.com/lqhl/dsh-pi-tui) - Pi TUI (differential-rendering terminal framework) front end: streaming markdown, thinking collapse, tool cards, slash commands, approval/question overlays, shared dsh session store.
@@ -291,6 +293,7 @@ Management panel: Settings → Plugins.
 
 ## Models & Inference
 
+- [zoahdev/dsh-vision](https://github.com/zoahdev/dsh-vision) - vision_analyze tool: analyze a local image or URL with an OpenAI-compatible vision model.
 - [dsh-codex-oauth](https://github.com/WNJXYK/dsh-codex-oauth) - ChatGPT/Codex subscription integration for DSH with GPT models, image generation, web search, quota reporting, and browser/device-code OAuth sign-in.
 - [dsh-vision](https://github.com/dsh-external/dsh-vision) - Vision bridge: view_image tool over any OpenAI-compatible VLM (Zhipu free tier by default).
 - [dsh-plugin-vision](https://github.com/tdf1995/dsh-plugin-vision) - Vision for text-only LLMs: image description / OCR / VQA via free Gemini and GLM vision APIs.

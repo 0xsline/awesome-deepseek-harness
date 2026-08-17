@@ -137,6 +137,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Input & Editing
 
+- [zoahdev/dsh-zh](https://github.com/zoahdev/dsh-zh) - 中文思维 system-prompt 片段：让 agent 用简体中文回答，代码/命令保持原文。
 - [dsh-better-sidebar-plugin-office](https://github.com/dsh-external/dsh-better-sidebar-plugin-office) - better-sidebar 的 Office 集成。
 - [dsh-message-edit](https://github.com/dsh-external/dsh-message-edit) - 分支式消息编辑 / reroll / retry / 版本时间线
 - [dsh-prompt-studio](https://github.com/dsh-external/dsh-prompt-studio) - 系统提示词分段编辑 + 实时预览
@@ -250,6 +251,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## IDE & Clients
 
+- [zoahdev/dsh-code](https://github.com/zoahdev/dsh-code) - VS Code 扩展：从命令或面板运行 DeepSeek Harness 一次性任务（dsh --profile headless）。
 - [dsh-cc-tui](https://github.com/dsh-external/dsh-cc-tui) - Claude Code 风格全屏 TUI（流式展开/双击 Esc 回滚）
 - [dsh-grok-tui](https://github.com/chen-001/dsh-grok-tui) - grok-build TUI
 - [dsh-pi-tui](https://github.com/lqhl/dsh-pi-tui) - 基于 pi-tui 的 DeepSeek Harness 终端前端：流式 Markdown、thinking 折叠、工具卡片、slash 命令、审批/提问交互与 Web 会话共享
@@ -290,6 +292,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Models & Inference
 
+- [zoahdev/dsh-vision](https://github.com/zoahdev/dsh-vision) - vision_analyze 工具：用 OpenAI 兼容视觉模型分析本地图片或 URL。
 - [dsh-codex-oauth](https://github.com/WNJXYK/dsh-codex-oauth) - DSH 的 ChatGPT/Codex 订阅接入插件，支持 GPT 模型、图像生成、Web 搜索、额度显示，以及浏览器/设备码 OAuth 登录。
 - [dsh-vision](https://github.com/dsh-external/dsh-vision) - 视觉桥接：view_image 工具接任意 OpenAI 兼容 VLM（默认智谱免费档）
 - [dsh-plugin-vision](https://github.com/tdf1995/dsh-plugin-vision) - 为纯文本大模型提供视觉能力：通过免费的 Gemini / GLM 视觉 API 完成图像描述、OCR 与视觉问答
