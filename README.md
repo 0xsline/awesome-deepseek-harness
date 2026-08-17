@@ -305,6 +305,7 @@ Management panel: Settings → Plugins.
 - [dsh-desktop](https://github.com/xiaoyanzi191/dsh-desktop) - Electron desktop wrapper for DeepSeek Harness: double-click to start, automatically manages the dsh Web service lifecycle.
 - [dsh-chat-tools](https://github.com/yj060464-commits/dsh-chat-tools) - Headless terminal companion toolkit: chat.sh continuous-conversation REPL (rolling context, decision-point voting, live workflow streaming, effort switching) + automatic LLM session-log summarization. Zero-dependency bash + Python.
 - [dsh-come](https://github.com/qing3a/dsh-come) - Desktop shell for DeepSeek Harness (Rust single exe): self-bootstrapping Node, tray, autostart, plugin store.
+- [dsh-launcher](https://github.com/iceleaf916/dsh-launcher) - macOS menu-bar launcher for dsh: start/stop/restart the web service, hot reload, auto-start at login, and open the UI in a system or built-in browser.
 
 - [ccgui / desktop-cc-gui](https://github.com/zhukunpenglinyutong/desktop-cc-gui) - Multi-engine AI coding desktop client (Tauri): Claude Code, Codex, Gemini, OpenCode, DeepSeek Harness and more in one GUI — not a DSH Web UI shell or `dsh-plugin`.
 - [dsh-desktop-hub](https://github.com/FlashingChen/dsh-desktop-hub) - Electron desktop hub for the official DSH Web UI with a built-in MCP config converter (Claude Code / Cursor JSON → DSH YAML), Skills / Plugin management consoles, and a bundled Node.js + DSH runtime — no install, no terminal.
