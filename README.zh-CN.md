@@ -177,6 +177,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-prompt-optimize](https://github.com/peterliucius/dsh-prompt-optimize) - 通过辅助 LLM 调用改写当前输入框草稿，只替换草稿、不发送消息。
 - [Boliban/dsh-enter-customizer](https://github.com/Boliban/dsh-enter-customizer) - 接管聊天输入框的回车等快捷键，每个快捷键的行为都能单独配置。
 - [PerryLink/dsh-composer-history](https://github.com/PerryLink/dsh-composer-history) - 为 Web 作曲器提供终端风格输入历史（边缘优先方向键、草稿/光标还原、Ctrl+R 搜索、滑动上下文感知），另加智能输入层：跨会话片段、带变量的提示模板、复用洞察与压缩摘要高亮。
+- [dsh-file-upload](https://github.com/a903067276-rgb/dsh-file-upload) - 一键上传 + 拖拽文件进对话：保存到项目 uploads/、路径文本进输入框，可配合任意视觉工具。
 
 ## UI, Themes & Interaction
 
@@ -213,6 +214,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-plugin-description](https://github.com/MysaDC/dsh-plugin-description) - 为 Web 设置插件列表页的每张插件卡片补上中英文功能说明，并提供 `pluginDescriptions` 服务供其他插件注册自己的说明。
 - [dsh-plugin-list-plus](https://github.com/yibiner/dsh-plugin-list-plus) - Web 设置的插件列表增强：信任分级、可折叠分组与全面的插件详情。
 - [dsh-builtin-toggles](https://github.com/Starfie1d1272/dsh-builtin-toggles) - DSH Web 官方内置插件的人类可读目录，提供状态解释与经过审核的安全 UI 开关。
+- [dsh-plan-switch](https://github.com/a903067276-rgb/dsh-plan-switch) - 输入框一键进/出 Plan 模式（/plan 的快捷点击），常驻小按钮。
 - [dsh-file-mentions](https://github.com/a903067276-rgb/dsh-file-mentions) - 回复中的可点击文件路径：Codex 风格内联打开、📂 文件管理器显示、回合末尾的文件提及 chip 列表。
 - [dsh-plugin-colorscheme](https://github.com/Civitasv/dsh-plugin-colorscheme) - Web UI 配色方案插件：在设置里一键切换并持久化主题，内置 8 款开源预设，支持自定义主题。
 - [dsh-plugin-setting-mcp](https://github.com/Ceelog/dsh-plugins/tree/main/src/plugins/dsh-plugin-setting-mcp) - 在 Web 设置面板中添加、编辑、删除、启用或停用 MCP 服务器，保存后热重载。
@@ -420,6 +422,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-safeguard](https://github.com/ZhijiangTang/dsh-safeguard) - 执行前护栏：拦截危险 shell 命令与密钥泄漏，阻止其运行。
 - [dsh-mask](https://github.com/PerryLink/dsh-mask) - PII 脱敏中间件：在模型边界前把姓名/电话/邮箱/身份证/银行卡/密钥/地址替换为占位符，展示层还原；明文绝不入会话日志；/mask 命令 + mask_test 工具。
 - [dsh-defend](https://github.com/PerryLink/dsh-defend) - 官方接缝上的提示注入 / 越狱 / 密钥泄露检测：移植自 Prompt-Injection-Payloads、Jailbreak-Detector 与 Secret-Key-Leaker-Detect 的规则 + Aho-Corasick 引擎，在用户消息、工具参数、工具结果三处按 allow/ask/block 分层拦截，附脱敏 defend/detection 审计事件、defend_report 工具与危险递归删除命令门禁。
+- [dsh-perm-guard](https://github.com/a903067276-rgb/dsh-perm-guard) - 自动审批权限守卫：介于 workspace-write 与 danger-full-access 之间的中间档——信任目录内安全操作自动放行，危险操作一律人工确认；11 个分类开关可调，自带审计记录。
 - [dsh-change-budget](https://github.com/Raphaelutumn/dsh-change-budget) - 可配置的逐回合修改额度，在受支持的文件修改工具执行前限制不同文件数、修改调用数与 UTF-8 载荷字节数。
 
 ## Output & Deliverables

@@ -263,6 +263,7 @@ Management panel: Settings → Plugins.
 - [dsh-web-workflow-visualizer](https://github.com/dsh-external/dsh-web-workflow-visualizer) - Workflow visualization.
 - [dsh-ui-progress](https://github.com/dsh-external/dsh-ui-progress) - Progress indicators.
 - [dsh-milestone](https://github.com/SnowCrescenter-tech/dsh-milestone) - Right-side dot-timeline rail to jump between user messages.
+- [dsh-plan-switch](https://github.com/a903067276-rgb/dsh-plan-switch) - One-click enter/exit Plan mode for the DSH web input bar, a quick-click shortcut for /plan.
 - [dsh-turn-index](https://github.com/Simon314620/dsh-turn-index) - Turn-index sidebar: one entry per user turn, click to jump, scroll-spy highlighting.
 - [dsh-outline](https://github.com/urzeye/dsh-outline) - Real-time conversation outline panel for the DSH Web session page: a tree of user questions and Markdown headings (H1-H6) that updates live while streaming, with click-to-jump highlight, expand-depth control, search, and per-session favorites.
 - [dsh-conversation-anchors](https://github.com/biggerboy/dsh-conversation-anchors) - Sidebar conversation anchor navigation: one anchor per chat node (user / assistant / tool / command) with role badges and summaries, click to smooth-scroll to that message; live-refreshes with the session.
@@ -282,6 +283,7 @@ Management panel: Settings → Plugins.
 - [plugin-team-board](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-team-board) - Shared multi-agent task board (create / claim / transition / query) over a Cordis service key.
 - [dsh-event-auditor](https://github.com/qing3a/dsh-event-auditor) - Event-flow audit panel: event types, distribution, counts, and recent events for plugin authors.
 - [dsh-whale-meter](https://github.com/Shiye-10Pages/dsh-whale-meter) - Usage tiers (🐟→🐳) with a locally-estimated percentile and shareable stats card; 46 models across 6 vendors including size-tiered Chinese pricing; backfills pre-install sessions; old-vs-new rates across the 2026-08-17 change.
+- [dsh-file-upload](https://github.com/a903067276-rgb/dsh-file-upload) - One upload button plus drag-and-drop files into the conversation as local paths: save to the project's uploads/, path text into the input box, works with any vision tool.
 - [dsh-bill](https://github.com/Jannchie/dsh-bill) - Cost tracking: per-turn cost line, spend attributed to tool output / model output / system prompt / commands, budget, forecast; priced per call from models.dev + OpenRouter (8000+ models) and never recomputed.
 
 ## IDE & Clients
@@ -422,6 +424,7 @@ Management panel: Settings → Plugins.
 - [dsh-safeguard](https://github.com/ZhijiangTang/dsh-safeguard) - Pre-execution guardrail: vetoes dangerous shell commands and blocks secret/credential leaks before they run.
 - [dsh-mask](https://github.com/PerryLink/dsh-mask) - PII masking middleware: anonymizes names, phones, emails, ID cards, bank cards, keys, and addresses before the model boundary and restores placeholders at display; plaintext never enters the session log; /mask command plus mask_test tool.
 - [dsh-defend](https://github.com/PerryLink/dsh-defend) - Prompt-injection, jailbreak, and secret-leak detection on the official seams: an Aho-Corasick engine over rules ported from Prompt-Injection-Payloads, Jailbreak-Detector, and Secret-Key-Leaker-Detect gates user messages, tool arguments, and tool results with allow/ask/block tiers, sanitized defend/detection audit events, a defend_report tool, and a destructive-delete command guard.
+- [dsh-perm-guard](https://github.com/a903067276-rgb/dsh-perm-guard) - Auto-approval permission guard: a middle tier between workspace-write and danger-full-access — auto-allows safe operations inside trust directories, always asks a human for destructive ones, with 11 per-category switches and an audit trail.
 - [dsh-change-budget](https://github.com/Raphaelutumn/dsh-change-budget) - Configurable per-turn budgets that limit distinct files, mutation calls, and UTF-8 payload bytes before supported file-mutation tools run.
 
 ## Output & Deliverables
