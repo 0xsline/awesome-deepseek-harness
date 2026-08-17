@@ -502,6 +502,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-plugin-guide](https://github.com/PerryLink/dsh-plugin-guide) - 插件开发知识库，作为按需加载的智能体技能：官方约束、任务工作流、API 参考与社区踩坑。
 - [dsh-popper](https://github.com/1473382/dsh-popper) - 证伪驱动的智能体会话修正循环：高风险操作前先提交可检验主张，确定性 gate 验证结果；主张被证伪后强制给出互斥替代假设并各配判别性实验，全部事件进入只追加的证据账本。
 - [awesome-dsh](https://github.com/stakeswky/awesome-dsh) - `dsh-plugin` topic 全量目录，自动更新（2600+ 仓库）：Cloudflare Worker 每 6 小时重新抓取，用 Workers AI 把英文简介译成中文，并提供相关度检索 API 与按需查找、安装插件的智能体技能。
+- [dsh-score](https://github.com/PerryLink/dsh-score) - DSH 插件多维质量评分：五维（安装成功率/维护活跃度/文档完整性/安全扫描/协议合规）评分卡与总分，/score 命令与排行榜报告；安装证据预留消费 dsh-test-drive 的结构化实测结果。
 
 ## Runtime & Operations
 
