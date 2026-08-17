@@ -175,7 +175,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-attachment-upload](https://github.com/lbh1nb/dsh-plugins/tree/main/packages/dsh-attachment-upload) - 输入框「📎 附件」按钮：上传文件到当前工作区 .dsh-attachments 并把路径插入草稿。
 - [dsh-steer-button](https://github.com/lbh1nb/dsh-plugins/tree/main/packages/dsh-steer-button) - 输入框常驻「插话」按钮：一键把草稿注入运行中的轮次（等同 Ctrl/Cmd+Enter）。
 - [Boliban/dsh-enter-customizer](https://github.com/Boliban/dsh-enter-customizer) — 接管聊天输入框的回车等快捷键，每个快捷键的行为都能单独配置。
-- [PerryLink/dsh-composer-history](https://github.com/PerryLink/dsh-composer-history) - 为 Web 作曲器提供终端风格输入历史：边缘优先方向键召回并精确还原草稿与光标、浏览器本地持久化历史、Ctrl+R 反向搜索与滑动上下文感知（压缩摘要加入召回与搜索）。
+- [PerryLink/dsh-composer-history](https://github.com/PerryLink/dsh-composer-history) - 为 Web 作曲器提供终端风格输入历史（边缘优先方向键、草稿/光标还原、Ctrl+R 搜索、滑动上下文感知），另加智能输入层：跨会话片段、带变量的提示模板、复用洞察与压缩摘要高亮。
 
 ## UI, Themes & Interaction
 
@@ -265,6 +265,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-hud](https://github.com/a903067276-rgb/dsh-hud) - HUD 状态面板：Git 状态、MCP 服务器、技能列表、模型与 token 用量，悬浮侧栏一览无余。
 - [dsh-auto-continue](https://github.com/HsiangNianian/dsh-auto-continue) - DSH Web 请求中断自动续跑：网络/超时/宿主崩溃等非人为失败后自动发送「继续」，支持错误分类、自适应退避、模板化继续文本与浏览器通知；全部参数可在插件设置卡片中调整。
 - [dsh-trajectory-debug](https://github.com/devmom/dsh-trajectory-debug) - DeepSeek Harness 轨迹瀑布流、确定性回放、断点、改参重跑、分叉对比与性能分析。
+- [dsh-netcafe](https://github.com/mario03690/dsh-netcafe) - 托管式成果工具包（一行配置接入 MCP）：md→docx/pptx/pdf、带代码内算术校验的表格、从中国大陆真实网络出口做的可达性测试、农历日历/节假日；免费匿名额度，按调用计费报告。
 - [dsh-opencodego-usage](https://github.com/BeiZi6/dsh-opencodego-usage) - OpenCodeGo 剩余额度监视器：输入框右下角呼吸指示灯（按剩余额度绿/黄/红），液态玻璃面板显示滚动/周/月用量窗口与重置时间，每 30 秒自动刷新；API Key 自动读取 DSH 凭据。
 - [dsh-trajectory-reader](https://github.com/flyingtimes/dsh-trajectory-reader) - 轨迹解读标签页：按用户轮次逐轮解读助手做了什么（需求/思路/执行/结果，规则引擎 + 可选 LLM 叙述），涉及文件、命令与错误一目了然，用户消息原样保留。
 - [dsh-session-manager](https://github.com/Semidia/dsh-session-manager) - 侧边栏会话行右键菜单：置顶、重命名、归档、在新聊天中继续、标记未读、复制工作目录/标题/ID/深度链接、在资源管理器中打开、在新窗口中打开。
@@ -325,6 +326,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [dsh-codex-oauth](https://github.com/WNJXYK/dsh-codex-oauth) - DSH 的 ChatGPT/Codex 订阅接入插件，支持 GPT 模型、图像生成、Web 搜索、额度显示，以及浏览器/设备码 OAuth 登录。
 - [dsh-vision](https://github.com/dsh-external/dsh-vision) - 视觉桥接：view_image 工具接任意 OpenAI 兼容 VLM（默认智谱免费档）
+- [DeepSee](https://github.com/windyslime/DeepSee) - DSH `0.1.0-rc.5` Web 配置的视觉推理网关：把图片轮次路由到本地可插拔的 VLM 后端，常规 DSH 文本路由不受影响。
 - [dsh-plugin-vision](https://github.com/tdf1995/dsh-plugin-vision) - 为纯文本大模型提供视觉能力：通过免费的 Gemini / GLM 视觉 API 完成图像描述、OCR 与视觉问答
 - [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) - 内置免 Key 视觉链 + 像素级视觉工具（看图问答、定位、裁剪、像素对比、取色、OCR、矢量化、抠图、截图）；粘贴图片即可用，无 Python，一条命令安装
 - [dsh-vision-proxy](https://github.com/Flyvhidbwo/dsh-vision-proxy) - DeepSeek 大脑 + 自动识图：GUI 附加的每张图片自动经 OpenAI 兼容 VLM 转译成文字，再交给纯文本的 DeepSeek 作答——有 key 自动走快速通道（默认 qwen3.7-flash，支持百炼/智谱/OpenRouter 等任意 OpenAI 兼容端点），无 key 自动探测本地 Ollama（零配置，图片不出本机）。
@@ -593,6 +595,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-external/issues](https://github.com/dsh-external/issues) - Issue 聚合仓库
 - [dsh-meme-hub](https://github.com/the-beating-light-of-the-nail/dsh-meme-hub) - 社区整活插件导航（皮肤/桌宠/小游戏），中英双语
 - [DeepSeek Harness Handbook](https://github.com/sandbaseai/deepseek-harness-handbook) - 从 Agent 视角讲解 DSH 运行、扩展与排障的来源可追溯手册，提供多语言导航和可下载的速查指南
+- [TeamoRouter](https://teamorouter.com/docs/install-deepseek-harness) - OpenAI 兼容接入点，提供免费的 DeepSeek V4 Pro/Flash 每日配额；把 DEEPSEEK_BASE_URL 指向它即可，无需支付信息。
 - [DeepSeek](https://deepseek.com) - 官方入口
 
 ### 友情链接

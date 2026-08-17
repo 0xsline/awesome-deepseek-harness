@@ -267,6 +267,7 @@ Management panel: Settings → Plugins.
 - [dsh-hud](https://github.com/a903067276-rgb/dsh-hud) - HUD status panel: git status, MCP servers, skills, model and token usage in a floating side panel.
 - [dsh-auto-continue](https://github.com/HsiangNianian/dsh-auto-continue) - Auto-resumes interrupted DSH Web requests: sends a queued 「继续」 after network/timeout/host-crash failures, with error classification, adaptive backoff, templated continue text and browser notifications; everything configurable from the plugin settings card.
 - [dsh-trajectory-debug](https://github.com/devmom/dsh-trajectory-debug) - Trajectory waterfall, deterministic replay, breakpoints, edit-and-rerun, fork compare and performance analytics for DeepSeek Harness.
+- [dsh-netcafe](https://github.com/mario03690/dsh-netcafe) - Hosted outcome tools bundle (MCP over one config row): md→docx/pptx/pdf, tables with in-code arithmetic checks, China-reachability testing from a real mainland vantage, Chinese calendar/holidays; free anonymous quota, per-call cost reporting.
 - [dsh-opencodego-usage](https://github.com/BeiZi6/dsh-opencodego-usage) - OpenCodeGo quota monitor for the DSH Web GUI: a breathing indicator at the input's bottom-right (green/yellow/red by remaining share), a liquid-glass panel with rolling/weekly/monthly usage windows and reset times, auto-refreshing every 30 s; API key read from DSH credentials.
 - [dsh-trajectory-reader](https://github.com/flyingtimes/dsh-trajectory-reader) - A 轨迹解读 (trajectory interpretation) tab that summarizes each user round — what was wanted, how the assistant thought and executed, files/commands/errors — via a rules engine plus optional LLM narrative; user messages stay verbatim.
 - [dsh-session-manager](https://github.com/Semidia/dsh-session-manager) - Right-click context menu on sidebar conversation rows: pin, rename, archive, fork, mark unread, copy cwd/id/title/deep-link, open in explorer/new window.
@@ -409,7 +410,6 @@ Management panel: Settings → Plugins.
 - [MicroMilo/upstream-radar](https://github.com/MicroMilo/upstream-radar) - Always-on dependency security monitoring for DSH plugins: exact installed paths, OSV vulnerabilities, npm releases, and compatibility signals routed to a project-aware DSH Agent.
 - [dsh-passwords](https://github.com/slywalker2006/dsh-passwords) - Turns DeepSeek Harness into a server-grade multi-tenant platform: remote access + auto HTTPS, subuser permissions & token/daily quotas, sandbox enforcement, encrypted auth & audit log.
 - [dsh-guardian](https://github.com/cdxiaodong/dsh-guardian) - Agent security guardrail: intercepts and audits every tool call, requiring human confirmation on sensitive operations.
-- [dsh-netcafe](https://github.com/mario03690/dsh-netcafe) — Hosted outcome tools bundle (MCP over one config row): md→docx/pptx/pdf, tables with in-code arithmetic checks, China-reachability testing from a real mainland vantage (+ daily-refreshed README badge, 30-day watch), Chinese calendar/holidays. Free anonymous quota; per-call cost reporting. *(Disclosure: by the ainetcafe.com team.)*
 - [dsh-plugin-verify](https://github.com/qing3a/dsh-plugin-verify) - Runtime behavior verification CLI: mock-llm agent loop, 7/7 waterfall, zero-side-effect checks, reproducible reports.
 - [dsh-safeguard](https://github.com/ZhijiangTang/dsh-safeguard) - Pre-execution guardrail: vetoes dangerous shell commands and blocks secret/credential leaks before they run.
 - [dsh-mask](https://github.com/PerryLink/dsh-mask) - PII masking middleware: anonymizes names, phones, emails, ID cards, bank cards, keys, and addresses before the model boundary and restores placeholders at display; plaintext never enters the session log; /mask command plus mask_test tool.
@@ -597,6 +597,7 @@ Management panel: Settings → Plugins.
 - [dsh-external/issues](https://github.com/dsh-external/issues) - Issue aggregation hub.
 - [dsh-meme-hub](https://github.com/the-beating-light-of-the-nail/dsh-meme-hub) - Curated navigation of community meme plugins (skins, desktop pets, mini-games), bilingual.
 - [DeepSeek Harness Handbook](https://github.com/sandbaseai/deepseek-harness-handbook) - Agent-first, source-backed guide to running, extending, and troubleshooting DSH, with multilingual navigation and a downloadable field guide.
+- [TeamoRouter](https://teamorouter.com/docs/install-deepseek-harness) - OpenAI-compatible endpoint with free DeepSeek V4 Pro/Flash daily quotas; point DEEPSEEK_BASE_URL at it, no payment info required.
 - [DeepSeek](https://deepseek.com) - Official site.
 
 ### Friendly links
