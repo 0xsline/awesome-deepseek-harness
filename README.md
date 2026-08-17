@@ -416,6 +416,8 @@ Management panel: Settings → Plugins.
 - [Starfie1d1272/dsh-github-skills](https://github.com/Starfie1d1272/dsh-github-skills) - Skill-first GitHub workflows for DSH covering PR triage, review feedback, GitHub Actions diagnosis, and safe draft-PR publishing over existing capabilities.
 - [dsh-repo-context](https://github.com/qing3a/dsh-repo-context) - Injects git status and repo conventions into the system prompt via the official system-prompt seam.
 - [dsh-test-drive](https://github.com/PerryLink/dsh-test-drive) - Isolated install-smoke-uninstall test drives for DSH plugins in a throwaway DSH_HOME (install → patch check → launch smoke → uninstall → cleanup), emitting structured dsh-test-drive/v1 results for scoring pipelines.
+- [duyanta123/arch-doc](https://github.com/duyanta123/arch-doc) - Analyze a codebase and generate architecture documentation (module responsibilities, dependency graph, entry points, run methods) via a five-stage runbook plus a zero-dependency arch-profile scanner.
+- [duyanta123/dsh-preset-scaffold](https://github.com/duyanta123/dsh-preset-scaffold) - Project-init scaffold preset: strict five-phase runbook, engineering standards, and six runnable starter templates (node-ts / react-vite / python / go / spring-boot / monorepo).
 
 ## Security & Governance
 
