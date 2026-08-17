@@ -573,6 +573,7 @@ Management panel: Settings → Plugins.
 ## Domain & Specialist Skills
 
 - [pengpengyi92/dsh-quant](https://github.com/pengpengyi92/dsh-quant) - Agent-native quantitative R&D toolkit for DSH: 46 tools across 6 domains (data, alpha, ML, risk, execution, ecosystem) with an end-to-end PDAT→PET research pipeline.
+- [maddogfinance/dsh-trading](https://github.com/maddogfinance/dsh-trading) - Research-only trading workbench plugins: typed market-data seam (bring your own provider), multi-timeframe indicator regime snapshot, interactive chart cards in dsh web with provenance-gated model annotations, and a risk-guard that blocks execution-shaped tool calls at the pre-execute gate.
 
 - [gongyijie85/mattpocock-skills-dsh](https://github.com/gongyijie85/mattpocock-skills-dsh) - Matt Pocock's full promoted skill set (25 SKILL.md: grilling, writing-for-agents, wait-what, TDD, code review, wayfinder, ask-matt router) ported to DSH.
 - [gongyijie85/mattpocock-skills-dsh-zh](https://github.com/gongyijie85/mattpocock-skills-dsh-zh) - Matt Pocock's 25 skills fully translated to Chinese (technical terms kept in English with glosses).
