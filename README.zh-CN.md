@@ -297,6 +297,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-companion](https://github.com/qing3a/dsh-companion) - 桌面壳（Rust 单 exe）：双击即用 DSH，自动装 Node、托盘、开机自启、插件市场
 
 - [ccgui / desktop-cc-gui](https://github.com/zhukunpenglinyutong/desktop-cc-gui) - multi-engine AI 编程桌面客户端（Tauri）：统一接入 Claude Code、Codex、Gemini、OpenCode、DeepSeek Harness 等 CLI runtime，不是 DSH Web UI 外壳，也不是 `dsh-plugin`。
+- [dsh-desktop-hub](https://github.com/FlashingChen/dsh-desktop-hub) - 官方 DSH Web UI 的 Electron 桌面中枢：内置 MCP 配置转换器（Claude Code / Cursor JSON 一键转 DSH YAML）与 Skills / Plugin 管理台，捆绑 Node.js + DSH 运行时，免安装、免终端。
 
 ## Browser & Remote
 
