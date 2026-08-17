@@ -409,6 +409,7 @@ Management panel: Settings → Plugins.
 - [dsh-guardian](https://github.com/cdxiaodong/dsh-guardian) - Agent security guardrail: intercepts and audits every tool call, requiring human confirmation on sensitive operations.
 - [dsh-plugin-verify](https://github.com/qing3a/dsh-plugin-verify) - Runtime behavior verification CLI: mock-llm agent loop, 7/7 waterfall, zero-side-effect checks, reproducible reports.
 - [dsh-safeguard](https://github.com/ZhijiangTang/dsh-safeguard) - Pre-execution guardrail: vetoes dangerous shell commands and blocks secret/credential leaks before they run.
+- [dsh-mask](https://github.com/PerryLink/dsh-mask) - PII masking middleware: anonymizes names, phones, emails, ID cards, bank cards, keys, and addresses before the model boundary and restores placeholders at display; plaintext never enters the session log; /mask command plus mask_test tool.
 - [dsh-defend](https://github.com/PerryLink/dsh-defend) - Prompt-injection, jailbreak, and secret-leak detection on the official seams: an Aho-Corasick engine over rules ported from Prompt-Injection-Payloads, Jailbreak-Detector, and Secret-Key-Leaker-Detect gates user messages, tool arguments, and tool results with allow/ask/block tiers, sanitized defend/detection audit events, a defend_report tool, and a destructive-delete command guard.
 
 ## Output & Deliverables
