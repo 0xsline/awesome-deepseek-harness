@@ -350,6 +350,7 @@ Management panel: Settings → Plugins.
 - [NOirBRight/dsh-llm-ollama](https://github.com/NOirBRight/dsh-llm-ollama) - Ollama Cloud native chat adapter: registers an `ollama-cloud` LLM route with native model discovery (context windows, vision, thinking, tools) and web search/fetch providers.
 - [dsh-llm-inspector](https://github.com/cdxiaodong/dsh-llm-inspector) - Unified LLM request/response inspector: reasoning-effort tuning, external-think export, traffic & bundle analysis.
 - [dsh-github](https://github.com/PerryLink/dsh-github) - Official-grade GitHub CI integration: composite action.yml, polling PR review bot with idempotent inline comments and a status-check gate, plus PR/issues tools with every write gated by human approval.
+- [dsh-local-ai](https://github.com/PerryLink/dsh-local-ai) - Ollama local-model adapter: ollama_list/pull/remove/show plus health checks, registers an Ollama route via the official LlmAdapter with model_route rules (offline-first / long-text / privacy) and cloud fallback; /ollama command for a one-shot overview.
 
 ## Git & Engineering
 
