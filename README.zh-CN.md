@@ -274,6 +274,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-trajectory-debug](https://github.com/devmom/dsh-trajectory-debug) - DeepSeek Harness 轨迹瀑布流、确定性回放、断点、改参重跑、分叉对比与性能分析。
 - [dsh-netcafe](https://github.com/mario03690/dsh-netcafe) - 托管式成果工具包（一行配置接入 MCP）：md→docx/pptx/pdf、带代码内算术校验的表格、从中国大陆真实网络出口做的可达性测试、农历日历/节假日；免费匿名额度，按调用计费报告。
 - [dsh-opencodego-usage](https://github.com/BeiZi6/dsh-opencodego-usage) - OpenCodeGo 剩余额度监视器：输入框右下角呼吸指示灯（按剩余额度绿/黄/红），液态玻璃面板显示滚动/周/月用量窗口与重置时间，每 30 秒自动刷新；API Key 自动读取 DSH 凭据。
+- [penguin-oo/dsh-quota-hub](https://github.com/penguin-oo/dsh-quota-hub) - 统一实时额度仪表盘：一个可折叠玻璃面板聚合 OpenCodeGo 窗口、DeepSeek 余额、OpenRouter 额度、SiliconFlow 与 Moonshot 余额——自动识别 DSH 凭据，主机侧抓取（密钥不到达浏览器），可通过 ~/.dsh/dsh-quota-hub.json 自定义提供商。
 - [dsh-trajectory-reader](https://github.com/flyingtimes/dsh-trajectory-reader) - 轨迹解读标签页：按用户轮次逐轮解读助手做了什么（需求/思路/执行/结果，规则引擎 + 可选 LLM 叙述），涉及文件、命令与错误一目了然，用户消息原样保留。
 - [dsh-session-manager](https://github.com/Semidia/dsh-session-manager) - 侧边栏会话行右键菜单：置顶、重命名、归档、在新聊天中继续、标记未读、复制工作目录/标题/ID/深度链接、在资源管理器中打开、在新窗口中打开。
 - [dsh-session-handoff](https://github.com/WeiYe6/dsh-session-handoff) - 长会话交接：/handoff 用 LLM 总结当前会话，在同一工作区创建带 agent 的干净新会话并注入交接文档，自动打开继续，原会话保持不变。
@@ -452,6 +453,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-wecom-bot](https://github.com/dsh-external/dsh-wecom-bot) - 企业微信 bot
 - [dsh-weixin-bot](https://github.com/dsh-external/dsh-weixin-bot) - 微信 bot
 - [dsh-im-hub](https://github.com/ThreeBody6666/dsh-im-hub) - 多平台 IM 网关：飞书（Lark）WebSocket 长连接（无需公网）、企业微信 AES 加密回调、Telegram 长轮询；每会话独立 agent、白名单访问、GUI 可视化设置卡片
+- [dsh-overdrive](https://github.com/temotee2103/dsh-overdrive) - OpenClaw 风格多平台网关：WhatsApp / Telegram / Discord / Slack / 飞书 / 钉钉 / 企微多渠道接入，聊天内轨迹回放（/trace）、子代理与 cron 命令、原生审批按钮、一键 docker 部署。
 - [dsh-im-bridge](https://github.com/MHfire/dsh-im-bridge) - 企业微信渠道桥接：WebSocket 长连接直连（无需公网），进程内 Agent + 按发送者持久会话（GUI 实时可见、可续聊），人设可定制，流式进度动画。
 - [DSH-WX-Msg-Tool](https://github.com/yauntyour/DSH-WX-Msg-Tool) - 微信 ClawBot/iLink 渠道插件：在 DSH Web 扫码登录，提供消息发送、轮询与状态工具、后台长轮询，并可按发送者维持 DSH 会话后自动回复微信消息。
 - [super-wechat-bridge](https://github.com/Qshuai0213/super-wechat-bridge) - 微信 iLink ClawBot 桥接：官方腾讯 iLink 协议直连，Web 设置界面（扫码登录/模型/预设/权限/会话管理含删除），24h 到期前自动推送新二维码续期，全程不断线。
