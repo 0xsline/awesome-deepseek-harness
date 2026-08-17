@@ -484,6 +484,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Plugin Ecosystem & Development
 
+- [Luaphes/dsh-plugins-market](https://github.com/Luaphes/dsh-plugins-market) - DSH Web UI 内插件市场：全量嗅探 dsh-plugin topic，过滤蹭标签噪音，保留人工精选标记，支持排序/搜索/语言过滤与一键安装（安装前校验 dsh.bundle 声明）。
 - [zoahdev/dsh-plugin-doctor](https://github.com/zoahdev/dsh-plugin-doctor) - DSH 插件体检：manifest/patch/entry/build/pack/install 校验、可被模型调用的 plugin_check、profile 宿主遮蔽与 BOM 检测、环境诊断、供应链投毒预检。
 - [dsh-plugin-starter](https://github.com/ciceroyang/dsh-plugin-starter) - 一条命令生成实战验证过的 DSH 插件工程（bundle、工具、运行时 skill、单测、CI），零依赖免构建，带 --verify 冒烟。
 - [Code2Skill](https://github.com/leechen298/Code2Skill) - 从用户授权的源码生成 Function、MCP 工具、工作流 Skill 与离线测试包。

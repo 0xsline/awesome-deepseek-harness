@@ -486,6 +486,7 @@ Management panel: Settings → Plugins.
 
 ## Plugin Ecosystem & Development
 
+- [Luaphes/dsh-plugins-market](https://github.com/Luaphes/dsh-plugins-market) - Plugin market inside the DSH Web UI: crawls the dsh-plugin topic with noise filtering, curated marks, ranking and one-click install (dsh.bundle-verified).
 - [zoahdev/dsh-plugin-doctor](https://github.com/zoahdev/dsh-plugin-doctor) - Health checks for DSH plugins: manifest/patch/entry/build/pack/install verification, model-callable plugin_check, profile host-shadowing + manifest-BOM detection, environment diagnostics, and supply-chain poison preflight.
 - [dsh-plugin-starter](https://github.com/ciceroyang/dsh-plugin-starter) - Scaffold a battle-tested DSH plugin (bundle, tool, runtime skill, tests, CI) in one command, zero dependencies, with a --verify smoke run.
 - [Code2Skill](https://github.com/leechen298/Code2Skill) - Generate Functions, MCP tools, workflow Skills, and offline test packages from user-authorized source code.
