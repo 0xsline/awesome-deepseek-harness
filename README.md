@@ -333,6 +333,7 @@ Management panel: Settings → Plugins.
 - [dsh-computer-use](https://github.com/ZRui-C/dsh-computer-use) - Text-first computer use: background Chromium control via Playwright/CDP plus accessibility-first macOS control; actions stay pinned to the correct process and window without taking the user's pointer (Developer ID signed, notarized Universal 2 DMG).
 - [dsh-adb](https://github.com/SamXiaBing/dsh-adb) - ADB device & bench operations: device discovery, structured logcat (background streaming), apk install, file pull/push, dumpsys performance snapshots.
 - [dsh-click](https://github.com/PerryLink/dsh-click) - Native desktop control for DeepSeek Harness (Windows first): screen_shot, screen_read accessibility trees, click/type/scroll/key, and app launch — approval-gated, never stealing foreground focus.
+- [zoahdev/dsh-browser-use](https://github.com/zoahdev/dsh-browser-use) - Browser Use cloud bridge: run real web tasks (open pages, click, type, fill forms, extract data) through the Browser Use API.
 
 ## Models & Inference
 
