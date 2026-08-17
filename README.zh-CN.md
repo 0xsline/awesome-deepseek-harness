@@ -399,6 +399,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-guardian](https://github.com/cdxiaodong/dsh-guardian) - Agent 安全护栏：拦截并审计所有工具调用，命中敏感操作就要求人工确认。
 - [dsh-plugin-verify](https://github.com/qing3a/dsh-plugin-verify) - 运行时行为验证 CLI：一条命令跑 mock-llm 完整 agent 循环，检查 waterfall 链与零副作用，产出可复现验证报告
 - [dsh-safeguard](https://github.com/ZhijiangTang/dsh-safeguard) - 执行前护栏：拦截危险 shell 命令与密钥泄漏，阻止其运行。
+- [dsh-mask](https://github.com/PerryLink/dsh-mask) - PII 脱敏中间件：在模型边界前把姓名/电话/邮箱/身份证/银行卡/密钥/地址替换为占位符，展示层还原；明文绝不入会话日志；/mask 命令 + mask_test 工具。
 
 ## Output & Deliverables
 
