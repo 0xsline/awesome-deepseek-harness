@@ -304,6 +304,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-chat-tools](https://github.com/yj060464-commits/dsh-chat-tools) - headless 终端伴侣工具链：chat.sh 连续对话 REPL（滚动上下文/决策点拍板/工作流实时透传/思考档位切换）+ 会话日志 LLM 自动总结，零依赖纯 bash+Python
 - [dsh-desktop](https://github.com/xiaoyanzi191/dsh-desktop) - DeepSeek Harness 的 Electron 桌面封装：双击即启动，自动管理 dsh Web 服务生命周期。
 - [dsh-come](https://github.com/qing3a/dsh-come) - 桌面壳（Rust 单 exe）：双击即用 DSH，自动装 Node、托盘、开机自启、插件市场
+- [dsh-launcher](https://github.com/iceleaf916/dsh-launcher) - macOS 菜单栏启动器：一键启动/停止/重启 dsh Web 服务、热重载、开机自启、崩溃自愈，并可在系统浏览器或内置浏览器中打开 dsh 界面
 
 - [ccgui / desktop-cc-gui](https://github.com/zhukunpenglinyutong/desktop-cc-gui) - multi-engine AI 编程桌面客户端（Tauri）：统一接入 Claude Code、Codex、Gemini、OpenCode、DeepSeek Harness 等 CLI runtime，不是 DSH Web UI 外壳，也不是 `dsh-plugin`。
 - [dsh-desktop-hub](https://github.com/FlashingChen/dsh-desktop-hub) - 官方 DSH Web UI 的 Electron 桌面中枢：内置 MCP 配置转换器（Claude Code / Cursor JSON 一键转 DSH YAML）与 Skills / Plugin 管理台，捆绑 Node.js + DSH 运行时，免安装、免终端。
