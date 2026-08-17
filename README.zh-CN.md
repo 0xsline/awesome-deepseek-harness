@@ -389,6 +389,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-git-status](https://github.com/Wongzexu/dsh-git-status) - 专精于 Git 分支与状态处理：Git 状态浮窗，commit DAG 泳道图、未提交改动与 stash、行内 diff，右键分支/tag 切换、合并、重命名、删除、新建，一键拉取远程
 - [Starfie1d1272/dsh-github-skills](https://github.com/Starfie1d1272/dsh-github-skills) - 面向 DSH 的 GitHub 工作流 Skill Pack，覆盖 PR 分诊、review 反馈、GitHub Actions 诊断和安全的 draft PR 发布，并复用已有 GitHub/Git 能力。
 - [dsh-repo-context](https://github.com/qing3a/dsh-repo-context) - 把 git 状态与仓库规范动态注入 system prompt（官方 system-prompt 缝隙插件）
+- [dsh-test-drive](https://github.com/PerryLink/dsh-test-drive) - 在隔离的临时 DSH_HOME 里对插件执行「安装→patch 校验→启动冒烟→卸载→清理」的自动实测，输出结构化 dsh-test-drive/v1 结果供评分管线消费。
 
 ## Security & Governance
 
