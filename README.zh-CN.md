@@ -108,6 +108,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-context](https://github.com/bowenliang123/dsh-context) - 上下文洞察面板：一眼看清模型上下文窗口的组成与变化——构成对照窗口大小、按请求历史趋势、压缩/注入事件、消息级 token 统计。
 - [dsh-bookmarks](https://github.com/penguin-oo/dsh-bookmarks) - 收藏已定稿的 AI 回复（备注/标签），跨会话收藏中心支持搜索、标签筛选、跳回会话与一键导出 Markdown（Alt+B 开关面板）。
 - [billion-context-dsh](https://github.com/Tyan66666/billion-context-dsh) - DSH 的模型驱动上下文压缩（ACP），移植自 billion-context-pi；由模型决定何时压缩及压缩内容。
+- [dsh-scope](https://github.com/helloxkk/dsh-scope) - 上下文透镜：按会话查看 KV 缓存命中率与 token 构成，附 GitHub 风格的每日用量热力图（tokens、会话数、缓存效率）。
 - [dsh-compressor](https://github.com/lifeodyssey/dsh-compressor) - Headroom 的精简移植，在不影响模型上下文缓存以及 Agent 性能的情况下，压缩工具的输出，至多减少 20% 的上下文。
 - [context-vista](https://github.com/GooodWei/context-vista) - 为 DeepSeek Harness 提供右侧悬浮栏以及 /context 命令，用环形图实时展示当前上下文 token 用量与分配及消费估算
 - [dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor) - 看清模型每个请求到底背着多少上下文：指令链/技能目录/工具 schema 的 token 成本逐项量化，自动检测重复与冲突，给出可执行裁剪建议（Web 圆环面板 + context_audit 工具，全程只读）。
