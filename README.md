@@ -285,6 +285,7 @@ Management panel: Settings → Plugins.
 - [dsh-whale-meter](https://github.com/Shiye-10Pages/dsh-whale-meter) - Usage tiers (🐟→🐳) with a locally-estimated percentile and shareable stats card; 46 models across 6 vendors including size-tiered Chinese pricing; backfills pre-install sessions; old-vs-new rates across the 2026-08-17 change.
 - [dsh-file-upload](https://github.com/a903067276-rgb/dsh-file-upload) - One upload button plus drag-and-drop files into the conversation as local paths: save to the project's uploads/, path text into the input box, works with any vision tool.
 - [dsh-bill](https://github.com/Jannchie/dsh-bill) - Cost tracking: per-turn cost line, spend attributed to tool output / model output / system prompt / commands, budget, forecast; priced per call from models.dev + OpenRouter (8000+ models) and never recomputed.
+- [dsh-history](https://github.com/chenproton/dsh-history) - Browse every message you sent in the current session: full-history listing with newest-first sort, text filter, one-click copy, and click-to-jump that auto-loads earlier history when the target is not yet loaded.
 
 ## IDE & Clients
 
