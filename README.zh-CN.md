@@ -248,7 +248,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter) - 会话与当日 API 费用统计、预算图框（已用%）、官方余额、历史看板，支持峰谷计价与官方价格一键同步。
 - [dsh-budget](https://github.com/PerryLink/dsh-budget) - DeepSeek Harness 成本治理：按模型/会话/天聚合 token 与费用计量，会话/日/月预算上限 + 阈值告警与超限 alert/block/degrade 策略，碳足迹估算、分模型延迟基准、Settings 预算页与 /budget 命令。
 - [dsh-cost-meter](https://github.com/Sttrevens/dsh-cost-meter) - Web UI 美元成本徽标：头部显示会话总成本、每条回复结尾显示该轮成本，悬停看分项（token 用量 × 可配置价格表）。
-- [dsh-linked-folders (Sttrevens)](https://github.com/Sttrevens/dsh-linked-folders) — 多文件夹工作区：全局链接文件夹列表 + 会话内临时挂载（link_folder/unlink_folder），侧边栏管理。
+- [dsh-linked-folders](https://github.com/Sttrevens/dsh-linked-folders) - 多文件夹工作区：全局链接文件夹列表 + 会话内临时挂载（link_folder/unlink_folder），侧边栏管理。
 - [dsh-plugin-cost](https://github.com/yweilai77-dev/dsh-plugin-cost) - DSH Web 聊天框底部的会话费用估算：token 四桶 × 可配置价格表，一键刷新官方价格（估算非账单）。
 - [dsh-balance-tide](https://github.com/huanyuLv/dsh-balance-tide) - 输入框下方显示 DeepSeek 账户余额与本会话花费，余额前带峰/谷价格徽章（北京时间）与距切换倒计时，悬停查看两档单价明细与使用建议。
 - [dsh-spend](https://github.com/nonewind/dsh-spend) - DSH Web 用量与预计费用统计：右下角悬浮窗，按模型/按天/按会话多维聚合，内置供应商知识库自动识别计费计划。
