@@ -553,6 +553,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [ClawMetry](https://github.com/vivekchand/clawmetry) - 本地零配置仪表盘：读取 dsh 会话日志，展示会话记录、token 用量、成本与工具调用。
 ## Domain & Specialist Skills
 
+- [pengpengyi92/dsh-quant](https://github.com/pengpengyi92/dsh-quant) - Agent-native 量化研究工具箱：46 工具 · 6 域（数据/因子/ML/风控/执行/生态），一条管线跑通 PDAT→PET。
+
 - [gongyijie85/mattpocock-skills-dsh](https://github.com/gongyijie85/mattpocock-skills-dsh) - Matt Pocock 完整发布技能集（25 个 SKILL.md：grilling、writing-for-agents、wait-what、TDD、code-review、wayfinder、ask-matt 路由）的 DSH 移植。
 - [gongyijie85/mattpocock-skills-dsh-zh](https://github.com/gongyijie85/mattpocock-skills-dsh-zh) - Matt Pocock 25 个技能正文全译中文（技术术语保留英文并附注释）。
 - [gongyijie85/dsh-ponytail](https://github.com/gongyijie85/dsh-ponytail) - Ponytail 最懒资深工程师模式：6 个技能，改编自 DietrichGebert/ponytail。
