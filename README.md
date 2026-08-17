@@ -400,6 +400,7 @@ Management panel: Settings → Plugins.
 - [dsh-guardian](https://github.com/cdxiaodong/dsh-guardian) - Agent security guardrail: intercepts and audits every tool call, requiring human confirmation on sensitive operations.
 - [dsh-plugin-verify](https://github.com/qing3a/dsh-plugin-verify) - Runtime behavior verification CLI: mock-llm agent loop, 7/7 waterfall, zero-side-effect checks, reproducible reports.
 - [dsh-safeguard](https://github.com/ZhijiangTang/dsh-safeguard) - Pre-execution guardrail: vetoes dangerous shell commands and blocks secret/credential leaks before they run.
+- [dsh-mask](https://github.com/PerryLink/dsh-mask) - PII masking middleware: anonymizes names, phones, emails, ID cards, bank cards, keys, and addresses before the model boundary and restores placeholders at display; plaintext never enters the session log; /mask command plus mask_test tool.
 
 ## Output & Deliverables
 
