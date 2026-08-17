@@ -606,6 +606,7 @@ Management panel: Settings → Plugins.
 - [kubemd](https://github.com/guiyi-labs/kubemd) - Evidence-first Kubernetes runtime diagnosis skill with case memory: diagnoses live cluster failures (CrashLoop/OOM/Pending/NetworkPolicy deny), dry-run fixes, records resolved cases for instant recall; ships a go-install CLI twin.
 - [commercial-ui-ux-codex-skill](https://github.com/zjsthmjialin/commercial-ui-ux-codex-skill) - Registers the commercial-ui-ux skill: task-aware commercial UI/UX/GUI design, review, repair and implementation (SaaS, dashboards, admin panels, forms, design systems) with a reference-doc system and quality gates.
 - [dsh-wm](https://github.com/WayneJin0918/dsh-wm) - World-model research toolkit: inspect frames, name 3D / pixel / latent routes, score pred vs GT, and RSI skills / wm.yaml.
+- [duyanta123/dsh-data-insight](https://github.com/duyanta123/dsh-data-insight) - Data-insight skill that turns raw data (CSV / pasted tables / SQL results / DuckDB) into structured Markdown reports with business conclusions, metrics and charts.
 
 ## Tools & Utilities
 
