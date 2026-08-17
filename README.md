@@ -556,6 +556,7 @@ Management panel: Settings → Plugins.
 - [write-chinese-long-screenplay](https://github.com/mudden2380078550-creator/write-chinese-long-screenplay) - Chinese long-form screenwriting skill (SKILL.md): two author input blocks (background + character bible) feeding a causal-value engine, anti-AI-flavor review, and a continuity ledger for 100+ scene projects.
 - [kubemd](https://github.com/guiyi-labs/kubemd) - Evidence-first Kubernetes runtime diagnosis skill with case memory: diagnoses live cluster failures (CrashLoop/OOM/Pending/NetworkPolicy deny), dry-run fixes, records resolved cases for instant recall; ships a go-install CLI twin.
 - [commercial-ui-ux-codex-skill](https://github.com/zjsthmjialin/commercial-ui-ux-codex-skill) - Registers the commercial-ui-ux skill: task-aware commercial UI/UX/GUI design, review, repair and implementation (SaaS, dashboards, admin panels, forms, design systems) with a reference-doc system and quality gates.
+- [dsh-wm](https://github.com/WayneJin0918/dsh-wm) - World-model research toolkit: inspect frames, name 3D / pixel / latent routes, score pred vs GT, and RSI skills / wm.yaml.
 
 ## Tools & Utilities
 
