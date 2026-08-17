@@ -263,6 +263,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-milestone](https://github.com/SnowCrescenter-tech/dsh-milestone) - 右侧圆点时间轴导航栏，快速跳转到任意用户消息。
 - [dsh-turn-index](https://github.com/Simon314620/dsh-turn-index) - 轮次索引侧边栏：每条索引对应一轮用户提问，点击跳转并闪烁高亮，滚动时自动高亮当前轮次。
 - [dsh-outline](https://github.com/urzeye/dsh-outline) - DSH Web 会话页实时大纲面板：用户问题 + Markdown 标题（1~6 级）大纲树，流式生成实时更新，点击节点定位高亮，支持展开层级调节、搜索与会话级收藏。
+- [dsh-conversation-anchors](https://github.com/biggerboy/dsh-conversation-anchors) - 侧边栏会话锚点导航：每个对话节点（用户 / 助手 / 工具 / 命令）一条锚点，带角色徽标与摘要，点击平滑滚动定位到对应消息；随会话实时刷新。
 - [dsh-web-attention-badge](https://github.com/Luaphes/dsh-web-attention-badge) - 关注提醒：会话等待输入或后台完成未打开时，左上角角标、标签页标题 (N) 计数与鲸鱼 favicon 换色三处联动。
 - [dsh-sidebar-mode](https://github.com/Meredith2328/dsh-sidebar-mode) - 嵌在「新会话」按钮里的预设模式徽章：点击即可切换下一个新会话的默认预设（长名自动省略号截断，「新会话」文字始终完整）。
 - [dsh-hud](https://github.com/a903067276-rgb/dsh-hud) - HUD 状态面板：Git 状态、MCP 服务器、技能列表、模型与 token 用量，悬浮侧栏一览无余。
