@@ -605,6 +605,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [kubemd](https://github.com/guiyi-labs/kubemd) - 证据优先的 Kubernetes 运行时故障诊断 skill（含案例记忆）：诊断线上集群故障（CrashLoop/OOM/Pending/NetworkPolicy 误拦），dry-run 修复并沉淀已解案例供秒回；附 go install 免依赖 CLI。
 - [commercial-ui-ux-codex-skill](https://github.com/zjsthmjialin/commercial-ui-ux-codex-skill) - 注册 commercial-ui-ux 技能：以任务为中心的商业界面 UI/UX/GUI 设计、审查、修复与实现（SaaS、仪表盘、后台、表单、设计系统），带参考文档体系与质量门禁。
 - [dsh-wm](https://github.com/WayneJin0918/dsh-wm) - DeepSeek Harness 上的世界模型研究插件：看帧、认 3D / pixel / latent 路线、给 pred vs GT 打分，并对 skill / wm.yaml 做 RSI。
+- [duyanta123/dsh-data-insight](https://github.com/duyanta123/dsh-data-insight) - 数据洞察技能：把原始数据（CSV / 粘贴表格 / SQL 结果 / DuckDB）转成带业务结论、指标与图表的结构化 Markdown 报告。
 
 ## Tools & Utilities
 
