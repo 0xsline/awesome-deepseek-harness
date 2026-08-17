@@ -151,6 +151,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-mnemon](https://github.com/dsh-external/dsh-mnemon) - 助记层
 - [zoahdev/dsh-zh](https://github.com/zoahdev/dsh-zh) - 中文思维 system-prompt 片段：让 agent 用简体中文回答，代码/命令保持原文。
 - [memory-mcp-server](https://github.com/BingoAgentTouch/Personal_MCP) - 分层长期记忆 MCP 服务器：原始轮次 → 任务片段 → 每日总结 → 主题索引；本地 MiniLM 384 维嵌入或 OpenAI 兼容 API 后端，语义 + Jaccard 兜底检索，支持 dsh plugin add 一键安装。
+- [dsh-memory-porter](https://github.com/Shiye-10Pages/dsh-memory-porter) - 跨厂商记忆迁移：Claude 导出里的 `memories.json` 零 token 入库、本机 Claude Code 记录免导出直读、历史对话用宿主已配的模型提纯；每条记忆都带由代码回原文核对的逐字证据。
 - [dsh-library](https://github.com/PerryLink/dsh-library) - DeepSeek Harness 本地优先文档知识库：library_add/remove/list、语义+关键词混合 library_search（多样性重排、相关性过滤、避免 lost-in-the-middle）、引用感知注入与 library_cite_check/diagnose；SQLite 索引走 storage 域，本地嵌入，零模型下载。
 ## Input & Editing
 
