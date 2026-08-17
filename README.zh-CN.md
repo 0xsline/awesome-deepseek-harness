@@ -543,6 +543,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-config-manager](https://github.com/xiajiajun516/dsh-config-manager) - 把整套 DSH 配置一键备份/导出/导入/迁移为单个便携 ZIP，新机器上一步还原（Host 引擎 + Web UI 双面 Cordis 插件）。
 
 - [dsh-backup](https://github.com/xiaoyuyu6420/dsh-backup) - 一键备份与恢复 ~/.dsh 用户数据：/backup 命令族 + backup_dsh 工具 + Settings 面板，sha256 校验与加固的恢复条目审查（路径穿越/symlink 拒绝），重启不重置节奏的定时自动备份、轮换、本机下载路由与私有仓库 GitHub 同步。
+- [dsh-fast](https://github.com/PerryLink/dsh-fast) - 只读零侵入性能诊断：会话加载耗时/spill 命中/压缩统计/上下文注入体量/缓存命中率，/fast 命令与 fast_report 工具，异步采样不占模型路径。
 - [ClawMetry](https://github.com/vivekchand/clawmetry) - 本地零配置仪表盘：读取 dsh 会话日志，展示会话记录、token 用量、成本与工具调用。
 ## Domain & Specialist Skills
 

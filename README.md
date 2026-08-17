@@ -544,6 +544,7 @@ Management panel: Settings → Plugins.
 - [dsh-config-manager](https://github.com/xiajiajun516/dsh-config-manager) - Backup / export / import / migrate the whole DSH configuration as one portable ZIP, restore it on any machine with one click (host engine + Web UI).
 
 - [dsh-backup](https://github.com/xiaoyuyu6420/dsh-backup) - One-command backup & restore of ~/.dsh user data: /backup commands plus a backup_dsh tool and Settings panel, sha256 verify with hardened restore screening (path-traversal/symlink rejection), restart-surviving scheduled auto-backup, rotation, loopback download route, and private-repo GitHub sync.
+- [dsh-fast](https://github.com/PerryLink/dsh-fast) - Read-only performance diagnostics: session load timing, spill hits, compaction stats, context-injection volume, and cache-hit rate via the /fast command and fast_report tool, sampled asynchronously off the model path.
 - [ClawMetry](https://github.com/vivekchand/clawmetry) - Local zero-config dashboard that reads dsh session logs and shows transcripts, token usage, cost, and tool calls.
 ## Domain & Specialist Skills
 
