@@ -147,6 +147,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) - 持续自进化插件：从会话轨迹提炼提示词笔记、记忆、技能与子代理规范，并以版本化、可审计、可回滚的方式维护 Harness 状态。
 - [ccch713/deepddw](https://github.com/ccch713/deepddw) - deepDDW：为 DSH 补齐记忆 + 知识库 + 文档检索，局域网内任意设备（电脑/手机/平板）可访问——封装自企业级 AI 底座平台（团队就绪，支持 20 人以下小团队）；MIT 许可，Docker Compose 部署。
 - [dsh-mnemon](https://github.com/dsh-external/dsh-mnemon) - 助记层
+- [zoahdev/dsh-zh](https://github.com/zoahdev/dsh-zh) - 中文思维 system-prompt 片段：让 agent 用简体中文回答，代码/命令保持原文。
 - [memory-mcp-server](https://github.com/BingoAgentTouch/Personal_MCP) - 分层长期记忆 MCP 服务器：原始轮次 → 任务片段 → 每日总结 → 主题索引；本地 MiniLM 384 维嵌入或 OpenAI 兼容 API 后端，语义 + Jaccard 兜底检索，支持 dsh plugin add 一键安装。
 - [dsh-library](https://github.com/PerryLink/dsh-library) - DeepSeek Harness 本地优先文档知识库：library_add/remove/list、语义+关键词混合 library_search（多样性重排、相关性过滤、避免 lost-in-the-middle）、引用感知注入与 library_cite_check/diagnose；SQLite 索引走 storage 域，本地嵌入，零模型下载。
 ## Input & Editing
@@ -283,6 +284,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-cost-crystal](https://github.com/xxvk/dsh-cost-crystal) - DSH Web UI 成本水晶球：余额卡片、实时 tok/s 速率、波峰/低峰计费倒计时、近 24h 消耗，以及 🔮 下一条消息消耗预测，全部时区感知。
 - [dsh-session-repair-ui](https://github.com/Semidia/dsh-session-repair-ui) - 会话头部的修复按钮：检测并修复工具调用 ID 对不上、空 call ID、禁用插件产生的未知事件、损坏的 zstd 尾部和缺失的末帧换行，写入前自动备份。
 - [plugin-team-board](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-team-board) - 多 agent 共享任务板（创建/认领/流转/查询），状态物化为 Cordis 协作用键。
+- [zoahdev/dsh-code](https://github.com/zoahdev/dsh-code) - VS Code 扩展：从命令或面板运行 DeepSeek Harness 一次性任务（dsh --profile headless）。
 - [dsh-event-auditor](https://github.com/qing3a/dsh-event-auditor) - 事件流审计面板：观察事件类型/分发模式/计数/最近事件，帮助插件作者理解 harness 内部
 - [dsh-whale-meter](https://github.com/Shiye-10Pages/dsh-whale-meter) - 用量段位（🐟→🐳）与可分享战绩卡，分位本地估算；6 家厂商 46 个模型精准计价，含国内按输入长度分档；回填安装前的会话；8·17 调价前后新旧价对比。
 - [dsh-bill](https://github.com/Jannchie/dsh-bill) - 费用统计：每轮成本行，把花费归因到工具输出 / 模型输出 / 系统提示词 / 终端命令，预算与月度预测；按 models.dev + OpenRouter（8000+ 模型）逐次调用定价，历史不重算。
@@ -334,6 +336,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-browser-runtime](https://github.com/anweat/dsh-browser) - DSH 自包含浏览器运行时插件：Playwright（chromium）+ OpenCLI 作为插件本地依赖（全局复用回退），提供 `browser` 服务与交互式浏览器工具。
 - [dsh-computer-use](https://github.com/ZRui-C/dsh-computer-use) - 文本优先电脑控制：Playwright/CDP 后台操作 Chromium，Accessibility 优先控制 macOS；动作锁定到正确进程与窗口，不抢前台、不移动鼠标（已签名公证 Universal 2 DMG 安装包）。
 - [dsh-adb](https://github.com/SamXiaBing/dsh-adb) - ADB 设备与台架运维：设备发现、结构化 logcat（后台采集）、apk 安装、文件 pull/push、性能快照
+- [zoahdev/dsh-vision](https://github.com/zoahdev/dsh-vision) - vision_analyze 工具：用 OpenAI 兼容视觉模型分析本地图片或 URL。
 - [dsh-click](https://github.com/PerryLink/dsh-click) - DeepSeek Harness 原生桌面控制（Windows 优先）：截图、无障碍树结构化读取、点击/输入/滚动/按键与应用启动——变更性操作过审批门禁，不抢占前台焦点
 - [zoahdev/dsh-browser-use](https://github.com/zoahdev/dsh-browser-use) - Browser Use 云端桥接：通过 Browser Use API 让 dsh agent 执行真实网页任务（打开页面、点击、输入、填表、提取数据）。
 
