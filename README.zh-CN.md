@@ -146,6 +146,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [ccch713/deepddw](https://github.com/ccch713/deepddw) - deepDDW：为 DSH 补齐记忆 + 知识库 + 文档检索，局域网内任意设备（电脑/手机/平板）可访问——封装自企业级 AI 底座平台（团队就绪，支持 20 人以下小团队）。
 - [dsh-mnemon](https://github.com/dsh-external/dsh-mnemon) - 助记层
 - [memory-mcp-server](https://github.com/BingoAgentTouch/Personal_MCP) - 分层长期记忆 MCP 服务器：原始轮次 → 任务片段 → 每日总结 → 主题索引；本地 MiniLM 384 维嵌入或 OpenAI 兼容 API 后端，语义 + Jaccard 兜底检索，支持 dsh plugin add 一键安装。
+- [dsh-library](https://github.com/PerryLink/dsh-library) - DeepSeek Harness 本地优先文档知识库：library_add/remove/list、语义+关键词混合 library_search（多样性重排、相关性过滤、避免 lost-in-the-middle）、引用感知注入与 library_cite_check/diagnose；SQLite 索引走 storage 域，本地嵌入，零模型下载。
 ## Input & Editing
 
 - [Zhangbo-cn/dsh-voice-input-plugin](https://github.com/Zhangbo-cn/dsh-voice-input-plugin) - 输入框麦克风：点击持续监控、按住对话；浏览器语音识别逐字上屏，回复由 host Edge TTS 边生成边朗读（句子切分），朗读时暂停识别防回声，点击可停止。

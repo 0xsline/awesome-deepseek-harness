@@ -147,6 +147,7 @@ Management panel: Settings → Plugins.
 - [ccch713/deepddw](https://github.com/ccch713/deepddw) - deepDDW: memory + knowledge base + document search for DSH, reachable from ANY device on your LAN — built on a production-grade AI platform (team-ready, up to ~20 people).
 - [dsh-mnemon](https://github.com/dsh-external/dsh-mnemon) - Mnemonic layer.
 - [memory-mcp-server](https://github.com/BingoAgentTouch/Personal_MCP) - Layered long-term memory MCP server: raw turns → task fragments → daily summaries → topic indexes, local MiniLM 384-dim embeddings or OpenAI-compatible API backend, semantic + Jaccard-fallback search, one-command DSH plugin install.
+- [dsh-library](https://github.com/PerryLink/dsh-library) - Local-first document knowledge base for DeepSeek Harness: library_add/remove/list, hybrid semantic+keyword library_search with diversity re-ranking, relevance filtering and lost-in-the-middle avoidance, citation-aware injection, library_cite_check and library_diagnose; SQLite-backed index via the storage domain, local embedding, zero model downloads.
 ## Input & Editing
 
 - [Zhangbo-cn/dsh-voice-input-plugin](https://github.com/Zhangbo-cn/dsh-voice-input-plugin) - Composer mic for the Web UI: tap-to-monitor live transcription and hold-to-talk, with host Edge TTS reply reading that streams while the model generates, echo-pause during reading, and tap-to-stop.
