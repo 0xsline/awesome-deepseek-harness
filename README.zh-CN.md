@@ -174,6 +174,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-plugin-anydoc](https://github.com/beancookie/dsh-plugin-anydoc) - 该插件封装了一个可复用的函数，通过 @firecrawl/anydoc 提取文件内容（支持文件路径或 Buffer 输入），并返回 GitHub‑Flavored Markdown（GFM）。同时提供可选的配置项（如输出目录、是否覆盖已有文件）。
 - [dsh-attachment-upload](https://github.com/lbh1nb/dsh-plugins/tree/main/packages/dsh-attachment-upload) - 输入框「📎 附件」按钮：上传文件到当前工作区 .dsh-attachments 并把路径插入草稿。
 - [dsh-steer-button](https://github.com/lbh1nb/dsh-plugins/tree/main/packages/dsh-steer-button) - 输入框常驻「插话」按钮：一键把草稿注入运行中的轮次（等同 Ctrl/Cmd+Enter）。
+- [dsh-prompt-optimize](https://github.com/peterliucius/dsh-prompt-optimize) - 通过辅助 LLM 调用改写当前输入框草稿，只替换草稿、不发送消息。
 - [Boliban/dsh-enter-customizer](https://github.com/Boliban/dsh-enter-customizer) - 接管聊天输入框的回车等快捷键，每个快捷键的行为都能单独配置。
 - [PerryLink/dsh-composer-history](https://github.com/PerryLink/dsh-composer-history) - 为 Web 作曲器提供终端风格输入历史（边缘优先方向键、草稿/光标还原、Ctrl+R 搜索、滑动上下文感知），另加智能输入层：跨会话片段、带变量的提示模板、复用洞察与压缩摘要高亮。
 
