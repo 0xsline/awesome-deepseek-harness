@@ -399,6 +399,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-guardian](https://github.com/cdxiaodong/dsh-guardian) - Agent 安全护栏：拦截并审计所有工具调用，命中敏感操作就要求人工确认。
 - [dsh-plugin-verify](https://github.com/qing3a/dsh-plugin-verify) - 运行时行为验证 CLI：一条命令跑 mock-llm 完整 agent 循环，检查 waterfall 链与零副作用，产出可复现验证报告
 - [dsh-safeguard](https://github.com/ZhijiangTang/dsh-safeguard) - 执行前护栏：拦截危险 shell 命令与密钥泄漏，阻止其运行。
+- [dsh-defend](https://github.com/PerryLink/dsh-defend) - 官方接缝上的提示注入 / 越狱 / 密钥泄露检测：移植自 Prompt-Injection-Payloads、Jailbreak-Detector 与 Secret-Key-Leaker-Detect 的规则 + Aho-Corasick 引擎，在用户消息、工具参数、工具结果三处按 allow/ask/block 分层拦截，附脱敏 defend/detection 审计事件、defend_report 工具与危险递归删除命令门禁。
 
 ## Output & Deliverables
 
