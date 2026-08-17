@@ -485,6 +485,7 @@ Management panel: Settings → Plugins.
 - [xiekai886/dsh-MusicPlayer](https://github.com/xiekai886/dsh-MusicPlayer) - A collapsible/expandable draggable floating music player with NetEase Cloud Music playlist import and song/artist search; chat and listen at the same time.
 - [zoahdev/dsh-subscribe](https://github.com/zoahdev/dsh-subscribe) - Steam-style plugin marketplace: subscribe on the web, sync with one command into a dsh profile; 500+ community plugins with verified curation and a zero-dependency CLI.
 - [dsh-vibe-pack](https://github.com/LeemanCheung/dsh-vibe-pack) - Transactional data-only configuration pack manager with integrity, ownership, preview, diff, and rollback safeguards.
+- [Luaphes/dsh-plugins-market](https://github.com/Luaphes/dsh-plugins-market) - Plugin market inside the DSH Web UI: crawls the dsh-plugin topic with noise filtering, curated marks, ranking and one-click install (dsh.bundle-verified).
 
 ## Plugin Ecosystem & Development
 

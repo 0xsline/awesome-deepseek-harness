@@ -484,6 +484,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [xiekai886/dsh-MusicPlayer](https://github.com/xiekai886/dsh-MusicPlayer) - 可折叠/展开、自由拖动的悬浮音乐播放器，接入网易云音乐，支持歌单导入和按歌名或歌手搜索单曲导入，边对话边听歌。
 - [zoahdev/dsh-subscribe](https://github.com/zoahdev/dsh-subscribe) - Steam 式插件市场：网页一键订阅，一条命令同步到 dsh profile；500+ 社区插件，带验证精选，零依赖 CLI。
 - [dsh-vibe-pack](https://github.com/LeemanCheung/dsh-vibe-pack) - 仅数据的事务式配置包管理器，提供完整性、归属、预览、差异和回滚保护。
+- [Luaphes/dsh-plugins-market](https://github.com/Luaphes/dsh-plugins-market) - DSH Web UI 内插件市场：全量嗅探 dsh-plugin topic，过滤蹭标签噪音，保留人工精选标记，支持排序/搜索/语言过滤与一键安装（安装前校验 dsh.bundle 声明）。
 
 ## Plugin Ecosystem & Development
 
