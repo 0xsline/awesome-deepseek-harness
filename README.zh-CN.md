@@ -174,7 +174,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-plugin-anydoc](https://github.com/beancookie/dsh-plugin-anydoc) - 该插件封装了一个可复用的函数，通过 @firecrawl/anydoc 提取文件内容（支持文件路径或 Buffer 输入），并返回 GitHub‑Flavored Markdown（GFM）。同时提供可选的配置项（如输出目录、是否覆盖已有文件）。
 - [dsh-attachment-upload](https://github.com/lbh1nb/dsh-plugins/tree/main/packages/dsh-attachment-upload) - 输入框「📎 附件」按钮：上传文件到当前工作区 .dsh-attachments 并把路径插入草稿。
 - [dsh-steer-button](https://github.com/lbh1nb/dsh-plugins/tree/main/packages/dsh-steer-button) - 输入框常驻「插话」按钮：一键把草稿注入运行中的轮次（等同 Ctrl/Cmd+Enter）。
-- [Boliban/dsh-enter-customizer](https://github.com/Boliban/dsh-enter-customizer) — 接管聊天输入框的回车等快捷键，每个快捷键的行为都能单独配置。
+- [Boliban/dsh-enter-customizer](https://github.com/Boliban/dsh-enter-customizer) - 接管聊天输入框的回车等快捷键，每个快捷键的行为都能单独配置。
 - [PerryLink/dsh-composer-history](https://github.com/PerryLink/dsh-composer-history) - 为 Web 作曲器提供终端风格输入历史（边缘优先方向键、草稿/光标还原、Ctrl+R 搜索、滑动上下文感知），另加智能输入层：跨会话片段、带变量的提示模板、复用洞察与压缩摘要高亮。
 
 ## UI, Themes & Interaction
@@ -358,7 +358,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-sampling-sliders](https://github.com/Semidia/dsh-sampling-sliders) - 输入栏采样面板：temperature / maxTokens 滑杆，热调 + 持久化两种模式，经 agent/request 钩子作用于所有 Provider。
 - [dsh-service-control](https://github.com/Semidia/dsh-service-control) - 会话标题栏工具区的重启 / 关闭按钮：经 ctx.appExit 优雅关闭，通过计划任务调用启动器 `-ControlledRestart` 自动重启 `dsh web`。
 - [dsh-output-styles](https://github.com/PerryLink/dsh-output-styles) - 运行时切换模型输出风格（对标 Claude Code outputStyles：/style 命令、按会话持久化、Web 选择器），另加 output.render.* 呈现协议——渲染器注册表、按会话/按工具规则与 /export。
-- [NOirBRight/dsh-llm-ollama](https://github.com/NOirBRight/dsh-llm-ollama) — Ollama Cloud 原生聊天适配器：注册 `ollama-cloud` LLM 路由，原生模型发现（上下文窗口、视觉、推理、工具调用），并接入 web 搜索/抓取 provider。
+- [NOirBRight/dsh-llm-ollama](https://github.com/NOirBRight/dsh-llm-ollama) - Ollama Cloud 原生聊天适配器：注册 `ollama-cloud` LLM 路由，原生模型发现（上下文窗口、视觉、推理、工具调用），并接入 web 搜索/抓取 provider。
 - [dsh-llm-inspector](https://github.com/cdxiaodong/dsh-llm-inspector) - 统一 LLM 请求/响应检查器：调 reasoning effort、外部思考(think)导出、流量与包分析。
 - [dsh-github](https://github.com/PerryLink/dsh-github) - 官方级 GitHub CI 集成：composite action.yml、轮询 PR 评审机器人（幂等行内评论 + status-check 门禁）以及 PR/issue 工具，所有写入走人工审批门。
 - [dsh-local-ai](https://github.com/PerryLink/dsh-local-ai) - Ollama 本地模型接入：ollama_list/pull/remove/show 与健康检查，以官方 LlmAdapter 注册 Ollama 路由与 model_route 分流（离线优先/长文本/隐私），失败回退云端；/ollama 命令一键总览。
