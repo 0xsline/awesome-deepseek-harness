@@ -89,6 +89,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Agents & Orchestration
 
+- [gewu-tools](https://github.com/nyantused-cpun/gewu-tools) - 面向纯文本 DSH 主脑的模型无关视觉审阅流水线：HTML 逐页截图 + 视觉子代理简报契约（gewu_prep），再把每条审阅发现定位回源码核验真值（gewu_locate）；已在 mimo-v2.5 与 qwen3.7-plus 上实测。
 - [dsh-agent-arena](https://github.com/LeemanCheung/dsh-agent-arena) - 在隔离的 Git 工作树中比较编码智能体，并提供确定性验证、评分和显式胜者应用。
 - [xiehuan123/coding-coach](https://github.com/xiehuan123/coding-coach) - Coding Coach 编程教练：面向非开发人员的 35 技能 bundle + 完整 Agent 预设（八段「想法→上线」编排流水线，工程/产品/界面技能）。
 - [dsh-collaboration](https://github.com/Socialist-Sister/dsh-collaboration) - 多智能体协同套件：用户可配置的专家名册 + 持久专家实例（可多分身）按需雇佣、星型拓扑追问/中转、团队状态面板、模型对比与多模态视觉桥。
