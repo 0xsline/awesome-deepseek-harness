@@ -420,6 +420,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-safeguard](https://github.com/ZhijiangTang/dsh-safeguard) - 执行前护栏：拦截危险 shell 命令与密钥泄漏，阻止其运行。
 - [dsh-mask](https://github.com/PerryLink/dsh-mask) - PII 脱敏中间件：在模型边界前把姓名/电话/邮箱/身份证/银行卡/密钥/地址替换为占位符，展示层还原；明文绝不入会话日志；/mask 命令 + mask_test 工具。
 - [dsh-defend](https://github.com/PerryLink/dsh-defend) - 官方接缝上的提示注入 / 越狱 / 密钥泄露检测：移植自 Prompt-Injection-Payloads、Jailbreak-Detector 与 Secret-Key-Leaker-Detect 的规则 + Aho-Corasick 引擎，在用户消息、工具参数、工具结果三处按 allow/ask/block 分层拦截，附脱敏 defend/detection 审计事件、defend_report 工具与危险递归删除命令门禁。
+- [dsh-change-budget](https://github.com/Raphaelutumn/dsh-change-budget) - 可配置的逐回合修改额度，在受支持的文件修改工具执行前限制不同文件数、修改调用数与 UTF-8 载荷字节数。
 
 ## Output & Deliverables
 
