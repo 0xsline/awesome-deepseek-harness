@@ -99,6 +99,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [timwhitez/dsh-self-evolving](https://github.com/timwhitez/dsh-self-evolving) - 证据优先、可崩溃恢复的 DSH 自进化引擎：有界生成 Cordis 插件候选，经一次性真实 Loader 隔离准入，Harbor 评估，并保存可审计的日志化谱系。
 - [Saktawdi/dsh-ha-orchestrator](https://github.com/Saktawdi/dsh-ha-orchestrator) - 模型高可用故障回退（隔离/熔断/探测恢复）与子智能体编排（fanout/pipeline/supervisor），附带双语设置界面。
 - [dsh-background-agents](https://github.com/PerryLink/dsh-background-agents) - 官方子代理接缝上的持久化后台子代理：任意会话中启动，Web 侧边栏看进度、随时留言与打断，支持按子代理限定工具、人格与委托深度。
+- [zoahdev/dsh-kirocrew](https://github.com/zoahdev/dsh-kirocrew) - 通过 ACP（基于 stdio 的 JSON-RPC 2.0）把 DSH 智能体桥接到一个持久、自进化的 KiroCrew 开发工作空间，仅暴露一个 `kiro_send` 工具。
 
 ## Context & Search
 
