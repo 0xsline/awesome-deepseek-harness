@@ -268,7 +268,6 @@ Management panel: Settings → Plugins.
 - [dsh-web-attention-badge](https://github.com/Luaphes/dsh-web-attention-badge) - Attention reminders: frame badge, tab-title count and whale-favicon recolor for sessions waiting for input or finished unopened.
 - [dsh-sidebar-mode](https://github.com/Meredith2328/dsh-sidebar-mode) - Preset-mode badge embedded in the "New Session" button: click to pick the default agent preset for the next session (long names truncate with ellipsis so the label stays readable).
 - [dsh-hud](https://github.com/a903067276-rgb/dsh-hud) - HUD status panel: git status, MCP servers, skills, model and token usage in a floating side panel.
-<<<<<<< HEAD
 - [dsh-auto-continue](https://github.com/HsiangNianian/dsh-auto-continue) - Auto-resumes interrupted DSH Web requests: sends a queued 「继续」 after network/timeout/host-crash failures, with error classification, adaptive backoff, templated continue text and browser notifications; everything configurable from the plugin settings card.
 - [dsh-trajectory-debug](https://github.com/devmom/dsh-trajectory-debug) - Trajectory waterfall, deterministic replay, breakpoints, edit-and-rerun, fork compare and performance analytics for DeepSeek Harness.
 - [dsh-netcafe](https://github.com/mario03690/dsh-netcafe) - Hosted outcome tools bundle (MCP over one config row): md→docx/pptx/pdf, tables with in-code arithmetic checks, China-reachability testing from a real mainland vantage, Chinese calendar/holidays; free anonymous quota, per-call cost reporting.
@@ -420,6 +419,7 @@ Management panel: Settings → Plugins.
 - [dsh-safeguard](https://github.com/ZhijiangTang/dsh-safeguard) - Pre-execution guardrail: vetoes dangerous shell commands and blocks secret/credential leaks before they run.
 - [dsh-mask](https://github.com/PerryLink/dsh-mask) - PII masking middleware: anonymizes names, phones, emails, ID cards, bank cards, keys, and addresses before the model boundary and restores placeholders at display; plaintext never enters the session log; /mask command plus mask_test tool.
 - [dsh-defend](https://github.com/PerryLink/dsh-defend) - Prompt-injection, jailbreak, and secret-leak detection on the official seams: an Aho-Corasick engine over rules ported from Prompt-Injection-Payloads, Jailbreak-Detector, and Secret-Key-Leaker-Detect gates user messages, tool arguments, and tool results with allow/ask/block tiers, sanitized defend/detection audit events, a defend_report tool, and a destructive-delete command guard.
+- [dsh-perm-guard](https://github.com/a903067276-rgb/dsh-perm-guard) - Auto-approval permission guard: a middle tier between workspace-write and danger-full-access — auto-allows safe operations inside trust directories, always asks a human for destructive ones, with 11 per-category switches and an audit trail.
 
 ## Output & Deliverables
 
