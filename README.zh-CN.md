@@ -349,6 +349,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [NOirBRight/dsh-llm-ollama](https://github.com/NOirBRight/dsh-llm-ollama) — Ollama Cloud 原生聊天适配器：注册 `ollama-cloud` LLM 路由，原生模型发现（上下文窗口、视觉、推理、工具调用），并接入 web 搜索/抓取 provider。
 - [dsh-llm-inspector](https://github.com/cdxiaodong/dsh-llm-inspector) - 统一 LLM 请求/响应检查器：调 reasoning effort、外部思考(think)导出、流量与包分析。
 - [dsh-github](https://github.com/PerryLink/dsh-github) - 官方级 GitHub CI 集成：composite action.yml、轮询 PR 评审机器人（幂等行内评论 + status-check 门禁）以及 PR/issue 工具，所有写入走人工审批门。
+- [dsh-local-ai](https://github.com/PerryLink/dsh-local-ai) - Ollama 本地模型接入：ollama_list/pull/remove/show 与健康检查，以官方 LlmAdapter 注册 Ollama 路由与 model_route 分流（离线优先/长文本/隐私），失败回退云端；/ollama 命令一键总览。
 
 ## Git & Engineering
 
