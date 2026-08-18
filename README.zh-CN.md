@@ -576,8 +576,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 ## Domain & Specialist Skills
 
 - [pengpengyi92/dsh-quant](https://github.com/pengpengyi92/dsh-quant) - Agent-native 量化研究工具箱：46 工具 · 6 域（数据/因子/ML/风控/执行/生态），一条管线跑通 PDAT→PET。
-- [maddogfinance/dsh-trading](https://github.com/maddogfinance/dsh-trading)
-- [dsh-trading-toolkit](https://github.com/kentleenot/dsh-trading-toolkit) - DSH agent 的 A股/美股交易工具箱：实时行情、OHLCV K线、ADX 三状态市场分类信号与简易回测预览，数据源东方财富。只读设计，永不下单。 - 只读交易研究工作台插件：带类型的行情数据接缝（可自带数据源）、多周期指标 regime 快照、dsh web 交互式 K 线卡（模型标注需溯源且经价格区间校验）、以及在 pre-execute 门拦截下单形工具调用的 risk-guard。
+- [maddogfinance/dsh-trading](https://github.com/maddogfinance/dsh-trading) - 只读交易研究工作台插件：带类型的行情数据接缝（可自带数据源）、多周期指标 regime 快照、dsh web 交互式 K 线卡（模型标注需溯源且经价格区间校验）、以及在 pre-execute 门拦截下单形工具调用的 risk-guard。
+- [dsh-trading-toolkit](https://github.com/kentleenot/dsh-trading-toolkit) - DSH agent 的 A股/美股交易工具箱：实时行情、OHLCV K线、ADX 三状态市场分类信号与简易回测预览，数据源东方财富。只读设计，永不下单。
 
 - [gongyijie85/mattpocock-skills-dsh](https://github.com/gongyijie85/mattpocock-skills-dsh) - Matt Pocock 完整发布技能集（25 个 SKILL.md：grilling、writing-for-agents、wait-what、TDD、code-review、wayfinder、ask-matt 路由）的 DSH 移植。
 - [gongyijie85/mattpocock-skills-dsh-zh](https://github.com/gongyijie85/mattpocock-skills-dsh-zh) - Matt Pocock 25 个技能正文全译中文（技术术语保留英文并附注释）。
