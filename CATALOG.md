@@ -30,6 +30,7 @@
 | 仓库 | 描述 |
 |---|---|
 | [7d7d](https://github.com/dsh-external/7d7d) | 7k7k 风格小游戏平台：模型生成/上传 HTML5 与 Flash 小游戏，Web UI 内直接游玩（Ruffle 模拟 Flash） |
+| [dsh-dep-audit](https://github.com/zoahdev/dsh-dep-audit) | 依赖供应链卫生审计：peer 范围可解析性、坏 dist-tag 检测（#2763 类）、过期/缺许可证/非注册表来源依赖、安装版本漂移——dsh-poison-guard（恶意扫描）的互补件 |
 | [DSH-UI4A](https://github.com/dsh-external/DSH-UI4A) | UI4A（UI for Agent）的 DSH 实现（macaron-ui4a-interactive-ai） |
 | [DSH-better-sidebar](https://github.com/dsh-external/DSH-better-sidebar) | 右侧侧边栏增强：文件预览/终端/Git，可拖拽自定义位置 |
 | [chat-width](https://github.com/dsh-external/chat-width) | 自由调节正文与输入框的展示宽度 |
