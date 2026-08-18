@@ -249,6 +249,7 @@ Management panel: Settings → Plugins.
 - [dsh-pin-recall](https://github.com/kerwin2046/dsh-pin-recall) - Pin assistant replies from the Web action strip and recall them into the next model turn (`/pin` `/recall`, with optional wake).
 - [dsh-turn-navigator](https://github.com/dsh-external/dsh-turn-navigator) - DSH Web turn navigation plugin.
 - [dsh-fork-graph](https://github.com/chouyong/dsh-fork-graph) - Git-style conversation fork graph in the session header: colored lanes and fork curves show which session branched from which, with click-to-jump navigation.
+- [chouyong/dsh-branch-review](https://github.com/chouyong/dsh-branch-review) - Track human decisions for related DSH session branches: keep, discard, or follow up with reasons, labels, and external links.
 - [dsh-fork-diff](https://github.com/chouyong/dsh-fork-diff) - Read-only parent and sibling branch comparison in DSH Web: message and tool diffs, usage and latency summaries, filters, and open-session navigation.
 - [dsh-usage-panel](https://github.com/AlfredChaos/dsh-usage-panel) - Token usage statistics as a Settings page: cumulative KPIs, a six-month activity heatmap, stacked per-model daily bars and a model donut, rescanned read-only from session logs.
 - [dsh-what-changed](https://github.com/sjh9714/dsh-what-changed) - Session-wide file change review in the session header. Lists every file the agent wrote this session with its hunks, counts refused writes separately from changes, and folds from a session projection rather than the on-disk log.

@@ -250,6 +250,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-pin-recall](https://github.com/kerwin2046/dsh-pin-recall) - 在 Web 助手消息操作条钉住回复，再通过 `/pin` `/recall` 召回进下一轮模型上下文（可一键唤醒）。
 - [dsh-turn-navigator](https://github.com/dsh-external/dsh-turn-navigator) - DSH Web turn 导航插件。
 - [dsh-fork-graph](https://github.com/chouyong/dsh-fork-graph) - 会话标题栏内联的 Git 风格 fork 血缘图：用彩色轨道与分叉曲线显示会话从何处分支，并可点击跳转。
+- [chouyong/dsh-branch-review](https://github.com/chouyong/dsh-branch-review) - 为相关 DSH 会话分支记录人工决策：保留、淘汰或待跟进，并保存理由、标签与外部链接。
 - [dsh-fork-diff](https://github.com/chouyong/dsh-fork-diff) - DSH Web 的只读父分支与兄弟分支比较：展示消息与工具差异、用量与耗时摘要，支持筛选和打开对应会话。
 - [dsh-usage-panel](https://github.com/AlfredChaos/dsh-usage-panel) - 设置页 Token 用量统计：累计 KPI、半年活跃热力图、按模型堆叠的每日柱状图与模型环形图，只读重算会话日志。
 - [dsh-what-changed](https://github.com/sjh9714/dsh-what-changed) - 会话顶栏的整会话改动审阅。列出本次会话 Agent 写过的每个文件与逐处改动，被权限拒绝的写入单独计数不算改动，数据来自 session projection 而非磁盘日志。
