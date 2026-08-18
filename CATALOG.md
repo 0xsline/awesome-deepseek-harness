@@ -30,6 +30,7 @@
 | 仓库 | 描述 |
 |---|---|
 | [7d7d](https://github.com/dsh-external/7d7d) | 7k7k 风格小游戏平台：模型生成/上传 HTML5 与 Flash 小游戏，Web UI 内直接游玩（Ruffle 模拟 Flash） |
+| [dsh-timesheet](https://github.com/zoahdev/dsh-timesheet) | 从会话日志做基于 turn 的时间跟踪：按天/项目/供应商/来源汇总、工具调用数、失败率、首 token 延迟 |
 | [DSH-UI4A](https://github.com/dsh-external/DSH-UI4A) | UI4A（UI for Agent）的 DSH 实现（macaron-ui4a-interactive-ai） |
 | [DSH-better-sidebar](https://github.com/dsh-external/DSH-better-sidebar) | 右侧侧边栏增强：文件预览/终端/Git，可拖拽自定义位置 |
 | [chat-width](https://github.com/dsh-external/chat-width) | 自由调节正文与输入框的展示宽度 |
