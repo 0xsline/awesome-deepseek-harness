@@ -345,7 +345,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [zoahdev/dsh-browser-use](https://github.com/zoahdev/dsh-browser-use) - Browser Use 云端桥接：通过 Browser Use API 让 dsh agent 执行真实网页任务（打开页面、点击、输入、填表、提取数据）。
 
 ## Models & Inference
-
+- [dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) - 为 DeepSeek Harness 提供原生对话生图能力，支持 Google Gemini、OpenAI Images、OpenAI 兼容 API 和字节 Seedream。
 - [dsh-codex-oauth](https://github.com/WNJXYK/dsh-codex-oauth) - DSH 的 ChatGPT/Codex 订阅接入插件，支持 GPT 模型、图像生成、Web 搜索、额度显示，以及浏览器/设备码 OAuth 登录。
 - [dsh-vision](https://github.com/dsh-external/dsh-vision) - 视觉桥接：view_image 工具接任意 OpenAI 兼容 VLM（默认智谱免费档）
 - [DeepSee](https://github.com/windyslime/DeepSee) - DSH `0.1.0-rc.5` Web 配置的视觉推理网关：把图片轮次路由到本地可插拔的 VLM 后端，常规 DSH 文本路由不受影响。
