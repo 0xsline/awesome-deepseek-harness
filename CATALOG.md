@@ -30,6 +30,7 @@
 | 仓库 | 描述 |
 |---|---|
 | [7d7d](https://github.com/dsh-external/7d7d) | 7k7k 风格小游戏平台：模型生成/上传 HTML5 与 Flash 小游戏，Web UI 内直接游玩（Ruffle 模拟 Flash） |
+| [dsh-discussions-radar](https://github.com/zoahdev/dsh-discussions-radar) | 官方 Discussions 雷达：列出/筛选/搜索官方讨论区（Ideas/Q&A/Show Your Plugins!/General/Announcements） |
 | [DSH-UI4A](https://github.com/dsh-external/DSH-UI4A) | UI4A（UI for Agent）的 DSH 实现（macaron-ui4a-interactive-ai） |
 | [DSH-better-sidebar](https://github.com/dsh-external/DSH-better-sidebar) | 右侧侧边栏增强：文件预览/终端/Git，可拖拽自定义位置 |
 | [chat-width](https://github.com/dsh-external/chat-width) | 自由调节正文与输入框的展示宽度 |
