@@ -138,7 +138,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-memory-evolve](https://github.com/dsh-external/dsh-memory-evolve) - 跨会话长期记忆 + 后台自我进化（五轨记忆/Git 分支感知/技能进化）
 - [dsh-memory-gate](https://github.com/GIT121995/dsh-memory-gate) - 有界本地长期记忆：CBDC（Claim→Belief→Decision→Consumption）权威门控 + SQLite/FTS5，检索到≠注入，use/verify/ignore 可解释决策与完整审计，/memory 命令管理，每次最多注入 3 条 1200 字符，不增加模型调用。
 - [dsh-engram-relay](https://github.com/dsh-external/dsh-engram-relay) - 内置 <1B 模型实现 100k 等效长记忆，因果图精准唤醒
-- [dsh-mneme](https://github.com/modusensus/dsh-mneme) - 记忆主权跨会话记忆：SQLite + 可编辑 Markdown 双写，autoDream 自我修正（update 决策）+ 失败追踪，完全离线语义检索（本地向量 / 精排 / 聚类），233 测试。
+- [dsh-mneme](https://github.com/modusensus/dsh-mneme) - DeepSeek Harness 跨会话记忆引擎：SQLite 存储 + 可人工编辑的 Markdown 镜像，autoDream 自我修正巩固、失败追踪、离线语义搜索（本地向量/精排/聚类）、实体-属性-时间轴、Sleep Mode、自定义模型 autoSummarize——473 测试。
 - [dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) - Mnemon 驱动的本地记忆系统：三层记忆（运行时热记忆/项目档案 Documents/长期记忆体 Memory Spaces），受监督写回、检索工具与 Web UI
 - [url-manager](https://github.com/Piccolo123/url-manager) - Agent 先行链接收藏与知识管理：从任意平台保存链接，自动分类/打标签，全文搜索，共享分类，并以魔法链接卡片交付结果。零配置——Agent 首次使用自动注册。
 - [url-manager-mcp](https://github.com/Piccolo123/url-manager-mcp) - url-manager 的 MCP 服务端：21 个工具（mcp__url_manager__*），支持收藏/搜索/分类/共享与魔法链接交付，支持 stdio 与 streamable-http。
@@ -253,7 +253,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-office](https://github.com/dsh-external/dsh-office) - Office 文件读写 bundle：模型读写 Office 文件，docx/pdf 预览
 - [dsh-token-pet](https://github.com/pk7j7sqryy-ops/dsh-token-pet) - 会话头部卡通用量小部件：实时上下文占用、会话累计与构成，附日期周几、天气、3 天预报与极端天气预警，跟随主题色。
 - [dsh-token-usage](https://github.com/jiamuAi/dsh-token-usage) - Codex 风格 Token 用量面板：全实例累计/单会话峰值 Token、最长聊天时长与连续天数、每日/每周/累计活动热力图，以及插件/Skill Top5。
-- [dsh-office](https://github.com/Fayelin12/dsh-office) - 办公室工作区/会话仪表盘：悬浮 6 列精灵面板，可视化工作区、会话、token 用量与子代理。
+- [dsh-office](https://github.com/Fayelin12/dsh-office) - DeepSeek Harness（DSH）办公室工作区/会话仪表盘：悬浮 6 列精灵面板可视化工作区、会话、token 用量与子代理——另含 Agent Mail、飞书消息流、会议日程、会议纪要与办公日志页签。
 - [dsh-deepseek-quota](https://github.com/yingjunnan/dsh-deepseek-quota) - DSH Web 页面右下角悬浮卡片展示 DeepSeek API 余额（自动刷新 + 手动刷新）。
 - [dsh-pin-recall](https://github.com/kerwin2046/dsh-pin-recall) - 在 Web 助手消息操作条钉住回复，再通过 `/pin` `/recall` 召回进下一轮模型上下文（可一键唤醒）。
 - [dsh-turn-navigator](https://github.com/dsh-external/dsh-turn-navigator) - DSH Web turn 导航插件。
@@ -385,6 +385,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-subagent-cwd](https://github.com/lynx-gt/dsh-subagent-cwd) - dsh-subagent-tools 加按次 cwd（子代理工作目录），附所需的两处进程内 provider 补丁。
 - [dsh-plugin-subagent-director](https://github.com/SeverusZh/dsh-plugin-subagent-director) - 子代理 LLM 供应商/模型选择与角色模板（subagent_role 工具）。
 - [penguin-oo/dsh-delegate-router](https://github.com/penguin-oo/dsh-delegate-router) - 给 DeepSeek Harness 的子代理调用做 Flash/Pro 自动分派：轻任务自动用便宜模型、重任务留在强模型，支持手动覆盖与 /delegate 会话模式。
+- [Cavan-Ou/dsh-flash-godmode](https://github.com/Cavan-Ou/dsh-flash-godmode) - V4 Flash 无头推理模式路由插件：w7 人设锚定、首轮工具锚定与按复杂度分派的引导。
 - [dsh-subscription-auth](https://github.com/Khellendros97/dsh-subscription-auth) - 订阅会员 OAuth 登录：ChatGPT/Claude/Grok/Kimi 按订阅账号（非 API key）访问模型，登录后自动发现官方模型列表
 - [dsh-llm-oauth](https://github.com/ziyou979/dsh-llm-oauth) - 订阅套餐 OAuth 登录插件：Grok / GitHub Copilot / OpenAI Codex / Anthropic / OpenRouter，持久凭据 + 请求路径自动刷新 token，不改仓库（Grok/Copilot 可用，Codex 慎用）。
 - [dsh-llm-local-token](https://github.com/tianxia--/dsh-llm-local-token) - 直接复用本机 Codex CLI 与 Claude Code 已持有的 OAuth 凭据：注册 `openai-codex` 与 `anthropic` 路由，分别读取 `~/.codex/auth.json` 与 `~/.claude/.credentials.json`（macOS 钥匙串回退），临期自动刷新 token，并从服务商限流响应头展示订阅用量。
