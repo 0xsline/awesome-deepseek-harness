@@ -584,6 +584,7 @@ Management panel: Settings → Plugins.
 
 ## Runtime & Operations
 
+- [zoahdev/dsh-disk-audit](https://github.com/zoahdev/dsh-disk-audit) - Disk-usage audit for dsh data directories: total size, per-directory breakdown, largest files, oversized-file warnings (session logs can hit hundreds of MB) and cleanup suggestions (CLI + `disk_audit` tool).
 - [zoahdev/dsh-cn-boot](https://github.com/zoahdev/dsh-cn-boot) - China-network bootstrap: probes npm/npmmirror/GitHub/HuggingFace/Gitee and local proxies, recommends mirrors/proxy, generates a PowerShell + bash bootstrap (CLI + `cn_boot` tool).
 - [zoahdev/dsh-firstrun](https://github.com/zoahdev/dsh-firstrun) - First-run health check: node/pnpm/dsh toolchain, profile, API key (names only), workspace, registry + actionable next steps (CLI + `quickstart` tool).
 - [zoahdev/dsh-trace](https://github.com/zoahdev/dsh-trace) - Aggregate observability dashboard: decode every `session.jsonl.zstd` under a sessions root and render tokens/tools/errors/latency as one self-contained HTML report (zero deps).
