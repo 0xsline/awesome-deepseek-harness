@@ -243,7 +243,7 @@ Management panel: Settings → Plugins.
 - [dsh-office](https://github.com/dsh-external/dsh-office) - Office file read/write bundle: model edits Office files, docx/pdf preview in web client.
 - [dsh-token-pet](https://github.com/pk7j7sqryy-ops/dsh-token-pet) - Cute token-usage pet in the session header: live context occupancy, per-session usage and breakdown, plus date/weekday, weather, 3-day forecast and severe-weather alerts, all theme-aware.
 - [dsh-token-usage](https://github.com/jiamuAi/dsh-token-usage) - Codex-style token usage panel: whole-instance cumulative/per-session peak tokens, longest chat & streak, daily/weekly/cumulative activity heatmap, and plugin/skill Top5.
-- [dsh-office](https://github.com/Fayelin12/dsh-office) - Office workspace & session dashboard: a floating 6-column sprite panel visualizing workspaces, sessions, token usage and subagents.
+- [dsh-office](https://github.com/Fayelin12/dsh-office) - Office workspace & session dashboard for DeepSeek Harness (DSH): a floating 6-column sprite panel visualizing workspaces, sessions, token usage and subagents — plus Agent Mail, Feishu/Lark message feed, meeting schedules, transcripts and an office log tab.
 - [dsh-deepseek-quota](https://github.com/yingjunnan/dsh-deepseek-quota) - DeepSeek API balance in a bottom-right floating card on the DSH Web page (auto-refresh + manual refresh).
 - [dsh-pin-recall](https://github.com/kerwin2046/dsh-pin-recall) - Pin assistant replies from the Web action strip and recall them into the next model turn (`/pin` `/recall`, with optional wake).
 - [dsh-turn-navigator](https://github.com/dsh-external/dsh-turn-navigator) - DSH Web turn navigation plugin.
