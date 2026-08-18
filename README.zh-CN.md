@@ -155,6 +155,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-memory-porter](https://github.com/Shiye-10Pages/dsh-memory-porter) - 跨厂商记忆迁移：Claude 导出里的 `memories.json` 零 token 入库、本机 Claude Code 记录免导出直读、历史对话用宿主已配的模型提纯；每条记忆都带由代码回原文核对的逐字证据。
 - [dsh-simple-wiki-memory](https://github.com/rainow/dsh-simple-wiki-memory) - 超级简化版 llm-wiki 记忆插件：一个索引文档（自动加载）+ 每个主题一个 md 文件（需要时才读）——不会把所有东西塞进上下文烧 token。简单轻量，安装卸载无压力，想怎么改就怎么改。
 - [dsh-library](https://github.com/PerryLink/dsh-library) - DeepSeek Harness 本地优先文档知识库：library_add/remove/list、语义+关键词混合 library_search（多样性重排、相关性过滤、避免 lost-in-the-middle）、引用感知注入与 library_cite_check/diagnose；SQLite 索引走 storage 域，本地嵌入，零模型下载。
+- [dsh-ragflow](https://github.com/staff-os/dsh-ragflow) - RAGFlow 知识库检索插件：为 agent 提供 `ragflow_retrieve` 工具，查询 RAGFlow 数据集并返回带相似度分数和来源名的文档块；三角色设计（seam/provider/consumer），环境变量配置，`dsh plugin add github:staff-os/dsh-ragflow#main`。
 ## Input & Editing
 
 - [Zhangbo-cn/dsh-voice-input-plugin](https://github.com/Zhangbo-cn/dsh-voice-input-plugin) - 输入框麦克风：点击持续监控、按住对话；浏览器语音识别逐字上屏，回复由 host Edge TTS 边生成边朗读（句子切分），朗读时暂停识别防回声，点击可停止。
