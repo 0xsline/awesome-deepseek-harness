@@ -479,6 +479,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [inspiration-deck-workshop](https://github.com/zjsthmjialin/inspiration-deck-workshop) - 注册灵感演示工坊技能：本地静态 HTML 演示文稿（6 套 deck 模板、25+ 布局、主题与动效展示馆），带 validate 校验与 PNG/PDF 导出 CLI，零运行时依赖。
 - [pdf-background-gray-codex-skill](https://github.com/zjsthmjialin/pdf-background-gray-codex-skill) - 去除扫描 PDF 的灰色/米白底色，保持分辨率、页面几何与抗锯齿文字边缘（无损 Flate 写回），核心为单文件 Python 脚本。
 - [JohnXu22786/docgen](https://github.com/JohnXu22786/docgen) - 文档工坊技能包：纯提示词（Agent Skills）文档生成——README、PR 描述、changelog 与代码审查；零第三方依赖。
+- [stacktree-dsh](https://github.com/stevysmith/stacktree-dsh) - 连接 Stacktree MCP 服务端的 Cordis 覆盖配置（stdio 或 Streamable HTTP）：把生成的 HTML 发布到不可猜测的私有链接，客户无需账号即可打开；支持原地替换以保持链接长期有效，并可用密码或邮箱域名设置访问门槛。
 
 ## Notifications & Channels
 
