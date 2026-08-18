@@ -184,6 +184,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [Boliban/dsh-enter-customizer](https://github.com/Boliban/dsh-enter-customizer) - 接管聊天输入框的回车等快捷键，每个快捷键的行为都能单独配置。
 - [PerryLink/dsh-composer-history](https://github.com/PerryLink/dsh-composer-history) - 为 Web 作曲器提供终端风格输入历史（边缘优先方向键、草稿/光标还原、Ctrl+R 搜索、滑动上下文感知），另加智能输入层：跨会话片段、带变量的提示模板、复用洞察与压缩摘要高亮。
 - [dsh-file-upload](https://github.com/a903067276-rgb/dsh-file-upload) - 一键上传 + 拖拽文件进对话：保存到项目 uploads/、路径文本进输入框，可配合任意视觉工具。
+- [opencues/opencues](https://github.com/opencues/opencues/tree/master/integrations/dsh) - 输入框内的同义词提示与下划线补全：行尾输入 `_` 即自动填充，拼写错误随打随标。走 `ctx.llm`，无需自备 API key。
 
 ## UI, Themes & Interaction
 
