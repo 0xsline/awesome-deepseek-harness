@@ -356,6 +356,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [zoahdev/dsh-vision](https://github.com/zoahdev/dsh-vision) - vision_analyze 工具：用 OpenAI 兼容视觉模型分析本地图片或 URL。
 - [dsh-click](https://github.com/PerryLink/dsh-click) - DeepSeek Harness 原生桌面控制（Windows 优先）：截图、无障碍树结构化读取、点击/输入/滚动/按键与应用启动——变更性操作过审批门禁，不抢占前台焦点
 - [zoahdev/dsh-browser-use](https://github.com/zoahdev/dsh-browser-use) - Browser Use 云端桥接：通过 Browser Use API 让 dsh agent 执行真实网页任务（打开页面、点击、输入、填表、提取数据）。
+- [dsh-antigravity](https://github.com/LiZhenNet/dsh-antigravity) - Google Antigravity / Cloud Code Assist 模型提供者插件：支持 Web OAuth 登录、实时额度同步、精选 11 个 Base 模型与动态思考档位路由。
 - [JohnXu22786/browser-automation](https://github.com/JohnXu22786/browser-automation) - Web Bridge：面向 dsh 的浏览器自动化 MCP 服务器——真实浏览器导航、点击、填表、截图、JS 执行，由无障碍树快照驱动。
 - [JohnXu22786/computer-control](https://github.com/JohnXu22786/computer-control) - 面向 dsh 的桌面控制：屏幕捕获、指针/键盘注入、无障碍树语义操作，紧急停止、允许/拒绝规则、确认流程与空闲待机。
 

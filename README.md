@@ -359,6 +359,7 @@ Management panel: Settings → Plugins.
 - [zoahdev/dsh-vision](https://github.com/zoahdev/dsh-vision) - vision_analyze tool: analyze a local image or URL with an OpenAI-compatible vision model.
 - [dsh-click](https://github.com/PerryLink/dsh-click) - Native desktop control for DeepSeek Harness (Windows first): screen_shot, screen_read accessibility trees, click/type/scroll/key, and app launch — approval-gated, never stealing foreground focus.
 - [zoahdev/dsh-browser-use](https://github.com/zoahdev/dsh-browser-use) - Browser Use cloud bridge: run real web tasks (open pages, click, type, fill forms, extract data) through the Browser Use API.
+- [dsh-antigravity](https://github.com/LiZhenNet/dsh-antigravity) - Google Antigravity / Cloud Code Assist model provider for DSH with native Web OAuth, real-time quota tracking, and dynamic reasoning effort routing.
 - [JohnXu22786/model-catalog](https://github.com/JohnXu22786/model-catalog) - Model catalog auto-discovery: fetch model listings, pricing and capabilities from OpenAI-compatible API hosts, normalized into ready-to-use config.
 
 ## Models & Inference
