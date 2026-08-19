@@ -658,6 +658,7 @@ Management panel: Settings → Plugins.
 - [JohnXu22786/skill-framework](https://github.com/JohnXu22786/skill-framework) - Praxis: a bundled engineering-methodology skill library (Agent Skills) for dsh, served as a Cordis plugin via ctx.skills.
 - [duyanta123/dsh-data-insight](https://github.com/duyanta123/dsh-data-insight) - Data-insight skill that turns raw data (CSV / pasted tables / SQL results / DuckDB) into structured Markdown reports with business conclusions, metrics and charts.
 
+- [dsh-industry-research](https://github.com/PerryLink/dsh-industry-research) - Industry and company research domain pack: industry_map chain maps, public-source policy/news tracking over ctx.web (industry_track), company_scan cards from user data files, and industry_report with an optional ctx.researchReport sealing bridge and a builtin-fallback renderer, plus two methodology skills.
 ## Tools & Utilities
 
 - [dsh-case](https://github.com/ZhijiangTang/dsh-case) - Name-case conversion across 8 styles: camel, snake, kebab, Pascal, and more.

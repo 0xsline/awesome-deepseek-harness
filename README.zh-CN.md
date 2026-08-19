@@ -657,6 +657,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [JohnXu22786/skill-framework](https://github.com/JohnXu22786/skill-framework) - Praxis：面向 dsh 的工程方法论技能库（Agent Skills），以 Cordis 插件形式经 ctx.skills 提供。
 - [duyanta123/dsh-data-insight](https://github.com/duyanta123/dsh-data-insight) - 数据洞察技能：把原始数据（CSV / 粘贴表格 / SQL 结果 / DuckDB）转成带业务结论、指标与图表的结构化 Markdown 报告。
 
+- [dsh-industry-research](https://github.com/PerryLink/dsh-industry-research) - 行业/公司研究领域包：industry_map 产业链建图、industry_track 经 ctx.web 的公开源政策动态跟踪、company_scan 基于用户数据文件的公司速览卡、industry_report 研究报告（可选 ctx.researchReport 引擎封存桥，缺席时内置降级渲染），附两个研究方法论技能。
 ## Tools & Utilities
 
 - [dsh-case](https://github.com/ZhijiangTang/dsh-case) - 命名大小写转换，支持 camel/snake/kebab/Pascal 等 8 种风格。
