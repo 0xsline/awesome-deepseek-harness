@@ -307,6 +307,7 @@ Management panel: Settings → Plugins.
 - [dsh-bill](https://github.com/Jannchie/dsh-bill) - Cost tracking: per-turn cost line, spend attributed to tool output / model output / system prompt / commands, budget, forecast; priced per call from models.dev + OpenRouter (8000+ models) and never recomputed.
 - [dsh-history](https://github.com/chenproton/dsh-history) - Browse every message you sent in the current session: full-history listing with newest-first sort, text filter, one-click copy, and click-to-jump that auto-loads earlier history when the target is not yet loaded.
 - [JohnXu22786/session-titler](https://github.com/JohnXu22786/session-titler) - Two-phase session captioning for DeepSeek Harness: instant keyword captions while busy, budget-model refinement when idle.
+- [dsh-billing-tui](https://github.com/Ethanz11-creat/dsh-billing-tui) - Real-time token/cost billing with official DeepSeek peak/off-peak pricing: TUI status line and a whale ASCII receipt via /billing.
 
 ## IDE & Clients
 
