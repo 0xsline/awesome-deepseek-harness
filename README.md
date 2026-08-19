@@ -450,6 +450,7 @@ Management panel: Settings → Plugins.
 - [JohnXu22786/secret-guard](https://github.com/JohnXu22786/secret-guard) - Blocks agents from reading/writing sensitive files (.env, credentials), masks leaked secrets in tool results, with an audit journal and safe sg_* inspection tools.
 - [duyanta123/arch-doc](https://github.com/duyanta123/arch-doc) - Analyze a codebase and generate architecture documentation (module responsibilities, dependency graph, entry points, run methods) via a five-stage runbook plus a zero-dependency arch-profile scanner.
 - [duyanta123/dsh-preset-scaffold](https://github.com/duyanta123/dsh-preset-scaffold) - Project-init scaffold preset: strict five-phase runbook, engineering standards, and six runnable starter templates (node-ts / react-vite / python / go / spring-boot / monorepo).
+- [dsh-verify](https://github.com/263311487-ux/dsh-verify) - Independent browser acceptance testing for agent deliverables: JSON spec in, real Chromium (Firefox/WebKit) verdict out (PASS/FAIL with screenshot receipts). MCP server + CLI + GitHub Action, works with any agent and CI (MIT).
 
 ## Security & Governance
 

@@ -447,6 +447,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [JohnXu22786/adversarial-review](https://github.com/JohnXu22786/adversarial-review) - gavel-review：对抗式多视角代码审查——并行攻击视角、确定性静态哨兵、跨视角合并去重、严重度分级、抑制规则与审查历史；dsh 工具 + 独立 CLI。
 - [duyanta123/arch-doc](https://github.com/duyanta123/arch-doc) - 分析代码库并生成架构文档（模块职责、依赖图、入口点、运行方式）：五阶段 runbook + 零依赖 arch-profile 扫描脚本。
 - [duyanta123/dsh-preset-scaffold](https://github.com/duyanta123/dsh-preset-scaffold) - 项目初始化脚手架预设：严格五阶段流程 + 工程规范 + 六套可运行模板（node-ts / react-vite / python / go / spring-boot / monorepo）。
+- [dsh-verify](https://github.com/263311487-ux/dsh-verify) - Agent 交付物的独立浏览器验收测试：JSON 规格进，真实浏览器（Chromium/Firefox/WebKit）执行出结论（PASS/FAIL + 截图证据）。MCP 服务器 + CLI + GitHub Action，兼容任意 Agent 与 CI（MIT）。
 
 ## Security & Governance
 
