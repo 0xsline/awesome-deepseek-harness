@@ -561,6 +561,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [Code2Skill](https://github.com/leechen298/Code2Skill) - 从用户授权的源码生成 Function、MCP 工具、工作流 Skill 与离线测试包。
 - [dsh-movein](https://github.com/sjh9714/dsh-movein) - 一条命令把整套 Claude Code 配置迁入 DSH：技能、MCP 服务器、hooks、子代理与权限规则，附 dry-run 迁移清单、迁移差异报告与 movein_from_claude_code 工具。
 - [sandbase-skills](https://github.com/sandbaseai/sandbase-skills) - 经校验的 SKILL.md 目录与安装器，为 DSH 和兼容 Agent 提供 88 个可安装技能包。
+- [dsh-plugin-store](https://github.com/sandbaseai/dsh-plugin-store) - DSH 设置页原生插件市场，支持按搜索和标签浏览社区目录、安装插件并查看已安装包。
 - [DshMarketPlace/dsh-plugins-store](https://github.com/DshMarketPlace/dsh-plugins-store) - 装在 DSH 内的双语插件目录：提供 `/store`、设置页、Agent 搜索/安装工具和随包发现 Skill，并在安装前展示风险项、请求确认。
 - [dsh-hmz](https://github.com/dsh-external/dsh-hmz) - 占位仓库，描述待补充。
 - [dsh-interpreters](https://github.com/dsh-external/dsh-interpreters) - 解释器插件（cordis）。
