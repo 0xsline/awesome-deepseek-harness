@@ -563,6 +563,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-super-injector](https://github.com/dsh-external/dsh-super-injector) - super-injector 插件（cordis）
 - [dsh-mcp-manager](https://github.com/hyqhyq3/dsh-mcp-manager) - MCP 服务器管理器：设置页添加服务器，OAuth（PKCE + 动态客户端注册）或静态 token 认证，工具注册为 mcp__<name>__*
 - [dsh-mcp-skill-panel](https://github.com/lilyblessing/dsh-mcp-skill-panel) - MCP 与技能管理面板：MCP 服务器与 Skill 目录实时启停以释放上下文占用；可选 AI 中间层（mcp_search/mcp_call）按 server 状态过滤模型可见性
+- [SunQingyuan0/Kabutack](https://github.com/SunQingyuan0/Kabutack) - 基于角色的 DSH 插件 / Skill / MCP 管理器：把能力组合定义为“角色”，在 Web 设置页一键动态装载与切换。
 - [dsh-recommend](https://github.com/zp-home/dsh-recommend) - 插件透明排行与推荐：每日自动抓取 dsh-plugin 话题生态、公开评分模型，提供榜单/搜索/推荐工具与设置页排行榜。
 - [dsh-capability-index](https://github.com/777-Zen/dsh-capability-index) - 插件库起飞前检查单：任务型请求时注入 Top-K 适用插件提示（带作者声明的 use_when/not_for 能力声明），让插件库利用率可预期、不靠运气。
 - [dsh-eval](https://github.com/hccccc01333/dsh-eval) - Agent 评测平台：benchmark YAML、headless dsh 运行、trace 指标、脚本化评分与 run 对比/报告。
