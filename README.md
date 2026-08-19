@@ -47,6 +47,7 @@
 - [Git & Engineering](#git--engineering)
 - [Security & Governance](#security--governance)
 - [Output & Deliverables](#output--deliverables)
+- [Office & Documents](#office--documents)
 - [Notifications & Channels](#notifications--channels)
 - [Fun & Lifestyle](#fun--lifestyle)
 - [Plugin Ecosystem & Development](#plugin-ecosystem--development)
@@ -484,6 +485,10 @@ Management panel: Settings → Plugins.
 - [dsh-translate](https://github.com/PerryLink/dsh-translate) - Vendor parameter translation and deterministic JSON repair for DeepSeek Harness: a /translate command maps 13 canonical parameters across 11 vendors, and the post-execute repair layer (plus fix_json) fixes broken JSON tool output without fabricating data.
 - [inspiration-deck-workshop](https://github.com/zjsthmjialin/inspiration-deck-workshop) - Registers the Inspiration Deck Workshop skill: local static HTML presentation decks (6 deck templates, 25+ layouts, themes & motion showroom) with a validate + PNG/PDF export CLI, zero runtime deps.
 - [pdf-background-gray-codex-skill](https://github.com/zjsthmjialin/pdf-background-gray-codex-skill) - Whitens gray/off-white scan backgrounds in image-based PDFs while preserving resolution, page geometry and anti-aliased text edges (lossless Flate write-back) via a single Python script.
+
+## Office & Documents
+
+- [dream-num/dsh-univer-office](https://github.com/dream-num/dsh-univer-office) - Create, edit, inspect, and deliver spreadsheets, documents, presentations, databases, and canvases in DeepSeek Harness, with live preview and worktree review.
 
 ## Notifications & Channels
 
