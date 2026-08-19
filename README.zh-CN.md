@@ -220,6 +220,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-markdown-preview](https://github.com/GitHubJiKe/dsh-markdown-preview) - 产物文件聊天内预览：点击产物 chip 在对话中渲染 Markdown（markdown-it + highlight.js）、图片或纯文本，系统应用打开仍一键可达
 - [dsh-i18n](https://github.com/Semidia/dsh-i18n) - 工具结果中文化：拦截工具执行输出，将英文标记（[exit code]、[timed out]、[sandbox: ...] 等）翻译为中文，并提供设置开关。
 - [dsh-settings-tuner](https://github.com/Semidia/dsh-settings-tuner) - 系统参数调整界面：分组设置页（超时、并行度、LLM 重试策略、模型参数、Web 搜索、权限与预设）；基于逐行 YAML 匹配的安全 profile 配置编辑，写后校验。
+- [dsh-workspace-menu](https://github.com/0imzero/dsh-workspace-menu) - DSH 主页工作区/会话增强菜单：置顶、重命名、资源管理器打开、归档、分叉、复制、新窗口打开。
 - [dsh-mobileweb-adapter](https://github.com/dsh-external/dsh-mobileweb-adapter) - 手机浏览器/PWA 移动版式 + 局域网 WebSocket 修复
 - [dsh-split-panes](https://github.com/dsh-external/dsh-split-panes) - 分栏
 - [dsh-skins](https://github.com/dsh-external/dsh-skins) - Web UI 皮肤
