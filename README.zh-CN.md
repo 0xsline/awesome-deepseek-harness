@@ -272,6 +272,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-balance-meter](https://github.com/Ghost011118/dsh-balance-meter) - DeepSeek 账户余额与当前会话成本显示在 DSH Web 编辑器 dock 中（自动获取官方价格，支持峰时/非峰时计价）。
 - [dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter) - 会话与当日 API 费用统计、预算图框（已用%）、官方余额、历史看板，支持峰谷计价与官方价格一键同步。
 - [TokenLedger](https://github.com/zh667/TokenLedger) - 按中转站点、项目和模型统计本地 DSH Token 用量，并显示账户余额与订阅额度周期。
+- [dsh-plugin-usage-meter](https://github.com/fancr-code/dsh-plugin-usage-meter) - API 用量/费用/余额仪表：输入框下方按钮式用量条（峰/谷时段标签、实时计价），当日/近 7 天按模型堆叠柱状图、模型分布、预算提醒与跨会话账本。
 - [dsh-budget](https://github.com/PerryLink/dsh-budget) - DeepSeek Harness 成本治理：按模型/会话/天聚合 token 与费用计量，会话/日/月预算上限 + 阈值告警与超限 alert/block/degrade 策略，碳足迹估算、分模型延迟基准、Settings 预算页与 /budget 命令。
 - [dsh-cost-meter](https://github.com/Sttrevens/dsh-cost-meter) - Web UI 美元成本徽标：头部显示会话总成本、每条回复结尾显示该轮成本，悬停看分项（token 用量 × 可配置价格表）。
 - [dsh-linked-folders](https://github.com/Sttrevens/dsh-linked-folders) - 多文件夹工作区：全局链接文件夹列表 + 会话内临时挂载（link_folder/unlink_folder），侧边栏管理。
@@ -613,6 +614,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-session-cleaner-cli](https://github.com/ChenChen913/dsh-session-cleaner-cli) - 工作区会话离线深度清理 CLI：交互/批量删除（回收站+恢复+自动备份）、工作区账目与投影缓存同步、幽灵条目修剪，与运行时删除插件互补。
 - [dsh-restart](https://github.com/anweat/dsh-restart) - DSH 重启插件：可配置的重启方式（Node 原生/旧 PowerShell 适配）、重启后自动继续的提示词、可选看门狗自动拉起。
 - [dsh-tray](https://github.com/KAIbsb/dsh-tray) - Windows 托盘管理器:启动/重启/停止 DSH Web、崩溃自动拉起、状态图标与开机自启。
+- [dsh-tray-launcher](https://github.com/fancr-code/dsh-tray-launcher) - Windows 桌面托盘启动器：无窗口运行 dsh web，托盘右键切换图标（梁祖/鲸鱼娘/DeepSeek/自定义，托盘与快捷方式同步），退出即全退，npm 一行命令安装。
 - [mirage-dsh](https://github.com/strukto-ai/mirage/tree/main/typescript/packages/dsh) - 把文件系统与 bash 提供者换成 mirage 虚拟工作区：文件工具与 shell 命令作用于挂载的资源（RAM、S3、Redis、Slack、Gmail、Notion、Postgres）而非宿主磁盘，支持按挂载点设置读/写/执行模式、按命令选择沙箱（进程内 monty、pyodide、quickjs；远程 docker、e2b、daytona），并可在虚拟终端中安装 CLI（git、gh、slack、linear、ntn、gws，或自行注册的程序树）作为命令头词。
 - [loongsuite/dsh-plugin](https://github.com/loongsuite/dsh-plugin) - DSH 的 OpenTelemetry GenAI 调用链插件：每轮生成一棵 span 树（步骤、带 TTFT 的 LLM 调用、工具执行、token 用量），通过标准 OTLP 上报到任意兼容后端，正文采集默认关闭。
 - [dsh-observe](https://github.com/PerryLink/dsh-observe) - DSH 的可观测性导出器：session/event 流转为 OTLP 与 Langfuse 的 turn/step/tool/LLM span 与 token/成本指标，带脱敏 prompt/completion 采集、异步批量、有界持久离线缓冲与退避重试——默认关闭。
