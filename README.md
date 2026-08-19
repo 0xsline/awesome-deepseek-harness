@@ -355,6 +355,7 @@ Management panel: Settings → Plugins.
 - [dsh-ssh](https://github.com/jmcc-guo/dsh-ssh) - AI-managed SSH connections with a live multi-tab terminal panel for DeepSeek Harness.
 - [dsh-lan-access](https://github.com/Leon0555/dsh-lan-access) - LAN access for the Web GUI: 0.0.0.0 bind plus a crypto.randomUUID polyfill for non-secure (LAN HTTP) contexts (npm: dsh-lan-access).
 - [xgone/dsh-remote](https://github.com/xgone/dsh-remote) - Remote access & authentication for DeepSeek Harness web UI: account/password login gate, MFA (TOTP), signed session cookies, role-based access, in-browser directory picker, and a Settings page for account management (npm: @xgone/dsh-remote).
+- [mrgaoang/dsh-remote](https://github.com/mrgaoang/dsh-remote) - Reverse-proxy gateway to control the DSH Web UI from a phone browser with full feature coverage (incl. privileged methods): loopback masquerading, WebSocket passthrough, login rate limiting, optional TLS, LAN or public reverse-proxy deployment.
 - [ego-browser](https://github.com/dsh-external/ego-browser) - Browser agent.
 - [dsh-webbridge](https://github.com/dsh-external/dsh-webbridge) - Web bridge.
 - [browser4-dsh](https://github.com/dsh-external/browser4-dsh) - Browser4 AI-native browser engine (skills).

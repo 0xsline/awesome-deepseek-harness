@@ -352,6 +352,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-ssh](https://github.com/jmcc-guo/dsh-ssh) - DeepSeek Harness 的 SSH 终端面板与 AI 连接管理：对话内自主 connect/exec/list/status/disconnect，WebUI 内 XShell 风格多标签 PTY 实时终端。
 - [dsh-lan-access](https://github.com/Leon0555/dsh-lan-access) - 局域网访问：Web GUI 绑定 0.0.0.0 + crypto.randomUUID polyfill（修复非安全上下文下 RPC 崩溃），npm 可装
 - [xgone/dsh-remote](https://github.com/xgone/dsh-remote) - 让 DeepSeek Harness 可以被安全地远程访问：账号密码认证 + MFA（TOTP）登录门禁、签名会话 Cookie、角色权限、浏览器内目录选择器、账号管理设置页。
+- [mrgaoang/dsh-remote](https://github.com/mrgaoang/dsh-remote) - 反向代理网关：手机浏览器全功能远程控制 DSH Web UI（含特权方法）——loopback 伪装、WebSocket 透传、登录限流、可选 TLS，支持局域网直连或公网反代部署。
 - [ego-browser](https://github.com/dsh-external/ego-browser) - 浏览器代理
 - [dsh-webbridge](https://github.com/dsh-external/dsh-webbridge) - Web 桥接
 - [browser4-dsh](https://github.com/dsh-external/browser4-dsh) - Browser4 AI-native 浏览器引擎（skills）
