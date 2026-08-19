@@ -381,7 +381,8 @@ Management panel: Settings → Plugins.
 - [dsh-checkpoint-rewind](https://github.com/PerryLink/dsh-checkpoint-rewind) - Claude Code /rewind for DSH: git-first workspace snapshots before every mutating tool, turn-boundary session forks, and a one-shot /rewind command that restores files and forks the session back to a checkpoint.
 - [dsh-lsp-actions](https://github.com/PerryLink/dsh-lsp-actions) - LSP action surface: diagnostics, formatting, completion, code actions, symbols, signature help, inlay hints, and rename tools over real language servers.
 - [dsh-git-status](https://github.com/Wongzexu/dsh-git-status) - Specialized in Git branch and status handling: a Git status drawer with a commit DAG lane graph, uncommitted changes/stash rows, inline diffs, and right-click branch/tag operations.
-- [Starfie1d1272/dsh-github-skills](https://github.com/Starfie1d1272/dsh-github-skills) - Skill-first GitHub workflows for DSH covering PR triage, review feedback, GitHub Actions diagnosis, and safe draft-PR publishing over existing capabilities.
+- [Starfie1d1272/dsh-github-skills](https://github.com/Starfie1d1272/dsh-github-skills) - Skill-first GitHub workflows f
+- [dsh-ci-co-pilot](https://github.com/temotee2103/dsh-ci-co-pilot) - GitHub CI co-pilot for DeepSeek Harness: PR review, CI failure fixing, issue triage and release notes.or DSH covering PR triage, review feedback, GitHub Actions diagnosis, and safe draft-PR publishing over existing capabilities.
 - [dsh-repo-context](https://github.com/qing3a/dsh-repo-context) - Injects git status and repo conventions into the system prompt via the official system-prompt seam.
 
 ## Security & Governance
