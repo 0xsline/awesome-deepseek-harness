@@ -98,6 +98,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [Knotline / 运筹](https://github.com/MrMaii/knotline) - DSH 可视化项目地图：用诉求、Agent、Skill、积压池、审批池和定时触发组合并持久化自定义 Agent 工作流。
 - [cleverer-dsh](https://github.com/Classicoke/cleverer-dsh) - DSH 执行纪律套件：拦截同参重试、强制反思、约束待办执行、记忆查重，并将重复经验沉淀为技能（11 个插件 + 6 个技能）。
 - [february2015/dsh-taskswarm](https://github.com/february2015/dsh-taskswarm) - TaskPlane 的 DSH 移植版：按依赖分波、多 lane 并行执行（git worktree 隔离），任务包 + 跨模型评审 + 崩溃可恢复。
+- [fakechris/dsh-track](https://github.com/fakechris/dsh-track) - 嵌入式任务管理引擎：决策点协议、念头捕获墙、Linear 形 issue 存储，证据驱动生命周期。
 - [timwhitez/dsh-self-evolving](https://github.com/timwhitez/dsh-self-evolving) - 证据优先、可崩溃恢复的 DSH 自进化引擎：有界生成 Cordis 插件候选，经一次性真实 Loader 隔离准入，Harbor 评估，并保存可审计的日志化谱系。
 - [Saktawdi/dsh-ha-orchestrator](https://github.com/Saktawdi/dsh-ha-orchestrator) - 模型高可用故障回退（隔离/熔断/探测恢复）与子智能体编排（fanout/pipeline/supervisor），附带双语设置界面。
 - [dsh-background-agents](https://github.com/PerryLink/dsh-background-agents) - 官方子代理接缝上的持久化后台子代理：任意会话中启动，Web 侧边栏看进度、随时留言与打断，支持按子代理限定工具、人格与委托深度。
@@ -596,6 +597,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-session-cleaner](https://github.com/fountunt/dsh-session-cleaner) - 无需重启即可删除运行中 Web 运行时里的会话：实时存储、工作区记录与磁盘工件一并清理。
 - [dsh-session-cleaner-cli](https://github.com/ChenChen913/dsh-session-cleaner-cli) - 工作区会话离线深度清理 CLI：交互/批量删除（回收站+恢复+自动备份）、工作区账目与投影缓存同步、幽灵条目修剪，与运行时删除插件互补。
 - [dsh-restart](https://github.com/anweat/dsh-restart) - DSH 重启插件：可配置的重启方式（Node 原生/旧 PowerShell 适配）、重启后自动继续的提示词、可选看门狗自动拉起。
+- [fakechris/dsh-harness-ops](https://github.com/fakechris/dsh-harness-ops) - DSH 自愈运维工具箱：官方每日快照 A/B 双槽轮换（旧插件自动迁移 + 验收门禁原子切换 + 一键回滚）、10s 守护自动拉起 web 并续接被打断的回合，以及 web/agent 全挂时的 out-of-band dsh-doctor（诊断 → 机械修复 → LLM 深度修复 → 拉起）。
 - [dsh-tray](https://github.com/KAIbsb/dsh-tray) - Windows 托盘管理器:启动/重启/停止 DSH Web、崩溃自动拉起、状态图标与开机自启。
 - [mirage-dsh](https://github.com/strukto-ai/mirage/tree/main/typescript/packages/dsh) - 把文件系统与 bash 提供者换成 mirage 虚拟工作区：文件工具与 shell 命令作用于挂载的资源（RAM、S3、Redis、Slack、Gmail、Notion、Postgres）而非宿主磁盘，支持按挂载点设置读/写/执行模式、按命令选择沙箱（进程内 monty、pyodide、quickjs；远程 docker、e2b、daytona），并可在虚拟终端中安装 CLI（git、gh、slack、linear、ntn、gws，或自行注册的程序树）作为命令头词。
 - [loongsuite/dsh-plugin](https://github.com/loongsuite/dsh-plugin) - DSH 的 OpenTelemetry GenAI 调用链插件：每轮生成一棵 span 树（步骤、带 TTFT 的 LLM 调用、工具执行、token 用量），通过标准 OTLP 上报到任意兼容后端，正文采集默认关闭。
