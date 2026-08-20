@@ -490,6 +490,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-change-budget](https://github.com/Raphaelutumn/dsh-change-budget) - 可配置的逐回合修改额度，在受支持的文件修改工具执行前限制不同文件数、修改调用数与 UTF-8 载荷字节数。
 - [JohnXu22786/safety-net](https://github.com/JohnXu22786/safety-net) - 破坏性命令拦截闸门：执行前解析 rm -rf / git reset --hard / push --force 并要求人工确认（dsh 插件 + 通用 CLI）。
 - [JohnXu22786/secret-guard](https://github.com/JohnXu22786/secret-guard) - 阻止 agent 读写敏感文件（.env、凭据），掩码工具结果中泄露的密钥，含审计日志与安全的 sg_* 检查工具。
+- [accpowered/dsh-credential-manager](https://github.com/accpowered/dsh-credential-manager) - 命名凭据管理：模型按引用使用 API key、令牌与登录凭据；秘密值以 `DSH_CM_*` 环境变量按次注入 shell 执行，绝不进入对话。
+- [accpowered/dsh-auto-review](https://github.com/accpowered/dsh-auto-review) - 沙箱升级请求的 LLM 自动审查审批应答器（`'auto'` 策略下）：确定性过滤 + 清洁上下文审查模型裁决，无需人工提示，错误路径一律 fail-closed；需要打过补丁的 harness 核心（补丁见 core-patches/）。
 
 ## Output & Deliverables
 
