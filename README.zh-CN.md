@@ -165,6 +165,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-ragflow](https://github.com/staff-os/dsh-ragflow) - RAGFlow 知识库检索插件：为 agent 提供 `ragflow_retrieve` 工具，查询 RAGFlow 数据集并返回带相似度分数和来源名的文档块；三角色设计（seam/provider/consumer），环境变量配置，`dsh plugin add github:staff-os/dsh-ragflow#main`。
 ## Input & Editing
 
+- [dsh-global-rules](https://github.com/Semidia/dsh-global-rules) - 在设置页编辑 `~/.dsh/AGENTS.md` 全局规则：提供文本编辑与保存，无需命令行。
 - [Zhangbo-cn/dsh-voice-input-plugin](https://github.com/Zhangbo-cn/dsh-voice-input-plugin) - 输入框麦克风：点击持续监控、按住对话；浏览器语音识别逐字上屏，回复由 host Edge TTS 边生成边朗读（句子切分），朗读时暂停识别防回声，点击可停止。
 
 - [dsh-better-sidebar-plugin-office](https://github.com/dsh-external/dsh-better-sidebar-plugin-office) - better-sidebar 的 Office 集成。
@@ -200,6 +201,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## UI, Themes & Interaction
 
+- [dsh-zh-commands](https://github.com/Semidia/dsh-zh-commands) - 中文斜杠命令增强：新增 /help /status /time /cwd /whoami /preset，并本地化斜杠菜单中的内置命令说明。
 - [dsh-skin-studio](https://github.com/LeemanCheung/dsh-skin-studio) - 本地语义令牌主题编辑器，支持色板提取、WCAG 审计、预览和导出。
 - [deepseek-harness-zh-tw](https://github.com/chiyulogg-commits/deepseek-harness-zh-tw) - DeepSeek Harness 繁体中文（台湾用语）语系扩展版：新增繁体中文界面选项，25 个 Web UI 套件全量台湾用语中文化。
 - [dsh-spotlight](https://github.com/0xsline/dsh-spotlight) - DeepSeek Harness Web 的键盘优先命令面板。
@@ -374,6 +376,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [JohnXu22786/computer-control](https://github.com/JohnXu22786/computer-control) - 面向 dsh 的桌面控制：屏幕捕获、指针/键盘注入、无障碍树语义操作，紧急停止、允许/拒绝规则、确认流程与空闲待机。
 
 ## Models & Inference
+
+- [dsh-baseurl-probe](https://github.com/Semidia/baseurl-probe) - 自动探测并修正模型供应商 baseURL：当裸域名只有 /v1 提供 OpenAI 兼容 API 时，无需 API Key 即可完成路径探测。
 - [dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) - 为 DeepSeek Harness 提供原生对话生图能力，支持 Google Gemini、OpenAI Images、OpenAI 兼容 API 和字节 Seedream。
 - [dsh-codex-oauth](https://github.com/WNJXYK/dsh-codex-oauth) - DSH 的 ChatGPT/Codex 订阅接入插件，支持 GPT 模型、图像生成、Web 搜索、额度显示，以及浏览器/设备码 OAuth 登录。
 - [dsh-vision](https://github.com/dsh-external/dsh-vision) - 视觉桥接：view_image 工具接任意 OpenAI 兼容 VLM（默认智谱免费档）

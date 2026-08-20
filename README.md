@@ -167,6 +167,7 @@ Management panel: Settings → Plugins.
 - [dsh-ragflow](https://github.com/staff-os/dsh-ragflow) - RAGFlow knowledge-base retrieval plugin: gives the agent a `ragflow_retrieve` tool that queries your RAGFlow datasets and returns document chunks with similarity scores and source names; three-role design (seam/provider/consumer), env-based config, `dsh plugin add github:staff-os/dsh-ragflow#main`.
 ## Input & Editing
 
+- [dsh-global-rules](https://github.com/Semidia/dsh-global-rules) - Edit your `~/.dsh/AGENTS.md` global rules from the Settings page: a text editor with save button, no command line needed.
 - [Zhangbo-cn/dsh-voice-input-plugin](https://github.com/Zhangbo-cn/dsh-voice-input-plugin) - Composer mic for the Web UI: tap-to-monitor live transcription and hold-to-talk, with host Edge TTS reply reading that streams while the model generates, echo-pause during reading, and tap-to-stop.
 
 - [dsh-better-sidebar-plugin-office](https://github.com/dsh-external/dsh-better-sidebar-plugin-office) - Office integration for DSH-better-sidebar.
@@ -200,6 +201,7 @@ Management panel: Settings → Plugins.
 
 ## UI, Themes & Interaction
 
+- [dsh-zh-commands](https://github.com/Semidia/dsh-zh-commands) - Chinese slash-command enhancement: six new Chinese commands (/help /status /time /cwd /whoami /preset) plus in-place localization of every built-in command description in the slash menu.
 - [dsh-skin-studio](https://github.com/LeemanCheung/dsh-skin-studio) - Local semantic-token theme editor with palette extraction, WCAG auditing, preview, and export.
 - [deepseek-harness-zh-tw](https://github.com/chiyulogg-commits/deepseek-harness-zh-tw) - Traditional Chinese (Taiwan) locale edition of DeepSeek Harness: adds a third UI language option with Taiwan terminology across all 25 web UI packages.
 - [dsh-spotlight](https://github.com/0xsline/dsh-spotlight) - Keyboard-first command palette for DeepSeek Harness Web.
@@ -376,6 +378,8 @@ Management panel: Settings → Plugins.
 - [JohnXu22786/model-catalog](https://github.com/JohnXu22786/model-catalog) - Model catalog auto-discovery: fetch model listings, pricing and capabilities from OpenAI-compatible API hosts, normalized into ready-to-use config.
 
 ## Models & Inference
+
+- [dsh-baseurl-probe](https://github.com/Semidia/baseurl-probe) - Provider baseURL auto-detection: when a provider's baseURL is a bare domain (e.g. `https://mzeapi.top`) and only `/v1` serves the OpenAI-compatible API, the plugin auto-fixes it — probes all providers with zero-cost path detection (no API key needed).
 - [dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) - Native image generation for DeepSeek Harness with Google Gemini, OpenAI Images, OpenAI-compatible APIs, and ByteDance Seedream.
 - [dsh-codex-oauth](https://github.com/WNJXYK/dsh-codex-oauth) - ChatGPT/Codex subscription integration for DSH with GPT models, image generation, web search, quota reporting, and browser/device-code OAuth sign-in.
 - [dsh-vision](https://github.com/dsh-external/dsh-vision) - Vision bridge: view_image tool over any OpenAI-compatible VLM (Zhipu free tier by default).
