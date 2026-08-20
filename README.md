@@ -492,6 +492,8 @@ Management panel: Settings → Plugins.
 - [dsh-perm-guard](https://github.com/a903067276-rgb/dsh-perm-guard) - Auto-approval permission guard: a middle tier between workspace-write and danger-full-access — auto-allows safe operations inside trust directories, always asks a human for destructive ones, with 11 per-category switches and an audit trail.
 - [dsh-change-budget](https://github.com/Raphaelutumn/dsh-change-budget) - Configurable per-turn budgets that limit distinct files, mutation calls, and UTF-8 payload bytes before supported file-mutation tools run.
 - [JohnXu22786/docgen](https://github.com/JohnXu22786/docgen) - Documentation workshop skill pack: pure-prompt (Agent Skills) doc generation — README, PR description, changelog and code review; zero third-party dependencies.
+- [accpowered/dsh-credential-manager](https://github.com/accpowered/dsh-credential-manager) - Named credential manager: the model uses API keys, tokens, and logins by reference; secret values are injected into each shell run as `DSH_CM_*` env vars, resolved per execution, and never enter the conversation.
+- [accpowered/dsh-auto-review](https://github.com/accpowered/dsh-auto-review) - LLM auto-review approval answerer for sandbox escalations under the `'auto'` policy: a deterministic filter plus a clean-context reviewer model decide without a human prompt, fail-closed on every error path; requires a patched harness core (included in core-patches/).
 
 ## Output & Deliverables
 
