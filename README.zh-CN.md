@@ -250,6 +250,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Dashboards & Session UX
 
+- [zoahdev/dsh-timesheet](https://github.com/zoahdev/dsh-timesheet) - 从会话日志做基于 turn 的时间跟踪：按天/项目/供应商/来源汇总、工具调用数、失败率与 TTFT（CLI + `timesheet` 工具）。
 - [zoahdev/dsh-replay](https://github.com/zoahdev/dsh-replay) - 时间旅行调试器：从 `session.jsonl.zstd` 回放、可视化并 diff 会话完整轨迹（零依赖，Node ≥ 22.19）。
 - [dsh-session-cluster](https://github.com/dsh-external/dsh-session-cluster) - 会话聚类
 - [session-chatlog](https://github.com/dsh-external/session-chatlog) - 会话聊天记录
@@ -454,6 +455,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Security & Governance
 
+- [zoahdev/dsh-dep-audit](https://github.com/zoahdev/dsh-dep-audit) - 依赖供应链卫生审计：peer 范围可解析性、坏 dist-tag 检测（#2763 类）、过期/缺许可证/非注册表来源依赖与安装版本漂移（CLI + `dep_audit` 工具）。
 - [zoahdev/dsh-poison-guard](https://github.com/zoahdev/dsh-poison-guard) - DSH 插件安装前投毒扫描：AST（JS-X-Ray）+ 去混淆解码 + 正则启发式，拦截凭据外泄、动态执行、混淆导入与安装脚本；发现即非零退出，可作 CI 门禁。
 - [dsh-skill-pack-security](https://github.com/PerryLink/dsh-skill-pack-security) - 安全审计技能包 + plugin_vet 供应链门禁：提供密钥扫描、依赖审计、供应链评审、提示注入审查、审计编排、威胁建模、漏洞情报与事件响应八个中英双语 agent 技能，附 npm provider 包注册自动化 plugin_vet 安装前扫描。
 - [dsh-encrypt](https://github.com/yauntyour/DSH-Encrypt) - DSH 凭证加密插件：密码保护的 AES-256-GCM 存储、Argon2id 密钥派生（旧版 scrypt v2 密文自动升级）与 SHA3-256 完整性校验，仅在运行时临时解密。
@@ -478,6 +480,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Output & Deliverables
 
+- [zoahdev/dsh-llms-forge](https://github.com/zoahdev/dsh-llms-forge) - 为插件仓库生成 llms.txt（package.json + README，AI 可读发现文件，默认只读，CLI + `llms_forge` 工具）。
+- [zoahdev/dsh-readme-forge](https://github.com/zoahdev/dsh-readme-forge) - 为插件仓库生成 README.md（package.json + cordis.patch.yml + 源码布局，CLI + `readme_forge` 工具）。
 - [stacktree-dsh](https://github.com/stevysmith/stacktree-dsh) - 连接 Stacktree MCP 服务端的 Cordis 覆盖配置（stdio 或 Streamable HTTP）：把生成的 HTML 发布到不可猜测的私有链接，客户无需账号即可打开；支持原地替换以保持链接长期有效，并可用密码或邮箱域名设置访问门槛。
 - [dsh-artifacts](https://github.com/zoahdev/dsh-artifacts) - Claude Artifacts 式渲染：把 Markdown + JSON 变成自包含 HTML 文档/卡片/仪表盘/画廊（CLI + `artifact_render` 工具，零运行时依赖）。
 - [folio](https://github.com/nyantused-cpun/folio) - Folio（兰亭）：咨询文档生成引擎（接案 → 记忆 → 方法论 → 交付物 → 凭证）的原生 DSH 插件栈：15 个工具、会话协议事件、L0 防护、Agent 预设；方法论包可替换，DSH 内零密钥起步。
@@ -558,6 +562,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Plugin Ecosystem & Development
 
+- [zoahdev/dsh-quality-score](https://github.com/zoahdev/dsh-quality-score) - 插件质量评分卡：0-100 分 + 等级 + 六项分项（manifest、peer 可解析、dist-tag 健康、死依赖、新鲜度、dsh-tools peer 兼容），逐项修复建议，支持批量榜单（CLI + `quality_score` 工具）。
 - [zoahdev/dsh-plugin-doctor](https://github.com/zoahdev/dsh-plugin-doctor) - DSH 插件体检：manifest/patch/entry/build/pack/install 校验、可被模型调用的 plugin_check、profile 宿主遮蔽与 BOM 检测、环境诊断、供应链投毒预检。
 - [dsh-plugin-starter](https://github.com/ciceroyang/dsh-plugin-starter) - 一条命令生成实战验证过的 DSH 插件工程（bundle、工具、运行时 skill、单测、CI），零依赖免构建，带 --verify 冒烟。
 - [Code2Skill](https://github.com/leechen298/Code2Skill) - 从用户授权的源码生成 Function、MCP 工具、工作流 Skill 与离线测试包。
@@ -597,6 +602,9 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Runtime & Operations
 
+- [zoahdev/dsh-disk-audit](https://github.com/zoahdev/dsh-disk-audit) - dsh 数据目录磁盘占用审计：总大小、按目录拆分、最大文件、超大文件告警（会话日志可达数百 MB）与清理建议（CLI + `disk_audit` 工具）。
+- [zoahdev/dsh-cn-boot](https://github.com/zoahdev/dsh-cn-boot) - 国内网络引导：探测 npm/npmmirror/GitHub/HuggingFace/Gitee 与本地代理，推荐镜像/代理并生成 PowerShell + bash 引导脚本（CLI + `cn_boot` 工具）。
+- [zoahdev/dsh-firstrun](https://github.com/zoahdev/dsh-firstrun) - 首次运行体检：Node/pnpm/dsh 工具链、profile、API Key（只显示名称）、工作区与注册表，附下一步建议（CLI + `quickstart` 工具）。
 - [zoahdev/dsh-trace](https://github.com/zoahdev/dsh-trace) - 聚合可观测仪表盘：解码 sessions 根目录下的每个 `session.jsonl.zstd`，把 token/工具/错误/延迟渲染成一张自包含 HTML 报告（零依赖）。
 - [dsh-launch](https://github.com/Khellendros97/dsh-launch) - 在独立 broker 进程中监督长驻服务（dev server、watcher、mock API），服务在对话回合结束、会话关闭、DSH 重启后继续运行；自带 Service 侧边栏 tab（经 better-sidebar 扩展 API 注入）与 service_start/stop/restart/list/logs 模型工具。
 - [dsh-env-switcher](https://github.com/Oyama-Mahiro-F/dsh-env-switcher) - Windows/WSL2 双环境一键切换插件（共存模式）：两个 DSH 实例分别在 3080/3081 端口同时运行，Web UI 内一键切换，不杀任何进程。
@@ -664,6 +672,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-industry-research](https://github.com/PerryLink/dsh-industry-research) - 行业/公司研究领域包：industry_map 产业链建图、industry_track 经 ctx.web 的公开源政策动态跟踪、company_scan 基于用户数据文件的公司速览卡、industry_report 研究报告（可选 ctx.researchReport 引擎封存桥，缺席时内置降级渲染），附两个研究方法论技能。
 ## Tools & Utilities
 
+- [zoahdev/dsh-discussions-radar](https://github.com/zoahdev/dsh-discussions-radar) - 官方 GitHub Discussions 雷达：列出/筛选/搜索官方讨论区（Ideas/Q&A/Show Your Plugins!/General/Announcements）（CLI + `discussions_radar` 工具）。
 - [dsh-case](https://github.com/ZhijiangTang/dsh-case) - 命名大小写转换，支持 camel/snake/kebab/Pascal 等 8 种风格。
 - [dsh-clipboard](https://github.com/ZhijiangTang/dsh-clipboard) - 跨平台将文本写入系统剪贴板。
 - [dsh-cron-parse](https://github.com/ZhijiangTang/dsh-cron-parse) - 解析 cron 表达式为人类可读描述，并预览未来运行时间。
