@@ -421,6 +421,7 @@ Management panel: Settings → Plugins.
 
 ## Git & Engineering
 
+- [dsh-ci-co-pilot](https://github.com/temotee2103/dsh-ci-co-pilot) - GitHub workflow plugin for PR review, CI failure diagnosis and fixes, issue triage, and release-note drafting.
 - [gongyijie85/dsh-repo-setup](https://github.com/gongyijie85/dsh-repo-setup) - Read-only repo bootstrap scanner (repo_setup_scan tool): detects stack/tests/docs/git/db and recommends plugins, MCP servers and hygiene files (claude-code-setup counterpart).
 - [dsh-git-identity](https://github.com/dsh-external/dsh-git-identity) - Pin Git commit authorship to the environment identity (gh account + noreply email).
 - [dsh-gh-bridge](https://github.com/dsh-external/dsh-gh-bridge) - Bridge macOS Keychain GitHub token into sandboxed gh.
