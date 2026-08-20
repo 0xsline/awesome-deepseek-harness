@@ -351,6 +351,7 @@ Management panel: Settings → Plugins.
 
 ## Browser & Remote
 
+- [dsh-voice-gate](https://github.com/yangfei222666-9/dsh-voice-gate) - Voice-first mobile gate into DSH: a zero-dependency Python service (port 3081) with a PWA page that sends voice or text to the current session, token auth, launchd autostart, and a Tailscale HTTPS recipe.
 - [dsh-browser-panel](https://github.com/dsh-external/dsh-browser-panel) - Headed browser embedded in the WebUI, model-driven (Codex-style, zero vision deps).
 - [dsh-builtin-browser](https://github.com/wqty123/dsh-browser) - Shared real browser for DSH: a visible browser window the human can take over, driven by the agent over CDP (snapshot/execute/content/tab management).
 - [dsh-browser](https://github.com/dsh-external/dsh-browser) - Chrome sidebar extension.

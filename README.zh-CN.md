@@ -348,6 +348,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Browser & Remote
 
+- [dsh-voice-gate](https://github.com/yangfei222666-9/dsh-voice-gate) - 语音优先的手机入口：零依赖 Python 服务（3081 端口）+ PWA 页面，把语音或文字发送到当前 DSH 会话，Token 鉴权、launchd 自启、Tailscale HTTPS 配方。
 - [dsh-browser-panel](https://github.com/dsh-external/dsh-browser-panel) - WebUI 内嵌有头浏览器，模型实时操控（Codex 式，0 视觉依赖）
 - [dsh-builtin-browser](https://github.com/wqty123/dsh-browser) - DSH 共享真实浏览器：用户可见、可随时接管的浏览器窗口，由 agent 通过 CDP 驱动（snapshot/execute/content/多标签管理）。
 - [dsh-browser](https://github.com/dsh-external/dsh-browser) - Chrome 侧边栏扩展
