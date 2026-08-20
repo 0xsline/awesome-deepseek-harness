@@ -91,6 +91,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Agents & Orchestration
 
+- [dsh-dual-model-eval](https://github.com/huangdaxianer/dsh-dual-model-eval) - 把一个编码需求并发发送给多个已配置模型，在隔离的 Git worktree 中运行并并排展示工具轨迹与结果，再把用户采纳的候选提交为后续轮次基线。
 - [dsh-agent-arena](https://github.com/LeemanCheung/dsh-agent-arena) - 在隔离的 Git 工作树中比较编码智能体，并提供确定性验证、评分和显式胜者应用。
 - [xiehuan123/coding-coach](https://github.com/xiehuan123/coding-coach) - Coding Coach 编程教练：面向非开发人员的 35 技能 bundle + 完整 Agent 预设（八段「想法→上线」编排流水线，工程/产品/界面技能）。
 - [dsh-collaboration](https://github.com/Socialist-Sister/dsh-collaboration) - 多智能体协同套件：用户可配置的专家名册 + 持久专家实例（可多分身）按需雇佣、星型拓扑追问/中转、团队状态面板、模型对比与多模态视觉桥。
