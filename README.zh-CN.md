@@ -491,6 +491,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-change-budget](https://github.com/Raphaelutumn/dsh-change-budget) - 可配置的逐回合修改额度，在受支持的文件修改工具执行前限制不同文件数、修改调用数与 UTF-8 载荷字节数。
 - [JohnXu22786/safety-net](https://github.com/JohnXu22786/safety-net) - 破坏性命令拦截闸门：执行前解析 rm -rf / git reset --hard / push --force 并要求人工确认（dsh 插件 + 通用 CLI）。
 - [JohnXu22786/secret-guard](https://github.com/JohnXu22786/secret-guard) - 阻止 agent 读写敏感文件（.env、凭据），掩码工具结果中泄露的密钥，含审计日志与安全的 sg_* 检查工具。
+- [dsh-capmark-gate](https://github.com/taltara/capmark) - 按声明的能力清单约束 agent：用 Markdown 编写的 `CAP.md` 声明插件可做什么，插件据此用 `tools.restrict()` 收窄 agent 可见的工具集，并在 `tools/pre-execute` 上裁决每次调用；比工具名更细的 scope 会被标记为仅供审计，而非当作强制边界。
 
 ## Output & Deliverables
 
