@@ -211,6 +211,7 @@ Management panel: Settings → Plugins.
 - [dsh-sticky-disclosure](https://github.com/Han-1413141/dsh-sticky-disclosure) - Pins off-screen expanded Think/tool/command labels to the top of the DSH Web conversation and collapses every expanded section in one click (custom hotkey).
 - [dsh-better-model-selector](https://github.com/Khellendros97/dsh-better-model-selector) - Splits the composer model selector into a searchable, favorite-marking dropdown and a reasoning-effort slider, with Ctrl+P / Ctrl+T quick-switch shortcuts.
 - [dsh-catppuccin](https://github.com/zhijun-dai/Catppuccin-dsh-theme) - Catppuccin theme plugin: Latte / Frappé / Macchiato / Mocha skins for the DSH Web theme runtime.
+- [dsh-appearance](https://github.com/Semidia/dsh-appearance) - Unified appearance coordinator: theme color presets, UI fonts, UI font size, plus per-workspace markdown font size / line-height / background, with a coordination layer that stops UI scaling from leaking into chat body text.
 - [solarized-dsh-theme](https://github.com/zhijun-dai/Solarized-dsh-theme) - Solarized + Selenized theme plugin: four faithful palettes registered into the DSH Web theme runtime.
 - [arcana](https://github.com/GooodWei/arcana) - A floating command deck that lists every slash command in DeepSeek Harness as runnable buttons, sorted by usage.
 - [dsh-aigc-canvas](https://github.com/dsh-external/dsh-aigc-canvas) - AIGC canvas plugin (cordis).
