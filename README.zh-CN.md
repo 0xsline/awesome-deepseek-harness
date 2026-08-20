@@ -203,6 +203,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## UI, Themes & Interaction
 
+- [dsh-scenery-background](https://github.com/soslowsnail/dsh-scenery-background) - 山海主题 Web UI 背景轮换插件：支持每日一图与循环轮播，内置 5 张离线 SVG 场景、可选 Unsplash 摄影图、毛玻璃面板和悬浮控制。
 - [dsh-zh-commands](https://github.com/Semidia/dsh-zh-commands) - 中文斜杠命令增强：新增 /help /status /time /cwd /whoami /preset，并本地化斜杠菜单中的内置命令说明。
 - [dsh-skin-studio](https://github.com/LeemanCheung/dsh-skin-studio) - 本地语义令牌主题编辑器，支持色板提取、WCAG 审计、预览和导出。
 - [deepseek-harness-zh-tw](https://github.com/chiyulogg-commits/deepseek-harness-zh-tw) - DeepSeek Harness 繁体中文（台湾用语）语系扩展版：新增繁体中文界面选项，25 个 Web UI 套件全量台湾用语中文化。
