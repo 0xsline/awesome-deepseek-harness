@@ -91,6 +91,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Agents & Orchestration
 
+- [dsh-todo-guard](https://github.com/a903067276-rgb/dsh-todo-guard) - 重启后仍可恢复的 Todo 面板：通过 projection 预热恢复显示，并以「已验证 / 已拦截 / 未验证」三态核验完成证据，可在设置中切回官方行为。
 - [fakechris/dsh-track](https://github.com/fakechris/dsh-track) - 嵌入式任务管理引擎：决策点协议、念头捕获墙、Linear 形 issue 存储，证据驱动生命周期。
 - [dsh-dual-model-eval](https://github.com/huangdaxianer/dsh-dual-model-eval) - 把一个编码需求并发发送给多个已配置模型，在隔离的 Git worktree 中运行并并排展示工具轨迹与结果，再把用户采纳的候选提交为后续轮次基线。
 - [dsh-agent-arena](https://github.com/LeemanCheung/dsh-agent-arena) - 在隔离的 Git 工作树中比较编码智能体，并提供确定性验证、评分和显式胜者应用。
@@ -136,6 +137,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Memory & Knowledge
 
+- [dsh-simple-memory](https://github.com/a903067276-rgb/dsh-simple-memory) - DSH 侧车式 Markdown 记忆：按会话注入索引、一键记忆流按钮、强制「分类-主题.md」命名与跨项目搜索。
 - [dsh-hme](https://github.com/weopenfire-git/hme-plugin) - 跨会话长期记忆：有界核心（全局 USER.md + 按工作区 MEMORY.md，φ 斐波那契上限）+ 标签索引、自我收敛的档案层（archive/recall/move 三工具）。
 - [dsh-memory-vault](https://github.com/flymysql/dsh-memory) - 跨会话记忆库：memory_remember / memory_recall / memory_forget 三工具，最新条目自动注入系统提示词，设置页（记忆库 / Memory）管理。
 - [dsh-memoria](https://github.com/jiayan-xu/dsh-memoria) - Memoria 记忆后端：为 dsh agent 提供 observe/remember/search/recall 四个工具，支持向量+图记忆、命名空间隔离、自动写入与配置热重载。
