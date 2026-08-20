@@ -513,6 +513,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Notifications & Channels
 
+- [dsh-dingtalk-channel](https://github.com/ttmouse/dsh-dingtalk-channel) - 钉钉 IM 双向 channel（Stream 模式）：每条单聊/群聊驱动一个带工具的 agent，消息即入口，回复流式回到对话，免公网回调。
 - [dsh-feishu](https://github.com/PGZXB/dsh-feishu) - DeepSeek Harness 的飞书 UI：面板驱动控制台，卡内审批与提问，流式卡片，扫码一键配置。
 - [dsh-feishu-bot](https://github.com/dsh-external/dsh-feishu-bot) - 飞书机器人
 - [dsh-feishu-notify](https://github.com/dsh-external/dsh-feishu-notify) - 飞书通知（会话结束/等待输入）
