@@ -350,6 +350,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Browser & Remote
 
+- [mrgaoang/dsh-remote](https://github.com/mrgaoang/dsh-remote) - 反向代理网关：手机浏览器全功能远程控制 DSH Web UI（含特权方法）——loopback 伪装、WebSocket 透传、登录限流、可选 TLS，支持局域网直连或公网反代部署。
 - [dsh-voice-gate](https://github.com/yangfei222666-9/dsh-voice-gate) - 语音优先的手机入口：零依赖 Python 服务（3081 端口）+ PWA 页面，把语音或文字发送到当前 DSH 会话，Token 鉴权、launchd 自启、Tailscale HTTPS 配方。
 - [dsh-browser-panel](https://github.com/dsh-external/dsh-browser-panel) - WebUI 内嵌有头浏览器，模型实时操控（Codex 式，0 视觉依赖）
 - [dsh-builtin-browser](https://github.com/wqty123/dsh-browser) - DSH 共享真实浏览器：用户可见、可随时接管的浏览器窗口，由 agent 通过 CDP 驱动（snapshot/execute/content/多标签管理）。
