@@ -871,7 +871,7 @@
 | [AKS1st/ikun-theme-skin](https://github.com/AKS1st/ikun-theme-skin) | IKUN 主题皮肤 for DeepSeek Harness — ikun 应援主题、全屏壁纸轮播、基尼太美音乐盒、发送自动播「你干嘛~哎哟」 |
 | [AKS1st/model-usage-plugin](https://github.com/AKS1st/model-usage-plugin) | 统计各模型 tokens 消耗并估算费用，显示账户余额 \| Model token usage stats and cost estimation with account balance for DSH |
 | [Alan2Z/dsh-speak](https://github.com/Alan2Z/dsh-speak) | 一种能让你的harness开口说话的方案/Make your AI harness speak — a verified voice-announcement solution |
-| [alexchenzl/dsh-plugin-directory](https://github.com/alexchenzl/dsh-plugin-directory) | Community-driven DeekSeek Harness Plugin Directory |
+| [alexchenzl/dsh-plugin-directory](https://github.com/alexchenzl/dsh-plugin-directory) | Community-driven DeepSeek Harness Plugin Directory |
 | [alib8b8/aflare](https://github.com/alib8b8/aflare) | 本地优先的自动化 Agent · 数据不出本地 · 连接你自己的 LLM / 数据库 / 知识库 · ReAct 推理 · 300+ 技能模板 · 确定性工作流执行（DAG/WAL/Saga/幂等） · MCP 协议 · 离线/内网可用 |
 | [alibaba/anolisa](https://github.com/alibaba/anolisa) | ANOLISA (Agentic Nexus Operating Layer & Interface System Architecture) \| Agentic OS with runtime, security, observability, and Tokenless response compression for lower token usage and cost. |
 | [Alisa0808/vox-director](https://github.com/Alisa0808/vox-director) | Turn one topic into a finished Vox-style paper-collage explainer/ad video — automated end to end on Atlas Cloud + ffmpeg. An agent skill. |
