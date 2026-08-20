@@ -92,6 +92,7 @@ Management panel: Settings → Plugins.
 
 ## Agents & Orchestration
 
+- [fakechris/dsh-track](https://github.com/fakechris/dsh-track) - Embedded task-management engine for DSH: decision-point protocol, idea capture wall, Linear-shaped issue store with an evidence-driven lifecycle.
 - [dsh-dual-model-eval](https://github.com/huangdaxianer/dsh-dual-model-eval) - Runs one coding prompt across multiple configured models in isolated Git worktrees, streams side-by-side tool traces and results, and commits the candidate the user adopts for later rounds.
 - [dsh-agent-arena](https://github.com/LeemanCheung/dsh-agent-arena) - Compares coding agents in isolated Git worktrees with deterministic validation, scoring, and explicit winner application.
 - [xiehuan123/coding-coach](https://github.com/xiehuan123/coding-coach) - Coding Coach: 35-skill bundle plus a full agent preset for non-developers (8-stage idea-to-launch pipeline; engineering/product/UI skills).
@@ -607,6 +608,7 @@ Management panel: Settings → Plugins.
 
 ## Runtime & Operations
 
+- [fakechris/dsh-harness-ops](https://github.com/fakechris/dsh-harness-ops) - Self-healing DSH ops toolbox: official daily-snapshot A/B slot rotation (auto plugin migration + acceptance-gated atomic switch + one-click rollback), a 10s watchdog that auto-relaunches the web and resumes interrupted turns, and an out-of-band dsh-doctor (diagnosis → mechanical repair → LLM deep repair → relaunch) when web and agent are both down.
 - [zoahdev/dsh-disk-audit](https://github.com/zoahdev/dsh-disk-audit) - Disk-usage audit for dsh data directories: total size, per-directory breakdown, largest files, oversized-file warnings (session logs can hit hundreds of MB) and cleanup suggestions (CLI + `disk_audit` tool).
 - [zoahdev/dsh-cn-boot](https://github.com/zoahdev/dsh-cn-boot) - China-network bootstrap: probes npm/npmmirror/GitHub/HuggingFace/Gitee and local proxies, recommends mirrors/proxy, generates a PowerShell + bash bootstrap (CLI + `cn_boot` tool).
 - [zoahdev/dsh-firstrun](https://github.com/zoahdev/dsh-firstrun) - First-run health check: node/pnpm/dsh toolchain, profile, API key (names only), workspace, registry + actionable next steps (CLI + `quickstart` tool).
