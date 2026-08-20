@@ -179,6 +179,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-sticky-disclosure](https://github.com/Han-1413141/dsh-sticky-disclosure) - 将滑出屏幕的 Think/工具/命令标签钉在 DSH Web 会话顶部，并支持一键收起所有展开区块与自定义快捷键。
 - [dsh-better-model-selector](https://github.com/Khellendros97/dsh-better-model-selector) - 将输入框模型选择器拆成「可搜索 + 收藏」的下拉选单和「推理强度滑动条」两个独立控件，支持 Ctrl+P / Ctrl+T 快速切换。
 - [dsh-catppuccin](https://github.com/zhijun-dai/Catppuccin-dsh-theme) - Catppuccin 主题插件：为 DSH Web 主题运行时提供 Latte / Frappé / Macchiato / Mocha 四套皮肤。
+- [dsh-appearance](https://github.com/Semidia/dsh-appearance) - 统一外观协调插件：主题配色预设、界面字体、界面字号，以及按工作区设置的正文字号 / 行高 / 背景；协调层保证界面缩放不会连带放大聊天正文。
 - [solarized-dsh-theme](https://github.com/zhijun-dai/Solarized-dsh-theme) - Solarized + Selenized 主题插件：向 DSH Web 主题运行时注册四套忠实色板。
 - [arcana](https://github.com/GooodWei/arcana) - DeepSeek Harness 的悬浮命令甲板：把所有斜杠命令列成可执行按钮，悬停看介绍，按使用次数排序。
 - [dsh-aigc-canvas](https://github.com/dsh-external/dsh-aigc-canvas) - AIGC 画布插件（cordis）。
