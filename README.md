@@ -638,6 +638,7 @@ Management panel: Settings → Plugins.
 - [ClawMetry](https://github.com/vivekchand/clawmetry) - Local zero-config dashboard that reads dsh session logs and shows transcripts, token usage, cost, and tool calls.
 ## Domain & Specialist Skills
 
+- [weopenfire-git/dsh-market-quote](https://github.com/weopenfire-git/dsh-market-quote) - A-share / HK / US realtime quotes and historical K-line tool plugin via Tencent's free public source (no API key), read-only.
 - [pengpengyi92/dsh-quant](https://github.com/pengpengyi92/dsh-quant) - Agent-native quantitative R&D toolkit for DSH: 46 tools across 6 domains (data, alpha, ML, risk, execution, ecosystem) with an end-to-end PDAT→PET research pipeline.
 - [maddogfinance/dsh-trading](https://github.com/maddogfinance/dsh-trading) - Research-only trading workbench plugins: typed market-data seam (bring your own provider), multi-timeframe indicator regime snapshot, interactive chart cards in dsh web with provenance-gated model annotations, and a risk-guard that blocks execution-shaped tool calls at the pre-execute gate.
 - [dsh-trading-toolkit](https://github.com/kentleenot/dsh-trading-toolkit) - A-share and US stock trading toolkit for DSH agents: realtime quotes, OHLCV klines, ADX regime signals and simple backtest previews via EastMoney. Read-only, never places orders.
