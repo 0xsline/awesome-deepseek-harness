@@ -87,6 +87,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh_workflow](https://github.com/dsh-external/dsh_workflow) - Dynamic Workflow for dsh（占位）。
 - [dsh-equip-engine](https://github.com/wuykjl/dsh-equip-engine) - 任务驱动插件配装引擎：双路检索（人工精选规则 + LLM 语义）、组合评分（协同/冲突/成本/信任）、冲突检测与安装命令导出。
 - [dsh-claude-move](https://github.com/PerryLink/dsh-claude-move) - 四合一迁移向导：把 Claude Code、Codex、OpenCode、Hermes 的会话、记忆、技能、指令与斜杠命令迁入 DSH（审批门 + 幂等，会话可续聊）。
+- [dsh-skill-migrator](https://github.com/mjylfz/dsh-skill-migrator) - 技能一键迁移：扫描 14 个 Agent 平台（Cursor、Claude Code、Codex、Hermes、Trae、Qoder 等）与共享层 ~/.agents，同名技能合并、软链接去重、可安全回滚。
 - [gewu-tools](https://github.com/nyantused-cpun/gewu-tools) - 面向纯文本 DSH 主脑的模型无关视觉审阅流水线：HTML 逐页截图 + 视觉子代理简报契约（gewu_prep），再把每条审阅发现定位回源码核验真值（gewu_locate）；已在 mimo-v2.5 与 qwen3.7-plus 上实测。
 
 ## Agents & Orchestration
