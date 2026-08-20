@@ -493,6 +493,7 @@ Management panel: Settings → Plugins.
 - [dsh-perm-guard](https://github.com/a903067276-rgb/dsh-perm-guard) - Auto-approval permission guard: a middle tier between workspace-write and danger-full-access — auto-allows safe operations inside trust directories, always asks a human for destructive ones, with 11 per-category switches and an audit trail.
 - [dsh-change-budget](https://github.com/Raphaelutumn/dsh-change-budget) - Configurable per-turn budgets that limit distinct files, mutation calls, and UTF-8 payload bytes before supported file-mutation tools run.
 - [JohnXu22786/docgen](https://github.com/JohnXu22786/docgen) - Documentation workshop skill pack: pure-prompt (Agent Skills) doc generation — README, PR description, changelog and code review; zero third-party dependencies.
+- [dsh-capmark-gate](https://github.com/taltara/capmark) - Holds an agent to a declared capability manifest: a Markdown `CAP.md` states what a plugin may do, and the gate masks the agent's tool view with `tools.restrict()` and judges every call at `tools/pre-execute`; scopes finer than a tool name are linted as advisory rather than presented as enforcement.
 
 ## Output & Deliverables
 
