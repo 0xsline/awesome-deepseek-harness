@@ -369,6 +369,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [JohnXu22786/computer-control](https://github.com/JohnXu22786/computer-control) - 面向 dsh 的桌面控制：屏幕捕获、指针/键盘注入、无障碍树语义操作，紧急停止、允许/拒绝规则、确认流程与空闲待机。
 
 ## Models & Inference
+- [dsh-agy-link](https://github.com/amlyczz/dsh-agy-link) - Google Antigravity (agy CLI) 模型接入：无 API Key 使用 Gemini/Claude/GPT-OSS 订阅模型，支持流式对话、原生工具卡片与 Web 界面 Google OAuth 登录。
 - [dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) - 为 DeepSeek Harness 提供原生对话生图能力，支持 Google Gemini、OpenAI Images、OpenAI 兼容 API 和字节 Seedream。
 - [dsh-codex-oauth](https://github.com/WNJXYK/dsh-codex-oauth) - DSH 的 ChatGPT/Codex 订阅接入插件，支持 GPT 模型、图像生成、Web 搜索、额度显示，以及浏览器/设备码 OAuth 登录。
 - [dsh-vision](https://github.com/dsh-external/dsh-vision) - 视觉桥接：view_image 工具接任意 OpenAI 兼容 VLM（默认智谱免费档）

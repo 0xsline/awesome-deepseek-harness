@@ -371,6 +371,7 @@ Management panel: Settings → Plugins.
 - [JohnXu22786/model-catalog](https://github.com/JohnXu22786/model-catalog) - Model catalog auto-discovery: fetch model listings, pricing and capabilities from OpenAI-compatible API hosts, normalized into ready-to-use config.
 
 ## Models & Inference
+- [dsh-agy-link](https://github.com/amlyczz/dsh-agy-link) - Google Antigravity (agy CLI) model provider for DSH: stream Gemini/Claude/GPT-OSS subscriptions, native tool cards, thinking turns, and in-GUI Google OAuth login.
 - [dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) - Native image generation for DeepSeek Harness with Google Gemini, OpenAI Images, OpenAI-compatible APIs, and ByteDance Seedream.
 - [dsh-codex-oauth](https://github.com/WNJXYK/dsh-codex-oauth) - ChatGPT/Codex subscription integration for DSH with GPT models, image generation, web search, quota reporting, and browser/device-code OAuth sign-in.
 - [dsh-vision](https://github.com/dsh-external/dsh-vision) - Vision bridge: view_image tool over any OpenAI-compatible VLM (Zhipu free tier by default).
