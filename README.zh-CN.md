@@ -107,6 +107,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [Saktawdi/dsh-ha-orchestrator](https://github.com/Saktawdi/dsh-ha-orchestrator) - 模型高可用故障回退（隔离/熔断/探测恢复）与子智能体编排（fanout/pipeline/supervisor），附带双语设置界面。
 - [dsh-background-agents](https://github.com/PerryLink/dsh-background-agents) - 官方子代理接缝上的持久化后台子代理：任意会话中启动，Web 侧边栏看进度、随时留言与打断，支持按子代理限定工具、人格与委托深度。
 - [zoahdev/dsh-kirocrew](https://github.com/zoahdev/dsh-kirocrew) - 通过 ACP（基于 stdio 的 JSON-RPC 2.0）把 DSH 智能体桥接到一个持久、自进化的 KiroCrew 开发工作空间，仅暴露一个 `kiro_send` 工具。
+- [bpc-oss/dsh-routed-subagent](https://github.com/bpc-oss/dsh-routed-subagent) - 从任意会话在任意 Agent 预设上完整挂载并运行一次性子代理：支持按调用覆盖模型/提供商、模型预检与外部 CLI 引擎（Codex / Claude / CodeBuddy），并提供后台任务、实时进度、终止和可续接会话。
+- [bpc-oss/dsh-fork-to-preset](https://github.com/bpc-oss/dsh-fork-to-preset) - 在对话页头将任意会话分叉到另一 Agent 预设：通过预设选择器创建挂载到所选预设的新子会话，并继承源会话已完成的轮次。
 
 ## Context & Search
 
@@ -212,6 +214,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-sticky-disclosure](https://github.com/Han-1413141/dsh-sticky-disclosure) - 将滑出屏幕的 Think/工具/命令标签钉在 DSH Web 会话顶部，并支持一键收起所有展开区块与自定义快捷键。
 - [dsh-better-model-selector](https://github.com/Khellendros97/dsh-better-model-selector) - 将输入框模型选择器拆成「可搜索 + 收藏」的下拉选单和「推理强度滑动条」两个独立控件，支持 Ctrl+P / Ctrl+T 快速切换。
 - [dsh-catppuccin](https://github.com/zhijun-dai/Catppuccin-dsh-theme) - Catppuccin 主题插件：为 DSH Web 主题运行时提供 Latte / Frappé / Macchiato / Mocha 四套皮肤。
+- [dsh-appearance](https://github.com/Semidia/dsh-appearance) - 统一外观协调插件：主题配色预设、界面字体、界面字号，以及按工作区设置的正文字号 / 行高 / 背景；协调层保证界面缩放不会连带放大聊天正文。
 - [solarized-dsh-theme](https://github.com/zhijun-dai/Solarized-dsh-theme) - Solarized + Selenized 主题插件：向 DSH Web 主题运行时注册四套忠实色板。
 - [arcana](https://github.com/GooodWei/arcana) - DeepSeek Harness 的悬浮命令甲板：把所有斜杠命令列成可执行按钮，悬停看介绍，按使用次数排序。
 - [dsh-aigc-canvas](https://github.com/dsh-external/dsh-aigc-canvas) - AIGC 画布插件（cordis）。
@@ -228,6 +231,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-markdown-preview](https://github.com/GitHubJiKe/dsh-markdown-preview) - 产物文件聊天内预览：点击产物 chip 在对话中渲染 Markdown（markdown-it + highlight.js）、图片或纯文本，系统应用打开仍一键可达
 - [dsh-i18n](https://github.com/Semidia/dsh-i18n) - 工具结果中文化：拦截工具执行输出，将英文标记（[exit code]、[timed out]、[sandbox: ...] 等）翻译为中文，并提供设置开关。
 - [dsh-settings-tuner](https://github.com/Semidia/dsh-settings-tuner) - 系统参数调整界面：分组设置页（超时、并行度、LLM 重试策略、模型参数、Web 搜索、权限与预设）；基于逐行 YAML 匹配的安全 profile 配置编辑，写后校验。
+- [dsh-llm-compat-healer](https://github.com/Semidia/dsh-llm-compat-healer) - LLM 兼容自愈插件：自动检测中转/网关因未正确声明模型能力（thinking/reasoning）导致的 400 错误，幂等补全 `llm-pi-ai` 配置并拦截下次请求关掉 thinking——无需重启。提供完整 pi-ai 兼容字段的设置页 UI。
 - [dsh-workspace-menu](https://github.com/0imzero/dsh-workspace-menu) - DSH 主页工作区/会话增强菜单：置顶、重命名、资源管理器打开、归档、分叉、复制、新窗口打开。
 - [dsh-mobileweb-adapter](https://github.com/dsh-external/dsh-mobileweb-adapter) - 手机浏览器/PWA 移动版式 + 局域网 WebSocket 修复
 - [dsh-split-panes](https://github.com/dsh-external/dsh-split-panes) - 分栏
@@ -491,6 +495,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-change-budget](https://github.com/Raphaelutumn/dsh-change-budget) - 可配置的逐回合修改额度，在受支持的文件修改工具执行前限制不同文件数、修改调用数与 UTF-8 载荷字节数。
 - [JohnXu22786/safety-net](https://github.com/JohnXu22786/safety-net) - 破坏性命令拦截闸门：执行前解析 rm -rf / git reset --hard / push --force 并要求人工确认（dsh 插件 + 通用 CLI）。
 - [JohnXu22786/secret-guard](https://github.com/JohnXu22786/secret-guard) - 阻止 agent 读写敏感文件（.env、凭据），掩码工具结果中泄露的密钥，含审计日志与安全的 sg_* 检查工具。
+- [dsh-capmark-gate](https://github.com/taltara/capmark) - 按声明的能力清单约束 agent：用 Markdown 编写的 `CAP.md` 声明插件可做什么，插件据此用 `tools.restrict()` 收窄 agent 可见的工具集，并在 `tools/pre-execute` 上裁决每次调用；比工具名更细的 scope 会被标记为仅供审计，而非当作强制边界。
 
 ## Output & Deliverables
 
