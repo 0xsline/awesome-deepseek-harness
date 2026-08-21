@@ -1090,6 +1090,7 @@ TOPIC_MANUAL = {
     "NinjaSln-labs/dsh-plugins": "开发与工程",
     "Shmilyol/galgame-skin": "界面与体验",
     "zibo2025/dsh-agent-mesh": "Agent 与自动化",
+    "Tabbit-Browser/dsh-tabbit": "浏览器与远程",
 }
 TOPIC_MANUAL = {k.lower(): v for k, v in TOPIC_MANUAL.items()}
 
