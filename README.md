@@ -495,6 +495,7 @@ Management panel: Settings → Plugins.
 - [dsh-change-budget](https://github.com/Raphaelutumn/dsh-change-budget) - Configurable per-turn budgets that limit distinct files, mutation calls, and UTF-8 payload bytes before supported file-mutation tools run.
 - [JohnXu22786/docgen](https://github.com/JohnXu22786/docgen) - Documentation workshop skill pack: pure-prompt (Agent Skills) doc generation — README, PR description, changelog and code review; zero third-party dependencies.
 - [dsh-capmark-gate](https://github.com/taltara/capmark) - Holds an agent to a declared capability manifest: a Markdown `CAP.md` states what a plugin may do, and the gate masks the agent's tool view with `tools.restrict()` and judges every call at `tools/pre-execute`; scopes finer than a tool name are linted as advisory rather than presented as enforcement.
+- [dsh-agentvalet](https://github.com/AgentValet/dsh-agentvalet) - Brokered SaaS access: four tools call approved platforms through a credential broker, minting a short-lived assertion per call, so no API key is stored on the machine and every call is owner-approvable, revocable, and audited.
 
 ## Output & Deliverables
 
