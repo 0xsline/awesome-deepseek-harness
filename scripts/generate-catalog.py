@@ -87,6 +87,12 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "ChuanTianML/dsh-open-with", "name": "dsh-open-with",
      "html_url": "https://github.com/ChuanTianML/dsh-open-with",
      "description": "从 DSH Web UI 的已登记工作区列表中，使用自动检测或手动配置的本机编辑器、终端或文件管理器打开目录，并记住浏览器首选目标"},
+    {"full_name": "bpc-oss/dsh-routed-subagent", "name": "dsh-routed-subagent",
+     "html_url": "https://github.com/bpc-oss/dsh-routed-subagent",
+     "description": "从任意会话在任意 Agent 预设上运行一次性子代理：支持按调用覆盖模型/提供商、模型预检与外部 CLI 引擎，并提供后台任务和可续接会话"},
+    {"full_name": "bpc-oss/dsh-fork-to-preset", "name": "dsh-fork-to-preset",
+     "html_url": "https://github.com/bpc-oss/dsh-fork-to-preset",
+     "description": "将任意 DeepSeek Harness 会话分叉到另一 Agent 预设：会话页头提供预设选择器，创建继承已完成轮次的新子会话"},
 ]
 
 
