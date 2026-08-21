@@ -520,7 +520,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-feishu](https://github.com/PGZXB/dsh-feishu) - DeepSeek Harness 的飞书 UI：面板驱动控制台，卡内审批与提问，流式卡片，扫码一键配置。
 - [dsh-feishu-bot](https://github.com/dsh-external/dsh-feishu-bot) - 飞书机器人
 - [dsh-feishu-notify](https://github.com/dsh-external/dsh-feishu-notify) - 飞书通知（会话结束/等待输入）
-- [dsh-serverchan-notify](https://github.com/nickhelion/dsh-serverchan-notify) - Server酱3 微信推送：回合结束时推送标题、模型、项目目录、Git 分支、状态与回复摘要；支持子代理过滤，fire-and-forget 不阻塞主流程。
+- [dsh-serverchan-notify](https://github.com/nickhelion/dsh-plugins/tree/main/packages/serverchan-notify) - Server酱3 微信推送：回合结束时推送标题、模型、项目目录、Git 分支、状态与回复摘要；支持子代理过滤，fire-and-forget 不阻塞主流程。
 - [dsh-lark-meeting-notifier](https://github.com/yeruizhi/dsh-lark-meeting-notifier) - 飞书会议提醒：右侧悬浮框显示今日/明日飞书会议，多闹钟闪烁提醒。
 - [telegram](https://github.com/dsh-external/telegram) - Telegram 频道
 - [dsh-telegram-channel](https://github.com/hi-wenw/dsh-telegram-channel) - Telegram 手机遥控器：附着本机正在运行的 DSH Web 会话（`/sessions` 选择、绑定/解绑），与电脑同轨迹（Codex 风格）。
