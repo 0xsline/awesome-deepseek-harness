@@ -313,6 +313,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-sidebar-mode](https://github.com/Meredith2328/dsh-sidebar-mode) - 嵌在「新会话」按钮里的预设模式徽章：点击即可切换下一个新会话的默认预设（长名自动省略号截断，「新会话」文字始终完整）。
 - [dsh-hud](https://github.com/a903067276-rgb/dsh-hud) - HUD 状态面板：Git 状态、MCP 服务器、技能列表、模型与 token 用量，悬浮侧栏一览无余。
 - [dsh-auto-continue](https://github.com/HsiangNianian/dsh-auto-continue) - DSH Web 请求中断自动续跑：网络/超时/宿主崩溃等非人为失败后自动发送「继续」，支持错误分类、自适应退避、模板化继续文本与浏览器通知；全部参数可在插件设置卡片中调整。
+- [Chu-m/dsh-chat-continue](https://github.com/Chu-m/dsh-chat-continue) - 失败 API 请求自动重试，按可配置的 HTTP 状态码和错误码规则保持 DSH 对话连续。
 - [dsh-trajectory-debug](https://github.com/devmom/dsh-trajectory-debug) - DeepSeek Harness 轨迹瀑布流、确定性回放、断点、改参重跑、分叉对比与性能分析。
 - [dsh-netcafe](https://github.com/mario03690/dsh-netcafe) - 托管式成果工具包（一行配置接入 MCP）：md→docx/pptx/pdf、带代码内算术校验的表格、从中国大陆真实网络出口做的可达性测试、农历日历/节假日；免费匿名额度，按调用计费报告。
 - [dsh-opencodego-usage](https://github.com/BeiZi6/dsh-opencodego-usage) - OpenCodeGo 剩余额度监视器：输入框右下角呼吸指示灯（按剩余额度绿/黄/红），液态玻璃面板显示滚动/周/月用量窗口与重置时间，每 30 秒自动刷新；API Key 自动读取 DSH 凭据。
@@ -385,6 +386,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [zoahdev/dsh-vision](https://github.com/zoahdev/dsh-vision) - vision_analyze 工具：用 OpenAI 兼容视觉模型分析本地图片或 URL。
 - [dsh-click](https://github.com/PerryLink/dsh-click) - DeepSeek Harness 原生桌面控制（Windows 优先）：截图、无障碍树结构化读取、点击/输入/滚动/按键与应用启动——变更性操作过审批门禁，不抢占前台焦点
 - [zoahdev/dsh-browser-use](https://github.com/zoahdev/dsh-browser-use) - Browser Use 云端桥接：通过 Browser Use API 让 dsh agent 执行真实网页任务（打开页面、点击、输入、填表、提取数据）。
+- [sheep-programmer/dsh-web-search-free](https://github.com/sheep-programmer/dsh-web-search-free) - DSH 免费网页搜索：匿名免 Key 的 Parallel 默认后端与 Exa 备用后端，附设置开关和兼容 Claude Code/Codex 的 MCP 服务器。
+- [SeerableOfficial/dsh-web-search-toggle](https://github.com/SeerableOfficial/dsh-web-search-toggle) - 会话级“网页搜索”开关：启用后引导 Agent 在回答前先检索网页。
 - [tabbit-browser](https://github.com/Tabbit-Browser/dsh-plugin) - 通过 Tabbit 自有、任务隔离的 Playwright CLI（`tabbit-cli`）操控本机 Tabbit 浏览器：随包加载 `tabbit-browser` Skill、正式版 ≥1.9.0 与运行时预检、按系统地区后台下载安装包、持久命名任务空间（不回退到 Chrome/Ego/CDP）。
 - [dsh-tabbit](https://github.com/Tabbit-Browser/dsh-tabbit) - 通过 Tabbit 自有、任务隔离的 Playwright CLI（`tabbit-cli`）操控本机 Tabbit 浏览器：随包加载 `tabbit-browser` Skill、正式版 ≥1.9.0 与运行时预检、按系统地区后台下载安装包、持久命名任务空间（不回退到 Chrome/Ego/CDP）。
 - [dsh-antigravity](https://github.com/LiZhenNet/dsh-antigravity) - Google Antigravity / Cloud Code Assist 模型提供者插件：支持 Web OAuth 登录、实时额度同步、精选 11 个 Base 模型与动态思考档位路由。
@@ -655,6 +658,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-portable-launcher](https://github.com/15828148/dsh-portable-launcher) - dsh Web UI 的 Windows 一键便携启动器：自动安装 Node.js 和 dsh，国内镜像回退，重试与断点续传。
 - [dsh-desktop-launcher](https://github.com/becomeless/dsh-desktop-launcher) - Windows 桌面启动器：双击图标一键启动 dsh Web（无命令行窗口，关窗即停、会话续接），一行命令安装。
 - [dsh-quickstart](https://github.com/qzhqzh/dsh-quickstart) - Windows 桌面启动器（零依赖 npm CLI）：双击桌面快捷方式无窗口启动 dsh web，就绪后自动打开浏览器。
+- [oxgbl/dsh-no-cmd-launcher](https://github.com/oxgbl/dsh-no-cmd-launcher) - Windows 后台启动器：无命令行窗口运行 DSH Web，提供桌面启动/停止快捷方式及 npm/CLI 安装。
 - [dsh-win32](https://github.com/sjh9714/dsh-win32) - 无需 WSL 的 DSH 原生 Windows shell 与 Workspace Write 沙箱预设，沙箱会话使用 busybox-w32，非受限会话使用 Git Bash，并提供安装诊断。
 - [dshp](https://github.com/asdf17128/dshp) - Profile 管理器：列出/新建/克隆/对比 profile，并把整套配置（bundle 顺序、插件版本、patch）导出为单个可移植文件。
 - [dsh-session-cleaner](https://github.com/fountunt/dsh-session-cleaner) - 无需重启即可删除运行中 Web 运行时里的会话：实时存储、工作区记录与磁盘工件一并清理。
