@@ -517,6 +517,7 @@ Management panel: Settings → Plugins.
 
 ## Output & Deliverables
 
+- [EthanYoQ/Invoice-Downloader](https://github.com/EthanYoQ/Invoice-Downloader) - DSH bundle for local IMAP invoice download, OCR, archival, and Excel reimbursement summaries.
 - [zoahdev/dsh-llms-forge](https://github.com/zoahdev/dsh-llms-forge) - Generate llms.txt for plugin repos from package.json + README (AI-readable discovery, read-only by default, CLI + `llms_forge` tool).
 - [zoahdev/dsh-readme-forge](https://github.com/zoahdev/dsh-readme-forge) - Generate README.md for plugin repos from package.json + cordis.patch.yml + source layout (CLI + `readme_forge` tool).
 - [stacktree-dsh](https://github.com/stevysmith/stacktree-dsh) - Cordis overlays that connect the Stacktree MCP server (stdio or Streamable HTTP): publish generated HTML to an unguessable private URL a client opens with no account, replace it in place so the link stays valid, and gate it by passcode or email domain.
