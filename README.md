@@ -396,6 +396,7 @@ Management panel: Settings → Plugins.
 - [dsh-baseurl-probe](https://github.com/Semidia/baseurl-probe) - Provider baseURL auto-detection: when a provider's baseURL is a bare domain (e.g. `https://mzeapi.top`) and only `/v1` serves the OpenAI-compatible API, the plugin auto-fixes it — probes all providers with zero-cost path detection (no API key needed).
 - [dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) - Native image generation for DeepSeek Harness with Google Gemini, OpenAI Images, OpenAI-compatible APIs, and ByteDance Seedream.
 - [dsh-codex-oauth](https://github.com/WNJXYK/dsh-codex-oauth) - ChatGPT/Codex subscription integration for DSH with GPT models, image generation, web search, quota reporting, and browser/device-code OAuth sign-in.
+- [dsh-qwen-token-plan-cn-responses](https://github.com/nickhelion/dsh-plugins/tree/main/packages/qwen-token-plan-cn-responses) - Qwen Token Plan CN Personal Responses API provider: syncs official model and per-model built-in-tool docs, supports DSH local functions and images, and keeps a validated last-known-good catalog.
 - [dsh-codex-subscription](https://github.com/WSL043/dsh-codex-subscription) - ChatGPT OAuth provider for DSH with Codex models, image generation, selectable subscription search, standard and Spark quota reporting, and a native settings page.
 - [dsh-vision](https://github.com/dsh-external/dsh-vision) - Vision bridge: view_image tool over any OpenAI-compatible VLM (Zhipu free tier by default).
 - [DeepSee](https://github.com/windyslime/DeepSee) - DSH `0.1.0-rc.5` Web-profile visual-reasoning gateway: routes image turns through local, pluggable VLM backends and leaves normal DSH text routing intact.
@@ -534,7 +535,7 @@ Management panel: Settings → Plugins.
 - [dsh-feishu](https://github.com/PGZXB/dsh-feishu) - Feishu (Lark) UI for DeepSeek Harness: panel-driven control console, in-card approvals and questions, live streaming cards, one-QR setup.
 - [dsh-feishu-bot](https://github.com/dsh-external/dsh-feishu-bot) - Feishu bot.
 - [dsh-feishu-notify](https://github.com/dsh-external/dsh-feishu-notify) - Feishu notifications (session end / input needed).
-- [dsh-serverchan-notify](https://github.com/nickhelion/dsh-serverchan-notify) - ServerChan3 (Server酱) push notifications when a turn finishes: title, model, project directory, git branch, status and a reply excerpt; subagent filtering, fire-and-forget, key from env/config/file.
+- [dsh-serverchan-notify](https://github.com/nickhelion/dsh-plugins/tree/main/packages/serverchan-notify) - ServerChan3 (Server酱) push notifications when a turn finishes: title, model, project directory, git branch, status and a reply excerpt; subagent filtering, fire-and-forget, key from env/config/file.
 - [dsh-lark-meeting-notifier](https://github.com/yeruizhi/dsh-lark-meeting-notifier) - Feishu meeting reminder: a right-side floating panel listing today's/tomorrow's Feishu meetings with multi-alarm flashing reminders.
 - [telegram](https://github.com/dsh-external/telegram) - Channel integration for Telegram.
 - [dsh-telegram-channel](https://github.com/hi-wenw/dsh-telegram-channel) - Telegram mobile remote for live DSH Web sessions: `/sessions` picker, bind/unbind, same trajectory as desktop (Codex-style).
