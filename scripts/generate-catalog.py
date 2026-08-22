@@ -93,6 +93,12 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "bpc-oss/dsh-fork-to-preset", "name": "dsh-fork-to-preset",
      "html_url": "https://github.com/bpc-oss/dsh-fork-to-preset",
      "description": "将任意 DeepSeek Harness 会话分叉到另一 Agent 预设：会话页头提供预设选择器，创建继承已完成轮次的新子会话"},
+    {"full_name": "Mutx163/dsh-model-memory", "name": "dsh-model-memory",
+     "html_url": "https://github.com/Mutx163/dsh-model-memory",
+     "description": "自定义 API 模型的思考强度档位管理与跨会话偏好记忆：设置页直接切换 low/medium/high/max，并按渠道自动恢复上次模型与强度"},
+    {"full_name": "woosh2010/dsh-usage-dashboard", "name": "dsh-usage-dashboard",
+     "html_url": "https://github.com/woosh2010/dsh-usage-dashboard",
+     "description": "峰谷计费坞与用量分析仪表盘：Token、成本和模型统计，趋势与结构图表，跨会话历史及时间/会话/模型筛选"},
 ]
 
 
@@ -110,6 +116,8 @@ TOPIC_MANUAL = {
     "ziyou979/dsh-llm-oauth": "模型与推理",
     "yauntyour/dsh-multimodal": "视觉与图像",
     "hyna-hla/harness-remote": "消息与通知",
+    "mutx163/dsh-model-memory": "记忆与上下文",
+    "woosh2010/dsh-usage-dashboard": "成本与用量",
     "threebody6666/dsh-im-hub": "消息与通知",
     "spookysandwich/dsh-smooth-stream": "界面与体验",
     "lbh1nb/dsh-plugins": "输入与提示词",
