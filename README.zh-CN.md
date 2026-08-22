@@ -400,6 +400,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-agy-link](https://github.com/amlyczz/dsh-agy-link) - Google Antigravity (agy CLI) 模型接入：无 API Key 使用 Gemini/Claude/GPT-OSS 订阅模型，支持流式对话、原生工具卡片与 Web 界面 Google OAuth 登录。
 - [dsh-baseurl-probe](https://github.com/Semidia/baseurl-probe) - 自动探测并修正模型供应商 baseURL：当裸域名只有 /v1 提供 OpenAI 兼容 API 时，无需 API Key 即可完成路径探测。
 - [dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) - 为 DeepSeek Harness 提供原生对话生图能力，支持 Google Gemini、OpenAI Images、OpenAI 兼容 API 和字节 Seedream。
+- [exoticknight/dsh-labnana](https://github.com/exoticknight/dsh-labnana) - 为 DeepSeek Harness 接入 Labnana 图片生成：文生图 / 图生图 / 精准编辑，支持 NanoBanana Pro、Gemini 3.1 Flash Image、GPT-Image-2、Wan2.7、Seedream。
 - [dsh-codex-oauth](https://github.com/WNJXYK/dsh-codex-oauth) - DSH 的 ChatGPT/Codex 订阅接入插件，支持 GPT 模型、图像生成、Web 搜索、额度显示，以及浏览器/设备码 OAuth 登录。
 - [dsh-qwen-token-plan-cn-responses](https://github.com/nickhelion/dsh-plugins/tree/main/packages/qwen-token-plan-cn-responses) - 千问 Token Plan 个人版 Responses API 模型提供方：同步官方模型与逐模型内置工具文档，支持 DSH 本地函数和图片，并保留校验过的最近可用目录。
 - [dsh-codex-subscription](https://github.com/WSL043/dsh-codex-subscription) - DSH 的 ChatGPT OAuth 模型提供方，支持 Codex 模型、图像生成、可切换的订阅搜索、普通与 Spark 额度显示和原生设置页面。
