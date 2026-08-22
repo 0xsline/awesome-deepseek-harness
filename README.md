@@ -456,6 +456,7 @@ Management panel: Settings → Plugins.
 - [dsh-tool-github](https://github.com/NEAZ71eve/dsh-tool-github) - GitHub REST API tools + browser sidebar panel: repos, search, issues, PRs, comments, account binding, and one-click workspace integration.
 - [dsh-atomgit](https://github.com/xiongjiamu/dsh-atomgit) - AtomGit plugin bundle for DeepSeek Harness: atomgit-skills workflows (plan/implement/review/merge issues & PRs), ag CLI, and platform-hosted GitCode MCP tools.
 - [deepseek-harness-action](https://github.com/Lixiaoyiao/deepseek-harness-action) - GitHub Action that runs DeepSeek Harness for pull request review, CI diagnosis, trusted fixes, and issue-to-PR implementation.
+- [duyanta123/dsh-refactor-insight](https://github.com/duyanta123/dsh-refactor-insight) - Turn codebase smells into an executable, priority-ordered refactoring plan: file-length / deep-nesting / function-length / god-object heuristics plus a staged runbook (read-only, no auto-rewrite).
 - [dsh-auto-blame](https://github.com/dsh-external/dsh-auto-blame) - Auto blame.
 - [dsh-bash-rtk](https://github.com/DeepTrial/dsh-bash-rtk) - Routes eligible bash commands through rtk (Rust Token Killer) inside the DSH bash executor to compress tool output and save tokens; safe passthrough when rtk is absent.
 - [dsh-tool-git](https://github.com/lxj808624/dsh-tool-git) - Structured Git tools (status/diff/log/branch/stage/commit/stash/show) with a destructive-command guard.
