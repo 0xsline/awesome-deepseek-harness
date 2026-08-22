@@ -209,6 +209,7 @@
 | [zotero-harvest](https://github.com/dsh-external/zotero-harvest) | Zotero 文献采集入库插件：多源检索（OpenAlex/arXiv/Crossref/Europe PMC/Semantic Scholar）+ OA 下载解析（Unpaywall）+ 充分性审计 + 入库本地 Zotero + 触发 zotero-wave-rag 重建 |
 | [zotero-wave-rag](https://github.com/dsh-external/zotero-wave-rag) | 面向 Zotero 论文库的浪潮式 RAG 细节检索系统（浪潮语义动力学 + BM25+RRF 混合检索 + claim-evidence 校验 + 两级增量索引） |
 
+| [dsh-paper-trade](https://github.com/yangfei222666-9/dsh-paper-trade) | 模拟盘交易:哈希链防篡改账本+零依赖 CLI,14 契约测试(纸面交易,非实盘) |
 ## 🧰 插件集（23）
 
 | 仓库 | 描述 |
@@ -248,6 +249,7 @@
 | [qqbot](https://github.com/dsh-external/qqbot) | QQ remote channel |
 | [telegram](https://github.com/dsh-external/telegram) | Telegram Bot API 桥接（长轮询、per-chat 会话） |
 | [tg-bot](https://github.com/dsh-external/tg-bot) | Telegram remote channel |
+| [dsh-voice-gate](https://github.com/yangfei222666-9/dsh-voice-gate) | 语音门:手机按住说话→自动转文字→发送到 DSH 会话;零第三方依赖单文件,PWA 加主屏,Token 鉴权(v0.4.0,38 契约测试) |
 
 ## 🛠 基础设施（35）
 
