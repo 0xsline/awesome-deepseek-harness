@@ -167,6 +167,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-library](https://github.com/PerryLink/dsh-library) - DeepSeek Harness 本地优先文档知识库：library_add/remove/list、语义+关键词混合 library_search（多样性重排、相关性过滤、避免 lost-in-the-middle）、引用感知注入与 library_cite_check/diagnose；SQLite 索引走 storage 域，本地嵌入，零模型下载。
 - [JohnXu22786/docs-retriever](https://github.com/JohnXu22786/docs-retriever) - doctrove：版本化库文档检索 MCP 服务器，零运行时依赖，可作为 dsh 插件 bundle 安装。
 - [dsh-ragflow](https://github.com/staff-os/dsh-ragflow) - RAGFlow 知识库检索插件：为 agent 提供 `ragflow_retrieve` 工具，查询 RAGFlow 数据集并返回带相似度分数和来源名的文档块；三角色设计（seam/provider/consumer），环境变量配置，`dsh plugin add github:staff-os/dsh-ragflow#main`。
+- [Mutx163/dsh-model-memory](https://github.com/Mutx163/dsh-model-memory) - 自定义 API 模型的思考强度档位管理与跨会话偏好记忆：在“设置 → 模型”内直接切换 low/medium/high/max，原子写入 settings.yaml，并在新会话按渠道自动恢复上次使用的模型与强度。
 ## Input & Editing
 
 - [dsh-global-rules](https://github.com/Semidia/dsh-global-rules) - 在设置页编辑 `~/.dsh/AGENTS.md` 全局规则：提供文本编辑与保存，无需命令行。
