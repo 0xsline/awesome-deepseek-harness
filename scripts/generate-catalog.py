@@ -71,7 +71,7 @@ EXTRA_TOPIC_REPOS = [
      "description": "Folio（兰亭）：咨询文档生成引擎（接案 → 记忆 → 方法论 → 交付物 → 凭证）的原生 DSH 插件栈：15 个工具、会话协议事件、L0 防护、Agent 预设"},
     {"full_name": "sjh9714/dsh-movein", "name": "dsh-movein",
      "html_url": "https://github.com/sjh9714/dsh-movein",
-     "description": "一条命令把整套 Claude Code 配置迁入 DSH：技能、MCP 服务器、hooks、子代理与权限规则，附 dry-run 迁移清单与迁移差异报告"},
+     "description": "预览并将 Claude Code、Codex 与 OpenCode 配置迁入 DSH，支持技能、命令、代理、指令、MCP 服务与 OpenCode V1/V2 JSONC | Preview and move supported Claude Code, Codex, and OpenCode setup into DSH"},
     {"full_name": "SailingLoong/loongport-dsh", "name": "loongport-dsh",
      "html_url": "https://github.com/SailingLoong/loongport-dsh",
      "description": "多站点中转服务商接入：签名目录（身份、地址、模型）、Settings → LoongPort 服务商与 API Key 配置页、OpenAI 兼容路由"},
