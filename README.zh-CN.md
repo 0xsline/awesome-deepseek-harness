@@ -78,6 +78,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Core & Bundles
 
+- [DeepSeek Harness Ultimate](https://github.com/18126295767-cell/deepseek-harness-ultimate) - 社区维护的可复现 profile 安装器：整合编码、工作流、可靠性与生产力四大类去重默认配置；完整 commit-SHA 锁定、宽松许可证审查、依赖装前/装后检查、可选敏感集成，并为 Windows、macOS 与 Linux 提供 20 种语言的入门指南。
 - [dsh-deepresearch](https://github.com/dsh-external/dsh-deepresearch) - deepresearch 插件（cordis）。
 - [dsh-plan-execute](https://github.com/dsh-external/dsh-plan-execute) - plan/execute 双模型路由：规划模型思考、执行模型干活
 - [dsh-toolkit](https://github.com/dsh-external/dsh-toolkit) - 零依赖工具套件（calculator/csv/diff/encoding/json/markdown/regex/time）
