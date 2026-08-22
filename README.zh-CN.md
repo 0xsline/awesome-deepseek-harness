@@ -602,6 +602,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [SunQingyuan0/Kabutack](https://github.com/SunQingyuan0/Kabutack) - 基于角色的 DSH 插件 / Skill / MCP 管理器：把能力组合定义为“角色”，在 Web 设置页一键动态装载与切换。
 - [zoahdev/dsh-quality-score](https://github.com/zoahdev/dsh-quality-score) - 插件质量评分卡：0-100 分 + 等级 + 六项分项（manifest、peer 可解析、dist-tag 健康、死依赖、新鲜度、dsh-tools peer 兼容），逐项修复建议，支持批量榜单（CLI + `quality_score` 工具）。
 - [zoahdev/dsh-plugin-doctor](https://github.com/zoahdev/dsh-plugin-doctor) - DSH 插件体检：manifest/patch/entry/build/pack/install 校验、可被模型调用的 plugin_check、profile 宿主遮蔽与 BOM 检测、环境诊断、供应链投毒预检。
+- [oneinitAI/dsh-thunderforge](https://github.com/oneinitAI/dsh-thunderforge) - 一站式插件开发 Bundle：清洁室 LLM 载荷捕获、三层开发知识库（vendor 自 dsh-plugin-dev-skills 与 dsh-plugin-guide）、生成即冒烟的对话式脚手架、双数据源轨迹瀑布（会话日志 × capture，内置 dsh-replay 引擎）、带保护的开发 preset（内置 dshp）。
 - [dsh-plugin-starter](https://github.com/ciceroyang/dsh-plugin-starter) - 一条命令生成实战验证过的 DSH 插件工程（bundle、工具、运行时 skill、单测、CI），零依赖免构建，带 --verify 冒烟。
 - [menotbobbybrown/create-dsh-app](https://github.com/menotbobbybrown/create-dsh-app) - DeepSeek Harness Agent 与插件的一行命令脚手架生成器。
 - [Code2Skill](https://github.com/leechen298/Code2Skill) - 从用户授权的源码生成 Function、MCP 工具、工作流 Skill 与离线测试包。
