@@ -114,6 +114,9 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "menotbobbybrown/create-dsh-app", "name": "create-dsh-app",
      "html_url": "https://github.com/menotbobbybrown/create-dsh-app",
      "description": "DeepSeek Harness Agent 与插件的一行命令脚手架生成器"},
+    {"full_name": "delef/dsh-free-web-search", "name": "dsh-free-web-search",
+     "html_url": "https://github.com/delef/dsh-free-web-search",
+     "description": "免费网页搜索：10 个引擎、自动回退链、时间筛选、GitHub/Reddit 平台搜索、网页抓取、LRU 缓存与设置界面，基础使用无需 API Key"},
 ]
 
 
@@ -138,6 +141,7 @@ TOPIC_MANUAL = {
     "oxgbl/dsh-no-cmd-launcher": "桌面客户端",
     "chu-m/dsh-chat-continue": "Agent 与自动化",
     "menotbobbybrown/create-dsh-app": "开发与工程",
+    "delef/dsh-free-web-search": "浏览器与远程",
     "threebody6666/dsh-im-hub": "消息与通知",
     "spookysandwich/dsh-smooth-stream": "界面与体验",
     "lbh1nb/dsh-plugins": "输入与提示词",
