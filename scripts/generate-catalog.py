@@ -111,6 +111,9 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "Chu-m/dsh-chat-continue", "name": "dsh-chat-continue",
      "html_url": "https://github.com/Chu-m/dsh-chat-continue",
      "description": "失败 API 请求自动重试，按可配置的 HTTP 状态码和错误码规则保持 DSH 对话连续"},
+    {"full_name": "menotbobbybrown/create-dsh-app", "name": "create-dsh-app",
+     "html_url": "https://github.com/menotbobbybrown/create-dsh-app",
+     "description": "DeepSeek Harness Agent 与插件的一行命令脚手架生成器"},
 ]
 
 
@@ -134,6 +137,7 @@ TOPIC_MANUAL = {
     "seerableofficial/dsh-web-search-toggle": "浏览器与远程",
     "oxgbl/dsh-no-cmd-launcher": "桌面客户端",
     "chu-m/dsh-chat-continue": "Agent 与自动化",
+    "menotbobbybrown/create-dsh-app": "开发与工程",
     "threebody6666/dsh-im-hub": "消息与通知",
     "spookysandwich/dsh-smooth-stream": "界面与体验",
     "lbh1nb/dsh-plugins": "输入与提示词",

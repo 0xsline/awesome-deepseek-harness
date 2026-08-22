@@ -603,6 +603,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [zoahdev/dsh-quality-score](https://github.com/zoahdev/dsh-quality-score) - 插件质量评分卡：0-100 分 + 等级 + 六项分项（manifest、peer 可解析、dist-tag 健康、死依赖、新鲜度、dsh-tools peer 兼容），逐项修复建议，支持批量榜单（CLI + `quality_score` 工具）。
 - [zoahdev/dsh-plugin-doctor](https://github.com/zoahdev/dsh-plugin-doctor) - DSH 插件体检：manifest/patch/entry/build/pack/install 校验、可被模型调用的 plugin_check、profile 宿主遮蔽与 BOM 检测、环境诊断、供应链投毒预检。
 - [dsh-plugin-starter](https://github.com/ciceroyang/dsh-plugin-starter) - 一条命令生成实战验证过的 DSH 插件工程（bundle、工具、运行时 skill、单测、CI），零依赖免构建，带 --verify 冒烟。
+- [menotbobbybrown/create-dsh-app](https://github.com/menotbobbybrown/create-dsh-app) - DeepSeek Harness Agent 与插件的一行命令脚手架生成器。
 - [Code2Skill](https://github.com/leechen298/Code2Skill) - 从用户授权的源码生成 Function、MCP 工具、工作流 Skill 与离线测试包。
 - [dsh-movein](https://github.com/sjh9714/dsh-movein) - 预览并将 Claude Code、Codex 与 OpenCode 的受支持配置迁入 DSH，涵盖技能、命令、代理、指令与 MCP 服务，支持 OpenCode V1/V2 JSONC 与目标冲突保护。
 - [sandbase-skills](https://github.com/sandbaseai/sandbase-skills) - 经校验的 SKILL.md 目录与安装器，为 DSH 和兼容 Agent 提供 88 个可安装技能包。
