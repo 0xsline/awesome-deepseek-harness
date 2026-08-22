@@ -548,6 +548,7 @@ Management panel: Settings → Plugins.
 - [qqbot](https://github.com/dsh-external/qqbot) - QQ bot.
 - [dsh-wecom-bot](https://github.com/dsh-external/dsh-wecom-bot) - WeCom bot.
 - [dsh-weixin-bot](https://github.com/dsh-external/dsh-weixin-bot) - WeChat bot.
+- [dsh-weixin-clawbot](https://github.com/zp-home/dsh-weixin-clawbot) - Connects Tencent's official Weixin ClawBot/iLink channel to a persistent DSH Host for phone task control and session management.
 - [dsh-im-hub](https://github.com/ThreeBody6666/dsh-im-hub) - Multi-platform IM gateway: Feishu (Lark) WebSocket long connection (no public URL), WeCom AES-encrypted callbacks, Telegram long polling; per-chat agent sessions, whitelist access, visual settings card.
 - [dsh-overdrive](https://github.com/temotee2103/dsh-overdrive) - OpenClaw-style multi-platform gateway for DSH: WhatsApp / Telegram / Discord / Slack / Feishu / DingTalk / WeCom channels, in-chat trajectory replay (`/trace`), subagent & cron commands, native approval buttons, one-command docker deploy.
 - [dsh-im-bridge](https://github.com/MHfire/dsh-im-bridge) - WeCom (WeChat Work) channel bridge: WebSocket long connection (no public URL), in-process agents with per-sender persistent sessions visible in the Web GUI, customizable persona, streaming progress animation.

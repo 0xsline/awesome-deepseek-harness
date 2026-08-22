@@ -547,6 +547,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [qqbot](https://github.com/dsh-external/qqbot) - QQ bot
 - [dsh-wecom-bot](https://github.com/dsh-external/dsh-wecom-bot) - 企业微信 bot
 - [dsh-weixin-bot](https://github.com/dsh-external/dsh-weixin-bot) - 微信 bot
+- [dsh-weixin-clawbot](https://github.com/zp-home/dsh-weixin-clawbot) - 将腾讯官方微信 ClawBot/iLink 通道接入常驻 DSH Host，支持手机任务控制与会话管理。
 - [dsh-im-hub](https://github.com/ThreeBody6666/dsh-im-hub) - 多平台 IM 网关：飞书（Lark）WebSocket 长连接（无需公网）、企业微信 AES 加密回调、Telegram 长轮询；每会话独立 agent、白名单访问、GUI 可视化设置卡片
 - [dsh-overdrive](https://github.com/temotee2103/dsh-overdrive) - OpenClaw 风格多平台网关：WhatsApp / Telegram / Discord / Slack / 飞书 / 钉钉 / 企微多渠道接入，聊天内轨迹回放（/trace）、子代理与 cron 命令、原生审批按钮、一键 docker 部署。
 - [dsh-im-bridge](https://github.com/MHfire/dsh-im-bridge) - 企业微信渠道桥接：WebSocket 长连接直连（无需公网），进程内 Agent + 按发送者持久会话（GUI 实时可见、可续聊），人设可定制，流式进度动画。
