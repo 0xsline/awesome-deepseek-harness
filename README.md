@@ -509,6 +509,7 @@ Management panel: Settings → Plugins.
 - [accpowered/dsh-credential-manager](https://github.com/accpowered/dsh-credential-manager) - Named credential manager: the model uses API keys, tokens, and logins by reference; secret values are injected into each shell run as `DSH_CM_*` env vars, resolved per execution, and never enter the conversation.
 - [accpowered/dsh-auto-review](https://github.com/accpowered/dsh-auto-review) - LLM auto-review approval answerer for sandbox escalations under the `'auto'` policy: a deterministic filter plus a clean-context reviewer model decide without a human prompt, fail-closed on every error path; requires a patched harness core (included in core-patches/).
 - [dsh-capmark-gate](https://github.com/taltara/capmark) - Holds an agent to a declared capability manifest: a Markdown `CAP.md` states what a plugin may do, and the gate masks the agent's tool view with `tools.restrict()` and judges every call at `tools/pre-execute`; scopes finer than a tool name are linted as advisory rather than presented as enforcement.
+- [dsh-agentvalet](https://github.com/AgentValet/dsh-agentvalet) - Brokered SaaS access: four tools call approved platforms through a credential broker, minting a short-lived assertion per call, so no API key is stored on the machine and every call is owner-approvable, revocable, and audited.
 
 ## Output & Deliverables
 
