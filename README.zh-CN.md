@@ -325,6 +325,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [JohnXu22786/session-titler](https://github.com/JohnXu22786/session-titler) - 双阶段会话标题生成：忙碌时即时关键词标题，空闲时用经济模型精修。
 - [dsh-billing-tui](https://github.com/Ethanz11-creat/dsh-billing-tui) - 实时 token 计费，按 DeepSeek 官方峰谷定价：TUI 状态行实时显示费用，/billing 打印鲸鱼 ASCII 账单小票。
 
+- [woosh2010/dsh-usage-dashboard](https://github.com/woosh2010/dsh-usage-dashboard) - 峰谷计费坞 + 用量分析仪表盘：token/成本/模型统计、成本趋势与 Token 结构图表、最近 20 轮明细，支持时间/会话/模型全局筛选与账户余额。
 ## IDE & Clients
 
 - [dsh-cc-tui](https://github.com/dsh-external/dsh-cc-tui) - Claude Code 风格全屏 TUI（流式展开/双击 Esc 回滚）
