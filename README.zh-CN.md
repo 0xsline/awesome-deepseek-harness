@@ -393,6 +393,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-antigravity](https://github.com/LiZhenNet/dsh-antigravity) - Google Antigravity / Cloud Code Assist 模型提供者插件：支持 Web OAuth 登录、实时额度同步、精选 11 个 Base 模型与动态思考档位路由。
 - [JohnXu22786/browser-automation](https://github.com/JohnXu22786/browser-automation) - Web Bridge：面向 dsh 的浏览器自动化 MCP 服务器——真实浏览器导航、点击、填表、截图、JS 执行，由无障碍树快照驱动。
 - [JohnXu22786/computer-control](https://github.com/JohnXu22786/computer-control) - 面向 dsh 的桌面控制：屏幕捕获、指针/键盘注入、无障碍树语义操作，紧急停止、允许/拒绝规则、确认流程与空闲待机。
+- [dsh-browser-vision](https://github.com/tristan-mcinnis/dsh-browser-vision) - 视觉浏览器工具：以 browser-use 通过 CDP 驱动真实 Chrome，并用 deepseek-v4-flash-vision-exp 读取页面，可识别 canvas 上绘制的文字、图片中烧录的文字与图表中的数值；支持按调用方提供的 JSON Schema 返回结构化结果，并统计每次运行的 token 成本
 
 ## Models & Inference
 
