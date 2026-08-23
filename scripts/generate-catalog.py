@@ -117,6 +117,10 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "delef/dsh-free-web-search", "name": "dsh-free-web-search",
      "html_url": "https://github.com/delef/dsh-free-web-search",
      "description": "免费网页搜索：10 个引擎、自动回退链、时间筛选、GitHub/Reddit 平台搜索、网页抓取、LRU 缓存与设置界面，基础使用无需 API Key"},
+    {"full_name": "SpookySandwich/dsh-plugin-message-edit", "name": "dsh-plugin-message-edit", "html_url": "https://github.com/SpookySandwich/dsh-plugin-message-edit", "description": "编辑已发送消息并从该轮次回溯分叉：版本计数器、轮次级版本树，以及 ChatGPT/DeepSeek/Claude 控件布局"},
+    {"full_name": "B1lli/dsh-plugin-bench", "name": "dsh-plugin-bench", "html_url": "https://github.com/B1lli/dsh-plugin-bench", "description": "证据化、类型感知的 DSH 插件质量评测：按 artifact 与完整 commit 绑定八维质量区间和证据账本，输出 Markdown/SVG 评分卡"},
+    {"full_name": "welsione/dsh-model-router", "name": "dsh-model-router", "html_url": "https://github.com/welsione/dsh-model-router", "description": "统一模型路由：一个逻辑 ModelID 连接多个服务商，首 token 故障切换与冷却、健康排序、按用途自动选择三档，并支持候选推理强度和设置页管理"},
+    {"full_name": "Nicholas023/vision-exp-tile", "name": "vision-exp-tile", "html_url": "https://github.com/Nicholas023/vision-exp-tile", "description": "面向视觉大模型的大图智能识图插件：800×800 无损切块识别、本地 OCR、可选 DirectML/CUDA/OpenVINO GPU 加速并自动回退 CPU"},
 ]
 
 
@@ -142,6 +146,10 @@ TOPIC_MANUAL = {
     "chu-m/dsh-chat-continue": "Agent 与自动化",
     "menotbobbybrown/create-dsh-app": "开发与工程",
     "delef/dsh-free-web-search": "浏览器与远程",
+    "spookysandwich/dsh-plugin-message-edit": "输入与提示词",
+    "b1lli/dsh-plugin-bench": "测试与诊断",
+    "welsione/dsh-model-router": "模型与推理",
+    "nicholas023/vision-exp-tile": "视觉与图像",
     "threebody6666/dsh-im-hub": "消息与通知",
     "spookysandwich/dsh-smooth-stream": "界面与体验",
     "lbh1nb/dsh-plugins": "输入与提示词",
