@@ -451,6 +451,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-tool-github](https://github.com/NEAZ71eve/dsh-tool-github) - GitHub REST API 工具 + 浏览器侧边栏面板：仓库/搜索/Issue/PR/评论、账号绑定与一键工作区集成。
 - [dsh-atomgit](https://github.com/xiongjiamu/dsh-atomgit) - AtomGit 插件 bundle：内置 atomgit-skills 工作流（规划/实现/审查/合并 Issue 与 PR）、ag CLI 与平台托管的 GitCode MCP 工具
 - [deepseek-harness-action](https://github.com/Lixiaoyiao/deepseek-harness-action) - 在 GitHub 中运行 DeepSeek Harness，用于 PR 审查、CI 诊断、受信任修复和 Issue → PR。
+- [duyanta123/dsh-refactor-insight](https://github.com/duyanta123/dsh-refactor-insight) - 重构入口诊断：把代码库坏味道（超长文件/深嵌套/超长函数/上帝对象）转成带定位、优先级与依赖顺序的重构计划（只读不自动改码）。
 - [dsh-auto-blame](https://github.com/dsh-external/dsh-auto-blame) - 自动 blame
 - [dsh-bash-rtk](https://github.com/DeepTrial/dsh-bash-rtk) - 在 DSH bash 执行器内把符合条件的 bash 命令路由给 rtk（Rust Token Killer）以压缩工具输出、节省 token；rtk 缺失时安全透传。
 - [dsh-tool-git](https://github.com/lxj808624/dsh-tool-git) - 结构化 Git 工具（status/diff/log/branch/stage/commit/stash/show）+ 破坏性命令安全护栏
