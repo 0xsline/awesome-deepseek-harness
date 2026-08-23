@@ -521,6 +521,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Output & Deliverables
 
+- [EthanYoQ/Invoice-Downloader](https://github.com/EthanYoQ/Invoice-Downloader) - 用于本地 IMAP 发票下载、OCR 识别、归档和 Excel 报销汇总的 DSH bundle。
 - [zoahdev/dsh-llms-forge](https://github.com/zoahdev/dsh-llms-forge) - 为插件仓库生成 llms.txt（package.json + README，AI 可读发现文件，默认只读，CLI + `llms_forge` 工具）。
 - [zoahdev/dsh-readme-forge](https://github.com/zoahdev/dsh-readme-forge) - 为插件仓库生成 README.md（package.json + cordis.patch.yml + 源码布局，CLI + `readme_forge` 工具）。
 - [stacktree-dsh](https://github.com/stevysmith/stacktree-dsh) - 连接 Stacktree MCP 服务端的 Cordis 覆盖配置（stdio 或 Streamable HTTP）：把生成的 HTML 发布到不可猜测的私有链接，客户无需账号即可打开；支持原地替换以保持链接长期有效，并可用密码或邮箱域名设置访问门槛。
