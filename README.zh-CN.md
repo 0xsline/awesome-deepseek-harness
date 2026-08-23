@@ -441,6 +441,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-local-ai](https://github.com/PerryLink/dsh-local-ai) - Ollama 本地模型接入：ollama_list/pull/remove/show 与健康检查，以官方 LlmAdapter 注册 Ollama 路由与 model_route 分流（离线优先/长文本/隐私），失败回退云端；/ollama 命令一键总览。
 - [rapid-mlx-dsh-provider](https://github.com/raullenchai/rapid-mlx-dsh-provider) - Rapid-MLX（Apple 芯片本地推理服务）原生 provider：注册 `rapid-mlx` 的 LlmAdapter 路由，从服务端 `/v1/models` 读取模型信息（上下文窗口、推理解析器、能力）而非手写 settings.yaml，切换所服务的模型无需重新配置，且上下文压缩按真实上下文窗口计时。
 - [JohnXu22786/model-catalog](https://github.com/JohnXu22786/model-catalog) - 模型目录自动发现：从 OpenAI 兼容的 API 主机获取模型列表、价格与能力，归一化为可直接使用的配置。
+- [dsh-plugin-rollout-scout](https://github.com/SpookySandwich/dsh-plugin-rollout-scout) - 检测账号当前被分配到哪个对话模型：并发发起一次性探测会话，按段落开头的写法为流式思维链打分，读起来像旧模型的在数秒内中止。
 
 ## Git & Engineering
 

@@ -446,6 +446,7 @@ Management panel: Settings → Plugins.
 - [JohnXu22786/worktree-mgr](https://github.com/JohnXu22786/worktree-mgr) - Task-isolated Git worktrees for dsh: auto-create, sync and tear down isolated workspaces per task.
 - [JohnXu22786/spec-driven](https://github.com/JohnXu22786/spec-driven) - Keel (龙骨): spec-driven development discipline skill pack — spec-first, verify assumptions, prevent over-engineering and scope creep; skills+tools+templates for dsh.
 - [JohnXu22786/adversarial-review](https://github.com/JohnXu22786/adversarial-review) - Gavel-review: adversarial multi-perspective code review — parallel attack lenses, deterministic static sentinels, cross-lens merge/dedup, severity grading, suppression rules and review history; dsh tools + standalone CLI.
+- [dsh-plugin-rollout-scout](https://github.com/SpookySandwich/dsh-plugin-rollout-scout) - Detects which conversation model your account is being served: launches concurrent throwaway probe conversations, scores each streaming chain-of-thought by how its paragraphs open, and cancels probes that read as the older model within seconds.
 
 ## Git & Engineering
 
