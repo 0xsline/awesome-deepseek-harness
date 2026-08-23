@@ -664,6 +664,7 @@ Management panel: Settings → Plugins.
 - [awesome-dsh](https://github.com/stakeswky/awesome-dsh) - Auto-updating catalog of the whole `dsh-plugin` topic (2600+ repos): a Cloudflare Worker recrawls every 6 hours, translates English descriptions to Chinese with Workers AI, and serves a ranked search API plus an agent skill that finds and installs plugins on demand.
 - [dsh-score](https://github.com/PerryLink/dsh-score) - Multi-dimensional quality scoring for DSH plugins: a five-dimension score card (install success, maintenance activity, docs completeness, security scan, protocol compliance) with /score command and leaderboard reports; install evidence reserves consumption of dsh-test-drive structured results.
 - [JohnXu22786/hooks-adapter](https://github.com/JohnXu22786/hooks-adapter) - Universal hooks compatibility layer: run hooks declared in Claude Code / Codex / opencode configs on dsh.
+- [dsh-blueprint](https://github.com/taltara/mddl-harness) - Blueprint tab for the Web client: reads the config the harness actually booted, lints the running tree, and writes a `cordis.patch.yml` overlay behind a marker-delimited block with snapshots and one-click restore. Refuses to write a row naming a package the profile cannot load, since that stops the harness booting rather than disabling one entry.
 
 ## Runtime & Operations
 
@@ -761,6 +762,7 @@ Management panel: Settings → Plugins.
 - [JohnXu22786/file-planning](https://github.com/JohnXu22786/file-planning) - Trailmap: disk-persisted execution-planning plugin — milestone/step state machine, dependency tagging, audit events and retrospective notes, via dsh tools, CLI and skills.
 - [JohnXu22786/codegraph](https://github.com/JohnXu22786/codegraph) - Code knowledge graph for dsh: indexes symbols, call sites and imports into SQLite and answers call/dependency questions via CLI or stdio MCP tool server.
 - [Nicholas023/vision-exp-tile](https://github.com/Nicholas023/vision-exp-tile) - Large-image recognition for vision-exp models: lossless 800×800 tile recognition (smart/pipeline/full), local OCR with preprocessing & handwriting routing, optional multi-vendor GPU (DirectML/CUDA/OpenVINO) with auto CPU fallback.
+- [dsh-overlay-check](https://github.com/taltara/mddl-harness/tree/main/packages/overlay-check) - Offline overlay safety checks as a zero-dependency library: resolvability preflight, confined managed-block writes, a readable diff, and a warning that `agent-presets.roots` is discarded at boot (deepseek-harness#403).
 
 ## Related
 
