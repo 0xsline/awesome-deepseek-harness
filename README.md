@@ -605,6 +605,7 @@ Management panel: Settings → Plugins.
 ## Plugin Ecosystem & Development
 
 - [SunQingyuan0/Kabutack](https://github.com/SunQingyuan0/Kabutack) - Role-based manager for DSH plugins/Skills/MCP: bundle capabilities into “roles” and hot-switch them from the Web UI.
+- [dsh-plugin-bench](https://github.com/B1lli/dsh-plugin-bench) - Evidence-backed, type-aware DSH plugin quality benchmark: commit-bound score intervals and evidence ledgers across eight lifecycle dimensions, with Markdown/SVG scorecards; Stars and identity are not scored.
 - [zoahdev/dsh-quality-score](https://github.com/zoahdev/dsh-quality-score) - Plugin quality scorecard: 0-100 with grade, 6 components (manifest, peer resolvability, dist-tag health, dead ranges, freshness, dsh-tools peer compat), fix suggestions per deduction, and a batch leaderboard (CLI + `quality_score` tool).
 - [zoahdev/dsh-plugin-doctor](https://github.com/zoahdev/dsh-plugin-doctor) - Health checks for DSH plugins: manifest/patch/entry/build/pack/install verification, model-callable plugin_check, profile host-shadowing + manifest-BOM detection, environment diagnostics, and supply-chain poison preflight.
 - [dsh-plugin-starter](https://github.com/ciceroyang/dsh-plugin-starter) - Scaffold a battle-tested DSH plugin (bundle, tool, runtime skill, tests, CI) in one command, zero dependencies, with a --verify smoke run.
