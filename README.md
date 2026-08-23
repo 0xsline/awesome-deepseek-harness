@@ -496,6 +496,7 @@ Management panel: Settings → Plugins.
 - [duyanta123/arch-doc](https://github.com/duyanta123/arch-doc) - Analyze a codebase and generate architecture documentation (module responsibilities, dependency graph, entry points, run methods) via a five-stage runbook plus a zero-dependency arch-profile scanner.
 - [duyanta123/dsh-preset-scaffold](https://github.com/duyanta123/dsh-preset-scaffold) - Project-init scaffold preset: strict five-phase runbook, engineering standards, and six runnable starter templates (node-ts / react-vite / python / go / spring-boot / monorepo).
 - [dsh-verify](https://github.com/263311487-ux/dsh-verify) - Independent browser acceptance testing for agent deliverables: JSON spec in, real Chromium (Firefox/WebKit) verdict out (PASS/FAIL with screenshot receipts). MCP server + CLI + GitHub Action, works with any agent and CI (MIT).
+- [beijingwahw/dsh-nuke-plugin](https://github.com/beijingwahw/dsh-nuke-plugin) - Transactional uninstall engine: validate/preview/execute/undo per action with Saga rollback, WAL crash recovery, hash-chain audit, hardlink dedup, and a Bayesian oracle that predicts success probability before you commit (MIT).
 
 ## Security & Governance
 
