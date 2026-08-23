@@ -734,6 +734,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [JohnXu22786/command-scout](https://github.com/JohnXu22786/command-scout) - 扫描项目声明的构建命令（Makefile、package.json scripts、justfile、deno tasks）并作为 agent 工具暴露。
 - [JohnXu22786/file-planning](https://github.com/JohnXu22786/file-planning) - trailmap：磁盘持久化执行规划插件——里程碑/步骤状态机、依赖标注、审计事件与复盘纪要，提供 dsh 工具、CLI 与技能三种接口。
 - [JohnXu22786/codegraph](https://github.com/JohnXu22786/codegraph) - 面向 dsh 的代码知识图谱：将符号、调用点与导入索引到 SQLite，通过 CLI 或 stdio MCP 工具服务回答调用/依赖问题。
+- [Nicholas023/vision-exp-tile](https://github.com/Nicholas023/vision-exp-tile) - 面向视觉大模型的大图智能识图插件：800×800 无损切块识别（smart/pipeline/full 三策略）、本地 OCR（前处理+手写分流）、可选多厂商 GPU 加速（DirectML 覆盖 NVIDIA/AMD/Intel，CUDA/OpenVINO），自动回退 CPU。MIT 开源。
 
 ## Related
 
