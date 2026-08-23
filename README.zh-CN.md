@@ -112,6 +112,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [zoahdev/dsh-kirocrew](https://github.com/zoahdev/dsh-kirocrew) - 通过 ACP（基于 stdio 的 JSON-RPC 2.0）把 DSH 智能体桥接到一个持久、自进化的 KiroCrew 开发工作空间，仅暴露一个 `kiro_send` 工具。
 - [bpc-oss/dsh-routed-subagent](https://github.com/bpc-oss/dsh-routed-subagent) - 从任意会话在任意 Agent 预设上完整挂载并运行一次性子代理：支持按调用覆盖模型/提供商、模型预检与外部 CLI 引擎（Codex / Claude / CodeBuddy），并提供后台任务、实时进度、终止和可续接会话。
 - [bpc-oss/dsh-fork-to-preset](https://github.com/bpc-oss/dsh-fork-to-preset) - 在对话页头将任意会话分叉到另一 Agent 预设：通过预设选择器创建挂载到所选预设的新子会话，并继承源会话已完成的轮次。
+- [qwert702/dsh-commander](https://github.com/qwert702/dsh-commander) — DSH 网页端指挥官模式插件：会话标题栏一键注入协议简报，解析模型回复中的任务块并自动执行，让策略层与执行层分离；通过徽章按钮激活/停用。
 
 ## Context & Search
 
@@ -122,12 +123,14 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-context](https://github.com/bowenliang123/dsh-context) - 上下文洞察面板：一眼看清模型上下文窗口的组成与变化——构成对照窗口大小、按请求历史趋势、压缩/注入事件、消息级 token 统计。
 - [dsh-bookmarks](https://github.com/penguin-oo/dsh-bookmarks) - 收藏已定稿的 AI 回复（备注/标签），跨会话收藏中心支持搜索、标签筛选、跳回会话与一键导出 Markdown（Alt+B 开关面板）。
 - [billion-context-dsh](https://github.com/Tyan66666/billion-context-dsh) - DSH 的模型驱动上下文压缩（ACP），移植自 billion-context-pi；由模型决定何时压缩及压缩内容。
+- [qwert702/dsh-context-compressor](https://github.com/qwert702/dsh-context-compressor) — 面向小模型的上下文压缩插件：将工具输出和对话历史压缩为几句话，为实际任务腾出上下文空间；自动在新生成的会话中继续工作。
 - [dsh-scope](https://github.com/helloxkk/dsh-scope) - 上下文透镜：按会话查看 KV 缓存命中率与 token 构成，附 GitHub 风格的每日用量热力图（tokens、会话数、缓存效率）。
 - [dsh-compressor](https://github.com/lifeodyssey/dsh-compressor) - Headroom 的精简移植，在不影响模型上下文缓存以及 Agent 性能的情况下，压缩工具的输出，至多减少 20% 的上下文。
 - [context-vista](https://github.com/GooodWei/context-vista) - 为 DeepSeek Harness 提供右侧悬浮栏以及 /context 命令，用环形图实时展示当前上下文 token 用量与分配及消费估算
 - [dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor) - 看清模型每个请求到底背着多少上下文：指令链/技能目录/工具 schema 的 token 成本逐项量化，自动检测重复与冲突，给出可执行裁剪建议（Web 圆环面板 + context_audit 工具，全程只读）。
 - [dsh-mcp-lens](https://github.com/labmimors/dsh-mcp-lens) - 渐进披露 MCP 网关：通过两个稳定入口检索大型远程工具目录，再用精确 schema 调用选中工具，并采用惰性连接与有界缓存。
 - [dsh-cot-summary](https://github.com/dsh-external/dsh-cot-summary) - 外置 Summary-CoT 插件工作区。
+- [qwert702/dsh-token-viewer](https://github.com/qwert702/dsh-token-viewer) — CC Switch 风格的 DSH Token 消耗统计插件：按请求记录逐条统计、真实消耗英雄卡（含缓存命中率）、按请求时间分桶趋势图、从官网实时拉取并显示按模型的峰谷定价列表、按项目和模型汇总统计，以及账户余额。
 - [dsh-explain](https://github.com/dsh-external/dsh-explain) - 学习模式插件，解释 agent 的每一步（WIP）。
 - [dsh-file-mount](https://github.com/acefun29/dsh-file-mount) - 文件增量挂载与重复读取去重：已挂载行范围不重复进上下文，磁盘变化自动失效重挂，附「挂载文件」标签页与 token 节省统计。
 - [dsh-session-search](https://github.com/dsh-external/dsh-session-search) - 跨 dsh/Codex/Claude Code/pi/OpenCode 会话只读搜索，无索引
@@ -149,11 +152,13 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-memory-vault](https://github.com/flymysql/dsh-memory) - 跨会话记忆库：memory_remember / memory_recall / memory_forget 三工具，最新条目自动注入系统提示词，设置页（记忆库 / Memory）管理。
 - [dsh-memoria](https://github.com/jiayan-xu/dsh-memoria) - Memoria 记忆后端：为 dsh agent 提供 observe/remember/search/recall 四个工具，支持向量+图记忆、命名空间隔离、自动写入与配置热重载。
 - [dsh-memory-evolve](https://github.com/dsh-external/dsh-memory-evolve) - 跨会话长期记忆 + 后台自我进化（五轨记忆/Git 分支感知/技能进化）
+- [qwert702/dsh-memory](https://github.com/qwert702/dsh-memory) — DSH 网页端项目级+全局长期记忆插件：分拆 POST /items 路由避免路径冲突，多轮工具调用上下文压缩后存入记忆项，去重与会话级持久化。
 - [dsh-memory-gate](https://github.com/GIT121995/dsh-memory-gate) - 有界本地长期记忆：CBDC（Claim→Belief→Decision→Consumption）权威门控 + SQLite/FTS5，检索到≠注入，use/verify/ignore 可解释决策与完整审计，/memory 命令管理，每次最多注入 3 条 1200 字符，不增加模型调用。
 - [dsh-engram-relay](https://github.com/dsh-external/dsh-engram-relay) - 内置 <1B 模型实现 100k 等效长记忆，因果图精准唤醒
 - [dsh-mneme](https://github.com/modusensus/dsh-mneme) - DeepSeek Harness 跨会话记忆引擎：SQLite 存储 + 可人工编辑的 Markdown 镜像，autoDream 自我修正巩固、失败追踪、离线语义搜索（本地向量/精排/聚类）、实体-属性-时间轴、Sleep Mode、自定义模型 autoSummarize——473 测试。
 - [dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) - Mnemon 驱动的本地记忆系统：三层记忆（运行时热记忆/项目档案 Documents/长期记忆体 Memory Spaces），受监督写回、检索工具与 Web UI
 - [url-manager](https://github.com/Piccolo123/url-manager) - Agent 先行链接收藏与知识管理：从任意平台保存链接，自动分类/打标签，全文搜索，共享分类，并以魔法链接卡片交付结果。零配置——Agent 首次使用自动注册。
+- [qwert702/dsh-auto-translate](https://github.com/qwert702/dsh-auto-translate) — 英文回复自动翻译插件：在原文下方内联显示中文翻译，工具调用附一行中文注释；翻译通过独立请求完成，不进入会话上下文。
 - [url-manager-mcp](https://github.com/Piccolo123/url-manager-mcp) - url-manager 的 MCP 服务端：21 个工具（mcp__url_manager__*），支持收藏/搜索/分类/共享与魔法链接交付，支持 stdio 与 streamable-http。
 - [dsh-kb-sieve](https://github.com/dsh-external/dsh-kb-sieve) - knowledge-base 插件：构建可审计 KB 包（references + SQL）
 - [kb-rag](https://github.com/Breeze136/kb-rag) - 本地文献知识库 RAG：8 个工具（PDF/文件夹/Zotero 入库、BM25+向量+重排混合检索、DOI 可点击溯源问答、范围/严格模式、去重/清空/统计），全本地 bge 嵌入 + 单文件 SQLite，实测 242 篇 86s 入库、2 万块亚秒热查询。
@@ -317,6 +322,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-hud](https://github.com/a903067276-rgb/dsh-hud) - HUD 状态面板：Git 状态、MCP 服务器、技能列表、模型与 token 用量，悬浮侧栏一览无余。
 - [dsh-auto-continue](https://github.com/HsiangNianian/dsh-auto-continue) - DSH Web 请求中断自动续跑：网络/超时/宿主崩溃等非人为失败后自动发送「继续」，支持错误分类、自适应退避、模板化继续文本与浏览器通知；全部参数可在插件设置卡片中调整。
 - [Chu-m/dsh-chat-continue](https://github.com/Chu-m/dsh-chat-continue) - 失败 API 请求自动重试，按可配置的 HTTP 状态码和错误码规则保持 DSH 对话连续。
+- [qwert702/dsh-continue-on-limit](https://github.com/qwert702/dsh-continue-on-limit) — 本地小模型输出上限自动继续插件：双源检测已达到输出 token 上限提示（turn-max-tokens 节点 + provider 响应），maxConsecutive（默认 3）防死循环，完全无 UI。
 - [dsh-trajectory-debug](https://github.com/devmom/dsh-trajectory-debug) - DeepSeek Harness 轨迹瀑布流、确定性回放、断点、改参重跑、分叉对比与性能分析。
 - [dsh-netcafe](https://github.com/mario03690/dsh-netcafe) - 托管式成果工具包（一行配置接入 MCP）：md→docx/pptx/pdf、带代码内算术校验的表格、从中国大陆真实网络出口做的可达性测试、农历日历/节假日；免费匿名额度，按调用计费报告。
 - [dsh-opencodego-usage](https://github.com/BeiZi6/dsh-opencodego-usage) - OpenCodeGo 剩余额度监视器：输入框右下角呼吸指示灯（按剩余额度绿/黄/红），液态玻璃面板显示滚动/周/月用量窗口与重置时间，每 30 秒自动刷新；API Key 自动读取 DSH 凭据。
