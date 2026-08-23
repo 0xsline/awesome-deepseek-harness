@@ -160,6 +160,12 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "YYfather/dsh-balance", "name": "dsh-balance", "html_url": "https://github.com/YYfather/dsh-balance", "description": "状态栏显示 DeepSeek/MiMo 余额与请求开销，支持多模型峰谷定价和超额提醒"},
     {"full_name": "scientisbo/dsh-codex-usage", "name": "dsh-codex-usage", "html_url": "https://github.com/scientisbo/dsh-codex-usage", "description": "Codex 订阅配额与 DeepSeek 余额聚合面板"},
     {"full_name": "vikasranax/dsh-plugin-cats", "name": "dsh-plugin-cats", "html_url": "https://github.com/vikasranax/dsh-plugin-cats", "description": "从公共 API 获取随机猫咪知识的 DeepSeek Harness 插件"},
+    {"full_name": "Zn-Dk/dsh-session-repair", "name": "dsh-session-repair", "html_url": "https://github.com/Zn-Dk/dsh-session-repair", "description": "诊断并安全修复损坏的 DSH 会话历史：zstd/JSONL 校验、空 tool-call ID 链确定性修复、备份恢复和审计记录"},
+    {"full_name": "Phant0Meow/dsh-meow-cachebilling", "name": "dsh-meow-cachebilling", "html_url": "https://github.com/Phant0Meow/dsh-meow-cachebilling", "description": "输入框上下文圆环中的本轮缓存命中、未命中和输出费用读数，按官方峰谷价及模型自动计价"},
+    {"full_name": "Kian-Oraish/dsh-prompt-enhance", "name": "dsh-prompt-enhance", "html_url": "https://github.com/Kian-Oraish/dsh-prompt-enhance", "description": "DSH Web 对话输入框的自适应提示词增强魔法棒"},
+    {"full_name": "qingmumingyang/dsh-doc-toolkit", "name": "dsh-doc-toolkit", "html_url": "https://github.com/qingmumingyang/dsh-doc-toolkit", "description": "PDF、DOCX、XLSX、CSV 读写和 PDF 导出的 DSH 文档工具包"},
+    {"full_name": "NonchalantLudens/dsh-side-dir", "name": "dsh-side-dir", "html_url": "https://github.com/NonchalantLudens/dsh-side-dir", "description": "Web GUI 详情面板的项目目录树和只读文件预览"},
+    {"full_name": "yangdongzhen590/dsh-knj-menu", "name": "dsh-knj-menu", "html_url": "https://github.com/yangdongzhen590/dsh-knj-menu", "description": "第三方菜单管理器：汇集插件菜单项并支持折叠和置顶"},
 ]
 
 
@@ -228,6 +234,12 @@ TOPIC_MANUAL = {
     "yyfather/dsh-balance": "成本与用量",
     "scientisbo/dsh-codex-usage": "成本与用量",
     "vikasranax/dsh-plugin-cats": "趣味与娱乐",
+    "zn-dk/dsh-session-repair": "测试与诊断",
+    "phant0meow/dsh-meow-cachebilling": "成本与用量",
+    "kian-oraish/dsh-prompt-enhance": "输入与提示词",
+    "qingmumingyang/dsh-doc-toolkit": "开发与工程",
+    "nonchalantludens/dsh-side-dir": "界面与体验",
+    "yangdongzhen590/dsh-knj-menu": "界面与体验",
     "threebody6666/dsh-im-hub": "消息与通知",
     "spookysandwich/dsh-smooth-stream": "界面与体验",
     "lbh1nb/dsh-plugins": "输入与提示词",
