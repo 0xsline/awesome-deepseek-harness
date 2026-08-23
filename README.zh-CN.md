@@ -180,6 +180,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [dsh-better-sidebar-plugin-office](https://github.com/dsh-external/dsh-better-sidebar-plugin-office) - better-sidebar 的 Office 集成。
 - [dsh-message-edit](https://github.com/dsh-external/dsh-message-edit) - 分支式消息编辑 / reroll / retry / 版本时间线
+- [SpookySandwich/dsh-plugin-message-edit](https://github.com/SpookySandwich/dsh-plugin-message-edit) - 编辑已发送的消息即可从该轮次回溯并分叉对话；气泡下方提供版本计数器，「版本」标签页以轮次级树展示整个版本家族，控件布局可选 ChatGPT / DeepSeek / Claude。
 - [dsh-prompt-studio](https://github.com/dsh-external/dsh-prompt-studio) - 系统提示词分段编辑 + 实时预览
 - [dsh-paste-input](https://github.com/dsh-external/dsh-paste-input) - Ctrl+V 粘贴文件 / 拖拽 / 选择
 - [dsh-reference-anything](https://github.com/Chael-Chael/dsh-reference-anything) - 扩展 DSH 原生 `@` 菜单，提供五类可配置来源：命令、Skills、工作区文件、DSH 会话，以及 ChatGPT/Claude/Gemini/DeepSeek/Grok/Kimi 对话；外部正文与附件按需读取，并按任务授权。

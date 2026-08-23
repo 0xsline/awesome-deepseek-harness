@@ -182,6 +182,7 @@ Management panel: Settings → Plugins.
 
 - [dsh-better-sidebar-plugin-office](https://github.com/dsh-external/dsh-better-sidebar-plugin-office) - Office integration for DSH-better-sidebar.
 - [dsh-message-edit](https://github.com/dsh-external/dsh-message-edit) - Branch-based message editing / reroll / retry / version timeline.
+- [SpookySandwich/dsh-plugin-message-edit](https://github.com/SpookySandwich/dsh-plugin-message-edit) - Edit a sent message to rewind and branch the conversation from that turn; version counter under the bubble, a turn-level version tree of the whole branch family, and ChatGPT / DeepSeek / Claude control layouts.
 - [dsh-prompt-studio](https://github.com/dsh-external/dsh-prompt-studio) - Edit system-prompt sections with live preview.
 - [dsh-paste-input](https://github.com/dsh-external/dsh-paste-input) - Ctrl+V paste files / drag & drop / picker.
 - [dsh-reference-anything](https://github.com/Chael-Chael/dsh-reference-anything) - Extends the native DSH `@` menu with five configurable source groups: commands, skills, workspace files, DSH sessions, and ChatGPT/Claude/Gemini/DeepSeek/Grok/Kimi conversations; external bodies and attachments are read on demand with per-task authorization.
