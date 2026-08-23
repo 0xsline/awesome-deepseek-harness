@@ -610,6 +610,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 ## Plugin Ecosystem & Development
 
 - [SunQingyuan0/Kabutack](https://github.com/SunQingyuan0/Kabutack) - 基于角色的 DSH 插件 / Skill / MCP 管理器：把能力组合定义为“角色”，在 Web 设置页一键动态装载与切换。
+- [dsh-workbench](https://github.com/staff-os/dsh-workbench) - DSH 企业级工作台：在运行中的会话里统一管理 AI 员工、知识库、技能、MCP 服务器与 DSH 插件。
 - [dsh-plugin-bench](https://github.com/B1lli/dsh-plugin-bench) - 证据化、类型感知的 DSH 插件质量评测：按 artifact 与完整 commit 绑定八维质量区间和证据账本，输出 Markdown/SVG 评分卡；Stars 与身份不计分。
 - [zoahdev/dsh-quality-score](https://github.com/zoahdev/dsh-quality-score) - 插件质量评分卡：0-100 分 + 等级 + 六项分项（manifest、peer 可解析、dist-tag 健康、死依赖、新鲜度、dsh-tools peer 兼容），逐项修复建议，支持批量榜单（CLI + `quality_score` 工具）。
 - [zoahdev/dsh-plugin-doctor](https://github.com/zoahdev/dsh-plugin-doctor) - DSH 插件体检：manifest/patch/entry/build/pack/install 校验、可被模型调用的 plugin_check、profile 宿主遮蔽与 BOM 检测、环境诊断、供应链投毒预检。
