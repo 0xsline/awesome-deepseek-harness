@@ -147,6 +147,7 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "eomis/packhub-workbench-assistant", "name": "packhub-workbench-assistant", "html_url": "https://github.com/eomis/packhub-workbench-assistant", "description": "DSH Desktop 工作台安装、切换和更新助手"},
     {"full_name": "DevViking-Persike/dsh-subscriptions", "name": "dsh-subscriptions", "html_url": "https://github.com/DevViking-Persike/dsh-subscriptions", "description": "通过各厂商 OAuth 登录，将 Claude 与 ChatGPT/Codex 订阅作为模型服务商"},
     {"full_name": "Evhye38496/dsh-perfscope", "name": "dsh-perfscope", "html_url": "https://github.com/Evhye38496/dsh-perfscope", "description": "DSH 插件一键健康检查和评分：扫描、评分、修复建议与分享"},
+    {"full_name": "dsh-blue/blue", "name": "Blue", "html_url": "https://github.com/dsh-blue/blue", "description": "DeepSeek Harness 交互式 TUI 插件：基于 Cordis bundle 的 pi-tui 渲染器，支持流式转录、工具调用卡片、审批浮层、会话管理与主题"},
 ]
 
 
@@ -202,6 +203,7 @@ TOPIC_MANUAL = {
     "eomis/packhub-workbench-assistant": "桌面客户端",
     "devviking-persike/dsh-subscriptions": "模型与推理",
     "evhye38496/dsh-perfscope": "测试与诊断",
+    "dsh-blue/blue": "终端与 TUI",
     "threebody6666/dsh-im-hub": "消息与通知",
     "spookysandwich/dsh-smooth-stream": "界面与体验",
     "lbh1nb/dsh-plugins": "输入与提示词",

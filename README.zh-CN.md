@@ -337,6 +337,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [woosh2010/dsh-usage-dashboard](https://github.com/woosh2010/dsh-usage-dashboard) - 峰谷计费坞 + 用量分析仪表盘：token/成本/模型统计、成本趋势与 Token 结构图表、最近 20 轮明细，支持时间/会话/模型全局筛选与账户余额。
 ## IDE & Clients
 
+- [Blue](https://github.com/dsh-blue/blue) - DeepSeek Harness 交互式 TUI 插件：基于 Cordis bundle 的 pi-tui 渲染器，支持流式转录、工具调用卡片、审批浮层、会话管理与主题。
 - [dsh-cc-tui](https://github.com/dsh-external/dsh-cc-tui) - Claude Code 风格全屏 TUI（流式展开/双击 Esc 回滚）
 - [dsh-grok-tui](https://github.com/chen-001/dsh-grok-tui) - grok-build TUI
 - [dsh-pi-tui](https://github.com/lqhl/dsh-pi-tui) - 基于 pi-tui 的 DeepSeek Harness 终端前端：流式 Markdown、thinking 折叠、工具卡片、slash 命令、审批/提问交互与 Web 会话共享
