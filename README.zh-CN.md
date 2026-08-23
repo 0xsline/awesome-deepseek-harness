@@ -228,7 +228,6 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-markdown-preview](https://github.com/GitHubJiKe/dsh-markdown-preview) - 产物文件聊天内预览：点击产物 chip 在对话中渲染 Markdown（markdown-it + highlight.js）、图片或纯文本，系统应用打开仍一键可达
 - [dsh-i18n](https://github.com/Semidia/dsh-i18n) - 工具结果中文化：拦截工具执行输出，将英文标记（[exit code]、[timed out]、[sandbox: ...] 等）翻译为中文，并提供设置开关。
 - [dsh-settings-tuner](https://github.com/Semidia/dsh-settings-tuner) - 系统参数调整界面：分组设置页（超时、并行度、LLM 重试策略、模型参数、Web 搜索、权限与预设）；基于逐行 YAML 匹配的安全 profile 配置编辑，写后校验。
-- [dsh-llm-compat-healer](https://github.com/Semidia/dsh-llm-compat-healer) - LLM 兼容自愈插件：自动检测中转/网关因未正确声明模型能力（thinking/reasoning）导致的 400 错误，幂等补全 `llm-pi-ai` 配置并拦截下次请求关掉 thinking——无需重启。提供完整 pi-ai 兼容字段的设置页 UI。
 - [dsh-workspace-menu](https://github.com/0imzero/dsh-workspace-menu) - DSH 主页工作区/会话增强菜单：置顶、重命名、资源管理器打开、归档、分叉、复制、新窗口打开。
 - [dsh-mobileweb-adapter](https://github.com/dsh-external/dsh-mobileweb-adapter) - 手机浏览器/PWA 移动版式 + 局域网 WebSocket 修复
 - [dsh-split-panes](https://github.com/dsh-external/dsh-split-panes) - 分栏
@@ -384,6 +383,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [dsh-agy-link](https://github.com/amlyczz/dsh-agy-link) - Google Antigravity (agy CLI) 模型接入：无 API Key 使用 Gemini/Claude/GPT-OSS 订阅模型，支持流式对话、原生工具卡片与 Web 界面 Google OAuth 登录。
 - [dsh-baseurl-probe](https://github.com/Semidia/baseurl-probe) - 自动探测并修正模型供应商 baseURL：当裸域名只有 /v1 提供 OpenAI 兼容 API 时，无需 API Key 即可完成路径探测。
+- [dsh-llm-compat-healer](https://github.com/Semidia/dsh-llm-compat-healer) - 中转/网关 LLM 兼容自愈：无需重启即可修复 DeepSeek `reasoning_content` 历史回传与不支持 `developer` 角色的问题，提供 pi-ai 兼容设置页，并为上游错误生成脱敏中文摘要。
 - [dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) - 为 DeepSeek Harness 提供原生对话生图能力，支持 Google Gemini、OpenAI Images、OpenAI 兼容 API 和字节 Seedream。
 - [dsh-codex-oauth](https://github.com/WNJXYK/dsh-codex-oauth) - DSH 的 ChatGPT/Codex 订阅接入插件，支持 GPT 模型、图像生成、Web 搜索、额度显示，以及浏览器/设备码 OAuth 登录。
 - [dsh-vision](https://github.com/dsh-external/dsh-vision) - 视觉桥接：view_image 工具接任意 OpenAI 兼容 VLM（默认智谱免费档）
