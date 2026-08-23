@@ -449,6 +449,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Git & Engineering
 
+- [dsh-llm-verifier](https://github.com/Web0926/dsh-llm-verifier) - 在独立 Git worktree 中运行 3 或 5 个编码智能体候选，用项目命令验证补丁，只对通过者排序，并在应用获胜补丁前要求再次批准。
 - [dsh-ci-co-pilot](https://github.com/temotee2103/dsh-ci-co-pilot) - GitHub 工作流插件：提供 PR 审查、CI 失败诊断与修复、Issue 分类和发布说明起草。
 - [gongyijie85/dsh-repo-setup](https://github.com/gongyijie85/dsh-repo-setup) - 只读仓库体检引导工具（repo_setup_scan）：识别技术栈/测试/文档/git/数据库线索，给出插件、MCP 与卫生文件的安装建议（claude-code-setup 对应版）。
 - [dsh-git-identity](https://github.com/dsh-external/dsh-git-identity) - Git 提交固定环境作者身份（gh 登录账号 + noreply 邮箱）

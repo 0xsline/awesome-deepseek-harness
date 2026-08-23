@@ -455,6 +455,7 @@ Management panel: Settings → Plugins.
 
 ## Git & Engineering
 
+- [dsh-llm-verifier](https://github.com/Web0926/dsh-llm-verifier) - Runs 3 or 5 coding-agent candidates in detached Git worktrees, validates their patches with project commands, ranks only passing candidates, and requires separate approval before applying the winner.
 - [dsh-ci-co-pilot](https://github.com/temotee2103/dsh-ci-co-pilot) - GitHub workflow plugin for PR review, CI failure diagnosis and fixes, issue triage, and release-note drafting.
 - [gongyijie85/dsh-repo-setup](https://github.com/gongyijie85/dsh-repo-setup) - Read-only repo bootstrap scanner (repo_setup_scan tool): detects stack/tests/docs/git/db and recommends plugins, MCP servers and hygiene files (claude-code-setup counterpart).
 - [dsh-git-identity](https://github.com/dsh-external/dsh-git-identity) - Pin Git commit authorship to the environment identity (gh account + noreply email).
