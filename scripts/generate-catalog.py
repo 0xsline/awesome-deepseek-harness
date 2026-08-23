@@ -166,6 +166,10 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "qingmumingyang/dsh-doc-toolkit", "name": "dsh-doc-toolkit", "html_url": "https://github.com/qingmumingyang/dsh-doc-toolkit", "description": "PDF、DOCX、XLSX、CSV 读写和 PDF 导出的 DSH 文档工具包"},
     {"full_name": "NonchalantLudens/dsh-side-dir", "name": "dsh-side-dir", "html_url": "https://github.com/NonchalantLudens/dsh-side-dir", "description": "Web GUI 详情面板的项目目录树和只读文件预览"},
     {"full_name": "yangdongzhen590/dsh-knj-menu", "name": "dsh-knj-menu", "html_url": "https://github.com/yangdongzhen590/dsh-knj-menu", "description": "第三方菜单管理器：汇集插件菜单项并支持折叠和置顶"},
+    {"full_name": "wuzhigouno-collab/dsh-rp-composer", "name": "dsh-rp-composer", "html_url": "https://github.com/wuzhigouno-collab/dsh-rp-composer", "description": "DSH Web 角色扮演结构化输入：台词、动作、心理分框填空并用模板组装发送"},
+    {"full_name": "lcohvne-tomorin/dsh-background", "name": "dsh-background", "html_url": "https://github.com/lcohvne-tomorin/dsh-background", "description": "聊天页自定义背景壁纸：上传本地图片或使用图片链接，可调整透明度、暗色遮罩和作用范围"},
+    {"full_name": "LucienLL/dsh-peak-price-panel", "name": "dsh-peak-price-panel", "html_url": "https://github.com/LucienLL/dsh-peak-price-panel", "description": "峰谷价格看板、实时账户余额、分级低余额提醒和充值入口"},
+    {"full_name": "zsagi1368/dsh-webstack", "name": "dsh-webstack", "html_url": "https://github.com/zsagi1368/dsh-webstack", "description": "集成网页搜索与抓取内核：免费池开箱即搜、SSRF 四道防护与双语诊断"},
 ]
 
 
@@ -240,6 +244,10 @@ TOPIC_MANUAL = {
     "qingmumingyang/dsh-doc-toolkit": "开发与工程",
     "nonchalantludens/dsh-side-dir": "界面与体验",
     "yangdongzhen590/dsh-knj-menu": "界面与体验",
+    "wuzhigouno-collab/dsh-rp-composer": "输入与提示词",
+    "lcohvne-tomorin/dsh-background": "界面与体验",
+    "lucienll/dsh-peak-price-panel": "成本与用量",
+    "zsagi1368/dsh-webstack": "浏览器与远程",
     "threebody6666/dsh-im-hub": "消息与通知",
     "spookysandwich/dsh-smooth-stream": "界面与体验",
     "lbh1nb/dsh-plugins": "输入与提示词",
