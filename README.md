@@ -338,6 +338,7 @@ Management panel: Settings → Plugins.
 - [woosh2010/dsh-usage-dashboard](https://github.com/woosh2010/dsh-usage-dashboard) - Peak/valley billing dock and usage analytics: token/cost/model stats, trend and token-mix charts, latest-20-turns records, global time/session/model filters.
 ## IDE & Clients
 
+- [Blue](https://github.com/dsh-blue/blue) - Interactive TUI plugin for DeepSeek Harness — a pi-tui renderer mounted as a Cordis bundle: streaming transcript, tool-call cards, approval overlays, session management, theming.
 - [dsh-cc-tui](https://github.com/dsh-external/dsh-cc-tui) - Claude Code-style fullscreen TUI (streaming expand / double-Esc rollback).
 - [dsh-grok-tui](https://github.com/chen-001/dsh-grok-tui) - TUI built with grok-build.
 - [dsh-pi-tui](https://github.com/lqhl/dsh-pi-tui) - Pi TUI (differential-rendering terminal framework) front end: streaming markdown, thinking collapse, tool cards, slash commands, approval/question overlays, shared dsh session store.
