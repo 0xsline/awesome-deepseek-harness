@@ -294,6 +294,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [TokenLedger](https://github.com/zh667/TokenLedger) - 按中转站点、项目和模型统计本地 DSH Token 用量，并显示账户余额与订阅额度周期。
 - [dsh-plugin-usage-meter](https://github.com/fancr-code/dsh-plugin-usage-meter) - API 用量/费用/余额仪表：输入框下方按钮式用量条（峰/谷时段标签、实时计价），当日/近 7 天按模型堆叠柱状图、模型分布、预算提醒与跨会话账本。
 - [dsh-budget](https://github.com/PerryLink/dsh-budget) - DeepSeek Harness 成本治理：按模型/会话/天聚合 token 与费用计量，会话/日/月预算上限 + 阈值告警与超限 alert/block/degrade 策略，碳足迹估算、分模型延迟基准、Settings 预算页与 /budget 命令。
+- [Phant0Meow/dsh-meow-cachebilling](https://github.com/Phant0Meow/dsh-meow-cachebilling) - 点开输入框旁的上下文圆环即见本轮账单：缓存命中/未命中/输出各花多少钱（¥），官方峰谷价与模型分价自动判定；非 DeepSeek 官方路由不显示。
 - [dsh-cost-meter](https://github.com/Sttrevens/dsh-cost-meter) - Web UI 美元成本徽标：头部显示会话总成本、每条回复结尾显示该轮成本，悬停看分项（token 用量 × 可配置价格表）。
 - [dsh-linked-folders](https://github.com/Sttrevens/dsh-linked-folders) - 多文件夹工作区：全局链接文件夹列表 + 会话内临时挂载（link_folder/unlink_folder），侧边栏管理。
 - [dsh-plugin-cost](https://github.com/yweilai77-dev/dsh-plugin-cost) - DSH Web 聊天框底部的会话费用估算：token 四桶 × 可配置价格表，一键刷新官方价格（估算非账单）。
