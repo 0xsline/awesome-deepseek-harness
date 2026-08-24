@@ -255,6 +255,12 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "RagnarPitla/dsh-field-guide", "name": "dsh-field-guide", "html_url": "https://github.com/RagnarPitla/dsh-field-guide", "description": "带证据标识的 DeepSeek Harness 使用指南及配套插件"},
     {"full_name": "mienfong/dsh-session-mgr", "name": "dsh-session-mgr", "html_url": "https://github.com/mienfong/dsh-session-mgr", "description": "会话管理器：跨工作区移动、归档、恢复、备份、导出和导入对话"},
     {"full_name": "sunnystarye-ui/dsh-plugin-text-quote", "name": "dsh-plugin-text-quote", "html_url": "https://github.com/sunnystarye-ui/dsh-plugin-text-quote", "description": "Codex 风格的 DeepSeek Harness 对话文字批注插件"},
+    {"full_name": "chemmy-11/dsh-xuegulin", "name": "dsh-xuegulin", "html_url": "https://github.com/chemmy-11/dsh-xuegulin", "description": "Obsidian Vault 元数据快照、编辑统计与观察面板"},
+    {"full_name": "Suixin04/dsh-session-migrator", "name": "dsh-session-migrator", "html_url": "https://github.com/Suixin04/dsh-session-migrator", "description": "可视化跨设备会话迁移，支持拖放 ZIP、JSONL 和文件夹导入"},
+    {"full_name": "AndrasSama/dsh-omp-advisor", "name": "dsh-omp-advisor", "html_url": "https://github.com/AndrasSama/dsh-omp-advisor", "description": "oh-my-pi advisor 子系统移植：独立评审模型监控 Agent 并注入建议"},
+    {"full_name": "6HOLLIS/DSH-Hiyuki-Frost-Sakura", "name": "DSH-Hiyuki-Frost-Sakura", "html_url": "https://github.com/6HOLLIS/DSH-Hiyuki-Frost-Sakura", "description": "带霜樱过渡与主题控件的沉浸式 DeepSeek Harness Web 双形态皮肤"},
+    {"full_name": "xyzs996/dsh-switch-cost", "name": "dsh-switch-cost", "html_url": "https://github.com/xyzs996/dsh-switch-cost", "description": "将会话按实际路由与其他模型的 Token 定价进行成本比较"},
+    {"full_name": "dfzjb/whalemaid-desktop-pet", "name": "whalemaid-desktop-pet", "html_url": "https://github.com/dfzjb/whalemaid-desktop-pet", "description": "像素风蓝发鲸鱼女仆桌面宠物与 DSH Agent 桌面入口"},
 ]
 
 
@@ -1060,6 +1066,12 @@ TOPIC_MANUAL = {
     "ragnarpitla/dsh-field-guide": "研究与知识",
     "mienfong/dsh-session-mgr": "开发与工程",
     "sunnystarye-ui/dsh-plugin-text-quote": "界面与体验",
+    "chemmy-11/dsh-xuegulin": "记忆与上下文",
+    "suixin04/dsh-session-migrator": "开发与工程",
+    "andrassama/dsh-omp-advisor": "Agent 与自动化",
+    "6hollis/dsh-hiyuki-frost-sakura": "界面与体验",
+    "xyzs996/dsh-switch-cost": "成本与用量",
+    "dfzjb/whalemaid-desktop-pet": "趣味与娱乐",
     "liustack/modsearch": "浏览器与远程",
     "liuup/dsh-latex-tools": "输入与提示词",
     "ljsysfurryACE/AgentFrame-v3": "Agent 与自动化",
