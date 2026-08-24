@@ -147,6 +147,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Memory & Knowledge
 
+- [zilliztech/memsearch](https://github.com/zilliztech/memsearch/tree/main/plugins/dsh) - 供 DSH 与其他编程 Agent 共享的 Markdown 记忆，支持自动捕获、步骤前上下文注入、搜索召回与审阅面板。
+
 - [dsh-simple-memory](https://github.com/a903067276-rgb/dsh-simple-memory) - DSH 侧车式 Markdown 记忆：按会话注入索引、一键记忆流按钮、强制「分类-主题.md」命名与跨项目搜索。
 - [dsh-hme](https://github.com/weopenfire-git/hme-plugin) - 跨会话长期记忆：有界核心（全局 USER.md + 按工作区 MEMORY.md，φ 斐波那契上限）+ 标签索引、自我收敛的档案层（archive/recall/move 三工具）。
 - [dsh-memory-vault](https://github.com/flymysql/dsh-memory) - 跨会话记忆库：memory_remember / memory_recall / memory_forget 三工具，最新条目自动注入系统提示词，设置页（记忆库 / Memory）管理。
@@ -744,6 +746,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-industry-research](https://github.com/PerryLink/dsh-industry-research) - 行业/公司研究领域包：industry_map 产业链建图、industry_track 经 ctx.web 的公开源政策动态跟踪、company_scan 基于用户数据文件的公司速览卡、industry_report 研究报告（可选 ctx.researchReport 引擎封存桥，缺席时内置降级渲染），附两个研究方法论技能。
 - [dsh-data-quality](https://github.com/PerryLink/dsh-data-quality) - 确定性的数据画像、清洗与校验：data_profile / data_clean / data_verify 工具，外加冻结的跨插件 verifyCitations 引用核验契约，报告持久化到存储域。
 ## Tools & Utilities
+
+- [zilliztech/dsh-milvus](https://github.com/zilliztech/dsh-milvus) - 只读 DSH Web 插件，可在对话中检查和搜索 Milvus 或 Zilliz Cloud Collection，支持标量、BM25、稠密向量与混合查询。
 
 - [zoahdev/dsh-discussions-radar](https://github.com/zoahdev/dsh-discussions-radar) - 官方 GitHub Discussions 雷达：列出/筛选/搜索官方讨论区（Ideas/Q&A/Show Your Plugins!/General/Announcements）（CLI + `discussions_radar` 工具）。
 - [dsh-case](https://github.com/ZhijiangTang/dsh-case) - 命名大小写转换，支持 camel/snake/kebab/Pascal 等 8 种风格。
