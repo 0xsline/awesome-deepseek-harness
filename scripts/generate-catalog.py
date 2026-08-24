@@ -266,6 +266,10 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "vladlearns/dsh-fs-deny-policy", "name": "dsh-fs-deny-policy", "html_url": "https://github.com/vladlearns/dsh-fs-deny-policy", "description": "为模型部署设置永久禁止触碰的文件系统根目录列表"},
     {"full_name": "GooDAnDReaDY/dsh-usage-guard", "name": "dsh-usage-guard", "html_url": "https://github.com/GooDAnDReaDY/dsh-usage-guard", "description": "恢复或归零畸形 Token 用量样本中的缺失计数，避免会话回放产生 NaN"},
     {"full_name": "Lucasli2018/totoro-pet", "name": "totoro-pet", "html_url": "https://github.com/Lucasli2018/totoro-pet", "description": "带喂食、抚摸、玩耍和睡觉互动养成的 DSH Web GUI Q 版龙猫桌宠"},
+    {"full_name": "chunfenxiazhi-collab/dsh-stability-audit", "name": "dsh-stability-audit", "html_url": "https://github.com/chunfenxiazhi-collab/dsh-stability-audit", "description": "扫描已安装 DSH 插件并按 hook 面、启动工作、预检和依赖评估稳定性风险，支持隔离安装验证"},
+    {"full_name": "thomasvvugt/dsh-wide-stats-footer", "name": "dsh-wide-stats-footer", "html_url": "https://github.com/thomasvvugt/dsh-wide-stats-footer", "description": "移除 Composer 统计页脚宽度限制，让长轮次和 Token 统计完整显示"},
+    {"full_name": "ATchangan/dsh-visual-sidebar", "name": "dsh-visual-sidebar", "html_url": "https://github.com/ATchangan/dsh-visual-sidebar", "description": "DeepSeek Harness 右侧可视化侧边栏插件"},
+    {"full_name": "joao-paulo-santos/dsh-event-relay", "name": "dsh-event-relay", "html_url": "https://github.com/joao-paulo-santos/dsh-event-relay", "description": "单一 SSE 通道将 Host 端通知推送至订阅浏览器界面，支持服务端主题前缀过滤和重连信号"},
 ]
 
 
@@ -1082,6 +1086,10 @@ TOPIC_MANUAL = {
     "vladlearns/dsh-fs-deny-policy": "安全与隐私",
     "goodandready/dsh-usage-guard": "测试与诊断",
     "lucasli2018/totoro-pet": "趣味与娱乐",
+    "chunfenxiazhi-collab/dsh-stability-audit": "测试与诊断",
+    "thomasvvugt/dsh-wide-stats-footer": "界面与体验",
+    "atchangan/dsh-visual-sidebar": "界面与体验",
+    "joao-paulo-santos/dsh-event-relay": "消息与通知",
     "liustack/modsearch": "浏览器与远程",
     "liuup/dsh-latex-tools": "输入与提示词",
     "ljsysfurryACE/AgentFrame-v3": "Agent 与自动化",
