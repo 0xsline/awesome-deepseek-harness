@@ -717,6 +717,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [gongyijie85/mattpocock-skills-dsh](https://github.com/gongyijie85/mattpocock-skills-dsh) - Matt Pocock 完整发布技能集（25 个 SKILL.md：grilling、writing-for-agents、wait-what、TDD、code-review、wayfinder、ask-matt 路由）的 DSH 移植。
 - [gongyijie85/mattpocock-skills-dsh-zh](https://github.com/gongyijie85/mattpocock-skills-dsh-zh) - Matt Pocock 25 个技能正文全译中文（技术术语保留英文并附注释）。
 - [gongyijie85/dsh-ponytail](https://github.com/gongyijie85/dsh-ponytail) - Ponytail 最懒资深工程师模式：6 个技能，改编自 DietrichGebert/ponytail。
+- [oneinitAI/dsh-buddy](https://github.com/oneinitAI/dsh-buddy) - 用户画像自适应表达技能：从对话构建熟练度、领域差距与当前状态画像，并据此调整回答深度、术语密度和步骤粒度；支持导出透明画像快照。
 - [gongyijie85/dsh-ecc](https://github.com/gongyijie85/dsh-ecc) - ECC（227k⭐ 操作员系统）273 个技能（95.8%）分四批移植到 DSH。
 - [dsh-learn-everything](https://github.com/cendaifeng/dsh-learn-everything) - 费曼学习法插件：讲解 → 复述 → 判定 → 回讲教学闭环，富 HTML 教学卡片（mermaid 图 + shiki 代码高亮）。
 - [zotero-harvest](https://github.com/dsh-external/zotero-harvest) - Zotero 文献库接入
