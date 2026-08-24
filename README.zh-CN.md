@@ -708,6 +708,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [JohnXu22786/hooks-adapter](https://github.com/JohnXu22786/hooks-adapter) - 通用 hooks 兼容层：在 dsh 上运行 Claude Code / Codex / opencode 配置中声明的 hooks。
 ## Domain & Specialist Skills
 
+- [dsh-mimir](https://github.com/1692775560/dsh-Mimir-Academic-research) - 科研全周期工作台（七视图 Web 面板）：arXiv 搜索/导入/订阅 + AI 相关度评分、Zotero 导入、实验记录与 SSH/GPU 远程作业、LaTeX 边改边编译工作室（11 种顶会模板+快照回滚）、图表统一管理、一键生成带论文原图的组会 PPT；内置 10 个科研 skills（npm：`dsh-mimir`）。
 - [dsh-fund-research](https://github.com/PerryLink/dsh-fund-research) - 中国公募基金确定性研究报告：公开源数据采集（天天基金/东方财富）、纯函数指标计算（业绩拆解/持仓穿透/风格归因/经理画像），版本化报告附逐数字可回溯源快照的附录。
 - [weopenfire-git/dsh-market-quote](https://github.com/weopenfire-git/dsh-market-quote) - A股/港股/美股实时行情与历史K线查询工具插件，腾讯免费公开源（免 key），只读。
 - [pengpengyi92/dsh-quant](https://github.com/pengpengyi92/dsh-quant) - Agent-native 量化研究工具箱：46 工具 · 6 域（数据/因子/ML/风控/执行/生态），一条管线跑通 PDAT→PET。
