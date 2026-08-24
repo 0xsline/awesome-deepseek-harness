@@ -193,6 +193,12 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "icyaaaww/dsh-adaptive-model-router", "name": "dsh-adaptive-model-router", "html_url": "https://github.com/icyaaaww/dsh-adaptive-model-router", "description": "DeepSeek Harness 的确定性逐轮自适应模型路由"},
     {"full_name": "eversko/dsh-blackbox", "name": "dsh-blackbox", "html_url": "https://github.com/eversko/dsh-blackbox", "description": "DeepSeek Harness 隐私安全的飞行记录器与事故报告"},
     {"full_name": "iamfitzwu/dsh-localhost-cost", "name": "dsh-localhost-cost", "html_url": "https://github.com/iamfitzwu/dsh-localhost-cost", "description": "面向本地模型开发者的 DeepSeek 成本预测插件"},
+    {"full_name": "Frog755/dsh-hybrid-memory", "name": "dsh-hybrid-memory", "html_url": "https://github.com/Frog755/dsh-hybrid-memory", "description": "混合记忆：L1 冻结快照、L2 SQLite FTS5 可检索知识库、L3 多工具导入，数据本地存储"},
+    {"full_name": "valkia/dsh-plugin-git-log", "name": "dsh-plugin-git-log", "html_url": "https://github.com/valkia/dsh-plugin-git-log", "description": "DeepSeek Harness 的 Git Log 提交图与历史工作台"},
+    {"full_name": "jinzheng8115/dsh-Minesweeper", "name": "dsh-Minesweeper", "html_url": "https://github.com/jinzheng8115/dsh-Minesweeper", "description": "DeepSeek Harness 扫雷：Agent 工具集与人类面板共享同一棋盘"},
+    {"full_name": "Slymaster/dsh-theme-lab", "name": "dsh-theme-lab", "html_url": "https://github.com/Slymaster/dsh-theme-lab", "description": "DeepSeek Harness 非官方模块化主题和 starter kit"},
+    {"full_name": "mjn96/dsh-rhine-theme", "name": "dsh-rhine-theme", "html_url": "https://github.com/mjn96/dsh-rhine-theme", "description": "明日方舟莱茵生命美术风格的 DeepSeek Harness 皮肤主题"},
+    {"full_name": "cofy-x/dsh-console", "name": "dsh-console", "html_url": "https://github.com/cofy-x/dsh-console", "description": "DSH 原生 TypeScript 与 React/Ink 终端前端"},
 ]
 
 
@@ -294,6 +300,12 @@ TOPIC_MANUAL = {
     "icyaaaww/dsh-adaptive-model-router": "模型与推理",
     "eversko/dsh-blackbox": "安全与隐私",
     "iamfitzwu/dsh-localhost-cost": "成本与用量",
+    "frog755/dsh-hybrid-memory": "记忆与上下文",
+    "valkia/dsh-plugin-git-log": "开发与工程",
+    "jinzheng8115/dsh-minesweeper": "趣味与娱乐",
+    "slymaster/dsh-theme-lab": "界面与体验",
+    "mjn96/dsh-rhine-theme": "界面与体验",
+    "cofy-x/dsh-console": "终端与 TUI",
     "threebody6666/dsh-im-hub": "消息与通知",
     "spookysandwich/dsh-smooth-stream": "界面与体验",
     "lbh1nb/dsh-plugins": "输入与提示词",
