@@ -639,7 +639,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-plugin-radar](https://github.com/dsh-external/dsh-plugin-radar) - DSH 插件兼容性雷达，原 dsh-external-research 改名。
 - [dsh-scout](https://github.com/dsh-external/dsh-scout) - scout 插件（cordis）。
 - [dsh-share](https://github.com/dsh-external/dsh-share) - DSH 对话分享插件。
-- [dsh-sonar](https://github.com/dsh-external/dsh-sonar) - sonar 插件（cordis）。
+- [maxmilian/dsh-sonarqube](https://github.com/maxmilian/dsh-sonarqube) - 唯读 SonarQube Community Build 集成：查询 Quality Gate、Issue、Security Hotspot、覆盖率与项目指标，并提供源文件及行号定位。
 - [plugin-registry](https://github.com/dsh-external/plugin-registry) - 插件控制台 + make-dsh-plugin skill + 开发指引
 - [dsh-plugin-manager-registry](https://github.com/Jesse-njx/dsh-plugin-manager-registry) - 离线容错的插件注册表，聚合并去重 awesome 列表、GitHub Topic 与 npm 中的 DSH 插件。
 - [marisa](https://github.com/dsh-external/marisa) - 外部插件管理器（寄生安装/CLI/设置页面板）
