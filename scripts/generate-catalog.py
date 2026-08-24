@@ -179,6 +179,11 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "taltara/mddl-harness", "name": "dsh-blueprint", "html_url": "https://github.com/taltara/mddl-harness/tree/main/packages/blueprint", "description": "DeepSeek Harness 可视化编排器：在画布拖放模型和工具，导出真实 cordis.patch.yml 覆盖层"},
     {"full_name": "taltara/mddl-harness", "name": "dsh-overlay-check", "html_url": "https://github.com/taltara/mddl-harness/tree/main/packages/overlay-check", "description": "零依赖离线覆盖层安全检查：可解析性预检、受限托管块写入、可读 diff，并提示启动时丢弃的配置"},
     {"full_name": "AxelGoal/Deepharn", "name": "Deepharn", "html_url": "https://github.com/AxelGoal/Deepharn", "description": "macOS 的 DeepSeek Harness 原生桌面端：Swift 原生外壳、全新前端和两个插件"},
+    {"full_name": "leonardoxr/dsh-plugin-manager", "name": "dsh-plugin-manager", "html_url": "https://github.com/leonardoxr/dsh-plugin-manager", "description": "仅监听 loopback 的 Web UI，用于管理 DeepSeek Harness profile 插件"},
+    {"full_name": "icyaaaww/dsh-tool-failure-circuit-breaker", "name": "dsh-tool-failure-circuit-breaker", "html_url": "https://github.com/icyaaaww/dsh-tool-failure-circuit-breaker", "description": "阻止重复的相同失败工具调用"},
+    {"full_name": "leonardoxr/dsh-image-preview", "name": "dsh-image-preview", "html_url": "https://github.com/leonardoxr/dsh-image-preview", "description": "DeepSeek Harness 的 read_image 内联预览"},
+    {"full_name": "udsy19/dsh-toolcall-stream-repair", "name": "dsh-toolcall-stream-repair", "html_url": "https://github.com/udsy19/dsh-toolcall-stream-repair", "description": "在工具调用增量到达 block assembler 前修复畸形的流式 tool-call delta"},
+    {"full_name": "libiwolve/dsh-experience-library", "name": "dsh-experience-library", "html_url": "https://github.com/libiwolve/dsh-experience-library", "description": "DeepSeek 经验验证固化层：实时采集、加工、三层检验、技能书和 benchmark 验证"},
 ]
 
 
@@ -266,6 +271,11 @@ TOPIC_MANUAL = {
     "taltara/mddl-harness": "开发与工程",
     "taltara/mddl-harness/tree/main/packages/overlay-check": "开发与工程",
     "axelgoal/deepharn": "桌面客户端",
+    "leonardoxr/dsh-plugin-manager": "开发与工程",
+    "icyaaaww/dsh-tool-failure-circuit-breaker": "测试与诊断",
+    "leonardoxr/dsh-image-preview": "视觉与图像",
+    "udsy19/dsh-toolcall-stream-repair": "测试与诊断",
+    "libiwolve/dsh-experience-library": "研究与知识",
     "threebody6666/dsh-im-hub": "消息与通知",
     "spookysandwich/dsh-smooth-stream": "界面与体验",
     "lbh1nb/dsh-plugins": "输入与提示词",
