@@ -270,6 +270,9 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "thomasvvugt/dsh-wide-stats-footer", "name": "dsh-wide-stats-footer", "html_url": "https://github.com/thomasvvugt/dsh-wide-stats-footer", "description": "移除 Composer 统计页脚宽度限制，让长轮次和 Token 统计完整显示"},
     {"full_name": "ATchangan/dsh-visual-sidebar", "name": "dsh-visual-sidebar", "html_url": "https://github.com/ATchangan/dsh-visual-sidebar", "description": "DeepSeek Harness 右侧可视化侧边栏插件"},
     {"full_name": "joao-paulo-santos/dsh-event-relay", "name": "dsh-event-relay", "html_url": "https://github.com/joao-paulo-santos/dsh-event-relay", "description": "单一 SSE 通道将 Host 端通知推送至订阅浏览器界面，支持服务端主题前缀过滤和重连信号"},
+    {"full_name": "aorucshiea/dsh-omnipotent-preset", "name": "dsh-omnipotent-preset", "html_url": "https://github.com/aorucshiea/dsh-omnipotent-preset", "description": "DeepSeek Harness 全能 Agent 预设，提供 Standard、PTC、Minimal 和路由模式"},
+    {"full_name": "aorucshiea/dsh-preset-switch", "name": "dsh-preset-switch", "html_url": "https://github.com/aorucshiea/dsh-preset-switch", "description": "支持会话中途切换 DeepSeek Harness Agent 预设"},
+    {"full_name": "TYEclipse/dsh-musictheory", "name": "dsh-musictheory", "html_url": "https://github.com/TYEclipse/dsh-musictheory", "description": "零运行时依赖的音乐理论数学工具箱：音符解析、频率/MIDI 转换、和弦与音阶"},
 ]
 
 
@@ -1090,6 +1093,9 @@ TOPIC_MANUAL = {
     "thomasvvugt/dsh-wide-stats-footer": "界面与体验",
     "atchangan/dsh-visual-sidebar": "界面与体验",
     "joao-paulo-santos/dsh-event-relay": "消息与通知",
+    "aorucshiea/dsh-omnipotent-preset": "Agent 与自动化",
+    "aorucshiea/dsh-preset-switch": "Agent 与自动化",
+    "tyeclipse/dsh-musictheory": "趣味与娱乐",
     "liustack/modsearch": "浏览器与远程",
     "liuup/dsh-latex-tools": "输入与提示词",
     "ljsysfurryACE/AgentFrame-v3": "Agent 与自动化",
