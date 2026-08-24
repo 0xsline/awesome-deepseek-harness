@@ -290,6 +290,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-session-tree](https://github.com/ZhengQingJing/dsh-session-tree) - DSH Web 的只读会话谱系标签页：以有界树展示当前根会话、分支与子代理家族，并可点击节点跳转。
 - [chouyong/dsh-branch-review](https://github.com/chouyong/dsh-branch-review) - 为相关 DSH 会话分支记录人工决策：保留、淘汰或待跟进，并保存理由、标签与外部链接。
 - [dsh-fork-diff](https://github.com/chouyong/dsh-fork-diff) - DSH Web 的只读父分支与兄弟分支比较：展示消息与工具差异、用量与耗时摘要，支持筛选和打开对应会话。
+- [dsh-usage](https://github.com/Huasecc/dsh-usage) - DeepSeek 账户全量用量与余额面板（走平台官方接口 api/v0/usage/by_api_key）：缓存命中/未命中/输出 Token、费用、24h–90d 范围切换、平台令牌持久化，以及模型可调用的 `deepseek_usage_query` 工具。
 - [dsh-usage-panel](https://github.com/AlfredChaos/dsh-usage-panel) - 设置页 Token 用量统计：累计 KPI、半年活跃热力图、按模型堆叠的每日柱状图与模型环形图，只读重算会话日志。
 - [dsh-what-changed](https://github.com/sjh9714/dsh-what-changed) - 会话顶栏的整会话改动审阅。列出本次会话 Agent 写过的每个文件与逐处改动，被权限拒绝的写入单独计数不算改动，数据来自 session projection 而非磁盘日志。
 - [dsh-token-usage-dashboard](https://github.com/solstice621/dsh-token-usage-dashboard) - Codex 风格 Token 用量仪表盘：5 张统计卡、GitHub 风格活动热力图（每日/每周视图）、洞察与模型排名；快照持久化 + 增量同步，删除会话后统计保留。
