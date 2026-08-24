@@ -640,7 +640,7 @@ Management panel: Settings → Plugins.
 - [dsh-plugin-radar](https://github.com/dsh-external/dsh-plugin-radar) - Daily DSH plugin compatibility radar, renamed from dsh-external-research.
 - [dsh-scout](https://github.com/dsh-external/dsh-scout) - Scout plugin (cordis).
 - [dsh-share](https://github.com/dsh-external/dsh-share) - Share DSH conversations.
-- [dsh-sonar](https://github.com/dsh-external/dsh-sonar) - Sonar plugin (cordis).
+- [maxmilian/dsh-sonarqube](https://github.com/maxmilian/dsh-sonarqube) - Read-only SonarQube Community Build integration for Quality Gates, issues, Security Hotspots, coverage, and project measures, with source file and line locations.
 - [plugin-registry](https://github.com/dsh-external/plugin-registry) - Plugin console + make-dsh-plugin skill + dev guide.
 - [dsh-plugin-manager-registry](https://github.com/Jesse-njx/dsh-plugin-manager-registry) - Offline-tolerant registry that discovers and deduplicates DSH plugins from awesome lists, GitHub topics, and npm.
 - [marisa](https://github.com/dsh-external/marisa) - External plugin manager (parasitic install/CLI/settings panel).
