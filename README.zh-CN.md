@@ -181,6 +181,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 ## Input & Editing
 
 - [dsh-global-rules](https://github.com/Semidia/dsh-global-rules) - 在设置页编辑 `~/.dsh/AGENTS.md` 全局规则：提供文本编辑与保存，无需命令行。
+- [dsh-keyboard-history](https://github.com/NormanFxxkingRockwell/dsh-keyboard-history) - DSH 会话输入框的极简输入历史：按 ↑/↓ 翻阅发过的消息，仅此而已。
 - [Zhangbo-cn/dsh-voice-input-plugin](https://github.com/Zhangbo-cn/dsh-voice-input-plugin) - 输入框麦克风：点击持续监控、按住对话；浏览器语音识别逐字上屏，回复由 host Edge TTS 边生成边朗读（句子切分），朗读时暂停识别防回声，点击可停止。
 
 - [dsh-better-sidebar-plugin-office](https://github.com/dsh-external/dsh-better-sidebar-plugin-office) - better-sidebar 的 Office 集成。
