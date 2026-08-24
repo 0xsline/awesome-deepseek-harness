@@ -261,6 +261,11 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "6HOLLIS/DSH-Hiyuki-Frost-Sakura", "name": "DSH-Hiyuki-Frost-Sakura", "html_url": "https://github.com/6HOLLIS/DSH-Hiyuki-Frost-Sakura", "description": "带霜樱过渡与主题控件的沉浸式 DeepSeek Harness Web 双形态皮肤"},
     {"full_name": "xyzs996/dsh-switch-cost", "name": "dsh-switch-cost", "html_url": "https://github.com/xyzs996/dsh-switch-cost", "description": "将会话按实际路由与其他模型的 Token 定价进行成本比较"},
     {"full_name": "dfzjb/whalemaid-desktop-pet", "name": "whalemaid-desktop-pet", "html_url": "https://github.com/dfzjb/whalemaid-desktop-pet", "description": "像素风蓝发鲸鱼女仆桌面宠物与 DSH Agent 桌面入口"},
+    {"full_name": "kfirsch/dsh-hebrew-rtl", "name": "dsh-hebrew-rtl", "html_url": "https://github.com/kfirsch/dsh-hebrew-rtl", "description": "DeepSeek Harness Web UI 的希伯来语 RTL 支持：脚本方向、双向安全输入框与 RTL 行导航"},
+    {"full_name": "rchen1207/dsh-password-generator", "name": "dsh-password-generator", "html_url": "https://github.com/rchen1207/dsh-password-generator", "description": "DeepSeek Harness 密码生成插件"},
+    {"full_name": "vladlearns/dsh-fs-deny-policy", "name": "dsh-fs-deny-policy", "html_url": "https://github.com/vladlearns/dsh-fs-deny-policy", "description": "为模型部署设置永久禁止触碰的文件系统根目录列表"},
+    {"full_name": "GooDAnDReaDY/dsh-usage-guard", "name": "dsh-usage-guard", "html_url": "https://github.com/GooDAnDReaDY/dsh-usage-guard", "description": "恢复或归零畸形 Token 用量样本中的缺失计数，避免会话回放产生 NaN"},
+    {"full_name": "Lucasli2018/totoro-pet", "name": "totoro-pet", "html_url": "https://github.com/Lucasli2018/totoro-pet", "description": "带喂食、抚摸、玩耍和睡觉互动养成的 DSH Web GUI Q 版龙猫桌宠"},
 ]
 
 
@@ -1072,6 +1077,11 @@ TOPIC_MANUAL = {
     "6hollis/dsh-hiyuki-frost-sakura": "界面与体验",
     "xyzs996/dsh-switch-cost": "成本与用量",
     "dfzjb/whalemaid-desktop-pet": "趣味与娱乐",
+    "kfirsch/dsh-hebrew-rtl": "界面与体验",
+    "rchen1207/dsh-password-generator": "安全与隐私",
+    "vladlearns/dsh-fs-deny-policy": "安全与隐私",
+    "goodandready/dsh-usage-guard": "测试与诊断",
+    "lucasli2018/totoro-pet": "趣味与娱乐",
     "liustack/modsearch": "浏览器与远程",
     "liuup/dsh-latex-tools": "输入与提示词",
     "ljsysfurryACE/AgentFrame-v3": "Agent 与自动化",
