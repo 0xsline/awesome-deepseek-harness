@@ -388,6 +388,12 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "zhengjy01/dsh-task-dispatcher", "name": "dsh-task-dispatcher", "html_url": "https://github.com/zhengjy01/dsh-task-dispatcher", "description": "TickTick-based daily task dispatcher with timer, auto-execution, and notifications"},
     {"full_name": "rayfalling/dsh-tool-visibility", "name": "dsh-tool-visibility", "html_url": "https://github.com/rayfalling/dsh-tool-visibility", "description": "Controls which tool schemas enter model context through settings and persisted filters"},
     {"full_name": "NecromanAlbert/dsh-skill-slash-fuzzy", "name": "dsh-skill-slash-fuzzy", "html_url": "https://github.com/NecromanAlbert/dsh-skill-slash-fuzzy", "description": "Resolves unique kebab-case skill substrings in slash tokens"},
+    {"full_name": "xiaochaZ/dsh-session-title-summary", "name": "dsh-session-title-summary", "html_url": "https://github.com/xiaochaZ/dsh-session-title-summary", "description": "Rolling session summary and current-task title"},
+    {"full_name": "dongsheng123132/dsh-windows-settlement-proof", "name": "dsh-windows-settlement-proof", "html_url": "https://github.com/dongsheng123132/dsh-windows-settlement-proof", "description": "Offline content-addressed proof that approved Windows control-plane changes settled across required surfaces"},
+    {"full_name": "Ardig24/dsh-trajectory-ablation", "name": "dsh-trajectory-ablation", "html_url": "https://github.com/Ardig24/dsh-trajectory-ablation", "description": "Reconstructs, diffs, and ablates agent context to identify failure causes"},
+    {"full_name": "adrianleb/dsh-tmux-cc", "name": "dsh-tmux-cc", "html_url": "https://github.com/adrianleb/dsh-tmux-cc", "description": "Persistent responsive tmux control-mode cockpit for DSH Web"},
+    {"full_name": "mattheliu/dsh-accessibility", "name": "dsh-accessibility", "html_url": "https://github.com/mattheliu/dsh-accessibility", "description": "Screen-reader guidance and in-app accessibility diagnostics"},
+    {"full_name": "yogeek/dsh-plugin-toggle", "name": "dsh-plugin-toggle", "html_url": "https://github.com/yogeek/dsh-plugin-toggle", "description": "Settings UI for enabling and disabling plugins in collapsible categories"},
 ]
 
 
@@ -401,6 +407,12 @@ TOPIC_MANUAL = {
     "0sour/dsh-plugins": "开发与工程",
     "0xsline/awesome-deepseek-harness": "开发与工程",
     "0xsline/dsh-spotlight": "界面与体验",
+    "xiaochaz/dsh-session-title-summary": "记忆与上下文",
+    "dongsheng123132/dsh-windows-settlement-proof": "测试与诊断",
+    "ardig24/dsh-trajectory-ablation": "测试与诊断",
+    "adrianleb/dsh-tmux-cc": "终端与 TUI",
+    "mattheliu/dsh-accessibility": "界面与体验",
+    "yogeek/dsh-plugin-toggle": "界面与体验",
     "ip050/dsh-video-player": "视觉与图像",
     "dongsheng123132/dsh-tool-surface-proof": "测试与诊断",
     "lanzgale/dsh-repo-browser": "界面与体验",
