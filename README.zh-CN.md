@@ -221,6 +221,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## UI, Themes & Interaction
 
+- [dsh-chat-timeline-plus](https://github.com/NIU-001-LIU/dsh-chat-timeline-plus) - 消息时间线导航轨：悬停即弹出问答预览卡（问题 + 回答摘要），支持面板钉住常驻、按天分组与重点书签。
 - [dsh-scenery-background](https://github.com/soslowsnail/dsh-scenery-background) - 山海主题 Web UI 背景轮换插件：支持每日一图与循环轮播，内置 5 张离线 SVG 场景、可选 Unsplash 摄影图、毛玻璃面板和悬浮控制。
 - [dsh-zh-commands](https://github.com/Semidia/dsh-zh-commands) - 中文斜杠命令增强：新增 /help /status /time /cwd /whoami /preset，并本地化斜杠菜单中的内置命令说明。
 - [dsh-skin-studio](https://github.com/LeemanCheung/dsh-skin-studio) - 本地语义令牌主题编辑器，支持色板提取、WCAG 审计、预览和导出。
