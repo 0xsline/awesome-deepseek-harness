@@ -622,6 +622,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [zoahdev/dsh-subscribe](https://github.com/zoahdev/dsh-subscribe) - Steam 式插件市场：网页一键订阅，一条命令同步到 dsh profile；500+ 社区插件，带验证精选，零依赖 CLI。
 - [dsh-vibe-pack](https://github.com/LeemanCheung/dsh-vibe-pack) - 仅数据的事务式配置包管理器，提供完整性、归属、预览、差异和回滚保护。
 - [Luaphes/dsh-plugins-market](https://github.com/Luaphes/dsh-plugins-market) - DSH Web UI 内插件市场：全量嗅探 dsh-plugin topic，过滤蹭标签噪音，保留人工精选标记，支持排序/搜索/语言过滤与一键安装（安装前校验 dsh.bundle 声明）。
+- [dsh-pianist](https://github.com/Laplace-bit/dsh-pianist) - 钢琴演奏：让 Agent 在 Canvas2D 三角钢琴上弹奏点播曲目，Salamander Grand 真实采样音色，沉浸式舞台，88 键可弹。
 
 ## Plugin Ecosystem & Development
 
