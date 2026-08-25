@@ -394,6 +394,13 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "adrianleb/dsh-tmux-cc", "name": "dsh-tmux-cc", "html_url": "https://github.com/adrianleb/dsh-tmux-cc", "description": "Persistent responsive tmux control-mode cockpit for DSH Web"},
     {"full_name": "mattheliu/dsh-accessibility", "name": "dsh-accessibility", "html_url": "https://github.com/mattheliu/dsh-accessibility", "description": "Screen-reader guidance and in-app accessibility diagnostics"},
     {"full_name": "yogeek/dsh-plugin-toggle", "name": "dsh-plugin-toggle", "html_url": "https://github.com/yogeek/dsh-plugin-toggle", "description": "Settings UI for enabling and disabling plugins in collapsible categories"},
+    {"full_name": "dongsheng123132/dsh-principal-binding-proof", "name": "dsh-principal-binding-proof", "html_url": "https://github.com/dongsheng123132/dsh-principal-binding-proof", "description": "Offline content-addressed proof of pseudonymous authority binding across DSH execution surfaces"},
+    {"full_name": "mengzhangj/dsh-wallpaper", "name": "dsh-wallpaper", "html_url": "https://github.com/mengzhangj/dsh-wallpaper", "description": "Desktop background wallpaper and system-font picker plugin"},
+    {"full_name": "GroupWork888/dsh-plugin-archived-sessions", "name": "dsh-plugin-archived-sessions", "html_url": "https://github.com/GroupWork888/dsh-plugin-archived-sessions", "description": "Read-only sidebar viewer for browsing archived sessions"},
+    {"full_name": "LucienLL/dsh-session-status", "name": "dsh-session-status", "html_url": "https://github.com/LucienLL/dsh-session-status", "description": "Session project-status labels, custom tags, and icons visible in lists and headers"},
+    {"full_name": "LucienLL/dsh-session-memo", "name": "dsh-session-memo", "html_url": "https://github.com/LucienLL/dsh-session-memo", "description": "Session sidebar memo for GitHub and npm status, project version, and tags"},
+    {"full_name": "TARS-snail/dsh-notify", "name": "dsh-notify", "html_url": "https://github.com/TARS-snail/dsh-notify", "description": "Desktop notifications for sessions while the user is away"},
+    {"full_name": "Meteor-system/superpowers-for-dsh", "name": "superpowers-for-dsh", "html_url": "https://github.com/Meteor-system/superpowers-for-dsh", "description": "Portable Superpowers skills and a native DeepSeek Harness preset"},
 ]
 
 
@@ -407,6 +414,13 @@ TOPIC_MANUAL = {
     "0sour/dsh-plugins": "开发与工程",
     "0xsline/awesome-deepseek-harness": "开发与工程",
     "0xsline/dsh-spotlight": "界面与体验",
+    "dongsheng123132/dsh-principal-binding-proof": "测试与诊断",
+    "mengzhangj/dsh-wallpaper": "界面与体验",
+    "groupwork888/dsh-plugin-archived-sessions": "界面与体验",
+    "lucienll/dsh-session-status": "界面与体验",
+    "lucienll/dsh-session-memo": "记忆与上下文",
+    "tars-snail/dsh-notify": "消息与通知",
+    "meteor-system/superpowers-for-dsh": "Agent 与自动化",
     "xiaochaz/dsh-session-title-summary": "记忆与上下文",
     "dongsheng123132/dsh-windows-settlement-proof": "测试与诊断",
     "ardig24/dsh-trajectory-ablation": "测试与诊断",
