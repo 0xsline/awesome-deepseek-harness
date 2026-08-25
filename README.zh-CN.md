@@ -359,6 +359,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [Harness Desktop](https://github.com/baiyuscc13724-max/deepseek-harness-desktop) - 官方 DSH Web UI 的 Windows 桌面版，提供中文安装版和免安装版、快速换肤、应用内插件市场、主模型与子代理选择和校验更新。
 - [dsh-desktop](https://github.com/foolgry/dsh-desktop) - 开箱即用的 Electron 桌面版（macOS/Windows 安装包）：无需 Node.js 和命令行，自动跟随上游 `@deepseek-ai/dsh` 发版，内置 Web UI 与自动更新
 - [deepseek-harness-desktop](https://github.com/fendouai/deepseek-harness-desktop) - 基于 Tauri 2 的 DeepSeek Harness 桌面发行版，集成完整 Web UI、受监管的本地 sidecar 与内置 Node.js 24 运行时（macOS/Linux/Windows）。
+- [DeepSeek Harness Desktop](https://github.com/web-casa/DeepSeek-Harness-Desktop) - 面向 DSH 的社区 Tauri 2 桌面发行版：受监督的本地 sidecar、内置 Node.js 24、Windows/macOS 原生安装包；[官网](https://dsharness.app)。
 - [DeepSeek Harness Desktop](https://github.com/chokwinlee/deepseek-harness-desktop) - 官方 DSH Web UI 的自包含 macOS/Windows 桌面端；macOS 采用 Tauri/WKWebView，DMG 不到 90 MB，并内置完整 Harness 运行时。
 - [dsh-vscode](https://github.com/Lixxx1/dsh-vscode) - 面向官方 DSH 运行时的 VS Code 右侧栏客户端：接入项目与编辑器选区上下文，支持权限/Plan 控制、消息排队与 Steering、原生 Diff 审阅。
 - [dsh4vscode](https://github.com/DoggyHU/dsh4vscode) - 基于 DSH agent 的 VS Code 聊天窗口：OpenCode 式独立会话、模型自动路由（Flash/Pro/Pro Max）。
@@ -659,6 +660,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-eval](https://github.com/hccccc01333/dsh-eval) - Agent 评测平台：benchmark YAML、headless dsh 运行、trace 指标、脚本化评分与 run 对比/报告。
 - [dsh-suite](https://github.com/whyihaveyou/dsh-suite) - DSH 插件活目录（785+ 插件，每小时刷新）+ 每日兼容性 CI + 中英双语可搜索目录站 + 内置插件商店。
 - [dshget-data](https://github.com/bobby-sheng/dshget-data) - [DSH Get](https://www.dshget.com/) 的公开标准化目录快照；提供 2,460 个 DeepSeek Harness 插件的中英双语搜索、分类、安装命令和来源标注。
+- [Awesome DeepSeek Harness Plugins](https://github.com/web-casa/Awesome-DeepSeek-Harness-Plugins) - 由 [cordis.run](https://cordis.run) 维护的公开 Cordis 插件索引，从已发布记录生成，提供每个插件的安装命令和安全状态链接。
 - [create-dsh-plugin](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/create-dsh-plugin) - 秒建 DSH 插件脚手架（tool/events/webui 模板、锁 `next` 版本、内置 `--verify` 冒烟验证）。
 - [plugin-manager](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-manager) - DSH Web UI 内置插件应用商店：目录浏览/搜索/一键安装/兼容徽章/已装列表。
 - [dsh-genie](https://github.com/swaylq/dsh-genie) - 把 `cordis_define` 的动态包固化为可跨重启存活的正式组合包；写包与注册 profile 层均不需要 pnpm、联网或构建授权。
