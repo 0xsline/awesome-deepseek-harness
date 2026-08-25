@@ -280,6 +280,12 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "Entity-Him/dsh-doc-quick", "name": "dsh-doc-quick", "html_url": "https://github.com/Entity-Him/dsh-doc-quick", "description": "拖拽文档至 DSH Web 对话框进行本地文件处理，侧栏列出产出和文件路径"},
     {"full_name": "lianginx/dsh-timeline-enhance", "name": "dsh-timeline-enhance", "html_url": "https://github.com/lianginx/dsh-timeline-enhance", "description": "自动折叠聊天时间线流程并提供 Deep diving 趣味提示"},
     {"full_name": "striveh/dsh-capability-resolver", "name": "dsh-capability-resolver", "html_url": "https://github.com/striveh/dsh-capability-resolver", "description": "只读本地能力与社区插件发现工具"},
+    {"full_name": "Cinnamobot/dsh-nothing-skin", "name": "dsh-nothing-skin", "html_url": "https://github.com/Cinnamobot/dsh-nothing-skin", "description": "Nothing Phone 风格皮肤：点阵背景、Space Grotesk/Mono 字体、黑白加信号红，并提供按功能开关"},
+    {"full_name": "zouyuanqing/dsh-verify-reflux", "name": "dsh-verify-reflux", "html_url": "https://github.com/zouyuanqing/dsh-verify-reflux", "description": "三平面概率验证器：分层 logprob、采样与模板评判，带种子 best-of-N 锦标赛和上下文回流"},
+    {"full_name": "kane-le/dsh-deepseek-usage", "name": "dsh-deepseek-usage", "html_url": "https://github.com/kane-le/dsh-deepseek-usage", "description": "通过 /usage 查询 DeepSeek API 余额，并汇总本机 Token 用量"},
+    {"full_name": "artwar2020/dsh-model-center", "name": "dsh-model-center", "html_url": "https://github.com/artwar2020/dsh-model-center", "description": "模型中心：模型目录、价格与余额、用量统计和一键切换"},
+    {"full_name": "minyang-chen/dsh-stock-lookup", "name": "dsh-stock-lookup", "html_url": "https://github.com/minyang-chen/dsh-stock-lookup", "description": "通过 SEC EDGAR 将公司名解析为股票代码，并从 Yahoo Finance 获取行情"},
+    {"full_name": "0231071/llm-as-a-verifier", "name": "llm-as-a-verifier", "html_url": "https://github.com/0231071/llm-as-a-verifier", "description": "LLM 验证器：并行生成多个候选答案，再通过概率枢轴锦标赛择优"},
 ]
 
 
@@ -293,6 +299,12 @@ TOPIC_MANUAL = {
     "0sour/dsh-plugins": "开发与工程",
     "0xsline/awesome-deepseek-harness": "开发与工程",
     "0xsline/dsh-spotlight": "界面与体验",
+    "cinnamobot/dsh-nothing-skin": "界面与体验",
+    "zouyuanqing/dsh-verify-reflux": "测试与诊断",
+    "kane-le/dsh-deepseek-usage": "成本与用量",
+    "artwar2020/dsh-model-center": "模型与推理",
+    "minyang-chen/dsh-stock-lookup": "数据与可视化",
+    "0231071/llm-as-a-verifier": "测试与诊断",
     "yauntyour/dsh-for-vsc": "开发与工程",
     "ziyou979/dsh-llm-oauth": "模型与推理",
     "yauntyour/dsh-multimodal": "视觉与图像",
