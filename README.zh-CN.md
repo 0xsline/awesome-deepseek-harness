@@ -221,6 +221,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## UI, Themes & Interaction
 
+- [dsh-history-question-nav](https://github.com/TropicWiden/dsh-history-question-nav) 在窗口右侧列出当前会话的每个历史提问标题，点击即定位到对应回答。
 - [dsh-scenery-background](https://github.com/soslowsnail/dsh-scenery-background) - 山海主题 Web UI 背景轮换插件：支持每日一图与循环轮播，内置 5 张离线 SVG 场景、可选 Unsplash 摄影图、毛玻璃面板和悬浮控制。
 - [dsh-zh-commands](https://github.com/Semidia/dsh-zh-commands) - 中文斜杠命令增强：新增 /help /status /time /cwd /whoami /preset，并本地化斜杠菜单中的内置命令说明。
 - [dsh-skin-studio](https://github.com/LeemanCheung/dsh-skin-studio) - 本地语义令牌主题编辑器，支持色板提取、WCAG 审计、预览和导出。
