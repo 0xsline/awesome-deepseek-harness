@@ -222,6 +222,7 @@ Management panel: Settings → Plugins.
 
 ## UI, Themes & Interaction
 
+- [dsh-history-question-nav](https://github.com/TropicWiden/dsh-history-question-nav) - A right-side **Questions** panel that lists every question you ask in the current session and scrolls to the matching answer on click. Bilingual (zh/en).
 - [dsh-scenery-background](https://github.com/soslowsnail/dsh-scenery-background) - Rotating Web UI backgrounds with daily and slideshow modes, five offline SVG scenes, optional Unsplash photos, glass panels, and a floating control.
 - [dsh-zh-commands](https://github.com/Semidia/dsh-zh-commands) - Chinese slash-command enhancement: six new Chinese commands (/help /status /time /cwd /whoami /preset) plus in-place localization of every built-in command description in the slash menu.
 - [dsh-skin-studio](https://github.com/LeemanCheung/dsh-skin-studio) - Local semantic-token theme editor with palette extraction, WCAG auditing, preview, and export.
