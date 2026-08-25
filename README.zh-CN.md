@@ -357,6 +357,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [Martty](https://github.com/openma-ai/Martty) - 面向 DeepSeek Harness 的 Rust/ratatui Agent TUI，支持流式工具调用、子代理、持久会话和可扩展的 Cordis 客户端界面
 - [dsh-terminal](https://github.com/geebos/dsh-terminal) - 会话内嵌可折叠交互式终端：多标签存活 shell、自动重连、一键快捷命令，界面支持中英文并跟随主题
 - [lk251066/dsh-tui-pro](https://github.com/lk251066/dsh-tui-pro) - DeepSeek Harness 全屏终端工作台：提供独立持久助手、按工作区分组的项目会话，以及结构化思考、工具、diff、计划和子代理视图
+- [DSH-Portable](https://github.com/WSL043/DSH-Portable) - 跨平台的 DeepSeek Harness 单目录便携发行版，内置运行环境与插件市场；更新保留数据，会话、设置、插件和工作区可随目录一起移动。
 - [deepseek-harness-desktop](https://github.com/chyra-moon/deepseek-harness-desktop) - Windows 原生桌面外壳:一比一加载官方 Web UI,内置服务器托管、托盘驻留与掉线自动恢复
 - [Harness Desktop](https://github.com/baiyuscc13724-max/deepseek-harness-desktop) - 官方 DSH Web UI 的 Windows 桌面版，提供中文安装版和免安装版、快速换肤、应用内插件市场、主模型与子代理选择和校验更新。
 - [dsh-desktop](https://github.com/foolgry/dsh-desktop) - 开箱即用的 Electron 桌面版（macOS/Windows 安装包）：无需 Node.js 和命令行，自动跟随上游 `@deepseek-ai/dsh` 发版，内置 Web UI 与自动更新
