@@ -572,6 +572,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-feishu-notify](https://github.com/dsh-external/dsh-feishu-notify) - 飞书通知（会话结束/等待输入）
 - [dsh-serverchan-notify](https://github.com/nickhelion/dsh-plugins/tree/main/packages/serverchan-notify) - Server酱3 微信推送：回合结束时推送标题、模型、项目目录、Git 分支、状态与回复摘要；支持子代理过滤，fire-and-forget 不阻塞主流程。
 - [dsh-lark-meeting-notifier](https://github.com/yeruizhi/dsh-lark-meeting-notifier) - 飞书会议提醒：右侧悬浮框显示今日/明日飞书会议，多闹钟闪烁提醒。
+- [dsh-rss-daily](https://github.com/shangjian2023/dsh-rss-daily) - 每日新闻简报:定时抓取 46 个精选 RSS 源,由 dsh 内已配置的模型编辑成简报(失败降级规则版),经 webhook 推送到企业微信/Telegram/Server酱/PushDeer/Bark/Gotify,错过时段自动补跑,带 Web 面板。
 - [telegram](https://github.com/dsh-external/telegram) - Telegram 频道
 - [dsh-telegram-channel](https://github.com/hi-wenw/dsh-telegram-channel) - Telegram 手机遥控器：附着本机正在运行的 DSH Web 会话（`/sessions` 选择、绑定/解绑），与电脑同轨迹（Codex 风格）。
 - [harness-remote](https://github.com/Hyna-hla/harness-remote) - 第三方手机遥控端：局域网或 cpolar 连接电脑上的 DSH（扫码自动连接），流式聊天、审批横幅与后台高优先级推送、会话内切换模型与权限。
