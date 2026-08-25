@@ -604,6 +604,7 @@ Management panel: Settings → Plugins.
 - [dsh-emoji](https://github.com/dsh-external/dsh-emoji) - Emoji plugin (cordis).
 - [dsh-travel-plugin](https://github.com/dsh-external/dsh-travel-plugin) - Travel plugin.
 - [dsh-weather](https://github.com/sunshine-lang/dsh-weather) - Weather tool: current conditions and multi-day forecasts via Open-Meteo (free, no API key).
+- [dsh-pianist](https://github.com/Laplace-bit/dsh-pianist) - Piano performance: the agent plays a requested piece on a Canvas2D grand piano with Salamander Grand samples, immersive stage visuals, and a playable 88-key keyboard.
 - [dsh-pdf](https://github.com/sunshine-lang/dsh-pdf) - PDF toolbox: extract text, metadata, and page ranges via pdfjs-dist (local, no API key).
 - [dsh-ui-whale](https://github.com/dsh-external/dsh-ui-whale) - Pixel whale companion (blink/tail/spout/hearts).
 - [dsh-muyu](https://github.com/liuwenji007/dsh-muyu) - Wooden-fish overlay in the Web client's lower-right: knock the whale for per-session merit; auto-knocks while the model thinks or streams.
