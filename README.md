@@ -625,7 +625,6 @@ Management panel: Settings → Plugins.
 - [zoahdev/dsh-subscribe](https://github.com/zoahdev/dsh-subscribe) - Steam-style plugin marketplace: subscribe on the web, sync with one command into a dsh profile; 500+ community plugins with verified curation and a zero-dependency CLI.
 - [dsh-vibe-pack](https://github.com/LeemanCheung/dsh-vibe-pack) - Transactional data-only configuration pack manager with integrity, ownership, preview, diff, and rollback safeguards.
 - [Luaphes/dsh-plugins-market](https://github.com/Luaphes/dsh-plugins-market) - Plugin market inside the DSH Web UI: crawls the dsh-plugin topic with noise filtering, curated marks, ranking and one-click install (dsh.bundle-verified).
-- [dsh-pianist](https://github.com/Laplace-bit/dsh-pianist) - Piano performance: the agent plays a requested piece on a Canvas2D grand piano with Salamander Grand samples, immersive stage visuals, and a playable 88-key keyboard.
 
 ## Plugin Ecosystem & Development
 
