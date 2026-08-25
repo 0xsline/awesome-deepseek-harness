@@ -273,6 +273,13 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "aorucshiea/dsh-omnipotent-preset", "name": "dsh-omnipotent-preset", "html_url": "https://github.com/aorucshiea/dsh-omnipotent-preset", "description": "DeepSeek Harness 全能 Agent 预设，提供 Standard、PTC、Minimal 和路由模式"},
     {"full_name": "aorucshiea/dsh-preset-switch", "name": "dsh-preset-switch", "html_url": "https://github.com/aorucshiea/dsh-preset-switch", "description": "支持会话中途切换 DeepSeek Harness Agent 预设"},
     {"full_name": "TYEclipse/dsh-musictheory", "name": "dsh-musictheory", "html_url": "https://github.com/TYEclipse/dsh-musictheory", "description": "零运行时依赖的音乐理论数学工具箱：音符解析、频率/MIDI 转换、和弦与音阶"},
+    {"full_name": "NeoRrrr/dsh-project-skill-paths", "name": "dsh-project-skill-paths", "html_url": "https://github.com/NeoRrrr/dsh-project-skill-paths", "description": "为 DeepSeek Harness 配置项目级自定义 Skill 根目录"},
+    {"full_name": "kongdexu/dsh-win-notify", "name": "dsh-win-notify", "html_url": "https://github.com/kongdexu/dsh-win-notify", "description": "Windows Host 原生系统通知：任务完成、需要输入和需要审批提醒，零运行时依赖"},
+    {"full_name": "gavenma/dsh-autoresearch-preset", "name": "dsh-autoresearch-preset", "html_url": "https://github.com/gavenma/dsh-autoresearch-preset", "description": "DeepSeek Harness 的 AutoResearch Project Mode Agent 预设"},
+    {"full_name": "shuaihaoV/dsh-TheWanderingEarthII", "name": "dsh-TheWanderingEarthII", "html_url": "https://github.com/shuaihaoV/dsh-TheWanderingEarthII", "description": "流浪地球 2 电影风格 DSH Web GUI 主题：引擎点火联动、MOSS 发送按钮和星场 HUD"},
+    {"full_name": "Entity-Him/dsh-doc-quick", "name": "dsh-doc-quick", "html_url": "https://github.com/Entity-Him/dsh-doc-quick", "description": "拖拽文档至 DSH Web 对话框进行本地文件处理，侧栏列出产出和文件路径"},
+    {"full_name": "lianginx/dsh-timeline-enhance", "name": "dsh-timeline-enhance", "html_url": "https://github.com/lianginx/dsh-timeline-enhance", "description": "自动折叠聊天时间线流程并提供 Deep diving 趣味提示"},
+    {"full_name": "striveh/dsh-capability-resolver", "name": "dsh-capability-resolver", "html_url": "https://github.com/striveh/dsh-capability-resolver", "description": "只读本地能力与社区插件发现工具"},
 ]
 
 
@@ -1096,6 +1103,13 @@ TOPIC_MANUAL = {
     "aorucshiea/dsh-omnipotent-preset": "Agent 与自动化",
     "aorucshiea/dsh-preset-switch": "Agent 与自动化",
     "tyeclipse/dsh-musictheory": "趣味与娱乐",
+    "neorrrr/dsh-project-skill-paths": "开发与工程",
+    "kongdexu/dsh-win-notify": "消息与通知",
+    "gavenma/dsh-autoresearch-preset": "Agent 与自动化",
+    "shuaihaov/dsh-thewanderingearthii": "界面与体验",
+    "entity-him/dsh-doc-quick": "输入与提示词",
+    "lianginx/dsh-timeline-enhance": "界面与体验",
+    "striveh/dsh-capability-resolver": "开发与工程",
     "liustack/modsearch": "浏览器与远程",
     "liuup/dsh-latex-tools": "输入与提示词",
     "ljsysfurryACE/AgentFrame-v3": "Agent 与自动化",
