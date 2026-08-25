@@ -362,6 +362,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [Harness Desktop](https://github.com/baiyuscc13724-max/deepseek-harness-desktop) - 官方 DSH Web UI 的 Windows 桌面版，提供中文安装版和免安装版、快速换肤、应用内插件市场、主模型与子代理选择和校验更新。
 - [dsh-desktop](https://github.com/foolgry/dsh-desktop) - 开箱即用的 Electron 桌面版（macOS/Windows 安装包）：无需 Node.js 和命令行，自动跟随上游 `@deepseek-ai/dsh` 发版，内置 Web UI 与自动更新
 - [deepseek-harness-desktop](https://github.com/fendouai/deepseek-harness-desktop) - 基于 Tauri 2 的 DeepSeek Harness 桌面发行版，集成完整 Web UI、受监管的本地 sidecar 与内置 Node.js 24 运行时（macOS/Linux/Windows）。
+- [DeepSeek Harness Desktop](https://github.com/dsh-tauri-desk/deepseek-harness-desktop) - 一键运行的 Tauri 2 桌面版 DeepSeek Harness：内置运行时，无需 Node.js/pnpm/Docker，提供 macOS/Windows/Linux 原生安装包。
 - [DeepSeek Harness Desktop](https://github.com/web-casa/DeepSeek-Harness-Desktop) - 面向 DSH 的社区 Tauri 2 桌面发行版：受监督的本地 sidecar、内置 Node.js 24、Windows/macOS 原生安装包；[官网](https://dsharness.app)。
 - [DeepSeek Harness Desktop](https://github.com/chokwinlee/deepseek-harness-desktop) - 官方 DSH Web UI 的自包含 macOS/Windows 桌面端；macOS 采用 Tauri/WKWebView，DMG 不到 90 MB，并内置完整 Harness 运行时。
 - [dsh-vscode](https://github.com/Lixxx1/dsh-vscode) - 面向官方 DSH 运行时的 VS Code 右侧栏客户端：接入项目与编辑器选区上下文，支持权限/Plan 控制、消息排队与 Steering、原生 Diff 审阅。
