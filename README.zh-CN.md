@@ -341,6 +341,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [plugin-team-board](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-team-board) - 多 agent 共享任务板（创建/认领/流转/查询），状态物化为 Cordis 协作用键。
 - [zoahdev/dsh-code](https://github.com/zoahdev/dsh-code) - VS Code 扩展：从命令或面板运行 DeepSeek Harness 一次性任务（dsh --profile headless）。
 - [dsh-event-auditor](https://github.com/qing3a/dsh-event-auditor) - 事件流审计面板：观察事件类型/分发模式/计数/最近事件，帮助插件作者理解 harness 内部
+- [dsh-session-explorer](https://github.com/Zn-Dk/dsh-session-explorer) - DSH 会话消息级全文检索浏览器：FTS5 trigram 索引按消息检索（用户/助手/系统注入/工具，可按类型筛选），fork/续接会话结果自动去重，只读上下文预览自动滚动定位并一键跳转真实会话，增量/全量重建索引与健康检查，界面中英双语跟随 Host locale。
 - [dsh-whale-meter](https://github.com/Shiye-10Pages/dsh-whale-meter) - 用量段位（🐟→🐳）与可分享战绩卡，分位本地估算；6 家厂商 46 个模型精准计价，含国内按输入长度分档；回填安装前的会话；8·17 调价前后新旧价对比。
 - [dsh-bill](https://github.com/Jannchie/dsh-bill) - 费用统计：每轮成本行，把花费归因到工具输出 / 模型输出 / 系统提示词 / 终端命令，预算与月度预测；按 models.dev + OpenRouter（8000+ 模型）逐次调用定价，历史不重算。
 - [dsh-history](https://github.com/chenproton/dsh-history) - 会话历史消息查看：列出当前会话全部你发送的消息，支持最新在前排序、文本过滤、一键复制，点击可跳转定位（目标未加载时自动加载更早历史）。
