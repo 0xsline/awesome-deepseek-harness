@@ -525,6 +525,8 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "w2327644822-png/dsh-usage-analytics", "name": "dsh-usage-analytics", "html_url": "https://github.com/w2327644822-png/dsh-usage-analytics", "description": "Local-only personal usage analytics with token totals, heatmap, model share, and activity insights"},
     {"full_name": "WJNCT55555/dsh-crt-theme", "name": "dsh-crt-theme", "html_url": "https://github.com/WJNCT55555/dsh-crt-theme", "description": "Dual-palette CRT terminal theme for the DeepSeek Harness Web"},
     {"full_name": "liangsheng999/dsh-client-ui-connection-status", "name": "dsh-client-ui-connection-status", "html_url": "https://github.com/liangsheng999/dsh-client-ui-connection-status", "description": "Corner status pill showing the live DSH Web client connection state"},
+    {"full_name": "LeonSone/dsh-question-rail", "name": "dsh-question-rail", "html_url": "https://github.com/LeonSone/dsh-question-rail", "description": "Right-edge rail that lists user questions in the current session and scrolls to the selected turn"},
+    {"full_name": "joao-paulo-santos/dsh-granular-settings", "name": "dsh-granular-settings", "html_url": "https://github.com/joao-paulo-santos/dsh-granular-settings", "description": "Scoped namespaced Workspace, Session, and Plugin settings platform with nine control types"},
 ]
 
 
@@ -538,6 +540,8 @@ TOPIC_MANUAL = {
     "0sour/dsh-plugins": "开发与工程",
     "0xsline/awesome-deepseek-harness": "开发与工程",
     "0xsline/dsh-spotlight": "界面与体验",
+    "leonsone/dsh-question-rail": "界面与体验",
+    "joao-paulo-santos/dsh-granular-settings": "开发与工程",
     "miuzel/dsh-subagent-ui": "智能体与编排",
     "wr-web/dsh-context-tree": "记忆与上下文",
     "savageops/dsh-generative-ideas": "智能体与编排",
