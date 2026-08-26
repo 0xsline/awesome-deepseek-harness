@@ -527,6 +527,11 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "liangsheng999/dsh-client-ui-connection-status", "name": "dsh-client-ui-connection-status", "html_url": "https://github.com/liangsheng999/dsh-client-ui-connection-status", "description": "Corner status pill showing the live DSH Web client connection state"},
     {"full_name": "LeonSone/dsh-question-rail", "name": "dsh-question-rail", "html_url": "https://github.com/LeonSone/dsh-question-rail", "description": "Right-edge rail that lists user questions in the current session and scrolls to the selected turn"},
     {"full_name": "joao-paulo-santos/dsh-granular-settings", "name": "dsh-granular-settings", "html_url": "https://github.com/joao-paulo-santos/dsh-granular-settings", "description": "Scoped namespaced Workspace, Session, and Plugin settings platform with nine control types"},
+    {"full_name": "CagierAsh123/dsh-obsidian-agent-wiki", "name": "dsh-obsidian-agent-wiki", "html_url": "https://github.com/CagierAsh123/dsh-obsidian-agent-wiki", "description": "Searchable SQLite-indexed Obsidian memory for DeepSeek Harness"},
+    {"full_name": "eehcx/dsh-gentle-engram", "name": "dsh-gentle-engram", "html_url": "https://github.com/eehcx/dsh-gentle-engram", "description": "Cordis-based DSH adapter for the persistent Engram memory bridge"},
+    {"full_name": "mykeura/dsh-minimalist-themes", "name": "dsh-minimalist-themes", "html_url": "https://github.com/mykeura/dsh-minimalist-themes", "description": "One-click collection of 18 minimalist color themes for DeepSeek Harness"},
+    {"full_name": "pauloapoloni/dsh-pr-checks", "name": "dsh-pr-checks", "html_url": "https://github.com/pauloapoloni/dsh-pr-checks", "description": "Sidebar-footer status and progress display for GitHub Actions checks on open PRs"},
+    {"full_name": "ljlj7149-cloud/dsh-cognitio", "name": "dsh-cognitio", "html_url": "https://github.com/ljlj7149-cloud/dsh-cognitio", "description": "Correction-driven cognitive architecture with layered memory, reminder sentinels, and approval arbitration"},
 ]
 
 
@@ -540,6 +545,11 @@ TOPIC_MANUAL = {
     "0sour/dsh-plugins": "开发与工程",
     "0xsline/awesome-deepseek-harness": "开发与工程",
     "0xsline/dsh-spotlight": "界面与体验",
+    "cagierash123/dsh-obsidian-agent-wiki": "记忆与上下文",
+    "eehcx/dsh-gentle-engram": "记忆与上下文",
+    "mykeura/dsh-minimalist-themes": "界面与体验",
+    "pauloapoloni/dsh-pr-checks": "开发与工程",
+    "ljlj7149-cloud/dsh-cognitio": "记忆与上下文",
     "leonsone/dsh-question-rail": "界面与体验",
     "joao-paulo-santos/dsh-granular-settings": "开发与工程",
     "miuzel/dsh-subagent-ui": "智能体与编排",
