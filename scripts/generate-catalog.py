@@ -409,6 +409,13 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "Lorodn4x/dsh-voice", "name": "dsh-voice", "html_url": "https://github.com/Lorodn4x/dsh-voice", "description": "Edge TTS playback and agent-sent voice notes in the Web UI"},
     {"full_name": "xuviga/dsh-plugin-mnemosyne", "name": "dsh-plugin-mnemosyne", "html_url": "https://github.com/xuviga/dsh-plugin-mnemosyne", "description": "Error-memory plugin that learns from agent mistakes and blocks recurring ones"},
     {"full_name": "Destined-at-Dawn/dsh-visual-workbench", "name": "dsh-visual-workbench", "html_url": "https://github.com/Destined-at-Dawn/dsh-visual-workbench", "description": "Visual workbench for Obsidian-style knowledge spaces and local Comfy MCP workflows"},
+    {"full_name": "beartackler/dsh-bridge", "name": "dsh-bridge", "html_url": "https://github.com/beartackler/dsh-bridge", "description": "Verified command and connector bridge with a trust-verified plugin catalog"},
+    {"full_name": "dongsheng123132/dsh-reproducible-build-proof", "name": "dsh-reproducible-build-proof", "html_url": "https://github.com/dongsheng123132/dsh-reproducible-build-proof", "description": "Offline content-addressed proof that independent build receipts reproduce byte-identical artifacts"},
+    {"full_name": "navid-kianfar/dsh-usage-info", "name": "dsh-usage-info", "html_url": "https://github.com/navid-kianfar/dsh-usage-info", "description": "Session-header context occupancy and account balance with a swappable balance provider"},
+    {"full_name": "shizhanyu13/dsh-waom", "name": "dsh-waom", "html_url": "https://github.com/shizhanyu13/dsh-waom", "description": "Autonomous-operations workflow: monitor, decide, drive a subagent fix, and independently evaluate"},
+    {"full_name": "shizhanyu13/dsh-ironbound-policy", "name": "dsh-ironbound-policy", "html_url": "https://github.com/shizhanyu13/dsh-ironbound-policy", "description": "Hard-gate guard that blocks dangerous shell commands before they reach a tool"},
+    {"full_name": "joao-paulo-santos/dsh-approval-diff", "name": "dsh-approval-diff", "html_url": "https://github.com/joao-paulo-santos/dsh-approval-diff", "description": "Replaces file-change approval prompts with line and word diff review cards"},
+    {"full_name": "DevViking-Persike/dsh-git-graph", "name": "dsh-git-graph", "html_url": "https://github.com/DevViking-Persike/dsh-git-graph", "description": "Git commit-graph view with lanes, refs, and worktree management"},
 ]
 
 
@@ -422,6 +429,13 @@ TOPIC_MANUAL = {
     "0sour/dsh-plugins": "开发与工程",
     "0xsline/awesome-deepseek-harness": "开发与工程",
     "0xsline/dsh-spotlight": "界面与体验",
+    "beartackler/dsh-bridge": "开发与工程",
+    "dongsheng123132/dsh-reproducible-build-proof": "测试与诊断",
+    "navid-kianfar/dsh-usage-info": "成本与用量",
+    "shizhanyu13/dsh-waom": "Agent 与自动化",
+    "shizhanyu13/dsh-ironbound-policy": "安全与隐私",
+    "joao-paulo-santos/dsh-approval-diff": "开发与工程",
+    "devviking-persike/dsh-git-graph": "开发与工程",
     "lorodn4x/dsh-firecrawl": "浏览器与远程",
     "dongsheng123132/dsh-policy-waiver-proof": "测试与诊断",
     "jstn-1g/dsh-guarded-live-voice": "消息与通知",
