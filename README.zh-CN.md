@@ -566,6 +566,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 ## Office & Documents
 
 - [dream-num/dsh-univer-office](https://github.com/dream-num/dsh-univer-office) - 在 DeepSeek Harness 中创建、编辑、检查和交付表格、文档、演示文稿、多维表格和画布，支持实时预览与 worktree 审阅。
+- [dsh-qingagent](https://github.com/void2anything/dsh-qingagent) - 把开源 AI 写作客户端「青简 QingAgent」接进 DeepSeek Harness：对话里起草改稿，右侧宣纸面板排版渲染（mermaid、drawio、表格、KaTeX），每处修改先摆在纸上供审阅、提交才落稿；需本机运行青简桌面客户端。
 
 ## Notifications & Channels
 

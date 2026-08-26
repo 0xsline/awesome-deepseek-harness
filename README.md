@@ -568,6 +568,7 @@ Management panel: Settings → Plugins.
 ## Office & Documents
 
 - [dream-num/dsh-univer-office](https://github.com/dream-num/dsh-univer-office) - Create, edit, inspect, and deliver spreadsheets, documents, presentations, databases, and canvases in DeepSeek Harness, with live preview and worktree review.
+- [dsh-qingagent](https://github.com/void2anything/dsh-qingagent) - Writing bridge to the open-source QingAgent client: the agent drafts and revises documents on a typeset rice-paper panel (mermaid, drawio, tables, KaTeX), every edit staged for review before it lands; requires the QingAgent desktop client running locally.
 
 ## Notifications & Channels
 

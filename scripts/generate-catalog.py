@@ -487,6 +487,7 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "ShadowQuill/DialogueContextBridge", "name": "DialogueContextBridge", "html_url": "https://github.com/ShadowQuill/DialogueContextBridge", "description": "Cross-session dialogue consensus snapshots with SQLite FTS5 and AES-256-GCM encryption"},
     {"full_name": "hellofuture2068/dsh-simple-view", "name": "dsh-simple-view", "html_url": "https://github.com/hellofuture2068/dsh-simple-view", "description": "Decluttered chat view with compact layout, bubbles, and concise-reply prompt control"},
     {"full_name": "FriendsHL/dsh-agent-factory", "name": "dsh-agent-factory", "html_url": "https://github.com/FriendsHL/dsh-agent-factory", "description": "Preset-aware agent composition with baseline and candidate experiments"},
+    {"full_name": "void2anything/dsh-qingagent", "name": "dsh-qingagent", "html_url": "https://github.com/void2anything/dsh-qingagent", "description": "Writing bridge to the open-source QingAgent client: drafts and revisions render on a typeset rice-paper panel, every edit staged for review before it lands"},
 ]
 
 
