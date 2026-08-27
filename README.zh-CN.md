@@ -681,6 +681,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Runtime & Operations
 
+- [Ghost011118/dsh-plugin-governor-extension](https://github.com/Ghost011118/dsh-plugin-governor-extension) - 基于补丁的 DSH 插件治理扩展：提供插件清单与白名单控制、策略试运行、运行时工具调用准入规则，并通过 dsh-autostart 实现受控重启和自动回滚。
 - [fakechris/dsh-harness-ops](https://github.com/fakechris/dsh-harness-ops) - DSH 自愈运维工具箱：官方每日快照 A/B 双槽轮换（旧插件自动迁移 + 验收门禁原子切换 + 一键回滚）、10s 守护自动拉起 web 并续接被打断的回合，以及 web/agent 全挂时的 out-of-band dsh-doctor（诊断 → 机械修复 → LLM 深度修复 → 拉起）。
 - [zoahdev/dsh-disk-audit](https://github.com/zoahdev/dsh-disk-audit) - dsh 数据目录磁盘占用审计：总大小、按目录拆分、最大文件、超大文件告警（会话日志可达数百 MB）与清理建议（CLI + `disk_audit` 工具）。
 - [zoahdev/dsh-cn-boot](https://github.com/zoahdev/dsh-cn-boot) - 国内网络引导：探测 npm/npmmirror/GitHub/HuggingFace/Gitee 与本地代理，推荐镜像/代理并生成 PowerShell + bash 引导脚本（CLI + `cn_boot` 工具）。
