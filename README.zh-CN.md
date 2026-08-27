@@ -467,6 +467,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [rapid-mlx-dsh-provider](https://github.com/raullenchai/rapid-mlx-dsh-provider) - Rapid-MLX（Apple 芯片本地推理服务）原生 provider：注册 `rapid-mlx` 的 LlmAdapter 路由，从服务端 `/v1/models` 读取模型信息（上下文窗口、推理解析器、能力）而非手写 settings.yaml，切换所服务的模型无需重新配置，且上下文压缩按真实上下文窗口计时。
 - [JohnXu22786/model-catalog](https://github.com/JohnXu22786/model-catalog) - 模型目录自动发现：从 OpenAI 兼容的 API 主机获取模型列表、价格与能力，归一化为可直接使用的配置。
 - [dsh-browser-vision](https://github.com/tristan-mcinnis/dsh-browser-vision) - 视觉浏览器工具：以 browser-use 通过 CDP 驱动真实 Chrome，并用 deepseek-v4-flash-vision-exp 读取页面，可识别 canvas 上绘制的文字、图片中烧录的文字与图表中的数值；支持按调用方提供的 JSON Schema 返回结构化结果，并统计每次运行的 token 成本
+- [openllmsh/dsh](https://github.com/openllmsh/dsh) - 将 DeepSeek Harness 接入 OpenLLM 网关：纯配置的 Cordis patch，为内置 pi-ai 适配器添加指向本地守护进程（`127.0.0.1:8787/v1`，dsh 侧不持有 API Key）的 `openllm` provider，并注册 `openllm mcp` stdio 服务（openllm、claude-context、supermemory 工具组）。
 
 ## Git & Engineering
 
