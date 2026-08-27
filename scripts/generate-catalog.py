@@ -532,6 +532,7 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "mykeura/dsh-minimalist-themes", "name": "dsh-minimalist-themes", "html_url": "https://github.com/mykeura/dsh-minimalist-themes", "description": "One-click collection of 18 minimalist color themes for DeepSeek Harness"},
     {"full_name": "pauloapoloni/dsh-pr-checks", "name": "dsh-pr-checks", "html_url": "https://github.com/pauloapoloni/dsh-pr-checks", "description": "Sidebar-footer status and progress display for GitHub Actions checks on open PRs"},
     {"full_name": "ljlj7149-cloud/dsh-cognitio", "name": "dsh-cognitio", "html_url": "https://github.com/ljlj7149-cloud/dsh-cognitio", "description": "Correction-driven cognitive architecture with layered memory, reminder sentinels, and approval arbitration"},
+    {"full_name": "caopu16/dsh-local-memory", "name": "dsh-local-memory", "html_url": "https://github.com/caopu16/dsh-local-memory", "description": "Local cross-session memory that captures turn summaries, injects recent memories, and searches historical memory on demand"},
 ]
 
 
@@ -545,6 +546,7 @@ TOPIC_MANUAL = {
     "0sour/dsh-plugins": "开发与工程",
     "0xsline/awesome-deepseek-harness": "开发与工程",
     "0xsline/dsh-spotlight": "界面与体验",
+    "caopu16/dsh-local-memory": "记忆与上下文",
     "cagierash123/dsh-obsidian-agent-wiki": "记忆与上下文",
     "eehcx/dsh-gentle-engram": "记忆与上下文",
     "mykeura/dsh-minimalist-themes": "界面与体验",
