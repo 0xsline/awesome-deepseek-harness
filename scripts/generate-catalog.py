@@ -558,6 +558,11 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "Bronier/dsh-web-search-so360", "name": "dsh-web-search-so360", "html_url": "https://github.com/Bronier/dsh-web-search-so360", "description": "Keyless 360 Search web-search provider for DeepSeek Harness"},
     {"full_name": "PolinniZhong/dsh-skill-trace", "name": "dsh-skill-trace", "html_url": "https://github.com/PolinniZhong/dsh-skill-trace", "description": "Local receipt-style trace of skills actually loaded and run by the agent"},
     {"full_name": "UnforgetMemory/um-dsh-websearch", "name": "um-dsh-websearch", "html_url": "https://github.com/UnforgetMemory/um-dsh-websearch", "description": "Exa web-search provider with enabled switch, credential-service key resolution, and bilingual settings"},
+    {"full_name": "haythamat/dsh-client-ui-rtl", "name": "dsh-client-ui-rtl", "html_url": "https://github.com/haythamat/dsh-client-ui-rtl", "description": "Right-to-left text direction for the DeepSeek Harness Web client"},
+    {"full_name": "a1303845406/dsh-sakura-theme", "name": "dsh-sakura-theme", "html_url": "https://github.com/a1303845406/dsh-sakura-theme", "description": "Day-sakura and night-sakura themes for DeepSeek Harness"},
+    {"full_name": "mldhao/dsh-conversation-strip", "name": "dsh-conversation-strip", "html_url": "https://github.com/mldhao/dsh-conversation-strip", "description": "Codex-inspired vertical conversation-turn rail for the Web UI"},
+    {"full_name": "falling-ts/dsh-web-ding", "name": "dsh-web-ding", "html_url": "https://github.com/falling-ts/dsh-web-ding", "description": "Browser-only end-of-agent-turn notification sound that also works with server deployments"},
+    {"full_name": "QChengW/dsh-conversation-shortcuts", "name": "dsh-conversation-shortcuts", "html_url": "https://github.com/QChengW/dsh-conversation-shortcuts", "description": "Conversation keyboard shortcuts for DeepSeek Harness Web"},
 ]
 
 
@@ -571,6 +576,11 @@ TOPIC_MANUAL = {
     "0sour/dsh-plugins": "开发与工程",
     "0xsline/awesome-deepseek-harness": "开发与工程",
     "0xsline/dsh-spotlight": "界面与体验",
+    "haythamat/dsh-client-ui-rtl": "界面与体验",
+    "a1303845406/dsh-sakura-theme": "界面与体验",
+    "mldhao/dsh-conversation-strip": "界面与体验",
+    "falling-ts/dsh-web-ding": "界面与体验",
+    "qchengw/dsh-conversation-shortcuts": "输入与提示词",
     "nzssm1/dsh-strategy-deployment-review": "测试与诊断",
     "ghost011118/dsh-plugin-governor-extension": "开发与工程",
     "loyalchiiina/dsh-font-enhancer": "界面与体验",

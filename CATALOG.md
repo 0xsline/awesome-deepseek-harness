@@ -1,7 +1,7 @@
 # 完整目录（自动生成）
 
 > 汇集 [dsh-external/hub](https://github.com/dsh-external/hub) 的 `catalog.json` 与 GitHub 公开 [dsh-plugin Topic](https://github.com/topics/dsh-plugin) 的全量生态索引 · 生成于 2026-08-27
-> 精选列表见 [README](README.md)；本页为公开生态全量索引（271 hub 仓库 + 1000 公开 topic 仓库 + 459 手动补充）
+> 精选列表见 [README](README.md)；本页为公开生态全量索引（271 hub 仓库 + 1000 公开 topic 仓库 + 464 手动补充）
 
 ## 💬 社区（1）
 
@@ -400,11 +400,11 @@
 | `dsh-edu-mistakes` | 教育版插件：错题本（edu_mistake_* 工具 + /mistake 命令，复习队列调度），数据存 $DSH_HOME/storages/edu/mistakes · `github:dsh-external/dsh-edu#HEAD&path:/packages/dsh-edu-mistakes` |
 | `dsh-edu-quiz` | 教育版插件：测验与刷题（edu_quiz_* 工具 + /quiz 命令，可配合 dsh-genui quiz 组件渲染），数据存 $DSH_HOME/storages/edu/quiz · `github:dsh-external/dsh-edu#HEAD&path:/packages/dsh-edu-quiz` |
 
-## 🌐 公开插件 Topic（1457）
+## 🌐 公开插件 Topic（1462）
 
-> 来自 GitHub 公开 [dsh-plugin Topic](https://github.com/topics/dsh-plugin)；共发现 1000 个仓库，另有 459 个为维护者手动补充，上方 hub 目录未覆盖的公开仓库列于此处。
+> 来自 GitHub 公开 [dsh-plugin Topic](https://github.com/topics/dsh-plugin)；共发现 1000 个仓库，另有 464 个为维护者手动补充，上方 hub 目录未覆盖的公开仓库列于此处。
 
-### 界面与体验（130）
+### 界面与体验（134）
 
 | 仓库 | 描述 |
 |---|---|
@@ -412,6 +412,7 @@
 | [0xsline/dsh-spotlight](https://github.com/0xsline/dsh-spotlight) | Keyboard-first command palette for DeepSeek Harness Web |
 | [147228/dsh-xiaoyao-skins](https://github.com/147228/dsh-xiaoyao-skins) | 夕小瑶 × DeepSeek Harness Web 皮肤合集、安装器与社区创作工具链 |
 | [6HOLLIS/DSH-Hiyuki-Frost-Sakura](https://github.com/6HOLLIS/DSH-Hiyuki-Frost-Sakura) | 带霜樱过渡与主题控件的沉浸式 DeepSeek Harness Web 双形态皮肤 |
+| [a1303845406/dsh-sakura-theme](https://github.com/a1303845406/dsh-sakura-theme) | Day-sakura and night-sakura themes for DeepSeek Harness |
 | [a805026135/dsh-constellation](https://github.com/a805026135/dsh-constellation) | Live plugin-universe constellation map with taxonomy, search, health diagnostics, and one-click operations |
 | [alexfengrui/dsh-client-ui-skin-real-madrid](https://github.com/alexfengrui/dsh-client-ui-skin-real-madrid) | Real Madrid dual-mode skin with dark stadium and light pinstripe themes |
 | [alingalingling/ui-status-label](https://github.com/alingalingling/ui-status-label) | 把你鲸鱼娘思考时的 deep diving 自定义成任意你想要的样子 |
@@ -435,10 +436,12 @@
 | [entireyu/dsh-webui-plus](https://github.com/entireyu/dsh-webui-plus) | Web UI enhancements with conversation anchors and archived-task features |
 | [Entity-Him/dsh-sky-skin](https://github.com/Entity-Him/dsh-sky-skin) | Sky: Children of the Light themed DSH Web skin with a glowing star map |
 | [exoticknight/dsh-theme-eink-retro](https://github.com/exoticknight/dsh-theme-eink-retro) | Paper-and-ink client-side theme with Balanced and Immersive modes |
+| [falling-ts/dsh-web-ding](https://github.com/falling-ts/dsh-web-ding) | Browser-only end-of-agent-turn notification sound that also works with server deployments |
 | [FAVKTOXIC/dsh-theme-liquid-glass](https://github.com/FAVKTOXIC/dsh-theme-liquid-glass) | DeepSeek Harness 的 Apple Liquid Glass 主题 |
 | [gameswu/dsh-plugin-background](https://github.com/gameswu/dsh-plugin-background) | dsh壁纸插件 |
 | [GitNoHup/macaron-theme](https://github.com/GitNoHup/macaron-theme) | Macaron glassmorphism theme with four palettes, gradients, and day-night state restore |
 | [GroupWork888/dsh-plugin-archived-sessions](https://github.com/GroupWork888/dsh-plugin-archived-sessions) | Read-only sidebar viewer for browsing archived sessions |
+| [haythamat/dsh-client-ui-rtl](https://github.com/haythamat/dsh-client-ui-rtl) | Right-to-left text direction for the DeepSeek Harness Web client |
 | [HeiGeAi/deepseek-harness-skin](https://github.com/HeiGeAi/deepseek-harness-skin) | DeepSeek Harness 换肤系统：21 套内置皮肤 + 一张图生成整套配色的自定义皮肤。数据源驱动，保对比度推导，构建期校验可读性。 |
 | [hellofuture2068/dsh-simple-view](https://github.com/hellofuture2068/dsh-simple-view) | Decluttered chat view with compact layout, bubbles, and concise-reply prompt control |
 | [HenryHwong/dsh-ui-turn-rail](https://github.com/HenryHwong/dsh-ui-turn-rail) | Turn-progress rail for the DeepSeek Harness Web GUI |
@@ -480,6 +483,7 @@
 | [mengzhangj/dsh-wallpaper](https://github.com/mengzhangj/dsh-wallpaper) | Desktop background wallpaper and system-font picker plugin |
 | [MichaelGong/dsh-session-hover-preview](https://github.com/MichaelGong/dsh-session-hover-preview) | Codex-style user-message navigation and hover preview for conversations |
 | [mjn96/dsh-rhine-theme](https://github.com/mjn96/dsh-rhine-theme) | 明日方舟莱茵生命美术风格的 DeepSeek Harness 皮肤主题 |
+| [mldhao/dsh-conversation-strip](https://github.com/mldhao/dsh-conversation-strip) | Codex-inspired vertical conversation-turn rail for the Web UI |
 | [mykeura/dsh-minimalist-themes](https://github.com/mykeura/dsh-minimalist-themes) | One-click collection of 18 minimalist color themes for DeepSeek Harness |
 | [Nagi-ovo/dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | 在 DSH 对话中生成交互式可视化｜Render model-generated interactive cards inside DSH conversations |
 | [nicecx/dsh-matrix-skin](https://github.com/nicecx/dsh-matrix-skin) | 适合夜间使用的 Matrix 深绿色 DSH Web 皮肤 |
@@ -581,7 +585,7 @@
 | [dsh-tui/dsh-tui](https://github.com/dsh-tui/dsh-tui) | Claude Code-style terminal UI for DeepSeek Harness agents, as an out-of-tree dsh plugin bundle |
 | [huiliyi37/dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) | 官方 DeepSeek Harness 的交互式终端 UI 插件：自研 ANSI 极简交互渲染、流式 Markdown/工具卡、16+ 主题、slash 命令与选择器、输入历史与本地偏好持久化、LSP 诊断、memory记忆，很丝滑的开发体验。 |
 
-### 输入与提示词（43）
+### 输入与提示词（44）
 
 | 仓库 | 描述 |
 |---|---|
@@ -613,6 +617,7 @@
 | [omdsh-dev/dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) | DSH Web 选中批注插件：选文字→批注→回车随消息发送；气泡隐藏批注块（零闪烁）；回复按 Annotation N 逐条对照（可悬浮芯片）。官方 bundle，零核心改动 |
 | [oneinitAI/dsh-buddy](https://github.com/oneinitAI/dsh-buddy) | 用户画像自适应表达技能：按对话动态校准回答深度、术语密度和步骤粒度 |
 | [PerryLink/dsh-composer-history](https://github.com/PerryLink/dsh-composer-history) | Terminal-style input history for the DeepSeek Harness web composer: edge-first arrows with exact draft/caret restore, browser-local persisted history, Ctrl+R reverse search, workspace recall - and sliding-context awareness (compaction summaries in recall/search, compaction notice with one-click /compact fill). |
+| [QChengW/dsh-conversation-shortcuts](https://github.com/QChengW/dsh-conversation-shortcuts) | Conversation keyboard shortcuts for DeepSeek Harness Web |
 | [qwert702/dsh-auto-translate](https://github.com/qwert702/dsh-auto-translate) | 英文回复自动翻译为中文，工具调用附中文注释，走独立请求且不进入会话上下文 |
 | [runfali/dsh-paperclip](https://github.com/runfali/dsh-paperclip) | 输入框文件上传与多格式 read_document 文档读取工具 |
 | [runfali/dsh-prompt-injector](https://github.com/runfali/dsh-prompt-injector) | Settings-managed prompt list injected into every turn as reliable context reminders |
@@ -1939,4 +1944,4 @@
 | [zuorn/Tydora](https://github.com/zuorn/Tydora) | Let Your Ideas Flow — Tydora is a modern desktop Markdown editor combining WYSIWYG editing, bidirectional links, mind maps, and an infinite canvas — empowering deep thinking and effortless expression. |
 
 ---
-*Generated 2026-08-27T06:49:40Z*
+*Generated 2026-08-27T08:49:02Z*
