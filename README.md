@@ -618,6 +618,7 @@ Management panel: Settings → Plugins.
 - [dsh-pdf](https://github.com/sunshine-lang/dsh-pdf) - PDF toolbox: extract text, metadata, and page ranges via pdfjs-dist (local, no API key).
 - [dsh-ui-whale](https://github.com/dsh-external/dsh-ui-whale) - Pixel whale companion (blink/tail/spout/hearts).
 - [dsh-muyu](https://github.com/liuwenji007/dsh-muyu) - Wooden-fish overlay in the Web client's lower-right: knock the whale for per-session merit; auto-knocks while the model thinks or streams.
+- [dsh-vibegap](https://github.com/ktao732084-arch/dsh-vibegap) - Vocabulary flashcards for agent wait time: a spelling card appears in the Web client lower-right after ~18s of agent activity and retreats when the session finishes or needs input; optional shared progress with the local VibeGap desktop app.
 - [dsh-pet](https://github.com/FlytoMAYDAY80/dsh-pet) - Desktop whale pet with live session state.
 - [dsh-desk-pet](https://github.com/anneheartrecord/dsh-desk-pet) - macOS desk pet in a real always-on-top window rather than a page widget: six states from local DSH, native right-click menu, and a bundled skill that turns one photo into a full eighteen-pose skin.
 - [dsh-pet-rs](https://github.com/dsh-external/dsh-pet-rs) - Desktop pet, Rust edition.
