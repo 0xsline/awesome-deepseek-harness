@@ -475,6 +475,7 @@ Management panel: Settings → Plugins.
 - [JohnXu22786/adversarial-review](https://github.com/JohnXu22786/adversarial-review) - Gavel-review: adversarial multi-perspective code review — parallel attack lenses, deterministic static sentinels, cross-lens merge/dedup, severity grading, suppression rules and review history; dsh tools + standalone CLI.
 - [dsh-plugin-cloud](https://github.com/AgentsDanceAI/deepseek-harness-cloud/tree/main/packages/dsh-plugin-cloud) - DSH Cloud gateway provider: device-authorized login writes a multi-model provider row (DeepSeek, GPT, Claude, Gemini and more) into the user config layer; works against the hosted service or a self-hosted deployment.
 - [dsh-plugin-rollout-scout](https://github.com/SpookySandwich/dsh-plugin-rollout-scout) - Detects which conversation model your account is being served: launches concurrent throwaway probe conversations, scores each streaming chain-of-thought by how its paragraphs open, and cancels probes that read as the older model within seconds.
+- [openllmsh/dsh](https://github.com/openllmsh/dsh) - Routes the harness through the OpenLLM gateway: a pure-config Cordis patch that adds an `openllm` provider to the in-box pi-ai adapter pointed at the local daemon (`127.0.0.1:8787/v1`, no API key held by dsh) and registers the `openllm mcp` stdio server (openllm, claude-context, supermemory tool groups).
 
 ## Git & Engineering
 
