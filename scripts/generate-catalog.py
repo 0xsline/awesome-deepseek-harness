@@ -563,6 +563,13 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "mldhao/dsh-conversation-strip", "name": "dsh-conversation-strip", "html_url": "https://github.com/mldhao/dsh-conversation-strip", "description": "Codex-inspired vertical conversation-turn rail for the Web UI"},
     {"full_name": "falling-ts/dsh-web-ding", "name": "dsh-web-ding", "html_url": "https://github.com/falling-ts/dsh-web-ding", "description": "Browser-only end-of-agent-turn notification sound that also works with server deployments"},
     {"full_name": "QChengW/dsh-conversation-shortcuts", "name": "dsh-conversation-shortcuts", "html_url": "https://github.com/QChengW/dsh-conversation-shortcuts", "description": "Conversation keyboard shortcuts for DeepSeek Harness Web"},
+    {"full_name": "xmnathan/dsh-skin-galactic-opera", "name": "dsh-skin-galactic-opera", "html_url": "https://github.com/xmnathan/dsh-skin-galactic-opera", "description": "Unofficial cinematic space-opera dark skin bundle for the DeepSeek Harness Web GUI"},
+    {"full_name": "FranklinZaneDurant/agent-discipline", "name": "agent-discipline", "html_url": "https://github.com/FranklinZaneDurant/agent-discipline", "description": "Repository-work-discipline bundle for AI coding agents with methodology prompts, artifact scaffolding, and compliance audit"},
+    {"full_name": "2877905731/dsh-think-autoexpand", "name": "dsh-think-autoexpand", "html_url": "https://github.com/2877905731/dsh-think-autoexpand", "description": "Keeps Think rows visible and automatically expanded during streaming while preserving collapsed tool cards"},
+    {"full_name": "ktao732084-arch/dsh-vibegap", "name": "dsh-vibegap", "html_url": "https://github.com/ktao732084-arch/dsh-vibegap", "description": "Vocabulary flashcards that appear during agent runs and retreat when they finish"},
+    {"full_name": "Missher12/dsh-project-ops", "name": "dsh-project-ops", "html_url": "https://github.com/Missher12/dsh-project-ops", "description": "Scoped project task discovery and execution receipts for DeepSeek Harness"},
+    {"full_name": "andrepontesmelo/moving-target", "name": "moving-target", "html_url": "https://github.com/andrepontesmelo/moving-target", "description": "Cold-start context that distills first prompts into a goal paragraph injected into every new session"},
+    {"full_name": "superkonka/dsh-poor-mode", "name": "dsh-poor-mode", "html_url": "https://github.com/superkonka/dsh-poor-mode", "description": "Provider-aware off-peak cost-saving agent preset with immediate or deferred task execution"},
 ]
 
 
@@ -576,6 +583,13 @@ TOPIC_MANUAL = {
     "0sour/dsh-plugins": "开发与工程",
     "0xsline/awesome-deepseek-harness": "开发与工程",
     "0xsline/dsh-spotlight": "界面与体验",
+    "xmnathan/dsh-skin-galactic-opera": "界面与体验",
+    "franklinzanedurant/agent-discipline": "开发与工程",
+    "2877905731/dsh-think-autoexpand": "界面与体验",
+    "ktao732084-arch/dsh-vibegap": "界面与体验",
+    "missher12/dsh-project-ops": "开发与工程",
+    "andrepontesmelo/moving-target": "记忆与上下文",
+    "superkonka/dsh-poor-mode": "模型与推理",
     "haythamat/dsh-client-ui-rtl": "界面与体验",
     "a1303845406/dsh-sakura-theme": "界面与体验",
     "mldhao/dsh-conversation-strip": "界面与体验",
