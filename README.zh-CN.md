@@ -275,6 +275,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-premium-themes](https://github.com/xiaoyanzi191/dsh-premium-themes) - 8 套精选配色方案与自定义调色板导入（名称+方案+种子色推导完整 token 映射），设置页「调色板」行，热插拔安装。
 - [dsh-session-pin](https://github.com/PerryLink/dsh-session-pin) - 把会话与工作区置顶到侧边栏顶部（每 pin 换色），另加导航组织器：boards、标签与保存视图、健康摘要与 /goto。
 - [RevolutionLA/dsh-dream-skin](https://github.com/RevolutionLA/dsh-dream-skin) - DSH Web 一键换肤插件：8 套原创主题、背景壁纸（透明度/模糊/渐变/URL）、每用户强调色、主题包导入导出/分享链接、收藏与随机，纯原生 token 系统。
+- [dsh-workspace-sort](https://github.com/Moonshile/moonshile-dsh-plugins) - 侧边栏工作区每日按最近活动排序一次，当天顺序稳定。
 
 ## Dashboards & Session UX
 
