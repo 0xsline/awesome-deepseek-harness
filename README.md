@@ -633,6 +633,7 @@ Management panel: Settings → Plugins.
 - [zoahdev/dsh-subscribe](https://github.com/zoahdev/dsh-subscribe) - Steam-style plugin marketplace: subscribe on the web, sync with one command into a dsh profile; 500+ community plugins with verified curation and a zero-dependency CLI.
 - [dsh-vibe-pack](https://github.com/LeemanCheung/dsh-vibe-pack) - Transactional data-only configuration pack manager with integrity, ownership, preview, diff, and rollback safeguards.
 - [Luaphes/dsh-plugins-market](https://github.com/Luaphes/dsh-plugins-market) - Plugin market inside the DSH Web UI: crawls the dsh-plugin topic with noise filtering, curated marks, ranking and one-click install (dsh.bundle-verified).
+- [dsh-blackjack](https://github.com/yul761/dsh-blackjack) - Blackjack in the conversation: free daily hands win CHIP, redeemable one-way into model credit that a fallback route spends only when your own provider quota runs out; operator-funded pool, with the server and its audited ledger open source in the same repo.
 
 ## Plugin Ecosystem & Development
 
