@@ -1,7 +1,7 @@
 # 完整目录（自动生成）
 
 > 汇集 [dsh-external/hub](https://github.com/dsh-external/hub) 的 `catalog.json` 与 GitHub 公开 [dsh-plugin Topic](https://github.com/topics/dsh-plugin) 的全量生态索引 · 生成于 2026-08-27
-> 精选列表见 [README](README.md)；本页为公开生态全量索引（271 hub 仓库 + 1000 公开 topic 仓库 + 434 手动补充）
+> 精选列表见 [README](README.md)；本页为公开生态全量索引（271 hub 仓库 + 1000 公开 topic 仓库 + 438 手动补充）
 
 ## 💬 社区（1）
 
@@ -400,11 +400,11 @@
 | `dsh-edu-mistakes` | 教育版插件：错题本（edu_mistake_* 工具 + /mistake 命令，复习队列调度），数据存 $DSH_HOME/storages/edu/mistakes · `github:dsh-external/dsh-edu#HEAD&path:/packages/dsh-edu-mistakes` |
 | `dsh-edu-quiz` | 教育版插件：测验与刷题（edu_quiz_* 工具 + /quiz 命令，可配合 dsh-genui quiz 组件渲染），数据存 $DSH_HOME/storages/edu/quiz · `github:dsh-external/dsh-edu#HEAD&path:/packages/dsh-edu-quiz` |
 
-## 🌐 公开插件 Topic（1432）
+## 🌐 公开插件 Topic（1436）
 
-> 来自 GitHub 公开 [dsh-plugin Topic](https://github.com/topics/dsh-plugin)；共发现 1000 个仓库，另有 434 个为维护者手动补充，上方 hub 目录未覆盖的公开仓库列于此处。
+> 来自 GitHub 公开 [dsh-plugin Topic](https://github.com/topics/dsh-plugin)；共发现 1000 个仓库，另有 438 个为维护者手动补充，上方 hub 目录未覆盖的公开仓库列于此处。
 
-### 界面与体验（124）
+### 界面与体验（125）
 
 | 仓库 | 描述 |
 |---|---|
@@ -521,6 +521,7 @@
 | [wangyuanchuan2022/dsh-mobile-ux](https://github.com/wangyuanchuan2022/dsh-mobile-ux) | Zero-config responsive mobile UX improvements for DSH Web |
 | [WJNCT55555/dsh-crt-theme](https://github.com/WJNCT55555/dsh-crt-theme) | Dual-palette CRT terminal theme for the DeepSeek Harness Web |
 | [WSL043/dsh-native-image-viewer](https://github.com/WSL043/dsh-native-image-viewer) | Native image zoom, pan, download, gallery, and region-note viewer for DeepSeek Harness |
+| [wtksana/dsh-font-plugin](https://github.com/wtksana/dsh-font-plugin) | Custom font plugin for DeepSeek Harness |
 | [xain/ui-beep](https://github.com/xain/ui-beep) | Agent-heartbeat sonification plugin for the DeepSeek Harness Web surface |
 | [xusuyang030218/dsh-preview-ui](https://github.com/xusuyang030218/dsh-preview-ui) | 浏览器内工作区文件树、多格式预览、在线编辑、版本历史与搜索 |
 | [yangdongzhen590/dsh-knj-menu](https://github.com/yangdongzhen590/dsh-knj-menu) | 第三方菜单管理器：汇集插件菜单项并支持折叠和置顶 |
@@ -753,7 +754,7 @@
 | [yejiming/dsh-ppt](https://github.com/yejiming/dsh-ppt) | PPT design preset and editable PPTX production tools |
 | [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots). One-command install, no Python, image turns work like ordinary tool-calling turns. |
 
-### 模型与推理（47）
+### 模型与推理（48）
 
 | 仓库 | 描述 |
 |---|---|
@@ -782,6 +783,7 @@
 | [niushuanan/dsh-model-usage](https://github.com/niushuanan/dsh-model-usage) | Provider quota, period, and refresh-state inspection loaded only when opened |
 | [niushuanan/dsh-token-overview](https://github.com/niushuanan/dsh-token-overview) | Computer-wide token, cache, call, active-period, and estimated-cost overview across AI clients |
 | [Nyzeep/dsh-thinking-level](https://github.com/Nyzeep/dsh-thinking-level) | Reasoning-effort selector that shows only model-declared levels and prefers max by default |
+| [Oliver0804/dsh-openrouter-monitor](https://github.com/Oliver0804/dsh-openrouter-monitor) | OpenRouter balance, per-key spend, alert thresholds, and trend charts below the composer |
 | [omdsh-dev/dsh-advisor](https://github.com/omdsh-dev/dsh-advisor) | Advisor - Pair a second model that passively reviews each turn and injects notes.  搭配一个会在每轮对话被动注入见解和审查的副模型。 |
 | [omdsh-dev/dsh-llm-fallbacks](https://github.com/omdsh-dev/dsh-llm-fallbacks) | An dsh plugin for role-based LLM retry&fallback strategy. 基于角色的模型重试备用策略插件 |
 | [Player-MINEPIG/dsh-llm-codex-oauth](https://github.com/Player-MINEPIG/dsh-llm-codex-oauth) | 在 dsh（DeepSeek Harness）里使用你的 ChatGPT / Codex 订阅。插件通过 OpenAI Codex 的 OAuth 流程登录 ChatGPT 账号，把订阅额度暴露成 dsh 的 `codex-oauth` 模型提供方。 |
@@ -969,11 +971,12 @@
 | [zhou1736948757-cpu/dsh-auto-continue](https://github.com/zhou1736948757-cpu/dsh-auto-continue) | Automatically continues replies cut off by output-token limits |
 | [ZK-Andy/dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) | Continual self-evolution plugin for DeepSeek Harness: versioned, auditable, rollback-safe harness state refined from session trajectories, with a benchmark-driven validation loop. |
 
-### 开发与工程（136）
+### 开发与工程（138）
 
 | 仓库 | 描述 |
 |---|---|
 | [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness) | DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure from dsh-external/hub and the public dsh-plugin topic. |
+| [173787247/dsh-wsl-open](https://github.com/173787247/dsh-wsl-open) | Open WSL Linux paths mentioned in chat from Windows |
 | [aa2246740/pstack-dsh](https://github.com/aa2246740/pstack-dsh) | DeepSeek Harness port of official pstack playbooks and principles |
 | [AdamPlatin123/awesome-dsh-plugins](https://github.com/AdamPlatin123/awesome-dsh-plugins) | DSH 插件雷达与精选榜：多路自动发现 9000+ 候选，容器真实安装路径运行级实测（四档判定），精选 Top 50 · 11 类人工策展，全量索引 PLUGINS-ALL.md，自动更新。 |
 | [Alex-Yanggg/awesome-DSH-plugin](https://github.com/Alex-Yanggg/awesome-DSH-plugin) | A meticulously curated list of useful plugins, extensions, tools and development resources built for DSH, covering productivity enhancement, functional expansion, debugging utilities and custom development modules. |
@@ -1075,6 +1078,7 @@
 | [SepineTam/mcp-for-stata](https://github.com/SepineTam/mcp-for-stata) | A MCP server for Stata to integrate Stata into your agent. |
 | [shaomingbo/dsh-open-in-editor](https://github.com/shaomingbo/dsh-open-in-editor) | Opens DSH Web-produced files in a configurable local macOS IDE |
 | [ShinonomeAya/dsh-git-chain](https://github.com/ShinonomeAya/dsh-git-chain) | Cursor-style Git commit-chain graph with SVG lanes, commit details, diffs, filtering, and guarded branch switching |
+| [Shonean/dsh-vscode](https://github.com/Shonean/dsh-vscode) | Enhanced VSCode extension and Desktop app with inline diffs, mentions, selection context, approvals, and global shortcuts |
 | [shuguang1994/project-blueprint](https://github.com/shuguang1994/project-blueprint) | Make any project AI-agent-ready in one command. Adaptive tech stack detection (7 languages × 14 frameworks × 61 components), auto-generates AGENTS.md, docs skeleton, CI/CD, and testing infrastructure. 一句话让任何项目具备 AI 开发能力。 |
 | [Shyboy0499/dsh-git-tools](https://github.com/Shyboy0499/dsh-git-tools) | Local Git status, diff, log, and commit tools for DeepSeek Harness |
 | [sjh9714/dsh-movein](https://github.com/sjh9714/dsh-movein) | Migrate Claude Code setup into DeepSeek Harness. Import skills, commands, agents, hooks, permission rules, and MCP config. Codex and OpenCode supported. |
@@ -1916,4 +1920,4 @@
 | [zuorn/Tydora](https://github.com/zuorn/Tydora) | Let Your Ideas Flow — Tydora is a modern desktop Markdown editor combining WYSIWYG editing, bidirectional links, mind maps, and an infinite canvas — empowering deep thinking and effortless expression. |
 
 ---
-*Generated 2026-08-27T02:05:24Z*
+*Generated 2026-08-27T02:49:00Z*

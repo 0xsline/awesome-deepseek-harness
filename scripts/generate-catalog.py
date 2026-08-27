@@ -533,6 +533,10 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "pauloapoloni/dsh-pr-checks", "name": "dsh-pr-checks", "html_url": "https://github.com/pauloapoloni/dsh-pr-checks", "description": "Sidebar-footer status and progress display for GitHub Actions checks on open PRs"},
     {"full_name": "ljlj7149-cloud/dsh-cognitio", "name": "dsh-cognitio", "html_url": "https://github.com/ljlj7149-cloud/dsh-cognitio", "description": "Correction-driven cognitive architecture with layered memory, reminder sentinels, and approval arbitration"},
     {"full_name": "caopu16/dsh-local-memory", "name": "dsh-local-memory", "html_url": "https://github.com/caopu16/dsh-local-memory", "description": "Local cross-session memory that captures turn summaries, injects recent memories, and searches historical memory on demand"},
+    {"full_name": "173787247/dsh-wsl-open", "name": "dsh-wsl-open", "html_url": "https://github.com/173787247/dsh-wsl-open", "description": "Open WSL Linux paths mentioned in chat from Windows"},
+    {"full_name": "wtksana/dsh-font-plugin", "name": "dsh-font-plugin", "html_url": "https://github.com/wtksana/dsh-font-plugin", "description": "Custom font plugin for DeepSeek Harness"},
+    {"full_name": "Oliver0804/dsh-openrouter-monitor", "name": "dsh-openrouter-monitor", "html_url": "https://github.com/Oliver0804/dsh-openrouter-monitor", "description": "OpenRouter balance, per-key spend, alert thresholds, and trend charts below the composer"},
+    {"full_name": "Shonean/dsh-vscode", "name": "dsh-vscode", "html_url": "https://github.com/Shonean/dsh-vscode", "description": "Enhanced VSCode extension and Desktop app with inline diffs, mentions, selection context, approvals, and global shortcuts"},
 ]
 
 
@@ -546,6 +550,10 @@ TOPIC_MANUAL = {
     "0sour/dsh-plugins": "开发与工程",
     "0xsline/awesome-deepseek-harness": "开发与工程",
     "0xsline/dsh-spotlight": "界面与体验",
+    "173787247/dsh-wsl-open": "开发与工程",
+    "wtksana/dsh-font-plugin": "界面与体验",
+    "oliver0804/dsh-openrouter-monitor": "模型与推理",
+    "shonean/dsh-vscode": "开发与工程",
     "caopu16/dsh-local-memory": "记忆与上下文",
     "cagierash123/dsh-obsidian-agent-wiki": "记忆与上下文",
     "eehcx/dsh-gentle-engram": "记忆与上下文",
