@@ -565,7 +565,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Office & Documents
 
-- [dream-num/dsh-univer-office](https://github.com/dream-num/dsh-univer-office) - 在 DeepSeek Harness 中创建、编辑、检查和交付表格、文档、演示文稿、多维表格和画布，支持实时预览与 worktree 审阅。
+- [dream-num/dsh-univer-office](https://github.com/dream-num/dsh-univer-office) - 为 DeepSeek Harness 打造一个真正的办公环境。Univer Office 插件将电子表格、文档、幻灯片、画布、多维表格等汇聚到同一个运行时——数据互联、修改经过校验、变更按版本管理，并以隔离工作树支持多 Agent 协作。
 
 ## Notifications & Channels
 
