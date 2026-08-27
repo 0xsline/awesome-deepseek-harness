@@ -615,6 +615,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-pdf](https://github.com/sunshine-lang/dsh-pdf) - PDF 工具箱：基于 pdfjs-dist 提取文本、元数据与页码范围（本地解析，无需 API key）。
 - [dsh-ui-whale](https://github.com/dsh-external/dsh-ui-whale) - 像素鲸鱼伙伴（眨眼/摆尾/喷水/爱心）
 - [dsh-muyu](https://github.com/liuwenji007/dsh-muyu) - Web 右下角电子木鱼：点头记本会话功德；模型思考或流式输出时会自动敲。
+- [dsh-vibegap](https://github.com/ktao732084-arch/dsh-vibegap) - Agent 等待间隙背单词:agent 持续运行约 18 秒后 Web 右下角浮现拼写单词卡,会话完成或等待输入时自动收起;可与本机 VibeGap 桌面端共享词书与进度。
 - [dsh-pet](https://github.com/FlytoMAYDAY80/dsh-pet) - 桌面小鲸鱼，实时感知会话状态
 - [dsh-desk-pet](https://github.com/anneheartrecord/dsh-desk-pet) - 用真的置顶窗口而不是页面挂件实现的 macOS 桌宠：六种状态跟着本地 DSH 走，原生右键菜单，自带的 skill 把一张照片变成整套十八个姿势的皮肤。
 - [dsh-pet-rs](https://github.com/dsh-external/dsh-pet-rs) - 桌宠 Rust 版
