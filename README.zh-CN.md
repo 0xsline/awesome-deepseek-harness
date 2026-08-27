@@ -415,6 +415,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-antigravity](https://github.com/LiZhenNet/dsh-antigravity) - Google Antigravity / Cloud Code Assist 模型提供者插件：支持 Web OAuth 登录、实时额度同步、精选 11 个 Base 模型与动态思考档位路由。
 - [JohnXu22786/browser-automation](https://github.com/JohnXu22786/browser-automation) - Web Bridge：面向 dsh 的浏览器自动化 MCP 服务器——真实浏览器导航、点击、填表、截图、JS 执行，由无障碍树快照驱动。
 - [JohnXu22786/computer-control](https://github.com/JohnXu22786/computer-control) - 面向 dsh 的桌面控制：屏幕捕获、指针/键盘注入、无障碍树语义操作，紧急停止、允许/拒绝规则、确认流程与空闲待机。
+- [harness-unity-bridge](https://github.com/WarrenMondeville/harness-unity-bridge) - 基于文件协议的桥接器：让 DeepSeek Harness 控制 Unity Editor——运行 EditMode/PlayMode 测试、编译脚本、刷新资源、读取控制台日志、控制 Play Mode 与构建——由确定性 Python CLI、Unity UPM 包与可安装的 DSH 技能（`unity-bridge`）组成。
 
 ## Models & Inference
 
