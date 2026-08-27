@@ -721,6 +721,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [ClawMetry](https://github.com/vivekchand/clawmetry) - 本地零配置仪表盘：读取 dsh 会话日志，展示会话记录、token 用量、成本与工具调用。
 - [Zn-Dk/dsh-session-repair](https://github.com/Zn-Dk/dsh-session-repair) - 诊断并安全修复损坏的 DSH 会话历史：raw zstd/JSONL 工件校验（header、seq、tool-call ID、turn/step 闭合）、空 tool-call ID 链的确定性修复、单槽 pre-repair 备份与恢复、审计记录。
 - [JohnXu22786/hooks-adapter](https://github.com/JohnXu22786/hooks-adapter) - 通用 hooks 兼容层：在 dsh 上运行 Claude Code / Codex / opencode 配置中声明的 hooks。
+- [maxmilian/dsh-grafana-query](https://github.com/maxmilian/dsh-grafana-query) - 面向 Grafana 的只读工具，经数据源代理：实例健康、数据源列表、instant 与 range PromQL 查询、当前告警状态与已配置的告警规则。
+- [maxmilian/dsh-sentry](https://github.com/maxmilian/dsh-sentry) - 面向 Sentry 的只读工具：项目列表、议题搜索与详情，以及最新或指定 event 的裁剪堆栈——局部变量、请求数据与疑似机密的 tag 会被移除。
 ## Domain & Specialist Skills
 
 - [dsh-fund-research](https://github.com/PerryLink/dsh-fund-research) - 中国公募基金确定性研究报告：公开源数据采集（天天基金/东方财富）、纯函数指标计算（业绩拆解/持仓穿透/风格归因/经理画像），版本化报告附逐数字可回溯源快照的附录。
@@ -761,6 +763,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [dsh-industry-research](https://github.com/PerryLink/dsh-industry-research) - 行业/公司研究领域包：industry_map 产业链建图、industry_track 经 ctx.web 的公开源政策动态跟踪、company_scan 基于用户数据文件的公司速览卡、industry_report 研究报告（可选 ctx.researchReport 引擎封存桥，缺席时内置降级渲染），附两个研究方法论技能。
 - [dsh-data-quality](https://github.com/PerryLink/dsh-data-quality) - 确定性的数据画像、清洗与校验：data_profile / data_clean / data_verify 工具，外加冻结的跨插件 verifyCitations 引用核验契约，报告持久化到存储域。
+- [maxmilian/dsh-odoo](https://github.com/maxmilian/dsh-odoo) - 经 JSON-RPC 的 Odoo 只读工具：服务器信息、模型字段自省，以及白名单模型上的受限 search_read。草稿创建工具需显式开启 allowWrite 才会注册。
 ## Tools & Utilities
 
 - [zilliztech/dsh-milvus](https://github.com/zilliztech/dsh-milvus) - 只读 DSH Web 插件，可在对话中检查和搜索 Milvus 或 Zilliz Cloud Collection，支持标量、BM25、稠密向量与混合查询。

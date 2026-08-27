@@ -723,6 +723,8 @@ Management panel: Settings → Plugins.
 - [dsh-fast](https://github.com/PerryLink/dsh-fast) - Read-only performance diagnostics: session load timing, spill hits, compaction stats, context-injection volume, and cache-hit rate via the /fast command and fast_report tool, sampled asynchronously off the model path.
 - [ClawMetry](https://github.com/vivekchand/clawmetry) - Local zero-config dashboard that reads dsh session logs and shows transcripts, token usage, cost, and tool calls.
 - [Zn-Dk/dsh-session-repair](https://github.com/Zn-Dk/dsh-session-repair) - Diagnose and safely repair corrupted DSH session history: raw zstd/JSONL artifact validation (header, seq, tool-call IDs, turn/step closure), deterministic repair of empty tool-call ID chains, single-slot pre-repair backup + restore, and an audit trail.
+- [maxmilian/dsh-grafana-query](https://github.com/maxmilian/dsh-grafana-query) - Read-only Grafana tools over the data source proxy: instance health, data sources, instant and range PromQL queries, current alert state, and provisioned alert rules.
+- [maxmilian/dsh-sentry](https://github.com/maxmilian/dsh-sentry) - Read-only Sentry tools: project listing, issue search and detail, and the latest or a specific event with a trimmed stacktrace that drops local variables, request data, and secret-looking tags.
 ## Domain & Specialist Skills
 
 - [dsh-fund-research](https://github.com/PerryLink/dsh-fund-research) - Deterministic research reports for Chinese public mutual funds: public-source data collection (Tiantian Fund/Eastmoney), pure-function metrics (performance decomposition, holdings penetration, style attribution, manager profile), and versioned reports with a per-number snapshot traceability appendix.
@@ -763,6 +765,7 @@ Management panel: Settings → Plugins.
 
 - [dsh-industry-research](https://github.com/PerryLink/dsh-industry-research) - Industry and company research domain pack: industry_map chain maps, public-source policy/news tracking over ctx.web (industry_track), company_scan cards from user data files, and industry_report with an optional ctx.researchReport sealing bridge and a builtin-fallback renderer, plus two methodology skills.
 - [dsh-data-quality](https://github.com/PerryLink/dsh-data-quality) - Deterministic data profiling, cleaning, and verification: data_profile / data_clean / data_verify tools plus a frozen cross-plugin verifyCitations citation-checking contract, with durable reports in a storage domain.
+- [maxmilian/dsh-odoo](https://github.com/maxmilian/dsh-odoo) - Read-only Odoo tools over JSON-RPC: server info, model field introspection, and a restricted search_read on an allow list of models. A draft-create tool is registered only when allowWrite is enabled.
 ## Tools & Utilities
 
 - [zilliztech/dsh-milvus](https://github.com/zilliztech/dsh-milvus) - Read-only DSH Web plugin for inspecting and searching Milvus or Zilliz Cloud collections from chat, including scalar, BM25, dense, and hybrid queries.
