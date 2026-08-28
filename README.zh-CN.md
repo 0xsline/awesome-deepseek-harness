@@ -610,6 +610,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 ## Fun & Lifestyle
 
 - [dsh-whale-companion](https://github.com/LeemanCheung/dsh-whale-companion) - 可拖拽的鲸鱼伙伴，提供本地成长、成就、皮肤和隐私安全的活动统计。
+- [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) - 元气鲸鱼娘桌宠：摸头养成、工作状态联动、494 条台词与 30 项成就，自带设置面板，全本地、零遥测。
 - [dsh-clippy](https://github.com/sjh9714/clippy-harness) - Clippy 复活为办公室助理宠物：对真实 agent 状态做出反应，失败回合弹出经典「非法操作」对话框。
 - [dsh-agent-rp](https://github.com/dsh-external/dsh-agent-rp) - SillyTavern 迁移与下一代 DSH Agent RP。
 - [dsh-emoji](https://github.com/dsh-external/dsh-emoji) - emoji 插件（cordis）。
