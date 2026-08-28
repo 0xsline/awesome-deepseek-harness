@@ -530,6 +530,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-auto-review](https://github.com/PerryLink/dsh-auto-review) - 审批链上的第二模型 AI 自动审查：只读审查子代理返回带理由的 allow/deny 结构化裁决，默认 fail-closed。
 - [dsh-permission-rules](https://github.com/PerryLink/dsh-permission-rules) - 声明式 allow/deny/ask 权限规则：在 tools/pre-execute 瀑布上匹配工具名、参数、工作区路径与 agent 身份，带会话日志审计、干跑模式与热重载。
 - [dsh-orcana](https://github.com/Leo-Ayh-Oday/dsh-orcana) - 运行时治理组合包：零进展转向、证据时效完成门、能力披露，以及带资源限制、网络隔离、fail-closed 降级与有界审计日志的 Linux 沙箱加固。
+- [odai-dsh-plugin](https://github.com/orziz/odai/tree/main/dsh/plugin) - 面向整个 DSH profile 的治理与责任路由，覆盖意图对齐、授权与安全边界、范围化记忆、上下文压缩和基于证据的交付门禁；兼容 DSH 0.1.1-rc.2。
 - [dsh-workflow-isolate](https://github.com/Linxiushen/dsh-workflow-isolate) - 面向 DSH 0.1.0-rc.7 的替代 WorkflowEngine provider：每次运行都新建 QuickJS/WASM 运行时，仅以 JSON 桥接宿主，并限制内存、执行时限与子 Agent 扇出。
 - [dsh-sfw](https://github.com/dsh-external/dsh-sfw) - 安全过滤
 - [MicroMilo/upstream-radar](https://github.com/MicroMilo/upstream-radar) - 面向 DSH 插件的常驻依赖安全监控：追踪实际安装路径、OSV 漏洞、npm 发布与兼容性信号，并路由给了解项目的 DSH Agent。
