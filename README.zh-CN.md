@@ -106,6 +106,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [Knotline / 运筹](https://github.com/MrMaii/knotline) - DSH 可视化项目地图：用诉求、Agent、Skill、积压池、审批池和定时触发组合并持久化自定义 Agent 工作流。
 - [cleverer-dsh](https://github.com/Classicoke/cleverer-dsh) - DSH 执行纪律套件：拦截同参重试、强制反思、约束待办执行、记忆查重，并将重复经验沉淀为技能（11 个插件 + 6 个技能）。
 - [february2015/dsh-taskswarm](https://github.com/february2015/dsh-taskswarm) - TaskPlane 的 DSH 移植版：按依赖分波、多 lane 并行执行（git worktree 隔离），任务包 + 跨模型评审 + 崩溃可恢复。
+- [hongyue0721/dsh-kimicode-swarm](https://github.com/hongyue0721/dsh-kimicode-swarm) - Kimi Code Swarm 风格的批量并行子 Agent 调度：`swarm_batch` 工具把互不依赖的子任务批量派发给真实子 Agent，两阶段自适应并发（爬坡 + 撞限流指数退避并自动收缩/恢复），聊天内 SSE 实时进度流，并支持 `resume_agent_ids` 断点续做。
 - [timwhitez/dsh-self-evolving](https://github.com/timwhitez/dsh-self-evolving) - 证据优先、可崩溃恢复的 DSH 自进化引擎：有界生成 Cordis 插件候选，经一次性真实 Loader 隔离准入，Harbor 评估，并保存可审计的日志化谱系。
 - [Saktawdi/dsh-ha-orchestrator](https://github.com/Saktawdi/dsh-ha-orchestrator) - 模型高可用故障回退（隔离/熔断/探测恢复）与子智能体编排（fanout/pipeline/supervisor），附带双语设置界面。
 - [dsh-background-agents](https://github.com/PerryLink/dsh-background-agents) - 官方子代理接缝上的持久化后台子代理：任意会话中启动，Web 侧边栏看进度、随时留言与打断，支持按子代理限定工具、人格与委托深度。
