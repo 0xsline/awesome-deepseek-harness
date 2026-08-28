@@ -469,6 +469,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [JohnXu22786/model-catalog](https://github.com/JohnXu22786/model-catalog) - 模型目录自动发现：从 OpenAI 兼容的 API 主机获取模型列表、价格与能力，归一化为可直接使用的配置。
 - [dsh-browser-vision](https://github.com/tristan-mcinnis/dsh-browser-vision) - 视觉浏览器工具：以 browser-use 通过 CDP 驱动真实 Chrome，并用 deepseek-v4-flash-vision-exp 读取页面，可识别 canvas 上绘制的文字、图片中烧录的文字与图表中的数值；支持按调用方提供的 JSON Schema 返回结构化结果，并统计每次运行的 token 成本
 - [openllmsh/dsh](https://github.com/openllmsh/dsh) - 将 DeepSeek Harness 接入 OpenLLM 网关：纯配置的 Cordis patch，为内置 pi-ai 适配器添加指向本地守护进程（`127.0.0.1:8787/v1`，dsh 侧不持有 API Key）的 `openllm` provider，并注册 `openllm mcp` stdio 服务（openllm、claude-context、supermemory 工具组）。
+- [lynkr-dsh-plugin](https://github.com/veerareddyvishal144/lynkr-dsh-plugin) - 将 Lynkr（一个自托管的多提供商分级路由 LLM 网关）注册为自定义 OpenAI 兼容 provider：根据每个请求的实际难度分类，并路由到能胜任该任务的最便宜模型，覆盖 15+ 提供商（Anthropic、OpenAI、Azure、Bedrock、Vertex、OpenRouter、Ollama、DeepSeek 等）。
 
 ## Git & Engineering
 
