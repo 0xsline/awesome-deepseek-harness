@@ -770,6 +770,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [maxmilian/dsh-odoo](https://github.com/maxmilian/dsh-odoo) - 经 JSON-RPC 的 Odoo 只读工具：服务器信息、模型字段自省，以及白名单模型上的受限 search_read。草稿创建工具需显式开启 allowWrite 才会注册。
 ## Tools & Utilities
 
+- [dsh-tray](https://github.com/liulifu/dsh-tray) - Windows 系统托盘守护工具：启动/停止/重启 DSH 服务，支持多 profile 端口绑定、快照式快速恢复、插件启停、SQLite 版本台账，以及自动发现加载失败插件后禁用并恢复 DSH 的客户端哨兵。
+
 - [zilliztech/dsh-milvus](https://github.com/zilliztech/dsh-milvus) - 只读 DSH Web 插件，可在对话中检查和搜索 Milvus 或 Zilliz Cloud Collection，支持标量、BM25、稠密向量与混合查询。
 
 - [zoahdev/dsh-discussions-radar](https://github.com/zoahdev/dsh-discussions-radar) - 官方 GitHub Discussions 雷达：列出/筛选/搜索官方讨论区（Ideas/Q&A/Show Your Plugins!/General/Announcements）（CLI + `discussions_radar` 工具）。

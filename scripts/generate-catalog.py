@@ -570,6 +570,7 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "Missher12/dsh-project-ops", "name": "dsh-project-ops", "html_url": "https://github.com/Missher12/dsh-project-ops", "description": "Scoped project task discovery and execution receipts for DeepSeek Harness"},
     {"full_name": "andrepontesmelo/moving-target", "name": "moving-target", "html_url": "https://github.com/andrepontesmelo/moving-target", "description": "Cold-start context that distills first prompts into a goal paragraph injected into every new session"},
     {"full_name": "superkonka/dsh-poor-mode", "name": "dsh-poor-mode", "html_url": "https://github.com/superkonka/dsh-poor-mode", "description": "Provider-aware off-peak cost-saving agent preset with immediate or deferred task execution"},
+    {"full_name": "Sutera-Diffusus/dsh-whale-musume", "name": "dsh-whale-musume", "html_url": "https://github.com/Sutera-Diffusus/dsh-whale-musume", "description": "Whale-girl desktop pet for the DSH Web UI with local-first growth, work-state poses, dialogue, and achievements"},
 ]
 
 
@@ -583,6 +584,7 @@ TOPIC_MANUAL = {
     "0sour/dsh-plugins": "开发与工程",
     "0xsline/awesome-deepseek-harness": "开发与工程",
     "0xsline/dsh-spotlight": "界面与体验",
+    "sutera-diffusus/dsh-whale-musume": "趣味与生活",
     "xmnathan/dsh-skin-galactic-opera": "界面与体验",
     "franklinzanedurant/agent-discipline": "开发与工程",
     "2877905731/dsh-think-autoexpand": "界面与体验",
