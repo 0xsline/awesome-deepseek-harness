@@ -687,6 +687,7 @@ Management panel: Settings → Plugins.
 - [dsh-score](https://github.com/PerryLink/dsh-score) - Multi-dimensional quality scoring for DSH plugins: a five-dimension score card (install success, maintenance activity, docs completeness, security scan, protocol compliance) with /score command and leaderboard reports; install evidence reserves consumption of dsh-test-drive structured results.
 - [JohnXu22786/hooks-adapter](https://github.com/JohnXu22786/hooks-adapter) - Universal hooks compatibility layer: run hooks declared in Claude Code / Codex / opencode configs on dsh.
 - [dsh-blueprint](https://github.com/taltara/mddl-harness) - Blueprint tab for the Web client: reads the config the harness actually booted, lints the running tree, and writes a `cordis.patch.yml` overlay behind a marker-delimited block with snapshots and one-click restore. Refuses to write a row naming a package the profile cannot load, since that stops the harness booting rather than disabling one entry.
+- [LLYlab/DSHEssentialTools](https://github.com/LLYlab/DSHEssentialTools) - A permanent DeepSeek Harness plugin: project run & code viewer, program snapshots, a VTD conversation tree (edit / retry / branches) with message micro-versions, plus a DET feature manager and global plugin control.
 
 ## Runtime & Operations
 
