@@ -801,7 +801,7 @@ Management panel: Settings → Plugins.
 
 - [dsh-external/issues](https://github.com/dsh-external/issues) - Issue aggregation hub.
 - [dsh-meme-hub](https://github.com/the-beating-light-of-the-nail/dsh-meme-hub) - Curated navigation of community meme plugins (skins, desktop pets, mini-games), bilingual.
-- [DeepSeek Harness Handbook](https://github.com/sandbaseai/deepseek-harness-handbook) - 162 English-canonical, source-backed guides with 189 localized documents for running, extending, and troubleshooting DSH, plus a searchable [Awesome resource map](https://sandbaseai.github.io/deepseek-harness-handbook/awesome-deepseek-harness-resources.html), local-browser [Install Doctor](https://sandbaseai.github.io/deepseek-harness-handbook/install-doctor.html), and [Failure Router](https://sandbaseai.github.io/deepseek-harness-handbook/diagnose.html).
+- [DeepSeek Harness Handbook](https://github.com/sandbaseai/deepseek-harness-handbook) - 173 English-canonical, source-backed guides with 202 localized documents, an 82-resource Agent-first [Awesome resource map](https://sandbaseai.github.io/deepseek-harness-handbook/awesome-deepseek-harness-resources.html), local-browser [Install Doctor](https://sandbaseai.github.io/deepseek-harness-handbook/install-doctor.html), and [Failure Router](https://sandbaseai.github.io/deepseek-harness-handbook/diagnose.html).
 - [TeamoRouter](https://teamorouter.com/docs/install-deepseek-harness) - OpenAI-compatible endpoint with free DeepSeek V4 Pro/Flash daily quotas; point DEEPSEEK_BASE_URL at it, no payment info required.
 - [DeepSeek](https://deepseek.com) - Official site.
 
