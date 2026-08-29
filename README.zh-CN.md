@@ -115,6 +115,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [bpc-oss/dsh-fork-to-preset](https://github.com/bpc-oss/dsh-fork-to-preset) - 在对话页头将任意会话分叉到另一 Agent 预设：通过预设选择器创建挂载到所选预设的新子会话，并继承源会话已完成的轮次。
 - [qwert702/dsh-commander](https://github.com/qwert702/dsh-commander) — DSH 网页端指挥官模式插件：会话标题栏一键注入协议简报，解析模型回复中的任务块并自动执行，让策略层与执行层分离；通过徽章按钮激活/停用。
 
+- [dsh-product-subagent-console](https://github.com/Jokasa7/dsh-product-subagent-console) - 面向 DSH 对话的多 Agent 工作台：支持可编辑任务方案、真实子会话观测、计划与实际运行对照，以及基于证据的恢复预览；已使用 DSH 0.1.1-rc.2 测试。
+
 ## Context & Search
 
 - [zoahdev/dsh-github-intelligence](https://github.com/zoahdev/dsh-github-intelligence) - 只读开发者情报工具：16 大生态（GitHub、GitLab、Gitee、npm、PyPI、crates.io、Docker Hub、Hugging Face、Hacker News、Stack Overflow、Reddit、dev.to、RubyGems、NuGet、Go、ArXiv）统一查询，带 TTL 缓存，无需 API Key。
