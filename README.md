@@ -699,6 +699,7 @@ Management panel: Settings → Plugins.
 
 ## Runtime & Operations
 
+- [ianho7/dsh-port-inspector](https://github.com/ianho7/dsh-port-inspector) - Windows local development port attribution and safe handling for verified DSH services.
 - [Ghost011118/dsh-plugin-governor-extension](https://github.com/Ghost011118/dsh-plugin-governor-extension) - Patch-based DSH plugin governance extension: plugin inventory and whitelist controls, policy trials, runtime tool-call admission rules, plus supervised restart and automatic rollback through dsh-autostart.
 - [fakechris/dsh-harness-ops](https://github.com/fakechris/dsh-harness-ops) - Self-healing DSH ops toolbox: official daily-snapshot A/B slot rotation (auto plugin migration + acceptance-gated atomic switch + one-click rollback), a 10s watchdog that auto-relaunches the web and resumes interrupted turns, and an out-of-band dsh-doctor (diagnosis → mechanical repair → LLM deep repair → relaunch) when web and agent are both down.
 - [zoahdev/dsh-disk-audit](https://github.com/zoahdev/dsh-disk-audit) - Disk-usage audit for dsh data directories: total size, per-directory breakdown, largest files, oversized-file warnings (session logs can hit hundreds of MB) and cleanup suggestions (CLI + `disk_audit` tool).
