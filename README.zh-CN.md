@@ -91,6 +91,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-skill-mover](https://github.com/mjylfz/dsh-skill-mover) - 技能一键迁移：扫描 14 个 Agent 平台（Cursor、Claude Code、Codex、Hermes、Trae、Qoder 等）与共享层 ~/.agents，同名技能合并、软链接去重、可安全回滚。
 - [gewu-tools](https://github.com/nyantused-cpun/gewu-tools) - 面向纯文本 DSH 主脑的模型无关视觉审阅流水线：HTML 逐页截图 + 视觉子代理简报契约（gewu_prep），再把每条审阅发现定位回源码核验真值（gewu_locate）；已在 mimo-v2.5 与 qwen3.7-plus 上实测。
 - [dsh-plugin-hub](https://github.com/Noob-stupid/dsh-plugin-hub) - DSH 插件管理面板与市场：一键启用/停用、多源市场、静态索引（500+ 插件 / 300 技能）、技能安装/停用、套装一键装配、框架一键升级（在线安装 + 失败自动回滚）。
+- [dsh-gsd-bundle](https://github.com/jaaty/dsh-gsd-bundle) - 以宿主层 Cordis 插件重实现 Git Ship Done（opengsd-core）：用 spec/discuss/plan/execute/verify/ship 阶段循环替换默认 agent 循环。
 
 ## Agents & Orchestration
 
