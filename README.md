@@ -484,6 +484,7 @@ Management panel: Settings → Plugins.
 - [dsh-plugin-rollout-scout](https://github.com/SpookySandwich/dsh-plugin-rollout-scout) - Detects which conversation model your account is being served: launches concurrent throwaway probe conversations, scores each streaming chain-of-thought by how its paragraphs open, and cancels probes that read as the older model within seconds.
 - [openllmsh/dsh](https://github.com/openllmsh/dsh) - Routes the harness through the OpenLLM gateway: a pure-config Cordis patch that adds an `openllm` provider to the in-box pi-ai adapter pointed at the local daemon (`127.0.0.1:8787/v1`, no API key held by dsh) and registers the `openllm mcp` stdio server (openllm, claude-context, supermemory tool groups).
 - [lynkr-dsh-plugin](https://github.com/veerareddyvishal144/lynkr-dsh-plugin) - Registers Lynkr, a self-hosted tier-routing LLM gateway, as a custom OpenAI-compatible provider: classifies each request's difficulty and routes it to the cheapest model that can handle it, across 15+ providers (Anthropic, OpenAI, Azure, Bedrock, Vertex, OpenRouter, Ollama, DeepSeek, and more).
+- [dsh-fetch-timeouts](https://github.com/d3vmeh/dsh-fetch-timeouts) - Raises Node's HTTP headers/body timeouts for the whole DSH process (default 30 min, proxy-aware) so Ollama and LM Studio models that stay silent while thinking or generating a large tool call are not cut off at 5 minutes; replaces the node_modules undici patch.
 
 ## Git & Engineering
 
