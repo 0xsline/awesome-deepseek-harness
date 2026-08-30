@@ -786,6 +786,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-cron-parse](https://github.com/ZhijiangTang/dsh-cron-parse) - 解析 cron 表达式为人类可读描述，并预览未来运行时间。
 - [dsh-dead-links](https://github.com/ZhijiangTang/dsh-dead-links) - 检查 Markdown 文档中的失效 http(s) 链接。
 - [dsh-fetch-file](https://github.com/ZhijiangTang/dsh-fetch-file) - 将 URL 下载为工作区文件：路径围栏、流式、200MB 上限。
+- [dsh-file-convert](https://github.com/zzy-12345678/dsh-file-convert) - 本地优先的格式转换：覆盖图片、PDF（含 OCR 与实验性 PDF→DOCX）、数据、音视频与办公文档共 26 种转换；7 个工具，全本地执行，无需 API Key。
 - [dsh-fmt](https://github.com/ZhijiangTang/dsh-fmt) - JSON/YAML/TOML/SQL 格式化与校验，错误带行列定位。
 - [dsh-handoff](https://github.com/ZhijiangTang/dsh-handoff) - 将当前会话一键导出为确定性 Markdown 交接文档。
 - [dsh-http](https://github.com/ZhijiangTang/dsh-http) - 结构化 HTTP 请求工具：返回状态码、耗时与大小，支持 basic/bearer 认证。
