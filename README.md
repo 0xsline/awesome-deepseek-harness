@@ -789,6 +789,7 @@ Management panel: Settings → Plugins.
 - [dsh-cron-parse](https://github.com/ZhijiangTang/dsh-cron-parse) - Parses cron expressions into human-readable text and previews upcoming run times.
 - [dsh-dead-links](https://github.com/ZhijiangTang/dsh-dead-links) - Scans Markdown files for dead http(s) links.
 - [dsh-fetch-file](https://github.com/ZhijiangTang/dsh-fetch-file) - Downloads a URL into the workspace as a file, with a path fence, streaming, and a 200 MB cap.
+- [dsh-file-convert](https://github.com/zzy-12345678/dsh-file-convert) - Local-first file conversion: 26 conversions across images, PDF (with OCR and experimental PDF→DOCX), data, audio/video and office docs; 7 tools, all local, no API keys.
 - [dsh-fmt](https://github.com/ZhijiangTang/dsh-fmt) - Formats and validates JSON/YAML/TOML/SQL, with line-and-column error locations.
 - [dsh-handoff](https://github.com/ZhijiangTang/dsh-handoff) - Exports the current session as a deterministic Markdown handoff document.
 - [dsh-http](https://github.com/ZhijiangTang/dsh-http) - Structured HTTP request tool: returns status, duration, and size, with basic/bearer auth helpers.
