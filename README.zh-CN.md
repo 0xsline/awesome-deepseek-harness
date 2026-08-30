@@ -427,6 +427,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-agy-link](https://github.com/amlyczz/dsh-agy-link) - Google Antigravity (agy CLI) 模型接入：无 API Key 使用 Gemini/Claude/GPT-OSS 订阅模型，支持流式对话、原生工具卡片与 Web 界面 Google OAuth 登录。
 - [dsh-baseurl-probe](https://github.com/Semidia/baseurl-probe) - 自动探测并修正模型供应商 baseURL：当裸域名只有 /v1 提供 OpenAI 兼容 API 时，无需 API Key 即可完成路径探测。
 - [dsh-llm-compat-healer](https://github.com/Semidia/dsh-llm-compat-healer) - 中转/网关 LLM 兼容自愈：无需重启即可修复 DeepSeek `reasoning_content` 历史回传与不支持 `developer` 角色的问题，提供 pi-ai 兼容设置页，并为上游错误生成脱敏中文摘要。
+- [dsh-provider-health](https://github.com/Semidia/dsh-provider-health) - 供应商健康度设置页：只读展示各供应商状态、由近期错误衰减计算的健康度、思考能力、最大 token 与最近错误；数据来自 llm-pi-ai 配置和兼容修复器错误日志。
 - [dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) - 为 DeepSeek Harness 提供原生对话生图能力，支持 Google Gemini、OpenAI Images、OpenAI 兼容 API 和字节 Seedream。
 - [exoticknight/dsh-labnana](https://github.com/exoticknight/dsh-labnana) - 为 DeepSeek Harness 接入 Labnana 图片生成：文生图 / 图生图 / 精准编辑，支持 NanoBanana Pro、Gemini 3.1 Flash Image、GPT-Image-2、Wan2.7、Seedream。
 - [welsione/dsh-model-router](https://github.com/welsione/dsh-model-router) - 统一模型路由：一个逻辑 ModelID 汇聚多家供应商，首 token 前失败自动切换并冷却、健康度择优、按 purpose 三档分级、每候选思考级别，设置面板自动保存即时生效。
