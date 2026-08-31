@@ -478,6 +478,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [lynkr-dsh-plugin](https://github.com/veerareddyvishal144/lynkr-dsh-plugin) - 将 Lynkr（一个自托管的多提供商分级路由 LLM 网关）注册为自定义 OpenAI 兼容 provider：根据每个请求的实际难度分类，并路由到能胜任该任务的最便宜模型，覆盖 15+ 提供商（Anthropic、OpenAI、Azure、Bedrock、Vertex、OpenRouter、Ollama、DeepSeek 等）。
 - [dsh-fetch-timeouts](https://github.com/d3vmeh/dsh-fetch-timeouts) - 把整个 DSH 进程的 Node HTTP headers/body 超时调大（默认 30 分钟，支持代理环境变量），让 Ollama、LM Studio 这类在思考或生成大段工具参数时长时间不返回数据的本地模型不再在 5 分钟处被掐断；替代手工修改 node_modules 的 undici 补丁。
 - [dsh-turn-doctor](https://github.com/d3vmeh/dsh-turn-doctor) - 解释失败的 turn 究竟死在哪一层：为每个模型请求计时（首字节、最长静默、总时长），结合错误信息判断元凶（dsh 空闲看门狗、Node undici 计时器、SDK 超时、服务器断开、上下文溢出、并发门队列、工具超时、压缩失败）并指出该改的配置项；诊断输出在 DSH 终端，聊天中可用 /why 查看，含子代理。
+- [dsh-logbook](https://github.com/d3vmeh/dsh-logbook) - 让 ctx.logger 输出可见：聊天里的 /logs 命令（支持 level、name、grep、since 过滤）加上默认开启的 stderr 导出器（默认只输出警告和错误，可按插件配置），无需 Web UI；同时记录了 dsh 默认日志缓冲区会静默丢弃 warn 和 debug 记录这一发现。
 
 ## Git & Engineering
 
