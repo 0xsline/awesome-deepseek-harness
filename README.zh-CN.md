@@ -374,6 +374,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [DeepSeek Harness Desktop](https://github.com/web-casa/DeepSeek-Harness-Desktop) - 面向 DSH 的社区 Tauri 2 桌面发行版：受监督的本地 sidecar、内置 Node.js 24、Windows/macOS 原生安装包；[官网](https://dsharness.app)。
 - [DeepSeek Harness Desktop](https://github.com/chokwinlee/deepseek-harness-desktop) - 官方 DSH Web UI 的自包含 macOS/Windows 桌面端；macOS 采用 Tauri/WKWebView，DMG 不到 90 MB，并内置完整 Harness 运行时。
 - [dsh-vscode](https://github.com/Lixxx1/dsh-vscode) - 面向官方 DSH 运行时的 VS Code 右侧栏客户端：接入项目与编辑器选区上下文，支持权限/Plan 控制、消息排队与 Steering、原生 Diff 审阅。
+- [zhibailu/dsh-vsc](https://github.com/zhibailu/dsh-vsc) - DeepSeek Harness 的原生 VS Code 侧边栏与编辑器桥接：可询问选区、审阅 Agent 修改，并显示审批和问题卡片；连接配置的 DSH URL，在服务不可用时可自动启动 `dsh web`。
 - [dsh4vscode](https://github.com/DoggyHU/dsh4vscode) - 基于 DSH agent 的 VS Code 聊天窗口：OpenCode 式独立会话、模型自动路由（Flash/Pro/Pro Max）。
 - [dsh-plugin-open-editor](https://github.com/Civitasv/dsh-plugin-open-editor) - 从会话页头一键用本地编辑器（VS Code / Cursor / JetBrains / Vim 等）打开当前项目。
 - [dsh-open-with](https://github.com/ChuanTianML/dsh-open-with) - 从 DSH Web UI 使用自动检测或手动配置的本机编辑器、终端或文件管理器打开已登记工作区，并按浏览器记住首选目标。
