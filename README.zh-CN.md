@@ -479,6 +479,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-fetch-timeouts](https://github.com/d3vmeh/dsh-fetch-timeouts) - 把整个 DSH 进程的 Node HTTP headers/body 超时调大（默认 30 分钟，支持代理环境变量），让 Ollama、LM Studio 这类在思考或生成大段工具参数时长时间不返回数据的本地模型不再在 5 分钟处被掐断；替代手工修改 node_modules 的 undici 补丁。
 - [dsh-turn-doctor](https://github.com/d3vmeh/dsh-turn-doctor) - 解释失败的 turn 究竟死在哪一层：为每个模型请求计时（首字节、最长静默、总时长），结合错误信息判断元凶（dsh 空闲看门狗、Node undici 计时器、SDK 超时、服务器断开、上下文溢出、并发门队列、工具超时、压缩失败）并指出该改的配置项；诊断输出在 DSH 终端，聊天中可用 /why 查看，含子代理。
 - [dsh-logbook](https://github.com/d3vmeh/dsh-logbook) - 让 ctx.logger 输出可见：聊天里的 /logs 命令（支持 level、name、grep、since 过滤）加上默认开启的 stderr 导出器（默认只输出警告和错误，可按插件配置），无需 Web UI；同时记录了 dsh 默认日志缓冲区会静默丢弃 warn 和 debug 记录这一发现。
+- [dsh-model-pin](https://github.com/d3vmeh/dsh-model-pin) - 把所有模型请求限制在按 provider 配置的允许列表内（在 agent/request 层强制执行）：不在列表内的模型被重定向到 fallback 或直接拒绝；子代理不再继承过期的创建时路由；当连续请求会让 --models-max 1 的 llama.cpp 路由器重载模型时发出警告。单条目列表即全局单模型模式。
 
 ## Git & Engineering
 
