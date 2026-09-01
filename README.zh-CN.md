@@ -226,6 +226,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## UI, Themes & Interaction
 
+- [dsh-view-manager](https://github.com/runcat-tommy/dsh-view-manager) - 管理 DeepSeek Harness Web GUI 会话页头的视图标签（对话/轨迹）：启停、隐藏、排序与重命名，支持中英文跟随界面语言，并带 npm 更新提醒。
 - [dsh-history-question-nav](https://github.com/TropicWiden/dsh-history-question-nav) - 右侧问题面板列出当前会话的用户提问，点击即可定位对应回答。
 - [dsh-chat-timeline-plus](https://github.com/NIU-001-LIU/dsh-chat-timeline-plus) - 消息时间线导航轨：悬停即弹出问答预览卡（问题 + 回答摘要），支持面板钉住常驻、按天分组与重点书签。
 - [dsh-scenery-background](https://github.com/soslowsnail/dsh-scenery-background) - 山海主题 Web UI 背景轮换插件：支持每日一图与循环轮播，内置 5 张离线 SVG 场景、可选 Unsplash 摄影图、毛玻璃面板和悬浮控制。
