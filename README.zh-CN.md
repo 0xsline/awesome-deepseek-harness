@@ -560,6 +560,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [accpowered/dsh-auto-review](https://github.com/accpowered/dsh-auto-review) - 沙箱升级请求的 LLM 自动审查审批应答器（`'auto'` 策略下）：确定性过滤 + 清洁上下文审查模型裁决，无需人工提示，错误路径一律 fail-closed；需要打过补丁的 harness 核心（补丁见 core-patches/）。
 - [dsh-capmark-gate](https://github.com/taltara/capmark) - 按声明的能力清单约束 agent：用 Markdown 编写的 `CAP.md` 声明插件可做什么，插件据此用 `tools.restrict()` 收窄 agent 可见的工具集，并在 `tools/pre-execute` 上裁决每次调用；比工具名更细的 scope 会被标记为仅供审计，而非当作强制边界。
 - [dsh-agentvalet](https://github.com/AgentValet/dsh-agentvalet) - 代理式 SaaS 访问：四个工具经凭据代理调用已授权平台，每次调用签发短期断言，机器上不存任何 API key，每次调用都可由所有者审批、撤销并留存审计。
+- [sofagent](https://github.com/KongFangXun/sofagent) - 提交时 agent 治理 harness：24 条确定性规则审计 git diff（密钥泄漏、越权改动、盲目修改、注入痕迹），HMAC 链防篡改历史，9 插件 DSH 家族（audit / gate / rollback / inject / ontology / evolve / commons / daemon / fde）经 SkillHub 分发。
 
 ## Output & Deliverables
 

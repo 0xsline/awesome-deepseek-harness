@@ -563,6 +563,7 @@ Management panel: Settings → Plugins.
 - [accpowered/dsh-auto-review](https://github.com/accpowered/dsh-auto-review) - LLM auto-review approval answerer for sandbox escalations under the `'auto'` policy: a deterministic filter plus a clean-context reviewer model decide without a human prompt, fail-closed on every error path; requires a patched harness core (included in core-patches/).
 - [dsh-capmark-gate](https://github.com/taltara/capmark) - Holds an agent to a declared capability manifest: a Markdown `CAP.md` states what a plugin may do, and the gate masks the agent's tool view with `tools.restrict()` and judges every call at `tools/pre-execute`; scopes finer than a tool name are linted as advisory rather than presented as enforcement.
 - [dsh-agentvalet](https://github.com/AgentValet/dsh-agentvalet) - Brokered SaaS access: four tools call approved platforms through a credential broker, minting a short-lived assertion per call, so no API key is stored on the machine and every call is owner-approvable, revocable, and audited.
+- [sofagent](https://github.com/KongFangXun/sofagent) - Commit-time agent governance harness: 24 deterministic audit rules over git diffs (secrets, out-of-scope edits, blind modifications, prompt-injection traces), HMAC-chained tamper-evident history, and a 9-plugin DSH family (audit / gate / rollback / inject / ontology / evolve / commons / daemon / fde) distributed via SkillHub.
 
 ## Output & Deliverables
 
