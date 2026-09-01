@@ -698,6 +698,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [awesome-dsh](https://github.com/stakeswky/awesome-dsh) - `dsh-plugin` topic 全量目录，自动更新（2600+ 仓库）：Cloudflare Worker 每 6 小时重新抓取，用 Workers AI 把英文简介译成中文，并提供相关度检索 API 与按需查找、安装插件的智能体技能。
 - [dsh-score](https://github.com/PerryLink/dsh-score) - DSH 插件多维质量评分：五维（安装成功率/维护活跃度/文档完整性/安全扫描/协议合规）评分卡与总分，/score 命令与排行榜报告；安装证据预留消费 dsh-test-drive 的结构化实测结果。
 - [dsh-blueprint](https://github.com/taltara/mddl-harness) - Web 客户端的 Blueprint 标签页：读取 harness 实际启动的配置、对运行中的插件树做 lint，并在带标记的托管块内写入 `cordis.patch.yml` 覆盖层，支持快照与一键恢复。若某行引用了 profile 无法加载的包，则拒绝写入——那会导致整个 harness 无法启动，而不只是禁用一行。
+- [dsh-plugin-runcat-inventory](https://github.com/runcat-tommy/dsh-plugin-runcat-inventory) - 逃咪-插件总览（Runcat Plugin Overview）：更好用的 DSH 插件列表 —— 表格视图、状态过滤、启用/停用开关（HMR 热生效）、配置查看/复制、中英双语界面。
 
 ## Runtime & Operations
 
