@@ -699,6 +699,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-score](https://github.com/PerryLink/dsh-score) - DSH 插件多维质量评分：五维（安装成功率/维护活跃度/文档完整性/安全扫描/协议合规）评分卡与总分，/score 命令与排行榜报告；安装证据预留消费 dsh-test-drive 的结构化实测结果。
 - [dsh-blueprint](https://github.com/taltara/mddl-harness) - Web 客户端的 Blueprint 标签页：读取 harness 实际启动的配置、对运行中的插件树做 lint，并在带标记的托管块内写入 `cordis.patch.yml` 覆盖层，支持快照与一键恢复。若某行引用了 profile 无法加载的包，则拒绝写入——那会导致整个 harness 无法启动，而不只是禁用一行。
 
+- [duyanta123/dsh-repo-scanner](https://github.com/duyanta123/dsh-repo-scanner) - 只读仓库事实扫描内核：为分析型插件提供可复现的仓库探测、文件索引、模块、依赖、入口点、符号与 Git 变更基线等硬事实（CLI + 库接口 + 技能 runbook）。
+
 ## Runtime & Operations
 
 - [ianho7/dsh-port-inspector](https://github.com/ianho7/dsh-port-inspector) - Windows 本地开发端口来源追踪与已验证 DSH 服务的安全处理。

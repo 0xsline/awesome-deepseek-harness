@@ -703,6 +703,8 @@ Management panel: Settings → Plugins.
 - [dsh-blueprint](https://github.com/taltara/mddl-harness) - Blueprint tab for the Web client: reads the config the harness actually booted, lints the running tree, and writes a `cordis.patch.yml` overlay behind a marker-delimited block with snapshots and one-click restore. Refuses to write a row naming a package the profile cannot load, since that stops the harness booting rather than disabling one entry.
 - [LLYlab/DSHEssentialTools](https://github.com/LLYlab/DSHEssentialTools) - A permanent DeepSeek Harness plugin: project run & code viewer, program snapshots, a VTD conversation tree (edit / retry / branches) with message micro-versions, plus a DET feature manager and global plugin control.
 
+- [duyanta123/dsh-repo-scanner](https://github.com/duyanta123/dsh-repo-scanner) - Read-only repository fact scanner kernel for analysis plugins: deterministic probe / file index / modules / dependencies / entry points / symbols / graphs and git facts over a stable JSON schema (CLI + library + skill runbook).
+
 ## Runtime & Operations
 
 - [ianho7/dsh-port-inspector](https://github.com/ianho7/dsh-port-inspector) - Windows local development port attribution and safe handling for verified DSH services.
