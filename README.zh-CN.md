@@ -713,6 +713,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-payload-capture](https://github.com/moeblack/dsh-payload-capture) - 捕捉每一次上行模型 API payload 存为 JSON（调试与观测）
 - [dsh-doctor](https://github.com/ciceroyang/dsh-doctor) - DeepSeek Harness 本地环境一键体检：node/pnpm/dsh 版本、端口 3080、DSH_HOME 可写性、profile 清单、多帧会话日志健康扫描、dsh-doctor/v1 信封。
 - [dsh-observation-journal](https://github.com/Cavan-Ou/dsh-observation-journal) - 把 DeepSeek Harness 的零侵入运行事实遥测：每个会话自动把任务/模型档位/工具/失败/时长/状态写入人机共读观测卡并附统计区（纯观察者——零工具、零 LLM、零注入）。
+- [Oscar-Williams/dsh-deepcanary](https://github.com/Oscar-Williams/dsh-deepcanary) - 面向 DeepSeek Harness 的证据优先注意力监督：提供 C0–C3 策略、去重 Inbox 提醒、静默时段和脱敏结果记录。
 - [sandbase-harness](https://github.com/sandbaseai/sandbase-harness) - 通过原生 bundle 与 stdio MCP 接入 DSH 的持久化托管 Agent 运行时，提供沙箱会话、审计与回放。
 - [dsh-workloads](https://github.com/yewenyell-lang/dsh-workloads) - 为 DeepSeek Harness 提供工作区级持久进程托管、就绪检测与运行中心。
 - [dsh-doctor](https://github.com/asdf17128/dsh-doctor) - Profile 体检：检出 patch 整体替换 config 而丢失的字段、指向不存在 entry id 的 patch，以及工具重名冲突。
