@@ -624,6 +624,7 @@ Management panel: Settings → Plugins.
 
 ## Fun & Lifestyle
 
+- [dsh-chinese-poetry](https://github.com/runcat-tommy/dsh-chinese-poetry) - Token-free Chinese classical-poetry tab in the DSH conversation view: search, filters, 飞花令, daily poem, favorites, festival topics, share-card image, and AI explanation via your own DSH session.
 - [dsh-whale-companion](https://github.com/LeemanCheung/dsh-whale-companion) - Draggable whale companion with local progression, achievements, skins, and privacy-safe activity tracking.
 - [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) - Whale-girl desktop pet for the DSH Web UI: pat-to-raise growth, work-state poses, 494 dialogue lines and 30 achievements with a built-in settings panel; local-first, zero telemetry.
 - [dsh-clippy](https://github.com/sjh9714/clippy-harness) - Clippy revived as an office assistant pet that reacts to real agent state, with a classic "illegal operation" dialog on failed turns.
