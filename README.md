@@ -744,6 +744,7 @@ Management panel: Settings → Plugins.
 - [Zn-Dk/dsh-session-repair](https://github.com/Zn-Dk/dsh-session-repair) - Diagnose and safely repair corrupted DSH session history: raw zstd/JSONL artifact validation (header, seq, tool-call IDs, turn/step closure), deterministic repair of empty tool-call ID chains, single-slot pre-repair backup + restore, and an audit trail.
 - [maxmilian/dsh-grafana-query](https://github.com/maxmilian/dsh-grafana-query) - Read-only Grafana tools over the data source proxy: instance health, data sources, instant and range PromQL queries, current alert state, and provisioned alert rules.
 - [maxmilian/dsh-sentry](https://github.com/maxmilian/dsh-sentry) - Read-only Sentry tools: project listing, issue search and detail, and the latest or a specific event with a trimmed stacktrace that drops local variables, request data, and secret-looking tags.
+- [dsh-circuit-breaker](https://github.com/pricklywiggles/dsh-circuit-breaker) - Deterministic loop guard: denies a tool call repeated with identical arguments and caps per-agent calls, in code outside the model; incident log lets a parent interrupt a stuck subagent.
 ## Domain & Specialist Skills
 
 - [dsh-fund-research](https://github.com/PerryLink/dsh-fund-research) - Deterministic research reports for Chinese public mutual funds: public-source data collection (Tiantian Fund/Eastmoney), pure-function metrics (performance decomposition, holdings penetration, style attribution, manager profile), and versioned reports with a per-number snapshot traceability appendix.

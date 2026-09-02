@@ -741,6 +741,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [JohnXu22786/hooks-adapter](https://github.com/JohnXu22786/hooks-adapter) - 通用 hooks 兼容层：在 dsh 上运行 Claude Code / Codex / opencode 配置中声明的 hooks。
 - [maxmilian/dsh-grafana-query](https://github.com/maxmilian/dsh-grafana-query) - 面向 Grafana 的只读工具，经数据源代理：实例健康、数据源列表、instant 与 range PromQL 查询、当前告警状态与已配置的告警规则。
 - [maxmilian/dsh-sentry](https://github.com/maxmilian/dsh-sentry) - 面向 Sentry 的只读工具：项目列表、议题搜索与详情，以及最新或指定 event 的裁剪堆栈——局部变量、请求数据与疑似机密的 tag 会被移除。
+- [dsh-circuit-breaker](https://github.com/pricklywiggles/dsh-circuit-breaker) - 确定性循环保护：拒绝以相同参数重复的工具调用，并限制单个 agent 的调用总数，由模型之外的代码强制执行；事件日志可让父 agent 中断卡住的子 agent。
 ## Domain & Specialist Skills
 
 - [dsh-fund-research](https://github.com/PerryLink/dsh-fund-research) - 中国公募基金确定性研究报告：公开源数据采集（天天基金/东方财富）、纯函数指标计算（业绩拆解/持仓穿透/风格归因/经理画像），版本化报告附逐数字可回溯源快照的附录。
