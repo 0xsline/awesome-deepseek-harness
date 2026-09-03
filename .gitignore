@@ -1,2 +1,9 @@
 __pycache__/
 *.pyc
+
+# local tool output
+.playwright-cli/
+.wrangler/
+
+# superseded banner kept locally (assets/banner.jpg is the current one)
+assets/banner-old.jpg
