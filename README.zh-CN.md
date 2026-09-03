@@ -149,6 +149,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [JohnXu22786/context-pruner](https://github.com/JohnXu22786/context-pruner) - 会话上下文整理插件：修剪过期、重复、失败与过大的上下文以节省 token 预算。
 - [Kaixxrua/dsh-aigc-radar](https://github.com/Kaixxrua/dsh-aigc-radar) - 检索 AIGC Radar 精选 GitHub AI 项目库（500 Stars 准入、中英双语标签、星标增长快照），经其 MCP 端点调用并以原生结果卡片展示；pre-step 监听器在写代码前主动建议复用检查。
 - [dsh-context-budget](https://github.com/d3vmeh/dsh-context-budget) - 让本地模型的上下文保持在 GPU 能高效处理的规模：每次请求测量 prefill 速度，在每一步之前按硬性 token 上限、实测首 token 时间预算或预测的冷 prefill 预算发出警告或提前压缩；/context-budget 显示实时数据和立即压缩的代价。
+- [dsh-personal-directive](https://github.com/PerryLink/dsh-personal-directive) - 个人指令插件：系统提示词注入、工具与顶部运行时开关，内置可替换的中性占位指令。
 
 ## Memory & Knowledge
 
