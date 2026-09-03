@@ -360,6 +360,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [woosh2010/dsh-usage-dashboard](https://github.com/woosh2010/dsh-usage-dashboard) - 峰谷计费坞 + 用量分析仪表盘：token/成本/模型统计、成本趋势与 Token 结构图表、最近 20 轮明细，支持时间/会话/模型全局筛选与账户余额。
 - [runcat-tommy/dsh-panda-calendar](https://github.com/runcat-tommy/dsh-panda-calendar) - 熊猫日历会话视图标签页：公历/农历、干支、生肖、节气、传统与外国节日、中国法定节假日（含调休）、多城市天气；免费数据源，无需 API Key。
+- [dsh-session-enhance](https://github.com/Tinger-X/dsh-session-enhance) - DSH Web 会话管理增强插件：归档管理 / 真实物理删除（墓碑防复活）/ 跨工作区拖拽搬移 / 对话通知 / 复制会话 ID / 一键同步记录。
 ## IDE & Clients
 
 - [Blue](https://github.com/dsh-blue/blue) - DeepSeek Harness 交互式 TUI 插件：基于 Cordis bundle 的 pi-tui 渲染器，支持流式转录、工具调用卡片、审批浮层、会话管理与主题。
