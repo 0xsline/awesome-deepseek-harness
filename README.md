@@ -190,6 +190,7 @@ Management panel: Settings → Plugins.
 - [dsh-ragflow](https://github.com/staff-os/dsh-ragflow) - RAGFlow knowledge-base retrieval plugin: gives the agent a `ragflow_retrieve` tool that queries your RAGFlow datasets and returns document chunks with similarity scores and source names; three-role design (seam/provider/consumer), env-based config, `dsh plugin add github:staff-os/dsh-ragflow#main`.
 - [Mutx163/dsh-model-memory](https://github.com/Mutx163/dsh-model-memory) - Reasoning-effort tier manager for custom API models plus cross-session preference memory: inline low/medium/high/max toggles inside Settings -> Models, atomic settings.yaml persistence, and per-channel auto-restore of the last model and effort level in new sessions.
 - [dsh-cortexm](https://github.com/ssmurfgg04-gif/context-m/tree/main/plugins/dsh-cortexm) - Bi-temporal memory plugin: every fact carries a transaction validity range, with VSA/HRR holographic retrieval, a BLAKE3-chained audit log, and session replay/fork; drives Context-M as a JSON-RPC subprocess (npm: dsh-cortexm, needs the Python `cortexm` package).
+- [dsh-brainagent](https://github.com/stas130286-blip/dsh-brainagent) - Brain-inspired cognitive plugin: episodic / semantic / procedural / emotional memory stores with a reward-ledger and UCB1 bandit loop, a goal stack with time triggers, curiosity-driven autonomous web research, and proactive initiatives. Recalled memories ride along in the prompt to your configured provider; license is source-available, non-commercial.
 
 ## Input & Editing
 
@@ -499,6 +500,7 @@ Management panel: Settings → Plugins.
 - [dsh-turn-doctor](https://github.com/d3vmeh/dsh-turn-doctor) - Explains which layer killed a failed turn: times every model request (first byte, longest silence, total) and combines that with the error to name the culprit (dsh idle watchdog vs Node undici timers vs SDK timer vs server crash, context overflow, gate queue, tool timeouts, failed compactions) and the exact setting to change; verdicts in the DSH terminal plus a /why command, subagents included.
 - [dsh-logbook](https://github.com/d3vmeh/dsh-logbook) - Makes ctx.logger output visible: a /logs chat command over a full-capture ring (level, name, grep, since filters) plus a default-on stderr exporter for warnings and errors, configurable per plugin; works headless. Also documents that dsh's default log buffer silently drops warn and debug records.
 - [dsh-model-pin](https://github.com/d3vmeh/dsh-model-pin) - Keeps every model request inside a per-provider allow-list, enforced at the agent/request waterfall: disallowed models are redirected to a fallback or refused; subagents stop inheriting stale creation-time routes; warns when consecutive requests would make a --models-max 1 llama.cpp router reload models. A one-entry list is a global single-model mode.
+- [dsh-think-ultra](https://github.com/YUEYUEXYS/dsh-think-ultra) - Pins every request to native `max` reasoning effort instead of the `ultra` option, with isolated Flash / Pro / Vision depth presets. Distributed as a build-only artifact: the core is closed and its license forbids reverse-engineering, deobfuscation and repackaging.
 
 ## Git & Engineering
 
@@ -722,6 +724,7 @@ Management panel: Settings → Plugins.
 - [dsh-plugin-runcat-inventory](https://github.com/runcat-tommy/dsh-plugin-runcat-inventory) - Runcat Plugin Overview (逃咪-插件总览): a better DSH plugin inventory — table view, status filters, enable/disable switches (hot-applied via HMR), config viewer/copy, zh/en UI.
 
 - [duyanta123/dsh-repo-scanner](https://github.com/duyanta123/dsh-repo-scanner) - Read-only repository fact scanner kernel for analysis plugins: deterministic probe / file index / modules / dependencies / entry points / symbols / graphs and git facts over a stable JSON schema (CLI + library + skill runbook).
+- [dsh-darwin](https://github.com/que3sui/dsh-darwin) - Two-plugin self-evolution loop: dsh-sentinel mines session logs for retry loops, tool-error clusters, interrupts and token waste into structured tickets; dsh-forge turns a ticket into a candidate skill behind an eval gate, promotes it into `.dsh/skills` only on human confirmation, and rolls it back deterministically.
 
 ## Runtime & Operations
 
