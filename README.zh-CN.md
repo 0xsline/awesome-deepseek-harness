@@ -400,7 +400,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Browser & Remote
 
-- [mrgaoang/dsh-remote](https://github.com/mrgaoang/dsh-remote) - 反向代理网关：手机浏览器全功能远程控制 DSH Web UI（含特权方法）——loopback 伪装、WebSocket 透传、登录限流、可选 TLS，支持局域网直连或公网反代部署。
+- [mrRisega/dsh-remote](https://github.com/mrRisega/dsh-remote) - 反向代理网关：手机浏览器全功能远程控制 DSH Web UI（含特权方法）——loopback 伪装、WebSocket 透传、登录限流、可选 TLS，支持局域网直连或公网反代部署。
 - [dsh-voice-gate](https://github.com/yangfei222666-9/dsh-voice-gate) - 语音优先的手机入口：零依赖 Python 服务（3081 端口）+ PWA 页面，把语音或文字发送到当前 DSH 会话，Token 鉴权、launchd 自启、Tailscale HTTPS 配方。
 - [dsh-browser-panel](https://github.com/dsh-external/dsh-browser-panel) - WebUI 内嵌有头浏览器，模型实时操控（Codex 式，0 视觉依赖）
 - [dsh-builtin-browser](https://github.com/wqty123/dsh-browser) - DSH 共享真实浏览器：用户可见、可随时接管的浏览器窗口，由 agent 通过 CDP 驱动（snapshot/execute/content/多标签管理）。
@@ -410,6 +410,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-ssh](https://github.com/jmcc-guo/dsh-ssh) - DeepSeek Harness 的 SSH 终端面板与 AI 连接管理：对话内自主 connect/exec/list/status/disconnect，WebUI 内 XShell 风格多标签 PTY 实时终端。
 - [dsh-lan-access](https://github.com/Leon0555/dsh-lan-access) - 局域网访问：Web GUI 绑定 0.0.0.0 + crypto.randomUUID polyfill（修复非安全上下文下 RPC 崩溃），npm 可装
 - [xgone/dsh-remote](https://github.com/xgone/dsh-remote) - 让 DeepSeek Harness 可以被安全地远程访问：账号密码认证 + MFA（TOTP）登录门禁、签名会话 Cookie、角色权限、浏览器内目录选择器、账号管理设置页。
+- [dsh-dispatch](https://github.com/alextangson/dsh-dispatch) - 手机端指挥中心（插件 + 零知识中继 + PWA）：从手机把任务派发到隔离的 git worktree，审批推送通知支持手机/桌面先答为准（绝不自动批准），并提供多机器会话看板；端到端加密，可自建部署。
 - [ego-browser](https://github.com/dsh-external/ego-browser) - 浏览器代理
 - [dsh-webbridge](https://github.com/dsh-external/dsh-webbridge) - Web 桥接
 - [browser4-dsh](https://github.com/dsh-external/browser4-dsh) - Browser4 AI-native 浏览器引擎（skills）
@@ -762,7 +763,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-mimir](https://github.com/1692775560/dsh-Mimir-Academic-research) - 科研全周期工作台（七视图 Web 面板）：arXiv 搜索/导入/订阅 + AI 相关度评分、Zotero 导入、实验记录与 SSH/GPU 远程作业、LaTeX 边改边编译工作室（11 种顶会模板+快照回滚）、图表统一管理、一键生成带论文原图的组会 PPT；内置 10 个科研 skills（npm：`dsh-mimir`）。
 - [dsh-fund-research](https://github.com/PerryLink/dsh-fund-research) - 中国公募基金确定性研究报告：公开源数据采集（天天基金/东方财富）、纯函数指标计算（业绩拆解/持仓穿透/风格归因/经理画像），版本化报告附逐数字可回溯源快照的附录。
 - [weopenfire-git/dsh-market-quote](https://github.com/weopenfire-git/dsh-market-quote) - A股/港股/美股实时行情与历史K线查询工具插件，腾讯免费公开源（免 key），只读。
-- [pengpengyi92/dsh-quant](https://github.com/pengpengyi92/dsh-quant) - Agent-native 量化研究工具箱：46 工具 · 6 域（数据/因子/ML/风控/执行/生态），一条管线跑通 PDAT→PET。
+- [pengpengyi92/dsh-quant](https://github.com/pengpengyi92/dsh-quant) - Agent-native 量化研究工具箱：59 工具 · 6 域（数据/因子/ML/风控/执行/生态），一条管线跑通 PDAT→PET。
 - [maddogfinance/dsh-trading](https://github.com/maddogfinance/dsh-trading) - 只读交易研究工作台插件：带类型的行情数据接缝（可自带数据源）、多周期指标 regime 快照、dsh web 交互式 K 线卡（模型标注需溯源且经价格区间校验）、以及在 pre-execute 门拦截下单形工具调用的 risk-guard。
 - [dsh-trading-toolkit](https://github.com/kentleenot/dsh-trading-toolkit) - DSH agent 的 A股/美股交易工具箱：实时行情、OHLCV K线、ADX 三状态市场分类信号与简易回测预览，数据源东方财富。只读设计，永不下单。
 - [LAU-MARS/dsh-cad](https://github.com/LAU-MARS/dsh-cad) - CAD 查看器与 OCCT 参数化建模工具（图元、拉伸、布尔、圆角、工程图、装配），Web UI 内交互式 3D/2D 面板，支持 STEP/STL 导出。
