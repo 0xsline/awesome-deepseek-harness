@@ -727,6 +727,7 @@ Management panel: Settings → Plugins.
 - [dsh-payload-capture](https://github.com/moeblack/dsh-payload-capture) - Capture every upstream model API payload to JSON (debug & observability).
 - [dsh-doctor](https://github.com/ciceroyang/dsh-doctor) - One-command local environment health check for DSH: node/pnpm/dsh versions, port 3080, DSH_HOME writability, profile manifests, multi-frame session-log health scan, dsh-doctor/v1 envelope.
 - [dsh-observation-journal](https://github.com/Cavan-Ou/dsh-observation-journal) - Zero-touch runtime telemetry for DSH: every session auto-writes task, model tier, tools, failures, duration, status into a human-readable journal with a stats section (pure observer — no tools, no LLM calls, no injection).
+- [Oscar-Williams/dsh-deepcanary](https://github.com/Oscar-Williams/dsh-deepcanary) - Evidence-first attention supervision for DeepSeek Harness: C0–C3 policies, deduplicated Inbox alerts, quiet hours, and redacted outcome records.
 - [sandbase-harness](https://github.com/sandbaseai/sandbase-harness) - Persistent managed-agent runtime for DSH via a native bundle and stdio MCP, with sandboxed sessions, audit, and replay.
 - [dsh-workloads](https://github.com/yewenyell-lang/dsh-workloads) - Workspace-owned durable process supervision, readiness checks, and a Runtime Center for DeepSeek Harness.
 - [dsh-doctor](https://github.com/asdf17128/dsh-doctor) - Profile health check: finds config fields a patch dropped by whole-config replacement, patches targeting missing entry ids, and tool-name collisions.
