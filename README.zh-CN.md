@@ -598,6 +598,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [dream-num/dsh-univer-office](https://github.com/dream-num/dsh-univer-office) - 为 DeepSeek Harness 打造一个真正的办公环境。Univer Office 插件将电子表格、文档、幻灯片、画布、多维表格等汇聚到同一个运行时——数据互联、修改经过校验、变更按版本管理，并以隔离工作树支持多 Agent 协作。
 - [Cooberped/dsh-evidence](https://github.com/Cooberped/dsh-evidence) - 把附件变成带版本的证据：`search_documents` 在本机建立私有索引（启动探测能力，可用则 SQLite FTS5，否则回退零依赖 JS 后端），返回带精确坐标的紧凑证据块——PDF 页码、PPTX 幻灯片、text/DOCX 行区间或带引号的 XLSX `Sheet!Range`——`read_document` 仅在内容版本仍匹配时展开该坐标。中文连续段按重叠 bigram 建索引并以短语查询，保持语序；上传的栅格图片走原生视觉附件链路。
+- [dsh-qingagent](https://github.com/void2anything/dsh-qingagent) - 把开源 AI 写作客户端「青简 QingAgent」接进 DeepSeek Harness：对话里起草改稿，右侧宣纸面板排版渲染（mermaid、drawio、表格、KaTeX），每处修改先摆在纸上供审阅、提交才落稿；需本机运行青简桌面客户端。
 
 ## Notifications & Channels
 

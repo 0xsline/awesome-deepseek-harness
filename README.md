@@ -600,6 +600,7 @@ Management panel: Settings → Plugins.
 
 - [dream-num/dsh-univer-office](https://github.com/dream-num/dsh-univer-office) - Give DeepSeek Harness a real office environment. Univer Office Plugin brings spreadsheets, docs, slides, canvases, relational tables, and more into one runtime — with connected data, validation, versioned changes, and isolated worktrees for multi-agent collaboration.
 - [Cooberped/dsh-evidence](https://github.com/Cooberped/dsh-evidence) - Turns attached files into versioned evidence: `search_documents` builds a private local index (SQLite FTS5 after a startup capability probe, dependency-free JS fallback otherwise) and returns compact evidence blocks carrying an exact coordinate — PDF page, PPTX slide, text/DOCX line range, or quoted XLSX `Sheet!Range` — which `read_document` expands only while the content version still matches. Contiguous CJK runs are indexed as overlapping bigrams and queried as phrases, so word order is preserved; uploaded raster images take the native vision attachment path instead.
+- [dsh-qingagent](https://github.com/void2anything/dsh-qingagent) - Writing bridge to the open-source QingAgent client: the agent drafts and revises documents on a typeset rice-paper panel (mermaid, drawio, tables, KaTeX), every edit staged for review before it lands; requires the QingAgent desktop client running locally.
 
 ## Notifications & Channels
 
