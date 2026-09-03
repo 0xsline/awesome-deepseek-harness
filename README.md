@@ -227,6 +227,7 @@ Management panel: Settings → Plugins.
 
 ## UI, Themes & Interaction
 
+- [dsh-view-manager](https://github.com/runcat-tommy/dsh-view-manager) - Manage DeepSeek Harness Web GUI session view tabs (Chat / Trajectory): enable, hide, reorder and rename labels, locale-aware (zh/en), with npm update reminders.
 - [dsh-history-question-nav](https://github.com/TropicWiden/dsh-history-question-nav) - Right-side Questions panel that lists the current session's user questions and scrolls to the matching answer.
 - [dsh-chat-timeline-plus](https://github.com/NIU-001-LIU/dsh-chat-timeline-plus) - Message timeline rail with hover Q&A preview (question + reply digest card), panel pinning, day separators, and bookmarks.
 - [dsh-scenery-background](https://github.com/soslowsnail/dsh-scenery-background) - Rotating Web UI backgrounds with daily and slideshow modes, five offline SVG scenes, optional Unsplash photos, glass panels, and a floating control.
