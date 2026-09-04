@@ -578,6 +578,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-agentvalet](https://github.com/AgentValet/dsh-agentvalet) - 代理式 SaaS 访问：四个工具经凭据代理调用已授权平台，每次调用签发短期断言，机器上不存任何 API key，每次调用都可由所有者审批、撤销并留存审计。
 - [sofagent](https://github.com/KongFangXun/sofagent) - 提交时 agent 治理 harness：24 条确定性规则审计 git diff（密钥泄漏、越权改动、盲目修改、注入痕迹），HMAC 链防篡改历史，9 插件 DSH 家族（audit / gate / rollback / inject / ontology / evolve / commons / daemon / fde）经 SkillHub 分发。
 
+- [Ox0400/dsh-vault](https://github.com/Ox0400/dsh-vault) - dsh 本地加密凭据保险库：Web 设置页与 vault_* 工具，存取与复制密码、API 密钥、TOTP、银行卡信息，支持健康审计、到期轮换、导入导出与只读/询问访问模式。
+
 ## Output & Deliverables
 
 - [EthanYoQ/Invoice-Downloader](https://github.com/EthanYoQ/Invoice-Downloader) - 用于本地 IMAP 发票下载、OCR 识别、归档和 Excel 报销汇总的 DSH bundle。
