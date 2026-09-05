@@ -291,6 +291,8 @@ Management panel: Settings → Plugins.
 - [dsh-workspace-sort](https://github.com/Moonshile/moonshile-dsh-plugins) - Re-sorts sidebar workspaces by last activity once per day; stable order within the day.
 - [dsh-theme-manager](https://github.com/runcat-tommy/dsh-theme-manager) - Two-level theme manager for the DSH Web UI: pick a culture / scene, a national flag, a developer palette, or a bold high-contrast pairing first, then a concrete style (58 built-in palettes, light & dark).
 
+- [weibaohui/dsh-settings-ui](https://github.com/weibaohui/dsh-settings-ui) - Customizes the DSH native settings window: preset or custom sizes, fullscreen, background transparency, and theme, solid-color, or image backgrounds, with a floating ball for quick access; saved in the local browser.
+
 ## Dashboards & Session UX
 
 - [zoahdev/dsh-timesheet](https://github.com/zoahdev/dsh-timesheet) - Turn-based time tracking from session logs: per-day/project/provider/source rollups, tool calls, failures, TTFT (CLI + `timesheet` tool).
