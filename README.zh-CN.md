@@ -414,6 +414,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-deeplink](https://github.com/dsh-external/dsh-deeplink) - 通过 URL 参数直接打开 DSH WebUI 会话或工作区。
 - [dsh-remote](https://github.com/flymysql/dsh-remote) - 多机远程工作区：管理多个 SSH 主机，在原生 Add-workspace 流程中选择本地或远程工作区（系统文件夹/路径浏览），把远程工作区镜像到本地真实文件夹，用 rw_* 工具操作。
 - [dsh-ssh](https://github.com/jmcc-guo/dsh-ssh) - DeepSeek Harness 的 SSH 终端面板与 AI 连接管理：对话内自主 connect/exec/list/status/disconnect，WebUI 内 XShell 风格多标签 PTY 实时终端。
+- [xgone/dsh-netshell](https://github.com/xgone/dsh-netshell) —— DeepSeek Harness Web 的本地与远程 SSH 终端，提供三级权限、危险 AI 命令真人确认和加密凭据存储。
 - [dsh-lan-access](https://github.com/Leon0555/dsh-lan-access) - 局域网访问：Web GUI 绑定 0.0.0.0 + crypto.randomUUID polyfill（修复非安全上下文下 RPC 崩溃），npm 可装
 - [xgone/dsh-remote](https://github.com/xgone/dsh-remote) - 让 DeepSeek Harness 可以被安全地远程访问：账号密码认证 + MFA（TOTP）登录门禁、签名会话 Cookie、角色权限、浏览器内目录选择器、账号管理设置页。
 - [dsh-dispatch](https://github.com/alextangson/dsh-dispatch) - 手机端指挥中心（插件 + 零知识中继 + PWA）：从手机把任务派发到隔离的 git worktree，审批推送通知支持手机/桌面先答为准（绝不自动批准），并提供多机器会话看板；端到端加密，可自建部署。
