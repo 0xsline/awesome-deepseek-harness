@@ -357,6 +357,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [penguin-oo/dsh-quota-hub](https://github.com/penguin-oo/dsh-quota-hub) - 统一实时额度仪表盘：一个可折叠玻璃面板聚合 OpenCodeGo 窗口、DeepSeek 余额、OpenRouter 额度、SiliconFlow 与 Moonshot 余额——自动识别 DSH 凭据，主机侧抓取（密钥不到达浏览器），可通过 ~/.dsh/dsh-quota-hub.json 自定义提供商。
 - [dsh-trajectory-reader](https://github.com/flyingtimes/dsh-trajectory-reader) - 轨迹解读标签页：按用户轮次逐轮解读助手做了什么（需求/思路/执行/结果，规则引擎 + 可选 LLM 叙述），涉及文件、命令与错误一目了然，用户消息原样保留。
 - [dsh-session-manager](https://github.com/Semidia/dsh-session-manager) - 侧边栏会话行右键菜单：置顶、重命名、归档、在新聊天中继续、标记未读、复制工作目录/标题/ID/深度链接、在资源管理器中打开、在新窗口中打开。
+- [SunshineR04/dsh-session-manager](https://github.com/SunshineR04/dsh-session-manager) - 在设置页管理已归档会话：恢复或彻底删除，会话菜单红色删除项，/sessions 斜杠命令与三个 agent 工具；已打开的会话也能立即删除（墓碑隐藏，重启后自动清理）。
 - [dsh-session-handoff](https://github.com/WeiYe6/dsh-session-handoff) - 长会话交接：/handoff 用 LLM 总结当前会话，在同一工作区创建带 agent 的干净新会话并注入交接文档，自动打开继续，原会话保持不变。
 - [dsh-cost-crystal](https://github.com/xxvk/dsh-cost-crystal) - DSH Web UI 成本水晶球：余额卡片、实时 tok/s 速率、波峰/低峰计费倒计时、近 24h 消耗，以及 🔮 下一条消息消耗预测，全部时区感知。
 - [dsh-session-repair-ui](https://github.com/Semidia/dsh-session-repair-ui) - 会话头部的修复按钮：检测并修复工具调用 ID 对不上、空 call ID、禁用插件产生的未知事件、损坏的 zstd 尾部和缺失的末帧换行，写入前自动备份。
