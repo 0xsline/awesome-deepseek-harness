@@ -638,6 +638,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-monitor](https://github.com/AbnerAI/dsh-monitor) - 常驻后台监视器（文件收件箱/命令输出）：新消息一到即唤醒 Agent，是 Claude Code Monitor 工具的 Harness 对应实现。
 - [dsh-island](https://github.com/cdxiaodong/dsh-island) - 通过 Unix socket 把 DSH agent 的会话、工具调用与审批实时桥接到 CodeIsland macOS 刘海面板，可直接在面板上批准/拒绝。
 - [february2015/dsh-dingo](https://github.com/february2015/dsh-dingo) - 多对话并行的声音提醒 + 对话直达：当前对话当/当当（crisp 清脆档），其他对话叮/叮叮（soft 柔和档）+ 右上角小卡片，点一下直达对应对话。
+- [dsh-reach](https://github.com/PerryLink/dsh-reach) - 将 DSH 的审批卡与提问卡推送到 IM 渠道（先支持微信 iLink），可在聊天中直接作答，带会话控制台、逐渠道安全与开放推送服务。
+- [dsh-wechat](https://github.com/PerryLink/dsh-wechat) - 将微信私聊消息桥接到 DSH，支持文本、图片、文件与音视频双向传输，在微信端还原 DSH 原生体验。
 
 ## Fun & Lifestyle
 
@@ -724,6 +726,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [duyanta123/dsh-repo-scanner](https://github.com/duyanta123/dsh-repo-scanner) - 只读仓库事实扫描内核：为分析型插件提供可复现的仓库探测、文件索引、模块、依赖、入口点、符号与 Git 变更基线等硬事实（CLI + 库接口 + 技能 runbook）。
 - [dsh-darwin](https://github.com/que3sui/dsh-darwin) - 双插件自进化闭环：dsh-sentinel 机械挖掘会话日志中的重试环、工具错误簇、高频中断与 token 浪费，生成结构化问题工单；dsh-forge 把工单合成候选技能，经评测门与人工确认才晋级到 `.dsh/skills`，并支持确定性回滚。
+- [dsh-cert-mcp](https://github.com/PerryLink/dsh-cert-mcp) - 暴露 DSH 插件认证注册表的 MCP 服务器：查询认证、列出已认证插件、读取认证规范。
 
 ## Runtime & Operations
 
@@ -840,6 +843,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [JohnXu22786/codegraph](https://github.com/JohnXu22786/codegraph) - 面向 dsh 的代码知识图谱：将符号、调用点与导入索引到 SQLite，通过 CLI 或 stdio MCP 工具服务回答调用/依赖问题。
 - [Nicholas023/vision-exp-tile](https://github.com/Nicholas023/vision-exp-tile) - 面向视觉大模型的大图智能识图插件：800×800 无损切块识别（smart/pipeline/full 三策略）、本地 OCR（前处理+手写分流）、可选多厂商 GPU 加速（DirectML 覆盖 NVIDIA/AMD/Intel，CUDA/OpenVINO），自动回退 CPU。MIT 开源。
 - [dsh-overlay-check](https://github.com/taltara/mddl-harness/tree/main/packages/overlay-check) - 零依赖的离线覆盖层安全检查库：可解析性预检、受限的托管块写入、可读 diff，并会提示 `agent-presets.roots` 在启动时会被丢弃（deepseek-harness#403）。
+- [dsh-ticktick](https://github.com/PerryLink/dsh-ticktick) - TickTick（滴答清单）任务桥：会话页头部任务面板与精选代理工具，走官方 TickTick MCP 端点。
 
 ## Related
 
