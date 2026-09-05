@@ -295,6 +295,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-workspace-sort](https://github.com/Moonshile/moonshile-dsh-plugins) - 侧边栏工作区每日按最近活动排序一次，当天顺序稳定。
 - [dsh-theme-manager](https://github.com/runcat-tommy/dsh-theme-manager) - DSH Web 两级主题管理器：先选文化 / 场景、国旗、开发者配色或强烈对比配色，再选具体风格（内置 58 套配色，含浅色 / 深色底版）。
 
+- [weibaohui/dsh-settings-ui](https://github.com/weibaohui/dsh-settings-ui) - 设置界面自定义：调整原生设置窗口大小（全屏/预置/自定义宽高）、背景透明度与背景（主题/颜色/图片），悬浮球即开即调，存本机浏览器。
+
 ## Dashboards & Session UX
 
 - [zoahdev/dsh-timesheet](https://github.com/zoahdev/dsh-timesheet) - 从会话日志做基于 turn 的时间跟踪：按天/项目/供应商/来源汇总、工具调用数、失败率与 TTFT（CLI + `timesheet` 工具）。
