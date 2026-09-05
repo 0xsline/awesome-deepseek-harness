@@ -154,6 +154,7 @@ Management panel: Settings → Plugins.
 - [Kaixxrua/dsh-aigc-radar](https://github.com/Kaixxrua/dsh-aigc-radar) - Search AIGC Radar's curated GitHub AI project library (500-star admission, bilingual tags, star-growth snapshots) over its MCP endpoint with native result cards; a pre-step listener nudges a reuse check before the agent writes code.
 - [dsh-context-budget](https://github.com/d3vmeh/dsh-context-budget) - Keeps a local model's context at a size the GPU handles well: measures prefill speed on every request and, before each step, warns or compacts early on a hard token ceiling, an observed time-to-first-token budget, or a predicted cold-prefill budget; /context-budget shows the numbers and the cost of compacting now.
 - [dsh-personal-directive](https://github.com/PerryLink/dsh-personal-directive) - Personal directives for the agent: system-prompt injection, tools, and a top-bar runtime toggle with replaceable neutral placeholder instructions.
+- [extracurricular-ai/dsh-filesnap](https://github.com/extracurricular-ai/dsh-filesnap) - Rewind a conversation and its workspace together without touching Git; every rewind is a fork and /redo reverses it.
 
 ## Memory & Knowledge
 
