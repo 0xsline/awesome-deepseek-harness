@@ -191,6 +191,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [Mutx163/dsh-model-memory](https://github.com/Mutx163/dsh-model-memory) - 自定义 API 模型的思考强度档位管理与跨会话偏好记忆：在“设置 → 模型”内直接切换 low/medium/high/max，原子写入 settings.yaml，并在新会话按渠道自动恢复上次使用的模型与强度。
 - [dsh-cortexm](https://github.com/ssmurfgg04-gif/context-m/tree/main/plugins/dsh-cortexm) - 双时态记忆插件：每条事实带事务有效期区间，VSA/HRR 全息检索、BLAKE3 链式审计日志、会话回放与分叉；以 JSON-RPC 子进程方式驱动 Context-M（npm：dsh-cortexm，需另装 Python 包 `cortexm`）。
 - [dsh-brainagent](https://github.com/stas130286-blip/dsh-brainagent) - 受大脑启发的认知插件：情景 / 语义 / 程序 / 情绪四类记忆库，配 reward-ledger 与 UCB1 老虎机学习回路、带时间触发器的目标栈、好奇心驱动的自主网络研究与主动提议。召回的记忆会随 prompt 发往你配置的模型 provider；许可证为源码可见、禁止商用。
+- [weibaohui/hermes-loop](https://github.com/weibaohui/hermes-loop) - 自动复盘：对话收尾后自动把有价值的经验蒸馏成可复用技能存入技能库，支持信号加速触发、审批模式与技能库治理（归档/恢复，永不直接删除）。
+
 ## Input & Editing
 
 - [dsh-global-rules](https://github.com/Semidia/dsh-global-rules) - 在设置页编辑 `~/.dsh/AGENTS.md` 全局规则：提供文本编辑与保存，无需命令行。

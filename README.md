@@ -194,6 +194,8 @@ Management panel: Settings → Plugins.
 - [dsh-cortexm](https://github.com/ssmurfgg04-gif/context-m/tree/main/plugins/dsh-cortexm) - Bi-temporal memory plugin: every fact carries a transaction validity range, with VSA/HRR holographic retrieval, a BLAKE3-chained audit log, and session replay/fork; drives Context-M as a JSON-RPC subprocess (npm: dsh-cortexm, needs the Python `cortexm` package).
 - [dsh-brainagent](https://github.com/stas130286-blip/dsh-brainagent) - Brain-inspired cognitive plugin: episodic / semantic / procedural / emotional memory stores with a reward-ledger and UCB1 bandit loop, a goal stack with time triggers, curiosity-driven autonomous web research, and proactive initiatives. Recalled memories ride along in the prompt to your configured provider; license is source-available, non-commercial.
 
+- [weibaohui/hermes-loop](https://github.com/weibaohui/hermes-loop) - Automatic post-conversation retrospective that distills useful experience into reusable skills for the skill library, with approval mode and skill-library governance (archive/restore, never deletes directly).
+
 ## Input & Editing
 
 - [dsh-global-rules](https://github.com/Semidia/dsh-global-rules) - Edit your `~/.dsh/AGENTS.md` global rules from the Settings page: a text editor with save button, no command line needed.
