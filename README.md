@@ -155,6 +155,8 @@ Management panel: Settings → Plugins.
 - [dsh-context-budget](https://github.com/d3vmeh/dsh-context-budget) - Keeps a local model's context at a size the GPU handles well: measures prefill speed on every request and, before each step, warns or compacts early on a hard token ceiling, an observed time-to-first-token budget, or a predicted cold-prefill budget; /context-budget shows the numbers and the cost of compacting now.
 - [dsh-personal-directive](https://github.com/PerryLink/dsh-personal-directive) - Personal directives for the agent: system-prompt injection, tools, and a top-bar runtime toggle with replaceable neutral placeholder instructions.
 
+- [weibaohui/context-razor](https://github.com/weibaohui/context-razor) - Context trimmer: lists the current session's context entries with role, preview and ≈token estimate (cl100k), highlights over-threshold items, and removes selected entries exactly without LLM summarization.
+
 ## Memory & Knowledge
 
 - [zilliztech/memsearch](https://github.com/zilliztech/memsearch/tree/main/plugins/dsh) - Shared Markdown memory for DSH and other coding agents, with automatic capture, pre-step context injection, searchable recall, and a review panel.
