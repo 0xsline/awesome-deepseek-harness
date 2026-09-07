@@ -508,6 +508,7 @@ Management panel: Settings → Plugins.
 - [dsh-logbook](https://github.com/d3vmeh/dsh-logbook) - Makes ctx.logger output visible: a /logs chat command over a full-capture ring (level, name, grep, since filters) plus a default-on stderr exporter for warnings and errors, configurable per plugin; works headless. Also documents that dsh's default log buffer silently drops warn and debug records.
 - [dsh-model-pin](https://github.com/d3vmeh/dsh-model-pin) - Keeps every model request inside a per-provider allow-list, enforced at the agent/request waterfall: disallowed models are redirected to a fallback or refused; subagents stop inheriting stale creation-time routes; warns when consecutive requests would make a --models-max 1 llama.cpp router reload models. A one-entry list is a global single-model mode.
 - [dsh-think-ultra](https://github.com/YUEYUEXYS/dsh-think-ultra) - Pins every request to native `max` reasoning effort instead of the `ultra` option, with isolated Flash / Pro / Vision depth presets. Distributed as a build-only artifact: the core is closed and its license forbids reverse-engineering, deobfuscation and repackaging.
+- [Zn-Dk/dsh-zhipu-toolkit](https://github.com/Zn-Dk/dsh-zhipu-toolkit) - Dual-endpoint Zhipu BigModel GLM provider catalog (Coding Plan + ordinary API) with live model discovery, live-tested thinking-tier mapping, and a settings card for keys, endpoints, the default reasoning tier, and local API key support (key stored in the DSH credential store).
 
 ## Git & Engineering
 
