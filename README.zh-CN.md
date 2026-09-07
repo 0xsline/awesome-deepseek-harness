@@ -156,6 +156,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Memory & Knowledge
 
+- [busabase/busabase-dsh-plugin](https://github.com/busabase/busabase-dsh-plugin) - 通过 MCP 把 DSH Agent 接入 Busabase 知识与结构化数据，在实时 Inspector 中渲染记录和 ChangeRequest，并将 Agent 写入置于人工审核之后；兼容 DSH 0.1.1-rc.2。
 - [zilliztech/memsearch](https://github.com/zilliztech/memsearch/tree/main/plugins/dsh) - 供 DSH 与其他编程 Agent 共享的 Markdown 记忆，支持自动捕获、步骤前上下文注入、搜索召回与审阅面板。
 
 - [dsh-simple-memory](https://github.com/a903067276-rgb/dsh-simple-memory) - DSH 侧车式 Markdown 记忆：按会话注入索引、一键记忆流按钮、强制「分类-主题.md」命名与跨项目搜索。
