@@ -500,6 +500,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-logbook](https://github.com/d3vmeh/dsh-logbook) - 让 ctx.logger 输出可见：聊天里的 /logs 命令（支持 level、name、grep、since 过滤）加上默认开启的 stderr 导出器（默认只输出警告和错误，可按插件配置），无需 Web UI；同时记录了 dsh 默认日志缓冲区会静默丢弃 warn 和 debug 记录这一发现。
 - [dsh-model-pin](https://github.com/d3vmeh/dsh-model-pin) - 把所有模型请求限制在按 provider 配置的允许列表内（在 agent/request 层强制执行）：不在列表内的模型被重定向到 fallback 或直接拒绝；子代理不再继承过期的创建时路由；当连续请求会让 --models-max 1 的 llama.cpp 路由器重载模型时发出警告。单条目列表即全局单模型模式。
 - [dsh-think-ultra](https://github.com/YUEYUEXYS/dsh-think-ultra) - 把每个请求钉回原生 `max` 推理强度（而非 `ultra` 选项），Flash / Pro / Vision 三套深度预设相互隔离。仅以构建产物分发：核心闭源，许可证禁止逆向、反混淆与二次打包。
+- [Zn-Dk/dsh-zhipu-toolkit](https://github.com/Zn-Dk/dsh-zhipu-toolkit) - 智谱 BigModel GLM 双端点模型目录（Coding Plan 与普通 API），实时模型发现、实测思考档位映射，可视化设置卡片管理 Key/端点/默认推理档，本地 API Key 支持存入 DSH 凭证库。
 
 ## Git & Engineering
 
