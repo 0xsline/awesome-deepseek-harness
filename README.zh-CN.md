@@ -124,6 +124,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [weibaohui/experts-management](https://github.com/weibaohui/experts-management) - 专家管理：管理 ntd 格式的专家与专家团队（plugin.json + Agent MD + 技能集），内置 50+ 专家市场，`/expert-名称` 以专家身份执行任务，不占模型目录 token。
 - [weibaohui/dsh-tasks](https://github.com/weibaohui/dsh-tasks) - 定时任务：用 cron 表达式定时执行提示词，到点自动开一个新 agent 会话替你干活，支持绑定工作区、手动立即执行与会话自动命名。
 
+- [weibaohui/dsh-smart-title](https://github.com/weibaohui/dsh-smart-title) - 通过独立 LLM 请求根据用户与助手消息生成会话标题，输入预算可配置；已完成轮次后刷新，保留手动标题，默认跳过子代理与 fork 会话。
+
 ## Context & Search
 
 - [zoahdev/dsh-github-intelligence](https://github.com/zoahdev/dsh-github-intelligence) - 只读开发者情报工具：16 大生态（GitHub、GitLab、Gitee、npm、PyPI、crates.io、Docker Hub、Hugging Face、Hacker News、Stack Overflow、Reddit、dev.to、RubyGems、NuGet、Go、ArXiv）统一查询，带 TTL 缓存，无需 API Key。
