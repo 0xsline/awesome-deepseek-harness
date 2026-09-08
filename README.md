@@ -125,7 +125,7 @@ Management panel: Settings → Plugins.
 - [weibaohui/experts-management](https://github.com/weibaohui/experts-management) - Expert manager: manage ntd-format experts and expert teams (plugin.json + Agent MD + skill sets), browse and install from a built-in market of 50+ experts, and run tasks in an expert persona via /expert-<name> without consuming model directory tokens.
 - [weibaohui/dsh-tasks](https://github.com/weibaohui/dsh-tasks) - Scheduled tasks: run a prompt on cron schedules, each run opens a new agent session to do the work, with workspace binding, manual run, session auto-naming, and a fullscreen task management page.
 
-- [weibaohui/dsh-smart-title](https://github.com/weibaohui/dsh-smart-title) - Smart session titles for DSH: after each conversation turn an independent auxiliary LLM call summarizes the full user+assistant transcript into a title that follows the session's real topic instead of echoing the first message; the first message is titled instantly, failed built-in titles auto-retry on later turns, manual renames are never overwritten, and subagent/fork sessions are skipped.
+- [weibaohui/dsh-smart-title](https://github.com/weibaohui/dsh-smart-title) - Generates session titles from user and assistant messages using a separate LLM request with a configurable input budget; refreshes after completed turns, preserves manual titles, and skips subagent and fork sessions by default.
 
 ## Context & Search
 
