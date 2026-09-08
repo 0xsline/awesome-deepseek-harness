@@ -157,6 +157,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-context-budget](https://github.com/d3vmeh/dsh-context-budget) - 让本地模型的上下文保持在 GPU 能高效处理的规模：每次请求测量 prefill 速度，在每一步之前按硬性 token 上限、实测首 token 时间预算或预测的冷 prefill 预算发出警告或提前压缩；/context-budget 显示实时数据和立即压缩的代价。
 - [dsh-personal-directive](https://github.com/PerryLink/dsh-personal-directive) - 个人指令插件：系统提示词注入、工具与顶部运行时开关，内置可替换的中性占位指令。
 
+- [weibaohui/context-razor](https://github.com/weibaohui/context-razor) - 上下文剃刀：把当前会话上下文逐条列出（角色/预览/≈token 估算），超阈值标红，勾选后不经 LLM 精确裁剪，删了什么一目了然。
+
 ## Memory & Knowledge
 
 - [zilliztech/memsearch](https://github.com/zilliztech/memsearch/tree/main/plugins/dsh) - 供 DSH 与其他编程 Agent 共享的 Markdown 记忆，支持自动捕获、步骤前上下文注入、搜索召回与审阅面板。
