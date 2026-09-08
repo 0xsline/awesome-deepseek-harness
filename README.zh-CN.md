@@ -197,6 +197,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-cortexm](https://github.com/ssmurfgg04-gif/context-m/tree/main/plugins/dsh-cortexm) - 双时态记忆插件：每条事实带事务有效期区间，VSA/HRR 全息检索、BLAKE3 链式审计日志、会话回放与分叉；以 JSON-RPC 子进程方式驱动 Context-M（npm：dsh-cortexm，需另装 Python 包 `cortexm`）。
 - [dsh-brainagent](https://github.com/stas130286-blip/dsh-brainagent) - 受大脑启发的认知插件：情景 / 语义 / 程序 / 情绪四类记忆库，配 reward-ledger 与 UCB1 老虎机学习回路、带时间触发器的目标栈、好奇心驱动的自主网络研究与主动提议。召回的记忆会随 prompt 发往你配置的模型 provider；许可证为源码可见、禁止商用。
 - [weibaohui/hermes-loop](https://github.com/weibaohui/hermes-loop) - 自动复盘：对话收尾后自动把有价值的经验蒸馏成可复用技能存入技能库，支持信号加速触发、审批模式与技能库治理（归档/恢复，永不直接删除）。
+- [dearbld/dsh-living-memory](https://github.com/dearbld/dsh-living-memory) - 单文件本地 SQLite 自整理活记忆：夜巡（去重/合并/衰减/建链）、七信号 RRF 检索（FTS5+jieba、可选向量、图谱 PPR）、类型知识图谱、冲突检测、Web 遥测面板。
 
 ## Input & Editing
 
