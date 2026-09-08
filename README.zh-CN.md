@@ -121,6 +121,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [weibaohui/dsh-continue](https://github.com/weibaohui/dsh-continue) - 自动续跑：agent 会话中断后自动续上，规则表按失败类型（限流/额度/鉴权/上下文超限/崩溃孤儿）路由到退避重试、换模型、压缩上下文后继续或止损通知，规则可视化编辑，全程活动日志。
 
+- [weibaohui/experts-management](https://github.com/weibaohui/experts-management) - 专家管理：管理 ntd 格式的专家与专家团队（plugin.json + Agent MD + 技能集），内置 50+ 专家市场，`/expert-名称` 以专家身份执行任务，不占模型目录 token。
 - [weibaohui/dsh-tasks](https://github.com/weibaohui/dsh-tasks) - 定时任务：用 cron 表达式定时执行提示词，到点自动开一个新 agent 会话替你干活，支持绑定工作区、手动立即执行与会话自动命名。
 
 ## Context & Search
