@@ -122,6 +122,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [weibaohui/dsh-continue](https://github.com/weibaohui/dsh-continue) - 自动续跑：agent 会话中断后自动续上，规则表按失败类型（限流/额度/鉴权/上下文超限/崩溃孤儿）路由到退避重试、换模型、压缩上下文后继续或止损通知，规则可视化编辑，全程活动日志。
 
 - [weibaohui/experts-management](https://github.com/weibaohui/experts-management) - 专家管理：管理 ntd 格式的专家与专家团队（plugin.json + Agent MD + 技能集），内置 50+ 专家市场，`/expert-名称` 以专家身份执行任务，不占模型目录 token。
+- [weibaohui/dsh-tasks](https://github.com/weibaohui/dsh-tasks) - 定时任务：用 cron 表达式定时执行提示词，到点自动开一个新 agent 会话替你干活，支持绑定工作区、手动立即执行与会话自动命名。
 
 ## Context & Search
 
@@ -238,6 +239,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## UI, Themes & Interaction
 
+- [YEYEYEYESHIFU/dsh-split-screen](https://github.com/YEYEYEYESHIFU/dsh-split-screen) - 分屏工作区：多个会话并排聊天，面板观感与原生对话完全一致，支持 Alt+T 切换紧凑 TUI 输入模式与 Alt+Shift+方向键面板焦点快捷键，明暗主题适配。
 - [fengb3/dsh-theme-macintosh](https://github.com/fengb3/dsh-theme-macintosh) - 经典麦金塔 System 7 像素风主题：桌面网点画布、Finder 侧栏、黑白按钮与弹窗，深浅色随官方外观切换。
 - [dsh-view-manager](https://github.com/runcat-tommy/dsh-view-manager) - 管理 DeepSeek Harness Web GUI 会话页头的视图标签（对话/轨迹）：启停、隐藏、排序与重命名，支持中英文跟随界面语言，并带 npm 更新提醒。
 - [dsh-history-question-nav](https://github.com/TropicWiden/dsh-history-question-nav) - 右侧问题面板列出当前会话的用户提问，点击即可定位对应回答。
@@ -734,6 +736,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [duyanta123/dsh-repo-scanner](https://github.com/duyanta123/dsh-repo-scanner) - 只读仓库事实扫描内核：为分析型插件提供可复现的仓库探测、文件索引、模块、依赖、入口点、符号与 Git 变更基线等硬事实（CLI + 库接口 + 技能 runbook）。
 - [dsh-darwin](https://github.com/que3sui/dsh-darwin) - 双插件自进化闭环：dsh-sentinel 机械挖掘会话日志中的重试环、工具错误簇、高频中断与 token 浪费，生成结构化问题工单；dsh-forge 把工单合成候选技能，经评测门与人工确认才晋级到 `.dsh/skills`，并支持确定性回滚。
+
+- [weibaohui/skills-management](https://github.com/weibaohui/skills-management) - 技能市场：一个页面管理本机所有 coding agent 的技能，一键收编进 DSH 用户库；内置 6600+ 技能市场，支持注入开销（≈token）统计与模型可见性治理。
 
 ## Runtime & Operations
 
