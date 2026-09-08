@@ -600,6 +600,8 @@ Management panel: Settings → Plugins.
 - [dsh-agentvalet](https://github.com/AgentValet/dsh-agentvalet) - Brokered SaaS access: four tools call approved platforms through a credential broker, minting a short-lived assertion per call, so no API key is stored on the machine and every call is owner-approvable, revocable, and audited.
 - [sofagent](https://github.com/KongFangXun/sofagent) - Commit-time agent governance harness: 24 deterministic audit rules over git diffs (secrets, out-of-scope edits, blind modifications, prompt-injection traces), HMAC-chained tamper-evident history, and a 9-plugin DSH family (audit / gate / rollback / inject / ontology / evolve / commons / daemon / fde) distributed via SkillHub.
 
+- [weibaohui/user-management](https://github.com/weibaohui/user-management) - HTTPS login gateway for the DSH web UI with user/role management, TOTP and audit logs. The first registrant becomes admin: bootstrap on a trusted network before external exposure and keep the upstream DSH server on loopback.
+
 ## Output & Deliverables
 
 - [EthanYoQ/Invoice-Downloader](https://github.com/EthanYoQ/Invoice-Downloader) - DSH bundle for local IMAP invoice download, OCR, archival, and Excel reimbursement summaries.
