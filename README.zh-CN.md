@@ -638,8 +638,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-monitor](https://github.com/AbnerAI/dsh-monitor) - 常驻后台监视器（文件收件箱/命令输出）：新消息一到即唤醒 Agent，是 Claude Code Monitor 工具的 Harness 对应实现。
 - [dsh-island](https://github.com/cdxiaodong/dsh-island) - 通过 Unix socket 把 DSH agent 的会话、工具调用与审批实时桥接到 CodeIsland macOS 刘海面板，可直接在面板上批准/拒绝。
 - [february2015/dsh-dingo](https://github.com/february2015/dsh-dingo) - 多对话并行的声音提醒 + 对话直达：当前对话当/当当（crisp 清脆档），其他对话叮/叮叮（soft 柔和档）+ 右上角小卡片，点一下直达对应对话。
-- [dsh-reach](https://github.com/PerryLink/dsh-reach) - 将 DSH 的审批卡与提问卡推送到 IM 渠道（先支持微信 iLink），可在聊天中直接作答，带会话控制台、逐渠道安全与开放推送服务。
-- [dsh-wechat](https://github.com/PerryLink/dsh-wechat) - 将微信私聊消息桥接到 DSH，支持文本、图片、文件与音视频双向传输，在微信端还原 DSH 原生体验。
+- [dsh-wechat](https://github.com/PerryLink/dsh-wechat) - DSH 的单用户微信桥接，支持文本、图片、文件与音视频双向传输，以及聊天内审批与提问卡；首个发消息的对端绑定为用户。
 
 ## Fun & Lifestyle
 

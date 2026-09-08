@@ -640,8 +640,7 @@ Management panel: Settings → Plugins.
 - [dsh-monitor](https://github.com/AbnerAI/dsh-monitor) - Persistent background watchers (file inbox / command output) that wake the agent on new messages; the harness analog of Claude Code's Monitor tool.
 - [dsh-island](https://github.com/cdxiaodong/dsh-island) - Bridge DSH agent sessions, tool calls, and approvals to the CodeIsland macOS notch panel over a Unix socket, with in-panel allow/deny.
 - [february2015/dsh-dingo](https://github.com/february2015/dsh-dingo) - Sound reminders with one-click jump for concurrent sessions: the current session gets crisp dang/dang-dang tones, other sessions a soft ding/ding-ding plus a top-right card that jumps straight to the replying conversation.
-- [dsh-reach](https://github.com/PerryLink/dsh-reach) - Pushes DSH approval and question cards to IM channels (WeChat iLink first) and answers them from chat, with a session console, per-channel security, and an open push service.
-- [dsh-wechat](https://github.com/PerryLink/dsh-wechat) - Bridges WeChat private messages to DSH with two-way text, image, file, and media transfer, aiming to restore the native DSH experience in WeChat.
+- [dsh-wechat](https://github.com/PerryLink/dsh-wechat) - Single-user WeChat bridge for DSH with two-way text, image, file and media transfer, plus approval and question cards in chat; the first messaging peer is bound as the user.
 
 ## Fun & Lifestyle
 
