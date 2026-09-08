@@ -736,6 +736,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [duyanta123/dsh-repo-scanner](https://github.com/duyanta123/dsh-repo-scanner) - 只读仓库事实扫描内核：为分析型插件提供可复现的仓库探测、文件索引、模块、依赖、入口点、符号与 Git 变更基线等硬事实（CLI + 库接口 + 技能 runbook）。
 - [dsh-darwin](https://github.com/que3sui/dsh-darwin) - 双插件自进化闭环：dsh-sentinel 机械挖掘会话日志中的重试环、工具错误簇、高频中断与 token 浪费，生成结构化问题工单；dsh-forge 把工单合成候选技能，经评测门与人工确认才晋级到 `.dsh/skills`，并支持确定性回滚。
 
+- [weibaohui/skills-management](https://github.com/weibaohui/skills-management) - 技能市场：一个页面管理本机所有 coding agent 的技能，一键收编进 DSH 用户库；内置 6600+ 技能市场，支持注入开销（≈token）统计与模型可见性治理。
+
 ## Runtime & Operations
 
 - [ianho7/dsh-port-inspector](https://github.com/ianho7/dsh-port-inspector) - Windows 本地开发端口来源追踪与已验证 DSH 服务的安全处理。
