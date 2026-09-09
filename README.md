@@ -126,6 +126,7 @@ Management panel: Settings → Plugins.
 - [weibaohui/dsh-tasks](https://github.com/weibaohui/dsh-tasks) - Scheduled tasks: run a prompt on cron schedules, each run opens a new agent session to do the work, with workspace binding, manual run, session auto-naming, and a fullscreen task management page.
 
 - [weibaohui/dsh-smart-title](https://github.com/weibaohui/dsh-smart-title) - Generates session titles from user and assistant messages using a separate LLM request with a configurable input budget; refreshes after completed turns, preserves manual titles, and skips subagent and fork sessions by default.
+- [jigjoy-ai/baro-dsh](https://github.com/jigjoy-ai/baro/tree/main/packages/baro-dsh) - baro as a subagent provider: delegate a multi-story goal and get a plan, parallel coding agents, independent per-story review and a verified outcome (tests run, goal invariants attested, merged commits), with a live run panel (phase, stories, milestones) in the sidebar.
 
 ## Context & Search
 
