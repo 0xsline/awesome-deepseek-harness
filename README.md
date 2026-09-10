@@ -872,6 +872,8 @@ Management panel: Settings → Plugins.
 - [dsh-overlay-check](https://github.com/taltara/mddl-harness/tree/main/packages/overlay-check) - Offline overlay safety checks as a zero-dependency library: resolvability preflight, confined managed-block writes, a readable diff, and a warning that `agent-presets.roots` is discarded at boot (deepseek-harness#403).
 - [dsh-ticktick](https://github.com/PerryLink/dsh-ticktick) - TickTick (Dida365) task bridge: a session-header task panel and curated agent tools over the official TickTick MCP endpoint.
 
+- [dsh-unitverse](https://github.com/runcat-tommy/dsh-unitverse) - Unit conversion across 10 categories and 82 units (metric, imperial/US customary, Chinese) via a `convert` tool that accepts English and Chinese unit names and converts temperature differences with a Δ prefix, plus a locale-aware Unit Converter tab in the DSH web view.
+
 ## Related
 
 - [dsh-external/issues](https://github.com/dsh-external/issues) - Issue aggregation hub.
