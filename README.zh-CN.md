@@ -871,6 +871,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-overlay-check](https://github.com/taltara/mddl-harness/tree/main/packages/overlay-check) - 零依赖的离线覆盖层安全检查库：可解析性预检、受限的托管块写入、可读 diff，并会提示 `agent-presets.roots` 在启动时会被丢弃（deepseek-harness#403）。
 - [dsh-ticktick](https://github.com/PerryLink/dsh-ticktick) - TickTick（滴答清单）任务桥：会话页头部任务面板与精选代理工具，走官方 TickTick MCP 端点。
 
+- [dsh-unitverse](https://github.com/runcat-tommy/dsh-unitverse) - 单位换算：一个 `convert` 工具覆盖十大类共 82 个单位（公制、英制/美制、中国市制），支持中英文单位名与温差（Δ）前缀换算，并在 DSH Web 会话视图中提供跟随中英文界面语言的「单位换算」标签页。
+
 ## Related
 
 - [dsh-external/issues](https://github.com/dsh-external/issues) - Issue 聚合仓库
