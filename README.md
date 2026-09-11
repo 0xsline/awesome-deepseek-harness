@@ -752,6 +752,7 @@ Management panel: Settings → Plugins.
 - [dsh-plugin-runcat-inventory](https://github.com/runcat-tommy/dsh-plugin-runcat-inventory) - Runcat Plugin Overview (逃咪-插件总览): a better DSH plugin inventory — table view, status filters, enable/disable switches (hot-applied via HMR), config viewer/copy, zh/en UI.
 
 - [duyanta123/dsh-repo-scanner](https://github.com/duyanta123/dsh-repo-scanner) - Read-only repository fact scanner kernel for analysis plugins: deterministic probe / file index / modules / dependencies / entry points / symbols / graphs and git facts over a stable JSON schema (CLI + library + skill runbook).
+- [duyanta123/dsh-test-insight](https://github.com/duyanta123/dsh-test-insight) - Test-insight plugin for DeepSeek Harness: turns repository facts and change risk into evidence-backed test plans and isolated, reviewable test drafts.
 - [dsh-darwin](https://github.com/que3sui/dsh-darwin) - Two-plugin self-evolution loop: dsh-sentinel mines session logs for retry loops, tool-error clusters, interrupts and token waste into structured tickets; dsh-forge turns a ticket into a candidate skill behind an eval gate, promotes it into `.dsh/skills` only on human confirmation, and rolls it back deterministically.
 - [dsh-cert-mcp](https://github.com/PerryLink/dsh-cert-mcp) - MCP server exposing the DSH plugin certification registry: get a certification, list certified plugins, and read the certification spec.
 
