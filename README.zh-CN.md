@@ -246,6 +246,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## UI, Themes & Interaction
 
+- [online111111/whalechan-dsh-theme](https://github.com/online111111/whalechan-dsh-theme) - 面向 DeepSeek Harness Web GUI 的 Whale-chan 鲸鱼娘同人主题：海洋蓝视觉系统、骑鲸品牌标志、专属工具与权限护盾图标，页面内支持一键切换原生。
+
 - [YEYEYEYESHIFU/dsh-split-screen](https://github.com/YEYEYEYESHIFU/dsh-split-screen) - 分屏工作区：多个会话并排聊天，面板观感与原生对话完全一致，支持 Alt+T 切换紧凑 TUI 输入模式与 Alt+Shift+方向键面板焦点快捷键，明暗主题适配。
 - [fengb3/dsh-theme-macintosh](https://github.com/fengb3/dsh-theme-macintosh) - 经典麦金塔 System 7 像素风主题：桌面网点画布、Finder 侧栏、黑白按钮与弹窗，深浅色随官方外观切换。
 - [dsh-view-manager](https://github.com/runcat-tommy/dsh-view-manager) - 管理 DeepSeek Harness Web GUI 会话页头的视图标签（对话/轨迹）：启停、隐藏、排序与重命名，支持中英文跟随界面语言，并带 npm 更新提醒。
