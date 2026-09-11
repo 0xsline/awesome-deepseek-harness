@@ -749,6 +749,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-plugin-runcat-inventory](https://github.com/runcat-tommy/dsh-plugin-runcat-inventory) - 逃咪-插件总览（Runcat Plugin Overview）：更好用的 DSH 插件列表 —— 表格视图、状态过滤、启用/停用开关（HMR 热生效）、配置查看/复制、中英双语界面。
 
 - [duyanta123/dsh-repo-scanner](https://github.com/duyanta123/dsh-repo-scanner) - 只读仓库事实扫描内核：为分析型插件提供可复现的仓库探测、文件索引、模块、依赖、入口点、符号与 Git 变更基线等硬事实（CLI + 库接口 + 技能 runbook）。
+- [duyanta123/dsh-test-insight](https://github.com/duyanta123/dsh-test-insight) - 测试洞察插件：把仓库事实与变更风险转化为有证据支撑的测试计划与隔离、可人工审查的测试草稿。
 - [dsh-darwin](https://github.com/que3sui/dsh-darwin) - 双插件自进化闭环：dsh-sentinel 机械挖掘会话日志中的重试环、工具错误簇、高频中断与 token 浪费，生成结构化问题工单；dsh-forge 把工单合成候选技能，经评测门与人工确认才晋级到 `.dsh/skills`，并支持确定性回滚。
 - [dsh-cert-mcp](https://github.com/PerryLink/dsh-cert-mcp) - 暴露 DSH 插件认证注册表的 MCP 服务器：查询认证、列出已认证插件、读取认证规范。
 
