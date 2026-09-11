@@ -385,7 +385,7 @@ Management panel: Settings → Plugins.
 - [dsh-billing-tui](https://github.com/Ethanz11-creat/dsh-billing-tui) - Real-time token/cost billing with official DeepSeek peak/off-peak pricing: TUI status line and a whale ASCII receipt via /billing.
 
 - [woosh2010/dsh-usage-dashboard](https://github.com/woosh2010/dsh-usage-dashboard) - Peak/valley billing dock and usage analytics: token/cost/model stats, trend and token-mix charts, latest-20-turns records, global time/session/model filters.
-- [runcat-tommy/dsh-panda-calendar](https://github.com/runcat-tommy/dsh-panda-calendar) - Panda Calendar (熊猫日历) conversation-view tab: solar/lunar dates, ganzhi, Chinese zodiac, solar terms, festivals, China public holidays incl. make-up workdays, and multi-city weather; free data sources, no API key.
+- [runcat-tommy/dsh-panda-calendar](https://github.com/runcat-tommy/dsh-panda-calendar) - Panda Calendar (熊猫日历) conversation-view tab: solar/lunar dates, ganzhi, Chinese zodiac, solar terms, festivals, China public holidays incl. make-up workdays, multi-city weather, an epoch↔date timestamp converter with a time-zone picker, and bundled offline "on this day" history; free data sources, no API key.
 - [dsh-session-enhance](https://github.com/Tinger-X/dsh-session-enhance) - Full-control session management for DSH Web: archive, guaranteed physical delete (tombstone anti-resurrection), drag-and-drop workspace moves, conversation notifications, copy session ID and one-click record sync.
 ## IDE & Clients
 
