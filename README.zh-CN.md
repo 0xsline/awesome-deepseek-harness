@@ -126,6 +126,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [weibaohui/dsh-smart-title](https://github.com/weibaohui/dsh-smart-title) - 通过独立 LLM 请求根据用户与助手消息生成会话标题，输入预算可配置；已完成轮次后刷新，保留手动标题，默认跳过子代理与 fork 会话。
 
+- [weibaohui/dsh-process](https://github.com/weibaohui/dsh-process) - 工艺管理：把 ntd 的「工艺」（多阶段·多环节 agent 工作流模板）接进 dsh web——浏览/编辑/校验/导入导出/AI 生成工艺，内置库只读、我的库可写，文件改动实时同步；agent 可通过 process_* 工具读工艺库、按工艺分阶段推进。
+
 ## Context & Search
 
 - [zoahdev/dsh-github-intelligence](https://github.com/zoahdev/dsh-github-intelligence) - 只读开发者情报工具：16 大生态（GitHub、GitLab、Gitee、npm、PyPI、crates.io、Docker Hub、Hugging Face、Hacker News、Stack Overflow、Reddit、dev.to、RubyGems、NuGet、Go、ArXiv）统一查询，带 TTL 缓存，无需 API Key。
