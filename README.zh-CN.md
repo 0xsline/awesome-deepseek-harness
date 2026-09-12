@@ -125,6 +125,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [weibaohui/dsh-tasks](https://github.com/weibaohui/dsh-tasks) - 定时任务：用 cron 表达式定时执行提示词，到点自动开一个新 agent 会话替你干活，支持绑定工作区、手动立即执行与会话自动命名。
 
 - [weibaohui/dsh-smart-title](https://github.com/weibaohui/dsh-smart-title) - 通过独立 LLM 请求根据用户与助手消息生成会话标题，输入预算可配置；已完成轮次后刷新，保留手动标题，默认跳过子代理与 fork 会话。
+- [zuoyunlai/lunheng-article-pipeline-dsh](https://github.com/zuoyunlai/lunheng-article-pipeline-dsh) - 深度长文写作流水线 bundle：9 个独立角色（文献 / 数据 / 案例检索、分析、写作、批判、审计、终检、同行评审）跨 6 个阶段，含 4 个人在环节点、三角验证、M 门 23 项机械终检、G0-G14 独立审计与审稿评分/期刊匹配。安装：`dsh plugin add lunheng-article-pipeline`。
 
 ## Context & Search
 

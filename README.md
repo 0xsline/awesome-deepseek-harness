@@ -126,6 +126,7 @@ Management panel: Settings → Plugins.
 - [weibaohui/dsh-tasks](https://github.com/weibaohui/dsh-tasks) - Scheduled tasks: run a prompt on cron schedules, each run opens a new agent session to do the work, with workspace binding, manual run, session auto-naming, and a fullscreen task management page.
 
 - [weibaohui/dsh-smart-title](https://github.com/weibaohui/dsh-smart-title) - Generates session titles from user and assistant messages using a separate LLM request with a configurable input budget; refreshes after completed turns, preserves manual titles, and skips subagent and fork sessions by default.
+- [zuoyunlai/lunheng-article-pipeline-dsh](https://github.com/zuoyunlai/lunheng-article-pipeline-dsh) - Long-form writing pipeline bundle: nine independent roles (literature, data and case retrieval, analysis, drafting, critique, audit, final check, peer review) across six phases with four human checkpoints, triangular evidence verification, a 23-check mechanical final gate, a G0-G14 audit, and peer-review scoring with journal matching. Install: `dsh plugin add lunheng-article-pipeline`.
 
 ## Context & Search
 
