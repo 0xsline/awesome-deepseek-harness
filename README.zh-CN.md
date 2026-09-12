@@ -870,6 +870,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [Nicholas023/vision-exp-tile](https://github.com/Nicholas023/vision-exp-tile) - 面向视觉大模型的大图智能识图插件：800×800 无损切块识别（smart/pipeline/full 三策略）、本地 OCR（前处理+手写分流）、可选多厂商 GPU 加速（DirectML 覆盖 NVIDIA/AMD/Intel，CUDA/OpenVINO），自动回退 CPU。MIT 开源。
 - [dsh-overlay-check](https://github.com/taltara/mddl-harness/tree/main/packages/overlay-check) - 零依赖的离线覆盖层安全检查库：可解析性预检、受限的托管块写入、可读 diff，并会提示 `agent-presets.roots` 在启动时会被丢弃（deepseek-harness#403）。
 - [dsh-ticktick](https://github.com/PerryLink/dsh-ticktick) - TickTick（滴答清单）任务桥：会话页头部任务面板与精选代理工具，走官方 TickTick MCP 端点。
+- [weibaohui/dsh-webdav-server](https://github.com/weibaohui/dsh-webdav-server) - WebDAV 服务器：把一个共享目录变成 Windows/macOS/Linux 都能挂载成本地磁盘的 WebDAV 服务，令牌认证、可选只读、目录/端口/令牌全可配，设置页自带三平台挂载指南。
+
 
 ## Related
 
