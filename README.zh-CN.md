@@ -515,6 +515,7 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [PerryLink/dsh-observe](https://github.com/PerryLink/dsh-observe) —— DeepSeek Harness 的 OpenTelemetry 与 Langfuse 可观测性导出器：turn/step/tool/LLM span，token 与成本指标，脱敏的 prompt/completion 采集，异步批处理、有界离线缓冲与退避重试。
 - [PerryLink/dsh-score](https://github.com/PerryLink/dsh-score) —— 面向 DeepSeek Harness 插件的多维质量评分：对单个仓库或 npm 包从安装成功率（消费 dsh-test-drive 结果）、维护活跃度、文档完整度、安全扫描与协议合规性打分——每条结论都有真实 CLI 证据与审计时间戳支撑。
 - [PerryLink/dsh-test-drive](https://github.com/PerryLink/dsh-test-drive) —— 面向 DeepSeek Harness 插件的隔离式安装+冒烟测试：把仓库或 npm 包安装进一次性 DSH_HOME profile，校验 bundle patch 层与启动日志，输出结构化的通过/失败结果矩阵（JSON/Markdown）供打分流水线使用，并隔离清理自己拥有的所有临时目录。
+- [PerryLink/dsh-plugin-doctor](https://github.com/PerryLink/dsh-plugin-doctor) —— DeepSeek Harness 插件的零依赖静态 + 沙箱冒烟检测器（R/K/D/CC 层）：manifest/patch/入口/构建/打包/安装校验、模型可调用的 plugin_check、profile 宿主遮蔽与 manifest BOM 检测，以及供应链投毒预检。
 - [PerryLink/dsh-translate](https://github.com/PerryLink/dsh-translate) —— DeepSeek Harness 的厂商参数转换与确定性 JSON 修复：/translate 在 11 家厂商间映射 temperature/top_p/max_tokens/stop/system 参数，后置修复层（附 fix_json）修复损坏的 JSON 工具输出且绝不臆造数据。
 - [Poepon/dsh-image-generation-responses](https://github.com/Poepon/dsh-image-generation-responses) —— DeepSeek Harness 图像生成 provider 插件（responses API）。
 - [TuringCorp-net/dsh-boot-restore](https://github.com/TuringCorp-net/dsh-boot-restore) —— DSH 插件：服务重启后自动恢复最后一个活跃（在值）会话，使定时任务能无人值守运行。
