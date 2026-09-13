@@ -698,6 +698,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-blackjack](https://github.com/yul761/dsh-blackjack) - 对话里的 21 点牌桌：每日免费手数赢 CHIP，可单向兑换为模型额度，只在你自己配置的额度耗尽时由续命路由接管那一次失败的请求；奖池由运营者出资，服务端与可审计的账本同仓开源。
 
 - [weibaohui/dsh-xiuxian](https://github.com/weibaohui/dsh-xiuxian) - 修仙陪伴：MC 像素风桌宠与 agent 会话实时联动，子代理启动时化身宠物现身（最多 3 只同屏），储物袋收藏、右键法宝菜单、图鉴选宠，可导出 Codex 桌宠格式。
+- [weibaohui/dsh-code-poem](https://github.com/weibaohui/dsh-code-poem) - 代码如诗：4598 条古诗词、成语、龙文鞭影典故随机成笺，随会话事件自动浮现（回合结束/工具报错时送你一句），可 ❤ 收藏、展开看释义与故事，宣纸墨色的阅读卡片。
+
 
 ## Plugin Ecosystem & Development
 

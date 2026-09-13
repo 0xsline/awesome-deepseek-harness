@@ -700,6 +700,8 @@ Management panel: Settings → Plugins.
 - [dsh-blackjack](https://github.com/yul761/dsh-blackjack) - Blackjack in the conversation: free daily hands win CHIP, redeemable one-way into model credit that a fallback route spends only when your own provider quota runs out; operator-funded pool, with the server and its audited ledger open source in the same repo.
 
 - [weibaohui/dsh-xiuxian](https://github.com/weibaohui/dsh-xiuxian) - Xianxia desktop pets tied to live agent sessions: pixel-style companions appear as subagents spawn (up to 3 on screen), with storage-bag collection, a right-click artifact menu, a pet gallery, and Codex pet-format export.
+- [weibaohui/dsh-code-poem](https://github.com/weibaohui/dsh-code-poem) - Code poetry: surfaces one of 4,598 classical Chinese poems, idioms or allusions as a reading card at session events (after each turn, or when a tool errors), with favorites and expandable annotations and backstories, styled as an ink-wash paper card.
+
 
 ## Plugin Ecosystem & Development
 
