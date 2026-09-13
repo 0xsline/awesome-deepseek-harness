@@ -2876,7 +2876,7 @@ _可在 DSH 内运行的可复用子 agent / 专用 agent 包。_
 - [jing-hy/picturereader](https://github.com/jing-hy/picturereader) — DSH 插件：为纯文本模型提供像素转文本的图片阅读能力。提供 image_scan/image_ocr/image_sample 工具 + 图片阅读技能（基于 34 张图片训练的方法论），纯本地运行，可选 PaddleOCR。
 - [AgentDebugX/AgentDebugX](https://github.com/AgentDebugX/AgentDebugX) —— 面向 agentic AI 系统的调试框架：诊断失败、归因到根本环节、基于证据恢复、并通过重跑验证修复；以 DeepSeek Harness 的 `dsh-agentdebugx` 插件形式发布。
 - [Rtyyy233/dsh-factor-mining-plugin](https://github.com/Rtyyy233/dsh-factor-mining-plugin) —— 面向 DSH 的 agentic 因子挖掘插件，适合像 Qwen 这样的小模型；核心包也可独立使用。
-- [KongFangXun/sofagent](https://github.com/KongFangXun/sofagent) —— 开源 FDE Harness（企业 AI 约束层）：提交时审计以 24 条确定性规则审查 git diff，HMAC 链式防篡改审计记录、自动快照回滚、规则注入、自我演化。以 GitHub Action、MCP 服务器（84 个工具）与 9 个 DeepSeek Harness 插件形式发布。MIT 许可。
+- [KongFangXun/sofagent](https://github.com/KongFangXun/sofagent) —— 开源 FDE Harness（企业 AI 约束层）：提交时审计以 24 条确定性规则审查 git diff，HMAC 链式防篡改审计记录、自动快照回滚、规则注入、自我演化。以 GitHub Action、完整 MCP 工具面与 DSH 插件家族形式发布。MIT 许可。
 - [taishan1994/DeepSeek-Harness-RAG](https://github.com/taishan1994/DeepSeek-Harness-RAG) —— 基于DeepSeek-Harness的知识问答，支持自定义模型、上传图片、上传文件等。
 - [aalvsz/dsh-hermes-bridge](https://github.com/aalvsz/dsh-hermes-bridge) —— Literal Hermes Agent → DeepSeek Harness 桥接插件：共享记忆、Skills、实时工具、MCP 与完整 Agent 委托。
 - [gulagala001/dsh-trisoul](https://github.com/gulagala001/dsh-trisoul) —— TriSoul —— 三魂共识 Agent：三个灵魂盲写+匿名互评，三官（对齐/博识/实证）补偿生成，画布式上下文，记忆中枢。DeepSeek Harness 插件套件，一键装/独立端口/一键卸载。
