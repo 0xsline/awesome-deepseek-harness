@@ -976,6 +976,8 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [kelai141/dsh-shell-termux](https://github.com/kelai141/dsh-shell-termux) — dsh 的安卓/Termux bash 能力提供者——显式 Termux 环境注入、探测诊断、诚实的应用域沙箱声明。
 - [ThinkForge-core/dsh-upgrade-tools](https://github.com/ThinkForge-core/dsh-upgrade-tools) — 升级 DeepSeek Harness 内核与某个 profile 的插件：快照、整体卸载、升级、重装兼容项、其余延后。纯 Python 3，不依赖 Node；以已安装内核为基线（不锁版本），检查实际可加载项并输出机器可读报告。
 - [YMRwithNoworry/dsh-nushell-only](https://github.com/YMRwithNoworry/dsh-nushell-only) — DeepSeek Harness（dsh）bundle：把 Nushell 作为唯一 shell 执行器，外加 Nushell 语法教学。安装：`dsh plugin --profile web add github:YMRwithNoworry/dsh-nushell-only`。
+- [chen6896qqwee/ppx-harness](https://github.com/chen6896qqwee/ppx-harness) —— 基于 DeepSeek Harness（dsh）引擎构建的 agent harness：工具、记忆与自愈能力都以 cordis 插件形式提供。
+- [emo-xiaoyu/harness-mix](https://github.com/emo-xiaoyu/harness-mix) —— 把 Codex Desktop 原生界面接到多个 Coding Harness（含 DeepSeek Harness）的本地内核：在输入框里选择 harness、会话中原地切换并保留历史与文件现场，模型、工具与凭据仍由各 harness 自行管理。
 
 ## 安全与权限
 
@@ -1190,6 +1192,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [jackeyunjie/dsh-rule-lens](https://github.com/jackeyunjie/dsh-rule-lens) —— 规则透镜（RuleScope Lens）——DSH 本地插件：AGENTS.md/rules 加载可视化、预算治理、硬拦截、Lint 与遵守率统计。
 - [040822/dsh-codex-approval](https://github.com/040822/dsh-codex-approval) — 仿 Codex 的 DSH 自动审批插件：规则 + AI 三级风险评估，自动放行或拒绝沙箱审批请求。
 - [mokuyoaxis/agent-guard](https://github.com/mokuyoaxis/agent-guard) — 让破坏性 AI Agent 操作默认可回滚——对 rm/git 等破坏性操作做隔离 + 审计 + 人工升级。属可靠性基础设施，不是沙箱。
+- [Jueze-2019/dsh-redteam-mode](https://github.com/Jueze-2019/dsh-redteam-mode) —— DSH RedTeam 模式：把 DeepSeek Harness 变成红队作战指挥台——输入一个靶标名称即可拉起信息收集/漏洞检测/漏洞利用/内网渗透四个角色，资产与战果实时落入本地 SQLite 事实库（仅供已授权测试）。
 
 ## 会话与记忆管理
 
@@ -2077,6 +2080,10 @@ _把 DSH 桥接到各种聊天平台与消息通道。_
 - [bihangchi9-creator/dsh-lark-bridge](https://github.com/bihangchi9-creator/dsh-lark-bridge) — 将飞书/Lark 聊天桥接到代理会话的 DSH 插件，每个聊天对应持久项目目录；需配置机器人。
 - [sprog-xhy/dsh-im-bridge](https://github.com/sprog-xhy/dsh-im-bridge) — 让 DeepSeek Harness (dsh) 通过 QQ / 飞书收发消息、在 IM 里指挥本机 AI 助手的桥接项目（dsh 插件 + Python 桥接）。
 - [PRTS168/dsh-wechat-suite](https://github.com/PRTS168/dsh-wechat-suite) —— 通过 clawbot iLink 网关在微信里与 DSH（DeepSeek Harness）agents 对话、监控并审批：双向文本/图片/语音/文件/视频、原生视觉或 OCR、上下文轮转策略、提醒，以及独立管理控制台。
+- [Haoxiang-Fant/dsh-task-notice](https://github.com/Haoxiang-Fant/dsh-task-notice) —— DSH 插件：在插件设置内授权后，任务完成时用系统通知提醒，并可查看每个模型的使用情况。
+- [ice5kysl/dsh-msg9-kit](https://github.com/ice5kysl/dsh-msg9-kit) —— 给每个 dsh workspace 一个 msg9.io 收件箱：Agent 用工具收发邮件，GUI 点 ✉ 查看同一份邮件。
+- [ltao0829/dsh-task-notify](https://github.com/ltao0829/dsh-task-notify) —— 面向 AI 编码 agent 的生命周期通知层：DeepSeek Harness 插件，覆盖轮次、任务、评审与失败通知。
+- [qzy033/dsh-astrbot-gateway](https://github.com/qzy033/dsh-astrbot-gateway) —— 大肥鱼桥：DSH 与 AstrBot 之间的桥接插件，指令下行、结果只走文件交付，不直发用户。
 
 ## 插件市场与生态
 
@@ -4620,6 +4627,11 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [techflag/workdsh](https://github.com/techflag/workdsh) — WorkDSH：基于 DeepSeek Harness 的插件化 AI 工作平台，含全局 Skill 管理（发现/创建/导入/编辑/启用）与原生工作区集成。
 - [kelai141/dsh-host-web-compat](https://github.com/kelai141/dsh-host-web-compat) — dsh 宿主插件——经 webserver 钩子向页面注入旧内核浏览器 polyfill。
 - [succlz123/dsh-model-switch](https://github.com/succlz123/dsh-model-switch) — DSH（DeepSeek Harness）全局插件：用任意按键（含 spare 键、蓝牙小键盘、遥控器 HID 键盘等）一键切换模型与思考强度。
+- [233fxr-collab/dsh-launch-in-one-click](https://github.com/233fxr-collab/dsh-launch-in-one-click) —— Windows 专用 DeepSeek Harness 插件：写入自包含的一键启动器；目标端口已有 Harness 实例时拒绝启动第二个。
+- [crazysmallbamboo/whale-widget-standalone](https://github.com/crazysmallbamboo/whale-widget-standalone) —— 独立运行的大肥鱼挂件：不打开 dsh 也能看到你的大肥鱼，还支持自定义图片。
+- [StevenZha0/dsh-vae-theme](https://github.com/StevenZha0/dsh-vae-theme) —— 《庐州月 · 许嵩》—— DeepSeek Harness 国风水墨主题插件：夜色水墨长卷、金丝九宫格边框、VAE 书法标志、全屏雨幕与国风歌词竖排轮播。
+- [thanhdz235123-commits/nyx-dsh-plugins](https://github.com/thanhdz235123-commits/nyx-dsh-plugins) —— Nyx 系列 DeepSeek Harness 插件：右侧文件面板与真正的消息编辑，均使用 Harness 自带 UI 渲染。
+- [XiaoCXXX/-DSHSD-Deepseek-Harness-Super-Desktop](https://github.com/XiaoCXXX/-DSHSD-Deepseek-Harness-Super-Desktop) —— DeepSeek Harness（DSH）的 Windows 桌面宿主：内置 DSH 运行时，无需 Node.js、pnpm 或 npx；附带悬浮控制条、六套主题、中英文切换与快捷提问浮窗。
 
 ## Skill
 
@@ -4908,6 +4920,9 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [TheHeartFickle/dsh-skill-creator](https://github.com/TheHeartFickle/dsh-skill-creator) —— DSH Skill Creator：创建、评测、迭代改进 DSH skill 的 skill 与零依赖 CLI 工具。
 - [weikangzeng07-ops/dsh-hmos-skills](https://github.com/weikangzeng07-ops/dsh-hmos-skills) —— HarmonyOS（鸿蒙）开发技能包：39 个官方 hmos-* 技能包移植到 DSH 技能注册表，覆盖 ArkTS/ArkUI、多设备适配、Kit 集成与 DFX 崩溃/泄漏分析。
 - [Paloma966/dsh-paper](https://github.com/Paloma966/dsh-paper) — DSH 单插件实现本科毕业设计论文全流程（选题→开题→文献→设计→实现→测试→论文→合规→答辩），含意图规格、台账、决定日志与 Office 材料摄取。
+- [gulagala001/opencu](https://github.com/gulagala001/opencu) —— DSH 的 Computer Use 能力：浏览器、桌面应用、实时预览与标注，已集成进 Oh My DSH。
+- [maci0/dsh-ponytail](https://github.com/maci0/dsh-ponytail) —— DeepSeek Harness 版 Ponytail（懒惰资深开发模式）：六个技能、常驻的反过度设计规则集，以及一张插件配置卡片。
+- [noteflowai/dsh-skills-anywhere](https://github.com/noteflowai/dsh-skills-anywhere) —— 技能随处可用：Agent Skill 装一次即可在所有 agent 里使用——DeepSeek Harness（dsh）的实时技能提供器，同时提供 MCP server 与 Claude Code 插件，覆盖 Claude Code、Cursor、Codex；可读取 60+ 个 agent 的技能目录、Claude Code 市场与任意 GitHub 技能仓库，零拷贝、零软链。
 
 ## 资源
 
