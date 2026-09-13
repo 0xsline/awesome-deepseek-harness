@@ -662,6 +662,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-island](https://github.com/cdxiaodong/dsh-island) - 通过 Unix socket 把 DSH agent 的会话、工具调用与审批实时桥接到 CodeIsland macOS 刘海面板，可直接在面板上批准/拒绝。
 - [february2015/dsh-dingo](https://github.com/february2015/dsh-dingo) - 多对话并行的声音提醒 + 对话直达：当前对话当/当当（crisp 清脆档），其他对话叮/叮叮（soft 柔和档）+ 右上角小卡片，点一下直达对应对话。
 - [dsh-wechat](https://github.com/PerryLink/dsh-wechat) - DSH 的单用户微信桥接，支持文本、图片、文件与音视频双向传输，以及聊天内审批与提问卡；首个发消息的对端绑定为用户。
+- [dsh-reach](https://github.com/PerryLink/dsh-reach) - DSH 多渠道审批/提问桥：把审批卡与提问卡推送到 IM 渠道（微信、Telegram、飞书）并在聊天中作答，带逐渠道安全、会话控制台与开放推送服务。
 
 ## Fun & Lifestyle
 
