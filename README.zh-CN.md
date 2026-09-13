@@ -1594,7 +1594,6 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [myYangyunfan/dsh_cardian](https://github.com/myYangyunfan/dsh_cardian) — cardian — DeepSeek Harness 知识中心插件：在本地 Obsidian 仓库中提供 RepoWiki 笔记/闪卡/记忆。
 - [fan56/dsh-llmwiki-memory](https://github.com/fan56/dsh-llmwiki-memory) — dsh 插件：为 dsh 提供 OKF v0.2 主题记忆——本地优先、git 跟踪的记忆包，热路径无 LLM 注入，配合后台蒸馏的两阶段观察者。
 - [Yu-Zhuang1/dsh-workspace-snapshot-fork](https://github.com/Yu-Zhuang1/dsh-workspace-snapshot-fork) — 连同历史工作区状态一起 fork DeepSeek Harness 会话。
-- [PerryLink/dsh-personal-directive](https://github.com/PerryLink/dsh-personal-directive) —— 个人指令：系统提示词注入、工具与顶部运行时开关。
 - [bbqisbbq/dsh-tiddlywiki](https://github.com/bbqisbbq/dsh-tiddlywiki) — 基于 TiddlyWiki 的 DeepSeek Harness 知识库/笔记插件，支持 git 同步。
 - [fan56/dsh-topics-memory](https://github.com/fan56/dsh-topics-memory) — 为 dsh 提供 OKF v0.2 主题记忆——本地优先、git 跟踪的记忆包，热路径无 LLM 注入，配合后台蒸馏的两阶段观察者。
 - [RealAlexandreAI/dsh-noc-memory](https://github.com/RealAlexandreAI/dsh-noc-memory) — dsh memory：为 DeepSeek Harness 提供的 Nocturne Memory 客户端。

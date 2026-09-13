@@ -1589,7 +1589,6 @@ _Cross-session memory, checkpoints, pinning, and session navigation plugins._
 - [myYangyunfan/dsh_cardian](https://github.com/myYangyunfan/dsh_cardian) — cardian — DeepSeek Harness knowledge-center plugin: RepoWiki notes / flashcards / memory in a local Obsidian vault.
 - [fan56/dsh-llmwiki-memory](https://github.com/fan56/dsh-llmwiki-memory) — dsh plugin: OKF v0.2 topic memory for dsh — local-first git-tracked bundle, hot-path LLM-free injection, two-stage observer with background distill.
 - [Yu-Zhuang1/dsh-workspace-snapshot-fork](https://github.com/Yu-Zhuang1/dsh-workspace-snapshot-fork) — Fork DeepSeek Harness sessions together with their historical workspace state.
-- [PerryLink/dsh-personal-directive](https://github.com/PerryLink/dsh-personal-directive) — Personal directives: system-prompt injection, tools, and a top-bar runtime toggle.
 - [bbqisbbq/dsh-tiddlywiki](https://github.com/bbqisbbq/dsh-tiddlywiki) — TiddlyWiki-based knowledge-base and note-taking plugin for DeepSeek Harness, with git-sync support.
 - [fan56/dsh-topics-memory](https://github.com/fan56/dsh-topics-memory) — OKF v0.2 topic memory for DSH: local-first git-tracked bundle, hot-path LLM-free injection, two-stage observer with background distill.
 - [RealAlexandreAI/dsh-noc-memory](https://github.com/RealAlexandreAI/dsh-noc-memory) — dsh memory: Nocturne Memory client for DeepSeek Harness.
