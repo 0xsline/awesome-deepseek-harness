@@ -2237,6 +2237,7 @@ _Plugin marketplaces, install managers, indexes, and ecosystem tooling._
 - [Dingpenghui-good/dsh-plugin-manager](https://github.com/Dingpenghui-good/dsh-plugin-manager) — Writable plugin management tab for DeepSeek Harness — toggle, enable/disable and uninstall user-installed Cordis plugins from Settings.
 - [ddtcorex/dsh-maestro-config-lib](https://github.com/ddtcorex/dsh-maestro-config-lib) — Maestro settings-store library — an atomic, namespaced JSON store shared by the dsh-maestro-* plugins (embedded dependency, no Cordis row).
 - [f-infinite-z/dsh-plugin-ops](https://github.com/f-infinite-z/dsh-plugin-ops) — DeepSeek Harness plugin operations: pre-boot health gate, failure attribution, dependency governance and a web panel — a startup-lifecycle guard for the dsh plugin ecosystem.
+- [noteflowai/dsh-skills-anywhere](https://github.com/noteflowai/dsh-skills-anywhere) — Live skill provider for DeepSeek Harness: serves SKILL.md skills from 60+ coding agents' directories, Claude Code plugin marketplaces and any git skill repo in place, with zero copies and zero symlinks; web UI card to pin, hide or exclude skills.
 
 ## Visualization
 

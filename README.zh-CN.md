@@ -2251,6 +2251,7 @@ _插件市场、安装管理器、索引与生态工具。_
 - [Dingpenghui-good/dsh-plugin-manager](https://github.com/Dingpenghui-good/dsh-plugin-manager) — DSH 可写的插件管理页：在设置里启用/停用、卸载用户安装的 Cordis 插件。
 - [ddtcorex/dsh-maestro-config-lib](https://github.com/ddtcorex/dsh-maestro-config-lib) —— Maestro 设置存储库：被 dsh-maestro-* 系列插件共享的原子化命名空间 JSON 存储（嵌入式依赖，无 Cordis 行）。
 - [f-infinite-z/dsh-plugin-ops](https://github.com/f-infinite-z/dsh-plugin-ops) —— DeepSeek Harness 插件运维：启动前健康门禁、故障归因、依赖治理与 Web 面板——dsh 插件生态的启动生命周期守卫。
+- [noteflowai/dsh-skills-anywhere](https://github.com/noteflowai/dsh-skills-anywhere) —— DeepSeek Harness 的实时技能提供器：原地读取 60+ 编码 Agent 的技能目录、Claude Code 插件市场和任意 git 技能仓库中的 SKILL.md，零拷贝零软链接；Web UI 卡片可置顶、隐藏或排除技能。
 
 ## 可视化
 
