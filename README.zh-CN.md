@@ -4911,7 +4911,7 @@ _打包好的任务能力（基于 markdown 的 skill、工具包）。_
 - [oxbshw/watch-skill](https://github.com/oxbshw/watch-skill) —— 提供带时间戳证据的视频、音频与屏幕理解能力；DeepWatch 将这些证据与独立验证带入基于官方 DeepSeek Harness 的工作区，支持 MCP、CLI、REST 与 Web。
 - [repo-cover](https://github.com/sjh9714/repo-cover) —— GitHub 社交预览卡片设计技能：生成自包含的 1280×640 HTML 卡片，提供四种编辑风格、中文等 CJK 字体排版与对比度、溢出、换行检查。
 - [siweimofang/dsh-plugin-zhishe-bikeng-qa](https://github.com/siweimofang/dsh-plugin-zhishe-bikeng-qa) — 需手工注册的 DSH 装修问答与验收清单工具包，基于用户提供的 JSON 知识文件做关键词检索，并以规则生成风险标签。
-- [PerryLink/dsh-plugin-upgrade](https://github.com/PerryLink/dsh-plugin-upgrade) —— 锁定版本的 DeepSeek Harness 插件迁移技能，面向 0.1.3-alpha.1 → 0.1.5-alpha.1，附零依赖扩展接缝扫描器；以 bundle skill 与 npx CLI 形式提供。
+- [PerryLink/dsh-plugin-upgrade-015](https://github.com/PerryLink/dsh-plugin-upgrade-015) —— 合并后的锁版本 DeepSeek Harness 插件升级技能（0.1.3-alpha.1 → 0.1.5-rc.1 两条封闭迁移腿）：带证据的版本卡 + 零依赖 20 接缝扫描器，以 bundle skill 与 npx CLI 形式提供。
 - [SCP-CN-1059/dsh-zhouli](https://github.com/SCP-CN-1059/dsh-zhouli) — 《周礼》插件：给 DeepSeek Harness 提供带稳定坐标（篇序.职官序）的全文检索工具，含职官员额／职掌索引与 Kanripo 两本互校勘记，并附一套依六官法度行事的 agent 预设。引文可核，不凭记忆。
 - [ybl2020/dsh-upgrade](https://github.com/ybl2020/dsh-upgrade) — DeepSeek Harness (dsh) 升级流程技能：升级前评估 → 用户审核放行 → 升级 → 升级后验证。含强制备份、回滚手册、第三方插件与技能影响评估。A reviewable, rollback-safe dsh upgrade skill.
 - [SH-9999/what-was-that](https://github.com/SH-9999/what-was-that) — 小白+AI开发，for小白的dsh小插件，解释AI吐出的“黑话”。
