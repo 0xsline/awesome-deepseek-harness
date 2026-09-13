@@ -565,6 +565,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-verify](https://github.com/263311487-ux/dsh-verify) - Agent 交付物的独立浏览器验收测试：JSON 规格进，真实浏览器（Chromium/Firefox/WebKit）执行出结论（PASS/FAIL + 截图证据）。MCP 服务器 + CLI + GitHub Action，兼容任意 Agent 与 CI（MIT）。
 - [beijingwahw/dsh-nuke-plugin](https://github.com/beijingwahw/dsh-nuke-plugin) - 事务式卸载引擎：每个动作支持校验/预览/执行/撤销，Saga 回滚、WAL 崩溃恢复、哈希链审计、硬链接去重，并提供贝叶斯先知在执行前预测成功率（MIT）。
 - [maxmilian/dsh-forge](https://github.com/maxmilian/dsh-forge) - 自建 Gitea / Forgejo 的只读工具：实例版本、仓库列表、议题与 PR 搜索和读取、PR diff，以及 Actions 运行、任务与日志。
+- [weibaohui/dsh-sync](https://github.com/weibaohui/dsh-sync) - 多机同步：让多台机器上的 dsh 通过一个私有 GitCode 仓库保持一致——技能、会话、设置、插件清单四类内容各有独立开关；变更走分支 → PR → 合并，推送前自动回填远端新增防误删，支持 AI 智能对齐（语义合并双方改动）与一键解决冲突；强制私有仓库，pull 不覆盖本地改动。
+
 
 ## Security & Governance
 
