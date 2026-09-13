@@ -756,6 +756,8 @@ Management panel: Settings → Plugins.
 - [dsh-cert-mcp](https://github.com/PerryLink/dsh-cert-mcp) - MCP server exposing the DSH plugin certification registry: get a certification, list certified plugins, and read the certification spec.
 
 - [weibaohui/skills-management](https://github.com/weibaohui/skills-management) - Skill marketplace and manager: manage skills from all local coding agents (10+ executors, incl. Claude Code and Codex) in one page and import them into the DSH skill library; built-in market of 6600+ skills, per-skill token-overhead stats, and model visibility control.
+- [weibaohui/dsh-fde-tools](https://github.com/weibaohui/dsh-fde-tools) - FDE toolbox bundle: installing this one plugin pulls in a curated set of common dsh plugins (git server, WebDAV mount, knowledge base, scheduled tasks, auto-resume, UI tweaks, auto-retrospection, file manager, smart titles, task board, plugin market, context trimmer, IM bridge, sidebar enhancements), with a panel showing install status and one-click gap-filling.
+
 
 ## Runtime & Operations
 
