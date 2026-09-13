@@ -973,6 +973,9 @@ _DeepSeek 原生 / DeepSeek 优先的 agent harness、coding agent，以及运�
 - [phelpsyacht/dsh-finetune](https://github.com/phelpsyacht/dsh-finetune) —— 面向 DeepSeek Harness 的 LLM 微调插件：把数据集校验与清洗、LoRA SFT 微调（本机 CPU/GPU 或 SSH 远端 GPU）、训练监控、适配器验证，以及 OpenAI 兼容的远端微调任务管理串成一条可复用的工具链。
 - [zhiwuli0228/dsh-image-router](https://github.com/zhiwuli0228/dsh-image-router) — DSH 插件：把消息里的图片经视觉模型摘要后暴露 `describe_image` 工具，全程不改变会话当前模型。
 - [tnnevol/fn-os-apps](https://github.com/tnnevol/fn-os-apps) — 飞牛 fnOS 应用 Monorepo，把 DeepSeek Harness 打包成 fnOS 原生应用（`fn-deepseek-harness`），含插件清单版本同步与 FPK 构建发布。
+- [kelai141/dsh-shell-termux](https://github.com/kelai141/dsh-shell-termux) — dsh 的安卓/Termux bash 能力提供者——显式 Termux 环境注入、探测诊断、诚实的应用域沙箱声明。
+- [ThinkForge-core/dsh-upgrade-tools](https://github.com/ThinkForge-core/dsh-upgrade-tools) — 升级 DeepSeek Harness 内核与某个 profile 的插件：快照、整体卸载、升级、重装兼容项、其余延后。纯 Python 3，不依赖 Node；以已安装内核为基线（不锁版本），检查实际可加载项并输出机器可读报告。
+- [YMRwithNoworry/dsh-nushell-only](https://github.com/YMRwithNoworry/dsh-nushell-only) — DeepSeek Harness（dsh）bundle：把 Nushell 作为唯一 shell 执行器，外加 Nushell 语法教学。安装：`dsh plugin --profile web add github:YMRwithNoworry/dsh-nushell-only`。
 
 ## 安全与权限
 
@@ -1186,6 +1189,7 @@ _权限规则、审批复核、安全审计与调用前 policy-check 插件。_
 - [snailium/dsh-repeat-tool-breaker](https://github.com/snailium/dsh-repeat-tool-breaker) —— DeepSeek Harness（DSH）重复工具调用硬熔断：一个同步单调的 ctx.tools.guard 门，对每个 agent 拒绝第 2 次完全相同的调用。零依赖。
 - [jackeyunjie/dsh-rule-lens](https://github.com/jackeyunjie/dsh-rule-lens) —— 规则透镜（RuleScope Lens）——DSH 本地插件：AGENTS.md/rules 加载可视化、预算治理、硬拦截、Lint 与遵守率统计。
 - [040822/dsh-codex-approval](https://github.com/040822/dsh-codex-approval) — 仿 Codex 的 DSH 自动审批插件：规则 + AI 三级风险评估，自动放行或拒绝沙箱审批请求。
+- [mokuyoaxis/agent-guard](https://github.com/mokuyoaxis/agent-guard) — 让破坏性 AI Agent 操作默认可回滚——对 rm/git 等破坏性操作做隔离 + 审计 + 人工升级。属可靠性基础设施，不是沙箱。
 
 ## 会话与记忆管理
 
@@ -1652,6 +1656,8 @@ _跨会话记忆、checkpoint、会话置顶与导航插件。_
 - [Mlte0907/pangu](https://github.com/Mlte0907/pangu) —— 盘古 — AI Agent 多模态记忆系统：Wing→Room→Drawer 分层存储、ONNX 本地嵌入语义检索（SQLite FTS5 + RRF 融合）、艾宾浩斯遗忘曲线与神经激活扩散；提供 REST API + MCP 服务，默认暴露 28 个核心工具，可接入 DeepSeek Harness / Claude Code 等任意 MCP 客户端。核心依赖零 torch，56 包约 20 秒装完。
 - [syncable-dev/memtrace-public](https://github.com/syncable-dev/memtrace-public) — 给 AI 编码代理的结构化记忆：双时态图、MCP 原生、零 LLM 调用；支持 Cursor、Claude Code、Codex、DeepSeek Harness、Hermes、VS Code、Windsurf。
 - [TodayJin/dsh-trilogy](https://github.com/TodayJin/dsh-trilogy) — DSH 项目记忆插件：由 host 插件（而非提示词自觉）保证每个工作区三份 Markdown 记忆文件的自动创建、自动加载与分类记录。
+- [Carrick-K7/dsh-keep-going](https://github.com/Carrick-K7/dsh-keep-going) — 重启 DSH 后接着干：正在进行的回答会先写完，DSH 有序关闭，重启打断的每个会话都会被重新唤醒。
+- [P02-1010751281/dsh-project-context](https://github.com/P02-1010751281/dsh-project-context) — dsh 项目级持久上下文插件：带机械索引的会话归档、记忆整合（CONTEXT.md + MEMORY.md）、低频技能自学习与自动交接。
 
 ## 成本与用量统计
 
@@ -2729,6 +2735,7 @@ _代码生成、重构、审查、仓库级工程插件。_
 - [jigjoy-ai/baro](https://github.com/jigjoy-ai/baro) —— 把目标变成 Pull Request 的 CLI，同时是测试并发 AI 编码 agent 的沙箱（基于 Mozaik 运行时）。
 - [yan-mc/dsh-normify](https://github.com/yan-mc/dsh-normify) —— Normify · DSH 插件：把项目架构写成归一化的分形模块树，三层校验（写时 / 校验 / 冻结回执）、30 个 normify_* 工具 + normify-gen 技能，一键渲染单文件交互式架构图；支持伴随式开发（change_open → brief → check → 实施 → refresh → change_close）。
 - [weibaohui/dsh-git-server](https://github.com/weibaohui/dsh-git-server) — 装进 dsh 的自助 Git 服务插件：HTTP clone/push，仓库/工单/PR/wiki/发版/标签/里程碑/webhook 一条龙，全套 dsh 原生管理界面（账号复用 user-management）。
+- [JohnXu22786/db-connector](https://github.com/JohnXu22786/db-connector) — DeepSeek Harness（dsh）数据库连接 bundle：SQLite/PostgreSQL/MySQL 连接、schema 内省、只读安全保障、写入审批门与会话可查的 JSONL SQL 审计。
 
 ## Agent
 
@@ -2972,6 +2979,7 @@ _长时运行的循环工作流：自动研究、深度调研、自我精炼、�
 - [BitDG/dsh-TableRAG](https://github.com/BitDG/dsh-TableRAG) — DeepSeek Harness 插件，将本地只读 TableRAG 目录暴露为原生工具。
 - [Modellix/dsh-modellix](https://github.com/Modellix/dsh-modellix) — 适配 Modellix Web Search 与 Web Fetch 的 DeepSeek Harness 插件。
 - [TT-Wang/dsh-slice-agent-loop](https://github.com/TT-Wang/dsh-slice-agent-loop) — 一个可直插的 DeepSeek Harness agent 循环，其上下文引擎是一个有边界的切片，而不是不断增长的对话记录。
+- [MichengAI/dsh-pua](https://github.com/MichengAI/dsh-pua) — DeepSeek Harness 的 PUA 插件：任务持续推进、人设与验证循环。
 - [HiccupGeng/whale-notebook](https://github.com/HiccupGeng/whale-notebook) —— DeepSeek Harness 经验学习插件：从会话日志中提炼踩坑经验，经人工确认后注入全局规则。
 ## MCP Server
 
@@ -4610,6 +4618,8 @@ _DSH 的桌面、网页、终端或编辑器前端。_
 - [new-Beginner/dsh-thought-fold](https://github.com/new-Beginner/dsh-thought-fold) — DSH 的 Codex 风格可见执行进度与原生过程折叠增强：注入阶段进度规范、复用 turn-process 折叠机制，并提供设置页与 `/fold` 指令。
 - [pureexe/dsh-mobile-topbar](https://github.com/pureexe/dsh-mobile-topbar) — DSH 插件：在移动端把侧栏折叠为紧凑顶栏，节省屏幕空间。
 - [techflag/workdsh](https://github.com/techflag/workdsh) — WorkDSH：基于 DeepSeek Harness 的插件化 AI 工作平台，含全局 Skill 管理（发现/创建/导入/编辑/启用）与原生工作区集成。
+- [kelai141/dsh-host-web-compat](https://github.com/kelai141/dsh-host-web-compat) — dsh 宿主插件——经 webserver 钩子向页面注入旧内核浏览器 polyfill。
+- [succlz123/dsh-model-switch](https://github.com/succlz123/dsh-model-switch) — DSH（DeepSeek Harness）全局插件：用任意按键（含 spare 键、蓝牙小键盘、遥控器 HID 键盘等）一键切换模型与思考强度。
 
 ## Skill
 
