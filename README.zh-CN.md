@@ -723,6 +723,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [maxmilian/dsh-sonarqube](https://github.com/maxmilian/dsh-sonarqube) - 唯读 SonarQube Community Build 集成：查询 Quality Gate、Issue、Security Hotspot、覆盖率与项目指标，并提供源文件及行号定位。
 - [plugin-registry](https://github.com/dsh-external/plugin-registry) - 插件控制台 + make-dsh-plugin skill + 开发指引
 - [dsh-plugin-manager-registry](https://github.com/Jesse-njx/dsh-plugin-manager-registry) - 离线容错的插件注册表，聚合并去重 awesome 列表、GitHub Topic 与 npm 中的 DSH 插件。
+- [dsh-topic-audit](https://github.com/ciceroyang/dsh-topic-audit) - `dsh-plugin` topic 的机械审计：按根目录 cordis manifest 与 README 规则判定插件/生态周边/挂名，每行带判定依据，并用星段+日期递归突破搜索接口 1000 条窗口。
 - [marisa](https://github.com/dsh-external/marisa) - 外部插件管理器（寄生安装/CLI/设置页面板）
 - [hub](https://github.com/dsh-external/hub) - 全组织分类索引 + 统一 catalog.json（CI 自动生成）
 - [dshx-update-check](https://github.com/dsh-external/dshx-update-check) - 插件更新检查
