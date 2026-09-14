@@ -703,6 +703,7 @@ Management panel: Settings → Plugins.
 
 ## Plugin Ecosystem & Development
 
+- [ouli-1242/dsh-plugin-tool-management](https://github.com/ouli-1242/dsh-plugin-tool-management) - One settings panel managing DSH MCP servers, skills, AGENTS.md presets, archived sessions and scene memory: per-tool toggles, skill import and trash, and scene memories injected into the system prompt as plain Markdown folders.
 - [SunQingyuan0/Kabutack](https://github.com/SunQingyuan0/Kabutack) - Role-based manager for DSH plugins/Skills/MCP: bundle capabilities into “roles” and hot-switch them from the Web UI.
 - [dsh-workbench](https://github.com/staff-os/dsh-workbench) - Enterprise workbench for DSH: manage AI employees, knowledge bases, skills, MCP servers and DSH plugins from a running session.
 - [dsh-plugin-bench](https://github.com/B1lli/dsh-plugin-bench) - Evidence-backed, type-aware DSH plugin quality benchmark: commit-bound score intervals and evidence ledgers across eight lifecycle dimensions, with Markdown/SVG scorecards; Stars and identity are not scored.
