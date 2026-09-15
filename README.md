@@ -248,7 +248,6 @@ Management panel: Settings → Plugins.
 ## UI, Themes & Interaction
 
 - [exoticknight/dsh-just-chat](https://github.com/exoticknight/dsh-just-chat) - One-click native conversation entry points that create independent workspaces and sessions.
-
 - [YEYEYEYESHIFU/dsh-split-screen](https://github.com/YEYEYEYESHIFU/dsh-split-screen) - Split-screen workspace: chat with several agents side by side in native-looking panes, with a compact TUI composer mode (Alt+T) and Alt+Shift+Arrow pane-focus shortcuts. Light/dark.
 - [fengb3/dsh-theme-macintosh](https://github.com/fengb3/dsh-theme-macintosh) - Classic Macintosh (System 7) pixel theme: desktop pattern canvas, Finder sidebar, monochrome buttons and dialogs, light/dark support.
 - [dsh-view-manager](https://github.com/runcat-tommy/dsh-view-manager) - Manage DeepSeek Harness Web GUI session view tabs (Chat / Trajectory): enable, hide, reorder and rename labels, locale-aware (zh/en), with npm update reminders.
