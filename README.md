@@ -871,6 +871,7 @@ Management panel: Settings → Plugins.
 - [Nicholas023/vision-exp-tile](https://github.com/Nicholas023/vision-exp-tile) - Large-image recognition for vision-exp models: lossless 800×800 tile recognition (smart/pipeline/full), local OCR with preprocessing & handwriting routing, optional multi-vendor GPU (DirectML/CUDA/OpenVINO) with auto CPU fallback.
 - [dsh-overlay-check](https://github.com/taltara/mddl-harness/tree/main/packages/overlay-check) - Offline overlay safety checks as a zero-dependency library: resolvability preflight, confined managed-block writes, a readable diff, and a warning that `agent-presets.roots` is discarded at boot (deepseek-harness#403).
 - [dsh-ticktick](https://github.com/PerryLink/dsh-ticktick) - TickTick (Dida365) task bridge: a session-header task panel and curated agent tools over the official TickTick MCP endpoint.
+- [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Standalone CLI that records model-provider traffic and replays a session offline with no provider contacted; DSH needs `orca attach --port N` because it resolves its provider origin from config rather than a base-URL environment variable.
 
 ## Related
 
