@@ -770,6 +770,7 @@ Management panel: Settings → Plugins.
 - [dsh-cert-mcp](https://github.com/PerryLink/dsh-cert-mcp) - MCP server exposing the DSH plugin certification registry: get a certification, list certified plugins, and read the certification spec.
 - [dsh-plugin-kit](https://github.com/PerryLink/dsh-plugin-kit) - Shared zero-runtime-dependency toolkit for PerryLink DSH plugins: a pluggable Provider registry seam, fail-closed approval and adaptive session-event gates, mechanical verify scripts, shared sanitize/pricing/judge modules, and a new-plugin skeleton.
 - [dsh-plugin-doctor](https://github.com/PerryLink/dsh-plugin-doctor) - Zero-dependency static + sandbox smoke detector for DSH plugins (R/K/D/CC layers): manifest/patch/entry/build/pack/install verification, a model-callable plugin_check, profile host-shadowing and manifest-BOM detection, and supply-chain poison preflight.
+- [dsh-plugin-upgrade-015](https://github.com/PerryLink/dsh-plugin-upgrade-015) - Merged, version-locked plugin upgrade skill for DeepSeek Harness (0.1.3-alpha.1 → 0.1.5-rc.1 as two closed legs): an evidence-bound version card plus a zero-dependency 20-seam scanner (bundle skill + npx CLI).
 
 - [weibaohui/skills-management](https://github.com/weibaohui/skills-management) - Skill marketplace and manager: manage skills from all local coding agents (10+ executors, incl. Claude Code and Codex) in one page and import them into the DSH skill library; built-in market of 6600+ skills, per-skill token-overhead stats, and model visibility control.
 
