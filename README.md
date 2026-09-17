@@ -887,6 +887,7 @@ Management panel: Settings → Plugins.
 - [pydsh](https://github.com/ChenYu1991ppak/Pydsh) - Minimal Python educational reproduction of DSH: Cordis plugin container, agent loop, session event stream, and LLM soft-mapping layer — one command, zero config.
 - [liyupi/ai-guide](https://github.com/liyupi/ai-guide) - Chinese Vibe Coding handbook with a dedicated DeepSeek Harness section: getting started, server deployment, agent presets, minimal-mode field test, and curated plugins.
 - [TeamoRouter](https://teamorouter.com/docs/install-deepseek-harness) - OpenAI-compatible endpoint with free DeepSeek V4 Pro/Flash daily quotas; point DEEPSEEK_BASE_URL at it, no payment info required.
+- [dsh-plugin-registry](https://github.com/vbarter/dsh-plugin-registry) - Unofficial community DeepSeek Harness plugin directory / registry at [dsplugin.app](https://dsplugin.app/): browse and publish with Manifest / `dsh.bundle` checks.
 - [DeepSeek](https://deepseek.com) - Official site.
 
 ### Friendly links
