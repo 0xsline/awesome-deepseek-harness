@@ -125,6 +125,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [weibaohui/dsh-tasks](https://github.com/weibaohui/dsh-tasks) - 定时任务：用 cron 表达式定时执行提示词，到点自动开一个新 agent 会话替你干活，支持绑定工作区、手动立即执行与会话自动命名。
 
 - [weibaohui/dsh-smart-title](https://github.com/weibaohui/dsh-smart-title) - 通过独立 LLM 请求根据用户与助手消息生成会话标题，输入预算可配置；已完成轮次后刷新，保留手动标题，默认跳过子代理与 fork 会话。
+- [jigjoy-ai/baro-dsh](https://github.com/jigjoy-ai/baro/tree/main/packages/baro-dsh) - 将 baro 作为子代理提供者：委派一个多故事目标，获得计划、并行编码代理、独立的逐故事评审和经验证的结果（已运行测试、已认证目标不变量、已合并提交）；侧边栏实时显示运行面板（阶段、故事、里程碑）。
 
 ## Context & Search
 
