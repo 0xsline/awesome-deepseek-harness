@@ -401,6 +401,7 @@ Management panel: Settings → Plugins.
 - [dsh-capability-panel](https://github.com/pure-craft/dsh-capability-panel) - See which skills and tools your agent can actually reach right now — true in-context state (loaded/truncated/evicted) and per-session switches.
 ## IDE & Clients
 
+- [Minke](https://github.com/lencx/Minke) - Desktop agent workspace for DeepSeek Harness on macOS, Windows, and Linux, with shared browser control, integrated files and terminals, remote access, and local model management.
 - [PaperMachine](https://github.com/SuperJJ007/papermachine) - Desktop data-analysis app built on DeepSeek Harness, running local Python and R with inspectable execution steps and chart/table provenance.
 - [Blue](https://github.com/dsh-blue/blue) - Interactive TUI plugin for DeepSeek Harness — a pi-tui renderer mounted as a Cordis bundle: streaming transcript, tool-call cards, approval overlays, session management, theming.
 - [DeepSeekGUI](https://github.com/See-Sol-Lab/DeepSeekGUI) - Windows desktop workbench with a bundled DSH runtime and app-local settings and sessions, Changes / Git / Worktrees / Memory views, approval-gated Git/PR tools, and global and project memory. Experimental Linux AppImage.
