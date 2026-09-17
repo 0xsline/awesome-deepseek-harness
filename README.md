@@ -742,6 +742,7 @@ Management panel: Settings → Plugins.
 - [maxmilian/dsh-sonarqube](https://github.com/maxmilian/dsh-sonarqube) - Read-only SonarQube Community Build integration for Quality Gates, issues, Security Hotspots, coverage, and project measures, with source file and line locations.
 - [plugin-registry](https://github.com/dsh-external/plugin-registry) - Plugin console + make-dsh-plugin skill + dev guide.
 - [dsh-plugin-manager-registry](https://github.com/Jesse-njx/dsh-plugin-manager-registry) - Offline-tolerant registry that discovers and deduplicates DSH plugins from awesome lists, GitHub topics, and npm.
+- [dsh-topic-audit](https://github.com/ciceroyang/dsh-topic-audit) - Mechanical audit of the `dsh-plugin` topic: root cordis manifest and README rules classify repos as plugins, companions, or pollution, with per-row evidence and star-band plus date-range enumeration past the 1000-result search window.
 - [marisa](https://github.com/dsh-external/marisa) - External plugin manager (parasitic install/CLI/settings panel).
 - [hub](https://github.com/dsh-external/hub) - Org-wide index + unified catalog.json (CI-generated).
 - [dshx-update-check](https://github.com/dsh-external/dshx-update-check) - Plugin update checker.
