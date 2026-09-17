@@ -393,7 +393,6 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-billing-tui](https://github.com/Ethanz11-creat/dsh-billing-tui) - 实时 token 计费，按 DeepSeek 官方峰谷定价：TUI 状态行实时显示费用，/billing 打印鲸鱼 ASCII 账单小票。
 
 - [woosh2010/dsh-usage-dashboard](https://github.com/woosh2010/dsh-usage-dashboard) - 峰谷计费坞 + 用量分析仪表盘：token/成本/模型统计、成本趋势与 Token 结构图表、最近 20 轮明细，支持时间/会话/模型全局筛选与账户余额。
-- [runcat-tommy/dsh-panda-calendar](https://github.com/runcat-tommy/dsh-panda-calendar) - 熊猫日历会话视图标签页：公历/农历、干支、生肖、节气、传统与外国节日、中国法定节假日（含调休）、多城市天气与历史上的今天（大事记＋名人诞辰）；免费数据源，无需 API Key。
 - [runcat-tommy/dsh-panda-calendar](https://github.com/runcat-tommy/dsh-panda-calendar) - 熊猫日历会话视图标签页：公历/农历、干支、生肖、节气、传统与外国节日、中国法定节假日（含调休）、多城市天气、时间戳转换（秒/毫秒 ↔ 年月日时分秒，可选时区）与内置离线的「历史上的今天」；免费数据源，无需 API Key。
 - [dsh-session-enhance](https://github.com/Tinger-X/dsh-session-enhance) - DSH Web 会话管理增强插件：归档管理 / 真实物理删除（墓碑防复活）/ 跨工作区拖拽搬移 / 对话通知 / 复制会话 ID / 一键同步记录。
 - [dsh-capability-panel](https://github.com/pure-craft/dsh-capability-panel) - 看清 agent 此刻真正能触达哪些技能与工具——真实的在上下文状态（已加载/已截断/已挤出），并按会话开关。
@@ -436,6 +435,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [ccgui / desktop-cc-gui](https://github.com/zhukunpenglinyutong/desktop-cc-gui) - multi-engine AI 编程桌面客户端（Tauri）：统一接入 Claude Code、Codex、Gemini、OpenCode、DeepSeek Harness 等 CLI runtime，不是 DSH Web UI 外壳，也不是 `dsh-plugin`。
 - [dsh-desktop-hub](https://github.com/FlashingChen/dsh-desktop-hub) - 官方 DSH Web UI 的 Electron 桌面中枢：内置 MCP 配置转换器（Claude Code / Cursor JSON 一键转 DSH YAML）与 Skills / Plugin 管理台，捆绑 Node.js + DSH 运行时，免安装、免终端。
+- [DSHBox](https://github.com/WSK-build/DSHBox) - 在 Android 上原生运行 DeepSeek Harness：单个 APK 内置分层 Debian 沙箱、Node.js、DSH 与终端——无需 root、无需 Termux；运行时层可独立更新，DSH 走 npm 升级，安装为原子双槽并可回滚。界面支持六种语言。
 
 ## Browser & Remote
 
@@ -913,6 +913,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-external/issues](https://github.com/dsh-external/issues) - Issue 聚合仓库
 - [dsh-meme-hub](https://github.com/the-beating-light-of-the-nail/dsh-meme-hub) - 社区整活插件导航（皮肤/桌宠/小游戏），中英双语
 - [DeepSeek Harness Handbook](https://github.com/sandbaseai/deepseek-harness-handbook) - 从 Agent 视角讲解 DSH 运行、扩展与排障的来源可追溯手册，提供 162 篇英文 canonical 指南、189 份多语言文档、可搜索的 [Awesome 资源地图](https://sandbaseai.github.io/deepseek-harness-handbook/awesome-deepseek-harness-resources.html)，以及 Install Doctor 和 Failure Router 速查工具
+- [DeepSeek Harness Anatomy](https://github.com/ChenYu1991ppak/deepseek-harness-anatomy) - 17 章渐进式源码研读教程，逐层拆解 DSH 工程骨架，从最小 agent 循环到端到端多智能体系统，每章配可运行的 Python 教学代码。
+- [pydsh](https://github.com/ChenYu1991ppak/Pydsh) - DSH 的最小 Python 教学复刻：Cordis 插件容器、agent 循环、会话事件流与 LLM 软映射层——一条命令、零配置。
 - [liyupi/ai-guide](https://github.com/liyupi/ai-guide) - 中文 Vibe Coding 教程，设有 DeepSeek Harness 专题：保姆级入门、服务器部署、Agent 预设详解、极简模式实测与精选插件推荐。
 - [TeamoRouter](https://teamorouter.com/docs/install-deepseek-harness) - OpenAI 兼容接入点，提供免费的 DeepSeek V4 Pro/Flash 每日配额；把 DEEPSEEK_BASE_URL 指向它即可，无需支付信息。
 - [dsh-plugin-registry](https://github.com/vbarter/dsh-plugin-registry) - 非官方社区 DeepSeek Harness 插件目录 / 注册表（[dsplugin.app](https://dsplugin.app/)）：浏览与发布，含 Manifest / `dsh.bundle` 校验。
