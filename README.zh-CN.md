@@ -383,7 +383,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-billing-tui](https://github.com/Ethanz11-creat/dsh-billing-tui) - 实时 token 计费，按 DeepSeek 官方峰谷定价：TUI 状态行实时显示费用，/billing 打印鲸鱼 ASCII 账单小票。
 
 - [woosh2010/dsh-usage-dashboard](https://github.com/woosh2010/dsh-usage-dashboard) - 峰谷计费坞 + 用量分析仪表盘：token/成本/模型统计、成本趋势与 Token 结构图表、最近 20 轮明细，支持时间/会话/模型全局筛选与账户余额。
-- [runcat-tommy/dsh-panda-calendar](https://github.com/runcat-tommy/dsh-panda-calendar) - 熊猫日历会话视图标签页：公历/农历、干支、生肖、节气、传统与外国节日、中国法定节假日（含调休）、多城市天气；免费数据源，无需 API Key。
+- [runcat-tommy/dsh-panda-calendar](https://github.com/runcat-tommy/dsh-panda-calendar) - 熊猫日历会话视图标签页：公历/农历、干支、生肖、节气、传统与外国节日、中国法定节假日（含调休）、多城市天气与历史上的今天（大事记＋名人诞辰）；免费数据源，无需 API Key。
 - [dsh-session-enhance](https://github.com/Tinger-X/dsh-session-enhance) - DSH Web 会话管理增强插件：归档管理 / 真实物理删除（墓碑防复活）/ 跨工作区拖拽搬移 / 对话通知 / 复制会话 ID / 一键同步记录。
 ## IDE & Clients
 
