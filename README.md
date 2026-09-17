@@ -768,6 +768,7 @@ Management panel: Settings → Plugins.
 - [duyanta123/dsh-test-insight](https://github.com/duyanta123/dsh-test-insight) - Test-insight plugin for DeepSeek Harness: turns repository facts and change risk into evidence-backed test plans and isolated, reviewable test drafts.
 - [dsh-darwin](https://github.com/que3sui/dsh-darwin) - Two-plugin self-evolution loop: dsh-sentinel mines session logs for retry loops, tool-error clusters, interrupts and token waste into structured tickets; dsh-forge turns a ticket into a candidate skill behind an eval gate, promotes it into `.dsh/skills` only on human confirmation, and rolls it back deterministically.
 - [dsh-cert-mcp](https://github.com/PerryLink/dsh-cert-mcp) - MCP server exposing the DSH plugin certification registry: get a certification, list certified plugins, and read the certification spec.
+- [dsh-plugin-kit](https://github.com/PerryLink/dsh-plugin-kit) - Shared zero-runtime-dependency toolkit for PerryLink DSH plugins: a pluggable Provider registry seam, fail-closed approval and adaptive session-event gates, mechanical verify scripts, shared sanitize/pricing/judge modules, and a new-plugin skeleton.
 
 - [weibaohui/skills-management](https://github.com/weibaohui/skills-management) - Skill marketplace and manager: manage skills from all local coding agents (10+ executors, incl. Claude Code and Codex) in one page and import them into the DSH skill library; built-in market of 6600+ skills, per-skill token-overhead stats, and model visibility control.
 
