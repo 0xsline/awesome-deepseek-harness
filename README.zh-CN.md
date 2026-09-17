@@ -766,6 +766,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-darwin](https://github.com/que3sui/dsh-darwin) - 双插件自进化闭环：dsh-sentinel 机械挖掘会话日志中的重试环、工具错误簇、高频中断与 token 浪费，生成结构化问题工单；dsh-forge 把工单合成候选技能，经评测门与人工确认才晋级到 `.dsh/skills`，并支持确定性回滚。
 - [dsh-cert-mcp](https://github.com/PerryLink/dsh-cert-mcp) - 暴露 DSH 插件认证注册表的 MCP 服务器：查询认证、列出已认证插件、读取认证规范。
 - [dsh-plugin-kit](https://github.com/PerryLink/dsh-plugin-kit) - PerryLink DSH 插件共享零运行时依赖工具包：可插拔 Provider 注册接缝、失败即关闭的审批与自适应会话事件门控、机械化验证脚本、共享净化/计价/评审模块，以及新插件骨架模板。
+- [dsh-plugin-doctor](https://github.com/PerryLink/dsh-plugin-doctor) - DSH 插件的零依赖静态 + 沙箱冒烟检测器（R/K/D/CC 层）：manifest/patch/入口/构建/打包/安装校验、模型可调用的 plugin_check、profile 宿主遮蔽与 manifest BOM 检测，以及供应链投毒预检。
 
 - [weibaohui/skills-management](https://github.com/weibaohui/skills-management) - 技能市场：一个页面管理本机所有 coding agent 的技能，一键收编进 DSH 用户库；内置 6600+ 技能市场，支持注入开销（≈token）统计与模型可见性治理。
 
