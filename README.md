@@ -127,6 +127,7 @@ Management panel: Settings → Plugins.
 
 - [weibaohui/dsh-smart-title](https://github.com/weibaohui/dsh-smart-title) - Generates session titles from user and assistant messages using a separate LLM request with a configurable input budget; refreshes after completed turns, preserves manual titles, and skips subagent and fork sessions by default.
 - [jigjoy-ai/baro-dsh](https://github.com/jigjoy-ai/baro/tree/main/packages/baro-dsh) - baro as a subagent provider: delegate a multi-story goal and get a plan, parallel coding agents, independent per-story review and a verified outcome (tests run, goal invariants attested, merged commits), with a live run panel (phase, stories, milestones) in the sidebar.
+- [zuoyunlai/lunheng-article-pipeline-dsh](https://github.com/zuoyunlai/lunheng-article-pipeline-dsh) - Long-form writing pipeline bundle: nine independent roles (literature, data and case retrieval, analysis, drafting, critique, audit, final check, peer review) across six phases with four human checkpoints, triangular evidence verification, a 23-check mechanical final gate, a G0-G14 audit, and peer-review scoring with journal matching. Install: `dsh plugin add lunheng-article-pipeline`.
 
 ## Context & Search
 

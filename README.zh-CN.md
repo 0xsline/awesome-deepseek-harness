@@ -126,6 +126,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [weibaohui/dsh-smart-title](https://github.com/weibaohui/dsh-smart-title) - 通过独立 LLM 请求根据用户与助手消息生成会话标题，输入预算可配置；已完成轮次后刷新，保留手动标题，默认跳过子代理与 fork 会话。
 - [jigjoy-ai/baro-dsh](https://github.com/jigjoy-ai/baro/tree/main/packages/baro-dsh) - 将 baro 作为子代理提供者：委派一个多故事目标，获得计划、并行编码代理、独立的逐故事评审和经验证的结果（已运行测试、已认证目标不变量、已合并提交）；侧边栏实时显示运行面板（阶段、故事、里程碑）。
+- [zuoyunlai/lunheng-article-pipeline-dsh](https://github.com/zuoyunlai/lunheng-article-pipeline-dsh) - 深度长文写作流水线 bundle：9 个独立角色（文献 / 数据 / 案例检索、分析、写作、批判、审计、终检、同行评审）跨 6 个阶段，含 4 个人在环节点、三角验证、M 门 23 项机械终检、G0-G14 独立审计与审稿评分/期刊匹配。安装：`dsh plugin add lunheng-article-pipeline`。
 
 ## Context & Search
 
