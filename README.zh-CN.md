@@ -897,6 +897,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 
 - [dsh-unitverse](https://github.com/runcat-tommy/dsh-unitverse) - 单位换算：一个 `convert` 工具覆盖十大类共 82 个单位（公制、英制/美制、中国市制），支持中英文单位名与温差（Δ）前缀换算，并在 DSH Web 会话视图中提供跟随中英文界面语言的「单位换算」标签页。
+- [weibaohui/dsh-file-share](https://github.com/weibaohui/dsh-file-share) - 会话工作区文件管理：在对话区加「文件」tab，浏览当前会话工作区的目录树并就地管理（上传/下载/新建文件夹/改名/删除/搜索），文件可 @ 进对话框给 agent 处理。
+
 
 ## Related
 
