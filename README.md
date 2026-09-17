@@ -904,6 +904,7 @@ Management panel: Settings → Plugins.
 - [dsh-unitverse](https://github.com/runcat-tommy/dsh-unitverse) - Unit conversion across 10 categories and 82 units (metric, imperial/US customary, Chinese) via a `convert` tool that accepts English and Chinese unit names and converts temperature differences with a Δ prefix, plus a locale-aware Unit Converter tab in the DSH web view.
 - [weibaohui/dsh-file-share](https://github.com/weibaohui/dsh-file-share) - Session workspace file manager: adds a "Files" tab to the conversation area to browse the current session workspace directory tree and manage it in place (upload, download, mkdir, rename, delete, search), with files mentionable into the composer for the agent to process.
 
+- [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Standalone CLI that records model-provider traffic and replays a session offline with no provider contacted; DSH needs `orca attach --port N` because it resolves its provider origin from config rather than a base-URL environment variable.
 
 ## Related
 
