@@ -882,6 +882,8 @@ Management panel: Settings → Plugins.
 - [Nicholaskin/vision-exp-tile](https://github.com/Nicholaskin/vision-exp-tile) - Large-image recognition for vision-exp models: lossless 800×800 tile recognition (smart/pipeline/full), local OCR with preprocessing & handwriting routing, optional multi-vendor GPU (DirectML/CUDA/OpenVINO) with auto CPU fallback.
 - [dsh-overlay-check](https://github.com/taltara/mddl-harness/tree/main/packages/overlay-check) - Offline overlay safety checks as a zero-dependency library: resolvability preflight, confined managed-block writes, a readable diff, and a warning that `agent-presets.roots` is discarded at boot (deepseek-harness#403).
 - [dsh-ticktick](https://github.com/PerryLink/dsh-ticktick) - TickTick (Dida365) task bridge: a session-header task panel and curated agent tools over the official TickTick MCP endpoint.
+- [weibaohui/dsh-webdav-server](https://github.com/weibaohui/dsh-webdav-server) - WebDAV server: turns a shared directory into a WebDAV service that Windows, macOS and Linux can mount as a local disk, with token authentication, optional read-only mode, configurable directory/port/token, and per-platform mounting guides built into the settings page.
+
 
 - [dsh-unitverse](https://github.com/runcat-tommy/dsh-unitverse) - Unit conversion across 10 categories and 82 units (metric, imperial/US customary, Chinese) via a `convert` tool that accepts English and Chinese unit names and converts temperature differences with a Δ prefix, plus a locale-aware Unit Converter tab in the DSH web view.
 
