@@ -129,6 +129,8 @@ Management panel: Settings → Plugins.
 - [jigjoy-ai/baro-dsh](https://github.com/jigjoy-ai/baro/tree/main/packages/baro-dsh) - baro as a subagent provider: delegate a multi-story goal and get a plan, parallel coding agents, independent per-story review and a verified outcome (tests run, goal invariants attested, merged commits), with a live run panel (phase, stories, milestones) in the sidebar.
 - [zuoyunlai/lunheng-article-pipeline-dsh](https://github.com/zuoyunlai/lunheng-article-pipeline-dsh) - Long-form writing pipeline bundle: nine independent roles (literature, data and case retrieval, analysis, drafting, critique, audit, final check, peer review) across six phases with four human checkpoints, triangular evidence verification, a 23-check mechanical final gate, a G0-G14 audit, and peer-review scoring with journal matching. Install: `dsh plugin add lunheng-article-pipeline`.
 
+- [weibaohui/dsh-process](https://github.com/weibaohui/dsh-process) - Process management: brings ntd-style processes (multi-stage, multi-step agent workflow templates) into the dsh web UI — browse, edit, validate, import/export and AI-generate processes; the built-in library is read-only while the personal library is writable with live file sync, and agents read the library through process_* tools and advance work stage by stage.
+
 ## Context & Search
 
 - [zoahdev/dsh-github-intelligence](https://github.com/zoahdev/dsh-github-intelligence) - Read-only developer-intelligence tools across 16 ecosystems (GitHub, GitLab, Gitee, npm, PyPI, crates.io, Docker Hub, Hugging Face, Hacker News, Stack Overflow, Reddit, dev.to, RubyGems, NuGet, Go, ArXiv) with TTL caching and no API key.
