@@ -206,6 +206,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-brainagent](https://github.com/stas130286-blip/dsh-brainagent) - 受大脑启发的认知插件：情景 / 语义 / 程序 / 情绪四类记忆库，配 reward-ledger 与 UCB1 老虎机学习回路、带时间触发器的目标栈、好奇心驱动的自主网络研究与主动提议。召回的记忆会随 prompt 发往你配置的模型 provider；许可证为源码可见、禁止商用。
 - [weibaohui/hermes-loop](https://github.com/weibaohui/hermes-loop) - 自动复盘：对话收尾后自动把有价值的经验蒸馏成可复用技能存入技能库，支持信号加速触发、审批模式与技能库治理（归档/恢复，永不直接删除）。
 - [dearbld/dsh-living-memory](https://github.com/dearbld/dsh-living-memory) - 单文件本地 SQLite 自整理活记忆：夜巡（去重/合并/衰减/建链）、七信号 RRF 检索（FTS5+jieba、可选向量、图谱 PPR）、类型知识图谱、冲突检测、Web 遥测面板。
+- [weibaohui/dsh-kb](https://github.com/weibaohui/dsh-kb) - 团队知识库：离线知识共享（FDE 盒子场景），浏览/全文检索/加工入口；raw 入料自动入队、bot 会话串行蒸馏成文（Karpathy LLM Wiki 模式：raw 不可变 / 两步加工 / log 流水 / 月度 lint）。
+
 
 ## Input & Editing
 
