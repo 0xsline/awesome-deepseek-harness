@@ -770,6 +770,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-plugin-upgrade-015](https://github.com/PerryLink/dsh-plugin-upgrade-015) - 合并后的锁版本 DeepSeek Harness 插件升级技能（0.1.3-alpha.1 → 0.1.5-rc.1 两条封闭迁移腿）：带证据的版本卡 + 零依赖 20 接缝扫描器（bundle skill + npx CLI）。
 
 - [weibaohui/skills-management](https://github.com/weibaohui/skills-management) - 技能市场：一个页面管理本机所有 coding agent 的技能，一键收编进 DSH 用户库；内置 6600+ 技能市场，支持注入开销（≈token）统计与模型可见性治理。
+- [weibaohui/dsh-fde-tools](https://github.com/weibaohui/dsh-fde-tools) - FDE 工具箱全家桶：安装一个插件带上一批常用 dsh 插件（代码仓库 / 挂载盘 / 知识库 / 定时任务 / 自动续跑 / 界面微调 / 自动复盘 / 文件管理 / 智能标题 / 任务看板 / 插件市场 / 上下文 / IM 接入 / 侧栏增强），面板看状态、一键补装。
+
 
 ## Runtime & Operations
 
