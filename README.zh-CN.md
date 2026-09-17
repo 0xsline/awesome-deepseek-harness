@@ -527,6 +527,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-model-pin](https://github.com/d3vmeh/dsh-model-pin) - 把所有模型请求限制在按 provider 配置的允许列表内（在 agent/request 层强制执行）：不在列表内的模型被重定向到 fallback 或直接拒绝；子代理不再继承过期的创建时路由；当连续请求会让 --models-max 1 的 llama.cpp 路由器重载模型时发出警告。单条目列表即全局单模型模式。
 - [dsh-think-ultra](https://github.com/YUEYUEXYS/dsh-think-ultra) - 把每个请求钉回原生 `max` 推理强度（而非 `ultra` 选项），Flash / Pro / Vision 三套深度预设相互隔离。仅以构建产物分发：核心闭源，许可证禁止逆向、反混淆与二次打包。
 - [Zn-Dk/dsh-zhipu-toolkit](https://github.com/Zn-Dk/dsh-zhipu-toolkit) - 智谱 BigModel GLM 双端点模型目录（Coding Plan 与普通 API），实时模型发现、实测思考档位映射，可视化设置卡片管理 Key/端点/默认推理档，本地 API Key 支持存入 DSH 凭证库。
+- [dsh-oh-my-claude](https://github.com/lcestou/dsh-oh-my-claude) - 把已登录的 Claude Code CLI 作为 DSH 的模型提供商：通过 stream-json 驱动、按订阅计费，支持实时模型列表、按会话恢复、权限询问转入访问盾、图片、连接 dsh 工具的 MCP 桥接，以及远程 SSH 主机上的工作区。
 
 ## Git & Engineering
 
