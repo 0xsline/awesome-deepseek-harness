@@ -165,6 +165,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [extracurricular-ai/dsh-filesnap](https://github.com/extracurricular-ai/dsh-filesnap) - 同步回退对话与工作区，不碰 Git；每次回退都是一个 fork，/redo 可撤销。
 
 - [weibaohui/context-razor](https://github.com/weibaohui/context-razor) - 上下文剃刀：把当前会话上下文逐条列出（角色/预览/≈token 估算），超阈值标红，勾选后不经 LLM 精确裁剪，删了什么一目了然。
+- [huuthuan-nguyen/dsh-tgrep](https://github.com/huuthuan-nguyen/dsh-tgrep) - 基于 Microsoft tgrep 的三元组索引快速代码搜索插件，接管内置 grep 工具。
 
 ## Memory & Knowledge
 
