@@ -601,6 +601,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [sofagent](https://github.com/KongFangXun/sofagent) - 提交时 agent 治理 harness：24 条确定性规则审计 git diff（密钥泄漏、越权改动、盲目修改、注入痕迹），HMAC 链防篡改历史，9 插件 DSH 家族（audit / gate / rollback / inject / ontology / evolve / commons / daemon / fde）经 SkillHub 分发。
 
 - [weibaohui/user-management](https://github.com/weibaohui/user-management) - DSH Web 的 HTTPS 登录网关，提供用户/角色管理、TOTP 与审计日志。首个注册者成为管理员：对外开放前须在可信网络完成首次注册，并让上游 DSH 服务仅监听 loopback。
+- [Ox0400/dsh-vault](https://github.com/Ox0400/dsh-vault) - dsh 本地加密凭据保险库：Web 设置页与 vault_* 工具，存取与复制密码、API 密钥、TOTP、银行卡信息，支持健康审计、到期轮换、导入导出与只读/询问访问模式。
 
 ## Output & Deliverables
 

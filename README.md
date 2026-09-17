@@ -604,6 +604,7 @@ Management panel: Settings → Plugins.
 - [sofagent](https://github.com/KongFangXun/sofagent) - Commit-time agent governance harness: 24 deterministic audit rules over git diffs (secrets, out-of-scope edits, blind modifications, prompt-injection traces), HMAC-chained tamper-evident history, and a 9-plugin DSH family (audit / gate / rollback / inject / ontology / evolve / commons / daemon / fde) distributed via SkillHub.
 
 - [weibaohui/user-management](https://github.com/weibaohui/user-management) - HTTPS login gateway for the DSH web UI with user/role management, TOTP and audit logs. The first registrant becomes admin: bootstrap on a trusted network before external exposure and keep the upstream DSH server on loopback.
+- [Ox0400/dsh-vault](https://github.com/Ox0400/dsh-vault) - Encrypted local credentials vault for dsh: a web settings page and vault_* tools for passwords, API keys, TOTP secrets and cards, with health audits, expiry rotation, imports/exports and read-only/ask access modes.
 
 ## Output & Deliverables
 
