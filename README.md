@@ -399,6 +399,7 @@ Management panel: Settings → Plugins.
 - [runcat-tommy/dsh-panda-calendar](https://github.com/runcat-tommy/dsh-panda-calendar) - Panda Calendar (熊猫日历) conversation-view tab: solar/lunar dates, ganzhi, Chinese zodiac, solar terms, festivals, China public holidays incl. make-up workdays, multi-city weather, an epoch↔date timestamp converter with a time-zone picker, and bundled offline "on this day" history; free data sources, no API key.
 - [dsh-session-enhance](https://github.com/Tinger-X/dsh-session-enhance) - Full-control session management for DSH Web: archive, guaranteed physical delete (tombstone anti-resurrection), drag-and-drop workspace moves, conversation notifications, copy session ID and one-click record sync.
 - [dsh-capability-panel](https://github.com/pure-craft/dsh-capability-panel) - See which skills and tools your agent can actually reach right now — true in-context state (loaded/truncated/evicted) and per-session switches.
+- [wjingshan/dsh-cost-gauge](https://github.com/wjingshan/dsh-cost-gauge) - Peak/off-peak billing cost dial for the DSH Web GUI: session spend and account balance computed at the official rates, a low-balance alarm, drag-to-resize and a minimized status-lamp mode.
 ## IDE & Clients
 
 - [PaperMachine](https://github.com/SuperJJ007/papermachine) - Desktop data-analysis app built on DeepSeek Harness, running local Python and R with inspectable execution steps and chart/table provenance.
