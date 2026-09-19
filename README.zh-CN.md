@@ -397,6 +397,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [runcat-tommy/dsh-panda-calendar](https://github.com/runcat-tommy/dsh-panda-calendar) - 熊猫日历会话视图标签页：公历/农历、干支、生肖、节气、传统与外国节日、中国法定节假日（含调休）、多城市天气、时间戳转换（秒/毫秒 ↔ 年月日时分秒，可选时区）与内置离线的「历史上的今天」；免费数据源，无需 API Key。
 - [dsh-session-enhance](https://github.com/Tinger-X/dsh-session-enhance) - DSH Web 会话管理增强插件：归档管理 / 真实物理删除（墓碑防复活）/ 跨工作区拖拽搬移 / 对话通知 / 复制会话 ID / 一键同步记录。
 - [dsh-capability-panel](https://github.com/pure-craft/dsh-capability-panel) - 看清 agent 此刻真正能触达哪些技能与工具——真实的在上下文状态（已加载/已截断/已挤出），并按会话开关。
+- [wjingshan/dsh-cost-gauge](https://github.com/wjingshan/dsh-cost-gauge) - DSH Web 界面的峰谷计费浮动表盘：按官方费率换算本会话花费与账户余额，支持低余额报警、拖拽缩放与最小化状态灯。
 ## IDE & Clients
 
 - [PaperMachine](https://github.com/SuperJJ007/papermachine) - 基于 DeepSeek Harness 的桌面数据分析应用，在本机运行 Python 和 R，支持检查执行步骤及追溯图表和表格的来源。
