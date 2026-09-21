@@ -444,6 +444,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [ccgui / desktop-cc-gui](https://github.com/zhukunpenglinyutong/desktop-cc-gui) - multi-engine AI 编程桌面客户端（Tauri）：统一接入 Claude Code、Codex、Gemini、OpenCode、DeepSeek Harness 等 CLI runtime，不是 DSH Web UI 外壳，也不是 `dsh-plugin`。
 - [dsh-desktop-hub](https://github.com/FlashingChen/dsh-desktop-hub) - 官方 DSH Web UI 的 Electron 桌面中枢：内置 MCP 配置转换器（Claude Code / Cursor JSON 一键转 DSH YAML）与 Skills / Plugin 管理台，捆绑 Node.js + DSH 运行时，免安装、免终端。
 - [DSHBox](https://github.com/WSK-build/DSHBox) - 在 Android 上原生运行 DeepSeek Harness：单个 APK 内置分层 Debian 沙箱、Node.js、DSH 与终端——无需 root、无需 Termux；运行时层可独立更新，DSH 走 npm 升级，安装为原子双槽并可回滚。界面支持六种语言。
+- [dsh-native-macos](https://github.com/DanielW203/dsh-native-macos) - DeepSeek Harness 的原生 SwiftUI macOS 客户端：多版本 harness 并存，升级后跑 8 项自检、阻断项不过即回退一次，另有安全模式恢复与内置微信/手机远控。
 
 ## Browser & Remote
 
