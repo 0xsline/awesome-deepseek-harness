@@ -591,6 +591,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [maxmilian/dsh-forge](https://github.com/maxmilian/dsh-forge) - 自建 Gitea / Forgejo 的只读工具：实例版本、仓库列表、议题与 PR 搜索和读取、PR diff，以及 Actions 运行、任务与日志。
 - [weibaohui/dsh-git-server](https://github.com/weibaohui/dsh-git-server) - Git 服务器：内嵌 ts-gogs（Gogs 的 TypeScript 平替），独立端口跑完整 Git 服务（HTTP clone/push、网页端、issue/PR/wiki），可复用 user-management 的用户名密码，设置页一键启停。
 - [weibaohui/dsh-sync](https://github.com/weibaohui/dsh-sync) - 多机同步：让多台机器上的 dsh 通过一个私有 GitCode 仓库保持一致——技能、会话、设置、插件清单四类内容各有独立开关；变更走分支 → PR → 合并，推送前自动回填远端新增防误删，支持 AI 智能对齐（语义合并双方改动）与一键解决冲突；强制私有仓库，pull 不覆盖本地改动。
+- [huuthuan-nguyen/dsh-knowcode](https://github.com/huuthuan-nguyen/dsh-knowcode) - 基于内嵌 FalkorDB 的代码图谱与知识库：AST 符号、调用链追溯、重构影响面、受影响测试发现、克隆检测、跨语言移植契约与规格到代码的可追溯性。
 
 
 ## Security & Governance
