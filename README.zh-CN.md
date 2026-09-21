@@ -166,6 +166,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [weibaohui/context-razor](https://github.com/weibaohui/context-razor) - 上下文剃刀：把当前会话上下文逐条列出（角色/预览/≈token 估算），超阈值标红，勾选后不经 LLM 精确裁剪，删了什么一目了然。
 - [huuthuan-nguyen/dsh-tgrep](https://github.com/huuthuan-nguyen/dsh-tgrep) - 基于 Microsoft tgrep 的三元组索引快速代码搜索插件，接管内置 grep 工具。
+- [dsh-context-imports](https://github.com/ciskonc/dsh-context-imports) - 为 AGENTS.md/CLAUDE.md 提供 Claude Code 式 `@路径` 导入：会话启动时递归展开并注入被引用文件，自带六语言设置卡片。
 
 ## Memory & Knowledge
 

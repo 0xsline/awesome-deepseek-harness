@@ -167,6 +167,7 @@ Management panel: Settings → Plugins.
 
 - [weibaohui/context-razor](https://github.com/weibaohui/context-razor) - Context trimmer: lists the current session's context entries with role, preview and ≈token estimate (cl100k), highlights over-threshold items, and removes selected entries exactly without LLM summarization.
 - [huuthuan-nguyen/dsh-tgrep](https://github.com/huuthuan-nguyen/dsh-tgrep) - Ultra-fast trigram-indexed code search powered by Microsoft tgrep, shadowing the built-in grep tool.
+- [dsh-context-imports](https://github.com/ciskonc/dsh-context-imports) - Claude Code-style `@path` imports for AGENTS.md/CLAUDE.md: recursively expands and injects referenced files into model context at session start, with a six-language settings card.
 
 ## Memory & Knowledge
 
