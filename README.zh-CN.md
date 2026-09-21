@@ -404,6 +404,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-capability-panel](https://github.com/pure-craft/dsh-capability-panel) - 看清 agent 此刻真正能触达哪些技能与工具——真实的在上下文状态（已加载/已截断/已挤出），并按会话开关。
 ## IDE & Clients
 
+- [Minke](https://github.com/lencx/Minke) - 基于 DeepSeek Harness 的桌面 Agent 工作区，支持 macOS、Windows 和 Linux，提供人机共享浏览器控制、集成文件与终端、远程访问和本地模型管理。
 - [PaperMachine](https://github.com/SuperJJ007/papermachine) - 基于 DeepSeek Harness 的桌面数据分析应用，在本机运行 Python 和 R，支持检查执行步骤及追溯图表和表格的来源。
 - [Blue](https://github.com/dsh-blue/blue) - DeepSeek Harness 交互式 TUI 插件：基于 Cordis bundle 的 pi-tui 渲染器，支持流式转录、工具调用卡片、审批浮层、会话管理与主题。
 - [DeepSeekGUI](https://github.com/See-Sol-Lab/DeepSeekGUI) - Windows 桌面工作台，内置 DSH 运行时，设置与会话保存在应用本地目录；提供变更、Git、Worktrees 与记忆视图、需审批的 Git/PR 工具，以及全局和项目记忆。另有实验性 Linux AppImage。
