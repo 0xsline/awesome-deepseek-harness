@@ -169,8 +169,8 @@ Management panel: Settings → Plugins.
 - [huuthuan-nguyen/dsh-tgrep](https://github.com/huuthuan-nguyen/dsh-tgrep) - Ultra-fast trigram-indexed code search powered by Microsoft tgrep, shadowing the built-in grep tool.
 
 ## Memory & Knowledge
-- [diqierjia/StrataGate-AgentMemory](https://github.com/diqierjia/StrataGate-AgentMemory) - Local-first cross-session memory for DSH: L0-L5 layered short-term memory, event cards + knowledge graph, evidence-gated retrieval. Benchmarked on LoCoMo conv-26 at 80.46% vs Mem0 63.22%. Install: dsh plugin --profile web add stratagate-dsh
 
+- [diqierjia/StrataGate-AgentMemory](https://github.com/diqierjia/StrataGate-AgentMemory) - Local-first cross-session memory: L0-L5 layered short-term memory, event cards plus a knowledge graph, and evidence-gated retrieval with source tracing (npm: `stratagate-dsh`).
 - [busabase/busabase-dsh-plugin](https://github.com/busabase/busabase-dsh-plugin) - Connects DSH agents to Busabase knowledge and structured data through MCP, renders records and ChangeRequests in a live inspector, and keeps agent writes behind human review; compatible with DSH 0.1.1-rc.2.
 - [zilliztech/memsearch](https://github.com/zilliztech/memsearch/tree/main/plugins/dsh) - Shared Markdown memory for DSH and other coding agents, with automatic capture, pre-step context injection, searchable recall, and a review panel.
 

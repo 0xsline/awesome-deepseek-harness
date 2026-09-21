@@ -169,6 +169,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Memory & Knowledge
 
+- [diqierjia/StrataGate-AgentMemory](https://github.com/diqierjia/StrataGate-AgentMemory) - 本地优先的跨会话记忆：L0-L5 分层短期记忆、事件卡片与知识图谱、带出处追溯的证据门控检索（npm：`stratagate-dsh`）。
 - [busabase/busabase-dsh-plugin](https://github.com/busabase/busabase-dsh-plugin) - 通过 MCP 把 DSH Agent 接入 Busabase 知识与结构化数据，在实时 Inspector 中渲染记录和 ChangeRequest，并将 Agent 写入置于人工审核之后；兼容 DSH 0.1.1-rc.2。
 - [zilliztech/memsearch](https://github.com/zilliztech/memsearch/tree/main/plugins/dsh) - 供 DSH 与其他编程 Agent 共享的 Markdown 记忆，支持自动捕获、步骤前上下文注入、搜索召回与审阅面板。
 
