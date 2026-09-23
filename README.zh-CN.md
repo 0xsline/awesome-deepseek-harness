@@ -732,7 +732,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Plugin Ecosystem & Development
 
-- [ouli-1242/dsh-plugin-tool-management](https://github.com/ouli-1242/dsh-plugin-tool-management) - DSH 的 MCP、技能、场景、记忆、子智能体、提示词与归档会话，一个面板统一管理；五域各自注入上下文、采纳统计可见、场景可上锁。
+- [ouli-1242/dsh-plugin-tool-management](https://github.com/ouli-1242/dsh-plugin-tool-management) - DSH 插件：一个设置面板，统一管理 MCP 服务器、技能、场景、记忆、子智能体人格、AGENTS.md 预设与归档会话——一个场景即可切换整个环境，模型也能帮你驱动这一切。
 - [SunQingyuan0/Kabutack](https://github.com/SunQingyuan0/Kabutack) - 基于角色的 DSH 插件 / Skill / MCP 管理器：把能力组合定义为“角色”，在 Web 设置页一键动态装载与切换。
 - [dsh-workbench](https://github.com/staff-os/dsh-workbench) - DSH 企业级工作台：在运行中的会话里统一管理 AI 员工、知识库、技能、MCP 服务器与 DSH 插件。
 - [dsh-plugin-bench](https://github.com/B1lli/dsh-plugin-bench) - 证据化、类型感知的 DSH 插件质量评测：按 artifact 与完整 commit 绑定八维质量区间和证据账本，输出 Markdown/SVG 评分卡；Stars 与身份不计分。
