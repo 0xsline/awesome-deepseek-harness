@@ -734,7 +734,7 @@ Management panel: Settings → Plugins.
 
 ## Plugin Ecosystem & Development
 
-- [ouli-1242/dsh-plugin-tool-management](https://github.com/ouli-1242/dsh-plugin-tool-management) - Manage DSH MCP, skills, scenes, memories, subagents, presets & archived sessions in one panel; per-domain context injection with visible adoption stats, and scene locking.
+- [ouli-1242/dsh-plugin-tool-management](https://github.com/ouli-1242/dsh-plugin-tool-management) - DSH plugin: one settings panel managing MCP servers, skills, scenes, memories, subagent personas, AGENTS.md presets and archived sessions — one scene can switch the environment, and the model can help drive it all too.
 - [SunQingyuan0/Kabutack](https://github.com/SunQingyuan0/Kabutack) - Role-based manager for DSH plugins/Skills/MCP: bundle capabilities into “roles” and hot-switch them from the Web UI.
 - [dsh-workbench](https://github.com/staff-os/dsh-workbench) - Enterprise workbench for DSH: manage AI employees, knowledge bases, skills, MCP servers and DSH plugins from a running session.
 - [dsh-plugin-bench](https://github.com/B1lli/dsh-plugin-bench) - Evidence-backed, type-aware DSH plugin quality benchmark: commit-bound score intervals and evidence ledgers across eight lifecycle dimensions, with Markdown/SVG scorecards; Stars and identity are not scored.
