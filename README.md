@@ -734,6 +734,8 @@ Management panel: Settings → Plugins.
 
 ## Plugin Ecosystem & Development
 
+- [1420079678-ctrl/agent-body](https://github.com/1420079678-ctrl/agent-body) - An organ-based plugin platform: 23 plugins that declare themselves as organs with capabilities, senses and reflex arcs, wired to a heartbeat pump, zero-model-call reflexes, sleep-time memory consolidation and closed-loop self-healing (deterministic failure attribution before any retry). Ships a zero-dependency organ SDK, offline gates, and a reproducible 84.71% tool-schema token gate.
+
 - [ouli-1242/dsh-plugin-tool-management](https://github.com/ouli-1242/dsh-plugin-tool-management) - Manage DSH MCP, skills, scenes, memories, subagents, presets & archived sessions in one panel; per-domain context injection with visible adoption stats, and scene locking.
 - [SunQingyuan0/Kabutack](https://github.com/SunQingyuan0/Kabutack) - Role-based manager for DSH plugins/Skills/MCP: bundle capabilities into “roles” and hot-switch them from the Web UI.
 - [dsh-workbench](https://github.com/staff-os/dsh-workbench) - Enterprise workbench for DSH: manage AI employees, knowledge bases, skills, MCP servers and DSH plugins from a running session.
