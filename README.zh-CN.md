@@ -735,6 +735,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [weibaohui/dsh-matrix](https://github.com/weibaohui/dsh-matrix) - 黑客帝国数字雨：对话窗口铺上经典的绿色字符雨背景——雨柱倾泻而下、白炽雨头绿身拖尾，agent 正在生成的 token 原文实时掺进雨里；透明度/速度/密度/字号/配色全部可调，雨势跟随 agent 活跃度起伏。
 
 - [weibaohui/dsh-gaokao](https://github.com/weibaohui/dsh-gaokao) - 梦回高三：桌面小黑板高考倒计时（双击收成竖条），AI 干活时随机抽背知识点卡；Markdown 开放知识卡框架——按学科/分类放 md 即自动加载。
+- [weibaohui/dsh-fireworks](https://github.com/weibaohui/dsh-fireworks) - 烟花庆祝引擎：agent 编程时漂浮在对话窗口上空放烟花——开场迎宾、回合礼花、工具星花、里程碑大礼、收工终场、失败哑炮，每类事件一张烟花属性卡组随机抽取，token 用量决定烟花的大小、高度与绚烂程度。
 ## Plugin Ecosystem & Development
 
 - [ouli-1242/dsh-plugin-tool-management](https://github.com/ouli-1242/dsh-plugin-tool-management) - DSH 插件：一个设置面板，统一管理 MCP 服务器、技能、场景、记忆、子智能体人格、AGENTS.md 预设与归档会话——一个场景即可切换整个环境，模型也能帮你驱动这一切。

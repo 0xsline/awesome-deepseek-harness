@@ -737,6 +737,7 @@ Management panel: Settings → Plugins.
 - [weibaohui/dsh-matrix](https://github.com/weibaohui/dsh-matrix) - Matrix digital rain: drapes the chat window in the classic green character rain — cascading columns with incandescent white heads and green tails, streaming the tokens the agent is generating into the rain in real time; opacity, speed, density, font size and colors are all adjustable, and rain intensity follows agent activity.
 
 - [weibaohui/dsh-gaokao](https://github.com/weibaohui/dsh-gaokao) - Gaokao countdown blackboard: desktop blackboard widget counting down days to the gaokao (double-click to collapse into a slim bar), with random knowledge-card quizzes while the agent works; open Markdown knowledge-card framework, drop .md files under subject/category folders to auto-load.
+- [weibaohui/dsh-fireworks](https://github.com/weibaohui/dsh-fireworks) - Fireworks celebration engine: floats fireworks above the chat window while the agent codes; welcome, per-turn, tool-spark, milestone, finish and failure events each draw from their own fireworks card group with random variants, and token usage decides firework size, height and splendour.
 ## Plugin Ecosystem & Development
 
 - [ouli-1242/dsh-plugin-tool-management](https://github.com/ouli-1242/dsh-plugin-tool-management) - DSH plugin: one settings panel managing MCP servers, skills, scenes, memories, subagent personas, AGENTS.md presets and archived sessions — one scene can switch the environment, and the model can help drive it all too.
