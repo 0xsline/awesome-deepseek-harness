@@ -937,6 +937,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-meme-hub](https://github.com/the-beating-light-of-the-nail/dsh-meme-hub) - 社区整活插件导航（皮肤/桌宠/小游戏），中英双语
 - [DeepSeek Harness Handbook](https://github.com/sandbaseai/deepseek-harness-handbook) - 从 Agent 视角讲解 DSH 运行、扩展与排障的来源可追溯手册，提供 162 篇英文 canonical 指南、189 份多语言文档、可搜索的 [Awesome 资源地图](https://sandbaseai.github.io/deepseek-harness-handbook/awesome-deepseek-harness-resources.html)，以及 Install Doctor 和 Failure Router 速查工具
 - [DeepSeek Harness Anatomy](https://github.com/ChenYu1991ppak/deepseek-harness-anatomy) - 17 章渐进式源码研读教程，逐层拆解 DSH 工程骨架，从最小 agent 循环到端到端多智能体系统，每章配可运行的 Python 教学代码。
+- [OrcaPromptVault](https://github.com/Continuum-AI-Corp/OrcaPromptVault) - 带日期的系统提示词与工具定义存档，收录包括 DSH 在内的已上线 harness 真正发到线上的内容，每份标明是实抓还是厂商自述。
 - [pydsh](https://github.com/ChenYu1991ppak/Pydsh) - DSH 的最小 Python 教学复刻：Cordis 插件容器、agent 循环、会话事件流与 LLM 软映射层——一条命令、零配置。
 - [liyupi/ai-guide](https://github.com/liyupi/ai-guide) - 中文 Vibe Coding 教程，设有 DeepSeek Harness 专题：保姆级入门、服务器部署、Agent 预设详解、极简模式实测与精选插件推荐。
 - [TeamoRouter](https://teamorouter.com/docs/install-deepseek-harness) - OpenAI 兼容接入点，提供免费的 DeepSeek V4 Pro/Flash 每日配额；把 DEEPSEEK_BASE_URL 指向它即可，无需支付信息。
