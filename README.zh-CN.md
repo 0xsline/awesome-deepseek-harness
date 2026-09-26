@@ -190,7 +190,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [qwert702/dsh-auto-translate](https://github.com/qwert702/dsh-auto-translate) — 英文回复自动翻译插件：在原文下方内联显示中文翻译，工具调用附一行中文注释；翻译通过独立请求完成，不进入会话上下文。
 - [url-manager-mcp](https://github.com/Piccolo123/url-manager-mcp) - url-manager 的 MCP 服务端：21 个工具（mcp__url_manager__*），支持收藏/搜索/分类/共享与魔法链接交付，支持 stdio 与 streamable-http。
 - [dsh-kb-sieve](https://github.com/dsh-external/dsh-kb-sieve) - knowledge-base 插件：构建可审计 KB 包（references + SQL）
-- [kb-rag](https://github.com/Breeze136/kb-rag) - 本地文献知识库 RAG：8 个工具（PDF/文件夹/Zotero 入库、BM25+向量+重排混合检索、DOI 可点击溯源问答、范围/严格模式、去重/清空/统计），全本地 bge 嵌入 + 单文件 SQLite，实测 242 篇 86s 入库、2 万块亚秒热查询。
+- [dsh-kb-rag](https://github.com/Breeze136/dsh-kb-rag) - 本地文献知识库 RAG：10 个工具（PDF/文件夹/Zotero 入库、BM25+向量+重排混合检索、DOI 可点击溯源问答、范围/严格模式、去重/清空/统计、DOI 补库、后台任务进度），全本地 bge 嵌入 + 单文件 SQLite，实测 242 篇 86s 入库、2 万块亚秒热查询。
 - [geometry-knowledge](https://github.com/sdoygb/geometry-knowledge) - 几何论（共扼谱几何 CSG）知识库插件：纯离线 BM25 检索 208 篇文章全文 + 3833 分块 + 871 条主库真理层，提供 geo_list / geo_search / geo_read / geo_calc / geo_truth 五工具（含 LaTeX→Unicode 转换、真理→文章引用链、单字查询），零运行时依赖，`dsh plugin add geometry-knowledge` 一键安装。
 - [dsh-memento](https://github.com/PerryLink/dsh-memento) - 有界、分层、带审批门、可审计的跨会话记忆：ctx.memory 服务、零依赖 SQLite、memory 工具与冻结快照注入，并预演 dsh-memory-protocol v1（适配器注册表 + 一致性套件）。
 - [dsh-engramory](https://github.com/tinqiao-oss/engramory/tree/master/adapters/dsh) - 基于文件的策展式记忆：带行数/字节上限的 `MEMORY.md` 索引 + 每条事实单独一个 markdown 文件，由 git 版本化、不借助工具即可阅读。上限由 `ctx.tools.guard()` 强制执行而非靠提示词约束，协议注册为运行时 skill；同一份记忆库也被 Claude Code、Codex、Kiro 与 OpenClaw 读取。
