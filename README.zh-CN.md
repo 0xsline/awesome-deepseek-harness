@@ -213,6 +213,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dearbld/dsh-living-memory](https://github.com/dearbld/dsh-living-memory) - 单文件本地 SQLite 自整理活记忆：夜巡（去重/合并/衰减/建链）、七信号 RRF 检索（FTS5+jieba、可选向量、图谱 PPR）、类型知识图谱、冲突检测、Web 遥测面板。
 - [weibaohui/dsh-kb](https://github.com/weibaohui/dsh-kb) - 团队知识库：离线知识共享（FDE 盒子场景），浏览/全文检索/加工入口；raw 入料自动入队、bot 会话串行蒸馏成文（Karpathy LLM Wiki 模式：raw 不可变 / 两步加工 / log 流水 / 月度 lint）。
 - [loci-dsh](https://github.com/IvenKooLab/loci-dsh) - loci 第二大脑侧边栏标签页：在本地 loci 知识库上做混合检索、带引用问答、按天分组的记忆浏览与快速记录；以同源代理 `loci serve-http` 的方式挂进 dsh-better-sidebar，无需改内核。
+- [dsh-statecore](https://github.com/yul761/dsh-statecore) - 基于 StateCore 的可审计项目记忆：自动摄入每条用户/助手消息，每步 pre-step 自动注入预算内的记忆摘要，无需模型配合；compaction 后自动重新注入，`/compact` 不再遗忘；五个原生工具 remember/recall/facts/why/forget，`why` 给出事实的证据链与全部历史版本，`forget` 只退役不删除；蒸馏走宿主自带的 `ctx.llm`，免密钥嵌入式 SQLite，附 Settings 页面，同一存储可由任何 MCP 客户端经 `statecore-mcp` 读取。
 
 
 ## Input & Editing
