@@ -126,6 +126,7 @@ Management panel: Settings → Plugins.
 - [weibaohui/dsh-tasks](https://github.com/weibaohui/dsh-tasks) - Scheduled tasks: run a prompt on cron schedules, each run opens a new agent session to do the work, with workspace binding, manual run, session auto-naming, and a fullscreen task management page.
 
 - [weibaohui/dsh-smart-title](https://github.com/weibaohui/dsh-smart-title) - Generates session titles from user and assistant messages using a separate LLM request with a configurable input budget; refreshes after completed turns, preserves manual titles, and skips subagent and fork sessions by default.
+- [pure-craft/dsh-actions](https://github.com/pure-craft/dsh-actions) - Deterministic project actions shared by people and agents: one actions.json (global/workspace/session layers), a right-sidebar run-tab panel, and six agent tools; inputs with a params modal, approval gates (never/agent/always), session registration with mandatory approval, `@actions:` references expanding into operational briefs, and zod-backed field-precise validation. MIT, npm `0.1.0`, 332 tests.
 
 ## Context & Search
 

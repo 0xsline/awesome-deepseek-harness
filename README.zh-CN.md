@@ -125,6 +125,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [weibaohui/dsh-tasks](https://github.com/weibaohui/dsh-tasks) - 定时任务：用 cron 表达式定时执行提示词，到点自动开一个新 agent 会话替你干活，支持绑定工作区、手动立即执行与会话自动命名。
 
 - [weibaohui/dsh-smart-title](https://github.com/weibaohui/dsh-smart-title) - 通过独立 LLM 请求根据用户与助手消息生成会话标题，输入预算可配置；已完成轮次后刷新，保留手动标题，默认跳过子代理与 fork 会话。
+- [pure-craft/dsh-actions](https://github.com/pure-craft/dsh-actions) - 人与 Agent 共用的确定性项目任务：一份 actions.json（全局/工作区/会话三层），右侧栏 run tab 面板与六个 Agent 工具双入口；含 inputs 参数化与参数 Modal、审批闸门（never/agent/always）、会话级注册（必经审批）、`@actions:` 引用展开为操作简报、zod 字段级校验；MIT、npm `0.1.0`，332 项测试。
 
 ## Context & Search
 
