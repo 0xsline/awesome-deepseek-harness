@@ -480,6 +480,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Models & Inference
 
+- [dsh-vertex-gemini](https://github.com/mn288/dsh-vertex-gemini) - 通过 Google Cloud Vertex AI 为 DeepSeek Harness 接入 Gemini，支持应用默认凭据（ADC）、流式响应和工具调用间的思考签名回传。
 - [dsh-agy-link](https://github.com/amlyczz/dsh-agy-link) - Google Antigravity (agy CLI) 模型接入：无 API Key 使用 Gemini/Claude/GPT-OSS 订阅模型，支持流式对话、原生工具卡片与 Web 界面 Google OAuth 登录。
 - [dsh-baseurl-probe](https://github.com/Semidia/baseurl-probe) - 自动探测并修正模型供应商 baseURL：当裸域名只有 /v1 提供 OpenAI 兼容 API 时，无需 API Key 即可完成路径探测。
 - [dsh-llm-compat-healer](https://github.com/Semidia/dsh-llm-compat-healer) - 中转/网关 LLM 兼容自愈：无需重启即可修复 DeepSeek `reasoning_content` 历史回传与不支持 `developer` 角色的问题，提供 pi-ai 兼容设置页，并为上游错误生成脱敏中文摘要。

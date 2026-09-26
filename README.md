@@ -484,6 +484,7 @@ Management panel: Settings → Plugins.
 
 ## Models & Inference
 
+- [dsh-vertex-gemini](https://github.com/mn288/dsh-vertex-gemini) - Gemini provider for DeepSeek Harness on Google Cloud Vertex AI, with Application Default Credentials, streaming, and thought-signature replay across tool calls.
 - [dsh-agy-link](https://github.com/amlyczz/dsh-agy-link) - Google Antigravity (agy CLI) model provider for DSH: stream Gemini/Claude/GPT-OSS subscriptions, native tool cards, thinking turns, and in-GUI Google OAuth login.
 - [dsh-baseurl-probe](https://github.com/Semidia/baseurl-probe) - Provider baseURL auto-detection: when a provider's baseURL is a bare domain (e.g. `https://mzeapi.top`) and only `/v1` serves the OpenAI-compatible API, the plugin auto-fixes it — probes all providers with zero-cost path detection (no API key needed).
 - [dsh-llm-compat-healer](https://github.com/Semidia/dsh-llm-compat-healer) - LLM compatibility auto-healer for transit/gateway providers: repairs DeepSeek `reasoning_content` replay and unsupported `developer` roles without a restart, exposes pi-ai compatibility settings, and adds redacted Chinese summaries for upstream errors.
