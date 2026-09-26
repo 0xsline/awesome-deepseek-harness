@@ -406,6 +406,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-session-enhance](https://github.com/Tinger-X/dsh-session-enhance) - DSH Web 会话管理增强插件：归档管理 / 真实物理删除（墓碑防复活）/ 跨工作区拖拽搬移 / 对话通知 / 复制会话 ID / 一键同步记录。
 - [dsh-capability-panel](https://github.com/pure-craft/dsh-capability-panel) - 看清 agent 此刻真正能触达哪些技能与工具——真实的在上下文状态（已加载/已截断/已挤出），并按会话开关。
 - [wjingshan/dsh-cost-gauge](https://github.com/wjingshan/dsh-cost-gauge) - DSH Web 界面的峰谷计费浮动表盘：按官方费率换算本会话花费与账户余额，支持低余额报警、拖拽缩放与最小化状态灯。
+- [olimc2016/dsh-token-meter-panel](https://github.com/olimc2016/dsh-token-meter-panel) - 侧边栏 Token 用量与花费面板：今日消费、预算进度、7/30 天趋势、成本构成、缓存命中节省与按会话拆分。
 ## IDE & Clients
 
 - [Minke](https://github.com/lencx/Minke) - 基于 DeepSeek Harness 的桌面 Agent 工作区，支持 macOS、Windows 和 Linux，提供人机共享浏览器控制、集成文件与终端、远程访问和本地模型管理。
