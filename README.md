@@ -733,6 +733,7 @@ Management panel: Settings → Plugins.
 - [dsh-vibe-pack](https://github.com/LeemanCheung/dsh-vibe-pack) - Transactional data-only configuration pack manager with integrity, ownership, preview, diff, and rollback safeguards.
 - [Luaphes/dsh-plugins-market](https://github.com/Luaphes/dsh-plugins-market) - Plugin market inside the DSH Web UI: crawls the dsh-plugin topic with noise filtering, curated marks, ranking and one-click install (dsh.bundle-verified).
 - [dsh-blackjack](https://github.com/yul761/dsh-blackjack) - Blackjack in the conversation: free daily hands win CHIP, redeemable one-way into model credit that a fallback route spends only when your own provider quota runs out; operator-funded pool, with the server and its audited ledger open source in the same repo.
+- [weibaohui/dsh-matrix](https://github.com/weibaohui/dsh-matrix) - Matrix digital rain: drapes the chat window in the classic green character rain — cascading columns with incandescent white heads and green tails, streaming the tokens the agent is generating into the rain in real time; opacity, speed, density, font size and colors are all adjustable, and rain intensity follows agent activity.
 
 - [weibaohui/dsh-gaokao](https://github.com/weibaohui/dsh-gaokao) - Gaokao countdown blackboard: desktop blackboard widget counting down days to the gaokao (double-click to collapse into a slim bar), with random knowledge-card quizzes while the agent works; open Markdown knowledge-card framework, drop .md files under subject/category folders to auto-load.
 ## Plugin Ecosystem & Development
