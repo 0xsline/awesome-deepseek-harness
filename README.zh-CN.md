@@ -133,6 +133,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [Awoodwhale/dsh-agent-persona](https://github.com/Awoodwhale/dsh-agent-persona) - 按工作区或会话分发 system prompt 人设：一条人设可覆盖多个工作区目录与会话，支持完全一致 / 前缀 / 包含 / 正则，越具体越优先，可标一条默认人设兜底；在设置页与对话页「人设」Tab 里管理，改完下一条消息生效。
 
+- [weibaohui/dsh-flow](https://github.com/weibaohui/dsh-flow) - 执行流程图：把当前会话的执行过程画成一条纵向节点流（回合/用户/助手/工具/审批/重试/压缩），SSE 实时追加——会话执行到哪，图就画到哪，自动跟随滚动。
 ## Context & Search
 
 - [zoahdev/dsh-github-intelligence](https://github.com/zoahdev/dsh-github-intelligence) - 只读开发者情报工具：16 大生态（GitHub、GitLab、Gitee、npm、PyPI、crates.io、Docker Hub、Hugging Face、Hacker News、Stack Overflow、Reddit、dev.to、RubyGems、NuGet、Go、ArXiv）统一查询，带 TTL 缓存，无需 API Key。

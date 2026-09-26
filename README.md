@@ -134,6 +134,7 @@ Management panel: Settings → Plugins.
 
 - [Awoodwhale/dsh-agent-persona](https://github.com/Awoodwhale/dsh-agent-persona) - System-prompt personas scoped by workspace or session: one persona can cover several workspace directories and several sessions, matched exactly, by prefix, by substring or by regex, most specific wins, and one persona can be marked as the default; managed from a settings page and a 「人设」tab on the conversation, effective on the next message.
 
+- [weibaohui/dsh-flow](https://github.com/weibaohui/dsh-flow) - Execution flow chart: renders the current session's execution as a vertical node flow (turns, user, assistant, tools, approvals, retries, compaction), appended in real time over SSE with auto-follow scrolling, so the chart draws wherever the session executes.
 ## Context & Search
 
 - [zoahdev/dsh-github-intelligence](https://github.com/zoahdev/dsh-github-intelligence) - Read-only developer-intelligence tools across 16 ecosystems (GitHub, GitLab, Gitee, npm, PyPI, crates.io, Docker Hub, Hugging Face, Hacker News, Stack Overflow, Reddit, dev.to, RubyGems, NuGet, Go, ArXiv) with TTL caching and no API key.
