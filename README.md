@@ -731,7 +731,7 @@ Management panel: Settings → Plugins.
 - [Luaphes/dsh-plugins-market](https://github.com/Luaphes/dsh-plugins-market) - Plugin market inside the DSH Web UI: crawls the dsh-plugin topic with noise filtering, curated marks, ranking and one-click install (dsh.bundle-verified).
 - [dsh-blackjack](https://github.com/yul761/dsh-blackjack) - Blackjack in the conversation: free daily hands win CHIP, redeemable one-way into model credit that a fallback route spends only when your own provider quota runs out; operator-funded pool, with the server and its audited ledger open source in the same repo.
 
-
+- [weibaohui/dsh-fireworks](https://github.com/weibaohui/dsh-fireworks) - Fireworks celebration engine: floats fireworks above the chat window while the agent codes; welcome, per-turn, tool-spark, milestone, finish and failure events each draw from their own fireworks card group with random variants, and token usage decides firework size, height and splendour.
 ## Plugin Ecosystem & Development
 
 - [ouli-1242/dsh-plugin-tool-management](https://github.com/ouli-1242/dsh-plugin-tool-management) - Manage DSH MCP, skills, scenes, memories, subagents, presets & archived sessions in one panel; per-domain context injection with visible adoption stats, and scene locking.

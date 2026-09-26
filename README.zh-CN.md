@@ -729,7 +729,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-pianist](https://github.com/Laplace-bit/dsh-pianist) - 钢琴演奏：让 Agent 在 Canvas2D 三角钢琴上弹奏点播曲目，Salamander Grand 真实采样音色，沉浸式舞台，88 键可弹。
 - [dsh-blackjack](https://github.com/yul761/dsh-blackjack) - 对话里的 21 点牌桌：每日免费手数赢 CHIP，可单向兑换为模型额度，只在你自己配置的额度耗尽时由续命路由接管那一次失败的请求；奖池由运营者出资，服务端与可审计的账本同仓开源。
 
-
+- [weibaohui/dsh-fireworks](https://github.com/weibaohui/dsh-fireworks) - 烟花庆祝引擎：agent 编程时漂浮在对话窗口上空放烟花——开场迎宾、回合礼花、工具星花、里程碑大礼、收工终场、失败哑炮，每类事件一张烟花属性卡组随机抽取，token 用量决定烟花的大小、高度与绚烂程度。
 ## Plugin Ecosystem & Development
 
 - [ouli-1242/dsh-plugin-tool-management](https://github.com/ouli-1242/dsh-plugin-tool-management) - DSH 的 MCP、技能、场景、记忆、子智能体、提示词与归档会话，一个面板统一管理；五域各自注入上下文、采纳统计可见、场景可上锁。
