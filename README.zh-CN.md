@@ -128,13 +128,12 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [weibaohui/dsh-smart-title](https://github.com/weibaohui/dsh-smart-title) - 通过独立 LLM 请求根据用户与助手消息生成会话标题，输入预算可配置；已完成轮次后刷新，保留手动标题，默认跳过子代理与 fork 会话。
 - [jigjoy-ai/baro-dsh](https://github.com/jigjoy-ai/baro/tree/main/packages/baro-dsh) - 将 baro 作为子代理提供者：委派一个多故事目标，获得计划、并行编码代理、独立的逐故事评审和经验证的结果（已运行测试、已认证目标不变量、已合并提交）；侧边栏实时显示运行面板（阶段、故事、里程碑）。
 - [zuoyunlai/lunheng-article-pipeline-dsh](https://github.com/zuoyunlai/lunheng-article-pipeline-dsh) - 深度长文写作流水线 bundle：9 个独立角色（文献 / 数据 / 案例检索、分析、写作、批判、审计、终检、同行评审）跨 6 个阶段，含 4 个人在环节点、三角验证、M 门 23 项机械终检、G0-G14 独立审计与审稿评分/期刊匹配。安装：`dsh plugin add lunheng-article-pipeline`。
-- [pure-craft/dsh-actions](https://github.com/pure-craft/dsh-actions) - 人与 Agent 共用的确定性项目任务：一份 actions.json（全局/工作区/会话三层），右侧栏 run tab 面板与六个 Agent 工具双入口；含 inputs 参数化与参数 Modal、审批闸门（never/agent/always）、会话级注册（必经审批）、`@actions:` 引用展开为操作简报、zod 字段级校验；MIT、npm `0.1.0`，332 项测试。
+- [pure-craft/dsh-actions](https://github.com/pure-craft/dsh-actions) - 人与 Agent 共用的确定性项目任务：一份分层 actions.json（全局/工作区/会话），同时提供右侧栏运行面板与六个 Agent 工具，支持参数输入、审批闸门（never/agent/always）与 `@actions:` 引用。
 
 - [weibaohui/dsh-process](https://github.com/weibaohui/dsh-process) - 工艺管理：把 ntd 的「工艺」（多阶段·多环节 agent 工作流模板）接进 dsh web——浏览/编辑/校验/导入导出/AI 生成工艺，内置库只读、我的库可写，文件改动实时同步；agent 可通过 process_* 工具读工艺库、按工艺分阶段推进。
 
 - [Awoodwhale/dsh-agent-persona](https://github.com/Awoodwhale/dsh-agent-persona) - 按工作区或会话分发 system prompt 人设：一条人设可覆盖多个工作区目录与会话，支持完全一致 / 前缀 / 包含 / 正则，越具体越优先，可标一条默认人设兜底；在设置页与对话页「人设」Tab 里管理，改完下一条消息生效。
 
-- [weibaohui/dsh-flow](https://github.com/weibaohui/dsh-flow) - 执行流程图：把当前会话的执行过程画成一条纵向节点流（回合/用户/助手/工具/审批/重试/压缩），SSE 实时追加——会话执行到哪，图就画到哪，自动跟随滚动。
 ## Context & Search
 
 - [zoahdev/dsh-github-intelligence](https://github.com/zoahdev/dsh-github-intelligence) - 只读开发者情报工具：16 大生态（GitHub、GitLab、Gitee、npm、PyPI、crates.io、Docker Hub、Hugging Face、Hacker News、Stack Overflow、Reddit、dev.to、RubyGems、NuGet、Go、ArXiv）统一查询，带 TTL 缓存，无需 API Key。
@@ -215,7 +214,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dearbld/dsh-living-memory](https://github.com/dearbld/dsh-living-memory) - 单文件本地 SQLite 自整理活记忆：夜巡（去重/合并/衰减/建链）、七信号 RRF 检索（FTS5+jieba、可选向量、图谱 PPR）、类型知识图谱、冲突检测、Web 遥测面板。
 - [weibaohui/dsh-kb](https://github.com/weibaohui/dsh-kb) - 团队知识库：离线知识共享（FDE 盒子场景），浏览/全文检索/加工入口；raw 入料自动入队、bot 会话串行蒸馏成文（Karpathy LLM Wiki 模式：raw 不可变 / 两步加工 / log 流水 / 月度 lint）。
 - [loci-dsh](https://github.com/IvenKooLab/loci-dsh) - loci 第二大脑侧边栏标签页：在本地 loci 知识库上做混合检索、带引用问答、按天分组的记忆浏览与快速记录；以同源代理 `loci serve-http` 的方式挂进 dsh-better-sidebar，无需改内核。
-- [dsh-statecore](https://github.com/yul761/dsh-statecore) - 基于 StateCore 的可审计项目记忆：自动摄入每条用户/助手消息，每步 pre-step 自动注入预算内的记忆摘要，无需模型配合；compaction 后自动重新注入，`/compact` 不再遗忘；五个原生工具 remember/recall/facts/why/forget，`why` 给出事实的证据链与全部历史版本，`forget` 只退役不删除；蒸馏走宿主自带的 `ctx.llm`，免密钥嵌入式 SQLite，附 Settings 页面，同一存储可由任何 MCP 客户端经 `statecore-mcp` 读取。
+- [dsh-statecore](https://github.com/yul761/dsh-statecore) - 基于 StateCore 的可审计项目记忆：自动摄入消息，每步 pre-step 注入预算内的记忆摘要（compaction 后自动重新注入）；五个原生工具 remember/recall/facts/why/forget，附证据链与历史版本链，嵌入式 SQLite，可经 `statecore-mcp` 供 MCP 客户端读取。
 
 
 ## Input & Editing
@@ -371,6 +370,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-tmux-cc](https://github.com/adrianleb/dsh-tmux-cc) - 为 DSH Web 提供持久的 tmux 控制模式驾驶舱，在停靠栏中镜像原生窗格。
 - [dsh-subagent-tree](https://github.com/dsh-external/dsh-subagent-tree) - 子代理树可视化
 - [dsh-web-workflow-visualizer](https://github.com/dsh-external/dsh-web-workflow-visualizer) - workflow 可视化
+- [weibaohui/dsh-flow](https://github.com/weibaohui/dsh-flow) - 执行流程图标签页：把当前会话画成上下文/用户/助手/工具四泳道流程图，审批为菱形节点，子代理发散-收敛扇形可双击下钻，另有紧凑列表视图；经 SSE 随会话执行实时生长。
 - [dsh-ui-progress](https://github.com/dsh-external/dsh-ui-progress) - 进度
 - [dsh-milestone](https://github.com/SnowCrescenter-tech/dsh-milestone) - 右侧圆点时间轴导航栏，快速跳转到任意用户消息。
 - [dsh-turn-index](https://github.com/Simon314620/dsh-turn-index) - 轮次索引侧边栏：每条索引对应一轮用户提问，点击跳转并闪烁高亮，滚动时自动高亮当前轮次。
@@ -732,10 +732,11 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [Luaphes/dsh-plugins-market](https://github.com/Luaphes/dsh-plugins-market) - DSH Web UI 内插件市场：全量嗅探 dsh-plugin topic，过滤蹭标签噪音，保留人工精选标记，支持排序/搜索/语言过滤与一键安装（安装前校验 dsh.bundle 声明）。
 - [dsh-pianist](https://github.com/Laplace-bit/dsh-pianist) - 钢琴演奏：让 Agent 在 Canvas2D 三角钢琴上弹奏点播曲目，Salamander Grand 真实采样音色，沉浸式舞台，88 键可弹。
 - [dsh-blackjack](https://github.com/yul761/dsh-blackjack) - 对话里的 21 点牌桌：每日免费手数赢 CHIP，可单向兑换为模型额度，只在你自己配置的额度耗尽时由续命路由接管那一次失败的请求；奖池由运营者出资，服务端与可审计的账本同仓开源。
-- [weibaohui/dsh-matrix](https://github.com/weibaohui/dsh-matrix) - 黑客帝国数字雨：对话窗口铺上经典的绿色字符雨背景——雨柱倾泻而下、白炽雨头绿身拖尾，agent 正在生成的 token 原文实时掺进雨里；透明度/速度/密度/字号/配色全部可调，雨势跟随 agent 活跃度起伏。
-
+- [weibaohui/dsh-matrix](https://github.com/weibaohui/dsh-matrix) - 黑客帝国数字雨聊天背景：agent 正在生成的 token 实时掺进雨里，雨势随 agent 活跃度起伏；透明度、速度、密度、字号与配色均可调。
 - [weibaohui/dsh-gaokao](https://github.com/weibaohui/dsh-gaokao) - 梦回高三：桌面小黑板高考倒计时（双击收成竖条），AI 干活时随机抽背知识点卡；Markdown 开放知识卡框架——按学科/分类放 md 即自动加载。
 - [weibaohui/dsh-fireworks](https://github.com/weibaohui/dsh-fireworks) - 烟花庆祝引擎：agent 编程时漂浮在对话窗口上空放烟花——开场迎宾、回合礼花、工具星花、里程碑大礼、收工终场、失败哑炮，每类事件一张烟花属性卡组随机抽取，token 用量决定烟花的大小、高度与绚烂程度。
+
+
 ## Plugin Ecosystem & Development
 
 - [ouli-1242/dsh-plugin-tool-management](https://github.com/ouli-1242/dsh-plugin-tool-management) - DSH 插件：一个设置面板，统一管理 MCP 服务器、技能、场景、记忆、子智能体人格、AGENTS.md 预设与归档会话——一个场景即可切换整个环境，模型也能帮你驱动这一切。
@@ -892,7 +893,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-industry-research](https://github.com/PerryLink/dsh-industry-research) - 行业/公司研究领域包：industry_map 产业链建图、industry_track 经 ctx.web 的公开源政策动态跟踪、company_scan 基于用户数据文件的公司速览卡、industry_report 研究报告（可选 ctx.researchReport 引擎封存桥，缺席时内置降级渲染），附两个研究方法论技能。
 - [dsh-data-quality](https://github.com/PerryLink/dsh-data-quality) - 确定性的数据画像、清洗与校验：data_profile / data_clean / data_verify 工具，外加冻结的跨插件 verifyCitations 引用核验契约，报告持久化到存储域。
 - [maxmilian/dsh-odoo](https://github.com/maxmilian/dsh-odoo) - 经 JSON-RPC 的 Odoo 只读工具：服务器信息、模型字段自省，以及白名单模型上的受限 search_read。草稿创建工具需显式开启 allowWrite 才会注册。
-- [dsh-paperdesk](https://github.com/shiyan688/dsh-paperdesk) - 论文文库与精读工作台：arXiv 检索、本地纯文件文库（题录 / PDF / 抽取的全文同处一个 root）、L1-L2-L3 三层精读笔记（速览 / 理解 / 批判）以 markdown 与 PDF 放在一起；7 个模型工具 + Web 面板；无构建步骤、运行时零第三方依赖、HTTP 接口仅回环。npm：`dsh-paperdesk`。
+- [dsh-paperdesk](https://github.com/shiyan688/dsh-paperdesk) - 论文文库与精读工作台：arXiv 检索、本地纯文件文库（题录 / PDF / 抽取的全文）、三层精读笔记（速览 / 理解 / 批判）以 markdown 与 PDF 放在一起；7 个模型工具 + Web 面板。
 ## Tools & Utilities
 
 - [dsh-tray](https://github.com/liulifu/dsh-tray) - Windows 系统托盘守护工具：启动/停止/重启 DSH 服务，支持多 profile 端口绑定、快照式快速恢复、插件启停、SQLite 版本台账，以及自动发现加载失败插件后禁用并恢复 DSH 的客户端哨兵。
