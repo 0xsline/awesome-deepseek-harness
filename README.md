@@ -93,6 +93,7 @@ Management panel: Settings → Plugins.
 - [gewu-tools](https://github.com/nyantused-cpun/gewu-tools) - Model-agnostic visual-inspection pipeline for text-only agents: page-by-page HTML screenshots plus a ready-made vision-subagent briefing contract (gewu_prep), then source-code truth verification of every finding (gewu_locate); validated on mimo-v2.5 & qwen3.7-plus.
 - [dsh-plugin-hub](https://github.com/Noob-stupid/dsh-plugin-hub) - DSH plugin manager & marketplace: one-click enable/disable, multi-source market, static index (500+ plugins / 300 skills), skill install/disable, suite one-click assembly, one-click framework upgrade (online install + auto-rollback).
 - [dsh-gsd-bundle](https://github.com/jaaty/dsh-gsd-bundle) - Git Ship Done (opengsd-core) reimplemented as host-plane Cordis plugins: replaces the default agent loop with a spec/discuss/plan/execute/verify/ship phase loop.
+- [1420079678-ctrl/agent-body](https://github.com/1420079678-ctrl/agent-body) - Organ-based plugin layer: plugins declare capabilities, senses and reflexes; nerve impulses route a command to the owning organ, a heartbeat circulates law and vitals, reflex arcs fire with zero model calls, quiet time consolidates run history into memory cards, and failures close through attribution → remedy → re-check.
 
 ## Agents & Orchestration
 
