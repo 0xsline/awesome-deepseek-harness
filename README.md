@@ -409,6 +409,7 @@ Management panel: Settings → Plugins.
 - [dsh-session-enhance](https://github.com/Tinger-X/dsh-session-enhance) - Full-control session management for DSH Web: archive, guaranteed physical delete (tombstone anti-resurrection), drag-and-drop workspace moves, conversation notifications, copy session ID and one-click record sync.
 - [dsh-capability-panel](https://github.com/pure-craft/dsh-capability-panel) - See which skills and tools your agent can actually reach right now — true in-context state (loaded/truncated/evicted) and per-session switches.
 - [wjingshan/dsh-cost-gauge](https://github.com/wjingshan/dsh-cost-gauge) - Peak/off-peak billing cost dial for the DSH Web GUI: session spend and account balance computed at the official rates, a low-balance alarm, drag-to-resize and a minimized status-lamp mode.
+- [weibaohui/dsh-dashboard](https://github.com/weibaohui/dsh-dashboard) - Usage dashboard: offline-scans session logs to chart daily/weekly/monthly tokens, estimated costs, model/tool/skill/command leaderboards, output speed, working hours and quality metrics; gridstack+ECharts cards are drag-and-drop composable, with custom formulas and AI arrangement (prompt round-trip import).
 - [olimc2016/dsh-token-meter-panel](https://github.com/olimc2016/dsh-token-meter-panel) - Sidebar panel for token usage and cost: today's spend, budget progress, 7/30-day trends, cost breakdown, cache-hit savings, and per-session breakdown.
 ## IDE & Clients
 
