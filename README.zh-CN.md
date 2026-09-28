@@ -860,6 +860,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [maddogfinance/dsh-trading](https://github.com/maddogfinance/dsh-trading) - 只读交易研究工作台插件：带类型的行情数据接缝（可自带数据源）、多周期指标 regime 快照、dsh web 交互式 K 线卡（模型标注需溯源且经价格区间校验）、以及在 pre-execute 门拦截下单形工具调用的 risk-guard。
 - [dsh-trading-toolkit](https://github.com/kentleenot/dsh-trading-toolkit) - DSH agent 的 A股/美股交易工具箱：实时行情、OHLCV K线、ADX 三状态市场分类信号与简易回测预览，数据源东方财富。只读设计，永不下单。
 - [LAU-MARS/dsh-cad](https://github.com/LAU-MARS/dsh-cad) - CAD 查看器与 OCCT 参数化建模工具（图元、拉伸、布尔、圆角、工程图、装配），Web UI 内交互式 3D/2D 面板，支持 STEP/STL 导出。
+- [jackControls/dsh-noBS-CAD-step](https://github.com/jackControls/dsh-noBS-CAD-step) - 把平板类零件的 2D 工程图纸（PDF/PNG/JPG）转换为 noBS CAD 脚本和 STEP 文件：建模技能、基于 noBS CAD MCP 引擎的 CAD 工具、内置原生图纸探测器，以及 Web UI 中的「2D → 3D」面板。
 
 - [gongyijie85/mattpocock-skills-dsh](https://github.com/gongyijie85/mattpocock-skills-dsh) - Matt Pocock 完整发布技能集（25 个 SKILL.md：grilling、writing-for-agents、wait-what、TDD、code-review、wayfinder、ask-matt 路由）的 DSH 移植。
 - [gongyijie85/mattpocock-skills-dsh-zh](https://github.com/gongyijie85/mattpocock-skills-dsh-zh) - Matt Pocock 25 个技能正文全译中文（技术术语保留英文并附注释）。
