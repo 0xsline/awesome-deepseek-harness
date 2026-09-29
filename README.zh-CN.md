@@ -258,6 +258,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-file-upload](https://github.com/a903067276-rgb/dsh-file-upload) - 一键上传 + 拖拽文件进对话：保存到项目 uploads/、路径文本进输入框，可配合任意视觉工具。
 - [JohnXu22786/snippet-expander](https://github.com/JohnXu22786/snippet-expander) - Steno：发送前的行内 #tag 快捷展开——多库、别名、{{变量}}、递归防护。
 - [opencues/opencues](https://github.com/opencues/opencues/tree/master/integrations/dsh) - 输入框内的同义词提示与下划线补全：行尾输入 `_` 即自动填充，拼写错误随打随标。走 `ctx.llm`，无需自备 API key。
+- [Ln1m/dsh-input-suite](https://github.com/Ln1m/dsh-input-suite) - 输入区家族：技能档——切档即换本会话注入的技能清单。
 
 ## UI, Themes & Interaction
 
