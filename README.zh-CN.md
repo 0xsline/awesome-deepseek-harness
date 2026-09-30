@@ -740,6 +740,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [weibaohui/dsh-matrix](https://github.com/weibaohui/dsh-matrix) - 黑客帝国数字雨聊天背景：agent 正在生成的 token 实时掺进雨里，雨势随 agent 活跃度起伏；透明度、速度、密度、字号与配色均可调。
 - [weibaohui/dsh-gaokao](https://github.com/weibaohui/dsh-gaokao) - 梦回高三：桌面小黑板高考倒计时（双击收成竖条），AI 干活时随机抽背知识点卡；Markdown 开放知识卡框架——按学科/分类放 md 即自动加载。
 - [weibaohui/dsh-fireworks](https://github.com/weibaohui/dsh-fireworks) - 烟花庆祝引擎：agent 编程时漂浮在对话窗口上空放烟花——开场迎宾、回合礼花、工具星花、里程碑大礼、收工终场、失败哑炮，每类事件一张烟花属性卡组随机抽取，token 用量决定烟花的大小、高度与绚烂程度。
+- [weibaohui/dsh-kite](https://github.com/weibaohui/dsh-kite) - 随 agent 活动变化的动画风筝，支持配置风筝骨架、图案和配色，以及使用自定义图片贴图。
 
 
 ## Plugin Ecosystem & Development

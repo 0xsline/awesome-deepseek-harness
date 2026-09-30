@@ -742,6 +742,7 @@ Management panel: Settings → Plugins.
 - [weibaohui/dsh-matrix](https://github.com/weibaohui/dsh-matrix) - Matrix digital-rain background for the chat window: tokens the agent is generating stream into the rain in real time and rain intensity follows agent activity; opacity, speed, density, font size and colors are adjustable.
 - [weibaohui/dsh-gaokao](https://github.com/weibaohui/dsh-gaokao) - Gaokao countdown blackboard: desktop blackboard widget counting down days to the gaokao (double-click to collapse into a slim bar), with random knowledge-card quizzes while the agent works; open Markdown knowledge-card framework, drop .md files under subject/category folders to auto-load.
 - [weibaohui/dsh-fireworks](https://github.com/weibaohui/dsh-fireworks) - Fireworks celebration engine: floats fireworks above the chat window while the agent codes; welcome, per-turn, tool-spark, milestone, finish and failure events each draw from their own fireworks card group with random variants, and token usage decides firework size, height and splendour.
+- [weibaohui/dsh-kite](https://github.com/weibaohui/dsh-kite) - Animated kite that responds to agent activity, with configurable kite frames, patterns and colors, plus user-supplied image textures.
 
 
 ## Plugin Ecosystem & Development
