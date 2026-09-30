@@ -658,6 +658,7 @@ Management panel: Settings → Plugins.
 - [inspiration-deck-workshop](https://github.com/zjsthmjialin/inspiration-deck-workshop) - Registers the Inspiration Deck Workshop skill: local static HTML presentation decks (6 deck templates, 25+ layouts, themes & motion showroom) with a validate + PNG/PDF export CLI, zero runtime deps.
 - [pdf-background-gray-codex-skill](https://github.com/zjsthmjialin/pdf-background-gray-codex-skill) - Whitens gray/off-white scan backgrounds in image-based PDFs while preserving resolution, page geometry and anti-aliased text edges (lossless Flate write-back) via a single Python script.
 - [dsh-research-report](https://github.com/PerryLink/dsh-research-report) - Verifiable research-report engine for DeepSeek Harness: content-addressed evidence ledger (claim-to-snapshot binding, tamper-evident) and versioned sealed reports with per-claim verification verdicts and a manifest SHA-256 seal.
+- [dsh-brewreel](https://github.com/Finderchangchang/brewreel/tree/main/integrations/deepseek-harness) - BrewReel for DSH: turns a storyboard JSON into a 1080x1920 vertical promo video rendered with Remotion (7 tools: doctor, setup, catalog, guide, validate, render, verify).
 
 ## Office & Documents
 
