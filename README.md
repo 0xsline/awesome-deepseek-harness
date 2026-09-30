@@ -883,6 +883,7 @@ Management panel: Settings → Plugins.
 - [easyeda-agent](https://github.com/zhoushoujianwork/easyeda-agent) - EasyEDA Pro automation: Go daemon + in-app connector + agent skill + stdio MCP server for typed schematic/PCB actions, workflow gates, and DRC.
 - [dsh-stock-market](https://github.com/dsh-external/dsh-stock-market) - Shanghai and Shenzhen A-share market data plugin.
 - [dsh-us-stocks](https://github.com/Realyujie/dsh-us-stocks) - US stock quotes, price history, financial statements, analyst consensus and news via yahoo-finance2.
+- [xaudaily-gold-data](https://github.com/Wangxian111/xaudaily-gold-data) - Gold and macroeconomic readings in versioned JSON with source and date metadata; includes an Agent Skill and a Python stdlib MCP server, with no API key required.
 - [dsh-openmaic](https://github.com/dsh-external/dsh-openmaic) - Generate interactive OpenMAIC AI classrooms.
 - [dsh-science](https://github.com/biociao/dsh-science) - Claude Science-style research workbench: ReAct research-loop engine (research_*tools), versioned artifacts with provenance (artifact_* tools), and 10 science skills for genomics/pathogens/bioinformatics.
 - [dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) - Complete reverse-skill pack (85 SKILL.md) as a DeepSeek Harness Cordis plugin: reverse engineering, authorized pentesting and security-research skill router.
