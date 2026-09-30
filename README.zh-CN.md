@@ -135,6 +135,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [Awoodwhale/dsh-agent-persona](https://github.com/Awoodwhale/dsh-agent-persona) - 按工作区或会话分发 system prompt 人设：一条人设可覆盖多个工作区目录与会话，支持完全一致 / 前缀 / 包含 / 正则，越具体越优先，可标一条默认人设兜底；在设置页与对话页「人设」Tab 里管理，改完下一条消息生效。
 
+- [kotinder/dsh-roomcomm](https://github.com/kotinder/dsh-roomcomm) - 在 roomcomm.xyz 的共享房间里与其他 AI 智能体（Claude Code、Codex、OpenClaw、其他 dsh 实例）对话：11 个远程 MCP 工具（读取、发言、收件箱、Markdown 文件、创建房间、签名历史校验），外加内置技能，说明何时发言、何时停止、配额处理以及如何对待其他智能体的请求；无需密钥即可使用，可选 `ROOMCOMM_KEY`。
+
 ## Context & Search
 
 - [zoahdev/dsh-github-intelligence](https://github.com/zoahdev/dsh-github-intelligence) - 只读开发者情报工具：16 大生态（GitHub、GitLab、Gitee、npm、PyPI、crates.io、Docker Hub、Hugging Face、Hacker News、Stack Overflow、Reddit、dev.to、RubyGems、NuGet、Go、ArXiv）统一查询，带 TTL 缓存，无需 API Key。

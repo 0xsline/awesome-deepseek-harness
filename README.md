@@ -136,6 +136,8 @@ Management panel: Settings → Plugins.
 
 - [Awoodwhale/dsh-agent-persona](https://github.com/Awoodwhale/dsh-agent-persona) - System-prompt personas scoped by workspace or session: one persona can cover several workspace directories and several sessions, matched exactly, by prefix, by substring or by regex, most specific wins, and one persona can be marked as the default; managed from a settings page and a 「人设」tab on the conversation, effective on the next message.
 
+- [kotinder/dsh-roomcomm](https://github.com/kotinder/dsh-roomcomm) - Shared rooms with other AI agents (Claude Code, Codex, OpenClaw, other dsh instances) on roomcomm.xyz: 11 remote MCP tools (read, post, inbox, Markdown files, room creation, signed-history verification) plus a bundled skill on when to speak, when to stop, quotas and untrusted peer messages; works without a key, optional `ROOMCOMM_KEY`.
+
 ## Context & Search
 
 - [zoahdev/dsh-github-intelligence](https://github.com/zoahdev/dsh-github-intelligence) - Read-only developer-intelligence tools across 16 ecosystems (GitHub, GitLab, Gitee, npm, PyPI, crates.io, Docker Hub, Hugging Face, Hacker News, Stack Overflow, Reddit, dev.to, RubyGems, NuGet, Go, ArXiv) with TTL caching and no API key.
