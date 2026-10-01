@@ -705,6 +705,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Fun & Lifestyle
 
+- [dsh-nexttavern](https://github.com/a86582751/dsh-nexttavern) - 面向 DSH 0.1.7-rc.2 / Web 的角色扮演：角色卡导入与创作、世界线、世界书和分层长期记忆。
+
 - [dsh-chinese-poetry](https://github.com/runcat-tommy/dsh-chinese-poetry) - 免 token 诗词查询插件：会话页头「诗词」标签页，支持搜索/筛选/飞花令/每日一首/收藏/节日专题/分享卡片图，AI 解读复用 DSH 会话（不自动提交）。
 - [dsh-whale-companion](https://github.com/LeemanCheung/dsh-whale-companion) - 可拖拽的鲸鱼伙伴，提供本地成长、成就、皮肤和隐私安全的活动统计。
 - [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) - 元气鲸鱼娘桌宠：摸头养成、工作状态联动、494 条台词与 30 项成就，自带设置面板，全本地、零遥测。
