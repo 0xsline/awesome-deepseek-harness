@@ -326,6 +326,7 @@ Management panel: Settings → Plugins.
 
 - [weibaohui/dsh-settings-ui](https://github.com/weibaohui/dsh-settings-ui) - Customizes the DSH native settings window: preset or custom sizes, fullscreen, background transparency, and theme, solid-color, or image backgrounds, with a floating ball for quick access; saved in the local browser.
 - [rex178178/dsh-turnbar](https://github.com/rex178178/dsh-turnbar) - Video-style turn navigation for the DSH Web UI: a full-map progress bar (150+ turns aggregate into ≤40 groups), hover preview cards (first lines, tool calls, file edits, token usage), drag scrub, ⌘K search across the whole session including history beyond the loaded window, ⌘↑/⌘↓ stepping and Esc-return.
+- [dsh-ui-hub](https://github.com/Han-1413141/dsh-ui-hub) - Search, show, hide, move, resize and arrange plugin controls in DSH Desktop and Web, with layout backup, restore and undo.
 
 ## Dashboards & Session UX
 
@@ -487,6 +488,7 @@ Management panel: Settings → Plugins.
 - [JohnXu22786/model-catalog](https://github.com/JohnXu22786/model-catalog) - Model catalog auto-discovery: fetch model listings, pricing and capabilities from OpenAI-compatible API hosts, normalized into ready-to-use config.
 - [dsh-browser-vision](https://github.com/tristan-mcinnis/dsh-browser-vision) - Vision browser tool: drives real Chrome over CDP with browser-use and reads the page with deepseek-v4-flash-vision-exp, so canvas text, text baked into images and values in rendered charts are readable; returns JSON validated against a caller-supplied schema and reports per-run token cost.
 - [harness-unity-bridge](https://github.com/WarrenMondeville/agents-unity-bridge) - File-based bridge that lets DeepSeek Harness control the Unity Editor: run EditMode/PlayMode tests, compile scripts, refresh assets, read console logs, control Play Mode, and build — via a deterministic Python CLI, a Unity UPM package, and an installable DSH skill (`unity-bridge`).
+- [dsh-codex-computer-use](https://github.com/Han-1413141/dsh-codex-computer-use) - Let a DSH model inspect and operate Windows applications through an installed Codex Computer Use runtime, with per-session app approval.
 
 ## Models & Inference
 
@@ -604,7 +606,7 @@ Management panel: Settings → Plugins.
 - [weibaohui/dsh-git-server](https://github.com/weibaohui/dsh-git-server) - Git server: embeds ts-gogs (a TypeScript reimplementation of Gogs) and serves a full Git service on its own port — HTTP clone/push, web UI, issues/PRs/wiki — reusing user-management credentials, start/stop from the settings page.
 - [weibaohui/dsh-sync](https://github.com/weibaohui/dsh-sync) - Multi-machine sync: keeps multiple dsh replicas consistent through one private GitCode repository - skills, sessions, settings and plugin manifests each with an independent switch; changes go through branch, PR and merge, remote-only additions are pulled back before every push so nothing is deleted, and an AI smart-align step semantically merges files both sides changed (plus one-click conflict resolution); private repos enforced, pull never overwrites local edits.
 - [huuthuan-nguyen/dsh-knowcode](https://github.com/huuthuan-nguyen/dsh-knowcode) - Code graph and knowledge base over an embedded FalkorDB: AST symbols, caller/callee tracing, refactor blast radius, affected-test discovery, clone detection, cross-language porting contracts and spec-to-code traceability.
-
+- [dsh-visual-edit](https://github.com/Han-1413141/dsh-visual-edit) - Select elements, draw arrows or frame areas in DSH previews, send visual feedback to chat and compare before-and-after snapshots.
 
 ## Security & Governance
 
@@ -808,7 +810,8 @@ Management panel: Settings → Plugins.
 
 - [weibaohui/skills-management](https://github.com/weibaohui/skills-management) - Skill marketplace and manager: manage skills from all local coding agents (10+ executors, incl. Claude Code and Codex) in one page and import them into the DSH skill library; built-in market of 6600+ skills, per-skill token-overhead stats, and model visibility control.
 - [weibaohui/dsh-fde-tools](https://github.com/weibaohui/dsh-fde-tools) - FDE toolbox bundle: installing this one plugin pulls in a curated set of common dsh plugins (Git server, WebDAV mount, knowledge base, scheduled tasks, auto-resume, UI tweaks, auto-retrospection, file manager, smart titles, task board, plugin market, context trimmer, IM bridge, sidebar enhancements), with a panel showing install status and one-click gap-filling.
-
+- [dsh-autocompose](https://github.com/Han-1413141/dsh-autocompose) - Find and compose DSH plugins from a task description, then open an independent chat environment or install the plan into the current profile.
+- [dsh-pnpm-build-control](https://github.com/Han-1413141/dsh-pnpm-build-control) - Control pnpm build-script approval across DSH profiles from Add Plugin, and repair same-Git-URL updates on DSH 0.2.0-rc.2.
 
 ## Runtime & Operations
 
@@ -857,6 +860,9 @@ Management panel: Settings → Plugins.
 - [dsh-circuit-breaker](https://github.com/pricklywiggles/dsh-circuit-breaker) - Deterministic loop guard: denies a tool call repeated with identical arguments and caps per-agent calls, in code outside the model; incident log lets a parent interrupt a stuck subagent.
 - [runcat-tommy/dsh-windows-c-cleanup](https://github.com/runcat-tommy/dsh-windows-c-cleanup) - Windows system-drive (C:) cleanup: rule-based scan, five-tier safety grading, a staging area with a rollback ledger, UAC elevation, and migration to another drive — a model tool plus a Web GUI panel.
 - [butler-skeleton](https://github.com/yangfei222666-9/xiaojiu-ops-brain/tree/main/reference/butler-skeleton) - Dependency-free reference skeleton for evidence-first personal AI ops: plain-text templates (todo, hooks, receipts, lessons, rules, memory), a hash-chained heartbeat script, a receipt and ledger validator, and 19 contract tests.
+- [dsh-compat-guardian](https://github.com/Han-1413141/dsh-compat-guardian) - Detect DSH plugin conflicts and loading failures, quarantine affected bundles and recover them, with offline startup rescue.
+- [dsh-wsl-native](https://github.com/Han-1413141/dsh-wsl-native) - Use Windows and native Linux DSH sessions in one Windows window, with WSL environment switching and bidirectional system tools.
+
 ## Domain & Specialist Skills
 
 - [dsh-mimir](https://github.com/1692775560/dsh-Mimir-Academic-research) - Research-lifecycle workbench (7-view web panel): arXiv search/import/subscriptions with AI relevance scoring, Zotero import, experiment tracking with SSH/GPU remote jobs, LaTeX write-compile-snapshot studio with 11 venue templates, figure management, and one-click group-meeting PPT decks with real paper figures; 10 bundled research skills (npm: `dsh-mimir`).
