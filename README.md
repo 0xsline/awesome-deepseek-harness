@@ -904,6 +904,7 @@ Management panel: Settings → Plugins.
 - [dsh-data-quality](https://github.com/PerryLink/dsh-data-quality) - Deterministic data profiling, cleaning, and verification: data_profile / data_clean / data_verify tools plus a frozen cross-plugin verifyCitations citation-checking contract, with durable reports in a storage domain.
 - [maxmilian/dsh-odoo](https://github.com/maxmilian/dsh-odoo) - Read-only Odoo tools over JSON-RPC: server info, model field introspection, and a restricted search_read on an allow list of models. A draft-create tool is registered only when allowWrite is enabled.
 - [dsh-paperdesk](https://github.com/shiyan688/dsh-paperdesk) - Paper library and reading workbench: arXiv search, a local plain-file library (metadata / PDF / extracted full text), and three-level reading notes (overview / understanding / critique) kept as markdown beside the PDFs; seven model tools plus a web panel.
+- [pricewin-dsh](https://github.com/PriceDotWin/pricewin-dsh) - Live hotel and flight prices in USD across Booking.com, Agoda, Trip.com and Traveloka: bundles the remote PriceWin MCP server (no account or API key) and a travel-search skill.
 ## Tools & Utilities
 - [dsh-tray](https://github.com/liulifu/dsh-tray) - Windows system-tray guardian for DeepSeek Harness: launch/stop/restart the dsh service, multi-profile port bindings, snapshot-based quick recovery, plugin enable/disable, SQLite version ledger, and a client sentinel that detects a plugin failing to load, disables it and restores DSH.
 
