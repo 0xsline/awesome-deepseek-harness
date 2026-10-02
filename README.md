@@ -326,6 +326,7 @@ Management panel: Settings → Plugins.
 
 - [weibaohui/dsh-settings-ui](https://github.com/weibaohui/dsh-settings-ui) - Customizes the DSH native settings window: preset or custom sizes, fullscreen, background transparency, and theme, solid-color, or image backgrounds, with a floating ball for quick access; saved in the local browser.
 - [rex178178/dsh-turnbar](https://github.com/rex178178/dsh-turnbar) - Video-style turn navigation for the DSH Web UI: a full-map progress bar (150+ turns aggregate into ≤40 groups), hover preview cards (first lines, tool calls, file edits, token usage), drag scrub, ⌘K search across the whole session including history beyond the loaded window, ⌘↑/⌘↓ stepping and Esc-return.
+- [dsh-tool-indent](https://github.com/Asheep233/dsh-tool-indent) - Indents every tool call in the Web conversation, with a settings page for tool/thinking summary indent, dimming, and line spacing.
 
 ## Dashboards & Session UX
 
