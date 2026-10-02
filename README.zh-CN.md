@@ -326,6 +326,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [weibaohui/dsh-settings-ui](https://github.com/weibaohui/dsh-settings-ui) - 设置界面自定义：调整原生设置窗口大小（全屏/预置/自定义宽高）、背景透明度与背景（主题/颜色/图片），悬浮球即开即调，存本机浏览器。
 - [rex178178/dsh-turnbar](https://github.com/rex178178/dsh-turnbar) - DSH Web 的视频式回合导航：全览进度条（150+ 回合自动聚合为 ≤40 组）、悬停预览卡（首行内容/工具调用/文件改动/token 用量）、拖拽擦洗、⌘K 全会话搜索（含已加载窗口之外的历史）、⌘↑/⌘↓ 逐步跳转与 Esc 返回。
+- [dsh-tool-indent](https://github.com/Asheep233/dsh-tool-indent) - 给会话里所有 Tool 调用加缩进，并附一页设置调整 Tool/思考摘要的缩进、灰度与行间距。
 
 ## Dashboards & Session UX
 
