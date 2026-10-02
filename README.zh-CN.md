@@ -326,6 +326,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [weibaohui/dsh-settings-ui](https://github.com/weibaohui/dsh-settings-ui) - 设置界面自定义：调整原生设置窗口大小（全屏/预置/自定义宽高）、背景透明度与背景（主题/颜色/图片），悬浮球即开即调，存本机浏览器。
 - [rex178178/dsh-turnbar](https://github.com/rex178178/dsh-turnbar) - DSH Web 的视频式回合导航：全览进度条（150+ 回合自动聚合为 ≤40 组）、悬停预览卡（首行内容/工具调用/文件改动/token 用量）、拖拽擦洗、⌘K 全会话搜索（含已加载窗口之外的历史）、⌘↑/⌘↓ 逐步跳转与 Esc 返回。
+- [dsh-ui-hub](https://github.com/Han-1413141/dsh-ui-hub) - 搜索、显示、隐藏、移动、缩放和排布 DSH Desktop 与 Web 中的插件控件，支持布局备份、恢复与撤销。
 
 ## Dashboards & Session UX
 
@@ -483,6 +484,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [JohnXu22786/browser-automation](https://github.com/JohnXu22786/browser-automation) - Web Bridge：面向 dsh 的浏览器自动化 MCP 服务器——真实浏览器导航、点击、填表、截图、JS 执行，由无障碍树快照驱动。
 - [JohnXu22786/computer-control](https://github.com/JohnXu22786/computer-control) - 面向 dsh 的桌面控制：屏幕捕获、指针/键盘注入、无障碍树语义操作，紧急停止、允许/拒绝规则、确认流程与空闲待机。
 - [harness-unity-bridge](https://github.com/WarrenMondeville/agents-unity-bridge) - 基于文件协议的桥接器：让 DeepSeek Harness 控制 Unity Editor——运行 EditMode/PlayMode 测试、编译脚本、刷新资源、读取控制台日志、控制 Play Mode 与构建——由确定性 Python CLI、Unity UPM 包与可安装的 DSH 技能（`unity-bridge`）组成。
+- [dsh-codex-computer-use](https://github.com/Han-1413141/dsh-codex-computer-use) - 让 DSH 当前模型通过已安装的 Codex Computer Use 运行时读取和操作 Windows 应用，并保留每个会话的应用授权。
 
 ## Models & Inference
 
@@ -600,7 +602,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [weibaohui/dsh-git-server](https://github.com/weibaohui/dsh-git-server) - Git 服务器：内嵌 ts-gogs（Gogs 的 TypeScript 平替），独立端口跑完整 Git 服务（HTTP clone/push、网页端、issue/PR/wiki），可复用 user-management 的用户名密码，设置页一键启停。
 - [weibaohui/dsh-sync](https://github.com/weibaohui/dsh-sync) - 多机同步：让多台机器上的 dsh 通过一个私有 GitCode 仓库保持一致——技能、会话、设置、插件清单四类内容各有独立开关；变更走分支 → PR → 合并，推送前自动回填远端新增防误删，支持 AI 智能对齐（语义合并双方改动）与一键解决冲突；强制私有仓库，pull 不覆盖本地改动。
 - [huuthuan-nguyen/dsh-knowcode](https://github.com/huuthuan-nguyen/dsh-knowcode) - 基于内嵌 FalkorDB 的代码图谱与知识库：AST 符号、调用链追溯、重构影响面、受影响测试发现、克隆检测、跨语言移植契约与规格到代码的可追溯性。
-
+- [dsh-visual-edit](https://github.com/Han-1413141/dsh-visual-edit) - 在 DSH 预览中点选元素、画箭头或框选区域，将修改意见加入对话，并查看更新前后的截图对比。
 
 ## Security & Governance
 
@@ -805,7 +807,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [weibaohui/skills-management](https://github.com/weibaohui/skills-management) - 技能市场：一个页面管理本机所有 coding agent 的技能，一键收编进 DSH 用户库；内置 6600+ 技能市场，支持注入开销（≈token）统计与模型可见性治理。
 - [weibaohui/dsh-fde-tools](https://github.com/weibaohui/dsh-fde-tools) - FDE 工具箱全家桶：安装一个插件带上一批常用 dsh 插件（代码仓库 / 挂载盘 / 知识库 / 定时任务 / 自动续跑 / 界面微调 / 自动复盘 / 文件管理 / 智能标题 / 任务看板 / 插件市场 / 上下文 / IM 接入 / 侧栏增强），面板看状态、一键补装。
-
+- [dsh-autocompose](https://github.com/Han-1413141/dsh-autocompose) - 根据任务查找并组合 DSH 插件，打开可继续对话的独立环境，或将方案中的插件安装到当前配置。
+- [dsh-pnpm-build-control](https://github.com/Han-1413141/dsh-pnpm-build-control) - 在“添加插件”中统一控制各 DSH 配置的 pnpm 构建脚本审批，并修复 DSH 0.2.0-rc.2 的同一 Git 地址更新问题。
 
 ## Runtime & Operations
 
@@ -855,6 +858,9 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-circuit-breaker](https://github.com/pricklywiggles/dsh-circuit-breaker) - 确定性循环保护：拒绝以相同参数重复的工具调用，并限制单个 agent 的调用总数，由模型之外的代码强制执行；事件日志可让父 agent 中断卡住的子 agent。
 - [runcat-tommy/dsh-windows-c-cleanup](https://github.com/runcat-tommy/dsh-windows-c-cleanup) - Windows 系统盘（C 盘）清理：按规则库扫描、五级安全分级、带台账可回滚的暂存区、UAC 提权与迁移到其他盘 —— 既有模型工具，也有 Web 面板。
 - [butler-skeleton](https://github.com/yangfei222666-9/xiaojiu-ops-brain/tree/main/reference/butler-skeleton) - 证据优先的个人 AI 运维参考骨架：纯文本模板（todo / hooks / receipts / lessons / rules / memory）、哈希链心跳脚本、回执与账本校验器，含 19 个契约测试。
+- [dsh-compat-guardian](https://github.com/Han-1413141/dsh-compat-guardian) - 检查 DSH 插件冲突与加载故障，隔离和恢复受影响的插件，并在宿主无法启动时提供离线修复。
+- [dsh-wsl-native](https://github.com/Han-1413141/dsh-wsl-native) - 在同一个 Windows 窗口中使用 Windows 与原生 Linux DSH 会话，支持 WSL 环境切换和双向系统操作。
+
 ## Domain & Specialist Skills
 
 - [dsh-mimir](https://github.com/1692775560/dsh-Mimir-Academic-research) - 科研全周期工作台（七视图 Web 面板）：arXiv 搜索/导入/订阅 + AI 相关度评分、Zotero 导入、实验记录与 SSH/GPU 远程作业、LaTeX 边改边编译工作室（11 种顶会模板+快照回滚）、图表统一管理、一键生成带论文原图的组会 PPT；内置 10 个科研 skills（npm：`dsh-mimir`）。
