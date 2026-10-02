@@ -905,6 +905,8 @@ Management panel: Settings → Plugins.
 - [maxmilian/dsh-odoo](https://github.com/maxmilian/dsh-odoo) - Read-only Odoo tools over JSON-RPC: server info, model field introspection, and a restricted search_read on an allow list of models. A draft-create tool is registered only when allowWrite is enabled.
 - [dsh-paperdesk](https://github.com/shiyan688/dsh-paperdesk) - Paper library and reading workbench: arXiv search, a local plain-file library (metadata / PDF / extracted full text), and three-level reading notes (overview / understanding / critique) kept as markdown beside the PDFs; seven model tools plus a web panel.
 ## Tools & Utilities
+- [dsh-plugin-codemode](https://github.com/Yum-wu/dsh-plugin-codemode) - Pi-style Code Mode for DeepSeek Harness: Programmatic Tool Calling in an isolated V8/WASM sandbox, slashing multi-turn ReAct loops into a single JS orchestration script (tested 99.7% token reduction & 19× speedup).
+- [dsh-jev-preset](https://github.com/Yum-wu/dsh-jev-preset) - JEV (Judgment-Execution-Verification) Adaptive Cross-Verification & Quantitative Assertion preset bundle for DSH: deterministic execution guards with 18 quantitative assertions and 3-path sampling.
 - [dsh-tray](https://github.com/liulifu/dsh-tray) - Windows system-tray guardian for DeepSeek Harness: launch/stop/restart the dsh service, multi-profile port bindings, snapshot-based quick recovery, plugin enable/disable, SQLite version ledger, and a client sentinel that detects a plugin failing to load, disables it and restores DSH.
 
 - [zilliztech/dsh-milvus](https://github.com/zilliztech/dsh-milvus) - Read-only DSH Web plugin for inspecting and searching Milvus or Zilliz Cloud collections from chat, including scalar, BM25, dense, and hybrid queries.
