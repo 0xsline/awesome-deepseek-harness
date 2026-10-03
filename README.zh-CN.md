@@ -849,6 +849,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-autotier](https://github.com/PerryLink/dsh-autotier) - DeepSeek Harness 的强/廉模型分级自动路由：意图门控落档、plan 模式交接（强模型规划、廉价模型执行）、确定性高风险防护、带 TTL 兼底的失败升级、/tier 命令与分级状态工具。
 - [ClawMetry](https://github.com/vivekchand/clawmetry) - 本地零配置仪表盘：读取 dsh 会话日志，展示会话记录、token 用量、成本与工具调用。
 - [Zn-Dk/dsh-session-repair](https://github.com/Zn-Dk/dsh-session-repair) - 诊断并安全修复损坏的 DSH 会话历史：raw zstd/JSONL 工件校验（header、seq、tool-call ID、turn/step 闭合）、空 tool-call ID 链的确定性修复、单槽 pre-repair 备份与恢复、审计记录。
+- [dsh-rehearsal](https://github.com/wuwaka/dsh-rehearsal) - DeepSeek Harness 升级预演：只读预检插件 peer 图、patch 叠层与锁文件冲突；无键预演把候选版本装进私有 npm 前缀与影子 DSH_HOME，对会话副本回放 v0→v4 迁移，并验证迁移后的会话仍能写回。
 - [JohnXu22786/hooks-adapter](https://github.com/JohnXu22786/hooks-adapter) - 通用 hooks 兼容层：在 dsh 上运行 Claude Code / Codex / opencode 配置中声明的 hooks。
 - [maxmilian/dsh-grafana-query](https://github.com/maxmilian/dsh-grafana-query) - 面向 Grafana 的只读工具，经数据源代理：实例健康、数据源列表、instant 与 range PromQL 查询、当前告警状态与已配置的告警规则。
 - [maxmilian/dsh-sentry](https://github.com/maxmilian/dsh-sentry) - 面向 Sentry 的只读工具：项目列表、议题搜索与详情，以及最新或指定 event 的裁剪堆栈——局部变量、请求数据与疑似机密的 tag 会被移除。
