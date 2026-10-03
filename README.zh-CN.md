@@ -267,6 +267,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [YEYEYEYESHIFU/dsh-split-screen](https://github.com/YEYEYEYESHIFU/dsh-split-screen) - 分屏工作区：多个会话并排聊天，面板观感与原生对话完全一致，支持 Alt+T 切换紧凑 TUI 输入模式与 Alt+Shift+方向键面板焦点快捷键，明暗主题适配。
 - [fengb3/dsh-theme-macintosh](https://github.com/fengb3/dsh-theme-macintosh) - 经典麦金塔 System 7 像素风主题：桌面网点画布、Finder 侧栏、黑白按钮与弹窗，深浅色随官方外观切换。
 - [dsh-view-manager](https://github.com/runcat-tommy/dsh-view-manager) - 管理 DeepSeek Harness Web GUI 会话页头的视图标签（对话/轨迹）：启停、隐藏、排序与重命名，支持中英文跟随界面语言，并带 npm 更新提醒。
+- [sayho-pm/dsh-locale-pack](https://github.com/sayho-pm/dsh-locale-pack) - 为 DeepSeek Harness 桌面应用注册 26 种界面语言，每种语言附带词典，提交前对字符串做检查。
 - [dsh-history-question-nav](https://github.com/TropicWiden/dsh-history-question-nav) - 右侧问题面板列出当前会话的用户提问，点击即可定位对应回答。
 - [dsh-chat-timeline-plus](https://github.com/NIU-001-LIU/dsh-chat-timeline-plus) - 消息时间线导航轨：悬停即弹出问答预览卡（问题 + 回答摘要），支持面板钉住常驻、按天分组与重点书签。
 - [dsh-scenery-background](https://github.com/soslowsnail/dsh-scenery-background) - 山海主题 Web UI 背景轮换插件：支持每日一图与循环轮播，内置 5 张离线 SVG 场景、可选 Unsplash 摄影图、毛玻璃面板和悬浮控制。
