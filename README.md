@@ -743,6 +743,7 @@ Management panel: Settings → Plugins.
 - [weibaohui/dsh-gaokao](https://github.com/weibaohui/dsh-gaokao) - Gaokao countdown blackboard: desktop blackboard widget counting down days to the gaokao (double-click to collapse into a slim bar), with random knowledge-card quizzes while the agent works; open Markdown knowledge-card framework, drop .md files under subject/category folders to auto-load.
 - [weibaohui/dsh-fireworks](https://github.com/weibaohui/dsh-fireworks) - Fireworks celebration engine: floats fireworks above the chat window while the agent codes; welcome, per-turn, tool-spark, milestone, finish and failure events each draw from their own fireworks card group with random variants, and token usage decides firework size, height and splendour.
 - [weibaohui/dsh-kite](https://github.com/weibaohui/dsh-kite) - Animated kite that responds to agent activity, with configurable kite frames, patterns and colors, plus user-supplied image textures.
+- [weibaohui/dsh-ambient](https://github.com/weibaohui/dsh-ambient) - White noise player: lays a layer of background sound (rain, streams, campfire, café…) while AI codes, helping you enter flow, stay focused and think efficiently, so you write code fast and well. Supports multiple playback modes (sequential / shuffle / single-loop / intermittent) and AI automatic background music download.
 
 
 ## Plugin Ecosystem & Development
