@@ -411,6 +411,7 @@ Management panel: Settings → Plugins.
 - [wjingshan/dsh-cost-gauge](https://github.com/wjingshan/dsh-cost-gauge) - Peak/off-peak billing cost dial for the DSH Web GUI: session spend and account balance computed at the official rates, a low-balance alarm, drag-to-resize and a minimized status-lamp mode.
 - [weibaohui/dsh-dashboard](https://github.com/weibaohui/dsh-dashboard) - Usage dashboard: offline-scans session logs to chart daily/weekly/monthly tokens, estimated costs, model/tool/skill/command leaderboards, output speed, working hours and quality metrics; gridstack+ECharts cards are drag-and-drop composable, with custom formulas and AI arrangement (prompt round-trip import).
 - [olimc2016/dsh-token-meter-panel](https://github.com/olimc2016/dsh-token-meter-panel) - Sidebar panel for token usage and cost: today's spend, budget progress, 7/30-day trends, cost breakdown, cache-hit savings, and per-session breakdown.
+- [dsh-maze](https://github.com/lamost423/dsh-maze) - Execution maze for agent sessions: main path, detours and backtracks on one timeline, per-step data tracks (tools, tokens, context pressure), deterministic analysis (outcome evidence, behavior signals) and multi-session comparison.
 ## IDE & Clients
 
 - [Minke](https://github.com/lencx/Minke) - Desktop agent workspace for DeepSeek Harness on macOS, Windows, and Linux, with shared browser control, integrated files and terminals, remote access, and local model management.
