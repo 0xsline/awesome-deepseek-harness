@@ -486,6 +486,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Models & Inference
 
+- [dsh-zcode-coding-plan](https://github.com/yuyang2230/dsh-zcode-coding-plan) - 把 GLM Coding Plan 编码任务派给 ZCode 官方 CLI：走 ZCode 渠道享 1.5 倍套餐额度，原生 Agent 能力（文件/Bash/MCP）、`resume` 多轮续接、上下文缓存，并有余量闸门做到「套餐够用才自动派活」。
 - [dsh-zcode-cli-proxy](https://github.com/kyle123740/dsh-zcode-cli-proxy) - 将 ZCode CLI 常驻 app-server 接入 DeepSeek Harness，使用现有 Start Plan 登录支持 GLM 流式输出、图片输入和会话复用；需要安装 ZCode 客户端。
 - [dsh-vertex-gemini](https://github.com/mn288/dsh-vertex-gemini) - 通过 Google Cloud Vertex AI 为 DeepSeek Harness 接入 Gemini，支持应用默认凭据（ADC）、流式响应和工具调用间的思考签名回传。
 - [dsh-agy-link](https://github.com/amlyczz/dsh-agy-link) - Google Antigravity (agy CLI) 模型接入：无 API Key 使用 Gemini/Claude/GPT-OSS 订阅模型，支持流式对话、原生工具卡片与 Web 界面 Google OAuth 登录。
