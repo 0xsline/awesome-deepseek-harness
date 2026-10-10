@@ -811,7 +811,7 @@ Management panel: Settings → Plugins.
 - [weibaohui/skills-management](https://github.com/weibaohui/skills-management) - Skill marketplace and manager: manage skills from all local coding agents (10+ executors, incl. Claude Code and Codex) in one page and import them into the DSH skill library; built-in market of 6600+ skills, per-skill token-overhead stats, and model visibility control.
 - [weibaohui/dsh-fde-tools](https://github.com/weibaohui/dsh-fde-tools) - FDE toolbox bundle: installing this one plugin pulls in a curated set of common dsh plugins (Git server, WebDAV mount, knowledge base, scheduled tasks, auto-resume, UI tweaks, auto-retrospection, file manager, smart titles, task board, plugin market, context trimmer, IM bridge, sidebar enhancements), with a panel showing install status and one-click gap-filling.
 - [dsh-autocompose](https://github.com/Han-1413141/dsh-autocompose) - Find and compose DSH plugins from a task description, then open an independent chat environment or install the plan into the current profile.
-- [dsh-pnpm-build-control](https://github.com/Han-1413141/dsh-pnpm-build-control) - Control pnpm build-script approval across DSH profiles from Add Plugin, and repair same-Git-URL updates on DSH 0.2.0-rc.2.
+- [dsh-pnpm-build-control](https://github.com/Han-1413141/dsh-pnpm-build-control) - Manage pnpm build-script approval across all DSH profiles, including an option to allow every dependency build script, and repair same-Git-URL updates on DSH 0.2.0-rc.2.
 
 ## Runtime & Operations
 
@@ -861,7 +861,7 @@ Management panel: Settings → Plugins.
 - [runcat-tommy/dsh-windows-c-cleanup](https://github.com/runcat-tommy/dsh-windows-c-cleanup) - Windows system-drive (C:) cleanup: rule-based scan, five-tier safety grading, a staging area with a rollback ledger, UAC elevation, and migration to another drive — a model tool plus a Web GUI panel.
 - [butler-skeleton](https://github.com/yangfei222666-9/xiaojiu-ops-brain/tree/main/reference/butler-skeleton) - Dependency-free reference skeleton for evidence-first personal AI ops: plain-text templates (todo, hooks, receipts, lessons, rules, memory), a hash-chained heartbeat script, a receipt and ledger validator, and 19 contract tests.
 - [dsh-compat-guardian](https://github.com/Han-1413141/dsh-compat-guardian) - Detect DSH plugin conflicts and loading failures, quarantine affected bundles and recover them, with offline startup rescue.
-- [dsh-wsl-native](https://github.com/Han-1413141/dsh-wsl-native) - Use Windows and native Linux DSH sessions in one Windows window, with WSL environment switching and bidirectional system tools.
+- [dsh-wsl-native](https://github.com/Han-1413141/dsh-wsl-native) - Use Windows and native Linux DSH sessions in one Windows window, with environment switching and bidirectional system tools; requires WSL 2 and Node.js on both systems.
 
 ## Domain & Specialist Skills
 

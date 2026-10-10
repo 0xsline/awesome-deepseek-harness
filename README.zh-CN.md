@@ -808,7 +808,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [weibaohui/skills-management](https://github.com/weibaohui/skills-management) - 技能市场：一个页面管理本机所有 coding agent 的技能，一键收编进 DSH 用户库；内置 6600+ 技能市场，支持注入开销（≈token）统计与模型可见性治理。
 - [weibaohui/dsh-fde-tools](https://github.com/weibaohui/dsh-fde-tools) - FDE 工具箱全家桶：安装一个插件带上一批常用 dsh 插件（代码仓库 / 挂载盘 / 知识库 / 定时任务 / 自动续跑 / 界面微调 / 自动复盘 / 文件管理 / 智能标题 / 任务看板 / 插件市场 / 上下文 / IM 接入 / 侧栏增强），面板看状态、一键补装。
 - [dsh-autocompose](https://github.com/Han-1413141/dsh-autocompose) - 根据任务查找并组合 DSH 插件，打开可继续对话的独立环境，或将方案中的插件安装到当前配置。
-- [dsh-pnpm-build-control](https://github.com/Han-1413141/dsh-pnpm-build-control) - 在“添加插件”中统一控制各 DSH 配置的 pnpm 构建脚本审批，并修复 DSH 0.2.0-rc.2 的同一 Git 地址更新问题。
+- [dsh-pnpm-build-control](https://github.com/Han-1413141/dsh-pnpm-build-control) - 统一管理所有 DSH 配置的 pnpm 构建脚本审批，包含放行全部依赖构建脚本的选项，并修复 DSH 0.2.0-rc.2 的同一 Git 地址更新问题。
 
 ## Runtime & Operations
 
@@ -859,7 +859,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [runcat-tommy/dsh-windows-c-cleanup](https://github.com/runcat-tommy/dsh-windows-c-cleanup) - Windows 系统盘（C 盘）清理：按规则库扫描、五级安全分级、带台账可回滚的暂存区、UAC 提权与迁移到其他盘 —— 既有模型工具，也有 Web 面板。
 - [butler-skeleton](https://github.com/yangfei222666-9/xiaojiu-ops-brain/tree/main/reference/butler-skeleton) - 证据优先的个人 AI 运维参考骨架：纯文本模板（todo / hooks / receipts / lessons / rules / memory）、哈希链心跳脚本、回执与账本校验器，含 19 个契约测试。
 - [dsh-compat-guardian](https://github.com/Han-1413141/dsh-compat-guardian) - 检查 DSH 插件冲突与加载故障，隔离和恢复受影响的插件，并在宿主无法启动时提供离线修复。
-- [dsh-wsl-native](https://github.com/Han-1413141/dsh-wsl-native) - 在同一个 Windows 窗口中使用 Windows 与原生 Linux DSH 会话，支持 WSL 环境切换和双向系统操作。
+- [dsh-wsl-native](https://github.com/Han-1413141/dsh-wsl-native) - 在同一个 Windows 窗口中使用 Windows 与原生 Linux DSH 会话，支持环境切换和双向系统操作；需要 WSL 2 及两端的 Node.js。
 
 ## Domain & Specialist Skills
 
