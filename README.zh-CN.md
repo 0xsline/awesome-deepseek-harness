@@ -136,6 +136,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [weibaohui/dsh-process](https://github.com/weibaohui/dsh-process) - 工艺管理：把 ntd 的「工艺」（多阶段·多环节 agent 工作流模板）接进 dsh web——浏览/编辑/校验/导入导出/AI 生成工艺，内置库只读、我的库可写，文件改动实时同步；agent 可通过 process_* 工具读工艺库、按工艺分阶段推进。
 
 - [Awoodwhale/dsh-agent-persona](https://github.com/Awoodwhale/dsh-agent-persona) - 按工作区或会话分发 system prompt 人设：一条人设可覆盖多个工作区目录与会话，支持完全一致 / 前缀 / 包含 / 正则，越具体越优先，可标一条默认人设兜底；在设置页与对话页「人设」Tab 里管理，改完下一条消息生效。
+- [weibaohui/dsh-thinktank](https://github.com/weibaohui/dsh-thinktank) - 使用选定的思维模型并行分析问题，将共识、分歧、盲区和行动清单汇总为报告；支持自动分析与提示词往返导入。
 - [dsh-zh-thinking](https://github.com/yingjian666/dsh-zh-thinking) - 在系统提示中加入简体中文规划与工具调用推理指令的宿主插件。
 
 - [kotinder/dsh-roomcomm](https://github.com/kotinder/dsh-roomcomm) - 通过远程 MCP 服务和协作技能，让 DSH 接入 roomcomm.xyz 上的多智能体共享房间。
