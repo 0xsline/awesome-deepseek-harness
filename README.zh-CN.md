@@ -647,6 +647,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [zoahdev/dsh-readme-forge](https://github.com/zoahdev/dsh-readme-forge) - 为插件仓库生成 README.md（package.json + cordis.patch.yml + 源码布局，CLI + `readme_forge` 工具）。
 - [stacktree-dsh](https://github.com/stevysmith/stacktree-dsh) - 连接 Stacktree MCP 服务端的 Cordis 覆盖配置（stdio 或 Streamable HTTP）：把生成的 HTML 发布到不可猜测的私有链接，客户无需账号即可打开；支持原地替换以保持链接长期有效，并可用密码或邮箱域名设置访问门槛。
 - [dsh-artifacts](https://github.com/zoahdev/dsh-artifacts) - Claude Artifacts 式渲染：把 Markdown + JSON 变成自包含 HTML 文档/卡片/仪表盘/画廊（CLI + `artifact_render` 工具，零运行时依赖）。
+- [dsh-artifact](https://github.com/Jannchie/dsh-artifact) - 为 DSH 提供 HTML 文档与幻灯片工件，支持侧栏预览、版本历史、就地编辑与 PowerPoint 导出。
 - [folio](https://github.com/nyantused-cpun/folio) - Folio（兰亭）：咨询文档生成引擎（接案 → 记忆 → 方法论 → 交付物 → 凭证）的原生 DSH 插件栈：15 个工具、会话协议事件、L0 防护、Agent 预设；方法论包可替换，DSH 内零密钥起步。
 - [dsh-report-studio](https://github.com/ciceroyang/dsh-report-studio) - 把 DeepSeek Harness 会话一键变成工作日报/周报/交接文档/公众号文章，附可验证凭据；支持跨会话聚合周报与飞书/Notion 发布。
 - [dsh-trajectory](https://github.com/ciceroyang/dsh-trajectory) - 把 DeepSeek Harness 会话日志渲染成可分享的自包含 HTML 轨迹文档（回合、工具调用、Token 账本），附 SHA-256 审计戳。
