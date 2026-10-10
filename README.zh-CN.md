@@ -902,6 +902,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-data-quality](https://github.com/PerryLink/dsh-data-quality) - 确定性的数据画像、清洗与校验：data_profile / data_clean / data_verify 工具，外加冻结的跨插件 verifyCitations 引用核验契约，报告持久化到存储域。
 - [maxmilian/dsh-odoo](https://github.com/maxmilian/dsh-odoo) - 经 JSON-RPC 的 Odoo 只读工具：服务器信息、模型字段自省，以及白名单模型上的受限 search_read。草稿创建工具需显式开启 allowWrite 才会注册。
 - [dsh-paperdesk](https://github.com/shiyan688/dsh-paperdesk) - 论文文库与精读工作台：arXiv 检索、本地纯文件文库（题录 / PDF / 抽取的全文）、三层精读笔记（速览 / 理解 / 批判）以 markdown 与 PDF 放在一起；7 个模型工具 + Web 面板。
+- [siweina/dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) - 中文小说写作工作台：使用随包提供的本地模型生成章节材料、检查文风、整理改稿计划并核查跨章连贯性，也可作为 MCP 服务器使用。
+
 ## Tools & Utilities
 
 - [dsh-tray](https://github.com/liulifu/dsh-tray) - Windows 系统托盘守护工具：启动/停止/重启 DSH 服务，支持多 profile 端口绑定、快照式快速恢复、插件启停、SQLite 版本台账，以及自动发现加载失败插件后禁用并恢复 DSH 的客户端哨兵。
