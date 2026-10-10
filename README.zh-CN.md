@@ -330,6 +330,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [rex178178/dsh-turnbar](https://github.com/rex178178/dsh-turnbar) - DSH Web 的视频式回合导航：全览进度条（150+ 回合自动聚合为 ≤40 组）、悬停预览卡（首行内容/工具调用/文件改动/token 用量）、拖拽擦洗、⌘K 全会话搜索（含已加载窗口之外的历史）、⌘↑/⌘↓ 逐步跳转与 Esc 返回。
 
 ## Dashboards & Session UX
+- [dsh-workspace-mover](https://github.com/PianoPrince/dsh-workspace-mover) - 跨工作区真原位迁移会话：拖拽迁移、批量/分组合并、孤儿救援面板、工作区搬家向导、可还原回收站、字节级备份与逐步回滚加迁移后校验，并提供 dsh-tools Agent 工具（npm: dsh-workspace-mover）。
 
 - [SunshineR04/dsh-session-manager](https://github.com/SunshineR04/dsh-session-manager) - 从设置页与会话菜单恢复归档会话或永久删除会话文件。删除不留备份；界面要求确认，Agent 工具要求显式确认参数，默认拒绝删除运行中的会话。
 - [zoahdev/dsh-timesheet](https://github.com/zoahdev/dsh-timesheet) - 从会话日志做基于 turn 的时间跟踪：按天/项目/供应商/来源汇总、工具调用数、失败率与 TTFT（CLI + `timesheet` 工具）。

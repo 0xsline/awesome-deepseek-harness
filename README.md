@@ -330,6 +330,7 @@ Management panel: Settings → Plugins.
 - [rex178178/dsh-turnbar](https://github.com/rex178178/dsh-turnbar) - Video-style turn navigation for the DSH Web UI: a full-map progress bar (150+ turns aggregate into ≤40 groups), hover preview cards (first lines, tool calls, file edits, token usage), drag scrub, ⌘K search across the whole session including history beyond the loaded window, ⌘↑/⌘↓ stepping and Esc-return.
 
 ## Dashboards & Session UX
+- [dsh-workspace-mover](https://github.com/PianoPrince/dsh-workspace-mover) - True in-place migration of sessions across workspaces: drag-and-drop, bulk/group merge, orphan rescue panel, workspace repoint wizard, recycle bin with restore, byte-level backup with stepwise rollback and post-move verification, plus dsh-tools agent tools (npm: dsh-workspace-mover).
 
 - [zoahdev/dsh-timesheet](https://github.com/zoahdev/dsh-timesheet) - Turn-based time tracking from session logs: per-day/project/provider/source rollups, tool calls, failures, TTFT (CLI + `timesheet` tool).
 - [zoahdev/dsh-replay](https://github.com/zoahdev/dsh-replay) - Time-travel debugger: replay, visualize, and diff a session's full trajectory from `session.jsonl.zstd` (zero deps, Node ≥ 22.19).
