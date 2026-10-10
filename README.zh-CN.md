@@ -93,6 +93,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-plugin-hub](https://github.com/Noob-stupid/dsh-plugin-hub) - DSH 插件管理面板与市场：一键启用/停用、多源市场、静态索引（500+ 插件 / 300 技能）、技能安装/停用、套装一键装配、框架一键升级（在线安装 + 失败自动回滚）。
 - [dsh-gsd-bundle](https://github.com/jaaty/dsh-gsd-bundle) - 以宿主层 Cordis 插件重实现 Git Ship Done（opengsd-core）：用 spec/discuss/plan/execute/verify/ship 阶段循环替换默认 agent 循环。
 - [1420079678-ctrl/agent-body](https://github.com/1420079678-ctrl/agent-body) - 插件协调层：插件声明自身能力，命令无需模型调用即路由到对应插件；工具 schema 按需加载以削减提示词 token；空闲时把运行历史巩固为长期记忆；失败先归因分类再决定是否重试。
+- [dsh-yawn](https://github.com/zhming0/dsh-yawn) - 面向 Web 的常驻 DSH 发行版：在 VM 或 Kubernetes 上部署一次，每个会话都在独立沙箱中运行（Docker、Kubernetes 或 Buildkite）。
 
 ## Agents & Orchestration
 
