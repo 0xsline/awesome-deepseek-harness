@@ -491,6 +491,7 @@ Management panel: Settings → Plugins.
 
 ## Models & Inference
 
+- [dsh-zcode-coding-plan](https://github.com/yuyang2230/dsh-zcode-coding-plan) - Dispatches coding tasks to the official ZCode CLI, with native agent tools, multi-turn resume, context caching and quota-aware routing.
 - [dsh-zcode-cli-proxy](https://github.com/kyle123740/dsh-zcode-cli-proxy) - ZCode CLI app-server relay for DeepSeek Harness, with GLM streaming, image input and session reuse using an existing Start Plan login; requires the ZCode client.
 - [dsh-vertex-gemini](https://github.com/mn288/dsh-vertex-gemini) - Gemini provider for DeepSeek Harness on Google Cloud Vertex AI, with Application Default Credentials, streaming, and thought-signature replay across tool calls.
 - [dsh-agy-link](https://github.com/amlyczz/dsh-agy-link) - Google Antigravity (agy CLI) model provider for DSH: stream Gemini/Claude/GPT-OSS subscriptions, native tool cards, thinking turns, and in-GUI Google OAuth login.
