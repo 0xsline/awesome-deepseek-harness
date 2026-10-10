@@ -562,6 +562,7 @@ Management panel: Settings → Plugins.
 - [dsh-think-ultra](https://github.com/YUEYUEXYS/dsh-think-ultra) - Pins every request to native `max` reasoning effort instead of the `ultra` option, with isolated Flash / Pro / Vision depth presets. Distributed as a build-only artifact: the core is closed and its license forbids reverse-engineering, deobfuscation and repackaging.
 - [Zn-Dk/dsh-zhipu-toolkit](https://github.com/Zn-Dk/dsh-zhipu-toolkit) - Dual-endpoint Zhipu BigModel GLM provider catalog (Coding Plan + ordinary API) with live model discovery, live-tested thinking-tier mapping, and a settings card for keys, endpoints, the default reasoning tier, and local API key support (key stored in the DSH credential store).
 - [dsh-oh-my-claude](https://github.com/lcestou/dsh-oh-my-claude) - Claude Code CLI as a model provider for DSH: runs the logged-in CLI over stream-json at subscription price, with the live model list, per-session resume, permission prompts relayed into the access shield, images, an MCP bridge to dsh tools, and workspaces on remote SSH boxes.
+- [du-yuxuan/OneKey-Models](https://github.com/du-yuxuan/OneKey-Models) - TokenDance gateway integration with OAuth PKCE sign-in, DSH credential-store support, live model discovery, per-model visibility, image generation and multimodal input.
 
 ## Git & Engineering
 
