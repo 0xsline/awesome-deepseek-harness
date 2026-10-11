@@ -141,6 +141,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [kotinder/dsh-roomcomm](https://github.com/kotinder/dsh-roomcomm) - 通过远程 MCP 服务和协作技能，让 DSH 接入 roomcomm.xyz 上的多智能体共享房间。
 
+- [xingzhen199186/dsh-advisor-group](https://github.com/xingzhen199186/dsh-advisor-group) - 一次调用召集多个顾问模型：自动深挖追问、流式回答与复古聊天组卡片。
+
 ## Context & Search
 
 - [zoahdev/dsh-github-intelligence](https://github.com/zoahdev/dsh-github-intelligence) - 只读开发者情报工具：16 大生态（GitHub、GitLab、Gitee、npm、PyPI、crates.io、Docker Hub、Hugging Face、Hacker News、Stack Overflow、Reddit、dev.to、RubyGems、NuGet、Go、ArXiv）统一查询，带 TTL 缓存，无需 API Key。

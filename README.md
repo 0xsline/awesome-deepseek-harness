@@ -142,6 +142,8 @@ Management panel: Settings → Plugins.
 
 - [kotinder/dsh-roomcomm](https://github.com/kotinder/dsh-roomcomm) - Connects DSH to shared multi-agent rooms on roomcomm.xyz through a remote MCP server and a coordination skill.
 
+- [xingzhen199186/dsh-advisor-group](https://github.com/xingzhen199186/dsh-advisor-group) - Consults multiple advisor models in one tool call, with auto-deepen follow-up rounds and a streamed chat card.
+
 ## Context & Search
 
 - [zoahdev/dsh-github-intelligence](https://github.com/zoahdev/dsh-github-intelligence) - Read-only developer-intelligence tools across 16 ecosystems (GitHub, GitLab, Gitee, npm, PyPI, crates.io, Docker Hub, Hugging Face, Hacker News, Stack Overflow, Reddit, dev.to, RubyGems, NuGet, Go, ArXiv) with TTL caching and no API key.
