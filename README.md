@@ -145,6 +145,7 @@ Management panel: Settings → Plugins.
 ## Context & Search
 
 - [zoahdev/dsh-github-intelligence](https://github.com/zoahdev/dsh-github-intelligence) - Read-only developer-intelligence tools across 16 ecosystems (GitHub, GitLab, Gitee, npm, PyPI, crates.io, Docker Hub, Hugging Face, Hacker News, Stack Overflow, Reddit, dev.to, RubyGems, NuGet, Go, ArXiv) with TTL caching and no API key.
+- [youdotcom-oss/dsh-plugin-youcom](https://github.com/youdotcom-oss/dsh-plugin-youcom) - You.com web search and page-fetch providers: live source lists and extracted page text via a configurable API key and endpoint, installable from npm as @youdotcom-oss/dsh-plugin-youcom.
 - [dsh-hacker-news](https://github.com/heartleo/hn-cli/tree/main/plugins/hacker-news) - Live Hacker News feeds, item threads, Algolia search, and user profiles for DeepSeek Harness.
 - [dsh-minimal-first-turn](https://github.com/ZRui-C/dsh-minimal-first-turn) - Minimal-compatible first-turn conditioning for Web root sessions: restricts the prompt and tool catalog to persistent bash and str_replace_editor, then restores the selected preset after the first tool call or reply; includes a persistent composer toggle.
 - [xiehuan123/dsh-deepread](https://github.com/xiehuan123/dsh-deepread) - DeepRead: deep-reading assistant with five modes (quick/deep/knowledge-map/Feynman reading/book), batch comparison, budget preflight, transparent background-job progress, WeChat links, local PDF (pure-JS extractor), optional MD/FreeMind/HTML export.
