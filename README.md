@@ -574,6 +574,7 @@ Management panel: Settings → Plugins.
 - [Zn-Dk/dsh-zhipu-toolkit](https://github.com/Zn-Dk/dsh-zhipu-toolkit) - Dual-endpoint Zhipu BigModel GLM provider catalog (Coding Plan + ordinary API) with live model discovery, live-tested thinking-tier mapping, and a settings card for keys, endpoints, the default reasoning tier, and local API key support (key stored in the DSH credential store).
 - [dsh-oh-my-claude](https://github.com/lcestou/dsh-oh-my-claude) - Claude Code CLI as a model provider for DSH: runs the logged-in CLI over stream-json at subscription price, with the live model list, per-session resume, permission prompts relayed into the access shield, images, an MCP bridge to dsh tools, and workspaces on remote SSH boxes.
 - [du-yuxuan/OneKey-Models](https://github.com/du-yuxuan/OneKey-Models) - TokenDance gateway integration with OAuth PKCE sign-in, DSH credential-store support, live model discovery, per-model visibility, image generation and multimodal input.
+- [dsh-subagent-custom](https://github.com/xingzhen199186/dsh-subagent-custom) - Subagent model control: a Jev classifier labels each turn, and the subagent's own request is rewritten to the provider, model and reasoning effort that label maps to; per-session inherit/auto/manual selection, one prompt per role injected ahead of the task, and a ledger of recent dispatches.
 
 ## Git & Engineering
 

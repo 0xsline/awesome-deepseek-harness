@@ -565,6 +565,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [Zn-Dk/dsh-zhipu-toolkit](https://github.com/Zn-Dk/dsh-zhipu-toolkit) - 智谱 BigModel GLM 双端点模型目录（Coding Plan 与普通 API），实时模型发现、实测思考档位映射，可视化设置卡片管理 Key/端点/默认推理档，本地 API Key 支持存入 DSH 凭证库。
 - [dsh-oh-my-claude](https://github.com/lcestou/dsh-oh-my-claude) - 把已登录的 Claude Code CLI 作为 DSH 的模型提供商：通过 stream-json 驱动、按订阅计费，支持实时模型列表、按会话恢复、权限询问转入访问盾、图片、连接 dsh 工具的 MCP 桥接，以及远程 SSH 主机上的工作区。
 - [du-yuxuan/OneKey-Models](https://github.com/du-yuxuan/OneKey-Models) - 接入 TokenDance 聚合网关，支持 OAuth PKCE 登录、DSH 凭据库存储、实时模型发现、逐模型显隐、生图与多模态输入。
+- [dsh-subagent-custom](https://github.com/xingzhen199186/dsh-subagent-custom) - 子代理模型管控：由 Jev 判定本轮任务类别，再把子代理自身的请求改写为该类别对应的 provider、model 与推理强度；会话内可用继承/自动/手动三种方式指定模型，每个角色可带一条先于任务注入的前置提示词，并记录最近的派发流水。
 
 ## Git & Engineering
 
