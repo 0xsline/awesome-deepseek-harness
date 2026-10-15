@@ -935,6 +935,7 @@ Management panel: Settings → Plugins.
 - [siweina/dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) - Chinese novel-writing workbench with chapter briefs, style checks, revision plans and cross-chapter continuity audits, using a bundled local model; also available as an MCP server.
 - [pricewin-dsh](https://github.com/PriceDotWin/pricewin-dsh) - Live hotel and flight prices in USD across Booking.com, Agoda, Trip.com and Traveloka: bundles the remote PriceWin MCP server (no account or API key) and a travel-search skill.
 ## Tools & Utilities
+- [dsh-system1](https://github.com/exoticknight/dsh-system1) - Typed System One decision service for DeepSeek Harness plugins, with an agent tool for yes/no checks, classification, and scoring.
 - [dsh-tray](https://github.com/liulifu/dsh-tray) - Windows system-tray guardian for DeepSeek Harness: launch/stop/restart the dsh service, multi-profile port bindings, snapshot-based quick recovery, plugin enable/disable, SQLite version ledger, and a client sentinel that detects a plugin failing to load, disables it and restores DSH.
 
 - [zilliztech/dsh-milvus](https://github.com/zilliztech/dsh-milvus) - Read-only DSH Web plugin for inspecting and searching Milvus or Zilliz Cloud collections from chat, including scalar, BM25, dense, and hybrid queries.
