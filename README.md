@@ -337,6 +337,7 @@ Management panel: Settings → Plugins.
 - [dsh-tool-indent](https://github.com/Asheep233/dsh-tool-indent) - Indents every tool call in the Web conversation, with a settings page for tool/thinking summary indent, dimming, and line spacing.
 - [qiweiii/dsh-brand-studio](https://github.com/qiweiii/dsh-brand-studio) - In-app branding panel for the DSH Web and Desktop UI: brand name and badge, local logo and wordmark images with size and rounding, live preview, optional page title, and reset to the official look.
 - [dsh-ui-hub](https://github.com/Han-1413141/dsh-ui-hub) - Search, show, hide, move, resize and arrange plugin controls in DSH Desktop and Web, with layout backup, restore and undo.
+- [dsh-skill-mini-manager](https://github.com/runcat-tommy/dsh-skill-mini-manager) - Minimal skill manager for DeepSeek Harness Web Settings, at the same level as Plugins: list every installed skill with its own summary, source and disk footprint, and remove any of them into a recoverable trash.
 
 
 ## Dashboards & Session UX

@@ -337,6 +337,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-tool-indent](https://github.com/Asheep233/dsh-tool-indent) - 给会话里所有 Tool 调用加缩进，并附一页设置调整 Tool/思考摘要的缩进、灰度与行间距。
 - [qiweiii/dsh-brand-studio](https://github.com/qiweiii/dsh-brand-studio) - DSH 品牌配置面板：修改品牌名称与徽章、选择本地 logo 与字标图片并调整大小和圆角、实时预览、可选自定义页面标题、一键恢复官方外观。
 - [dsh-ui-hub](https://github.com/Han-1413141/dsh-ui-hub) - 搜索、显示、隐藏、移动、缩放和排布 DSH Desktop 与 Web 中的插件控件，支持布局备份、恢复与撤销。
+- [dsh-skill-mini-manager](https://github.com/runcat-tommy/dsh-skill-mini-manager) - DSH Web 设置里与「插件」同级的极简 skill 管理器：列出当前安装的全部 skill 及其自己的简介、来源与占用，并可逐个移除到可恢复的回收站。
 
 ## Dashboards & Session UX
 - [dsh-workspace-mover](https://github.com/PianoPrince/dsh-workspace-mover) - 跨工作区真原位迁移会话：拖拽迁移、批量/分组合并、孤儿救援面板、工作区搬家向导、可还原回收站、字节级备份与逐步回滚加迁移后校验，并提供 dsh-tools Agent 工具（npm: dsh-workspace-mover）。
