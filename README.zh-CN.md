@@ -148,6 +148,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [ymck-x/dsh-session-continuity](https://github.com/ymck-x/dsh-session-continuity) - 新会话开始时注入一条很小的接续指针：上一个会话是谁、工作区有没有交接文档；没有交接文档时复用 DSH 已有的压缩摘要，不调用模型。
 - [zoahdev/dsh-github-intelligence](https://github.com/zoahdev/dsh-github-intelligence) - 只读开发者情报工具：16 大生态（GitHub、GitLab、Gitee、npm、PyPI、crates.io、Docker Hub、Hugging Face、Hacker News、Stack Overflow、Reddit、dev.to、RubyGems、NuGet、Go、ArXiv）统一查询，带 TTL 缓存，无需 API Key。
+- [youdotcom-oss/dsh-plugin-youcom](https://github.com/youdotcom-oss/dsh-plugin-youcom) - 为 DeepSeek Harness 提供 You.com 网页搜索与页面抓取，返回来源列表与提取的页面正文，API Key 与端点可配置。
 - [dsh-hacker-news](https://github.com/heartleo/hn-cli/tree/main/plugins/hacker-news) - DeepSeek Harness 的 Hacker News 工具：实时榜单、帖子评论树、Algolia 搜索和用户资料。
 - [dsh-minimal-first-turn](https://github.com/ZRui-C/dsh-minimal-first-turn) - Web 根会话的首轮精简：将 prompt 和工具目录限制为持久 bash 与 str_replace_editor；首次工具调用或回复后恢复所选预设，带持久 composer 开关。
 - [xiehuan123/dsh-deepread](https://github.com/xiehuan123/dsh-deepread) - DeepRead 精读助手：五种模式（快速/深度/知识地图/费曼读书法/全书），支持批量对比、预算预检与后台任务进度透明，输入支持微信公众号链接、本地 PDF（纯 JS 提取器）与粘贴文本，可选导出 MD / FreeMind / HTML。
