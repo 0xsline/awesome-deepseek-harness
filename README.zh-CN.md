@@ -993,7 +993,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - 独立 CLI：录制模型 provider 流量，之后不联网、按字节回放整段会话；DSH 从配置解析 provider origin、不读 base-URL 环境变量，因此需用 `orca attach --port N`。
 
-- [lcy0121/dsh-plugin-compat-check](https://github.com/lcy0121/dsh-plugin-compat-check) - 插件可用性预检工具：把插件装进一次性 profile 并真实启动，dump 出宿主实际的 API 面（含原型链方法），与插件源码里实际调用的服务和方法逐条比对。
+- [lcy0121/dsh-plugin-compat-check](https://github.com/lcy0121/dsh-plugin-compat-check) - 检查已安装 DSH 插件的兼容性，提供设置面板、插件详情角标、`compat_check` 工具和 agent skill；仓库 CLI 也支持安装前检查，并报告依据和覆盖限制。
 
 ## Related
 
