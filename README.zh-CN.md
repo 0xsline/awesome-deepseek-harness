@@ -142,6 +142,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [kotinder/dsh-roomcomm](https://github.com/kotinder/dsh-roomcomm) - 通过远程 MCP 服务和协作技能，让 DSH 接入 roomcomm.xyz 上的多智能体共享房间。
 
 - [cckyros/goal-acceptance](https://github.com/cckyros/goal-acceptance) - 验收标准完成门禁：开工先锁定可验证标准、按依赖跟踪任务计划、独立 reviewer 确认后才放行完成，另带供循环钩子使用的 check/status 无头 CLI（18 个 MCP 工具）。
+- [xingzhen199186/dsh-advisor-group](https://github.com/xingzhen199186/dsh-advisor-group) - 一次调用召集多个顾问模型：自动深挖追问、流式回答与复古聊天组卡片。
 
 ## Context & Search
 

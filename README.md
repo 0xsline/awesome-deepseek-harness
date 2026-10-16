@@ -143,6 +143,7 @@ Management panel: Settings → Plugins.
 - [kotinder/dsh-roomcomm](https://github.com/kotinder/dsh-roomcomm) - Connects DSH to shared multi-agent rooms on roomcomm.xyz through a remote MCP server and a coordination skill.
 
 - [cckyros/goal-acceptance](https://github.com/cckyros/goal-acceptance) - Acceptance-criteria goal gating: verifiable criteria locked up front, dependency-aware task plans, reviewer-confirmed completion, plus a headless check/status CLI for agent loop hooks (18 MCP tools).
+- [xingzhen199186/dsh-advisor-group](https://github.com/xingzhen199186/dsh-advisor-group) - Consults multiple advisor models in one tool call, with auto-deepen follow-up rounds and a streamed chat card.
 
 ## Context & Search
 
