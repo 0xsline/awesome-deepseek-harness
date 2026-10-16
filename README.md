@@ -341,6 +341,7 @@ Management panel: Settings → Plugins.
 - [qiweiii/dsh-brand-studio](https://github.com/qiweiii/dsh-brand-studio) - In-app branding panel for the DSH Web and Desktop UI: brand name and badge, local logo and wordmark images with size and rounding, live preview, optional page title, and reset to the official look.
 - [dsh-ui-hub](https://github.com/Han-1413141/dsh-ui-hub) - Search, show, hide, move, resize and arrange plugin controls in DSH Desktop and Web, with layout backup, restore and undo.
 - [zhao-guang-ai/dsh-quote-annotate-pro](https://github.com/zhao-guang-ai/dsh-quote-annotate-pro) - Selection quoting and anchored annotations with source-message navigation, turn and role labels in sent quotes, and localStorage persistence; localhost diagnostic requests are enabled by default.
+- [dsh-skill-mini-manager](https://github.com/runcat-tommy/dsh-skill-mini-manager) - Minimal skill manager for DeepSeek Harness Web Settings: lists installed skills with summaries, sources and disk usage, and moves eligible filesystem skills to a recoverable trash while protecting bundled and system skills.
 
 
 ## Dashboards & Session UX
