@@ -887,6 +887,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [butler-skeleton](https://github.com/yangfei222666-9/xiaojiu-ops-brain/tree/main/reference/butler-skeleton) - 证据优先的个人 AI 运维参考骨架：纯文本模板（todo / hooks / receipts / lessons / rules / memory）、哈希链心跳脚本、回执与账本校验器，含 19 个契约测试。
 - [dsh-compat-guardian](https://github.com/Han-1413141/dsh-compat-guardian) - 检查 DSH 插件冲突与加载故障，隔离和恢复受影响的插件，并在宿主无法启动时提供离线修复。
 - [dsh-wsl-native](https://github.com/Han-1413141/dsh-wsl-native) - 在同一个 Windows 窗口中使用 Windows 与原生 Linux DSH 会话，支持环境切换和双向系统操作；需要 WSL 2 及两端的 Node.js。
+- [skyjjgw/dsh-version-guard](https://github.com/skyjjgw/dsh-version-guard) - 记录插件版本与 profile 配置快照，在 DSH 无法启动时通过独立恢复页回退到已知可用配置。
 
 ## Domain & Specialist Skills
 
