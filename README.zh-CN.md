@@ -779,7 +779,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 ## Plugin Ecosystem & Development
 
 - [ymck-x/dsh-plugin-index](https://github.com/ymck-x/dsh-plugin-index) - DSH 内的插件索引：收录 1 万余个按 `package.json` 里 `dsh.bundle` 声明校验过的插件，支持一键安装，另有配套网站。
-- [ouli-1242/dsh-plugin-tool-management](https://github.com/ouli-1242/dsh-plugin-tool-management) - DSH 插件：一个设置面板，统一管理 MCP 服务器、技能、场景、记忆、子智能体人格、AGENTS.md 预设与归档会话——一个场景即可切换整个环境，模型也能帮你驱动这一切。
+- [ouli-1242/dsh-plugin-tool-management](https://github.com/ouli-1242/dsh-plugin-tool-management) - 一个设置面板，统一管理 MCP、技能、记忆、子智能体、提示词和归档会话；可自定义搭配场景，一个场景即可切换整个环境；Agent 也能帮你操作这个插件。
 - [SunQingyuan0/Kabutack](https://github.com/SunQingyuan0/Kabutack) - 基于角色的 DSH 插件 / Skill / MCP 管理器：把能力组合定义为“角色”，在 Web 设置页一键动态装载与切换。
 - [dsh-workbench](https://github.com/staff-os/dsh-workbench) - DSH 企业级工作台：在运行中的会话里统一管理 AI 员工、知识库、技能、MCP 服务器与 DSH 插件。
 - [dsh-plugin-bench](https://github.com/B1lli/dsh-plugin-bench) - 证据化、类型感知的 DSH 插件质量评测：按 artifact 与完整 commit 绑定八维质量区间和证据账本，输出 Markdown/SVG 评分卡；Stars 与身份不计分。
