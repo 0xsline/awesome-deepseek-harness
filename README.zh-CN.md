@@ -938,6 +938,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [pricewin-dsh](https://github.com/PriceDotWin/pricewin-dsh) - 通过 PriceWin 远程 MCP 服务实时比较 Booking.com、Agoda、Trip.com 和 Traveloka 的酒店与机票价格（美元），附带搜索 Skill。
 ## Tools & Utilities
 
+- [dsh-system1](https://github.com/exoticknight/dsh-system1) - 为 DeepSeek Harness 插件提供类型化的 System One 判断服务和智能体工具，支持是非判断、分类和评分。
+
 - [dsh-tray](https://github.com/liulifu/dsh-tray) - Windows 系统托盘守护工具：启动/停止/重启 DSH 服务，支持多 profile 端口绑定、快照式快速恢复、插件启停、SQLite 版本台账，以及自动发现加载失败插件后禁用并恢复 DSH 的客户端哨兵。
 
 - [zilliztech/dsh-milvus](https://github.com/zilliztech/dsh-milvus) - 只读 DSH Web 插件，可在对话中检查和搜索 Milvus 或 Zilliz Cloud Collection，支持标量、BM25、稠密向量与混合查询。
