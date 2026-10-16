@@ -144,6 +144,7 @@ Management panel: Settings → Plugins.
 
 ## Context & Search
 
+- [ymck-x/dsh-session-continuity](https://github.com/ymck-x/dsh-session-continuity) - Injects a small continuity pointer at the start of a new session, naming the previous session and any handoff file, and reuses DSH's own compaction summary when there is no handoff file.
 - [zoahdev/dsh-github-intelligence](https://github.com/zoahdev/dsh-github-intelligence) - Read-only developer-intelligence tools across 16 ecosystems (GitHub, GitLab, Gitee, npm, PyPI, crates.io, Docker Hub, Hugging Face, Hacker News, Stack Overflow, Reddit, dev.to, RubyGems, NuGet, Go, ArXiv) with TTL caching and no API key.
 - [dsh-hacker-news](https://github.com/heartleo/hn-cli/tree/main/plugins/hacker-news) - Live Hacker News feeds, item threads, Algolia search, and user profiles for DeepSeek Harness.
 - [dsh-minimal-first-turn](https://github.com/ZRui-C/dsh-minimal-first-turn) - Minimal-compatible first-turn conditioning for Web root sessions: restricts the prompt and tool catalog to persistent bash and str_replace_editor, then restores the selected preset after the first tool call or reply; includes a persistent composer toggle.
@@ -770,6 +771,7 @@ Management panel: Settings → Plugins.
 
 ## Plugin Ecosystem & Development
 
+- [ymck-x/dsh-plugin-index](https://github.com/ymck-x/dsh-plugin-index) - In-DSH plugin index: lists over 10,000 third-party plugins checked against the `dsh.bundle` manifest in their `package.json`, with one-click install and a companion website.
 - [ouli-1242/dsh-plugin-tool-management](https://github.com/ouli-1242/dsh-plugin-tool-management) - DSH plugin: one settings panel managing MCP servers, skills, scenes, memories, subagent personas, AGENTS.md presets and archived sessions — one scene can switch the environment, and the model can help drive it all too.
 - [SunQingyuan0/Kabutack](https://github.com/SunQingyuan0/Kabutack) - Role-based manager for DSH plugins/Skills/MCP: bundle capabilities into “roles” and hot-switch them from the Web UI.
 - [dsh-workbench](https://github.com/staff-os/dsh-workbench) - Enterprise workbench for DSH: manage AI employees, knowledge bases, skills, MCP servers and DSH plugins from a running session.
@@ -887,6 +889,7 @@ Management panel: Settings → Plugins.
 
 ## Domain & Specialist Skills
 
+- [ymck-x/dsh-skill-starter](https://github.com/ymck-x/dsh-skill-starter) - Skill manager with 6 built-in skills and a 20-skill Chinese engineering pack (requirements grilling, ticketing, TDD, two-axis code review, retro), grouped by the situation you are in; upgrading a pack never overwrites files you edited.
 - [dsh-mimir](https://github.com/1692775560/dsh-Mimir-Academic-research) - Research-lifecycle workbench (7-view web panel): arXiv search/import/subscriptions with AI relevance scoring, Zotero import, experiment tracking with SSH/GPU remote jobs, LaTeX write-compile-snapshot studio with 11 venue templates, figure management, and one-click group-meeting PPT decks with real paper figures; 10 bundled research skills (npm: `dsh-mimir`).
 - [dsh-fund-research](https://github.com/PerryLink/dsh-fund-research) - Deterministic research reports for Chinese public mutual funds: public-source data collection (Tiantian Fund/Eastmoney), pure-function metrics (performance decomposition, holdings penetration, style attribution, manager profile), and versioned reports with a per-number snapshot traceability appendix.
 - [weopenfire-git/dsh-market-quote](https://github.com/weopenfire-git/dsh-market-quote) - A-share / HK / US realtime quotes and historical K-line tool plugin via Tencent's free public source (no API key), read-only.
