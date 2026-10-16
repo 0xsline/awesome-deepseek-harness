@@ -821,6 +821,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-blueprint](https://github.com/taltara/mddl-harness) - Web 客户端的 Blueprint 标签页：读取 harness 实际启动的配置、对运行中的插件树做 lint，并在带标记的托管块内写入 `cordis.patch.yml` 覆盖层，支持快照与一键恢复。若某行引用了 profile 无法加载的包，则拒绝写入——那会导致整个 harness 无法启动，而不只是禁用一行。
 - [LLYlab/DSHEssentialTools](https://github.com/LLYlab/DSHEssentialTools) - 常驻型 DeepSeek Harness 插件：项目运行与代码查看、程序快照、带消息微版本的 VTD 对话树（编辑 / 重试 / 分支），以及 DET 功能管理器与全局插件开关。
 - [dsh-plugin-runcat-inventory](https://github.com/runcat-tommy/dsh-plugin-runcat-inventory) - 逃咪-插件总览（Runcat Plugin Overview）：更好用的 DSH 插件列表 —— 表格视图、状态过滤、启用/停用开关（HMR 热生效）、配置查看/复制、中英双语界面。
+- [runcat-tommy/dsh-mcp-mini-manager](https://github.com/runcat-tommy/dsh-mcp-mini-manager) - MCP 极简管理：与「插件」同级的一页设置，列出运行中 Loader 树里真实存在的 MCP 服务器及其配置摘要、端点与实时状态，并通过 profile 的 `cordis.patch.yml` 成对标记块停用或恢复任一服务器；环境变量值、请求头值与 `!!js` 表达式只以键名或点路径的形式到达页面。
 
 - [duyanta123/dsh-repo-scanner](https://github.com/duyanta123/dsh-repo-scanner) - 只读仓库事实扫描内核：为分析型插件提供可复现的仓库探测、文件索引、模块、依赖、入口点、符号与 Git 变更基线等硬事实（CLI + 库接口 + 技能 runbook）。
 - [duyanta123/dsh-test-insight](https://github.com/duyanta123/dsh-test-insight) - 测试洞察插件：把仓库事实与变更风险转化为有证据支撑的测试计划与隔离、可人工审查的测试草稿。
