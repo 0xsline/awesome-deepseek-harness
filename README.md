@@ -146,6 +146,7 @@ Management panel: Settings → Plugins.
 
 - [cckyros/goal-acceptance](https://github.com/cckyros/goal-acceptance) - Acceptance-criteria goal gating: verifiable criteria locked up front, dependency-aware task plans, reviewer-confirmed completion, plus a headless check/status CLI for agent loop hooks (18 MCP tools).
 - [xingzhen199186/dsh-advisor-group](https://github.com/xingzhen199186/dsh-advisor-group) - Consults multiple advisor models in one tool call, with auto-deepen follow-up rounds and a streamed chat card.
+[mili1360/dsh-proactive](https://github.com/mili1360/dsh-proactive) - Wakes a session when a long background task finishes after the turn has ended, and lets the model schedule its own wake-ups (once, interval, or cron with jitter) under quiet hours and a daily budget.
 
 ## Context & Search
 
@@ -186,6 +187,7 @@ Management panel: Settings → Plugins.
 - [huuthuan-nguyen/dsh-tgrep](https://github.com/huuthuan-nguyen/dsh-tgrep) - Ultra-fast trigram-indexed code search powered by Microsoft tgrep, shadowing the built-in grep tool.
 - [dsh-context-imports](https://github.com/ciskonc/dsh-context-imports) - Claude Code-style `@path` imports for AGENTS.md/CLAUDE.md: recursively expands and injects referenced files into model context at session start, with a six-language settings card.
 - [dsh-sieve](https://github.com/Sev7eEn7/sieve) - Filters tool outputs, prunes stale context and discloses skills on demand for DSH 0.2.1-alpha.1.
+[mili1360/dsh-history-fold](https://github.com/mili1360/dsh-history-fold) - Replaces the oldest span of a session's visible history with one message carrying an extractive index and the path of a lossless local archive, so each request sends fewer tokens.
 
 ## Memory & Knowledge
 
@@ -903,6 +905,7 @@ Management panel: Settings → Plugins.
 - [dsh-compat-guardian](https://github.com/Han-1413141/dsh-compat-guardian) - Detect DSH plugin conflicts and loading failures, quarantine affected bundles and recover them, with offline startup rescue.
 - [dsh-wsl-native](https://github.com/Han-1413141/dsh-wsl-native) - Use Windows and native Linux DSH sessions in one Windows window, with environment switching and bidirectional system tools; requires WSL 2 and Node.js on both systems.
 - [skyjjgw/dsh-version-guard](https://github.com/skyjjgw/dsh-version-guard) - Snapshots plugin versions and profile configuration, with an independent recovery page to restore a known-good configuration when DSH cannot start.
+[mili1360/dsh-session-vacuum](https://github.com/mili1360/dsh-session-vacuum) - Deletes the write-only streaming fragment rows from session logs on disk so a long session loads into fewer objects; the pruned log is checked against the loader contract before the file is replaced, and the previous file is kept as .orig.
 
 ## Domain & Specialist Skills
 

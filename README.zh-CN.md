@@ -145,6 +145,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [cckyros/goal-acceptance](https://github.com/cckyros/goal-acceptance) - 验收标准完成门禁：开工先锁定可验证标准、按依赖跟踪任务计划、独立 reviewer 确认后才放行完成，另带供循环钩子使用的 check/status 无头 CLI（18 个 MCP 工具）。
 - [xingzhen199186/dsh-advisor-group](https://github.com/xingzhen199186/dsh-advisor-group) - 一次调用召集多个顾问模型：自动深挖追问、流式回答与复古聊天组卡片。
+[mili1360/dsh-proactive](https://github.com/mili1360/dsh-proactive) - 在长任务于回合结束之后跑完时唤醒会话，并让模型自己安排唤醒（一次、固定间隔或带抖动的 cron），受静默时段与每日预算限制。
 
 ## Context & Search
 
@@ -185,6 +186,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [huuthuan-nguyen/dsh-tgrep](https://github.com/huuthuan-nguyen/dsh-tgrep) - 基于 Microsoft tgrep 的三元组索引快速代码搜索插件，接管内置 grep 工具。
 - [dsh-context-imports](https://github.com/ciskonc/dsh-context-imports) - 为 AGENTS.md/CLAUDE.md 提供 Claude Code 式 `@路径` 导入：会话启动时递归展开并注入被引用文件，自带六语言设置卡片。
 - [dsh-sieve](https://github.com/Sev7eEn7/sieve) - 为 DSH 0.2.1-alpha.1 过滤工具输出、裁剪陈旧上下文并按需披露技能。
+[mili1360/dsh-history-fold](https://github.com/mili1360/dsh-history-fold) - 把会话可见历史里最老的一段替换成一条消息，消息中带抽取式的一行索引和无损本地归档的路径，使每轮请求携带的 token 变少。
 
 ## Memory & Knowledge
 
@@ -900,6 +902,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-compat-guardian](https://github.com/Han-1413141/dsh-compat-guardian) - 检查 DSH 插件冲突与加载故障，隔离和恢复受影响的插件，并在宿主无法启动时提供离线修复。
 - [dsh-wsl-native](https://github.com/Han-1413141/dsh-wsl-native) - 在同一个 Windows 窗口中使用 Windows 与原生 Linux DSH 会话，支持环境切换和双向系统操作；需要 WSL 2 及两端的 Node.js。
 - [skyjjgw/dsh-version-guard](https://github.com/skyjjgw/dsh-version-guard) - 记录插件版本与 profile 配置快照，在 DSH 无法启动时通过独立恢复页回退到已知可用配置。
+[mili1360/dsh-session-vacuum](https://github.com/mili1360/dsh-session-vacuum) - 在磁盘上删除会话日志中只写不读的流式碎片行，使长会话加载时展开的对象数变少；替换文件前按加载器契约自校验，原文件保留为 .orig。
 
 ## Domain & Specialist Skills
 
