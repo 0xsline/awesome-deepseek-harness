@@ -143,6 +143,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Context & Search
 
+- [ymck-x/dsh-session-continuity](https://github.com/ymck-x/dsh-session-continuity) - 新会话开始时注入一条很小的接续指针：上一个会话是谁、工作区有没有交接文档；没有交接文档时复用 DSH 已有的压缩摘要，不调用模型。
 - [zoahdev/dsh-github-intelligence](https://github.com/zoahdev/dsh-github-intelligence) - 只读开发者情报工具：16 大生态（GitHub、GitLab、Gitee、npm、PyPI、crates.io、Docker Hub、Hugging Face、Hacker News、Stack Overflow、Reddit、dev.to、RubyGems、NuGet、Go、ArXiv）统一查询，带 TTL 缓存，无需 API Key。
 - [dsh-hacker-news](https://github.com/heartleo/hn-cli/tree/main/plugins/hacker-news) - DeepSeek Harness 的 Hacker News 工具：实时榜单、帖子评论树、Algolia 搜索和用户资料。
 - [dsh-minimal-first-turn](https://github.com/ZRui-C/dsh-minimal-first-turn) - Web 根会话的首轮精简：将 prompt 和工具目录限制为持久 bash 与 str_replace_editor；首次工具调用或回复后恢复所选预设，带持久 composer 开关。
@@ -767,6 +768,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Plugin Ecosystem & Development
 
+- [ymck-x/dsh-plugin-index](https://github.com/ymck-x/dsh-plugin-index) - DSH 内的插件索引：收录 1 万余个按 `package.json` 里 `dsh.bundle` 声明校验过的插件，支持一键安装，另有配套网站。
 - [ouli-1242/dsh-plugin-tool-management](https://github.com/ouli-1242/dsh-plugin-tool-management) - DSH 插件：一个设置面板，统一管理 MCP 服务器、技能、场景、记忆、子智能体人格、AGENTS.md 预设与归档会话——一个场景即可切换整个环境，模型也能帮你驱动这一切。
 - [SunQingyuan0/Kabutack](https://github.com/SunQingyuan0/Kabutack) - 基于角色的 DSH 插件 / Skill / MCP 管理器：把能力组合定义为“角色”，在 Web 设置页一键动态装载与切换。
 - [dsh-workbench](https://github.com/staff-os/dsh-workbench) - DSH 企业级工作台：在运行中的会话里统一管理 AI 员工、知识库、技能、MCP 服务器与 DSH 插件。
@@ -884,6 +886,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Domain & Specialist Skills
 
+- [ymck-x/dsh-skill-starter](https://github.com/ymck-x/dsh-skill-starter) - 技能管理器：自带 6 个基础技能与 20 个中文工程流程技能包（拷问需求、拆票、TDD、双轴代码审查、复盘），按「你遇到的问题」分组展示；升级技能包不会覆盖你改过的文件。
 - [dsh-mimir](https://github.com/1692775560/dsh-Mimir-Academic-research) - 科研全周期工作台（七视图 Web 面板）：arXiv 搜索/导入/订阅 + AI 相关度评分、Zotero 导入、实验记录与 SSH/GPU 远程作业、LaTeX 边改边编译工作室（11 种顶会模板+快照回滚）、图表统一管理、一键生成带论文原图的组会 PPT；内置 10 个科研 skills（npm：`dsh-mimir`）。
 - [dsh-fund-research](https://github.com/PerryLink/dsh-fund-research) - 中国公募基金确定性研究报告：公开源数据采集（天天基金/东方财富）、纯函数指标计算（业绩拆解/持仓穿透/风格归因/经理画像），版本化报告附逐数字可回溯源快照的附录。
 - [weopenfire-git/dsh-market-quote](https://github.com/weopenfire-git/dsh-market-quote) - A股/港股/美股实时行情与历史K线查询工具插件，腾讯免费公开源（免 key），只读。
