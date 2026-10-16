@@ -97,6 +97,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Agents & Orchestration
 
+- [dsh-jev-preset](https://github.com/Yum-wu/dsh-jev-preset) - JEV 智能体预设包，通过提示词引导任务分流、交叉验证与量化检查。
 - [dsh-task-supervisor](https://github.com/gosomea/dsh-task-supervisor) - 持久任务督导：计划覆盖审查、DAG 进度、侧栏督导对话与阶段／完成验收；npm 开发预览版。
 - [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) - 多智能体团队编排：舰长式会话搭配可持久化的子代理团队，支持角色分配与任务协同执行。
 - [dsh-todo-guard](https://github.com/a903067276-rgb/dsh-todo-guard) - 重启后仍可恢复的 Todo 面板：通过 projection 预热恢复显示，并以「已验证 / 已拦截 / 未验证」三态核验完成证据，可在设置中切回官方行为。
@@ -956,6 +957,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 ## Tools & Utilities
 
 - [dsh-system1](https://github.com/exoticknight/dsh-system1) - 为 DeepSeek Harness 插件提供类型化的 System One 判断服务和智能体工具，支持是非判断、分类和评分。
+- [dsh-plugin-codemode](https://github.com/Yum-wu/dsh-plugin-codemode) - 通过 Node.js VM 或 QuickJS WebAssembly 后端，用 JavaScript 编排 DeepSeek Harness 工具调用。
 
 - [dsh-tray](https://github.com/liulifu/dsh-tray) - Windows 系统托盘守护工具：启动/停止/重启 DSH 服务，支持多 profile 端口绑定、快照式快速恢复、插件启停、SQLite 版本台账，以及自动发现加载失败插件后禁用并恢复 DSH 的客户端哨兵。
 

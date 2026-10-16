@@ -98,6 +98,7 @@ Management panel: Settings → Plugins.
 
 ## Agents & Orchestration
 
+- [dsh-jev-preset](https://github.com/Yum-wu/dsh-jev-preset) - JEV agent preset bundle with prompt-guided task routing, cross-verification and quantitative checklists.
 - [dsh-task-supervisor](https://github.com/gosomea/dsh-task-supervisor) - Persistent task supervision with plan coverage review, DAG progress, sidebar consultation, and stage/completion checks; npm development preview.
 - [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) - Multi-agent team orchestration: captain-style session with durable sub-agent teams, role assignment, and coordinated task execution.
 - [dsh-todo-guard](https://github.com/a903067276-rgb/dsh-todo-guard) - Reliable todo panel that survives restarts (official panel only re-renders on write — fixed via projection pre-warm) with three-state completion verification: evidence exists → verified, fake evidence → blocked, no evidence → unverified badge; settings toggle to fall back to official behavior.
@@ -957,6 +958,7 @@ Management panel: Settings → Plugins.
 - [dsh-customs-doc-check](https://github.com/PerryLink/dsh-customs-doc-check) - Customs supporting-document register checker for DSH: flags commodity-code and currency-format mismatches, duplicate document numbers, and gross/net-weight inconsistencies using configurable rules; reports differences without certifying compliance.
 ## Tools & Utilities
 - [dsh-system1](https://github.com/exoticknight/dsh-system1) - Typed System One decision service for DeepSeek Harness plugins, with an agent tool for yes/no checks, classification, and scoring.
+- [dsh-plugin-codemode](https://github.com/Yum-wu/dsh-plugin-codemode) - JavaScript orchestration over DeepSeek Harness tools using Node.js VM or QuickJS WebAssembly backends.
 - [dsh-tray](https://github.com/liulifu/dsh-tray) - Windows system-tray guardian for DeepSeek Harness: launch/stop/restart the dsh service, multi-profile port bindings, snapshot-based quick recovery, plugin enable/disable, SQLite version ledger, and a client sentinel that detects a plugin failing to load, disables it and restores DSH.
 
 - [zilliztech/dsh-milvus](https://github.com/zilliztech/dsh-milvus) - Read-only DSH Web plugin for inspecting and searching Milvus or Zilliz Cloud collections from chat, including scalar, BM25, dense, and hybrid queries.
