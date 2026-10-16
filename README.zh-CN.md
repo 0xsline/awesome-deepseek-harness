@@ -504,6 +504,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [harness-unity-bridge](https://github.com/WarrenMondeville/agents-unity-bridge) - 基于文件协议的桥接器：让 DeepSeek Harness 控制 Unity Editor——运行 EditMode/PlayMode 测试、编译脚本、刷新资源、读取控制台日志、控制 Play Mode 与构建——由确定性 Python CLI、Unity UPM 包与可安装的 DSH 技能（`unity-bridge`）组成。
 - [xingzhen199186/dsh-jev-ultrafast](https://github.com/xingzhen199186/dsh-jev-ultrafast) - 给 DeepSeek Harness 一句话目标：插件驱动真实浏览器把事办完——每一步操作与元素由决策服务选定，一趟多步任务只花一次工具调用。
 - [dsh-codex-computer-use](https://github.com/Han-1413141/dsh-codex-computer-use) - 让 DSH 当前模型通过已安装的 Codex Computer Use 运行时读取和操作 Windows 应用，并保留每个会话的应用授权。
+- [dsh-mini-remote](https://github.com/xingzhen199186/dsh-mini-remote) - DSH 会话的手机网页遥控端：三种显示模式（只看最新结论 / 聊天 / 含 diff 的完整执行轨迹），局域网、Tailscale 或 Cloudflare Tunnel 三条路径各自扫码配对，手机端可排队下发指令、应答审批与提问卡片，并支持飞书长连接通道。
 
 ## Models & Inference
 
