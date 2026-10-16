@@ -97,6 +97,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Agents & Orchestration
 
+- [dsh-jev-plugin](https://github.com/luobosibing2/dsh-jev-plugin) - 可按需启用的 Jev/Luna 判断层，为 DeepSeek Harness 提供技能与文件筛选、任务监督、工具输出过滤、审批辅助及历史阶段导航；各项功能默认关闭。
 - [dsh-jev-preset](https://github.com/Yum-wu/dsh-jev-preset) - JEV 智能体预设包，通过提示词引导任务分流、交叉验证与量化检查。
 - [dsh-task-supervisor](https://github.com/gosomea/dsh-task-supervisor) - 持久任务督导：计划覆盖审查、DAG 进度、侧栏督导对话与阶段／完成验收；npm 开发预览版。
 - [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) - 多智能体团队编排：舰长式会话搭配可持久化的子代理团队，支持角色分配与任务协同执行。

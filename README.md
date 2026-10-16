@@ -98,6 +98,7 @@ Management panel: Settings → Plugins.
 
 ## Agents & Orchestration
 
+- [dsh-jev-plugin](https://github.com/luobosibing2/dsh-jev-plugin) - Opt-in Jev/Luna decision layer for DeepSeek Harness: skill and file selection, task supervision, tool-output filtering, approval assistance and recorded-stage navigation; features are disabled by default.
 - [dsh-jev-preset](https://github.com/Yum-wu/dsh-jev-preset) - JEV agent preset bundle with prompt-guided task routing, cross-verification and quantitative checklists.
 - [dsh-task-supervisor](https://github.com/gosomea/dsh-task-supervisor) - Persistent task supervision with plan coverage review, DAG progress, sidebar consultation, and stage/completion checks; npm development preview.
 - [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) - Multi-agent team orchestration: captain-style session with durable sub-agent teams, role assignment, and coordinated task execution.
