@@ -934,7 +934,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [pricewin-dsh](https://github.com/PriceDotWin/pricewin-dsh) - 通过 PriceWin 远程 MCP 服务实时比较 Booking.com、Agoda、Trip.com 和 Traveloka 的酒店与机票价格（美元），附带搜索 Skill。
 - [dsh-site-log-check](https://github.com/PerryLink/dsh-site-log-check) - 监理日志核对：依据 GB/T 50319-2013 等公开文件核对监理日志的跨日连续性与旁站覆盖，仅提示差异，不作出定性结论。
 - [dsh-spc-gbt-adapter](https://github.com/PerryLink/dsh-spc-gbt-adapter) - 控制图台账核对：按控制图常数表重算控制限并交叉核对 Cp/Cpk，只就台账自身的算术与常数表一致性提示差异（规则包采用 GB/T 17989.2—2020，该标准替代已废止的 GB/T 4091—2001）。
-- [dsh-customs-doc-check](https://github.com/PerryLink/dsh-customs-doc-check) - 报关单证台账核对：按公开的报关单填制规范逐字段核对台账（商品编码十位、币制为 ISO 4217 三字母代码、单证号唯一、毛重不小于净重），仅提示差异，不作出定性结论。
+- [dsh-customs-doc-check](https://github.com/PerryLink/dsh-customs-doc-check) - 报关配套单证台账核对：按可配置规则提示商品编码与币制格式不符、单证号重复及毛重与净重不一致，仅报告差异，不作合规认定。
 ## Tools & Utilities
 
 - [dsh-tray](https://github.com/liulifu/dsh-tray) - Windows 系统托盘守护工具：启动/停止/重启 DSH 服务，支持多 profile 端口绑定、快照式快速恢复、插件启停、SQLite 版本台账，以及自动发现加载失败插件后禁用并恢复 DSH 的客户端哨兵。
