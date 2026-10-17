@@ -430,6 +430,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [wjingshan/dsh-cost-gauge](https://github.com/wjingshan/dsh-cost-gauge) - DSH Web 界面的峰谷计费浮动表盘：按官方费率换算本会话花费与账户余额，支持低余额报警、拖拽缩放与最小化状态灯。
 - [weibaohui/dsh-dashboard](https://github.com/weibaohui/dsh-dashboard) - 使用量仪表盘：离线扫描会话日志，统计每日/每周/每月 token、估算费用、模型/工具/技能/命令榜、输出速度、工作时段与质量指标；gridstack+ECharts 卡片可拖拽编排，支持自定义公式与 AI 编排（提示词往返导入）。
 - [olimc2016/dsh-token-meter-panel](https://github.com/olimc2016/dsh-token-meter-panel) - 侧边栏 Token 用量与花费面板：今日消费、预算进度、7/30 天趋势、成本构成、缓存命中节省与按会话拆分。
+- [weibaohui/dsh-favorites](https://github.com/weibaohui/dsh-favorites) - 会话收藏夹：把任意会话收藏进浏览器收藏夹式的管理面板——左侧会话行一键收藏/星标，主面板支持文件夹分门别类、备注、自定义显示名、一键继续会话、Fork 新会话、会话基本统计，外加一张清晰展示会话派生关系的 fork 关系图。
 - [dsh-maze](https://github.com/lamost423/dsh-maze) - 执行迷宫：把一场会话的主干路径、折返与失败支路画在同一根时间轴上，配逐步数据轨道（工具、Token、上下文压力）、确定性分析（结果与证据、行为信号）与多会话对比。
 ## IDE & Clients
 
