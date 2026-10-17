@@ -993,7 +993,7 @@ Management panel: Settings → Plugins.
 
 - [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Standalone CLI that records model-provider traffic and replays a session offline with no provider contacted; DSH needs `orca attach --port N` because it resolves its provider origin from config rather than a base-URL environment variable.
 
-- [lcy0121/dsh-plugin-compat-check](https://github.com/lcy0121/dsh-plugin-compat-check) - Installed-plugin compatibility checks for DSH, with a settings panel, plugin-detail badges, `compat_check` tool and agent skill; the repository CLI also supports pre-install checks, with evidence and coverage limits.
+- [lcy0121/dsh-plugin-compat-check](https://github.com/lcy0121/dsh-plugin-compat-check) - Checks installed DSH plugins against the current host: a verdict badge and a per-plugin findings section on the plugin detail page, each finding with `file:line`, certainty and its basis, plus a `compat_check` tool and an agent skill; the repository CLI also does pre-install checks, with evidence and coverage limits.
 
 ## Related
 
