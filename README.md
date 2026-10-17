@@ -233,7 +233,7 @@ Management panel: Settings → Plugins.
 - [weibaohui/dsh-kb](https://github.com/weibaohui/dsh-kb) - Team knowledge base for offline knowledge sharing (FDE box scenario): browse, full-text search and refinement entry points; raw material is queued automatically and distilled into wiki pages by a serial bot session (Karpathy LLM Wiki pattern: immutable raw, two-step refinement, log stream, monthly lint).
 - [loci-dsh](https://github.com/IvenKooLab/loci-dsh) - loci second-brain sidebar tab: hybrid search, cited Q&A, day-grouped memory browsing and quick capture over a local loci knowledge base; proxies `loci serve-http` same-origin from dsh-better-sidebar, no core fork.
 - [dsh-statecore](https://github.com/yul761/dsh-statecore) - Auditable project memory powered by StateCore: auto-ingests messages and injects a budgeted memory digest on each pre-step (re-injected after compaction); five native tools (remember/recall/facts/why/forget) with evidence and supersession chains, embedded SQLite, and MCP access via `statecore-mcp`.
-
+- [xiciyang/dsh-visual-memory](https://github.com/xiciyang/dsh-visual-memory) - Lossless visual memory for DSH agents: verbatim content-addressed image storage, an attention ledger, labelled comparison sheets, and exact pixel reads — no second vision model in the loop. Verified on DSH 0.2.0-rc.2 (`verify.mjs` 11/11).
 
 ## Input & Editing
 
