@@ -670,6 +670,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [weibaohui/user-management](https://github.com/weibaohui/user-management) - DSH Web 的 HTTPS 登录网关，提供用户/角色管理、TOTP 与审计日志。首个注册者成为管理员：对外开放前须在可信网络完成首次注册，并让上游 DSH 服务仅监听 loopback。
 - [Ox0400/dsh-vault](https://github.com/Ox0400/dsh-vault) - dsh 本地加密凭据保险库：Web 设置页与 vault_* 工具，存取与复制密码、API 密钥、TOTP、银行卡信息，支持健康审计、到期轮换、导入导出与只读/询问访问模式。
+- [kenryu42/cc-safety-net](https://github.com/kenryu42/cc-safety-net) - 执行前守卫，在工具调用运行前拦截破坏性 Git 与文件系统命令，以及对 SSH 密钥、.env 等机密文件的访问。
 
 ## Output & Deliverables
 
