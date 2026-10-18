@@ -994,6 +994,7 @@ Management panel: Settings → Plugins.
 - [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Standalone CLI that records model-provider traffic and replays a session offline with no provider contacted; DSH needs `orca attach --port N` because it resolves its provider origin from config rather than a base-URL environment variable.
 
 - [lcy0121/dsh-plugin-compat-check](https://github.com/lcy0121/dsh-plugin-compat-check) - Pre-install compatibility checker for DSH plugins: installs a plugin into a throwaway profile, boots the host, dumps its real API surface including prototype-chain methods, and diffs that against the services and methods the plugin actually calls.
+- [dsh-deepseek-pricing](https://github.com/ybbms777/dsh-deepseek-pricing) - Model-callable tool reporting DeepSeek API peak/off-peak billing: the current tier, the next switch time, today's peak windows (Beijing time), and per-model prices from a bundled rate card transcribed from the pricing page on 2026-10-15; the built-in China holiday calendar covers 2026 only.
 
 ## Related
 
