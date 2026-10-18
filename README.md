@@ -588,6 +588,7 @@ Management panel: Settings → Plugins.
 - [du-yuxuan/OneKey-Models](https://github.com/du-yuxuan/OneKey-Models) - TokenDance gateway integration with OAuth PKCE sign-in, DSH credential-store support, live model discovery, per-model visibility, image generation and multimodal input.
 - [dsh-subagent-custom](https://github.com/xingzhen199186/dsh-subagent-custom) - Subagent model control: a Jev classifier labels each turn, and the subagent's own request is rewritten to the provider, model and reasoning effort that label maps to; per-session inherit/auto/manual selection, one prompt per role injected ahead of the task, and a ledger of recent dispatches.
 
+- [xiciyang/inference-quantization](https://github.com/xiciyang/inference-quantization) - Quantize a checkpoint and prove it still passes: content-hash de-leaked dataset prep, AWQ/INT4 via llm-compressor inside a container, accuracy comparison against a fixed eval set, and an explicit failure verdict instead of a silent regression; declares `dsh.bundle.patch` and `engines.dsh`, verified on DSH 0.2.0-rc.2 (146 tests).\n
 ## Git & Engineering
 
 - [dsh-llm-verifier](https://github.com/Web0926/dsh-llm-verifier) - Runs 3 or 5 coding-agent candidates in detached Git worktrees, validates their patches with project commands, ranks only passing candidates, and requires separate approval before applying the winner.
