@@ -995,6 +995,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [lcy0121/dsh-plugin-compat-check](https://github.com/lcy0121/dsh-plugin-compat-check) - 插件可用性预检工具：把插件装进一次性 profile 并真实启动，dump 出宿主实际的 API 面（含原型链方法），与插件源码里实际调用的服务和方法逐条比对。
 
+- [xiciyang/dsh-publish-guard](https://github.com/xiciyang/dsh-publish-guard) - DSH 插件发布前体检：`dsh.bundle.patch`、`engines.dsh`、许可证、仓库可见性、README 五节、绝对路径与密钥形态字符串——分成 fail（用户装不上或找不到）与 warn（能用但会被忽略），并附一个只做机械修复的 dry-run 修复器；`npx dsh-publish-guard <目录>`，已在 DSH 0.2.0-rc.2 验证。
+
 ## Related
 
 - [dsh-external/issues](https://github.com/dsh-external/issues) - Issue 聚合仓库

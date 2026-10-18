@@ -995,6 +995,8 @@ Management panel: Settings → Plugins.
 
 - [lcy0121/dsh-plugin-compat-check](https://github.com/lcy0121/dsh-plugin-compat-check) - Pre-install compatibility checker for DSH plugins: installs a plugin into a throwaway profile, boots the host, dumps its real API surface including prototype-chain methods, and diffs that against the services and methods the plugin actually calls.
 
+- [xiciyang/dsh-publish-guard](https://github.com/xiciyang/dsh-publish-guard) - Pre-flight checks for DSH plugin releases: `dsh.bundle.patch`, `engines.dsh`, license, repository visibility, README sections, absolute paths and secret-shaped strings — split into fail (a user cannot install it or find it) and warn (it works but will be ignored), plus a dry-run fixer for the mechanical blockers; `npx dsh-publish-guard <dir>`, verified on DSH 0.2.0-rc.2.
+
 ## Related
 
 - [dsh-external/issues](https://github.com/dsh-external/issues) - Issue aggregation hub.
