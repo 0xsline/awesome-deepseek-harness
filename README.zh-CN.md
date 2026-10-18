@@ -579,6 +579,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [du-yuxuan/OneKey-Models](https://github.com/du-yuxuan/OneKey-Models) - 接入 TokenDance 聚合网关，支持 OAuth PKCE 登录、DSH 凭据库存储、实时模型发现、逐模型显隐、生图与多模态输入。
 - [dsh-subagent-custom](https://github.com/xingzhen199186/dsh-subagent-custom) - 子代理模型管控：由 Jev 判定本轮任务类别，再把子代理自身的请求改写为该类别对应的 provider、model 与推理强度；会话内可用继承/自动/手动三种方式指定模型，每个角色可带一条先于任务注入的前置提示词，并记录最近的派发流水。
 
+- [xiciyang/inference-serving](https://github.com/xiciyang/inference-serving) - 把 checkpoint 部署成可访问的推理端点：环境探测 → 后端选择 → 部署 → 三关健康检查 → 注册 → 失败自动降级（显存/并发/精度/端口）→ 回滚或清理，全过程写入哈希链审计日志；声明 `dsh.bundle.patch` 与 `engines.dsh`，已在 DSH 0.2.0-rc.2 验证（154 项测试）。
+
 ## Git & Engineering
 
 - [dsh-llm-verifier](https://github.com/Web0926/dsh-llm-verifier) - 在独立 Git worktree 中运行 3 或 5 个编码智能体候选，用项目命令验证补丁，只对通过者排序，并在应用获胜补丁前要求再次批准。
