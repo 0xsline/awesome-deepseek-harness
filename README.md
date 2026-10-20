@@ -346,6 +346,7 @@ Management panel: Settings → Plugins.
 - [dsh-ui-hub](https://github.com/Han-1413141/dsh-ui-hub) - Search, show, hide, move, resize and arrange plugin controls in DSH Desktop and Web, with layout backup, restore and undo.
 - [zhao-guang-ai/dsh-quote-annotate-pro](https://github.com/zhao-guang-ai/dsh-quote-annotate-pro) - Selection quoting and anchored annotations with source-message navigation, turn and role labels in sent quotes, and localStorage persistence; localhost diagnostic requests are enabled by default.
 - [dsh-skill-mini-manager](https://github.com/runcat-tommy/dsh-skill-mini-manager) - Minimal skill manager for DeepSeek Harness Web Settings: lists installed skills with summaries, sources and disk usage, and moves eligible filesystem skills to a recoverable trash while protecting bundled and system skills.
+- [dsh-local-files](https://github.com/DeveloperYe/dsh-local-files) - Local file manager served by the DSH web server itself: whole-disk browsing, previews for images, PDF, video and audio, text, Markdown, JSON, CSV, sandboxed HTML, docx and xlsx, Range downloads, folder ZIP, drag-and-drop upload, copy/paste, conflict-checked text editing, create/rename/delete-to-trash, and xlsx cell editing saved as a copy.
 
 
 ## Dashboards & Session UX
