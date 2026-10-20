@@ -186,6 +186,7 @@ Management panel: Settings → Plugins.
 - [huuthuan-nguyen/dsh-tgrep](https://github.com/huuthuan-nguyen/dsh-tgrep) - Ultra-fast trigram-indexed code search powered by Microsoft tgrep, shadowing the built-in grep tool.
 - [dsh-context-imports](https://github.com/ciskonc/dsh-context-imports) - Claude Code-style `@path` imports for AGENTS.md/CLAUDE.md: recursively expands and injects referenced files into model context at session start, with a six-language settings card.
 - [dsh-sieve](https://github.com/Sev7eEn7/sieve) - Filters tool outputs, prunes stale context and discloses skills on demand for DSH 0.2.1-alpha.1.
+- [YunongDai2005/dsh-theone](https://github.com/YunongDai2005/dsh-theone) - One main chat: each message is routed to the topic it belongs to and continued in that topic's own session and project folder; misroutes can be moved in one click and undone.
 
 ## Memory & Knowledge
 
