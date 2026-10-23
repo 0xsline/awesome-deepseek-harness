@@ -346,7 +346,7 @@ Management panel: Settings → Plugins.
 - [dsh-ui-hub](https://github.com/Han-1413141/dsh-ui-hub) - Search, show, hide, move, resize and arrange plugin controls in DSH Desktop and Web, with layout backup, restore and undo.
 - [zhao-guang-ai/dsh-quote-annotate-pro](https://github.com/zhao-guang-ai/dsh-quote-annotate-pro) - Selection quoting and anchored annotations with source-message navigation, turn and role labels in sent quotes, and localStorage persistence; localhost diagnostic requests are enabled by default.
 - [dsh-skill-mini-manager](https://github.com/runcat-tommy/dsh-skill-mini-manager) - Minimal skill manager for DeepSeek Harness Web Settings: lists installed skills with summaries, sources and disk usage, and moves eligible filesystem skills to a recoverable trash while protecting bundled and system skills.
-
+- [dsh-ascii-whales](https://github.com/jryang1997/dsh-ascii-whales) - Overhead conversation background with five whale species formed from custom text or ASCII, shaded cells, frosted content cards, input-box avoidance, independent dives, spouts, ripples, wind, and cloud shadows.
 
 ## Dashboards & Session UX
 - [dsh-workspace-mover](https://github.com/PianoPrince/dsh-workspace-mover) - True in-place migration of sessions across workspaces: drag-and-drop, bulk/group merge, orphan rescue panel, workspace repoint wizard, recycle bin with restore, byte-level backup with stepwise rollback and post-move verification, plus dsh-tools agent tools (npm: dsh-workspace-mover).
