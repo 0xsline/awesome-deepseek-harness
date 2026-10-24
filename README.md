@@ -353,6 +353,7 @@ Management panel: Settings → Plugins.
 
 - [zoahdev/dsh-timesheet](https://github.com/zoahdev/dsh-timesheet) - Turn-based time tracking from session logs: per-day/project/provider/source rollups, tool calls, failures, TTFT (CLI + `timesheet` tool).
 - [zoahdev/dsh-replay](https://github.com/zoahdev/dsh-replay) - Time-travel debugger: replay, visualize, and diff a session's full trajectory from `session.jsonl.zstd` (zero deps, Node ≥ 22.19).
+- [dsh-session-deck](https://github.com/yiliang114/dsh-session-deck) - Activity and Favorites sidebar views for DSH 0.2.1-rc.2: track running, waiting, and unread sessions across workspaces, with favorites backed by native pinned sessions.
 - [dsh-session-cluster](https://github.com/dsh-external/dsh-session-cluster) - Session clustering.
 - [session-chatlog](https://github.com/dsh-external/session-chatlog) - Session chat logs.
 - [dsh-session-archive](https://github.com/lbh1nb/dsh-plugins/tree/main/packages/dsh-session-archive) - Settings section to view archived sessions and permanently delete dead conversations (two-step confirm, running sessions locked).

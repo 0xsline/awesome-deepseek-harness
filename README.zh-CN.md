@@ -353,6 +353,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [SunshineR04/dsh-session-manager](https://github.com/SunshineR04/dsh-session-manager) - 从设置页与会话菜单恢复归档会话或永久删除会话文件。删除不留备份；界面要求确认，Agent 工具要求显式确认参数，默认拒绝删除运行中的会话。
 - [zoahdev/dsh-timesheet](https://github.com/zoahdev/dsh-timesheet) - 从会话日志做基于 turn 的时间跟踪：按天/项目/供应商/来源汇总、工具调用数、失败率与 TTFT（CLI + `timesheet` 工具）。
 - [zoahdev/dsh-replay](https://github.com/zoahdev/dsh-replay) - 时间旅行调试器：从 `session.jsonl.zstd` 回放、可视化并 diff 会话完整轨迹（零依赖，Node ≥ 22.19）。
+- [dsh-session-deck](https://github.com/yiliang114/dsh-session-deck) - 为 DSH 0.2.1-rc.2 侧边栏添加 Activity（活动）与 Favorites（收藏）视图：跨工作区查看运行中、等待回复和未读会话，收藏复用原生置顶会话。
 - [dsh-session-cluster](https://github.com/dsh-external/dsh-session-cluster) - 会话聚类
 - [session-chatlog](https://github.com/dsh-external/session-chatlog) - 会话聊天记录
 - [dsh-session-archive](https://github.com/lbh1nb/dsh-plugins/tree/main/packages/dsh-session-archive) - 设置页查看归档会话并两步确认永久删除死会话（运行中会话锁定）。
