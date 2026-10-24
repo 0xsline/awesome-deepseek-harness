@@ -782,7 +782,7 @@ Management panel: Settings → Plugins.
 - [weibaohui/dsh-fireworks](https://github.com/weibaohui/dsh-fireworks) - Fireworks celebration engine: floats fireworks above the chat window while the agent codes; welcome, per-turn, tool-spark, milestone, finish and failure events each draw from their own fireworks card group with random variants, and token usage decides firework size, height and splendour.
 - [weibaohui/dsh-kite](https://github.com/weibaohui/dsh-kite) - Animated kite that responds to agent activity, with configurable kite frames, patterns and colors, plus user-supplied image textures.
 - [weibaohui/dsh-ambient](https://github.com/weibaohui/dsh-ambient) - Ambient-audio player with a local sound library, sequential, shuffle, single-loop and intermittent playback, a sleep timer, and optional AI-assisted audio downloads.
-
+- [dsh-serene](https://github.com/chisato-lycoreco/dsh-serene) - Persona, emotion and memory for DSH: PAD+ mood over three layers (background / present / relationship) that decays on its own clock, follows a circadian rhythm and leaves permanent scars on the baseline; jsonl memory with relevance × time-decay × importance recall; six tools, persona as JSON, no daemon and no model calls.
 
 ## Plugin Ecosystem & Development
 
