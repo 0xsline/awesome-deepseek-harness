@@ -230,6 +230,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [weibaohui/dsh-kb](https://github.com/weibaohui/dsh-kb) - 团队知识库：离线知识共享（FDE 盒子场景），浏览/全文检索/加工入口；raw 入料自动入队、bot 会话串行蒸馏成文（Karpathy LLM Wiki 模式：raw 不可变 / 两步加工 / log 流水 / 月度 lint）。
 - [loci-dsh](https://github.com/IvenKooLab/loci-dsh) - loci 第二大脑侧边栏标签页：在本地 loci 知识库上做混合检索、带引用问答、按天分组的记忆浏览与快速记录；以同源代理 `loci serve-http` 的方式挂进 dsh-better-sidebar，无需改内核。
 - [dsh-statecore](https://github.com/yul761/dsh-statecore) - 基于 StateCore 的可审计项目记忆：自动摄入消息，每步 pre-step 注入预算内的记忆摘要（compaction 后自动重新注入）；五个原生工具 remember/recall/facts/why/forget，附证据链与历史版本链，嵌入式 SQLite，可经 `statecore-mcp` 供 MCP 客户端读取。
+- [CC19990113/dsh-plugin-soul](https://github.com/CC19990113/dsh-plugin-soul) - 每轮把 IDENTITY/SOUL/USER/RULES 四份 Markdown 注入 system prompt（改文件即生效、不用重启）；自改受闸门约束（每日次数 + `why` 必填）；journal→dream 只有跨 2 天出现 3 次以上的证据才升格进 SOUL；自我升级限白名单、必须过 `node --check`、可一键回滚；另带设置页「人格」tab。
 
 
 ## Input & Editing

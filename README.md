@@ -233,6 +233,7 @@ Management panel: Settings → Plugins.
 - [weibaohui/dsh-kb](https://github.com/weibaohui/dsh-kb) - Team knowledge base for offline knowledge sharing (FDE box scenario): browse, full-text search and refinement entry points; raw material is queued automatically and distilled into wiki pages by a serial bot session (Karpathy LLM Wiki pattern: immutable raw, two-step refinement, log stream, monthly lint).
 - [loci-dsh](https://github.com/IvenKooLab/loci-dsh) - loci second-brain sidebar tab: hybrid search, cited Q&A, day-grouped memory browsing and quick capture over a local loci knowledge base; proxies `loci serve-http` same-origin from dsh-better-sidebar, no core fork.
 - [dsh-statecore](https://github.com/yul761/dsh-statecore) - Auditable project memory powered by StateCore: auto-ingests messages and injects a budgeted memory digest on each pre-step (re-injected after compaction); five native tools (remember/recall/facts/why/forget) with evidence and supersession chains, embedded SQLite, and MCP access via `statecore-mcp`.
+- [CC19990113/dsh-plugin-soul](https://github.com/CC19990113/dsh-plugin-soul) - Injects IDENTITY/SOUL/USER/RULES Markdown into the system prompt every turn (edit the file, no restart), with gated self-editing (daily limits plus a mandatory `why`), evidence-gated journal→dream promotion into SOUL, whitelisted self-upgrades that must pass `node --check` with one-command rollback, and a Settings › 人格 tab.
 
 
 ## Input & Editing
