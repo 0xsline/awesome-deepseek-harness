@@ -955,6 +955,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-site-log-check](https://github.com/PerryLink/dsh-site-log-check) - 监理日志核对：依据 GB/T 50319-2013 等公开文件核对监理日志的跨日连续性与旁站覆盖，仅提示差异，不作出定性结论。
 - [dsh-spc-gbt-adapter](https://github.com/PerryLink/dsh-spc-gbt-adapter) - 控制图台账核对：按控制图常数表重算控制限并交叉核对 Cp/Cpk，只就台账自身的算术与常数表一致性提示差异（规则包采用 GB/T 17989.2—2020，该标准替代已废止的 GB/T 4091—2001）。
 - [dsh-customs-doc-check](https://github.com/PerryLink/dsh-customs-doc-check) - 报关配套单证台账核对：按可配置规则提示商品编码与币制格式不符、单证号重复及毛重与净重不一致，仅报告差异，不作合规认定。
+- [zhuyansen/backlink-guard](https://github.com/zhuyansen/backlink-guard) - 外链来源体检：提交前查目录站等外链来源靠不靠谱，上线后查链接在不在、传不传权重，给网站的外链做垃圾外链体检；附 Agent Skill 和 Python MCP 服务器。
+- [zhuyansen/new-term-radar](https://github.com/zhuyansen/new-term-radar) - 在 X、Hugging Face、GitHub 和网站地图里找刚出现的 AI 模型、产品和仓库名，并估算它们背后搜索词的量；附 Agent Skill 和 Python MCP 服务器。
 ## Tools & Utilities
 
 - [dsh-system1](https://github.com/exoticknight/dsh-system1) - 为 DeepSeek Harness 插件提供类型化的 System One 判断服务和智能体工具，支持是非判断、分类和评分。
