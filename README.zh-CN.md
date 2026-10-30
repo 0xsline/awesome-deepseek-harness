@@ -185,6 +185,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [huuthuan-nguyen/dsh-tgrep](https://github.com/huuthuan-nguyen/dsh-tgrep) - 基于 Microsoft tgrep 的三元组索引快速代码搜索插件，接管内置 grep 工具。
 - [dsh-context-imports](https://github.com/ciskonc/dsh-context-imports) - 为 AGENTS.md/CLAUDE.md 提供 Claude Code 式 `@路径` 导入：会话启动时递归展开并注入被引用文件，自带六语言设置卡片。
 - [dsh-sieve](https://github.com/Sev7eEn7/sieve) - 为 DSH 0.2.1-alpha.1 过滤工具输出、裁剪陈旧上下文并按需披露技能。
+- [dsh-context-rescue](https://github.com/Lequait/dsh-context-rescue) - 宿主压不下去时的事后急救：请求因超出上下文窗口被拒后，改写投影（优先借用宿主压缩引擎，否则用零模型的摘要折叠），保持工具调用与结果成对，再让宿主重发同一请求。
 
 ## Memory & Knowledge
 
