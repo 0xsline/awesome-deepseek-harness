@@ -476,6 +476,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-native-macos](https://github.com/DanielW203/dsh-native-macos) - DeepSeek Harness 的原生 SwiftUI macOS 客户端：多版本 harness 并存，升级后跑 8 项自检、阻断项不过即回退一次，另有安全模式恢复与内置微信/手机远控。
 - [deepseek-harness-android](https://github.com/guzhou079-arch/deepseek-harness-android) - 将 DSH 运行时与技能打包为可安装 APK 的安卓客户端，支持手机端构建与虚拟屏自动化，无需 Termux 或 root。
 - [DSH_Mobile](https://github.com/jayantTang/DSH_Mobile) - 原生 iOS 客户端加电脑侧连接器与可自建的公网中转：iPhone 在 4G/5G 下连自己电脑上的 DSH 会话，不需要公网 IP 或 VPN。
+- [AnyModelBot](https://github.com/modelflare-ai/AnyModelBot) - 本地优先的桌面、命令行与 Docker 应用，以 DeepSeek Harness 作为智能体运行时，支持微信与飞书渠道、按机器人独立的记忆、文件读写和电脑操作
 
 ## Browser & Remote
 
