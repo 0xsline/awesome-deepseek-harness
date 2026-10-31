@@ -232,6 +232,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-statecore](https://github.com/yul761/dsh-statecore) - 基于 StateCore 的可审计项目记忆：自动摄入消息，每步 pre-step 注入预算内的记忆摘要（compaction 后自动重新注入）；五个原生工具 remember/recall/facts/why/forget，附证据链与历史版本链，嵌入式 SQLite，可经 `statecore-mcp` 供 MCP 客户端读取。
 
 
+- [waspqj/dsh-study-mode](https://github.com/waspqj/dsh-study-mode) - 学习模式 agent 预设 + 侧边栏知识库面板：回答按 主题库 → 全局主题 → 模型知识 → 网络 四级检索，命中标出处、查不到标未验证；面板按出处文件分组、卡片互链，支持归档/核实/AI 校验补充（npm：`dsh-study-mode`）。
+
 ## Input & Editing
 
 - [dsh-global-rules](https://github.com/Semidia/dsh-global-rules) - 在设置页编辑 `~/.dsh/AGENTS.md` 全局规则：提供文本编辑与保存，无需命令行。
