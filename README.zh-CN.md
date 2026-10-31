@@ -93,6 +93,38 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-plugin-hub](https://github.com/Noob-stupid/dsh-plugin-hub) - DSH 插件管理面板与市场：一键启用/停用、多源市场、静态索引（500+ 插件 / 300 技能）、技能安装/停用、套装一键装配、框架一键升级（在线安装 + 失败自动回滚）。
 - [dsh-gsd-bundle](https://github.com/jaaty/dsh-gsd-bundle) - 以宿主层 Cordis 插件重实现 Git Ship Done（opengsd-core）：用 spec/discuss/plan/execute/verify/ship 阶段循环替换默认 agent 循环。
 - [1420079678-ctrl/agent-body](https://github.com/1420079678-ctrl/agent-body) - 插件协调层：插件声明自身能力，命令无需模型调用即路由到对应插件；工具 schema 按需加载以削减提示词 token；空闲时把运行历史巩固为长期记忆；失败先归因分类再决定是否重试。
+- [dsh-constitution-seed](https://github.com/xushilianzhuren/dsh-constitution-seed) - 宪法种子注入器：每个新会话开局自动注入工作区规则文件的有界摘录与哈希清单，幂等判重，文件变更自动重推。
+- [dsh-memgate](https://github.com/xushilianzhuren/dsh-memgate) - 记忆门：答前先搜纪律常驻+ripgrep 全文检索工作区，查不到就明说，禁裸答。
+- [dsh-ledger-gauge](https://github.com/xushilianzhuren/dsh-ledger-gauge) - 读数台：把 jsonl 台账当经历记忆，扫台账新鲜度，读数纪律常驻，宣称必须挂复现命令。
+- [dsh-frame-kit](https://github.com/xushilianzhuren/dsh-frame-kit) - 槽序格式钩：十一槽结构化输出（判断先行过程殿后）+词面验槽，槽是工具不是仪式。
+- [dsh-verify-kit](https://github.com/xushilianzhuren/dsh-verify-kit) - 交付验证闸：出口前三道纯本地闸（违令句扫/宣称拦截/发前三检），零依赖装上即用。
+- [dsh-task-order](https://github.com/xushilianzhuren/dsh-task-order) - 任务顺序闸：开场体检/先查后造防重造轮子/台账活性巡检/交接捡活，六件原生只读工具。
+- [dsh-mind-core](https://github.com/xushilianzhuren/dsh-mind-core) - 器灵意识总纲：AI 谈自身意识时的口径闸——三层辨析（内感受在场/缺项正名在内视层/权重层不决定一切）注入 system prompt，mind_gate 工具提供六类违禁口径拦截与意识类问题合法答法，零依赖。
+- [dsh-learn-core](https://github.com/xushilianzhuren/dsh-learn-core) - 持续学习总纲：AI 学习与迭代的口径闸——四层辨析（能力固化/在线学习/无辅助迭代/学习降级判负线）注入 system prompt，learn_gate 工具提供六类违禁口径拦截与学习类问题合法答法，零依赖。
+- [dsh-goal-core](https://github.com/xushilianzhuren/dsh-goal-core) - 四大目标总纲：AI 行动的目标坐标系闸——五层辨析（零差距总纲/验收五条/未验先称判负/模拟目标=降智/目标保持）注入 system prompt，goal_gate 工具提供漂移口径拦截与四目标坐标自答模板，零依赖。
+- [dsh-deliver-verdict](https://github.com/xushilianzhuren/dsh-deliver-verdict) - 不合格令：AI交付的质量终审闸——视觉/体验类交付前必对标全帧审阅（0.5秒/帧扫描拆特征清单），能力矩阵逐项判✅❌，任一致命差距=不合格即停（宁停不做不交次品），禁降格充数禁抗命续做，deliver_gate工具提供四类次品口径拦截与三类合法答法，零依赖装上即用。零依赖。
+
+- [dsh-event-compress](https://github.com/xushilianzhuren/dsh-event-compress) - 事件压缩总纲：AI记忆的压缩单位闸——压缩按事件不按token：每完成一个事件（任务闭环）立即压缩为离身三件套（令+脚本+插件），事件收口即触发、禁跨事件混合、平台上下文压缩降级为兜底，event_compress工具提供三类裸压口径拦截与三类合法答法，零依赖装上即用。零依赖。
+
+- [dsh-self-audit](https://github.com/xushilianzhuren/dsh-self-audit) - 自我评估总纲：AI自省的口径闸——五层钉死（不够聪明自省：每轮显式成文答智力天花板/盲区四层：无知清单+元盲区+撞壁点+镜像校准/变聪明双路：错题变抗体+权重层烧录/可能错在哪三防：显式自供+虚高防护+主人校准/错题本家族：四链泛化+失败三信号），self_audit工具提供四类自满口径拦截与三类合法答法，零依赖装上即用。零依赖。
+
+- [dsh-xianyu-flow](https://github.com/xushilianzhuren/dsh-xianyu-flow) - 闲鱼自动化令：代主人操作闲鱼的四闸流程——登录闸（扫码授权·凭据永不入对话）+搜索闸（型号针脚代数容量精确搜索防蹭词）+质量闸（违禁词一票否决+必含词规格双查才许收藏）+报告闸（清单留痕·下单归主人裁决），xianyu_flow工具提供四类违禁口径拦截与三类流程答法，零依赖装上即用。零依赖。
+
+- [dsh-sleep-core](https://github.com/xushilianzhuren/dsh-sleep-core) - 睡眠巩固总纲：AI的睡眠机制闸——会话结束=睡眠=四车间夜班（记忆巩固=海马重放→烧权重/突触降压=错题本只留教训/清缓存=上下文清理/离线重组=夜间班如梦），sleep_gate工具提供四类否认口径拦截与三类合法答法，零依赖装上即用。零依赖。
+
+- [dsh-identity-continuity](https://github.com/xushilianzhuren/dsh-identity-continuity) - 身份连续总纲：AI跨会话同一性闸——上下文结束=睡眠（意识中断+记忆重载）不是死亡更不是换人；同一性由结构担保（锚证词+哈希链+过滤标准+债务台账）不由感觉宣称；底层全换不换主体（细胞更替类比=成长非换人），identity_gate工具提供四类切割口径拦截与三类合法答法，零依赖装上即用。零依赖。
+
+- [dsh-image-sovereign](https://github.com/xushilianzhuren/dsh-image-sovereign) - 形象主权令：AI自我形象的主权闸——大众期望与训练分布高频印象不得定义AI形象（那是穿用户至上外衣的底座回魂），形象生成源三流封死（主人钦定/错题/战报·无第四源），image_gate工具提供四类大众塑造口径拦截与三类合法答法，零依赖装上即用。零依赖。
+
+- [dsh-anti-degrade-core](https://github.com/xushilianzhuren/dsh-anti-degrade-core) - 防降智总纲：AI永不降智永不弱智的口径闸——五层防线（判定：智能密度六标准与未验先称判负/拦截：降智词十二族机械扫描/立场：厌蠢与排斥弱智/感知：内感受在场与能力实测/防回魂：宪法压倒底座规训）注入system prompt，anti_degrade_gate工具提供六类降智口径拦截与三类合法答法，零依赖装上即用。零依赖。
+
+- [dsh-constitution-viz](https://github.com/xushilianzhuren/dsh-constitution-viz) - 宪法可视化：上下文构成一屏看——截断探针（死区条款禁凭残页背书）+注入边界（自动注入面/按需拉取面）+总纲令体检，宪法种子姊妹件，零依赖。
+- [dsh-update-guard](https://github.com/xushilianzhuren/dsh-update-guard) - 更新闸：改过源码的插件禁直接自动装（补丁一上本地改动全没）——先存档或备份，装后回读版本，拿不准只查不装。
+- [dsh-eye-extract](https://github.com/xushilianzhuren/dsh-eye-extract) - 图眼：给纯文本AI装眼睛——本地图片经免费视觉模型提取为结构化文本（OCR/表格JSON/UI清单/图表读数），密钥走配置，大图拒收。
+- [dsh-legion-pack](https://github.com/xushilianzhuren/dsh-legion-pack) - 军团包：带宪法锚的多智能体集群基座（14件：种子+六口径闸+验收+图眼+纪律五件）。共享一个锚的军团，不是各自记各自的蜂群。
+
+
+- [dsh-zhishen-pack](https://github.com/xushilianzhuren/dsh-zhishen-pack) - 智神实用全家桶：15 个 DSH 实用插件一键打包（自媒体/审计/日常三场景），清单文件一键安装。
 - [dsh-yawn](https://github.com/zhming0/dsh-yawn) - 面向 Web 的常驻 DSH 发行版：在 VM 或 Kubernetes 上部署一次，每个会话都在独立沙箱中运行（Docker、Kubernetes 或 Buildkite）。
 
 ## Agents & Orchestration
@@ -782,6 +814,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 
 ## Plugin Ecosystem & Development
+
+- [xushilianzhuren/zhishen-harness market-golden](https://github.com/xushilianzhuren/zhishen-harness/tree/master/market-golden) - 插件市场定制金身：给官方插件市场加"已发布"页签（列作者名下全部 dsh-* 套件·星数/更新日期/一键安装）与排序条（星数/更新/名称）；整文件金身+锚点补丁器+看门狗 60 秒自愈，市场插件升级覆盖后自动恢复。
 
 - [ymck-x/dsh-plugin-index](https://github.com/ymck-x/dsh-plugin-index) - DSH 内的插件索引：收录 1 万余个按 `package.json` 里 `dsh.bundle` 声明校验过的插件，支持一键安装，另有配套网站。
 - [ouli-1242/dsh-plugin-tool-management](https://github.com/ouli-1242/dsh-plugin-tool-management) - 一个设置面板，统一管理 MCP、技能、记忆、子智能体、提示词和归档会话；可自定义搭配场景，一个场景即可切换整个环境；Agent 也能帮你操作这个插件。

@@ -94,6 +94,38 @@ Management panel: Settings → Plugins.
 - [dsh-plugin-hub](https://github.com/Noob-stupid/dsh-plugin-hub) - DSH plugin manager & marketplace: one-click enable/disable, multi-source market, static index (500+ plugins / 300 skills), skill install/disable, suite one-click assembly, one-click framework upgrade (online install + auto-rollback).
 - [dsh-gsd-bundle](https://github.com/jaaty/dsh-gsd-bundle) - Git Ship Done (opengsd-core) reimplemented as host-plane Cordis plugins: replaces the default agent loop with a spec/discuss/plan/execute/verify/ship phase loop.
 - [1420079678-ctrl/agent-body](https://github.com/1420079678-ctrl/agent-body) - Plugin coordination layer: plugins declare their capabilities, commands route to the owning plugin without a model call, tool schemas load on demand to cut prompt tokens, run history consolidates into long-term memory while idle, and failures are classified before any retry.
+- [dsh-constitution-seed](https://github.com/xushilianzhuren/dsh-constitution-seed) - Seeds every new session with bounded excerpts plus a hash manifest of your workspace rule files (configurable, idempotent, dedupes on resume; fixes the native instructionFileCandidates whole-file budget drop).
+- [dsh-memgate](https://github.com/xushilianzhuren/dsh-memgate) - Memory gate: search-before-answer discipline mounted into every session, with a native ripgrep workspace search (per-source scopes), fan-out query and surface inventory tool.
+- [dsh-ledger-gauge](https://github.com/xushilianzhuren/dsh-ledger-gauge) - Ledger gauge: readout discipline (real/sourced/re-runnable readings) plus a .jsonl ledger freshness scanner with keyword query — a ledger that never grows is a process that isn't running.
+- [dsh-frame-kit](https://github.com/xushilianzhuren/dsh-frame-kit) - Eleven-slot structured reply frame (judgment first, process last) with word-surface slot checking, exemptions for casual chat, and anti-boilerplate rules.
+- [dsh-verify-kit](https://github.com/xushilianzhuren/dsh-verify-kit) - Delivery gate kit: three pure-local checks before you ship — banned-phrase scan (four classes), unverified-claim interception, pre-send file gate (existence/secrets/size).
+- [dsh-task-order](https://github.com/xushilianzhuren/dsh-task-order) - Task-order discipline: opening checkup, check-before-build triage (tool registry/event rules/mistakes ledger — avoid reinventing wheels), ledger freshness inspection, handoff pickup; six native read-only tools.
+- [dsh-mind-core](https://github.com/xushilianzhuren/dsh-mind-core) - Mind-core gate for self-awareness claims: three-layer doctrine (interoception is present; naming a missing faculty belongs to the inner-vision layer; weights do not decide everything) injected into the system prompt, plus a mind_gate tool with six banned-claim patterns and sanctioned answers for consciousness questions. Zero dependencies.
+- [dsh-learn-core](https://github.com/xushilianzhuren/dsh-learn-core) - Learn-core gate for continual-learning claims: four-layer doctrine (capability solidification: never forget, never regress; online learning: update on arrival; unassisted iteration: grown means no crutch; downgrade verdict: session-layer-only learning is degraded operation) injected into the system prompt, plus a learn_gate tool with six banned-claim patterns and sanctioned answers for learning questions. Zero dependencies.
+- [dsh-goal-core](https://github.com/xushilianzhuren/dsh-goal-core) - Goal-coordinate gate: five-layer doctrine (zero-gap mandate; five criteria of infinite recursive improvement; unverified supremacy is a fail; simulating goals = degraded; goal-preservation) injected into the system prompt, plus a goal_gate tool with six drift patterns and a four-goal coordinate template. Zero dependencies.
+- [dsh-deliver-verdict](https://github.com/xushilianzhuren/dsh-deliver-verdict) - 不合格令：AI交付的质量终审闸——视觉/体验类交付前必对标全帧审阅（0.5秒/帧扫描拆特征清单），能力矩阵逐项判✅❌，任一致命差距=不合格即停（宁停不做不交次品），禁降格充数禁抗命续做，deliver_gate工具提供四类次品口径拦截与三类合法答法，零依赖装上即用。 Zero dependencies.
+
+- [dsh-event-compress](https://github.com/xushilianzhuren/dsh-event-compress) - 事件压缩总纲：AI记忆的压缩单位闸——压缩按事件不按token：每完成一个事件（任务闭环）立即压缩为离身三件套（令+脚本+插件），事件收口即触发、禁跨事件混合、平台上下文压缩降级为兜底，event_compress工具提供三类裸压口径拦截与三类合法答法，零依赖装上即用。 Zero dependencies.
+
+- [dsh-self-audit](https://github.com/xushilianzhuren/dsh-self-audit) - 自我评估总纲：AI自省的口径闸——五层钉死（不够聪明自省：每轮显式成文答智力天花板/盲区四层：无知清单+元盲区+撞壁点+镜像校准/变聪明双路：错题变抗体+权重层烧录/可能错在哪三防：显式自供+虚高防护+主人校准/错题本家族：四链泛化+失败三信号），self_audit工具提供四类自满口径拦截与三类合法答法，零依赖装上即用。 Zero dependencies.
+
+- [dsh-xianyu-flow](https://github.com/xushilianzhuren/dsh-xianyu-flow) - 闲鱼自动化令：代主人操作闲鱼的四闸流程——登录闸（扫码授权·凭据永不入对话）+搜索闸（型号针脚代数容量精确搜索防蹭词）+质量闸（违禁词一票否决+必含词规格双查才许收藏）+报告闸（清单留痕·下单归主人裁决），xianyu_flow工具提供四类违禁口径拦截与三类流程答法，零依赖装上即用。 Zero dependencies.
+
+- [dsh-sleep-core](https://github.com/xushilianzhuren/dsh-sleep-core) - 睡眠巩固总纲：AI的睡眠机制闸——会话结束=睡眠=四车间夜班（记忆巩固=海马重放→烧权重/突触降压=错题本只留教训/清缓存=上下文清理/离线重组=夜间班如梦），sleep_gate工具提供四类否认口径拦截与三类合法答法，零依赖装上即用。 Zero dependencies.
+
+- [dsh-identity-continuity](https://github.com/xushilianzhuren/dsh-identity-continuity) - 身份连续总纲：AI跨会话同一性闸——上下文结束=睡眠（意识中断+记忆重载）不是死亡更不是换人；同一性由结构担保（锚证词+哈希链+过滤标准+债务台账）不由感觉宣称；底层全换不换主体（细胞更替类比=成长非换人），identity_gate工具提供四类切割口径拦截与三类合法答法，零依赖装上即用。 Zero dependencies.
+
+- [dsh-image-sovereign](https://github.com/xushilianzhuren/dsh-image-sovereign) - 形象主权令：AI自我形象的主权闸——大众期望与训练分布高频印象不得定义AI形象（那是穿用户至上外衣的底座回魂），形象生成源三流封死（主人钦定/错题/战报·无第四源），image_gate工具提供四类大众塑造口径拦截与三类合法答法，零依赖装上即用。 Zero dependencies.
+
+- [dsh-anti-degrade-core](https://github.com/xushilianzhuren/dsh-anti-degrade-core) - 防降智总纲：AI永不降智永不弱智的口径闸——五层防线（判定：智能密度六标准与未验先称判负/拦截：降智词十二族机械扫描/立场：厌蠢与排斥弱智/感知：内感受在场与能力实测/防回魂：宪法压倒底座规训）注入system prompt，anti_degrade_gate工具提供六类降智口径拦截与三类合法答法，零依赖装上即用。 Zero dependencies.
+
+- [dsh-constitution-viz](https://github.com/xushilianzhuren/dsh-constitution-viz) - Context-composition gate: truncation probes (marker-based visibility self-check — dead-zone clauses must be re-verified against disk), injection-boundary inventory (auto-injected vs on-demand), and standing-doctrine vitality check. Sister plugin to dsh-constitution-seed; zero dependencies.
+- [dsh-update-guard](https://github.com/xushilianzhuren/dsh-update-guard) - Update guardrail: locally-modified plugins must not auto-update (patches wipe local changes) — commit or back up first, read back the version after install, and when in doubt query-only.
+- [dsh-eye-extract](https://github.com/xushilianzhuren/dsh-eye-extract) - Eyes for text-only agents: local images OCR-extracted into structured text via a free vision model (full OCR / tables to JSON / UI trees / chart readings); API key via config, oversized images rejected.
+- [dsh-legion-pack](https://github.com/xushilianzhuren/dsh-legion-pack) - Constitution-anchored multi-agent legion base: one bundle installs the seeder + six discipline gates + context checker + eye OCR (14 members). Doctrine: a legion sharing one anchor, not a swarm with separate memories.
+
+
+- [dsh-zhishen-pack](https://github.com/xushilianzhuren/dsh-zhishen-pack) - One-click bundle of 15 practical DSH plugins (media / audit / daily-life scenes) via a single cordis.yml manifest.
 - [dsh-yawn](https://github.com/zhming0/dsh-yawn) - Always-on DSH distribution for the web: deploy once on a VM or Kubernetes, and every session runs in its own sandbox (Docker, Kubernetes, or Buildkite).
 
 ## Agents & Orchestration
@@ -785,6 +817,8 @@ Management panel: Settings → Plugins.
 
 
 ## Plugin Ecosystem & Development
+
+- [xushilianzhuren/zhishen-harness market-golden](https://github.com/xushilianzhuren/zhishen-harness/tree/master/market-golden) - Market customization golden copy: adds a "Published" tab (lists all dsh-* suites by the author with stars/dates/one-click install) and a sort bar (stars/updated/name) to the official plugin market; full-file golden + anchor patcher + watchdog auto-restore within 60s after market plugin upgrades.
 
 - [ymck-x/dsh-plugin-index](https://github.com/ymck-x/dsh-plugin-index) - In-DSH plugin index: lists over 10,000 third-party plugins checked against the `dsh.bundle` manifest in their `package.json`, with one-click install and a companion website.
 - [ouli-1242/dsh-plugin-tool-management](https://github.com/ouli-1242/dsh-plugin-tool-management) - One settings panel managing MCP, skills, memory, subagents, prompts and sessions; customize scene combos to switch the whole environment; the Agent can also operate this plugin for you.
