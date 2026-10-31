@@ -235,6 +235,8 @@ Management panel: Settings → Plugins.
 - [dsh-statecore](https://github.com/yul761/dsh-statecore) - Auditable project memory powered by StateCore: auto-ingests messages and injects a budgeted memory digest on each pre-step (re-injected after compaction); five native tools (remember/recall/facts/why/forget) with evidence and supersession chains, embedded SQLite, and MCP access via `statecore-mcp`.
 
 
+- [waspqj/dsh-study-mode](https://github.com/waspqj/dsh-study-mode) - Learning-mode agent preset plus a sidebar knowledge-base panel: answers retrieve topic library → global topics → model knowledge → web in that order, citing the source on a hit and marking unverified misses; cards are grouped by source file and linked to related cards, with archive, verify and AI-correction actions (npm: `dsh-study-mode`).
+
 ## Input & Editing
 
 - [dsh-global-rules](https://github.com/Semidia/dsh-global-rules) - Edit your `~/.dsh/AGENTS.md` global rules from the Settings page: a text editor with save button, no command line needed.
