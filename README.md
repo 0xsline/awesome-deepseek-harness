@@ -348,6 +348,8 @@ Management panel: Settings → Plugins.
 - [dsh-skill-mini-manager](https://github.com/runcat-tommy/dsh-skill-mini-manager) - Minimal skill manager for DeepSeek Harness Web Settings: lists installed skills with summaries, sources and disk usage, and moves eligible filesystem skills to a recoverable trash while protecting bundled and system skills.
 
 
+- [01men/DeptAI-UI-DSH](https://github.com/01men/DeptAI-UI-DSH) - Collaboration front-office for AI agents and humans: department boards, tickets, approvals and industry calculations run inside the DSH conversation and panel, so agents do the work in chat while humans stay accountable in the panel. It calls the 01men/ybkkasi governance base over existing contracts instead of re-implementing governance.
+
 ## Dashboards & Session UX
 - [dsh-workspace-mover](https://github.com/PianoPrince/dsh-workspace-mover) - True in-place migration of sessions across workspaces: drag-and-drop, bulk/group merge, orphan rescue panel, workspace repoint wizard, recycle bin with restore, byte-level backup with stepwise rollback and post-move verification, plus dsh-tools agent tools (npm: dsh-workspace-mover).
 
@@ -674,6 +676,8 @@ Management panel: Settings → Plugins.
 
 - [weibaohui/user-management](https://github.com/weibaohui/user-management) - HTTPS login gateway for the DSH web UI with user/role management, TOTP and audit logs. The first registrant becomes admin: bootstrap on a trusted network before external exposure and keep the upstream DSH server on loopback.
 - [Ox0400/dsh-vault](https://github.com/Ox0400/dsh-vault) - Encrypted local credentials vault for dsh: a web settings page and vault_* tools for passwords, API keys, TOTP secrets and cards, with health audits, expiry rotation, imports/exports and read-only/ask access modes.
+
+- [01men/ybkkasi](https://github.com/01men/ybkkasi) - Enterprise AI asset governance: registers MCP servers, skills, agents, AI apps, model channels, SaaS connectors and NAS storage in one self-hosted ledger with lifecycle state machines, per-tool RBAC, department x agent x skill cost attribution, dependency topology and an append-only audit trail.
 
 ## Output & Deliverables
 
