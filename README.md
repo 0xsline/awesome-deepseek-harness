@@ -98,6 +98,7 @@ Management panel: Settings → Plugins.
 
 ## Agents & Orchestration
 
+- [linxule/kimi-plugin-cc](https://github.com/linxule/kimi-plugin-cc) - All seven Kimi ask/review/challenge/rescue/pursue/swarm/swarm-write providers through the local Kimi Code CLI, with managed hooks, jobs, budgets, and artifacts; also supports Claude Code and Codex.
 - [dsh-jev-plugin](https://github.com/luobosibing2/dsh-jev-plugin) - Opt-in Jev/Luna decision layer for DeepSeek Harness: skill and file selection, task supervision, tool-output filtering, approval assistance and recorded-stage navigation; features are disabled by default.
 - [dsh-jev-preset](https://github.com/Yum-wu/dsh-jev-preset) - JEV agent preset bundle with prompt-guided task routing, cross-verification and quantitative checklists.
 - [dsh-task-supervisor](https://github.com/gosomea/dsh-task-supervisor) - Persistent task supervision with plan coverage review, DAG progress, sidebar consultation, and stage/completion checks; npm development preview.
