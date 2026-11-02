@@ -527,6 +527,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-codex-oauth](https://github.com/WNJXYK/dsh-codex-oauth) - DSH 的 ChatGPT/Codex 订阅接入插件，支持 GPT 模型、图像生成、Web 搜索、额度显示，以及浏览器/设备码 OAuth 登录。
 - [dsh-qwen-token-plan-cn-responses](https://github.com/nickhelion/dsh-plugins/tree/main/packages/qwen-token-plan-cn-responses) - 千问 Token Plan 个人版 Responses API 模型提供方：同步官方模型与逐模型内置工具文档，支持 DSH 本地函数和图片，并保留校验过的最近可用目录。
 - [dsh-codex-subscription](https://github.com/WSL043/dsh-codex-subscription) - DSH 的 ChatGPT OAuth 模型提供方，支持 Codex 模型、图像生成、可切换的订阅搜索、普通与 Spark 额度显示和原生设置页面。
+- [dsh-opencode-go](https://github.com/Duskriver/dsh-opencode-go) - OpenCode Go 模型接入与多账号管理：最多 20 个账号、出词前自动切换、稳定会话路由、会话内订阅额度、本地 Token 用量与费用估算，以及上下文窗口、输出上限和思考预算配置。
 - [dsh-vision](https://github.com/dsh-external/dsh-vision) - 视觉桥接：view_image 工具接任意 OpenAI 兼容 VLM（默认智谱免费档）
 - [DeepSee](https://github.com/windyslime/DeepSee) - DSH `0.1.0-rc.5` Web 配置的视觉推理网关：把图片轮次路由到本地可插拔的 VLM 后端，常规 DSH 文本路由不受影响。
 - [dsh-plugin-vision](https://github.com/tdf1995/dsh-plugin-vision) - 为纯文本大模型提供视觉能力：通过免费的 Gemini / GLM 视觉 API 完成图像描述、OCR 与视觉问答
