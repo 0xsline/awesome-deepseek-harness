@@ -784,6 +784,8 @@ Management panel: Settings → Plugins.
 - [weibaohui/dsh-ambient](https://github.com/weibaohui/dsh-ambient) - Ambient-audio player with a local sound library, sequential, shuffle, single-loop and intermittent playback, a sleep timer, and optional AI-assisted audio downloads.
 
 
+- [dsh-game-market](https://github.com/heswy/dsh-game-market) - DSH game market and runtime: games fill the main workspace while the agent runs long tasks, a whale in the corner shows agent status, and progress auto-saves and resumes; 5 built-in games with a game SDK/CLI and community catalog.
+
 ## Plugin Ecosystem & Development
 
 - [ymck-x/dsh-plugin-index](https://github.com/ymck-x/dsh-plugin-index) - In-DSH plugin index: lists over 10,000 third-party plugins checked against the `dsh.bundle` manifest in their `package.json`, with one-click install and a companion website.
