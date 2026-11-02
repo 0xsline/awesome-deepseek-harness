@@ -851,6 +851,7 @@ Management panel: Settings → Plugins.
 - [weibaohui/dsh-fde-tools](https://github.com/weibaohui/dsh-fde-tools) - FDE toolbox bundle: installing this one plugin pulls in a curated set of common dsh plugins (Git server, WebDAV mount, knowledge base, scheduled tasks, auto-resume, UI tweaks, auto-retrospection, file manager, smart titles, task board, plugin market, context trimmer, IM bridge, sidebar enhancements), with a panel showing install status and one-click gap-filling.
 - [dsh-autocompose](https://github.com/Han-1413141/dsh-autocompose) - Find and compose DSH plugins from a task description, then open an independent chat environment or install the plan into the current profile.
 - [dsh-pnpm-build-control](https://github.com/Han-1413141/dsh-pnpm-build-control) - Manage pnpm build-script approval across all DSH profiles, including an option to allow every dependency build script, and repair same-Git-URL updates on DSH 0.2.0-rc.2.
+- [zuwenyin/dsh-plugin-upgrader](https://github.com/zuwenyin/dsh-plugin-upgrader) - Versions tab on the Plugins page: upgrades every upgradable plugin or a multi-selected subset in place without uninstalling, lists a plugin's published versions and switches to any one of them, and changes the install source from the page.
 
 ## Runtime & Operations
 
