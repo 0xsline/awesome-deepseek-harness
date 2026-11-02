@@ -101,6 +101,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-jev-preset](https://github.com/Yum-wu/dsh-jev-preset) - JEV 智能体预设包，通过提示词引导任务分流、交叉验证与量化检查。
 - [dsh-task-supervisor](https://github.com/gosomea/dsh-task-supervisor) - 持久任务督导：计划覆盖审查、DAG 进度、侧栏督导对话与阶段／完成验收；npm 开发预览版。
 - [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) - 多智能体团队编排：舰长式会话搭配可持久化的子代理团队，支持角色分配与任务协同执行。
+- [dsh-plugin-project-mode](https://github.com/Burns1028/dsh-plugin-project-mode) - Coordinator 持续协调可复用 Worker 会话，自动回传结果并维护共享项目上下文；rc.3 预览，需要三个兼容补丁。
 - [dsh-todo-guard](https://github.com/a903067276-rgb/dsh-todo-guard) - 重启后仍可恢复的 Todo 面板：通过 projection 预热恢复显示，并以「已验证 / 已拦截 / 未验证」三态核验完成证据，可在设置中切回官方行为。
 - [fakechris/dsh-track](https://github.com/fakechris/dsh-track) - 嵌入式任务管理引擎：决策点协议、念头捕获墙、Linear 形 issue 存储，证据驱动生命周期。
 - [dsh-dual-model-eval](https://github.com/huangdaxianer/dsh-dual-model-eval) - 把一个编码需求并发发送给多个已配置模型，在隔离的 Git worktree 中运行并并排展示工具轨迹与结果，再把用户采纳的候选提交为后续轮次基线。
