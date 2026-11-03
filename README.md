@@ -999,6 +999,7 @@ Management panel: Settings → Plugins.
 
 - [dsh-external/issues](https://github.com/dsh-external/issues) - Issue aggregation hub.
 - [dsh-meme-hub](https://github.com/the-beating-light-of-the-nail/dsh-meme-hub) - Curated navigation of community meme plugins (skins, desktop pets, mini-games), bilingual.
+- [awesome-whale-girl](https://github.com/wytyKen/awesome-whale-girl) - Curated list for the DeepSeek whale girl (蓝色大肥鱼) ecosystem: assets, personas, memory, QQ / WeChat / Bilibili integrations, desktop pets and voice, bilingual.
 - [DeepSeek Harness Handbook](https://github.com/sandbaseai/deepseek-harness-handbook) - 173 English-canonical, source-backed guides with 202 localized documents, an 82-resource Agent-first [Awesome resource map](https://sandbaseai.github.io/deepseek-harness-handbook/awesome-deepseek-harness-resources.html), local-browser [Install Doctor](https://sandbaseai.github.io/deepseek-harness-handbook/install-doctor.html), and [Failure Router](https://sandbaseai.github.io/deepseek-harness-handbook/diagnose.html).
 - [DeepSeek Harness Anatomy](https://github.com/ChenYu1991ppak/deepseek-harness-anatomy) - 17-chapter progressive source-study tutorial deconstructing the DSH engineering skeleton, from minimal agent loop to end-to-end multi-agent system, with runnable Python teaching code per chapter.
 - [OrcaPromptVault](https://github.com/Continuum-AI-Corp/OrcaPromptVault) - Dated archive of captured and reported system prompts and tool schemas from AI harnesses, including a DSH prompt capture.
