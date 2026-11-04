@@ -900,6 +900,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-compat-guardian](https://github.com/Han-1413141/dsh-compat-guardian) - 检查 DSH 插件冲突与加载故障，隔离和恢复受影响的插件，并在宿主无法启动时提供离线修复。
 - [dsh-wsl-native](https://github.com/Han-1413141/dsh-wsl-native) - 在同一个 Windows 窗口中使用 Windows 与原生 Linux DSH 会话，支持环境切换和双向系统操作；需要 WSL 2 及两端的 Node.js。
 - [skyjjgw/dsh-version-guard](https://github.com/skyjjgw/dsh-version-guard) - 记录插件版本与 profile 配置快照，在 DSH 无法启动时通过独立恢复页回退到已知可用配置。
+- [tagayamajin/dsh-backup-skill](https://github.com/tagayamajin/dsh-backup-skill) - DSH 技能（非插件）：把插件、profile、插件配置、离线 node_modules 与历史会话打包成一个迁移包（内含同版本安装包），并在新机恢复时校验依赖、改写 `.modules.yaml` 路径、检测恢复期间 DSH 被重启——DSH 无法启动时同样可用。
 
 ## Domain & Specialist Skills
 
