@@ -956,6 +956,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-spc-gbt-adapter](https://github.com/PerryLink/dsh-spc-gbt-adapter) - 控制图台账核对：按控制图常数表重算控制限并交叉核对 Cp/Cpk，只就台账自身的算术与常数表一致性提示差异（规则包采用 GB/T 17989.2—2020，该标准替代已废止的 GB/T 4091—2001）。
 - [dsh-customs-doc-check](https://github.com/PerryLink/dsh-customs-doc-check) - 报关配套单证台账核对：按可配置规则提示商品编码与币制格式不符、单证号重复及毛重与净重不一致，仅报告差异，不作合规认定。
 ## Tools & Utilities
+- [dsh-skills-tools](https://github.com/hxlog/dsh-skills-tools) - DSH 设置内的 Skills 管理器：从 Git 仓库导入 Agent Skills，按仓库分组管理，逐项启用或停用，并可展开查看 SKILL.md 正文；停用的技能不会注册进模型。
 
 - [dsh-system1](https://github.com/exoticknight/dsh-system1) - 为 DeepSeek Harness 插件提供类型化的 System One 判断服务和智能体工具，支持是非判断、分类和评分。
 - [dsh-plugin-codemode](https://github.com/Yum-wu/dsh-plugin-codemode) - 通过 Node.js VM 或 QuickJS WebAssembly 后端，用 JavaScript 编排 DeepSeek Harness 工具调用。
