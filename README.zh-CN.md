@@ -957,7 +957,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-customs-doc-check](https://github.com/PerryLink/dsh-customs-doc-check) - 报关配套单证台账核对：按可配置规则提示商品编码与币制格式不符、单证号重复及毛重与净重不一致，仅报告差异，不作合规认定。
 ## Tools & Utilities
 
-- [dsh-system1](https://github.com/exoticknight/dsh-system1) - 通过统一接口接入 TypeSafe/Jev、Cloudflare/Clef、Nace/Drex、本地 Laya 与自定义决策提供商，支持 Agent 和插件进行分类、筛选、评分与图片目标定位，并返回结构化结果。
+- [dsh-system1](https://github.com/exoticknight/dsh-system1) - 用同一接口接入多种决策提供商与模型：在线可选 TypeSafe 提供的 Jev、Cloudflare 提供的 Clef、Nace 提供的 Drex、meraGPT 提供的 Decider 1；本地可连接 Laya，也支持兼容的自定义 provider。Agent 和插件可用它进行内容分类、候选筛选、按标准评分或图片定位，再用结构化结果继续自己的流程。
 - [dsh-plugin-codemode](https://github.com/Yum-wu/dsh-plugin-codemode) - 通过 Node.js VM 或 QuickJS WebAssembly 后端，用 JavaScript 编排 DeepSeek Harness 工具调用。
 
 - [dsh-tray](https://github.com/liulifu/dsh-tray) - Windows 系统托盘守护工具：启动/停止/重启 DSH 服务，支持多 profile 端口绑定、快照式快速恢复、插件启停、SQLite 版本台账，以及自动发现加载失败插件后禁用并恢复 DSH 的客户端哨兵。
