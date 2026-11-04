@@ -641,6 +641,7 @@ Management panel: Settings → Plugins.
 
 ## Security & Governance
 
+- [xqpsec/dsh-jailbreak](https://github.com/xqpsec/dsh-jailbreak) - Request-boundary rewriter for outbound `/chat/completions`: applies a seed-prim execution-state seed across 20 refusal categories, zero host patches, off means verbatim passthrough, optional SCOPE gate, manifest + promptSha256 per rewrite.
 - [zoahdev/dsh-dep-audit](https://github.com/zoahdev/dsh-dep-audit) - Dependency supply-chain hygiene audit: peer-range resolvability, broken dist-tag detection (#2763 class), stale/missing-license/non-registry deps, and installed-vs-declared drift (CLI + `dep_audit` tool).
 - [zoahdev/dsh-poison-guard](https://github.com/zoahdev/dsh-poison-guard) - Pre-install supply-chain poison scanner for DSH plugins: AST (JS-X-Ray) + deobfuscation decoder + regex heuristics; exits non-zero on findings for CI gating.
 - [dsh-vet](https://github.com/rogerdigital/dsh-vet) - Pre-install static audits for npm-installable DSH plugins; emits and validates the open `dsh-vet/v1` report with severity, confidence, evidence, derived grades, a CI Action, and auditable badges.
