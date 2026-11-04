@@ -231,6 +231,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [loci-dsh](https://github.com/IvenKooLab/loci-dsh) - loci 第二大脑侧边栏标签页：在本地 loci 知识库上做混合检索、带引用问答、按天分组的记忆浏览与快速记录；以同源代理 `loci serve-http` 的方式挂进 dsh-better-sidebar，无需改内核。
 - [dsh-statecore](https://github.com/yul761/dsh-statecore) - 基于 StateCore 的可审计项目记忆：自动摄入消息，每步 pre-step 注入预算内的记忆摘要（compaction 后自动重新注入）；五个原生工具 remember/recall/facts/why/forget，附证据链与历史版本链，嵌入式 SQLite，可经 `statecore-mcp` 供 MCP 客户端读取。
 
+- [DocsMint](https://github.com/HiAi-gg/dsh-docsmint) - DocsMint 工作区面板与智能体工具，支持文档搜索、读取、创建和更新，可连接 Cloud OAuth 或自托管 API 密钥。
 
 ## Input & Editing
 
