@@ -642,7 +642,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-gh-bridge](https://github.com/dsh-external/dsh-gh-bridge) - macOS Keychain GitHub token 桥入 sandbox gh
 - [dsh-tool-github](https://github.com/NEAZ71eve/dsh-tool-github) - GitHub REST API 工具 + 浏览器侧边栏面板：仓库/搜索/Issue/PR/评论、账号绑定与一键工作区集成。
 - [dsh-atomgit](https://github.com/xiongjiamu/dsh-atomgit) - AtomGit 插件 bundle：内置 atomgit-skills 工作流（规划/实现/审查/合并 Issue 与 PR）、ag CLI 与平台托管的 GitCode MCP 工具
-- [deepseek-harness-action](https://github.com/Lixiaoyiao/deepseek-harness-action) - 在 GitHub 中运行 DeepSeek Harness，用于 PR 审查、CI 诊断、受信任修复和 Issue → PR。
+- [DSH-action](https://github.com/Lixiaoyiao/DSH-action) - 在 GitHub 中运行 DeepSeek Harness，用于 PR 审查、CI 诊断、受信任修复和 Issue → PR。
 - [duyanta123/dsh-refactor-insight](https://github.com/duyanta123/dsh-refactor-insight) - 重构入口诊断：把代码库坏味道（超长文件/深嵌套/超长函数/上帝对象）转成带定位、优先级与依赖顺序的重构计划（只读不自动改码）。
 - [dsh-auto-blame](https://github.com/dsh-external/dsh-auto-blame) - 自动 blame
 - [dsh-bash-rtk](https://github.com/DeepTrial/dsh-bash-rtk) - 在 DSH bash 执行器内把符合条件的 bash 命令路由给 rtk（Rust Token Killer）以压缩工具输出、节省 token；rtk 缺失时安全透传。
@@ -733,6 +733,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [kenryu42/cc-safety-net](https://github.com/kenryu42/cc-safety-net) - 执行前守卫，在工具调用运行前拦截破坏性 Git 与文件系统命令，以及对 SSH 密钥、.env 等机密文件的访问。
 
 - [01men/ybkkasi](https://github.com/01men/ybkkasi) - 企业 AI 资产治理：把 MCP 服务、Skill、Agent、AI 应用、模型渠道、SaaS 连接器与 NAS 存储登记进同一套自托管台账，带生命周期状态机、逐工具 RBAC、部门 x Agent x Skill 三维成本归因、依赖拓扑与可追加审计日志。
+- [SteelUnion/dsh-confirm-gate](https://github.com/SteelUnion/dsh-confirm-gate) - 持久化操作的逐轮计数器：先提醒模型，再在继续之前停下来询问；只读操作不计入。
 
 ## Output & Deliverables
 
@@ -804,6 +805,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-reach](https://github.com/PerryLink/dsh-reach) - DSH 多渠道审批/提问桥：把审批卡与提问卡推送到 IM 渠道（微信、Telegram、飞书）并在聊天中作答，带逐渠道安全、会话控制台与开放推送服务。
 - [dsh-later](https://github.com/dsh-plugin-collection/dsh-later) - 会话内定时发送与定时提醒：/later 到点以你本人身份发出你正在输入的内容，定时面板与 /schedule 则送出一条「定时提醒 · HH:MM」提醒行；调度跑在服务端，关掉网页照样准时触发。
 - [dsh-plugin-call-me](https://github.com/radres/dsh-plugin-call-me) - 通过 /call-me iPhone 应用在运行需要回答时给用户的手机打电话：Agent 把问题读出来，用户口头回答，回答以文字形式回到运行中。该应用为付费订阅。
+- [SteelUnion/dsh-softsensor-hub](https://github.com/SteelUnion/dsh-softsensor-hub) - DSH 事件中枢：采集器产生事件，规则将其分级为 critical/warn/info，存储层留存供事后查看；自身从不代为执行。
+- [SteelUnion/dsh-wechat-queue](https://github.com/SteelUnion/dsh-wechat-queue) - 带持久化串行队列的微信通道：消息先落盘，每次只回一条，未完成的工作可在重启后继续。
 
 ## Fun & Lifestyle
 

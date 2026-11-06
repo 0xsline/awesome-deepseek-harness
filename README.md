@@ -649,7 +649,7 @@ Management panel: Settings → Plugins.
 - [dsh-gh-bridge](https://github.com/dsh-external/dsh-gh-bridge) - Bridge macOS Keychain GitHub token into sandboxed gh.
 - [dsh-tool-github](https://github.com/NEAZ71eve/dsh-tool-github) - GitHub REST API tools + browser sidebar panel: repos, search, issues, PRs, comments, account binding, and one-click workspace integration.
 - [dsh-atomgit](https://github.com/xiongjiamu/dsh-atomgit) - AtomGit plugin bundle for DeepSeek Harness: atomgit-skills workflows (plan/implement/review/merge issues & PRs), ag CLI, and platform-hosted GitCode MCP tools.
-- [deepseek-harness-action](https://github.com/Lixiaoyiao/deepseek-harness-action) - GitHub Action that runs DeepSeek Harness for pull request review, CI diagnosis, trusted fixes, and issue-to-PR implementation.
+- [DSH-action](https://github.com/Lixiaoyiao/DSH-action) - GitHub Action that runs DeepSeek Harness for pull request review, CI diagnosis, trusted fixes, and issue-to-PR implementation.
 - [duyanta123/dsh-refactor-insight](https://github.com/duyanta123/dsh-refactor-insight) - Turn codebase smells into an executable, priority-ordered refactoring plan: file-length / deep-nesting / function-length / god-object heuristics plus a staged runbook (read-only, no auto-rewrite).
 - [dsh-auto-blame](https://github.com/dsh-external/dsh-auto-blame) - Auto blame.
 - [dsh-bash-rtk](https://github.com/DeepTrial/dsh-bash-rtk) - Routes eligible bash commands through rtk (Rust Token Killer) inside the DSH bash executor to compress tool output and save tokens; safe passthrough when rtk is absent.
@@ -735,6 +735,7 @@ Management panel: Settings → Plugins.
 - [kenryu42/cc-safety-net](https://github.com/kenryu42/cc-safety-net) - Pre-execution guard that blocks destructive Git and filesystem commands and access to secrets such as SSH keys and .env files before a tool call runs.
 
 - [01men/ybkkasi](https://github.com/01men/ybkkasi) - Enterprise AI asset governance: registers MCP servers, skills, agents, AI apps, model channels, SaaS connectors and NAS storage in one self-hosted ledger with lifecycle state machines, per-tool RBAC, department x agent x skill cost attribution, dependency topology and an append-only audit trail.
+- [SteelUnion/dsh-confirm-gate](https://github.com/SteelUnion/dsh-confirm-gate) - Per-turn counter for persistent operations: it reminds the model, then stops and asks before going further. Read-only actions are not counted.
 
 ## Output & Deliverables
 
@@ -805,6 +806,8 @@ Management panel: Settings → Plugins.
 - [dsh-reach](https://github.com/PerryLink/dsh-reach) - Multi-channel approval and question bridge for DSH: pushes approval and question cards to IM channels (WeChat, Telegram, Feishu) and answers them from chat, with per-channel security, a session console, and an open push service.
 - [dsh-later](https://github.com/dsh-plugin-collection/dsh-later) - In-session scheduled sends and reminders: /later delivers what you are typing later as yourself, the schedule panel and /schedule post a Reminder · HH:MM row instead, and server-side scheduling fires with the page closed.
 - [dsh-plugin-call-me](https://github.com/radres/dsh-plugin-call-me) - Rings the user's phone through the /call-me iPhone app when a run needs an answer: the agent asks out loud and the spoken reply goes back into the run as text. The app is a paid subscription.
+- [SteelUnion/dsh-softsensor-hub](https://github.com/SteelUnion/dsh-softsensor-hub) - Event hub for DSH: collectors produce events, rules rank them into critical/warn/info, and the store keeps them for later review. It never acts on its own.
+- [SteelUnion/dsh-wechat-queue](https://github.com/SteelUnion/dsh-wechat-queue) - WeChat channel with a durable serial queue: messages land on disk first, one reply at a time, and unfinished work survives a restart.
 
 ## Fun & Lifestyle
 

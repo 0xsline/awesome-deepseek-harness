@@ -1151,7 +1151,7 @@ TOPIC_MANUAL = {
     "LingLambda/dsh-undo": "记忆与上下文",
     "LingyeSoul/dsh-rider": "浏览器与远程",
     "Liu-ty/dsh-balance-display": "成本与用量",
-    "Lixiaoyiao/deepseek-harness-action": "开发与工程",
+    "Lixiaoyiao/DSH-action": "开发与工程",
     "LnsiAxe/dsh-web-restart": "开发与工程",
     "LoftyTao/dsh-ui-workbench": "界面与体验",
     "Loong-wql/Build-HOS-mcp": "开发与工程",
