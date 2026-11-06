@@ -266,6 +266,7 @@ Management panel: Settings → Plugins.
 - [dsh-file-uploads](https://github.com/l541402398/dsh-file-uploads) - Upload arbitrary local files from the Web composer, show pending cards, and manage stored files in Settings.
 - [dsh-postman](https://github.com/zhousun55-byte/dsh-postman) - Composer upload of files and folders: images attach as real message blocks, text goes into the draft, folders stored by directory structure.
 - [dsh-input-history](https://github.com/dsh-external/dsh-input-history) - Input history.
+- [dsh-atlas](https://github.com/jameswatt139240-crypto/dsh-ATLAS) - Extends the composer `@` menu past the built-in sources: line ranges (`@src/a.ts:12-40`), skills, plugins and any git repo, with the token cost of each reference shown before you send.
 - [dsh-multimedia-webui-input](https://github.com/dsh-external/dsh-multimedia-webui-input) - Multimedia file/folder input.
 - [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) - Import full-fidelity conversation histories from 13 coding agents (Claude Code / Codex / ChatGPT / Cursor / Gemini / Reasonix / opencode / ZCode / Grok Build / OpenClaw / Pi / Hermes / Kimi) as resumable DeepSeek Harness sessions, with reverse export/sync back to Claude Code.
 - [dsh-file-claim](https://github.com/Nwflower/dsh-file-claim) - File claim/release protection for parallel DSH sessions on the same workspace (heartbeat stale takeover, pending 3-way merge area).
