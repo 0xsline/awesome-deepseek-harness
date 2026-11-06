@@ -389,6 +389,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-session-cluster](https://github.com/dsh-external/dsh-session-cluster) - 会话聚类
 - [session-chatlog](https://github.com/dsh-external/session-chatlog) - 会话聊天记录
 - [dsh-session-archive](https://github.com/lbh1nb/dsh-plugins/tree/main/packages/dsh-session-archive) - 设置页查看归档会话并两步确认永久删除死会话（运行中会话锁定）。
+- [dsh-session-backup](https://github.com/overspread/dsh-session-backup) - Web GUI 删除会话前自动备份到 `~/.dsh/backups/sessions/<id>/<时间戳>-<标题>/`；会话列表多选后可批量备份、批量删除；备份一键恢复并自动重新挂回原工作区，重新出现在侧边栏（npm: dsh-session-backup）。
 - [dsh-plugin-no-workspace](https://github.com/SpookySandwich/dsh-plugin-no-workspace) - 独立的无工作区会话，支持无损解绑并直接显示为侧边栏一级项，不替换 DSH 原生工作区界面（npm 包：dsh-plugin-no-workspace）。
 - [dsh-office](https://github.com/dsh-external/dsh-office) - Office 文件读写 bundle：模型读写 Office 文件，docx/pdf 预览
 - [dsh-token-pet](https://github.com/pk7j7sqryy-ops/dsh-token-pet) - 会话头部卡通用量小部件：实时上下文占用、会话累计与构成，附日期周几、天气、3 天预报与极端天气预警，跟随主题色。
