@@ -371,7 +371,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-ui-hub](https://github.com/Han-1413141/dsh-ui-hub) - 搜索、显示、隐藏、移动、缩放和排布 DSH Desktop 与 Web 中的插件控件，支持布局备份、恢复与撤销。
 - [zhao-guang-ai/dsh-quote-annotate-pro](https://github.com/zhao-guang-ai/dsh-quote-annotate-pro) - 划词批注与引用锚点：支持跳回原文、在发送的引用中标明轮次与角色，并将锚点保存到 localStorage；默认启用向 localhost 发送诊断请求。
 - [dsh-skill-mini-manager](https://github.com/runcat-tommy/dsh-skill-mini-manager) - DSH Web 设置中的极简 skill 管理器：列出已安装技能的简介、来源与磁盘占用，将符合移除条件的文件型技能移入可恢复的回收站，并保护内置和系统技能。
-- [dsh-better-left-sidebar](https://github.com/exoticknight/dsh-better-left-sidebar) - 更清爽、更合理的 DeepSeek Harness 左边栏，支持插件自定义多个小组件。
+- [dsh-better-left-sidebar](https://github.com/exoticknight/dsh-better-left-sidebar) - 分区更清晰的 DeepSeek Harness 左侧栏，内置时钟、余额等小组件。
 
 - [01men/DeptAI-UI-DSH](https://github.com/01men/DeptAI-UI-DSH) - AI 代理与人类的协作前台：部门看板、工单、审批与行业计算都在 DSH 会话与面板里完成，代理在对话里干活，人在面板里负责；通过既有契约调用 01men/ybkkasi 治理底座，不重复实现治理。
 - [dsh-mindmap-live](https://github.com/SSShooter/dsh-mindmap-live) - DSH Web 实时双向思维导图：Agent 与用户共编同一棵树，改动即时互相同步，支持停靠分屏与全屏两种视图。
