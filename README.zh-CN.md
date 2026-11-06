@@ -636,6 +636,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Security & Governance
 
+- [shinji00222/dsh-incognito-chat](https://github.com/shinji00222/dsh-incognito-chat) - 为 DSH 添加内存无痕对话开关；桌面附件使用临时存储。
 - [zoahdev/dsh-dep-audit](https://github.com/zoahdev/dsh-dep-audit) - 依赖供应链卫生审计：peer 范围可解析性、坏 dist-tag 检测（#2763 类）、过期/缺许可证/非注册表来源依赖与安装版本漂移（CLI + `dep_audit` 工具）。
 - [zoahdev/dsh-poison-guard](https://github.com/zoahdev/dsh-poison-guard) - DSH 插件安装前投毒扫描：AST（JS-X-Ray）+ 去混淆解码 + 正则启发式，拦截凭据外泄、动态执行、混淆导入与安装脚本；发现即非零退出，可作 CI 门禁。
 - [dsh-vet](https://github.com/rogerdigital/dsh-vet) - 在安装前静态审计可通过 npm 获取的 DSH 插件；生成并校验开放的 `dsh-vet/v1` 报告，包含严重性、置信度、证据、派生评级、CI Action 和可审计徽章。
