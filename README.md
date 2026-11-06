@@ -614,6 +614,7 @@ Management panel: Settings → Plugins.
 - [du-yuxuan/OneKey-Models](https://github.com/du-yuxuan/OneKey-Models) - TokenDance gateway integration with OAuth PKCE sign-in, DSH credential-store support, live model discovery, per-model visibility, image generation and multimodal input.
 - [dsh-subagent-custom](https://github.com/xingzhen199186/dsh-subagent-custom) - Subagent model control: a Jev classifier labels each turn, and the subagent's own request is rewritten to the provider, model and reasoning effort that label maps to; per-session inherit/auto/manual selection, one prompt per role injected ahead of the task, and a ledger of recent dispatches.
 - [dsh-model-tidy](https://github.com/star-Cosmo/dsh-model-tidy) - Keeps the DSH model selector tidy: hide models, rename models and channels while preserving the provider billing suffix, and reorder both with arrows. Display-only; never rewrites provider configuration.
+- [cursor-to-dsh](https://github.com/lukeinx/cursor-to-dsh) - Cursor models as the `cursor` LLM provider through the official `@cursor/sdk` and your own API key: live model catalog and reasoning efforts, one Cursor agent per DSH session sending only new content, Cursor built-in tools off and DSH tools executed by DSH within the same Cursor run.
 
 ## Git & Engineering
 

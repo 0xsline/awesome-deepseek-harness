@@ -605,6 +605,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [du-yuxuan/OneKey-Models](https://github.com/du-yuxuan/OneKey-Models) - 接入 TokenDance 聚合网关，支持 OAuth PKCE 登录、DSH 凭据库存储、实时模型发现、逐模型显隐、生图与多模态输入。
 - [dsh-subagent-custom](https://github.com/xingzhen199186/dsh-subagent-custom) - 子代理模型管控：由 Jev 判定本轮任务类别，再把子代理自身的请求改写为该类别对应的 provider、model 与推理强度；会话内可用继承/自动/手动三种方式指定模型，每个角色可带一条先于任务注入的前置提示词，并记录最近的派发流水。
 - [dsh-model-tidy](https://github.com/star-Cosmo/dsh-model-tidy) - DSH 模型整理：隐藏用不到的模型，给模型和渠道改备注名（保留厂商计费后缀），用箭头调整模型与渠道排序。只改显示，不重写渠道配置。
+- [cursor-to-dsh](https://github.com/lukeinx/cursor-to-dsh) - 通过官方 `@cursor/sdk` 和自己的 API Key，把 Cursor 模型注册为 DSH 的 `cursor` 提供方：实时模型目录与推理强度，每个 DSH 会话复用一个 Cursor agent 只发新增内容，Cursor 内置工具关闭，工具由 DSH 执行并在同一个 Cursor run 里继续。
 
 ## Git & Engineering
 
