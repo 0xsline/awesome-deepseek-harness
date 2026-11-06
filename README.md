@@ -467,6 +467,7 @@ Management panel: Settings → Plugins.
 - [olimc2016/dsh-token-meter-panel](https://github.com/olimc2016/dsh-token-meter-panel) - Sidebar panel for token usage and cost: today's spend, budget progress, 7/30-day trends, cost breakdown, cache-hit savings, and per-session breakdown.
 - [dsh-maze](https://github.com/lamost423/dsh-maze) - Execution maze for agent sessions: main path, detours and backtracks on one timeline, per-step data tracks (tools, tokens, context pressure), deterministic analysis (outcome evidence, behavior signals) and multi-session comparison.
 - [westtrade/dsh-project-cost](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-project-cost) - Project spend meter: money spent per workspace directory from session token usage, priced against the routerai.ru public model catalog, with workspace badges and a costs panel.
+- [answertsundere/dsh-canvas-plugin](https://github.com/answertsundere/dsh-canvas-plugin) - Conversation-branch canvas: full-bleed session lineage graph, fork from any message, parallel runs with live streaming, deterministic branch comparison, and a per-session agent swarm web view.
 ## IDE & Clients
 
 - [Minke](https://github.com/lencx/Minke) - Desktop agent workspace for DeepSeek Harness on macOS, Windows, and Linux, with shared browser control, integrated files and terminals, remote access, and local model management.

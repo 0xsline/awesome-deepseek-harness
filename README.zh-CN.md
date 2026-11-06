@@ -466,6 +466,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [olimc2016/dsh-token-meter-panel](https://github.com/olimc2016/dsh-token-meter-panel) - 侧边栏 Token 用量与花费面板：今日消费、预算进度、7/30 天趋势、成本构成、缓存命中节省与按会话拆分。
 - [dsh-maze](https://github.com/lamost423/dsh-maze) - 执行迷宫：把一场会话的主干路径、折返与失败支路画在同一根时间轴上，配逐步数据轨道（工具、Token、上下文压力）、确定性分析（结果与证据、行为信号）与多会话对比。
 - [westtrade/dsh-project-cost](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-project-cost) - 项目花费统计：按会话 token 用量和 routerai.ru 公开模型价格计算每个工作区目录的支出，带工作区徽标与费用面板。
+- [answertsundere/dsh-canvas-plugin](https://github.com/answertsundere/dsh-canvas-plugin) - 会话分支画布：全幅血缘图、任意消息分叉、并行分支实时流式、确定性对比，以及每会话的 Agent 实况蛛网视图。
 ## IDE & Clients
 
 - [Minke](https://github.com/lencx/Minke) - 基于 DeepSeek Harness 的桌面 Agent 工作区，支持 macOS、Windows 和 Linux，提供人机共享浏览器控制、集成文件与终端、远程访问和本地模型管理。
