@@ -967,6 +967,7 @@ Management panel: Settings → Plugins.
 - [dsh-wsl-native](https://github.com/Han-1413141/dsh-wsl-native) - Use Windows and native Linux DSH sessions in one Windows window, with environment switching and bidirectional system tools; requires WSL 2 and Node.js on both systems.
 - [skyjjgw/dsh-version-guard](https://github.com/skyjjgw/dsh-version-guard) - Snapshots plugin versions and profile configuration, with an independent recovery page to restore a known-good configuration when DSH cannot start.
 - [tagayamajin/dsh-backup-skill](https://github.com/tagayamajin/dsh-backup-skill) - A DSH skill (not a plugin) that packs plugins, profiles, plugin settings, offline node_modules and chat history into one migration kit with the same-version installer, then restores a fresh machine with dependency verification, `.modules.yaml` path rewriting and mid-restore restart detection — usable even when DSH itself cannot boot.
+- [maple564/dsh-on-android](https://github.com/maple564/dsh-on-android) - Run `dsh web` inside an Android PRoot/Alpine sandbox (musl, aarch64): one-command install, `dsh-go` launcher, and fixes for the glibc-prebuilt `node-pty`, `--expose-internals` inside `NODE_OPTIONS`, bootstrap-only `DSH_PERMISSION_MODE`, and the missing workspace-write backend; registers a phone mount directory (`/var/minis/mounts/Documents/...`) as the workspace so the harness reads and writes real phone files.
 
 ## Domain & Specialist Skills
 
