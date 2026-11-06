@@ -234,6 +234,7 @@ Management panel: Settings → Plugins.
 - [loci-dsh](https://github.com/IvenKooLab/loci-dsh) - loci second-brain sidebar tab: hybrid search, cited Q&A, day-grouped memory browsing and quick capture over a local loci knowledge base; proxies `loci serve-http` same-origin from dsh-better-sidebar, no core fork.
 - [dsh-statecore](https://github.com/yul761/dsh-statecore) - Auditable project memory powered by StateCore: auto-ingests messages and injects a budgeted memory digest on each pre-step (re-injected after compaction); five native tools (remember/recall/facts/why/forget) with evidence and supersession chains, embedded SQLite, and MCP access via `statecore-mcp`.
 
+- [DocsMint](https://github.com/HiAi-gg/dsh-docsmint) - DocsMint workspace panel and agent tools for document search, reading, creation and updates through Cloud OAuth or self-hosted API keys.
 
 ## Input & Editing
 
