@@ -770,6 +770,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-wechat](https://github.com/PerryLink/dsh-wechat) - DSH 的单用户微信桥接，支持文本、图片、文件与音视频双向传输，以及聊天内审批与提问卡；首个发消息的对端绑定为用户。
 - [dsh-reach](https://github.com/PerryLink/dsh-reach) - DSH 多渠道审批/提问桥：把审批卡与提问卡推送到 IM 渠道（微信、Telegram、飞书）并在聊天中作答，带逐渠道安全、会话控制台与开放推送服务。
 - [dsh-later](https://github.com/dsh-plugin-collection/dsh-later) - 会话内定时发送与定时提醒：/later 到点以你本人身份发出你正在输入的内容，定时面板与 /schedule 则送出一条「定时提醒 · HH:MM」提醒行；调度跑在服务端，关掉网页照样准时触发。
+- [dsh-plugin-call-me](https://github.com/radres/dsh-plugin-call-me) - 通过 /call-me iPhone 应用在运行需要回答时给用户的手机打电话：Agent 把问题读出来，用户口头回答，回答以文字形式回到运行中。该应用为付费订阅。
 
 ## Fun & Lifestyle
 
