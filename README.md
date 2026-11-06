@@ -736,6 +736,7 @@ Management panel: Settings → Plugins.
 
 - [01men/ybkkasi](https://github.com/01men/ybkkasi) - Enterprise AI asset governance: registers MCP servers, skills, agents, AI apps, model channels, SaaS connectors and NAS storage in one self-hosted ledger with lifecycle state machines, per-tool RBAC, department x agent x skill cost attribution, dependency topology and an append-only audit trail.
 - [SteelUnion/dsh-confirm-gate](https://github.com/SteelUnion/dsh-confirm-gate) - Per-turn counter for persistent operations: it reminds the model, then stops and asks before going further. Read-only actions are not counted.
+- [kcgoofee-jpg/dsh-secret-form](https://github.com/kcgoofee-jpg/dsh-secret-form) - Password input cards that keep the value out of the conversation: terminal PTY prompts, the DSH sidebar browser via webview.executeJavaScript, and Ego Lite, with multi-field forms and live strength rules.
 
 ## Output & Deliverables
 

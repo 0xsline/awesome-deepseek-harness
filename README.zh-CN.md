@@ -734,6 +734,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [01men/ybkkasi](https://github.com/01men/ybkkasi) - 企业 AI 资产治理：把 MCP 服务、Skill、Agent、AI 应用、模型渠道、SaaS 连接器与 NAS 存储登记进同一套自托管台账，带生命周期状态机、逐工具 RBAC、部门 x Agent x Skill 三维成本归因、依赖拓扑与可追加审计日志。
 - [SteelUnion/dsh-confirm-gate](https://github.com/SteelUnion/dsh-confirm-gate) - 持久化操作的逐轮计数器：先提醒模型，再在继续之前停下来询问；只读操作不计入。
+- [kcgoofee-jpg/dsh-secret-form](https://github.com/kcgoofee-jpg/dsh-secret-form) - 密码输入卡片，值不进对话：终端 PTY 提示、DSH 侧边栏浏览器（webview）、Ego Lite，支持多字段表单与实时强度校验。
 
 ## Output & Deliverables
 
