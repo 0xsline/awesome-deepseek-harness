@@ -241,6 +241,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [DocsMint](https://github.com/HiAi-gg/dsh-docsmint) - DocsMint 工作区面板与智能体工具，支持文档搜索、读取、创建和更新，可连接 Cloud OAuth 或自托管 API 密钥。
 
+- [waspqj/dsh-study-mode](https://github.com/waspqj/dsh-study-mode) - 学习模式 agent 预设 + 侧边栏知识库面板：回答按 主题库 → 全局主题 → 模型知识 → 网络 四级检索，命中标出处、查不到标未验证；面板按出处文件分组、卡片互链，支持归档/核实/AI 校验补充（npm：`dsh-study-mode`）。
+
 ## Input & Editing
 
 - [dsh-global-rules](https://github.com/Semidia/dsh-global-rules) - 在设置页编辑 `~/.dsh/AGENTS.md` 全局规则：提供文本编辑与保存，无需命令行。

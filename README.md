@@ -244,6 +244,8 @@ Management panel: Settings → Plugins.
 
 - [DocsMint](https://github.com/HiAi-gg/dsh-docsmint) - DocsMint workspace panel and agent tools for document search, reading, creation and updates through Cloud OAuth or self-hosted API keys.
 
+- [waspqj/dsh-study-mode](https://github.com/waspqj/dsh-study-mode) - Learning-mode agent preset plus a sidebar knowledge-base panel: answers retrieve topic library → global topics → model knowledge → web in that order, citing the source on a hit and marking unverified misses; cards are grouped by source file and linked to related cards, with archive, verify and AI-correction actions (npm: `dsh-study-mode`).
+
 ## Input & Editing
 
 - [dsh-global-rules](https://github.com/Semidia/dsh-global-rules) - Edit your `~/.dsh/AGENTS.md` global rules from the Settings page: a text editor with save button, no command line needed.
