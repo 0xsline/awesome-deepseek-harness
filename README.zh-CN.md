@@ -152,6 +152,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [xingzhen199186/dsh-advisor-group](https://github.com/xingzhen199186/dsh-advisor-group) - 一次调用召集多个顾问模型：自动深挖追问、流式回答与复古聊天组卡片。
 - [westtrade/dsh-cron-schedule](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-cron-schedule) - 定时任务：到点在工作区目录中新建对话并交给它任务，支持 cron 预设、按任务选模型、补跑或跳过漏掉的运行，并提供 cron_* 工具给模型。
 - [westtrade/dsh-goal-vector](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-goal-vector) - 目标向量：命名的优先级目标清单，对话采用后模型在整个会话中遵循；带管理页、输入框选择器和 goal_vector_* 工具。
+- [mili1360/dsh-proactive](https://github.com/mili1360/dsh-proactive) - 在长任务于回合结束之后跑完时唤醒会话，并让模型自己安排唤醒（一次、固定间隔或带抖动的 cron），受静默时段与每日预算限制。
 
 ## Context & Search
 
@@ -199,6 +200,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [westtrade/svelte-mcp-local](https://github.com/westtrade/deepseek-harness-plugins/tree/main/svelte-mcp-local) - Svelte 文档 MCP 服务器（本地缓存）：与 @sveltejs/mcp 同样的四个工具，文档从磁盘读取而不是每次请求 svelte.dev。
 - [MountBatten718/dsh-session-handoff](https://github.com/MountBatten718/dsh-session-handoff) - 会话接力：`/handoff` 用 LLM 总结最近的对话轮次，在同一工作区新建会话并把总结作为首条消息注入后自动打开；上下文或会话体积变大时也可自动触发。支持 DSH `0.1.0-rc.5`–`rc.8`、`0.1.1-rc.2`、`0.2.0-rc.2` 与 `0.2.1-rc.2`。
 - [YunongDai2005/dsh-theone](https://github.com/YunongDai2005/dsh-theone) - 只开一个主聊天：每条消息自动分到所属话题，在该话题自己的会话和项目文件夹里继续；分错可一键换话题，也可撤销。
+- [mili1360/dsh-history-fold](https://github.com/mili1360/dsh-history-fold) - 把会话可见历史里最老的一段替换成一条消息，消息中带抽取式的一行索引和无损本地归档的路径，使每轮请求携带的 token 变少。
 
 ## Memory & Knowledge
 
@@ -978,6 +980,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [skyjjgw/dsh-version-guard](https://github.com/skyjjgw/dsh-version-guard) - 记录插件版本与 profile 配置快照，在 DSH 无法启动时通过独立恢复页回退到已知可用配置。
 - [tagayamajin/dsh-backup-skill](https://github.com/tagayamajin/dsh-backup-skill) - DSH 技能（非插件）：把插件、profile、插件配置、离线 node_modules 与历史会话打包成一个迁移包（内含同版本安装包），并在新机恢复时校验依赖、改写 `.modules.yaml` 路径、检测恢复期间 DSH 被重启——DSH 无法启动时同样可用。
 - [maple564/dsh-on-android](https://github.com/maple564/dsh-on-android) - 在 Android 的 PRoot/Alpine（musl、aarch64）沙箱里运行 `dsh web`：一条命令安装、`dsh-go` 启动器，并解决 node-pty 的 glibc 预编译包、`--expose-internals` 不能进 `NODE_OPTIONS`、`DSH_PERMISSION_MODE` 只认启动环境、容器内缺 workspace-write 后端四个问题；把手机挂载目录（`/var/minis/mounts/Documents/...`）注册为工作区，让 harness 直接读写手机文件。
+- [mili1360/dsh-session-vacuum](https://github.com/mili1360/dsh-session-vacuum) - 在磁盘上删除会话日志中只写不读的流式碎片行，使长会话加载时展开的对象数变少；替换文件前按加载器契约自校验，原文件保留为 .orig。
 
 ## Domain & Specialist Skills
 

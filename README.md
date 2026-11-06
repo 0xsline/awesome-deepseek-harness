@@ -153,6 +153,7 @@ Management panel: Settings → Plugins.
 - [xingzhen199186/dsh-advisor-group](https://github.com/xingzhen199186/dsh-advisor-group) - Consults multiple advisor models in one tool call, with auto-deepen follow-up rounds and a streamed chat card.
 - [westtrade/dsh-cron-schedule](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-cron-schedule) - Scheduled AI runs: at a set time a new chat is created in a chosen directory and receives the task, with cron presets, per-task model, missed-run handling and cron_* tools for the model.
 - [westtrade/dsh-goal-vector](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-goal-vector) - Goals vectors: named, priority-ordered goal lists a chat adopts so the model follows them for the whole session, with a management page, a composer picker and goal_vector_* tools.
+- [mili1360/dsh-proactive](https://github.com/mili1360/dsh-proactive) - Wakes a session when a long background task finishes after the turn has ended, and lets the model schedule its own wake-ups (once, interval, or cron with jitter) under quiet hours and a daily budget.
 
 ## Context & Search
 
@@ -200,6 +201,7 @@ Management panel: Settings → Plugins.
 - [westtrade/svelte-mcp-local](https://github.com/westtrade/deepseek-harness-plugins/tree/main/svelte-mcp-local) - Svelte documentation MCP server with a local cache: the same four tools as @sveltejs/mcp, but docs come from disk instead of svelte.dev on every call.
 - [MountBatten718/dsh-session-handoff](https://github.com/MountBatten718/dsh-session-handoff) - Session handoff: `/handoff` summarizes recent turns with an LLM, opens a new session in the same workspace with the summary as its first message, and can trigger automatically when the context window or session size grows. Supports DSH `0.1.0-rc.5`–`rc.8`, `0.1.1-rc.2`, `0.2.0-rc.2` and `0.2.1-rc.2`.
 - [YunongDai2005/dsh-theone](https://github.com/YunongDai2005/dsh-theone) - One main chat: each message is routed to the topic it belongs to and continued in that topic's own session and project folder; misroutes can be moved in one click and undone.
+- [mili1360/dsh-history-fold](https://github.com/mili1360/dsh-history-fold) - Replaces the oldest span of a session's visible history with one message carrying an extractive index and the path of a lossless local archive, so each request sends fewer tokens.
 
 ## Memory & Knowledge
 
@@ -979,6 +981,7 @@ Management panel: Settings → Plugins.
 - [skyjjgw/dsh-version-guard](https://github.com/skyjjgw/dsh-version-guard) - Snapshots plugin versions and profile configuration, with an independent recovery page to restore a known-good configuration when DSH cannot start.
 - [tagayamajin/dsh-backup-skill](https://github.com/tagayamajin/dsh-backup-skill) - A DSH skill (not a plugin) that packs plugins, profiles, plugin settings, offline node_modules and chat history into one migration kit with the same-version installer, then restores a fresh machine with dependency verification, `.modules.yaml` path rewriting and mid-restore restart detection — usable even when DSH itself cannot boot.
 - [maple564/dsh-on-android](https://github.com/maple564/dsh-on-android) - Run `dsh web` inside an Android PRoot/Alpine sandbox (musl, aarch64): one-command install, `dsh-go` launcher, and fixes for the glibc-prebuilt `node-pty`, `--expose-internals` inside `NODE_OPTIONS`, bootstrap-only `DSH_PERMISSION_MODE`, and the missing workspace-write backend; registers a phone mount directory (`/var/minis/mounts/Documents/...`) as the workspace so the harness reads and writes real phone files.
+- [mili1360/dsh-session-vacuum](https://github.com/mili1360/dsh-session-vacuum) - Deletes the write-only streaming fragment rows from session logs on disk so a long session loads into fewer objects; the pruned log is checked against the loader contract before the file is replaced, and the previous file is kept as .orig.
 
 ## Domain & Specialist Skills
 
