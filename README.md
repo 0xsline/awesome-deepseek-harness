@@ -365,6 +365,7 @@ Management panel: Settings → Plugins.
 - [dsh-better-left-sidebar](https://github.com/exoticknight/dsh-better-left-sidebar) - A cleaner, better-organized DeepSeek Harness sidebar with support for multiple plugin-defined widgets.
 
 - [01men/DeptAI-UI-DSH](https://github.com/01men/DeptAI-UI-DSH) - Collaboration front-office for AI agents and humans: department boards, tickets, approvals and industry calculations run inside the DSH conversation and panel, so agents do the work in chat while humans stay accountable in the panel. It calls the 01men/ybkkasi governance base over existing contracts instead of re-implementing governance.
+- [LUgABeEEE/dsh-sidebar-density](https://github.com/LUgABeEEE/dsh-sidebar-density) - Lightweight sidebar UI: five fold switches, three density presets and three width presets, from one footer row plus a settings section; no dependencies, no host service.
 
 ## Dashboards & Session UX
 - [dsh-delete-session](https://github.com/qiaozheng9/dsh-delete-session) - Windows desktop enhancement for DSH 0.2.1-rc.5 that permanently deletes conversations and nested subagents, with native confirmation and interrupted-cleanup retry; uses a documented local source installer.

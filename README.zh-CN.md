@@ -365,6 +365,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [01men/DeptAI-UI-DSH](https://github.com/01men/DeptAI-UI-DSH) - AI 代理与人类的协作前台：部门看板、工单、审批与行业计算都在 DSH 会话与面板里完成，代理在对话里干活，人在面板里负责；通过既有契约调用 01men/ybkkasi 治理底座，不重复实现治理。
 - [dsh-mindmap-live](https://github.com/SSShooter/dsh-mindmap-live) - DSH Web 实时双向思维导图：Agent 与用户共编同一棵树，改动即时互相同步，支持停靠分屏与全屏两种视图。
 
+- [LUgABeEEE/dsh-sidebar-density](https://github.com/LUgABeEEE/dsh-sidebar-density) - 轻量级侧栏 UI：五个折叠开关、三档密度预设与三档宽度预设，入口收在底部一行与设置分区；无依赖、无后台服务。
+
 ## Dashboards & Session UX
 - [dsh-delete-session](https://github.com/qiaozheng9/dsh-delete-session) - 面向 Windows 版 DSH 0.2.1-rc.5 的永久删除对话增强，支持嵌套子代理清理、原生确认弹窗和中断重试，需按仓库说明从源码安装。
 - [dsh-workspace-mover](https://github.com/PianoPrince/dsh-workspace-mover) - 跨工作区真原位迁移会话：拖拽迁移、批量/分组合并、孤儿救援面板、工作区搬家向导、可还原回收站、字节级备份与逐步回滚加迁移后校验，并提供 dsh-tools Agent 工具（npm: dsh-workspace-mover）。
