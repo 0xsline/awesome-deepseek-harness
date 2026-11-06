@@ -1018,6 +1018,7 @@ Management panel: Settings → Plugins.
 ### Friendly links
 
 - [DeepSeek Harness Desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) - Modern desktop client for the DSH ecosystem: launch and manage a local Harness without configuring Node.js or running commands; plugin marketplace, mobile remote control and IM channels planned. [Website](https://www.dshdesktop.cn)
+- [harness-ds.com](https://harness-ds.com/en/) - Independent community portal for DeepSeek Harness: install, modes, plugins, and troubleshooting guides.
 
 ## Contributing
 

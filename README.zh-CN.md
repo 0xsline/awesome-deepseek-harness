@@ -1018,6 +1018,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 ### 友情链接
 
 - [DeepSeek Harness Desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) - 为 DeepSeek Harness 生态打造的现代化桌面端：无需配置 Node.js 或执行命令即可启动和管理本地 Harness 服务；后续将支持插件市场、移动端远程控制与 IM Channels。[访问官网](https://www.dshdesktop.cn)
+- [harness-ds.com](https://harness-ds.com/zh-cn/) - 独立社区门户：DeepSeek Harness 安装、模式、插件与排障指南。
 
 ## Contributing
 
