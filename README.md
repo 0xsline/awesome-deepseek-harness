@@ -644,6 +644,7 @@ Management panel: Settings → Plugins.
 - [weibaohui/dsh-sync](https://github.com/weibaohui/dsh-sync) - Multi-machine sync: keeps multiple dsh replicas consistent through one private GitCode repository - skills, sessions, settings and plugin manifests each with an independent switch; changes go through branch, PR and merge, remote-only additions are pulled back before every push so nothing is deleted, and an AI smart-align step semantically merges files both sides changed (plus one-click conflict resolution); private repos enforced, pull never overwrites local edits.
 - [huuthuan-nguyen/dsh-knowcode](https://github.com/huuthuan-nguyen/dsh-knowcode) - Code graph and knowledge base over an embedded FalkorDB: AST symbols, caller/callee tracing, refactor blast radius, affected-test discovery, clone detection, cross-language porting contracts and spec-to-code traceability.
 - [dsh-visual-edit](https://github.com/Han-1413141/dsh-visual-edit) - Select elements, draw arrows or frame areas in DSH previews, send visual feedback to chat and compare before-and-after snapshots.
+- [AgentCompare](https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare) — Compare two running Vite implementations in DSH conversations, choose blind, and review adoption against current project edits.
 
 ## Security & Governance
 
