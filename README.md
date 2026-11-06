@@ -710,6 +710,7 @@ Management panel: Settings → Plugins.
 
 ## Output & Deliverables
 
+- [dsh-video-editor](https://github.com/heswy/dsh-video-editor) - AI video creation and editing inside DeepSeek Harness, with conversation-driven revisions, multitrack timelines, audio waveforms, and MP4 export.
 - [EthanYoQ/Invoice-Downloader](https://github.com/EthanYoQ/Invoice-Downloader) - DSH bundle for local IMAP invoice download, OCR, archival, and Excel reimbursement summaries.
 - [zoahdev/dsh-llms-forge](https://github.com/zoahdev/dsh-llms-forge) - Generate llms.txt for plugin repos from package.json + README (AI-readable discovery, read-only by default, CLI + `llms_forge` tool).
 - [zoahdev/dsh-readme-forge](https://github.com/zoahdev/dsh-readme-forge) - Generate README.md for plugin repos from package.json + cordis.patch.yml + source layout (CLI + `readme_forge` tool).

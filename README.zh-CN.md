@@ -704,6 +704,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Output & Deliverables
 
+- [dsh-video-editor](https://github.com/heswy/dsh-video-editor) - 在 DeepSeek Harness 内通过对话生成与续改视频，支持多轨剪辑、音频波形和 MP4 导出。
 - [EthanYoQ/Invoice-Downloader](https://github.com/EthanYoQ/Invoice-Downloader) - 用于本地 IMAP 发票下载、OCR 识别、归档和 Excel 报销汇总的 DSH bundle。
 - [zoahdev/dsh-llms-forge](https://github.com/zoahdev/dsh-llms-forge) - 为插件仓库生成 llms.txt（package.json + README，AI 可读发现文件，默认只读，CLI + `llms_forge` 工具）。
 - [zoahdev/dsh-readme-forge](https://github.com/zoahdev/dsh-readme-forge) - 为插件仓库生成 README.md（package.json + cordis.patch.yml + 源码布局，CLI + `readme_forge` 工具）。
