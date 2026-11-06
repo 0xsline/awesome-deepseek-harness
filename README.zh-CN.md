@@ -862,6 +862,9 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-pnpm-build-control](https://github.com/Han-1413141/dsh-pnpm-build-control) - 统一管理所有 DSH 配置的 pnpm 构建脚本审批，包含放行全部依赖构建脚本的选项，并修复 DSH 0.2.0-rc.2 的同一 Git 地址更新问题。
 - [zuwenyin/dsh-plugin-upgrader](https://github.com/zuwenyin/dsh-plugin-upgrader) - 插件页的「版本」标签：一次升级全部可升级插件或勾选的子集，原地替换、不卸载；展开任意插件可看全部已发布版本并一键切到其中任一版；安装源也能在页面里直接换。
 
+
+- [easun-zhu/dsh-cap-manager](https://github.com/easun-zhu/dsh-cap-manager) - 一个面板统一管理全局 / Profile / 项目三个作用域的 MCP 服务与技能：实时状态与工具数、mcpServers JSON / 技能导入导出、回收站与备份，并可安装 / 更新 / 卸载 Anthropic 官方 claude-plugins-official 市场的 Claude Code 插件（技能与 MCP 实时挂载）。
+
 ## Runtime & Operations
 
 - [ianho7/dsh-port-inspector](https://github.com/ianho7/dsh-port-inspector) - Windows 本地开发端口来源追踪与已验证 DSH 服务的安全处理。

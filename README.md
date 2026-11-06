@@ -867,6 +867,9 @@ Management panel: Settings → Plugins.
 - [dsh-pnpm-build-control](https://github.com/Han-1413141/dsh-pnpm-build-control) - Manage pnpm build-script approval across all DSH profiles, including an option to allow every dependency build script, and repair same-Git-URL updates on DSH 0.2.0-rc.2.
 - [zuwenyin/dsh-plugin-upgrader](https://github.com/zuwenyin/dsh-plugin-upgrader) - Versions tab on the Plugins page: upgrades every upgradable plugin or a multi-selected subset in place without uninstalling, lists a plugin's published versions and switches to any one of them, and changes the install source from the page.
 
+
+- [easun-zhu/dsh-cap-manager](https://github.com/easun-zhu/dsh-cap-manager) - One panel for MCP servers, skills, and Claude Code plugins across global/profile/project scopes: live status and tool counts, mcpServers JSON / skill import & export, trash & backups, and the official claude-plugins-official market (install/update/uninstall with live skill and MCP mounts).
+
 ## Runtime & Operations
 
 - [ianho7/dsh-port-inspector](https://github.com/ianho7/dsh-port-inspector) - Windows local development port attribution and safe handling for verified DSH services.
