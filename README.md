@@ -635,6 +635,7 @@ Management panel: Settings → Plugins.
 - [mstar-workflow](https://github.com/dsh-external/mstar-workflow) - Workflow engine.
 - [dsh-spur](https://github.com/dsh-external/dsh-spur) - Task engine.
 - [dsh-involute](https://github.com/dsh-external/dsh-involute) - Embedded task-management engine.
+- [dsh-delivery-board](https://github.com/jerryxff26-alt/dsh-delivery-board) - In-repo delivery board: stage pipeline, handoff audit, soft WIP, weekly Markdown report, and local kanban + calendar Timeline (DSH plugin or standalone `npx`).
 - [fullstack-expert](https://github.com/adithya-hmt/fullstack-expert) - Cordis-native, evidence-first engineering workflow layer for coding agents: repository-aware vertical-slice planning (fullstack_plan), explicit pass/fail/unknown evidence checks (fullstack_check), inspect-first methodology, approval-aware sensitive-operation guards, and embedded engineering skills (MIT).
 - [dsh-review-loop](https://github.com/wuxiangru915/dsh-review-loop) - Incremental diff reviewer: checkpoint-based since-review queue with a Web UI panel, /review command, and feedback injection into the agent.
 - [dsh-test-runner](https://github.com/suimi8/dsh-test-runner) - Structured test runner tool (test_run): auto-detect Vitest/Jest/pytest/node:test, run tests, parse failure summaries for the model.
