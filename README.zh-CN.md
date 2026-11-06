@@ -558,6 +558,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-zcode-cli-proxy](https://github.com/kyle123740/dsh-zcode-cli-proxy) - 将 ZCode CLI 常驻 app-server 接入 DeepSeek Harness，使用现有 Start Plan 登录支持 GLM 流式输出、图片输入和会话复用；需要安装 ZCode 客户端。
 - [dsh-vertex-gemini](https://github.com/mn288/dsh-vertex-gemini) - 通过 Google Cloud Vertex AI 为 DeepSeek Harness 接入 Gemini，支持应用默认凭据（ADC）、流式响应和工具调用间的思考签名回传。
 - [dsh-agy-link](https://github.com/amlyczz/dsh-agy-link) - Google Antigravity (agy CLI) 模型接入：无 API Key 使用 Gemini/Claude/GPT-OSS 订阅模型，支持流式对话、原生工具卡片与 Web 界面 Google OAuth 登录。
+- [dsh-connect-minimaxcode](https://github.com/JeffTsuiCUG/dsh-connect-minimaxcode) - 把 MiniMax Code 的模型接入 DSH（npm 0.5.1）：Anthropic Messages 兼容提供方 + 实时模型目录；登录二选一——复用本机已登录的桌面 App（国内版），或用插件自带的 OAuth 2.0 设备码流自己登录；还能代领每日签到的免费积分。积分余额与到期信息显示在输入框工具行（模型选择器旁），且仅在选中 `minimaxcode` 模型时出现；插件页面卡片照旧显示余额与到期批次。没有登录态时模型列表只回落为两个内置占位条目，实际调不通。续期桌面 App 的过期登录态时，插件按该 App 自己的格式原子写回令牌，不改它的 `generation` 计数；用插件自己登录的只写插件自己的文件。声明兼容 DSH `>=0.2.1-rc.2 <0.3.0-0`（实测 0.2.1-rc.2）。非官方插件，依赖 MiniMax 客户端的非公开接口，仅供学习研究。
 - [dsh-baseurl-probe](https://github.com/Semidia/baseurl-probe) - 自动探测并修正模型供应商 baseURL：当裸域名只有 /v1 提供 OpenAI 兼容 API 时，无需 API Key 即可完成路径探测。
 - [dsh-llm-compat-healer](https://github.com/Semidia/dsh-llm-compat-healer) - 中转/网关 LLM 兼容自愈：无需重启即可修复 DeepSeek `reasoning_content` 历史回传与不支持 `developer` 角色的问题，提供 pi-ai 兼容设置页，并为上游错误生成脱敏中文摘要。
 - [dsh-provider-health](https://github.com/Semidia/dsh-provider-health) - 供应商健康度设置页：只读展示各供应商状态、由近期错误衰减计算的健康度、思考能力、最大 token 与最近错误；数据来自 llm-pi-ai 配置和兼容修复器错误日志。
