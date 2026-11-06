@@ -1099,7 +1099,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [OrcaPromptVault](https://github.com/Continuum-AI-Corp/OrcaPromptVault) - 带日期的 AI harness 系统提示词与工具定义存档，包含实抓和转述资料，以及一份 DSH 提示词抓取记录。
 - [pydsh](https://github.com/ChenYu1991ppak/Pydsh) - DSH 的最小 Python 教学复刻：Cordis 插件容器、agent 循环、会话事件流与 LLM 软映射层——一条命令、零配置。
 - [liyupi/ai-guide](https://github.com/liyupi/ai-guide) - 中文 Vibe Coding 教程，设有 DeepSeek Harness 专题：保姆级入门、服务器部署、Agent 预设详解、极简模式实测与精选插件推荐。
-- [TeamoRouter](https://teamorouter.com/docs/install-deepseek-harness) - OpenAI 兼容接入点，提供免费的 DeepSeek V4 Pro/Flash 每日配额；把 DEEPSEEK_BASE_URL 指向它即可，无需支付信息。
+- [TeamoRouter](https://teamorouter.com/docs/install-deepseek-harness) - OpenAI 兼容的 DSH 模型供应商，教程里一条脚本即可在 `~/.dsh/settings.yaml` 加好 `teamorouter` 供应商；一个 Key 调用 DeepSeek V4.1 Flash、V4 Pro、V4 Flash 和 GPT 系列模型；新账号需先充值再调用。
 - [dsh-plugin-registry](https://github.com/vbarter/dsh-plugin-registry) - 非官方社区 DeepSeek Harness 插件目录 / 注册表（[dsplugin.app](https://dsplugin.app/)）：浏览与发布，含 Manifest / `dsh.bundle` 校验。
 - [DeepSeek](https://deepseek.com) - 官方入口
 - [DeepSeekDSH](https://deepseekdsh.com/) - 免费独立的 DeepSeek Harness 指南站——安装、配置、插件、MCP 与排错，中英文。
