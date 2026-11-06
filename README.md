@@ -1097,7 +1097,7 @@ Management panel: Settings → Plugins.
 - [OrcaPromptVault](https://github.com/Continuum-AI-Corp/OrcaPromptVault) - Dated archive of captured and reported system prompts and tool schemas from AI harnesses, including a DSH prompt capture.
 - [pydsh](https://github.com/ChenYu1991ppak/Pydsh) - Minimal Python educational reproduction of DSH: Cordis plugin container, agent loop, session event stream, and LLM soft-mapping layer — one command, zero config.
 - [liyupi/ai-guide](https://github.com/liyupi/ai-guide) - Chinese Vibe Coding handbook with a dedicated DeepSeek Harness section: getting started, server deployment, agent presets, minimal-mode field test, and curated plugins.
-- [TeamoRouter](https://teamorouter.com/docs/install-deepseek-harness) - OpenAI-compatible endpoint with free DeepSeek V4 Pro/Flash daily quotas; point DEEPSEEK_BASE_URL at it, no payment info required.
+- [TeamoRouter](https://teamorouter.com/docs/install-deepseek-harness) - OpenAI-compatible model provider for DSH; the guide's one-step script adds a `teamorouter` provider to `~/.dsh/settings.yaml`. One API key for DeepSeek V4.1 Flash, V4 Pro, V4 Flash and GPT models; new accounts need a top-up before the first request.
 - [dsh-plugin-registry](https://github.com/vbarter/dsh-plugin-registry) - Unofficial community DeepSeek Harness plugin directory / registry at [dsplugin.app](https://dsplugin.app/): browse and publish with Manifest / `dsh.bundle` checks.
 - [DeepSeek](https://deepseek.com) - Official site.
 - [DeepSeekDSH](https://deepseekdsh.com/) - Free independent DeepSeek Harness guides — install, configure, plugins, MCP and troubleshooting, in English and Chinese.
