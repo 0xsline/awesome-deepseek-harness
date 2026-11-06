@@ -383,6 +383,7 @@ Management panel: Settings → Plugins.
 - [Ragnoryok1/dsh-client-locale-ru](https://github.com/Ragnoryok1/dsh-client-locale-ru) - Russian (ru) language pack for the Web GUI: 584 namespaces and 67,724 strings, including dictionaries of 520 third-party plugins, with ru plural forms and screen typography.
 
 ## Dashboards & Session UX
+- [dsh-scratch-workspace](https://github.com/MDX-Tom/dsh-scratch-workspace) - Per-session sandbox working directories, permanent multi-version compatibility, native sidebar grouping, and automatic disk GC for DeepSeek Harness.
 - [dsh-delete-session](https://github.com/qiaozheng9/dsh-delete-session) - Windows desktop enhancement for DSH 0.2.1-rc.5 that permanently deletes conversations and nested subagents, with native confirmation and interrupted-cleanup retry; uses a documented local source installer.
 - [dsh-workspace-mover](https://github.com/PianoPrince/dsh-workspace-mover) - True in-place migration of sessions across workspaces: drag-and-drop, bulk/group merge, orphan rescue panel, workspace repoint wizard, recycle bin with restore, byte-level backup with stepwise rollback and post-move verification, plus dsh-tools agent tools (npm: dsh-workspace-mover).
 
