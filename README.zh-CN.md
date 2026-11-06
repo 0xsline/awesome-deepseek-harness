@@ -858,6 +858,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [weibaohui/dsh-fde-tools](https://github.com/weibaohui/dsh-fde-tools) - FDE 工具箱全家桶：安装一个插件带上一批常用 dsh 插件（代码仓库 / 挂载盘 / 知识库 / 定时任务 / 自动续跑 / 界面微调 / 自动复盘 / 文件管理 / 智能标题 / 任务看板 / 插件市场 / 上下文 / IM 接入 / 侧栏增强），面板看状态、一键补装。
 - [dsh-autocompose](https://github.com/Han-1413141/dsh-autocompose) - 根据任务查找并组合 DSH 插件，打开可继续对话的独立环境，或将方案中的插件安装到当前配置。
 - [dsh-pnpm-build-control](https://github.com/Han-1413141/dsh-pnpm-build-control) - 统一管理所有 DSH 配置的 pnpm 构建脚本审批，包含放行全部依赖构建脚本的选项，并修复 DSH 0.2.0-rc.2 的同一 Git 地址更新问题。
+- [zuwenyin/dsh-plugin-upgrader](https://github.com/zuwenyin/dsh-plugin-upgrader) - 插件页的「版本」标签：一次升级全部可升级插件或勾选的子集，原地替换、不卸载；展开任意插件可看全部已发布版本并一键切到其中任一版；安装源也能在页面里直接换。
 
 ## Runtime & Operations
 
