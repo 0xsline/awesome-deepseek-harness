@@ -607,6 +607,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-review-loop](https://github.com/wuxiangru915/dsh-review-loop) - 增量代码审查插件：checkpoint 增量队列 + Web 审查面板 + /review 命令，审查意见注入 agent
 - [dsh-test-runner](https://github.com/suimi8/dsh-test-runner) - 结构化测试运行工具（test_run）：自动识别 Vitest/Jest/pytest/node:test，运行测试并为模型解析失败摘要。
 - [dsh-git-branch-switcher](https://github.com/mixin-ai/dsh-git-branch-switcher) - 会话头部 Git 分支胶囊：显示当前项目分支，并可在 Web UI 中直接切换分支。
+- [dsh-git-branch-switcher](https://github.com/milestone-17/dsh-git-branch-switcher) - 输入框工具行的 git 分支胶囊（milestone-17）：TRAE 风格菜单，支持搜索、一键 `git fetch` 同步远端、远端跟踪分支分组，以及新建分支并立即切换（源分支默认 master）。
 - [dsh-git-composer](https://github.com/ls-open/dsh-git-composer) - Claude 风格对话框 Git 状态胶囊条：实时显示工作区增减行数、快捷切换分支、联动原生 Diff 抽屉及自适应创建 PR 与 Actions CI 状态追踪。
 - [dsh-doublecheck](https://github.com/PerryLink/dsh-doublecheck) - 工程纪律闭环：动工前盘问需求、红绿测试证据门、交付前对抗式审查、交付报告与逐维度核对。
 - [dsh-plugin-diff-review](https://github.com/Civitasv/dsh-plugin-diff-review) - 浮动面板中的 Codex 风格变动审查：逐轮查看会话更改 + git 工作区全量未提交更改（暂存/丢弃/提交/推送），含历史时间线。
