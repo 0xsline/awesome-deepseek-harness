@@ -769,6 +769,7 @@ Management panel: Settings → Plugins.
 - [february2015/dsh-dingo](https://github.com/february2015/dsh-dingo) - Sound reminders with one-click jump for concurrent sessions: the current session gets crisp dang/dang-dang tones, other sessions a soft ding/ding-ding plus a top-right card that jumps straight to the replying conversation.
 - [dsh-wechat](https://github.com/PerryLink/dsh-wechat) - Single-user WeChat bridge for DSH with two-way text, image, file and media transfer, plus approval and question cards in chat; the first messaging peer is bound as the user.
 - [dsh-reach](https://github.com/PerryLink/dsh-reach) - Multi-channel approval and question bridge for DSH: pushes approval and question cards to IM channels (WeChat, Telegram, Feishu) and answers them from chat, with per-channel security, a session console, and an open push service.
+- [dsh-later](https://github.com/dsh-plugin-collection/dsh-later) - In-session scheduled sends and reminders: /later delivers what you are typing later as yourself, the schedule panel and /schedule post a Reminder · HH:MM row instead, and server-side scheduling fires with the page closed.
 
 ## Fun & Lifestyle
 
