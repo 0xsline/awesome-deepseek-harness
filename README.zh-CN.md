@@ -1043,6 +1043,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [TeamoRouter](https://teamorouter.com/docs/install-deepseek-harness) - OpenAI 兼容接入点，提供免费的 DeepSeek V4 Pro/Flash 每日配额；把 DEEPSEEK_BASE_URL 指向它即可，无需支付信息。
 - [dsh-plugin-registry](https://github.com/vbarter/dsh-plugin-registry) - 非官方社区 DeepSeek Harness 插件目录 / 注册表（[dsplugin.app](https://dsplugin.app/)）：浏览与发布，含 Manifest / `dsh.bundle` 校验。
 - [DeepSeek](https://deepseek.com) - 官方入口
+- [DeepSeekDSH](https://deepseekdsh.com/) - 免费独立的 DeepSeek Harness 指南站——安装、配置、插件、MCP 与排错，中英文。
 
 ### 友情链接
 

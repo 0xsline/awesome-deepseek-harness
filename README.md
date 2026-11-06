@@ -1046,6 +1046,7 @@ Management panel: Settings → Plugins.
 - [TeamoRouter](https://teamorouter.com/docs/install-deepseek-harness) - OpenAI-compatible endpoint with free DeepSeek V4 Pro/Flash daily quotas; point DEEPSEEK_BASE_URL at it, no payment info required.
 - [dsh-plugin-registry](https://github.com/vbarter/dsh-plugin-registry) - Unofficial community DeepSeek Harness plugin directory / registry at [dsplugin.app](https://dsplugin.app/): browse and publish with Manifest / `dsh.bundle` checks.
 - [DeepSeek](https://deepseek.com) - Official site.
+- [DeepSeekDSH](https://deepseekdsh.com/) - Free independent DeepSeek Harness guides — install, configure, plugins, MCP and troubleshooting, in English and Chinese.
 
 ### Friendly links
 
