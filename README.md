@@ -251,7 +251,7 @@ Management panel: Settings → Plugins.
 - [memory-lattice](https://github.com/Lumivox-wiz/memory-lattice) - A memory plugin that forgets on purpose: short-term memories expire after 48h, long-term ones are rescheduled by Ebbinghaus/SM-2 curves, and rarely-used ones fall asleep (revivable) instead of bloating your context. Long-term writes stop in an approval center — the agent cannot approve on its own. Zero runtime dependencies.
 - [CC19990113/dsh-plugin-soul](https://github.com/CC19990113/dsh-plugin-soul) - Injects IDENTITY/SOUL/USER/RULES Markdown into the system prompt every turn (edit the file, no restart), with gated self-editing (daily limits plus a mandatory `why`), evidence-gated journal→dream promotion into SOUL, whitelisted self-upgrades that must pass `node --check` with one-command rollback, and a Settings › 人格 tab.
 
-- [DocsMint](https://github.com/HiAi-gg/dsh-docsmint) - DocsMint workspace panel and agent tools for document search, reading, creation and updates through Cloud OAuth or self-hosted API keys.
+- [DocsMint](https://github.com/HiAi-gg/dsh-docsmint) - Workspace panel and agent tools for document search, reading, creation and updates through Cloud OAuth or self-hosted API keys.
 
 - [waspqj/dsh-study-mode](https://github.com/waspqj/dsh-study-mode) - Learning-mode agent preset plus a sidebar knowledge-base panel: answers retrieve topic library → global topics → model knowledge → web in that order, citing the source on a hit and marking unverified misses; cards are grouped by source file and linked to related cards, with archive, verify and AI-correction actions (npm: `dsh-study-mode`).
 
@@ -687,7 +687,7 @@ Management panel: Settings → Plugins.
 - [weibaohui/dsh-sync](https://github.com/weibaohui/dsh-sync) - Multi-machine sync: keeps multiple dsh replicas consistent through one private GitCode repository - skills, sessions, settings and plugin manifests each with an independent switch; changes go through branch, PR and merge, remote-only additions are pulled back before every push so nothing is deleted, and an AI smart-align step semantically merges files both sides changed (plus one-click conflict resolution); private repos enforced, pull never overwrites local edits.
 - [huuthuan-nguyen/dsh-knowcode](https://github.com/huuthuan-nguyen/dsh-knowcode) - Code graph and knowledge base over an embedded FalkorDB: AST symbols, caller/callee tracing, refactor blast radius, affected-test discovery, clone detection, cross-language porting contracts and spec-to-code traceability.
 - [dsh-visual-edit](https://github.com/Han-1413141/dsh-visual-edit) - Select elements, draw arrows or frame areas in DSH previews, send visual feedback to chat and compare before-and-after snapshots.
-- [AgentCompare](https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare) — Compare two running Vite implementations in DSH conversations, choose blind, and review adoption against current project edits.
+- [AgentCompare](https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare) - Compare two running Vite implementations in DSH conversations, choose blind, and review adoption against current project edits.
 
 ## Security & Governance
 

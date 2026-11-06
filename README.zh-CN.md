@@ -248,7 +248,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [memory-lattice](https://github.com/Lumivox-wiz/memory-lattice) - 会遗忘的记忆插件：短期记忆 48 小时自动过期，长期记忆按 SM-2 艾宾浩斯曲线复习，久不用的沉进沉睡区（可唤醒）而不是无限撑爆上下文；长期写入停在审核中心等用户逐条批准，Agent 无法自行批准。运行时零第三方依赖。
 - [CC19990113/dsh-plugin-soul](https://github.com/CC19990113/dsh-plugin-soul) - 每轮把 IDENTITY/SOUL/USER/RULES 四份 Markdown 注入 system prompt（改文件即生效、不用重启）；自改受闸门约束（每日次数 + `why` 必填）；journal→dream 只有跨 2 天出现 3 次以上的证据才升格进 SOUL；自我升级限白名单、必须过 `node --check`、可一键回滚；另带设置页「人格」tab。
 
-- [DocsMint](https://github.com/HiAi-gg/dsh-docsmint) - DocsMint 工作区面板与智能体工具，支持文档搜索、读取、创建和更新，可连接 Cloud OAuth 或自托管 API 密钥。
+- [DocsMint](https://github.com/HiAi-gg/dsh-docsmint) - 工作区面板与智能体工具，支持文档搜索、读取、创建和更新，可连接 Cloud OAuth 或自托管 API 密钥。
 
 - [waspqj/dsh-study-mode](https://github.com/waspqj/dsh-study-mode) - 学习模式 agent 预设 + 侧边栏知识库面板：回答按 主题库 → 全局主题 → 模型知识 → 网络 四级检索，命中标出处、查不到标未验证；面板按出处文件分组、卡片互链，支持归档/核实/AI 校验补充（npm：`dsh-study-mode`）。
 
@@ -516,6 +516,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [deepseek-harness-android](https://github.com/guzhou079-arch/deepseek-harness-android) - 将 DSH 运行时与技能打包为可安装 APK 的安卓客户端，支持手机端构建与虚拟屏自动化，无需 Termux 或 root。
 - [DSH_Mobile](https://github.com/jayantTang/DSH_Mobile) - 原生 iOS 客户端加电脑侧连接器与可自建的公网中转：iPhone 在 4G/5G 下连自己电脑上的 DSH 会话，不需要公网 IP 或 VPN。
 - [AnyModelBot](https://github.com/modelflare-ai/AnyModelBot) - 本地优先的桌面、命令行与 Docker 应用，以 DeepSeek Harness 作为智能体运行时，支持微信与飞书渠道、按机器人独立的记忆、文件读写和电脑操作
+- [deepseek-harness-linux](https://github.com/butterpurse-dot/deepseek-harness-linux) - 官方 Electron 桌面端的社区 Linux 打包：x64 与 arm64 的 AppImage、deb 和 tar.gz，提供校验和、AppImage 自动更新，并每小时同步上游。
 - [westtrade/deepseek-desktop](https://github.com/westtrade/deepseek-harness-plugins/tree/main/deepseek-desktop) - DSH 桌面窗口（Neuralino 无关，基于 Neutralinojs）：启动 dsh --profile web，关闭时收进托盘，保持单实例而不再开第二个窗口。
 
 ## Browser & Remote
@@ -683,11 +684,12 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [weibaohui/dsh-sync](https://github.com/weibaohui/dsh-sync) - 多机同步：让多台机器上的 dsh 通过一个私有 GitCode 仓库保持一致——技能、会话、设置、插件清单四类内容各有独立开关；变更走分支 → PR → 合并，推送前自动回填远端新增防误删，支持 AI 智能对齐（语义合并双方改动）与一键解决冲突；强制私有仓库，pull 不覆盖本地改动。
 - [huuthuan-nguyen/dsh-knowcode](https://github.com/huuthuan-nguyen/dsh-knowcode) - 基于内嵌 FalkorDB 的代码图谱与知识库：AST 符号、调用链追溯、重构影响面、受影响测试发现、克隆检测、跨语言移植契约与规格到代码的可追溯性。
 - [dsh-visual-edit](https://github.com/Han-1413141/dsh-visual-edit) - 在 DSH 预览中点选元素、画箭头或框选区域，将修改意见加入对话，并查看更新前后的截图对比。
-- [AgentCompare](https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare) — 在 DSH 主对话中比较两版真实运行的 Vite 应用、盲选，并结合项目当前改动审查采用。
+- [AgentCompare](https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare) - 在 DSH 主对话中比较两版真实运行的 Vite 应用、盲选，并结合项目当前改动审查采用。
 
 ## Security & Governance
 
 - [shinji00222/dsh-incognito-chat](https://github.com/shinji00222/dsh-incognito-chat) - 为 DSH 添加内存无痕对话开关；桌面附件使用临时存储。
+- [xqpsec/dsh-jailbreak](https://github.com/xqpsec/dsh-jailbreak) - 出站 `/chat/completions` 的请求边界改写器：在 20 类拒答场景上注入 seed-prim 执行状态种子，不打任何宿主补丁，关闭时原样透传，可选 SCOPE 门禁，每次改写附 manifest 与 promptSha256。
 - [zoahdev/dsh-dep-audit](https://github.com/zoahdev/dsh-dep-audit) - 依赖供应链卫生审计：peer 范围可解析性、坏 dist-tag 检测（#2763 类）、过期/缺许可证/非注册表来源依赖与安装版本漂移（CLI + `dep_audit` 工具）。
 - [zoahdev/dsh-poison-guard](https://github.com/zoahdev/dsh-poison-guard) - DSH 插件安装前投毒扫描：AST（JS-X-Ray）+ 去混淆解码 + 正则启发式，拦截凭据外泄、动态执行、混淆导入与安装脚本；发现即非零退出，可作 CI 门禁。
 - [dsh-vet](https://github.com/rogerdigital/dsh-vet) - 在安装前静态审计可通过 npm 获取的 DSH 插件；生成并校验开放的 `dsh-vet/v1` 报告，包含严重性、置信度、证据、派生评级、CI Action 和可审计徽章。
@@ -1081,6 +1083,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [dsh-external/issues](https://github.com/dsh-external/issues) - Issue 聚合仓库
 - [dsh-meme-hub](https://github.com/the-beating-light-of-the-nail/dsh-meme-hub) - 社区整活插件导航（皮肤/桌宠/小游戏），中英双语
+- [awesome-whale-girl](https://github.com/wytyKen/awesome-whale-girl) - DeepSeek 鲸鱼娘（蓝色大肥鱼）生态的精选列表：素材、人格设定、记忆、QQ / 微信 / B 站接入、桌宠与语音，中英双语。
 - [DeepSeek Harness Handbook](https://github.com/sandbaseai/deepseek-harness-handbook) - 从 Agent 视角讲解 DSH 运行、扩展与排障的来源可追溯手册，提供 162 篇英文 canonical 指南、189 份多语言文档、可搜索的 [Awesome 资源地图](https://sandbaseai.github.io/deepseek-harness-handbook/awesome-deepseek-harness-resources.html)，以及 Install Doctor 和 Failure Router 速查工具
 - [DeepSeek Harness Anatomy](https://github.com/ChenYu1991ppak/deepseek-harness-anatomy) - 17 章渐进式源码研读教程，逐层拆解 DSH 工程骨架，从最小 agent 循环到端到端多智能体系统，每章配可运行的 Python 教学代码。
 - [OrcaPromptVault](https://github.com/Continuum-AI-Corp/OrcaPromptVault) - 带日期的 AI harness 系统提示词与工具定义存档，包含实抓和转述资料，以及一份 DSH 提示词抓取记录。
