@@ -1088,6 +1088,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [westtrade/dsh-moleculer](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-moleculer) - Moleculer 集成：接入 Moleculer 网格，把每个服务发布为模型工具，同时以 MCP 暴露同一组工具，并把服务上下线变化告知模型。
 
 - [dsh-download-file](https://github.com/zchrissirhcz/dsh-download-file) - 把任意 URL（内网 GitLab raw、公网 GitHub 等）保存为本地文件，文本/二进制皆可，带文本预览与「已存在即跳过」。
+- [xingbei437/dsh-cbm-autorefresh](https://github.com/xingbei437/dsh-cbm-autorefresh) - 让 codebase-memory 索引跟随会话真实所在的工作区：会话开始与每次切换工作目录时刷新对应仓库，无需注册项目、不常驻进程。
 
 ## Related
 
