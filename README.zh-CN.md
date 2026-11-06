@@ -148,6 +148,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [cckyros/goal-acceptance](https://github.com/cckyros/goal-acceptance) - 验收标准完成门禁：开工先锁定可验证标准、按依赖跟踪任务计划、独立 reviewer 确认后才放行完成，另带供循环钩子使用的 check/status 无头 CLI（18 个 MCP 工具）。
 - [xingzhen199186/dsh-advisor-group](https://github.com/xingzhen199186/dsh-advisor-group) - 一次调用召集多个顾问模型：自动深挖追问、流式回答与复古聊天组卡片。
+- [westtrade/dsh-cron-schedule](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-cron-schedule) - 定时任务：到点在工作区目录中新建对话并交给它任务，支持 cron 预设、按任务选模型、补跑或跳过漏掉的运行，并提供 cron_* 工具给模型。
+- [westtrade/dsh-goal-vector](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-goal-vector) - 目标向量：命名的优先级目标清单，对话采用后模型在整个会话中遵循；带管理页、输入框选择器和 goal_vector_* 工具。
 
 ## Context & Search
 
@@ -191,6 +193,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-sieve](https://github.com/Sev7eEn7/sieve) - 为 DSH 0.2.1-alpha.1 过滤工具输出、裁剪陈旧上下文并按需披露技能。
 - [WJDdidi-1/ai-context-doctor](https://github.com/WJDdidi-1/ai-context-doctor) - 给仓库和过往会话的读取打分，在淹没上下文窗口之前提醒，并写出挡住最糟那部分的 `.aiignore` 规则；同一个包还带一个跟随当前对话的侧栏面板。
 - [dsh-context-rescue](https://github.com/Lequait/dsh-context-rescue) - 宿主压不下去时的事后急救：请求因超出上下文窗口被拒后，改写投影（优先借用宿主压缩引擎，否则用零模型的摘要折叠），保持工具调用与结果成对，再让宿主重发同一请求。
+- [westtrade/svelte-mcp-local](https://github.com/westtrade/deepseek-harness-plugins/tree/main/svelte-mcp-local) - Svelte 文档 MCP 服务器（本地缓存）：与 @sveltejs/mcp 同样的四个工具，文档从磁盘读取而不是每次请求 svelte.dev。
 
 ## Memory & Knowledge
 
@@ -366,6 +369,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-mindmap-live](https://github.com/SSShooter/dsh-mindmap-live) - DSH Web 实时双向思维导图：Agent 与用户共编同一棵树，改动即时互相同步，支持停靠分屏与全屏两种视图。
 
 - [LUgABeEEE/dsh-sidebar-density](https://github.com/LUgABeEEE/dsh-sidebar-density) - 轻量级侧栏 UI：五个折叠开关、三档密度预设与三档宽度预设，入口收在底部一行与设置分区；无依赖、无后台服务。
+- [westtrade/dsh-excalidraw](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-excalidraw) - 每个对话一块 Excalidraw 画板（右侧栏），共用一套模板库，并提供 excalidraw_read/excalidraw_write 工具，让智能体在同一块画板上读写。
 
 ## Dashboards & Session UX
 - [dsh-delete-session](https://github.com/qiaozheng9/dsh-delete-session) - 面向 Windows 版 DSH 0.2.1-rc.5 的永久删除对话增强，支持嵌套子代理清理、原生确认弹窗和中断重试，需按仓库说明从源码安装。
@@ -454,6 +458,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [weibaohui/dsh-dashboard](https://github.com/weibaohui/dsh-dashboard) - 使用量仪表盘：离线扫描会话日志，统计每日/每周/每月 token、估算费用、模型/工具/技能/命令榜、输出速度、工作时段与质量指标；gridstack+ECharts 卡片可拖拽编排，支持自定义公式与 AI 编排（提示词往返导入）。
 - [olimc2016/dsh-token-meter-panel](https://github.com/olimc2016/dsh-token-meter-panel) - 侧边栏 Token 用量与花费面板：今日消费、预算进度、7/30 天趋势、成本构成、缓存命中节省与按会话拆分。
 - [dsh-maze](https://github.com/lamost423/dsh-maze) - 执行迷宫：把一场会话的主干路径、折返与失败支路画在同一根时间轴上，配逐步数据轨道（工具、Token、上下文压力）、确定性分析（结果与证据、行为信号）与多会话对比。
+- [westtrade/dsh-project-cost](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-project-cost) - 项目花费统计：按会话 token 用量和 routerai.ru 公开模型价格计算每个工作区目录的支出，带工作区徽标与费用面板。
 ## IDE & Clients
 
 - [Minke](https://github.com/lencx/Minke) - 基于 DeepSeek Harness 的桌面 Agent 工作区，支持 macOS、Windows 和 Linux，提供人机共享浏览器控制、集成文件与终端、远程访问和本地模型管理。
@@ -500,6 +505,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [deepseek-harness-android](https://github.com/guzhou079-arch/deepseek-harness-android) - 将 DSH 运行时与技能打包为可安装 APK 的安卓客户端，支持手机端构建与虚拟屏自动化，无需 Termux 或 root。
 - [DSH_Mobile](https://github.com/jayantTang/DSH_Mobile) - 原生 iOS 客户端加电脑侧连接器与可自建的公网中转：iPhone 在 4G/5G 下连自己电脑上的 DSH 会话，不需要公网 IP 或 VPN。
 - [AnyModelBot](https://github.com/modelflare-ai/AnyModelBot) - 本地优先的桌面、命令行与 Docker 应用，以 DeepSeek Harness 作为智能体运行时，支持微信与飞书渠道、按机器人独立的记忆、文件读写和电脑操作
+- [westtrade/deepseek-desktop](https://github.com/westtrade/deepseek-harness-plugins/tree/main/deepseek-desktop) - DSH 桌面窗口（Neuralino 无关，基于 Neutralinojs）：启动 dsh --profile web，关闭时收进托盘，保持单实例而不再开第二个窗口。
 
 ## Browser & Remote
 
@@ -899,6 +905,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [easun-zhu/dsh-cap-manager](https://github.com/easun-zhu/dsh-cap-manager) - 一个面板统一管理全局 / Profile / 项目三个作用域的 MCP 服务与技能：实时状态与工具数、mcpServers JSON / 技能导入导出、回收站与备份，并可安装 / 更新 / 卸载 Anthropic 官方 claude-plugins-official 市场的 Claude Code 插件（技能与 MCP 实时挂载）。
 - [WJDdidi-1/dsh-plugin-toolkit](https://github.com/WJDdidi-1/dsh-plugin-toolkit) - 插件作者的安装前检查：按 npm 的方式打包、安装 tarball、import 加载器真正会 import 的根导出并挂载面板，所以「`files` 漏了 `client.js`」「宿主会丢掉的 bundle」在发布前就失败；另含 `init`、`dev`（对着运行中的应用热重载）与 `release`。
 - [WJDdidi-1/dsh-plugin-example](https://github.com/WJDdidi-1/dsh-plugin-example) - 约 70 行、可直接抄的插件示例：一个侧栏标签、宿主半、bundle 清单和能过的安装前检查，`dsh plugin add dsh-plugin-example` 即可安装。
+- [westtrade/dsh-plugin-showcase](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-plugin-showcase) - 插件展示页：社区 DSH 插件目录，带图标、简介、星标和 GitHub 链接，安装/卸载按钮直接执行 dsh plugin add。
 
 ## Runtime & Operations
 
@@ -1050,6 +1057,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - 独立 CLI：录制模型 provider 流量，之后不联网、按字节回放整段会话；DSH 从配置解析 provider origin、不读 base-URL 环境变量，因此需用 `orca attach --port N`。
 
 - [lcy0121/dsh-plugin-compat-check](https://github.com/lcy0121/dsh-plugin-compat-check) - 插件可用性预检工具：把插件装进一次性 profile 并真实启动，dump 出宿主实际的 API 面（含原型链方法），与插件源码里实际调用的服务和方法逐条比对。
+- [westtrade/dsh-moleculer](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-moleculer) - Moleculer 集成：接入 Moleculer 网格，把每个服务发布为模型工具，同时以 MCP 暴露同一组工具，并把服务上下线变化告知模型。
 
 ## Related
 
