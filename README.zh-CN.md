@@ -196,6 +196,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [WJDdidi-1/ai-context-doctor](https://github.com/WJDdidi-1/ai-context-doctor) - 给仓库和过往会话的读取打分，在淹没上下文窗口之前提醒，并写出挡住最糟那部分的 `.aiignore` 规则；同一个包还带一个跟随当前对话的侧栏面板。
 - [dsh-context-rescue](https://github.com/Lequait/dsh-context-rescue) - 宿主压不下去时的事后急救：请求因超出上下文窗口被拒后，改写投影（优先借用宿主压缩引擎，否则用零模型的摘要折叠），保持工具调用与结果成对，再让宿主重发同一请求。
 - [westtrade/svelte-mcp-local](https://github.com/westtrade/deepseek-harness-plugins/tree/main/svelte-mcp-local) - Svelte 文档 MCP 服务器（本地缓存）：与 @sveltejs/mcp 同样的四个工具，文档从磁盘读取而不是每次请求 svelte.dev。
+- [MountBatten718/dsh-session-handoff](https://github.com/MountBatten718/dsh-session-handoff) - 会话接力：`/handoff` 用 LLM 总结最近的对话轮次，在同一工作区新建会话并把总结作为首条消息注入后自动打开；上下文或会话体积变大时也可自动触发。支持 DSH `0.1.0-rc.5`–`rc.8`、`0.1.1-rc.2`、`0.2.0-rc.2` 与 `0.2.1-rc.2`。
 
 ## Memory & Knowledge
 
