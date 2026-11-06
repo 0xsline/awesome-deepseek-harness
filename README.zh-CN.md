@@ -1012,7 +1012,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 ## Tools & Utilities
 - [dsh-skills-tools](https://github.com/hxlog/dsh-skills-tools) - DSH 设置内的 Skills 管理器：从 Git 仓库导入 Agent Skills，按仓库分组管理，逐项启用或停用，并可展开查看 SKILL.md 正文；停用的技能不会注册进模型。
 
-- [dsh-system1](https://github.com/exoticknight/dsh-system1) - 为 DeepSeek Harness 插件提供类型化的 System One 判断服务和智能体工具，支持是非判断、分类和评分。
+- [dsh-system1](https://github.com/exoticknight/dsh-system1) - 用同一接口接入多种决策提供商与模型：在线可选 TypeSafe 提供的 Jev、Cloudflare 提供的 Clef、Nace 提供的 Drex、meraGPT 提供的 Decider 1；本地可连接 Laya，也支持兼容的自定义 provider。Agent 和插件可用它进行内容分类、候选筛选、按标准评分或图片定位，再用结构化结果继续自己的流程。
 - [dsh-plugin-codemode](https://github.com/Yum-wu/dsh-plugin-codemode) - 通过 Node.js VM 或 QuickJS WebAssembly 后端，用 JavaScript 编排 DeepSeek Harness 工具调用。
 
 - [dsh-tray](https://github.com/liulifu/dsh-tray) - Windows 系统托盘守护工具：启动/停止/重启 DSH 服务，支持多 profile 端口绑定、快照式快速恢复、插件启停、SQLite 版本台账，以及自动发现加载失败插件后禁用并恢复 DSH 的客户端哨兵。

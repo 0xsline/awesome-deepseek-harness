@@ -1014,7 +1014,7 @@ Management panel: Settings → Plugins.
 - [zhuyansen/new-term-radar](https://github.com/zhuyansen/new-term-radar) - Finds new AI model, product and repo names on X, Hugging Face, GitHub and sitemaps and sizes the search terms behind them; an Agent Skill and a Python MCP server.
 ## Tools & Utilities
 - [dsh-skills-tools](https://github.com/hxlog/dsh-skills-tools) - Skills manager for DSH settings: import Agent Skills from Git repositories, group them by repository, toggle each skill, and expand SKILL.md content. Disabled skills stay out of the model context.
-- [dsh-system1](https://github.com/exoticknight/dsh-system1) - Typed System One decision service for DeepSeek Harness plugins, with an agent tool for yes/no checks, classification, and scoring.
+- [dsh-system1](https://github.com/exoticknight/dsh-system1) - Connect multiple decision providers and models through one interface: Jev via TypeSafe, Clef via Cloudflare, Drex via Nace, Decider via meraGPT, self-hosted Laya, and compatible custom providers. Agents and plugins can classify content, filter candidates, score against criteria, or locate objects in images, then use structured results in their workflows.
 - [dsh-plugin-codemode](https://github.com/Yum-wu/dsh-plugin-codemode) - JavaScript orchestration over DeepSeek Harness tools using Node.js VM or QuickJS WebAssembly backends.
 - [dsh-tray](https://github.com/liulifu/dsh-tray) - Windows system-tray guardian for DeepSeek Harness: launch/stop/restart the dsh service, multi-profile port bindings, snapshot-based quick recovery, plugin enable/disable, SQLite version ledger, and a client sentinel that detects a plugin failing to load, disables it and restores DSH.
 
