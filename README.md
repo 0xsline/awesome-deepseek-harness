@@ -492,6 +492,7 @@ Management panel: Settings → Plugins.
 - [deepseek-harness-android](https://github.com/guzhou079-arch/deepseek-harness-android) - Android client bundling the DSH runtime and skills in an installable APK, with on-device builds and virtual-display automation; no Termux or root required.
 - [DSH_Mobile](https://github.com/jayantTang/DSH_Mobile) - Native iOS client with a host-side connector and a self-hostable WSS relay: reach the DSH sessions on your own computer from an iPhone over 4G/5G, without a public IP or a VPN.
 - [AnyModelBot](https://github.com/modelflare-ai/AnyModelBot) - Local-first desktop, CLI and Docker app that runs DeepSeek Harness as its agent runtime, with WeChat and Feishu channels, per-bot memory, file access and computer use.
+- [deepseek-harness-linux](https://github.com/butterpurse-dot/deepseek-harness-linux) - Community Linux packaging of the official Electron desktop app: AppImage, deb and tar.gz for x64 and arm64, checksums, AppImage auto-update, and an hourly upstream sync.
 
 ## Browser & Remote
 
