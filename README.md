@@ -190,6 +190,7 @@ Management panel: Settings → Plugins.
 - [huuthuan-nguyen/dsh-tgrep](https://github.com/huuthuan-nguyen/dsh-tgrep) - Ultra-fast trigram-indexed code search powered by Microsoft tgrep, shadowing the built-in grep tool.
 - [dsh-context-imports](https://github.com/ciskonc/dsh-context-imports) - Claude Code-style `@path` imports for AGENTS.md/CLAUDE.md: recursively expands and injects referenced files into model context at session start, with a six-language settings card.
 - [dsh-sieve](https://github.com/Sev7eEn7/sieve) - Filters tool outputs, prunes stale context and discloses skills on demand for DSH 0.2.1-alpha.1.
+- [WJDdidi-1/ai-context-doctor](https://github.com/WJDdidi-1/ai-context-doctor) - Grades what a repository or a past session actually read, warns before it floods the context window, and writes the `.aiignore` rules that stop the worst of it; the same package ships a sidebar panel that follows the current conversation.
 
 ## Memory & Knowledge
 
@@ -871,6 +872,8 @@ Management panel: Settings → Plugins.
 
 
 - [easun-zhu/dsh-cap-manager](https://github.com/easun-zhu/dsh-cap-manager) - One panel for MCP servers, skills, and Claude Code plugins across global/profile/project scopes: live status and tool counts, mcpServers JSON / skill import & export, trash & backups, and the official claude-plugins-official market (install/update/uninstall with live skill and MCP mounts).
+- [WJDdidi-1/dsh-plugin-toolkit](https://github.com/WJDdidi-1/dsh-plugin-toolkit) - Preflight for plugin authors: packs the plugin the way npm would, installs the tarball, imports the root export the loader mounts and mounts the panel, so a `files` list that forgets `client.js` or a bundle the host would drop fails before release; also `init`, `dev` (reload against a running app) and `release`.
+- [WJDdidi-1/dsh-plugin-example](https://github.com/WJDdidi-1/dsh-plugin-example) - A ~70-line plugin to copy from: one sidebar tab, a host half, a bundle manifest and a passing preflight, installable with `dsh plugin add dsh-plugin-example`.
 
 ## Runtime & Operations
 

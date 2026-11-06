@@ -189,6 +189,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [huuthuan-nguyen/dsh-tgrep](https://github.com/huuthuan-nguyen/dsh-tgrep) - 基于 Microsoft tgrep 的三元组索引快速代码搜索插件，接管内置 grep 工具。
 - [dsh-context-imports](https://github.com/ciskonc/dsh-context-imports) - 为 AGENTS.md/CLAUDE.md 提供 Claude Code 式 `@路径` 导入：会话启动时递归展开并注入被引用文件，自带六语言设置卡片。
 - [dsh-sieve](https://github.com/Sev7eEn7/sieve) - 为 DSH 0.2.1-alpha.1 过滤工具输出、裁剪陈旧上下文并按需披露技能。
+- [WJDdidi-1/ai-context-doctor](https://github.com/WJDdidi-1/ai-context-doctor) - 给仓库和过往会话的读取打分，在淹没上下文窗口之前提醒，并写出挡住最糟那部分的 `.aiignore` 规则；同一个包还带一个跟随当前对话的侧栏面板。
 
 ## Memory & Knowledge
 
@@ -866,6 +867,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 
 - [easun-zhu/dsh-cap-manager](https://github.com/easun-zhu/dsh-cap-manager) - 一个面板统一管理全局 / Profile / 项目三个作用域的 MCP 服务与技能：实时状态与工具数、mcpServers JSON / 技能导入导出、回收站与备份，并可安装 / 更新 / 卸载 Anthropic 官方 claude-plugins-official 市场的 Claude Code 插件（技能与 MCP 实时挂载）。
+- [WJDdidi-1/dsh-plugin-toolkit](https://github.com/WJDdidi-1/dsh-plugin-toolkit) - 插件作者的安装前检查：按 npm 的方式打包、安装 tarball、import 加载器真正会 import 的根导出并挂载面板，所以「`files` 漏了 `client.js`」「宿主会丢掉的 bundle」在发布前就失败；另含 `init`、`dev`（对着运行中的应用热重载）与 `release`。
+- [WJDdidi-1/dsh-plugin-example](https://github.com/WJDdidi-1/dsh-plugin-example) - 约 70 行、可直接抄的插件示例：一个侧栏标签、宿主半、bundle 清单和能过的安装前检查，`dsh plugin add dsh-plugin-example` 即可安装。
 
 ## Runtime & Operations
 
