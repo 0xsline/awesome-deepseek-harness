@@ -1072,7 +1072,7 @@ Management panel: Settings → Plugins.
 
 - [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Standalone CLI that records model-provider traffic and replays a session offline with no provider contacted; DSH needs `orca attach --port N` because it resolves its provider origin from config rather than a base-URL environment variable.
 
-- [lcy0121/dsh-plugin-compat-check](https://github.com/lcy0121/dsh-plugin-compat-check) - Pre-install compatibility checker for DSH plugins: installs a plugin into a throwaway profile, boots the host, dumps its real API surface including prototype-chain methods, and diffs that against the services and methods the plugin actually calls.
+- [lcy0121/dsh-plugin-compat-check](https://github.com/lcy0121/dsh-plugin-compat-check) - Checks installed DSH plugins against the current host: a verdict badge and a per-plugin findings section on the plugin detail page, each finding with `file:line`, certainty and its basis, plus a `compat_check` tool and an agent skill; the repository CLI also does pre-install checks, with evidence and coverage limits.
 - [westtrade/dsh-moleculer](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-moleculer) - Moleculer integration: joins a Moleculer mesh, publishes every service as a model tool, exposes the same set over MCP and reports service joins, leaves and changes to the running model.
 
 - [dsh-download-file](https://github.com/zchrissirhcz/dsh-download-file) - Save any URL (intranet GitLab raw, public GitHub, etc.) to a local file — text or binary — with a text preview and skip-on-exists.
