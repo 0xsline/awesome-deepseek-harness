@@ -362,6 +362,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-better-left-sidebar](https://github.com/exoticknight/dsh-better-left-sidebar) - 更清爽、更合理的 DeepSeek Harness 左边栏，支持插件自定义多个小组件。
 
 - [01men/DeptAI-UI-DSH](https://github.com/01men/DeptAI-UI-DSH) - AI 代理与人类的协作前台：部门看板、工单、审批与行业计算都在 DSH 会话与面板里完成，代理在对话里干活，人在面板里负责；通过既有契约调用 01men/ybkkasi 治理底座，不重复实现治理。
+- [dsh-mindmap-live](https://github.com/SSShooter/dsh-mindmap-live) - DSH Web 实时双向思维导图：Agent 与用户共编同一棵树，改动即时互相同步，支持停靠分屏与全屏两种视图。
 
 ## Dashboards & Session UX
 - [dsh-delete-session](https://github.com/qiaozheng9/dsh-delete-session) - 面向 Windows 版 DSH 0.2.1-rc.5 的永久删除对话增强，支持嵌套子代理清理、原生确认弹窗和中断重试，需按仓库说明从源码安装。
