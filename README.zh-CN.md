@@ -536,6 +536,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-codex-computer-use](https://github.com/Han-1413141/dsh-codex-computer-use) - 让 DSH 当前模型通过已安装的 Codex Computer Use 运行时读取和操作 Windows 应用，并保留每个会话的应用授权。
 - [dsh-mini-remote](https://github.com/xingzhen199186/dsh-mini-remote) - DSH 会话的手机网页遥控端：三种显示模式（只看最新结论 / 聊天 / 含 diff 的完整执行轨迹），局域网、Tailscale 或 Cloudflare Tunnel 三条路径各自扫码配对，手机端可排队下发指令、应答审批与提问卡片，并支持飞书长连接通道。
 - [dsh-windows-computer-use](https://github.com/shinji00222/dsh-windows-computer-use) - Windows 电脑控制（C# 原生引擎）：纯文本模型读取 UI Automation 控件、批量填表并回读；控件重新渲染后按唯一身份找回；验证码拒绝代填，通过 DSH 审批框交给用户；Esc 随时停止。
+- [lukeinx/dsh-remote-wecom](https://github.com/lukeinx/dsh-remote-wecom) - 用企业微信智能机器人在手机上遥控 DSH Desktop 会话：切换会话与模型、收任务结果和生成的文件、审批与回答提问、向运行中的任务插话；在 Desktop 设置页扫码完成配置。
 
 ## Models & Inference
 
