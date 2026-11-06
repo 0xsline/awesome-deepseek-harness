@@ -1086,6 +1086,7 @@ Management panel: Settings → Plugins.
 - [westtrade/dsh-moleculer](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-moleculer) - Moleculer integration: joins a Moleculer mesh, publishes every service as a model tool, exposes the same set over MCP and reports service joins, leaves and changes to the running model.
 
 - [dsh-download-file](https://github.com/zchrissirhcz/dsh-download-file) - Save any URL (intranet GitLab raw, public GitHub, etc.) to a local file — text or binary — with a text preview and skip-on-exists.
+- [xingbei437/dsh-cbm-autorefresh](https://github.com/xingbei437/dsh-cbm-autorefresh) - Keeps the codebase-memory index aligned with the workspace a Session is actually in: refreshes that repository on Session start and on every working-directory change, with no project registration and no resident process.
 
 ## Related
 
