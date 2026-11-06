@@ -191,6 +191,7 @@ Management panel: Settings → Plugins.
 - [dsh-context-imports](https://github.com/ciskonc/dsh-context-imports) - Claude Code-style `@path` imports for AGENTS.md/CLAUDE.md: recursively expands and injects referenced files into model context at session start, with a six-language settings card.
 - [dsh-sieve](https://github.com/Sev7eEn7/sieve) - Filters tool outputs, prunes stale context and discloses skills on demand for DSH 0.2.1-alpha.1.
 - [WJDdidi-1/ai-context-doctor](https://github.com/WJDdidi-1/ai-context-doctor) - Grades what a repository or a past session actually read, warns before it floods the context window, and writes the `.aiignore` rules that stop the worst of it; the same package ships a sidebar panel that follows the current conversation.
+- [dsh-context-rescue](https://github.com/Lequait/dsh-context-rescue) - Emergency rescue for a session the host could not compact: on a context-window rejection it rewrites the projection (borrowing the host compaction engine, else a no-model digest fold), keeps tool-call/tool-result pairs balanced, then lets the host retry the request.
 
 ## Memory & Knowledge
 
