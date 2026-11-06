@@ -217,6 +217,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [plur-ai/dsh-plugin](https://github.com/plur-ai/dsh-plugin) - PLUR 持久记忆：engram 在每次组装时渲染进系统提示词，而不是藏在工具调用之后，因此召回无需额外往返，记忆块也不会在上下文中累积；全本地检索（BM25 + BGE）、可直接编辑的纯 YAML 存储、按工作区划分 scope，并提供 /plur-memory 查看器。
 - [dsh-memory-plugin](https://github.com/volcengine/OpenViking/tree/main/examples/dsh-memory-plugin) - DeepSeek Harness 的 OpenViking 记忆/上下文插件：接入 OpenViking 的自进化上下文数据库，为 dsh 提供跨会话 Agent 记忆与知识 RAG。
 - [dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) - 持续自进化插件：从会话轨迹提炼提示词笔记、记忆、技能与子代理规范，并以版本化、可审计、可回滚的方式维护 Harness 状态。
+- [dsh-deja](https://github.com/vshulcz/deja-vu/tree/main/extensions/dsh) - 跨智能体本地会话记忆插件（`dsh plugin --profile web add dsh-deja`）：直接索引本机磁盘上 DeepSeek Harness、Claude Code、Codex、Cursor、OpenClaw、Gemini CLI、Hermes、Kimi 等 43 个编程智能体已有的会话记录（包含安装前的历史），提供 6 个检索/溯源/排错工具、`/deja` 命令以及按需在步骤前与上下文压缩后自动注入的本地 BM25 索引，无需大模型或联网。
 - [ccch713/deepddw](https://github.com/ccch713/deepddw) - DSH 的记忆、知识库与文档检索，支持团队成员管理，以及电脑、手机和平板的局域网访问。
 - [dsh-mnemon](https://github.com/dsh-external/dsh-mnemon) - 助记层
 - [zoahdev/dsh-zh](https://github.com/zoahdev/dsh-zh) - 中文思维 system-prompt 片段：让 agent 用简体中文回答，代码/命令保持原文。
