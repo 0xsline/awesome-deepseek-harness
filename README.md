@@ -909,6 +909,7 @@ Management panel: Settings → Plugins.
 - [dsh-compat-guardian](https://github.com/Han-1413141/dsh-compat-guardian) - Detect DSH plugin conflicts and loading failures, quarantine affected bundles and recover them, with offline startup rescue.
 - [dsh-wsl-native](https://github.com/Han-1413141/dsh-wsl-native) - Use Windows and native Linux DSH sessions in one Windows window, with environment switching and bidirectional system tools; requires WSL 2 and Node.js on both systems.
 - [skyjjgw/dsh-version-guard](https://github.com/skyjjgw/dsh-version-guard) - Snapshots plugin versions and profile configuration, with an independent recovery page to restore a known-good configuration when DSH cannot start.
+- [tagayamajin/dsh-backup-skill](https://github.com/tagayamajin/dsh-backup-skill) - A DSH skill (not a plugin) that packs plugins, profiles, plugin settings, offline node_modules and chat history into one migration kit with the same-version installer, then restores a fresh machine with dependency verification, `.modules.yaml` path rewriting and mid-restore restart detection — usable even when DSH itself cannot boot.
 
 ## Domain & Specialist Skills
 
