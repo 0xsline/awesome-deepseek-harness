@@ -113,6 +113,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-agent-team-gui](https://github.com/toolclub/dsh-agent-team-gui) - 持久化多模型 Agent 小队：在 Settings 管理、Composer 选择；主 Agent 动态规划有界 DAG，可选审查/修复闭环，Run Center 展示 DSH 官方 provider 上报的 Token 用量。
 - [DSH Automation Center](https://github.com/usersx/dsh-automation-center) - 面向 Workspace 的定时 Agent 运行中心：每次执行创建全新的 Result Session 并保留持久审计历史；原版 DSH 使用会话标签，存在兼容 Shell Slot 时启用全局页面。
 - [Knotline / 运筹](https://github.com/MrMaii/knotline) - DSH 可视化项目地图：用诉求、Agent、Skill、积压池、审批池和定时触发组合并持久化自定义 Agent 工作流。
+- [LazyMind](https://github.com/LazyAGI/LazyMind) - 与 DeepSeek Harness 集成的独立应用，让用户保留现有 Agent，查看工作流进度与中间产物，并审核关键步骤。
 - [cleverer-dsh](https://github.com/Classicoke/cleverer-dsh) - DSH 执行纪律套件：拦截同参重试、强制反思、约束待办执行、记忆查重，并将重复经验沉淀为技能（11 个插件 + 6 个技能）。
 - [february2015/dsh-taskswarm](https://github.com/february2015/dsh-taskswarm) - TaskPlane 的 DSH 移植版：按依赖分波、多 lane 并行执行（git worktree 隔离），任务包 + 跨模型评审 + 崩溃可恢复。
 - [hongyue0721/dsh-kimicode-swarm](https://github.com/hongyue0721/dsh-kimicode-swarm) - Kimi Code Swarm 风格的批量并行子 Agent 调度：`swarm_batch` 工具把互不依赖的子任务批量派发给真实子 Agent，两阶段自适应并发（爬坡 + 撞限流指数退避并自动收缩/恢复），聊天内 SSE 实时进度流，并支持 `resume_agent_ids` 断点续做。
