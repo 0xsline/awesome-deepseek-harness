@@ -792,6 +792,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [weibaohui/dsh-ambient](https://github.com/weibaohui/dsh-ambient) - 环境音播放器：提供本地声音库、顺序／随机／单曲循环／间歇播放、定时关闭，以及可选的 AI 辅助音频下载。
 
 
+- [dsh-game-market](https://github.com/heswy/dsh-game-market) - DSH 游戏市场与运行时：Agent 跑长任务时游戏铺满主工作区，右下角小鲸鱼显示状态，进度自动保存可续；内置 5 款游戏，附游戏 SDK/CLI 与社区目录。
+
 ## Plugin Ecosystem & Development
 
 - [ymck-x/dsh-plugin-index](https://github.com/ymck-x/dsh-plugin-index) - DSH 内的插件索引：收录 1 万余个按 `package.json` 里 `dsh.bundle` 声明校验过的插件，支持一键安装，另有配套网站。
