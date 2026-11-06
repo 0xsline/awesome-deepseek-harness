@@ -357,6 +357,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-skill-mini-manager](https://github.com/runcat-tommy/dsh-skill-mini-manager) - DSH Web 设置中的极简 skill 管理器：列出已安装技能的简介、来源与磁盘占用，将符合移除条件的文件型技能移入可恢复的回收站，并保护内置和系统技能。
 - [dsh-better-left-sidebar](https://github.com/exoticknight/dsh-better-left-sidebar) - 更清爽、更合理的 DeepSeek Harness 左边栏，支持插件自定义多个小组件。
 
+- [01men/DeptAI-UI-DSH](https://github.com/01men/DeptAI-UI-DSH) - AI 代理与人类的协作前台：部门看板、工单、审批与行业计算都在 DSH 会话与面板里完成，代理在对话里干活，人在面板里负责；通过既有契约调用 01men/ybkkasi 治理底座，不重复实现治理。
+
 ## Dashboards & Session UX
 - [dsh-workspace-mover](https://github.com/PianoPrince/dsh-workspace-mover) - 跨工作区真原位迁移会话：拖拽迁移、批量/分组合并、孤儿救援面板、工作区搬家向导、可还原回收站、字节级备份与逐步回滚加迁移后校验，并提供 dsh-tools Agent 工具（npm: dsh-workspace-mover）。
 
@@ -687,6 +689,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [weibaohui/user-management](https://github.com/weibaohui/user-management) - DSH Web 的 HTTPS 登录网关，提供用户/角色管理、TOTP 与审计日志。首个注册者成为管理员：对外开放前须在可信网络完成首次注册，并让上游 DSH 服务仅监听 loopback。
 - [Ox0400/dsh-vault](https://github.com/Ox0400/dsh-vault) - dsh 本地加密凭据保险库：Web 设置页与 vault_* 工具，存取与复制密码、API 密钥、TOTP、银行卡信息，支持健康审计、到期轮换、导入导出与只读/询问访问模式。
+
+- [01men/ybkkasi](https://github.com/01men/ybkkasi) - 企业 AI 资产治理：把 MCP 服务、Skill、Agent、AI 应用、模型渠道、SaaS 连接器与 NAS 存储登记进同一套自托管台账，带生命周期状态机、逐工具 RBAC、部门 x Agent x Skill 三维成本归因、依赖拓扑与可追加审计日志。
 
 ## Output & Deliverables
 
