@@ -296,6 +296,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-file-upload](https://github.com/a903067276-rgb/dsh-file-upload) - 一键上传 + 拖拽文件进对话：保存到项目 uploads/、路径文本进输入框，可配合任意视觉工具。
 - [JohnXu22786/snippet-expander](https://github.com/JohnXu22786/snippet-expander) - Steno：发送前的行内 #tag 快捷展开——多库、别名、{{变量}}、递归防护。
 - [opencues/opencues](https://github.com/opencues/opencues/tree/master/integrations/dsh) - 输入框内的同义词提示与下划线补全：行尾输入 `_` 即自动填充，拼写错误随打随标。走 `ctx.llm`，无需自备 API key。
+- [dsh-phone-inbox](https://github.com/PerryLink/dsh-phone-inbox) - 列出当前会话通过微信桥实际收到的附件，并按需将其中一个采纳到工作区。
 
 ## UI, Themes & Interaction
 
@@ -471,6 +472,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [olimc2016/dsh-token-meter-panel](https://github.com/olimc2016/dsh-token-meter-panel) - 侧边栏 Token 用量与花费面板：今日消费、预算进度、7/30 天趋势、成本构成、缓存命中节省与按会话拆分。
 - [weibaohui/dsh-favorites](https://github.com/weibaohui/dsh-favorites) - 会话收藏夹：把任意会话收藏进浏览器收藏夹式的管理面板——左侧会话行一键收藏/星标，主面板支持文件夹分门别类、备注、自定义显示名、一键继续会话、Fork 新会话、会话基本统计，外加一张清晰展示会话派生关系的 fork 关系图。
 - [dsh-maze](https://github.com/lamost423/dsh-maze) - 执行迷宫：把一场会话的主干路径、折返与失败支路画在同一根时间轴上，配逐步数据轨道（工具、Token、上下文压力）、确定性分析（结果与证据、行为信号）与多会话对比。
+- [dsh-community-bench](https://github.com/PerryLink/dsh-community-bench) - 增加社区基准标签页，读取公开的、按任务条件计算的 registry，展示所有人看到的同一分数；不在本地计算分数。
 - [westtrade/dsh-project-cost](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-project-cost) - 项目花费统计：按会话 token 用量和 routerai.ru 公开模型价格计算每个工作区目录的支出，带工作区徽标与费用面板。
 - [answertsundere/dsh-canvas-plugin](https://github.com/answertsundere/dsh-canvas-plugin) - 会话分支画布：全幅血缘图、任意消息分叉、并行分支实时流式、确定性对比，以及每会话的 Agent 实况蛛网视图。
 ## IDE & Clients
@@ -1036,6 +1038,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-site-log-check](https://github.com/PerryLink/dsh-site-log-check) - 监理日志核对：依据 GB/T 50319-2013 等公开文件核对监理日志的跨日连续性与旁站覆盖，仅提示差异，不作出定性结论。
 - [dsh-spc-gbt-adapter](https://github.com/PerryLink/dsh-spc-gbt-adapter) - 控制图台账核对：按控制图常数表重算控制限并交叉核对 Cp/Cpk，只就台账自身的算术与常数表一致性提示差异（规则包采用 GB/T 17989.2—2020，该标准替代已废止的 GB/T 4091—2001）。
 - [dsh-customs-doc-check](https://github.com/PerryLink/dsh-customs-doc-check) - 报关配套单证台账核对：按可配置规则提示商品编码与币制格式不符、单证号重复及毛重与净重不一致，仅报告差异，不作合规认定。
+- [dsh-bid-health-check](https://github.com/PerryLink/dsh-bid-health-check) - 按招标要求逐条检查投标文件的响应位置，报告哪些要求看起来有应答、哪些匹配较弱、哪些未能定位；只报告差异，不判断是否实质满足。
 - [zhuyansen/backlink-guard](https://github.com/zhuyansen/backlink-guard) - 外链来源体检：提交前查目录站等外链来源靠不靠谱，上线后查链接在不在、传不传权重，给网站的外链做垃圾外链体检；附 Agent Skill 和 Python MCP 服务器。
 - [zhuyansen/new-term-radar](https://github.com/zhuyansen/new-term-radar) - 在 X、Hugging Face、GitHub 和网站地图里找刚出现的 AI 模型、产品和仓库名，并估算它们背后搜索词的量；附 Agent Skill 和 Python MCP 服务器。
 - [sagirimo/BioDSH](https://github.com/sagirimo/BioDSH) - 面向医生和湿实验科研人员的生信分析智能体，提供桌面版和 `dsh-biodsh` 插件包（npm）：BioDSH 智能体预设、17 个与 R 逐项对照过的分析技能（单细胞、bulk RNA-seq limma-voom、生存分析、稳健标准误回归、方差分析）、每条消息从 2000+ 技能库中自动挑选技能，以及按时间/步数的收敛护栏。
