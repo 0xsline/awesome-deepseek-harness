@@ -198,6 +198,7 @@ Management panel: Settings → Plugins.
 - [dsh-context-rescue](https://github.com/Lequait/dsh-context-rescue) - Emergency rescue for a session the host could not compact: on a context-window rejection it rewrites the projection (borrowing the host compaction engine, else a no-model digest fold), keeps tool-call/tool-result pairs balanced, then lets the host retry the request.
 - [westtrade/svelte-mcp-local](https://github.com/westtrade/deepseek-harness-plugins/tree/main/svelte-mcp-local) - Svelte documentation MCP server with a local cache: the same four tools as @sveltejs/mcp, but docs come from disk instead of svelte.dev on every call.
 - [MountBatten718/dsh-session-handoff](https://github.com/MountBatten718/dsh-session-handoff) - Session handoff: `/handoff` summarizes recent turns with an LLM, opens a new session in the same workspace with the summary as its first message, and can trigger automatically when the context window or session size grows. Supports DSH `0.1.0-rc.5`–`rc.8`, `0.1.1-rc.2`, `0.2.0-rc.2` and `0.2.1-rc.2`.
+- [YunongDai2005/dsh-theone](https://github.com/YunongDai2005/dsh-theone) - One main chat: each message is routed to the topic it belongs to and continued in that topic's own session and project folder; misroutes can be moved in one click and undone.
 
 ## Memory & Knowledge
 
