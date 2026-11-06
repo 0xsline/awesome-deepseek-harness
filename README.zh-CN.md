@@ -835,6 +835,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [weibaohui/dsh-kite](https://github.com/weibaohui/dsh-kite) - 随 agent 活动变化的动画风筝，支持配置风筝骨架、图案和配色，以及使用自定义图片贴图。
 - [weibaohui/dsh-ambient](https://github.com/weibaohui/dsh-ambient) - 环境音播放器：提供本地声音库、顺序／随机／单曲循环／间歇播放、定时关闭，以及可选的 AI 辅助音频下载。
 - [dsh-serene](https://github.com/chisato-lycoreco/dsh-serene) - 人格、情感与记忆插件：PAD+ 六维 × 三层（底色 / 此刻 / 关系）的情绪自己会衰减、有昼夜节律、会留下永久的基线疤；记忆按相关度 × 时间衰减 × 重要度召回；6 个工具，人格是 JSON，无守护进程、不调模型。
+- [dsh-pet-plugin](https://github.com/zuoyunlai/dsh-pet-plugin) - DSH 窗口里的超写实桌宠：五个形象（薇/绯/靛/银/鲸鱼女仆）各有五张表情立绘，跳舞、撩发、走路以 24fps VP9 alpha 视频播放，另有一条 10 秒单镜头舞台片段，按活跃时段主动说话（可选 edge-tts 神经音色），五种特效，小输入框通过一次性宿主模型调用回话、不写进会话。
 
 - [dsh-game-market](https://github.com/heswy/dsh-game-market) - DSH 游戏市场与运行时：Agent 跑长任务时游戏铺满主工作区，右下角小鲸鱼显示状态，进度自动保存可续；内置 5 款游戏，附游戏 SDK/CLI 与社区目录。
 
