@@ -1067,6 +1067,8 @@ Management panel: Settings → Plugins.
 - [lcy0121/dsh-plugin-compat-check](https://github.com/lcy0121/dsh-plugin-compat-check) - Pre-install compatibility checker for DSH plugins: installs a plugin into a throwaway profile, boots the host, dumps its real API surface including prototype-chain methods, and diffs that against the services and methods the plugin actually calls.
 - [westtrade/dsh-moleculer](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-moleculer) - Moleculer integration: joins a Moleculer mesh, publishes every service as a model tool, exposes the same set over MCP and reports service joins, leaves and changes to the running model.
 
+- [dsh-download-file](https://github.com/zchrissirhcz/dsh-download-file) - Save any URL (intranet GitLab raw, public GitHub, etc.) to a local file — text or binary — with a text preview and skip-on-exists.
+
 ## Related
 
 - [dsh-external/issues](https://github.com/dsh-external/issues) - Issue aggregation hub.

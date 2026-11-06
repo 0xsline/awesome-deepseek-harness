@@ -1067,6 +1067,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [lcy0121/dsh-plugin-compat-check](https://github.com/lcy0121/dsh-plugin-compat-check) - 插件可用性预检工具：把插件装进一次性 profile 并真实启动，dump 出宿主实际的 API 面（含原型链方法），与插件源码里实际调用的服务和方法逐条比对。
 - [westtrade/dsh-moleculer](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-moleculer) - Moleculer 集成：接入 Moleculer 网格，把每个服务发布为模型工具，同时以 MCP 暴露同一组工具，并把服务上下线变化告知模型。
 
+- [dsh-download-file](https://github.com/zchrissirhcz/dsh-download-file) - 把任意 URL（内网 GitLab raw、公网 GitHub 等）保存为本地文件，文本/二进制皆可，带文本预览与「已存在即跳过」。
+
 ## Related
 
 - [dsh-external/issues](https://github.com/dsh-external/issues) - Issue 聚合仓库
