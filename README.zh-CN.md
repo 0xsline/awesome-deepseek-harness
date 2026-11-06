@@ -822,7 +822,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [weibaohui/dsh-fireworks](https://github.com/weibaohui/dsh-fireworks) - 烟花庆祝引擎：agent 编程时漂浮在对话窗口上空放烟花——开场迎宾、回合礼花、工具星花、里程碑大礼、收工终场、失败哑炮，每类事件一张烟花属性卡组随机抽取，token 用量决定烟花的大小、高度与绚烂程度。
 - [weibaohui/dsh-kite](https://github.com/weibaohui/dsh-kite) - 随 agent 活动变化的动画风筝，支持配置风筝骨架、图案和配色，以及使用自定义图片贴图。
 - [weibaohui/dsh-ambient](https://github.com/weibaohui/dsh-ambient) - 环境音播放器：提供本地声音库、顺序／随机／单曲循环／间歇播放、定时关闭，以及可选的 AI 辅助音频下载。
-
+- [dsh-serene](https://github.com/chisato-lycoreco/dsh-serene) - 人格、情感与记忆插件：PAD+ 六维 × 三层（底色 / 此刻 / 关系）的情绪自己会衰减、有昼夜节律、会留下永久的基线疤；记忆按相关度 × 时间衰减 × 重要度召回；6 个工具，人格是 JSON，无守护进程、不调模型。
 
 - [dsh-game-market](https://github.com/heswy/dsh-game-market) - DSH 游戏市场与运行时：Agent 跑长任务时游戏铺满主工作区，右下角小鲸鱼显示状态，进度自动保存可续；内置 5 款游戏，附游戏 SDK/CLI 与社区目录。
 
