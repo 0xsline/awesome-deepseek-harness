@@ -232,6 +232,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) - 持续自进化插件：从会话轨迹提炼提示词笔记、记忆、技能与子代理规范，并以版本化、可审计、可回滚的方式维护 Harness 状态。
 - [dsh-deja](https://github.com/vshulcz/deja-vu/tree/main/extensions/dsh) - 跨智能体本地会话记忆插件（`dsh plugin --profile web add dsh-deja`）：直接索引本机磁盘上 DeepSeek Harness、Claude Code、Codex、Cursor、OpenClaw、Gemini CLI、Hermes、Kimi 等 43 个编程智能体已有的会话记录（包含安装前的历史），提供 6 个检索/溯源/排错工具、`/deja` 命令以及按需在步骤前与上下文压缩后自动注入的本地 BM25 索引，无需大模型或联网。
 - [ccch713/deepddw](https://github.com/ccch713/deepddw) - DSH 的记忆、知识库与文档检索，支持团队成员管理，以及电脑、手机和平板的局域网访问。
+- [revive123456/dsh-obsidian-notes](https://github.com/revive123456/dsh-obsidian-notes) - DSH 右侧栏的 Obsidian 风格笔记面板：指向本地 Markdown 文件夹即可得到目录树、带行号的预览与编辑、粘贴截图直接存进笔记库，选中文字可带笔记路径与行号向 AI 提问（npm：`dsh-obsidian-notes`）。
 - [dsh-mnemon](https://github.com/dsh-external/dsh-mnemon) - 助记层
 - [zoahdev/dsh-zh](https://github.com/zoahdev/dsh-zh) - 中文思维 system-prompt 片段：让 agent 用简体中文回答，代码/命令保持原文。
 - [memory-mcp-server](https://github.com/BingoAgentTouch/Personal_MCP) - 分层长期记忆 MCP 服务器：原始轮次 → 任务片段 → 每日总结 → 主题索引；本地 MiniLM 384 维嵌入或 OpenAI 兼容 API 后端，语义 + Jaccard 兜底检索，支持 dsh plugin add 一键安装。
