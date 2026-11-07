@@ -565,6 +565,8 @@ Management panel: Settings → Plugins.
 - [dsh-windows-computer-use](https://github.com/shinji00222/dsh-windows-computer-use) - Windows computer use with a native C# engine: text-only models read UI Automation controls and fill forms in verified batches, stale control refs can be re-found by unique identity, and CAPTCHAs are refused and handed back to the user via the DSH approval prompt; Esc stops the turn.
 - [lukeinx/dsh-remote-wecom](https://github.com/lukeinx/dsh-remote-wecom) - Drive DSH Desktop sessions from a WeCom (企业微信) smart bot on your phone: switch sessions and models, get task results with generated files, answer approvals and questions, steer running turns; QR setup from the Desktop settings page.
 
+- [klaus-2/dsh-redline](https://github.com/klaus-2/dsh-redline) - Visual review for the harness browser: pick any element to comment on it, adjust styles live with rollback, sketch on a free-form annotation canvas, and send everything as structured context attached to the next message, with cropped or full-page screenshots composited with the drawings (npm: dsh-redline).
+
 ## Models & Inference
 
 - [dsh-zcode-coding-plan](https://github.com/yuyang2230/dsh-zcode-coding-plan) - Dispatches coding tasks to the official ZCode CLI, with native agent tools, multi-turn resume, context caching and quota-aware routing.
