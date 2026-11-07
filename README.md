@@ -298,6 +298,7 @@ Management panel: Settings → Plugins.
 - [PerryLink/dsh-composer-history](https://github.com/PerryLink/dsh-composer-history) - Terminal-style input history for the web composer (edge-first arrows, draft/caret restore, Ctrl+R search, sliding-context awareness) plus a smart input layer: cross-session snippets, prompt templates with variables, reuse insights, and compaction-summary highlighting.
 - [opencues/opencues](https://github.com/opencues/opencues/tree/master/integrations/dsh) - Word alternatives and underscore-gated fill-ins in the composer: end a line with `_` and it is filled, misspellings are flagged as you type. Routes through `ctx.llm`, so it needs no API key of its own.
 - [dsh-phone-inbox](https://github.com/PerryLink/dsh-phone-inbox) - Lists the attachments the current session actually received through the WeChat bridge and adopts one into the workspace on demand.
+- [dsh-marktext](https://github.com/Roland0511/dsh-marktext) - WYSIWYG Markdown editor in the sidebar: `.md` files open as rendered documents and save back through a version guard, with tables, math, Mermaid/Vega/PlantUML diagrams, relative images and links between files.
 
 ## UI, Themes & Interaction
 

@@ -297,6 +297,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [JohnXu22786/snippet-expander](https://github.com/JohnXu22786/snippet-expander) - Steno：发送前的行内 #tag 快捷展开——多库、别名、{{变量}}、递归防护。
 - [opencues/opencues](https://github.com/opencues/opencues/tree/master/integrations/dsh) - 输入框内的同义词提示与下划线补全：行尾输入 `_` 即自动填充，拼写错误随打随标。走 `ctx.llm`，无需自备 API key。
 - [dsh-phone-inbox](https://github.com/PerryLink/dsh-phone-inbox) - 列出当前会话通过微信桥实际收到的附件，并按需将其中一个采纳到工作区。
+- [dsh-marktext](https://github.com/Roland0511/dsh-marktext) - 侧边栏里的所见即所得 Markdown 编辑器：`.md` 打开即为渲染后的文档，保存走版本校验，支持表格、公式、Mermaid/Vega/PlantUML 图表、相对路径图片与文件间链接。
 
 ## UI, Themes & Interaction
 
