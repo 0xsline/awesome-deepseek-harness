@@ -1,0 +1,160 @@
+name: entry-check
+
+# Manual ENTRY check for entries added to the READMEs (workflow_dispatch only).
+#
+# No automatic pull-request runs: this is an on-demand audit tool.
+#
+# For up to three added `- [name](url) - description` lines, this job:
+#   1. reads the repository's package.json from raw.githubusercontent.com;
+#   2. requires registry.npmjs.org to report that the published package's
+#      repository points back at the same repository (a bare name can be
+#      squatted);
+#   3. downloads only the published tarball with `npm pack --ignore-scripts`;
+#   4. runs the pinned `dsh-standards@1.6.8` with
+#      `--scope entry --entry-claim static --no-exec`.
+#
+# The source repository is never cloned: source trees often omit `lib/`
+# (the release build adds it), which the ENTRY checker would read as a missing
+# entry against C-1.2. Nothing from the tarball is installed or executed.
+#
+# This is not a gate. It posts no comment and creates no check run via the API
+# (the job itself is one non-required status check); it holds a read-only token,
+# and every step is continue-on-error. The summary carries the checker
+# exit code, counts, and the checks that did not run; it publishes no verdict.
+# FLOW stays `not-run` and BOOST stays `not-measured`. Delete this file to
+# remove the job; it owns no state and changes no other workflow.
+#
+# Why the diff is built from SHAs: the pull request may come from a fork and
+# the checkout is the head SHA, so the comparison has to be the pull request's
+# own added lines, not main's. A three-dot diff uses the merge base.
+#
+# Why at most three entries: each entry downloads and statically scans a full
+# package. The cap keeps the job bounded while covering the common +1 entry
+# submission. The remainder is reported as not attempted, never as checked.
+
+on:
+  workflow_dispatch:
+    # Same check on demand, without waiting for a README change: audit the last
+    # commit by default, or pass an explicit range (for example a pull request's
+    # base and head SHAs).
+    inputs:
+      base:
+        description: 'Base commit SHA (default: HEAD~1)'
+        required: false
+      head:
+        description: 'Head commit SHA (default: the dispatched commit)'
+        required: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: entry-check-${{ github.event.pull_request.number || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  entry-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out the pull request head
+        continue-on-error: true
+        uses: actions/checkout@v4
+        with:
+          # workflow_dispatch has no pull request; audit the dispatched commit.
+          ref: ${{ inputs.head || github.event.pull_request.head.sha || github.sha }}
+          fetch-depth: 0
+          # Keep the read-only token out of the checkout's git config; with full
+          # history the base commit is normally present, so no authenticated fetch is
+          # needed; the anonymous fetch is only a fallback for public repos.
+          persist-credentials: false
+
+      - name: Set up Node 24
+        continue-on-error: true
+        uses: actions/setup-node@v4
+        with:
+          # dsh-standards@1.6.8 declares engines.node >=24.9.0. The list has no
+          # package.json, so there is nothing to cache.
+          node-version: 24
+
+      - name: Install the pinned checker outside the checkout
+        continue-on-error: true
+        env:
+          npm_config_registry: https://registry.npmjs.org/
+        run: |
+          set -euo pipefail
+          prefix="$RUNNER_TEMP/dsh-standards-1.6.8"
+          npm install --prefix "$prefix" --no-save --ignore-scripts --no-audit --no-fund \
+            --registry=https://registry.npmjs.org/ dsh-standards@1.6.8
+          version="$(node "$prefix/node_modules/dsh-standards/bin/dsh-standards.mjs" --version)"
+          echo "$version"
+          case "$version" in
+            "dsh-standards 1.6.8"*) ;;
+            *)
+              echo "::error::expected dsh-standards 1.6.8, got: $version"
+              exit 1
+              ;;
+          esac
+
+      - name: Build the added-line diff
+        continue-on-error: true
+        env:
+          BASE_SHA: ${{ inputs.base || github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ inputs.head || github.event.pull_request.head.sha || github.sha }}
+        run: |
+          set -euo pipefail
+          base="${BASE_SHA:-HEAD~1}"
+          head="${HEAD_SHA:-HEAD}"
+          if ! git cat-file -e "$base^{commit}" 2>/dev/null; then
+            if ! git fetch --no-tags origin "$base"; then
+              echo "::warning::could not fetch the base commit; the check will report not_run"
+              rm -f entry-check.diff
+              exit 0
+            fi
+          fi
+          if ! git diff --unified=0 --no-color "$base...$head" -- README.md README.zh-CN.md > entry-check.diff; then
+            echo "::warning::could not build the pull request diff; the check will report not_run"
+            rm -f entry-check.diff
+          fi
+          echo "diff lines: $(wc -l < entry-check.diff 2>/dev/null || echo 0)"
+
+      - name: Run the informational ENTRY check
+        if: always()
+        continue-on-error: true
+        run: |
+          node scripts/check-entry.mjs \
+            --diff entry-check.diff \
+            --checker "$RUNNER_TEMP/dsh-standards-1.6.8/node_modules/dsh-standards/bin/dsh-standards.mjs" \
+            --out-dir entry-check-out \
+            --max 3
+
+      - name: Ensure the summary reports not_run when the script produced nothing
+        if: always()
+        continue-on-error: true
+        run: |
+          if [ ! -f entry-check-out/summary.md ]; then
+            echo "::error::ENTRY check did not produce a result; see the job log."
+            {
+              echo "## Informational ENTRY check (non-blocking)"
+              echo
+              echo "not_run: the check did not produce a result; see the job log."
+              echo
+              echo "FLOW: not-run"
+              echo "BOOST: not-measured"
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Upload the ENTRY check artifact
+        if: always()
+        continue-on-error: true
+        uses: actions/upload-artifact@v4
+        with:
+          name: entry-check-${{ github.event.pull_request.number || github.run_id }}-${{ github.run_attempt }}
+          path: entry-check-out/
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: Run the offline unit tests
+        if: always()
+        continue-on-error: true
+        run: node --test scripts/check-entry.test.mjs
