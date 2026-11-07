@@ -562,6 +562,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-windows-computer-use](https://github.com/shinji00222/dsh-windows-computer-use) - Windows 电脑控制（C# 原生引擎）：纯文本模型读取 UI Automation 控件、批量填表并回读；控件重新渲染后按唯一身份找回；验证码拒绝代填，通过 DSH 审批框交给用户；Esc 随时停止。
 - [lukeinx/dsh-remote-wecom](https://github.com/lukeinx/dsh-remote-wecom) - 用企业微信智能机器人在手机上遥控 DSH Desktop 会话：切换会话与模型、收任务结果和生成的文件、审批与回答提问、向运行中的任务插话；在 Desktop 设置页扫码完成配置。
 
+- [klaus-2/dsh-redline](https://github.com/klaus-2/dsh-redline) - harness 浏览器可视化评审：选中任意元素添加评论、实时调整样式并可回滚、在自由画布上批注草图，然后作为结构化上下文随下一条消息发送，截图（局部或整页）会合成所画的批注（npm: dsh-redline）。
+
 ## Models & Inference
 
 - [dsh-zcode-coding-plan](https://github.com/yuyang2230/dsh-zcode-coding-plan) - 将编码任务派给官方 ZCode CLI，支持原生 Agent 工具、多轮续接、上下文缓存与按套餐余量路由。
