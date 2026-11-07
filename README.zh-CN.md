@@ -520,6 +520,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-native-macos](https://github.com/DanielW203/dsh-native-macos) - DeepSeek Harness 的原生 SwiftUI macOS 客户端：多版本 harness 并存，升级后跑 8 项自检、阻断项不过即回退一次，另有安全模式恢复与内置微信/手机远控。
 - [deepseek-harness-android](https://github.com/guzhou079-arch/deepseek-harness-android) - 将 DSH 运行时与技能打包为可安装 APK 的安卓客户端，支持手机端构建与虚拟屏自动化，无需 Termux 或 root。
 - [DSH_Mobile](https://github.com/jayantTang/DSH_Mobile) - 原生 iOS 客户端加电脑侧连接器与可自建的公网中转：iPhone 在 4G/5G 下连自己电脑上的 DSH 会话，不需要公网 IP 或 VPN。
+- [Sesori](https://github.com/sesori-ai/sesori_apps_monorepo) - DeepSeek Harness 会话停下来等你回答问题或确认权限时立即通知你，可直接在手机上回复；免费的桌面应用（macOS、Linux）和 iOS/Android 应用，连接你自己电脑上的会话，代码留在电脑上，流量经端到端加密的中转，中转只能看到密文。也支持 Claude Code、Codex、OpenCode、GitHub Copilot、Cursor、Pi、OMP、Hermes 和 Grok Build。源码可用（FSL-1.1-ALv2）。
 - [AnyModelBot](https://github.com/modelflare-ai/AnyModelBot) - 本地优先的桌面、命令行与 Docker 应用，以 DeepSeek Harness 作为智能体运行时，支持微信与飞书渠道、按机器人独立的记忆、文件读写和电脑操作
 - [deepseek-harness-linux](https://github.com/butterpurse-dot/deepseek-harness-linux) - 官方 Electron 桌面端的社区 Linux 打包：x64 与 arm64 的 AppImage、deb 和 tar.gz，提供校验和、AppImage 自动更新，并每小时同步上游。
 - [westtrade/deepseek-desktop](https://github.com/westtrade/deepseek-harness-plugins/tree/main/deepseek-desktop) - DSH 桌面窗口（Neuralino 无关，基于 Neutralinojs）：启动 dsh --profile web，关闭时收进托盘，保持单实例而不再开第二个窗口。
