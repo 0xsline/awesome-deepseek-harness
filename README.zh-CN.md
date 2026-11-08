@@ -282,6 +282,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-plugin-quote-reply](https://github.com/yangYzc/dsh-plugin-quote-reply) - 在会话中划选文字，一键「引用回复」插入输入框，或「新窗口回复」开新会话并预填引用。
 - [dsh-pathlink](https://github.com/penguin-oo/dsh-pathlink) - 在对话中 Ctrl+点击文件路径与链接：路径在文件管理器中定位所在文件夹，链接在新标签页打开。
 - [@picgo/dsh-plugin](https://github.com/PicGo/dsh-plugin) - PicGo 官方插件：把本地文件传到图床拿到公网链接，复用你已在 PicGo 配好的图床与上传器插件。
+- [klaus-2/dsh-nextsteps](https://github.com/klaus-2/dsh-nextsteps) - 每个智能体回合的一键下一步：模型在回答结尾建议约 3 个后续提示，渲染为该回合下方的可点击卡片，一次点击即作为下一条消息发送；卡片跨重启持久化（npm: dsh-nextsteps）。
 - [dsh-suggested-replies](https://github.com/dsh-external/dsh-suggested-replies) - DSH Web 输入框上方的预测回复插件。
 - [dsh-wordbox](https://github.com/arcmosin/dsh-wordbox) - 输入框旁的常驻常用词/句面板，支持全局/当前项目双桶与一键插入。
 - [dsh-voice-webspeech](https://github.com/anweat/dsh-voice-webspeech) - DSH 浏览器 Web Speech API 语音输入：零服务端、零密钥、零模型下载（Edge=Azure 语音、Chrome=Google 语音）。
