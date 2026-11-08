@@ -201,6 +201,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [MountBatten718/dsh-session-handoff](https://github.com/MountBatten718/dsh-session-handoff) - 会话接力：`/handoff` 用 LLM 总结最近的对话轮次，在同一工作区新建会话并把总结作为首条消息注入后自动打开；上下文或会话体积变大时也可自动触发。支持 DSH `0.1.0-rc.5`–`rc.8`、`0.1.1-rc.2`、`0.2.0-rc.2` 与 `0.2.1-rc.2`。
 - [YunongDai2005/dsh-theone](https://github.com/YunongDai2005/dsh-theone) - 只开一个主聊天：每条消息自动分到所属话题，在该话题自己的会话和项目文件夹里继续；分错可一键换话题，也可撤销。
 - [mili1360/dsh-history-fold](https://github.com/mili1360/dsh-history-fold) - 把会话可见历史里最老的一段替换成一条消息，消息中带抽取式的一行索引和无损本地归档的路径，使每轮请求携带的 token 变少。
+- [pengfeis/dsh-super-search](https://github.com/pengfeis/dsh-super-search) - DSH 会话全局搜索：跨全部工作区与全部会话，只索引用户提问、助手回答与会话标题（不含思考过程、工具调用与工具输出），提供 ⌘⇧K 搜索面板与 `super_search` 工具。
 
 ## Memory & Knowledge
 
