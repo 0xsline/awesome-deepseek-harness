@@ -202,7 +202,7 @@ Management panel: Settings → Plugins.
 - [MountBatten718/dsh-session-handoff](https://github.com/MountBatten718/dsh-session-handoff) - Session handoff: `/handoff` summarizes recent turns with an LLM, opens a new session in the same workspace with the summary as its first message, and can trigger automatically when the context window or session size grows. Supports DSH `0.1.0-rc.5`–`rc.8`, `0.1.1-rc.2`, `0.2.0-rc.2` and `0.2.1-rc.2`.
 - [YunongDai2005/dsh-theone](https://github.com/YunongDai2005/dsh-theone) - One main chat: each message is routed to the topic it belongs to and continued in that topic's own session and project folder; misroutes can be moved in one click and undone.
 - [mili1360/dsh-history-fold](https://github.com/mili1360/dsh-history-fold) - Replaces the oldest span of a session's visible history with one message carrying an extractive index and the path of a lossless local archive, so each request sends fewer tokens.
-- [pengfeis/dsh-super-search](https://github.com/pengfeis/dsh-super-search) - Global search over DSH conversations that indexes only user questions and assistant answers (reasoning, tool calls, and tool output excluded), exposed as a ⌘⇧K palette and a `super_search` tool.
+- [pengfeis/dsh-super-search](https://github.com/pengfeis/dsh-super-search) - Global search over DSH conversations across every session and every workspace, indexing only user questions, assistant answers, and conversation titles (reasoning, tool calls, and tool output excluded), exposed as a ⌘⇧K palette and a `super_search` tool.
 
 ## Memory & Knowledge
 
