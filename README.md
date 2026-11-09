@@ -301,6 +301,7 @@ Management panel: Settings → Plugins.
 
 ## UI, Themes & Interaction
 
+- [xingzhen199186/dsh-entry-drawer](https://github.com/xingzhen199186/dsh-entry-drawer) - Turns the first row of the DSH sidebar entry list into a switch that folds every other entry away, giving the session history more room.
 - [online111111/whalechan-dsh-theme](https://github.com/online111111/whalechan-dsh-theme) - Unofficial Whale-chan community fan-art theme for DeepSeek Harness Web GUI: ocean-blue styling, riding-whale branding, dedicated tool/shield icons, and in-page toggle.
 
 - [exoticknight/dsh-just-chat](https://github.com/exoticknight/dsh-just-chat) - One-click native conversation entry points that create independent workspaces and sessions.
