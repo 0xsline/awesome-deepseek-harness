@@ -526,6 +526,7 @@ Management panel: Settings → Plugins.
 - [AnyModelBot](https://github.com/modelflare-ai/AnyModelBot) - Local-first desktop, CLI and Docker app that runs DeepSeek Harness as its agent runtime, with WeChat and Feishu channels, per-bot memory, file access and computer use.
 - [deepseek-harness-linux](https://github.com/butterpurse-dot/deepseek-harness-linux) - Community Linux packaging of the official Electron desktop app: AppImage, deb and tar.gz for x64 and arm64, checksums, AppImage auto-update, and an hourly upstream sync.
 - [westtrade/deepseek-desktop](https://github.com/westtrade/deepseek-harness-plugins/tree/main/deepseek-desktop) - Desktop window for DSH on Neutralinojs: boots dsh --profile web, hides to the tray on close, and keeps a single instance instead of opening a second window.
+- [stlin256/DSH-Harmony](https://github.com/stlin256/DSH-Harmony) - Native HarmonyOS (ArkUI/ArkTS) client for DeepSeek Harness, with a companion plugin for native login, sessions, live updates and notifications.
 
 ## Browser & Remote
 
