@@ -564,6 +564,7 @@ Management panel: Settings → Plugins.
 - [dsh-mini-remote](https://github.com/xingzhen199186/dsh-mini-remote) - Mobile web remote for a DSH session: three view modes (latest conclusion / chat / full trace with diffs), LAN, Tailscale or Cloudflare Tunnel routes with per-route QR pairing, instruction queueing and approval or question cards on the phone, plus a Feishu long-connection channel.
 - [dsh-windows-computer-use](https://github.com/shinji00222/dsh-windows-computer-use) - Windows computer use with a native C# engine: text-only models read UI Automation controls and fill forms in verified batches, stale control refs can be re-found by unique identity, and CAPTCHAs are refused and handed back to the user via the DSH approval prompt; Esc stops the turn.
 - [lukeinx/dsh-remote-wecom](https://github.com/lukeinx/dsh-remote-wecom) - Drive DSH Desktop sessions from a WeCom (企业微信) smart bot on your phone: switch sessions and models, get task results with generated files, answer approvals and questions, steer running turns; QR setup from the Desktop settings page.
+- [better-ego-browser](https://github.com/cyrus-xc/better-ego-browser) — Connects DSH to the installed Windows ego lite app over authenticated loopback HTTP for navigation, clicks, form input and screenshots.
 
 ## Models & Inference
 
