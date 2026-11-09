@@ -300,6 +300,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## UI, Themes & Interaction
 
+- [AD199-gif/dsh-nav-tidy](https://github.com/AD199-gif/dsh-nav-tidy) - 在侧栏「更多 → 侧栏入口」里勾选隐藏任意面板入口，插件照常运行；另带控制台 API。
 - [online111111/whalechan-dsh-theme](https://github.com/online111111/whalechan-dsh-theme) - 面向 DeepSeek Harness Web GUI 的 Whale-chan 鲸鱼娘同人主题：海洋蓝视觉系统、骑鲸品牌标志、专属工具与权限护盾图标，页面内支持一键切换原生。
 
 - [exoticknight/dsh-just-chat](https://github.com/exoticknight/dsh-just-chat) - 一键打开原生对话入口，每次创建独立工作区和会话。
