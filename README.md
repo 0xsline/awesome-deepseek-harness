@@ -811,6 +811,8 @@ Management panel: Settings → Plugins.
 
 ## Fun & Lifestyle
 
+- [Lamplit](https://github.com/lysforge/dsh-lamplit) - Reading plugin: one shelf for WeChat Reading, GitHub book repos and local EPUB/PDF/Markdown, with an immersive reader and AI notes on selection.
+
 - [Iven Pet](https://github.com/IvenKooLab/desktop-pet) - Independent 3D plush desktop companion for macOS and Windows, with automatic animations, mouse interactions, and local work-state adapters for DSH and ZCode.
 
 - [dsh-nexttavern](https://github.com/a86582751/dsh-nexttavern) - Roleplay with character-card import/authoring, worldlines, lorebooks and layered long-term memory for DSH 0.1.7-rc.2 / Web.

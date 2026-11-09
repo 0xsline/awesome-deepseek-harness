@@ -810,6 +810,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Fun & Lifestyle
 
+- [Lamplit 灯下](https://github.com/lysforge/dsh-lamplit) - 读书插件：把微信读书、GitHub 书库和本地 EPUB/PDF/Markdown 收进一个书架，沉浸阅读，划词问 AI 并存成笔记。
+
 - [Iven Pet](https://github.com/IvenKooLab/desktop-pet) - macOS / Windows 独立 3D 绒质桌宠，支持动作轮播、鼠标互动，以及 DSH、ZCode 的本地工作状态联动。
 
 - [dsh-nexttavern](https://github.com/a86582751/dsh-nexttavern) - 面向 DSH 0.1.7-rc.2 / Web 的角色扮演：角色卡导入与创作、世界线、世界书和分层长期记忆。
