@@ -301,6 +301,7 @@ Management panel: Settings → Plugins.
 
 ## UI, Themes & Interaction
 
+- [AD199-gif/dsh-nav-tidy](https://github.com/AD199-gif/dsh-nav-tidy) - Hide chosen sidebar panel entries without disabling the plugins behind them: a checkbox panel under the sidebar's More menu, plus a console API.
 - [online111111/whalechan-dsh-theme](https://github.com/online111111/whalechan-dsh-theme) - Unofficial Whale-chan community fan-art theme for DeepSeek Harness Web GUI: ocean-blue styling, riding-whale branding, dedicated tool/shield icons, and in-page toggle.
 
 - [exoticknight/dsh-just-chat](https://github.com/exoticknight/dsh-just-chat) - One-click native conversation entry points that create independent workspaces and sessions.
