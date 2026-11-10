@@ -476,7 +476,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [westtrade/dsh-project-cost](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-project-cost) - 项目花费统计：按会话 token 用量和 routerai.ru 公开模型价格计算每个工作区目录的支出，带工作区徽标与费用面板。
 - [answertsundere/dsh-canvas-plugin](https://github.com/answertsundere/dsh-canvas-plugin) - 会话分支画布：全幅血缘图、任意消息分叉、并行分支实时流式、确定性对比，以及每会话的 Agent 实况蛛网视图。
 ## IDE & Clients
-
+- [Deepseek-Insight](https://github.com/mitmplay/dsh-insight) - DSI — 一种风格独特且具有鲜明设计理念的 DSH Web 客户端。这是一个多智能体工作空间，支持在可缩放、可调整大小的多栏面板中，并排呈现多个智能体（及子智能体）的运作过程，同时还能展示非对话类内容。
 - [Minke](https://github.com/lencx/Minke) - 基于 DeepSeek Harness 的桌面 Agent 工作区，支持 macOS、Windows 和 Linux，提供人机共享浏览器控制、集成文件与终端、远程访问和本地模型管理。
 - [PaperMachine](https://github.com/SuperJJ007/papermachine) - 基于 DeepSeek Harness 的桌面数据分析应用，在本机运行 Python 和 R，支持检查执行步骤及追溯图表和表格的来源。
 - [Blue](https://github.com/dsh-blue/blue) - DeepSeek Harness 交互式 TUI 插件：基于 Cordis bundle 的 pi-tui 渲染器，支持流式转录、工具调用卡片、审批浮层、会话管理与主题。
