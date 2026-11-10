@@ -790,6 +790,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [DSH-WX-Msg-Tool](https://github.com/yauntyour/DSH-WX-Msg-Tool) - 微信 ClawBot/iLink 渠道插件：在 DSH Web 扫码登录，提供消息发送、轮询与状态工具、后台长轮询，并可按发送者维持 DSH 会话后自动回复微信消息。
 - [super-wechat-bridge](https://github.com/Qshuai0213/super-wechat-bridge) - 微信 iLink ClawBot 桥接：官方腾讯 iLink 协议直连，Web 设置界面（扫码登录/模型/预设/权限/会话管理含删除），24h 到期前自动推送新二维码续期，全程不断线。
 - [dsh-voice-chat](https://github.com/dsh-external/dsh-voice-chat) - 语音对话
+- [dsh-xiaomi-tts](https://github.com/ppy-web/dsh-plugin-xiaomi-mimo-tts) - DSH Web 语音朗读插件，支持小米 MiMo、豆包、Breeze 和浏览器语音，以及流式播放和音频下载。
 - [dsh-web-ui-notify](https://github.com/dsh-external/dsh-web-ui-notify) - WebUI 通知
 - [dsh-notification-sounds](https://github.com/qq33357486/dsh-notification-sounds) - 跨平台浏览器音频提醒：DSH 需要用户操作时播放中文“任务等待”，任务完成时播放“任务完成”。
 - [dsh-notify-windows](https://github.com/SeverusZh/dsh-notify-windows) - Windows 通知，零依赖

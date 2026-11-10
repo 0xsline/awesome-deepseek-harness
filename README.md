@@ -791,6 +791,7 @@ Management panel: Settings → Plugins.
 - [DSH-WX-Msg-Tool](https://github.com/yauntyour/DSH-WX-Msg-Tool) - WeChat ClawBot/iLink channel plugin: QR login in DSH Web, message send/poll/status tools, background polling, and optional per-sender persistent DSH sessions that automatically reply through WeChat.
 - [super-wechat-bridge](https://github.com/Qshuai0213/super-wechat-bridge) - WeChat iLink ClawBot bridge: official Tencent iLink protocol, Web UI settings (QR login / model / preset / permissions / session management with delete), 24h auto-renewal pushes a fresh QR before expiry, zero downtime.
 - [dsh-voice-chat](https://github.com/dsh-external/dsh-voice-chat) - Voice chat.
+- [dsh-xiaomi-tts](https://github.com/ppy-web/dsh-plugin-xiaomi-mimo-tts) - DSH Web text-to-speech with Xiaomi MiMo, Doubao, Breeze and browser voices, streaming playback, and audio downloads.
 - [dsh-web-ui-notify](https://github.com/dsh-external/dsh-web-ui-notify) - WebUI notifications.
 - [dsh-notification-sounds](https://github.com/qq33357486/dsh-notification-sounds) - Cross-platform browser audio alerts that play bundled Chinese prompts when DSH needs user input or finishes a task.
 - [dsh-notify-windows](https://github.com/SeverusZh/dsh-notify-windows) - Windows notifications, zero dependencies.
