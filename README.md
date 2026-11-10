@@ -769,6 +769,7 @@ Management panel: Settings → Plugins.
 
 ## Notifications & Channels
 
+- [dsh-lanya](https://github.com/bamboosir1109/dsh-lanya) — Windows QQ character integration kit with two QQ backends, Bilibili, local voice and revisable memory; companion services require setup (development preview).
 - [dsh-dingtalk-channel](https://github.com/ttmouse/dsh-dingtalk-channel) - DingTalk IM channel via Stream-mode WebSocket: each chat drives its own tooled agent; replies stream back as messages, no public callback URL needed.
 - [dsh-feishu](https://github.com/PGZXB/dsh-feishu) - Feishu (Lark) UI for DeepSeek Harness: panel-driven control console, in-card approvals and questions, live streaming cards, one-QR setup.
 - [dsh-feishu-bot](https://github.com/dsh-external/dsh-feishu-bot) - Feishu bot.

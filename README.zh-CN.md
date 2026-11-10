@@ -768,6 +768,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Notifications & Channels
 
+- [dsh-lanya](https://github.com/bamboosir1109/dsh-lanya) — Windows QQ 角色集成包，连接双 QQ 后端、B站、本地语音和可塑记忆；配套服务需单独配置，当前为开发预览。
 - [dsh-dingtalk-channel](https://github.com/ttmouse/dsh-dingtalk-channel) - 钉钉 IM 双向 channel（Stream 模式）：每条单聊/群聊驱动一个带工具的 agent，消息即入口，回复流式回到对话，免公网回调。
 - [dsh-feishu](https://github.com/PGZXB/dsh-feishu) - DeepSeek Harness 的飞书 UI：面板驱动控制台，卡内审批与提问，流式卡片，扫码一键配置。
 - [dsh-feishu-bot](https://github.com/dsh-external/dsh-feishu-bot) - 飞书机器人
