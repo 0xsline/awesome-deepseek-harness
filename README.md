@@ -477,7 +477,7 @@ Management panel: Settings → Plugins.
 - [westtrade/dsh-project-cost](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-project-cost) - Project spend meter: money spent per workspace directory from session token usage, priced against the routerai.ru public model catalog, with workspace badges and a costs panel.
 - [answertsundere/dsh-canvas-plugin](https://github.com/answertsundere/dsh-canvas-plugin) - Conversation-branch canvas: full-bleed session lineage graph, fork from any message, parallel runs with live streaming, deterministic branch comparison, and a per-session agent swarm web view.
 ## IDE & Clients
-
+- [Deepseek-Insight](https://github.com/mitmplay/dsh-insight) - DSI — A Different Style of Opinionated DSH Web Client. A multi-agent workspace where you can see multiple agents and sub-agents working side by side, alongside non-conversational content, in resizable and zoomable multi-column panels.
 - [Minke](https://github.com/lencx/Minke) - Desktop agent workspace for DeepSeek Harness on macOS, Windows, and Linux, with shared browser control, integrated files and terminals, remote access, and local model management.
 - [PaperMachine](https://github.com/SuperJJ007/papermachine) - Desktop data-analysis app built on DeepSeek Harness, running local Python and R with inspectable execution steps and chart/table provenance.
 - [Blue](https://github.com/dsh-blue/blue) - Interactive TUI plugin for DeepSeek Harness — a pi-tui renderer mounted as a Cordis bundle: streaming transcript, tool-call cards, approval overlays, session management, theming.
