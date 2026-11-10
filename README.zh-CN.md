@@ -382,6 +382,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [Ragnoryok1/dsh-client-locale-ru](https://github.com/Ragnoryok1/dsh-client-locale-ru) - 为 Web 界面提供俄语（ru）语言包：584 个 namespace、67,724 条字符串，含 520 个第三方插件词典，以及俄语复数形式与排版。
 - [jjoni12/dsh-locale-ko](https://github.com/jjoni12/dsh-locale-ko) - 韩语界面语言包，通过官方语言包 API 在 设置 → 通用 → 语言 中添加韩语（한국어）。
+- [dsh-artifacts](https://github.com/modusensus/dsh-artifacts) - 侧边栏产物架：把会话交付过的图片、视频、文件和链接收进一处，按 SHA-256 内容哈希去重；五个分类标签带计数、关键词搜索、视频缩略图、灯箱查看、手动收藏链接、粘贴图片、上传文件（≤25MB），并支持首次启动回填历史会话日志。
 
 ## Dashboards & Session UX
 - [dsh-delete-session](https://github.com/qiaozheng9/dsh-delete-session) - 面向 Windows 版 DSH 0.2.1-rc.5 的永久删除对话增强，支持嵌套子代理清理、原生确认弹窗和中断重试，需按仓库说明从源码安装。
