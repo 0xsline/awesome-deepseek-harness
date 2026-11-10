@@ -153,6 +153,9 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [westtrade/dsh-cron-schedule](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-cron-schedule) - 定时任务：到点在工作区目录中新建对话并交给它任务，支持 cron 预设、按任务选模型、补跑或跳过漏掉的运行，并提供 cron_* 工具给模型。
 - [westtrade/dsh-goal-vector](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-goal-vector) - 目标向量：命名的优先级目标清单，对话采用后模型在整个会话中遵循；带管理页、输入框选择器和 goal_vector_* 工具。
 - [mili1360/dsh-proactive](https://github.com/mili1360/dsh-proactive) - 在长任务于回合结束之后跑完时唤醒会话，并让模型自己安排唤醒（一次、固定间隔或带抖动的 cron），受静默时段与每日预算限制。
+- [dsh-pi-mode](https://github.com/fujingzhai/youxia-dsh-plugins/tree/main/dsh-pi-mode) - 以 pi 为蓝本的三个模式——Pi、Pi+（额外启用官方 `apply_patch`）与 Pi-IM——一次安装全部注册，DSH 自带模式不受影响。
+- [dsh-agents-cli](https://github.com/fujingzhai/youxia-dsh-plugins/tree/main/dsh-agents-cli) - 把本机 CLI Agents（Claude Code、Codex、Antigravity、Pi）作为面板运行，进程复用官方 `subprocess.spawnTerminal`、画面用内嵌 xterm.js，名称、指令、颜色与顺序可自定义。
+
 
 ## Context & Search
 
@@ -297,6 +300,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [JohnXu22786/snippet-expander](https://github.com/JohnXu22786/snippet-expander) - Steno：发送前的行内 #tag 快捷展开——多库、别名、{{变量}}、递归防护。
 - [opencues/opencues](https://github.com/opencues/opencues/tree/master/integrations/dsh) - 输入框内的同义词提示与下划线补全：行尾输入 `_` 即自动填充，拼写错误随打随标。走 `ctx.llm`，无需自备 API key。
 - [dsh-phone-inbox](https://github.com/PerryLink/dsh-phone-inbox) - 列出当前会话通过微信桥实际收到的附件，并按需将其中一个采纳到工作区。
+- [dsh-zh-slash](https://github.com/fujingzhai/youxia-dsh-plugins/tree/main/dsh-zh-slash) - 在输入框开头敲顿号「、」即弹出原生 `/` 命令菜单；筛选、方向键与鼠标操作、参数面板都沿用宿主，正文中的顿号不受影响。
+
 
 ## UI, Themes & Interaction
 
@@ -382,6 +387,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [Ragnoryok1/dsh-client-locale-ru](https://github.com/Ragnoryok1/dsh-client-locale-ru) - 为 Web 界面提供俄语（ru）语言包：584 个 namespace、67,724 条字符串，含 520 个第三方插件词典，以及俄语复数形式与排版。
 - [jjoni12/dsh-locale-ko](https://github.com/jjoni12/dsh-locale-ko) - 韩语界面语言包，通过官方语言包 API 在 设置 → 通用 → 语言 中添加韩语（한국어）。
+- [dsh-settings-customizer](https://github.com/fujingzhai/youxia-dsh-plugins/tree/main/dsh-settings-customizer) - 用个人配置覆盖设置导航的顺序、名称与图标；公共默认为空，未配置时界面不变。
+
 
 ## Dashboards & Session UX
 - [dsh-delete-session](https://github.com/qiaozheng9/dsh-delete-session) - 面向 Windows 版 DSH 0.2.1-rc.5 的永久删除对话增强，支持嵌套子代理清理、原生确认弹窗和中断重试，需按仓库说明从源码安装。
@@ -475,6 +482,10 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-community-bench](https://github.com/PerryLink/dsh-community-bench) - 增加社区基准标签页，读取公开的、按任务条件计算的 registry，展示所有人看到的同一分数；不在本地计算分数。
 - [westtrade/dsh-project-cost](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-project-cost) - 项目花费统计：按会话 token 用量和 routerai.ru 公开模型价格计算每个工作区目录的支出，带工作区徽标与费用面板。
 - [answertsundere/dsh-canvas-plugin](https://github.com/answertsundere/dsh-canvas-plugin) - 会话分支画布：全幅血缘图、任意消息分叉、并行分支实时流式、确定性对比，以及每会话的 Agent 实况蛛网视图。
+- [dsh-session-fee](https://github.com/fujingzhai/youxia-dsh-plugins/tree/main/dsh-session-fee) - 在统计条显示当前会话按刊例价折算的等值费用：未缓存输入、缓存读写、输出（含推理）分别计价，换模型分段相加，子代理计入总数，点击看主会话与各子代理明细。
+- [dsh-speed-pair](https://github.com/fujingzhai/youxia-dsh-plugins/tree/main/dsh-speed-pair) - 输出速度显示为两个数字，如 `207(122) tok/s`：括号外是首字之后的解码速度，括号内是含首字延迟的整段速度，点击展开各阶段用时。
+- [dsh-session-labels](https://github.com/fujingzhai/youxia-dsh-plugins/tree/main/dsh-session-labels) - Finder 风格会话标签：悬浮按钮与右键菜单打彩色标签，标题按第一个标签着色或显示符号，视图选项里可按标签筛选且在分组前生效。
+
 ## IDE & Clients
 
 - [Minke](https://github.com/lencx/Minke) - 基于 DeepSeek Harness 的桌面 Agent 工作区，支持 macOS、Windows 和 Linux，提供人机共享浏览器控制、集成文件与终端、远程访问和本地模型管理。
@@ -561,6 +572,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-mini-remote](https://github.com/xingzhen199186/dsh-mini-remote) - DSH 会话的手机网页遥控端：三种显示模式（只看最新结论 / 聊天 / 含 diff 的完整执行轨迹），局域网、Tailscale 或 Cloudflare Tunnel 三条路径各自扫码配对，手机端可排队下发指令、应答审批与提问卡片，并支持飞书长连接通道。
 - [dsh-windows-computer-use](https://github.com/shinji00222/dsh-windows-computer-use) - Windows 电脑控制（C# 原生引擎）：纯文本模型读取 UI Automation 控件、批量填表并回读；控件重新渲染后按唯一身份找回；验证码拒绝代填，通过 DSH 审批框交给用户；Esc 随时停止。
 - [lukeinx/dsh-remote-wecom](https://github.com/lukeinx/dsh-remote-wecom) - 用企业微信智能机器人在手机上遥控 DSH Desktop 会话：切换会话与模型、收任务结果和生成的文件、审批与回答提问、向运行中的任务插话；在 Desktop 设置页扫码完成配置。
+- [dsh-quick-chat](https://github.com/fujingzhai/youxia-dsh-plugins/tree/main/dsh-quick-chat) - 用桌面端原生浏览器在主面板打开 chat.deepseek.com，登录可跨重启恢复，不用 iframe、不代理请求。
+
 
 ## Models & Inference
 

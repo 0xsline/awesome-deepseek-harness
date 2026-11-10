@@ -154,6 +154,9 @@ Management panel: Settings → Plugins.
 - [westtrade/dsh-cron-schedule](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-cron-schedule) - Scheduled AI runs: at a set time a new chat is created in a chosen directory and receives the task, with cron presets, per-task model, missed-run handling and cron_* tools for the model.
 - [westtrade/dsh-goal-vector](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-goal-vector) - Goals vectors: named, priority-ordered goal lists a chat adopts so the model follows them for the whole session, with a management page, a composer picker and goal_vector_* tools.
 - [mili1360/dsh-proactive](https://github.com/mili1360/dsh-proactive) - Wakes a session when a long background task finishes after the turn has ended, and lets the model schedule its own wake-ups (once, interval, or cron with jitter) under quiet hours and a daily budget.
+- [dsh-pi-mode](https://github.com/fujingzhai/youxia-dsh-plugins/tree/main/dsh-pi-mode) - Three agent modes modelled on pi - Pi, Pi+ (adds the official `apply_patch`) and Pi-IM - installed as one plugin; DSH's built-in modes are untouched.
+- [dsh-agents-cli](https://github.com/fujingzhai/youxia-dsh-plugins/tree/main/dsh-agents-cli) - Runs local CLI agents (Claude Code, Codex, Antigravity, Pi) as panels, reusing the official `subprocess.spawnTerminal` with an embedded xterm.js; names, commands, colours and order are configurable.
+
 
 ## Context & Search
 
@@ -298,6 +301,8 @@ Management panel: Settings → Plugins.
 - [PerryLink/dsh-composer-history](https://github.com/PerryLink/dsh-composer-history) - Terminal-style input history for the web composer (edge-first arrows, draft/caret restore, Ctrl+R search, sliding-context awareness) plus a smart input layer: cross-session snippets, prompt templates with variables, reuse insights, and compaction-summary highlighting.
 - [opencues/opencues](https://github.com/opencues/opencues/tree/master/integrations/dsh) - Word alternatives and underscore-gated fill-ins in the composer: end a line with `_` and it is filled, misspellings are flagged as you type. Routes through `ctx.llm`, so it needs no API key of its own.
 - [dsh-phone-inbox](https://github.com/PerryLink/dsh-phone-inbox) - Lists the attachments the current session actually received through the WeChat bridge and adopts one into the workspace on demand.
+- [dsh-zh-slash](https://github.com/fujingzhai/youxia-dsh-plugins/tree/main/dsh-zh-slash) - Typing 、 at the start of the input box opens the native `/` command menu; filtering, keyboard and mouse handling and argument panels stay native, and the comma is untouched elsewhere.
+
 
 ## UI, Themes & Interaction
 
@@ -381,6 +386,8 @@ Management panel: Settings → Plugins.
 - [01men/DeptAI-UI-DSH](https://github.com/01men/DeptAI-UI-DSH) - Collaboration front-office for AI agents and humans: department boards, tickets, approvals and industry calculations run inside the DSH conversation and panel, so agents do the work in chat while humans stay accountable in the panel. It calls the 01men/ybkkasi governance base over existing contracts instead of re-implementing governance.
 - [LUgABeEEE/dsh-sidebar-density](https://github.com/LUgABeEEE/dsh-sidebar-density) - Lightweight sidebar UI: five fold switches, three density presets and three width presets, from one footer row plus a settings section; no dependencies, no host service.
 - [Ragnoryok1/dsh-client-locale-ru](https://github.com/Ragnoryok1/dsh-client-locale-ru) - Russian (ru) language pack for the Web GUI: 584 namespaces and 67,724 strings, including dictionaries of 520 third-party plugins, with ru plural forms and screen typography.
+- [dsh-settings-customizer](https://github.com/fujingzhai/youxia-dsh-plugins/tree/main/dsh-settings-customizer) - Overrides the order, names and icons of settings navigation entries from personal config; shipped defaults are empty, so nothing changes until configured.
+
 
 ## Dashboards & Session UX
 - [dsh-delete-session](https://github.com/qiaozheng9/dsh-delete-session) - Windows desktop enhancement for DSH 0.2.1-rc.5 that permanently deletes conversations and nested subagents, with native confirmation and interrupted-cleanup retry; uses a documented local source installer.
@@ -476,6 +483,10 @@ Management panel: Settings → Plugins.
 - [dsh-community-bench](https://github.com/PerryLink/dsh-community-bench) - Adds a Community Bench tab that reads the public task-conditioned registry and shows the same score everyone sees; it does not compute a local score.
 - [westtrade/dsh-project-cost](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-project-cost) - Project spend meter: money spent per workspace directory from session token usage, priced against the routerai.ru public model catalog, with workspace badges and a costs panel.
 - [answertsundere/dsh-canvas-plugin](https://github.com/answertsundere/dsh-canvas-plugin) - Conversation-branch canvas: full-bleed session lineage graph, fork from any message, parallel runs with live streaming, deterministic branch comparison, and a per-session agent swarm web view.
+- [dsh-session-fee](https://github.com/fujingzhai/youxia-dsh-plugins/tree/main/dsh-session-fee) - Equivalent session cost in the stats bar from a bundled price table: uncached input, cache reads/writes and output including reasoning priced separately, per-currency segments, subagent costs included, breakdown on click.
+- [dsh-speed-pair](https://github.com/fujingzhai/youxia-dsh-plugins/tree/main/dsh-speed-pair) - Output speed as two figures, e.g. `207(122) tok/s`: decoding speed after the first token, and whole-request speed including first-token latency, with a per-phase breakdown on click.
+- [dsh-session-labels](https://github.com/fujingzhai/youxia-dsh-plugins/tree/main/dsh-session-labels) - Finder-style session labels from a hover button and the context menu, title coloured by the first label or marked with a symbol, and a label filter applied before grouping.
+
 ## IDE & Clients
 
 - [Minke](https://github.com/lencx/Minke) - Desktop agent workspace for DeepSeek Harness on macOS, Windows, and Linux, with shared browser control, integrated files and terminals, remote access, and local model management.
@@ -564,6 +575,8 @@ Management panel: Settings → Plugins.
 - [dsh-mini-remote](https://github.com/xingzhen199186/dsh-mini-remote) - Mobile web remote for a DSH session: three view modes (latest conclusion / chat / full trace with diffs), LAN, Tailscale or Cloudflare Tunnel routes with per-route QR pairing, instruction queueing and approval or question cards on the phone, plus a Feishu long-connection channel.
 - [dsh-windows-computer-use](https://github.com/shinji00222/dsh-windows-computer-use) - Windows computer use with a native C# engine: text-only models read UI Automation controls and fill forms in verified batches, stale control refs can be re-found by unique identity, and CAPTCHAs are refused and handed back to the user via the DSH approval prompt; Esc stops the turn.
 - [lukeinx/dsh-remote-wecom](https://github.com/lukeinx/dsh-remote-wecom) - Drive DSH Desktop sessions from a WeCom (企业微信) smart bot on your phone: switch sessions and models, get task results with generated files, answer approvals and questions, steer running turns; QR setup from the Desktop settings page.
+- [dsh-quick-chat](https://github.com/fujingzhai/youxia-dsh-plugins/tree/main/dsh-quick-chat) - Opens chat.deepseek.com in the main panel through the desktop app's native browser view, so the login survives restarts; no iframe and no request proxying.
+
 
 ## Models & Inference
 
