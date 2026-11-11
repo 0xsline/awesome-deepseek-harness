@@ -738,7 +738,6 @@ Management panel: Settings → Plugins.
 - [SteelUnion/dsh-confirm-gate](https://github.com/SteelUnion/dsh-confirm-gate) - Per-turn counter for persistent operations: it reminds the model, then stops and asks before going further. Read-only actions are not counted.
 - [gabrielbav/dsh-plugin-airlock](https://github.com/gabrielbav/dsh-plugin-airlock) - Pre-install security gate: quarantines each plugin, skill and subagent bundle with install scripts disabled, scans it with Cisco Skill Scanner, SkillScan, Cisco MCP Scanner, OSV-Scanner, Trivy, Gitleaks and optional SARIF tools or an LLM judge on a DSH model, then passes, asks for review or blocks it; needs the install-gate hook proposed in [deepseek-ai/deepseek-harness#12999](https://github.com/deepseek-ai/deepseek-harness/discussions/12999) (npm: dsh-plugin-airlock).
 
-
 ## Output & Deliverables
 
 - [dsh-video-editor](https://github.com/heswy/dsh-video-editor) - AI video creation and editing inside DeepSeek Harness, with conversation-driven revisions, multitrack timelines, audio waveforms, and MP4 export.
