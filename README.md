@@ -381,6 +381,7 @@ Management panel: Settings → Plugins.
 - [01men/DeptAI-UI-DSH](https://github.com/01men/DeptAI-UI-DSH) - Collaboration front-office for AI agents and humans: department boards, tickets, approvals and industry calculations run inside the DSH conversation and panel, so agents do the work in chat while humans stay accountable in the panel. It calls the 01men/ybkkasi governance base over existing contracts instead of re-implementing governance.
 - [LUgABeEEE/dsh-sidebar-density](https://github.com/LUgABeEEE/dsh-sidebar-density) - Lightweight sidebar UI: five fold switches, three density presets and three width presets, from one footer row plus a settings section; no dependencies, no host service.
 - [Ragnoryok1/dsh-client-locale-ru](https://github.com/Ragnoryok1/dsh-client-locale-ru) - Russian (ru) language pack for the Web GUI: 584 namespaces and 67,724 strings, including dictionaries of 520 third-party plugins, with ru plural forms and screen typography.
+- [Rearpoem/dsh-link-start](https://github.com/Rearpoem/dsh-link-start) - Anime-style Link Start startup splash (~18 s) whose scenes show your own DSH status; click or press any key to skip, gentle version under reduced motion. Unofficial fan work.
 
 ## Dashboards & Session UX
 - [dsh-delete-session](https://github.com/qiaozheng9/dsh-delete-session) - Windows desktop enhancement for DSH 0.2.1-rc.5 that permanently deletes conversations and nested subagents, with native confirmation and interrupted-cleanup retry; uses a documented local source installer.
