@@ -734,6 +734,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 - [01men/ybkkasi](https://github.com/01men/ybkkasi) - 企业 AI 资产治理：把 MCP 服务、Skill、Agent、AI 应用、模型渠道、SaaS 连接器与 NAS 存储登记进同一套自托管台账，带生命周期状态机、逐工具 RBAC、部门 x Agent x Skill 三维成本归因、依赖拓扑与可追加审计日志。
 - [SteelUnion/dsh-confirm-gate](https://github.com/SteelUnion/dsh-confirm-gate) - 持久化操作的逐轮计数器：先提醒模型，再在继续之前停下来询问；只读操作不计入。
+- [gabrielbav/dsh-plugin-airlock](https://github.com/gabrielbav/dsh-plugin-airlock) - 安装前安全闸门：在禁用安装脚本的隔离区中检查每个插件、技能和子代理组合包，使用 Cisco Skill Scanner、SkillScan、Cisco MCP Scanner、OSV-Scanner、Trivy、Gitleaks 以及可选的 SARIF 工具或基于 DSH 模型的 LLM 判定扫描，然后放行、要求审查或阻止；需要 [deepseek-ai/deepseek-harness#12999](https://github.com/deepseek-ai/deepseek-harness/discussions/12999) 中提议的 install-gate 钩子（npm: dsh-plugin-airlock）。
 
 ## Output & Deliverables
 
