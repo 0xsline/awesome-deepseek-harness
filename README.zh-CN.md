@@ -736,7 +736,6 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [SteelUnion/dsh-confirm-gate](https://github.com/SteelUnion/dsh-confirm-gate) - 持久化操作的逐轮计数器：先提醒模型，再在继续之前停下来询问；只读操作不计入。
 - [gabrielbav/dsh-plugin-airlock](https://github.com/gabrielbav/dsh-plugin-airlock) - 安装前安全闸门：在禁用安装脚本的隔离区中检查每个插件、技能和子代理组合包，使用 Cisco Skill Scanner、SkillScan、Cisco MCP Scanner、OSV-Scanner、Trivy、Gitleaks 以及可选的 SARIF 工具或基于 DSH 模型的 LLM 判定扫描，然后放行、要求审查或阻止；需要 [deepseek-ai/deepseek-harness#12999](https://github.com/deepseek-ai/deepseek-harness/discussions/12999) 中提议的 install-gate 钩子（npm: dsh-plugin-airlock）。
 
-
 ## Output & Deliverables
 
 - [dsh-video-editor](https://github.com/heswy/dsh-video-editor) - 在 DeepSeek Harness 内通过对话生成与续改视频，支持多轨剪辑、音频波形和 MP4 导出。
