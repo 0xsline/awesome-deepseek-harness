@@ -527,6 +527,7 @@ Management panel: Settings → Plugins.
 - [deepseek-harness-linux](https://github.com/butterpurse-dot/deepseek-harness-linux) - Community Linux packaging of the official Electron desktop app: AppImage, deb and tar.gz for x64 and arm64, checksums, AppImage auto-update, and an hourly upstream sync.
 - [westtrade/deepseek-desktop](https://github.com/westtrade/deepseek-harness-plugins/tree/main/deepseek-desktop) - Desktop window for DSH on Neutralinojs: boots dsh --profile web, hides to the tray on close, and keeps a single instance instead of opening a second window.
 
+[DeepSeek to PDF](https://chromewebstore.google.com/detail/ecmcbpjdknbbcfbohfcjjilgkgclgdbc) - Export DeepSeek chats to PDF, Markdown, or JSON. One-click archiver with full formatting and math support.
 ## Browser & Remote
 
 - [mrRisega/dsh-remote](https://github.com/mrRisega/dsh-remote) - Reverse-proxy gateway to control the DSH Web UI from a phone browser with full feature coverage (incl. privileged methods): loopback masquerading, WebSocket passthrough, login rate limiting, optional TLS, LAN or public reverse-proxy deployment.
