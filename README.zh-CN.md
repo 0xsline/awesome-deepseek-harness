@@ -930,6 +930,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [WJDdidi-1/dsh-plugin-toolkit](https://github.com/WJDdidi-1/dsh-plugin-toolkit) - 插件作者的安装前检查：按 npm 的方式打包、安装 tarball、import 加载器真正会 import 的根导出并挂载面板，所以「`files` 漏了 `client.js`」「宿主会丢掉的 bundle」在发布前就失败；另含 `init`、`dev`（对着运行中的应用热重载）与 `release`。
 - [WJDdidi-1/dsh-plugin-example](https://github.com/WJDdidi-1/dsh-plugin-example) - 约 70 行、可直接抄的插件示例：一个侧栏标签、宿主半、bundle 清单和能过的安装前检查，`dsh plugin add dsh-plugin-example` 即可安装。
 - [westtrade/dsh-plugin-showcase](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-plugin-showcase) - 插件展示页：社区 DSH 插件目录，带图标、简介、星标和 GitHub 链接，安装/卸载按钮直接执行 dsh plugin add。
+- [gabrielbav/dsh-connectors](https://github.com/gabrielbav/dsh-connectors) - 在设置中新增“连接器”页面，通过 OAuth 或令牌连接远程 MCP 服务器：内置 Granola、Linear、Jira 与 Confluence、Trello、GitHub、GitLab 和 Azure DevOps，并支持自定义 MCP 地址和其他插件提供的连接器包；令牌保存在 DSH 凭据存储中。（npm: @gabrielbav/dsh-connectors）
 
 ## Runtime & Operations
 
