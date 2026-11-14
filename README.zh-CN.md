@@ -486,6 +486,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-pi-tui](https://github.com/lqhl/dsh-pi-tui) - 基于 pi-tui 的 DeepSeek Harness 终端前端：流式 Markdown、thinking 折叠、工具卡片、slash 命令、审批/提问交互与 Web 会话共享
 - [Martty](https://github.com/openma-ai/Martty) - 面向 DeepSeek Harness 的 Rust/ratatui Agent TUI，支持流式工具调用、子代理、持久会话和可扩展的 Cordis 客户端界面
 - [dsh-terminal](https://github.com/geebos/dsh-terminal) - 会话内嵌可折叠交互式终端：多标签存活 shell、自动重连、一键快捷命令，界面支持中英文并跟随主题
+- [Nikodem5/dsh-web-terminal](https://github.com/Nikodem5/dsh-web-terminal) - 两个 DSH 插件：多终端工作区（真实 PTY 终端，显示 Claude Code 与 Antigravity CLI 的代理状态）和带 Git 工具的 Monaco 代码编辑器。
 - [lk251066/dsh-tui-pro](https://github.com/lk251066/dsh-tui-pro) - DeepSeek Harness 全屏终端工作台：提供独立持久助手、按工作区分组的项目会话，以及结构化思考、工具、diff、计划和子代理视图
 - [DSH-Portable](https://github.com/WSL043/DSH-Portable) - 跨平台的 DeepSeek Harness 单目录便携发行版，内置运行环境与插件市场；更新保留数据，会话、设置、插件和工作区可随目录一起移动。
 - [deepseek-harness-desktop](https://github.com/chyra-moon/deepseek-harness-desktop) - Windows 原生桌面外壳:一比一加载官方 Web UI,内置服务器托管、托盘驻留与掉线自动恢复
