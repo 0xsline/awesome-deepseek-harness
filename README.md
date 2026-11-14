@@ -154,6 +154,7 @@ Management panel: Settings → Plugins.
 - [westtrade/dsh-cron-schedule](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-cron-schedule) - Scheduled AI runs: at a set time a new chat is created in a chosen directory and receives the task, with cron presets, per-task model, missed-run handling and cron_* tools for the model.
 - [westtrade/dsh-goal-vector](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-goal-vector) - Goals vectors: named, priority-ordered goal lists a chat adopts so the model follows them for the whole session, with a management page, a composer picker and goal_vector_* tools.
 - [mili1360/dsh-proactive](https://github.com/mili1360/dsh-proactive) - Wakes a session when a long background task finishes after the turn has ended, and lets the model schedule its own wake-ups (once, interval, or cron with jitter) under quiet hours and a daily budget.
+- [dsh-superagent](https://github.com/LittleChenLiya/dsh-superagent) - Runs one goal as model-planned parallel subtasks and merges the reports into one answer; run state is on disk, so a host restart keeps the work and resume continues only the unfinished subtasks, with per-run call and token caps and a printed cost.
 
 ## Context & Search
 
