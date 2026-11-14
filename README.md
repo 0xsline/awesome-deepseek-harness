@@ -535,7 +535,7 @@ Management panel: Settings → Plugins.
 - [dsh-builtin-browser](https://github.com/wqty123/dsh-browser) - Shared real browser for DSH: a visible browser window the human can take over, driven by the agent over CDP (snapshot/execute/content/tab management).
 - [dsh-browser](https://github.com/dsh-external/dsh-browser) - Chrome sidebar extension.
 - [dsh-deeplink](https://github.com/dsh-external/dsh-deeplink) - Open DSH WebUI sessions or workspaces directly from URL parameters.
-- [dsh-remote](https://github.com/flymysql/dsh-remote) - SSH remote workspaces with an optional three-column IDE, highlighted editing, recursive search, terminals, Git diffs, and Agent tools for remote edits and builds.
+- [dsh-remote](https://github.com/flymysql/dsh-remote) - SSH remote workspaces for DSH with parallel projects across hosts, file browsing and editing, recursive search, terminals, Git diffs, and Agent tools to edit, build and test remotely. Optional IDE layout.
 - [dsh-ssh](https://github.com/jmcc-guo/dsh-ssh) - AI-managed SSH connections with a live multi-tab terminal panel for DeepSeek Harness.
 - [xgone/dsh-netshell](https://github.com/xgone/dsh-netshell) - Local and remote SSH terminals for DeepSeek Harness Web, with three permission levels, rule-based command confirmation, and DSH credential storage. Guards cover commands sent through this plugin and do not provide a security sandbox.
 - [dsh-lan-access](https://github.com/Leon0555/dsh-lan-access) - LAN access for the Web GUI: 0.0.0.0 bind plus a crypto.randomUUID polyfill for non-secure (LAN HTTP) contexts (npm: dsh-lan-access).
