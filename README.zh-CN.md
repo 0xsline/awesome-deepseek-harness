@@ -532,7 +532,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-builtin-browser](https://github.com/wqty123/dsh-browser) - DSH 共享真实浏览器：用户可见、可随时接管的浏览器窗口，由 agent 通过 CDP 驱动（snapshot/execute/content/多标签管理）。
 - [dsh-browser](https://github.com/dsh-external/dsh-browser) - Chrome 侧边栏扩展
 - [dsh-deeplink](https://github.com/dsh-external/dsh-deeplink) - 通过 URL 参数直接打开 DSH WebUI 会话或工作区。
-- [dsh-remote](https://github.com/flymysql/dsh-remote) - 多机远程工作区：管理多个 SSH 主机，在原生 Add-workspace 流程中选择本地或远程工作区（系统文件夹/路径浏览），把远程工作区镜像到本地真实文件夹，用 rw_* 工具操作。
+- [dsh-remote](https://github.com/flymysql/dsh-remote) - SSH 远程开发工作区，支持可选三栏 IDE、高亮编辑、递归搜索、远程终端、Git 差异及 Agent 远程编辑与构建。
 - [dsh-ssh](https://github.com/jmcc-guo/dsh-ssh) - DeepSeek Harness 的 SSH 终端面板与 AI 连接管理：对话内自主 connect/exec/list/status/disconnect，WebUI 内 XShell 风格多标签 PTY 实时终端。
 - [xgone/dsh-netshell](https://github.com/xgone/dsh-netshell) - DeepSeek Harness Web 的本地与远程 SSH 终端，提供三级权限、基于规则的命令确认与 DSH 凭据存储。护栏仅覆盖经过本插件的命令，不提供安全沙箱。
 - [dsh-lan-access](https://github.com/Leon0555/dsh-lan-access) - 局域网访问：Web GUI 绑定 0.0.0.0 + crypto.randomUUID polyfill（修复非安全上下文下 RPC 崩溃），npm 可装
