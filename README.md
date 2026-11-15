@@ -932,6 +932,7 @@ Management panel: Settings → Plugins.
 - [WJDdidi-1/dsh-plugin-toolkit](https://github.com/WJDdidi-1/dsh-plugin-toolkit) - Preflight for plugin authors: packs the plugin the way npm would, installs the tarball, imports the root export the loader mounts and mounts the panel, so a `files` list that forgets `client.js` or a bundle the host would drop fails before release; also `init`, `dev` (reload against a running app) and `release`.
 - [WJDdidi-1/dsh-plugin-example](https://github.com/WJDdidi-1/dsh-plugin-example) - A ~70-line plugin to copy from: one sidebar tab, a host half, a bundle manifest and a passing preflight, installable with `dsh plugin add dsh-plugin-example`.
 - [westtrade/dsh-plugin-showcase](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-plugin-showcase) - Plugin showcase: a catalog page of community DSH plugins with images, descriptions, stars and GitHub links, plus install/remove buttons that run dsh plugin add for you.
+- [gabrielbav/dsh-workspace#dsh-connectors](https://github.com/gabrielbav/dsh-workspace/tree/main/Plugins/dsh-connectors) - Connect Linear, Jira, GitHub, GitLab, Trello, Granola and Azure DevOps to every DSH session from one Settings page, with OAuth or a token, plus any MCP URL (npm: @gabrielbav/dsh-connectors).
 
 ## Runtime & Operations
 
