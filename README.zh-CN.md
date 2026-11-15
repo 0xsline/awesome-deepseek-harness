@@ -690,6 +690,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [huuthuan-nguyen/dsh-knowcode](https://github.com/huuthuan-nguyen/dsh-knowcode) - 基于内嵌 FalkorDB 的代码图谱与知识库：AST 符号、调用链追溯、重构影响面、受影响测试发现、克隆检测、跨语言移植契约与规格到代码的可追溯性。
 - [dsh-visual-edit](https://github.com/Han-1413141/dsh-visual-edit) - 在 DSH 预览中点选元素、画箭头或框选区域，将修改意见加入对话，并查看更新前后的截图对比。
 - [AgentCompare](https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare) - 在 DSH 主对话中比较两版真实运行的 Vite 应用、盲选，并结合项目当前改动审查采用。
+- [gabrielbav/dsh-code](https://github.com/gabrielbav/dsh-code) - DSH 的代码模式：每个会话在 gVisor 沙箱中拥有独立的仓库检出和分支，带出站白名单和实时应用预览，可运行在本机或你自己的虚拟机上（npm: @gabrielbav/dsh-code）。
 
 ## Security & Governance
 
