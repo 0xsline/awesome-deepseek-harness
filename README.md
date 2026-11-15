@@ -693,6 +693,7 @@ Management panel: Settings → Plugins.
 - [huuthuan-nguyen/dsh-knowcode](https://github.com/huuthuan-nguyen/dsh-knowcode) - Code graph and knowledge base over an embedded FalkorDB: AST symbols, caller/callee tracing, refactor blast radius, affected-test discovery, clone detection, cross-language porting contracts and spec-to-code traceability.
 - [dsh-visual-edit](https://github.com/Han-1413141/dsh-visual-edit) - Select elements, draw arrows or frame areas in DSH previews, send visual feedback to chat and compare before-and-after snapshots.
 - [AgentCompare](https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare) - Compare two running Vite implementations in DSH conversations, choose blind, and review adoption against current project edits.
+- [gabrielbav/dsh-workspace#dsh-code](https://github.com/gabrielbav/dsh-workspace/tree/main/Plugins/dsh-code) - Code mode for DSH: every session gets its own repo checkout and branch in a gVisor sandbox with an egress allowlist and a live app preview, on your computer or your own VM (npm: @gabrielbav/dsh-code).
 
 ## Security & Governance
 
