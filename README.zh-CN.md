@@ -737,6 +737,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [01men/ybkkasi](https://github.com/01men/ybkkasi) - 企业 AI 资产治理：把 MCP 服务、Skill、Agent、AI 应用、模型渠道、SaaS 连接器与 NAS 存储登记进同一套自托管台账，带生命周期状态机、逐工具 RBAC、部门 x Agent x Skill 三维成本归因、依赖拓扑与可追加审计日志。
 - [SteelUnion/dsh-confirm-gate](https://github.com/SteelUnion/dsh-confirm-gate) - 持久化操作的逐轮计数器：先提醒模型，再在继续之前停下来询问；只读操作不计入。
 - [huanlin-labs/dsh-isolation-gate](https://github.com/huanlin-labs/dsh-isolation-gate) - 按路径授权的访问门禁：每个受管目录可设「禁 / 只读 / 可读写删」，支持分组名单，每次判定都写审计日志；模型只能用工具申请放宽，批不批由户主在面板上点。
+- [huanlin-labs/dsh-vpn-guard](https://github.com/huanlin-labs/dsh-vpn-guard) - 不限厂商的出口体检：出口 IP / 地区 / ASN / 延迟，外加按服务看的「这个 IP 在 AI 服务眼里是否正常」；可选 Clash/Mihomo 适配器，不读订阅链接、凭据和 Cookie。
 - [huanlin-labs/dsh-policy-validator](https://github.com/huanlin-labs/dsh-policy-validator) - dsh-superagent 策略与部署配置的离线预检：62 条规则码、47 个样例、85 个测试，零依赖。
 
 ## Output & Deliverables

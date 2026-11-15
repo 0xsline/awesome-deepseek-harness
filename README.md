@@ -739,6 +739,7 @@ Management panel: Settings → Plugins.
 - [01men/ybkkasi](https://github.com/01men/ybkkasi) - Enterprise AI asset governance: registers MCP servers, skills, agents, AI apps, model channels, SaaS connectors and NAS storage in one self-hosted ledger with lifecycle state machines, per-tool RBAC, department x agent x skill cost attribution, dependency topology and an append-only audit trail.
 - [SteelUnion/dsh-confirm-gate](https://github.com/SteelUnion/dsh-confirm-gate) - Per-turn counter for persistent operations: it reminds the model, then stops and asks before going further. Read-only actions are not counted.
 - [huanlin-labs/dsh-isolation-gate](https://github.com/huanlin-labs/dsh-isolation-gate) - Per-path access gate: deny / read / full levels for each managed directory, roster groups, an audit log of every decision, and model-facing tools where widening only happens after the owner approves it.
+- [huanlin-labs/dsh-vpn-guard](https://github.com/huanlin-labs/dsh-vpn-guard) - Provider-agnostic egress monitor: exit IP, country, ASN and latency, plus a per-service view of how that IP looks to AI services; optional Clash/Mihomo adapter, and it never reads subscription links, credentials or cookies.
 - [huanlin-labs/dsh-policy-validator](https://github.com/huanlin-labs/dsh-policy-validator) - Offline pre-flight for dsh-superagent policy and deployment configs: 62 rule codes, 47 fixtures, 85 tests, zero dependencies.
 
 ## Output & Deliverables
