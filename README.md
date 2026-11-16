@@ -23,7 +23,7 @@ English | [中文](README.zh.md)
 </p>
 
 > ⭐ **Found this list useful? Star it — it takes 2 seconds, and it happens to be the #1 way to help others discover dsh plugins.**
-> Save the list now so your next useful plugin is easier to find. Your ⭐ also supports the community maintaining this directory. Currently **43 → 100 stars is our first milestone (57 to go)**. To receive repository updates, choose your notification preferences in GitHub’s Watch menu.
+> Save the list now so your next useful plugin is easier to find. Your ⭐ also supports the community maintaining this directory. Currently **44 → 100 stars is our first milestone (56 to go)**. To receive repository updates, choose your notification preferences in GitHub’s Watch menu.
 >
 > **Share & spread:** if you built or love a plugin here, share its original repository so others can explore it. [Share on X](https://twitter.com/intent/tweet?text=Awesome%20DeepSeek%20Harness%20%E2%80%94%20Everything%20is%20a%20Plugin%20%E2%9A%A1%20Curated%20dsh%20plugins%2C%20tools%20%26%20skills%20for%20%40deepseek_ai%20harness&url=https://github.com/awesome-deepseekharness/awesome-deepseek-harness&hashtags=dsh,deepseek,opensource) · [Share on Reddit](https://www.reddit.com/submit?url=https://github.com/awesome-deepseekharness/awesome-deepseek-harness&title=Awesome%20DeepSeek%20Harness%20%E2%80%94%20curated%20plugins%20%26%20skills) · [Discuss on Discord](https://discord.gg/Ycq5dCaS4) · [Copy link](https://github.com/awesome-deepseekharness/awesome-deepseek-harness)
 >
