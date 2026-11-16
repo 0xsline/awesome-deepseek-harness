@@ -1045,6 +1045,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [zhuyansen/backlink-guard](https://github.com/zhuyansen/backlink-guard) - 外链来源体检：提交前查目录站等外链来源靠不靠谱，上线后查链接在不在、传不传权重，给网站的外链做垃圾外链体检；附 Agent Skill 和 Python MCP 服务器。
 - [zhuyansen/new-term-radar](https://github.com/zhuyansen/new-term-radar) - 在 X、Hugging Face、GitHub 和网站地图里找刚出现的 AI 模型、产品和仓库名，并估算它们背后搜索词的量；附 Agent Skill 和 Python MCP 服务器。
 - [sagirimo/BioDSH](https://github.com/sagirimo/BioDSH) - 面向医生和湿实验科研人员的生信分析智能体，提供桌面版和 `dsh-biodsh` 插件包（npm）：BioDSH 智能体预设、17 个与 R 逐项对照过的分析技能（单细胞、bulk RNA-seq limma-voom、生存分析、稳健标准误回归、方差分析）、每条消息从 2000+ 技能库中自动挑选技能，以及按时间/步数的收敛护栏。
+- [Li-Evan/BloomTutor](https://github.com/Li-Evan/BloomTutor) - 七个辅导 Skill：bloom-tutor 先写学习大纲，再在工作区每次写一篇 Markdown 课文，下一篇按你标的 ??? 和反馈来调整；六个 learn-* Skill 分别用类比已会的知识、判断学多深、领域地图、粗糙原型和讲回来检验来帮你学。
 ## Tools & Utilities
 - [dsh-skills-tools](https://github.com/hxlog/dsh-skills-tools) - DSH 设置内的 Skills 管理器：从 Git 仓库导入 Agent Skills，按仓库分组管理，逐项启用或停用，并可展开查看 SKILL.md 正文；停用的技能不会注册进模型。
 
