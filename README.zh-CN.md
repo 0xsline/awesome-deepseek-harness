@@ -184,6 +184,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-free-web-search](https://github.com/delef/dsh-free-web-search) - 免费网页搜索：支持 10 个引擎（Bing/DuckDuckGo/SearXNG/AnySearch 免费，Exa/Tavily/Keenable/Perplexity/DeepSeek 付费）、自动回退链、按时间筛选的高级搜索、GitHub/Reddit 平台搜索、网页抓取、LRU 缓存与设置界面；基础使用无需 API Key。
 - [moguiyu/dsh-tavily](https://github.com/moguiyu/dsh-tavily) - Tavily 多密钥搜索：支持密钥轮换/故障转移、用量仪表盘与设置卡片。
 - [keenableai/dsh-keenable](https://github.com/keenableai/dsh-keenable) - 为内置 web_search 与 web_fetch 工具提供 Keenable 网页搜索与页面抓取 provider，适用于任意模型，无需 API Key（可选 Key 仅用于放宽按 IP 的速率限制），可通过 npm 安装（@keenable/dsh-keenable）。
+- [specstream/dsh-plugin-specstream](https://github.com/specstream/specstream-tools/tree/main/packages/dsh-plugin-specstream) - 为 ctx.web 接缝提供 SpecStream 网页搜索与页面抓取 provider，并注册 specstream_research 研究报告工具，从宿主凭据库读取 SPECSTREAM_API_KEY，可通过 npm 安装（@specstream/dsh-plugin）。
 - [dsh-session-sync](https://github.com/PerryLink/dsh-session-sync) - 跨设备会话同步：专用 git 镜像与仅追加的双方保留冲突裁决，附 /sync 命令与 sync_status/sync_pull/sync_push 工具。
 - [JohnXu22786/context-pruner](https://github.com/JohnXu22786/context-pruner) - 会话上下文整理插件：修剪过期、重复、失败与过大的上下文以节省 token 预算。
 - [Kaixxrua/dsh-aigc-radar](https://github.com/Kaixxrua/dsh-aigc-radar) - 检索 AIGC Radar 精选 GitHub AI 项目库（500 Stars 准入、中英双语标签、星标增长快照），经其 MCP 端点调用并以原生结果卡片展示；pre-step 监听器在写代码前主动建议复用检查。
