@@ -989,6 +989,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Domain & Specialist Skills
 
+- [markthc/dsh-caidazi-boards](https://github.com/markthc/dsh-caidazi-boards) - 存储、AI基建、PCB/CCL及美国数据中心政策研究看板，结合财搭子MCP数据、Yahoo行情图表和版本化研究快照，实时刷新需财搭子API Key。
 - [ymck-x/dsh-skill-starter](https://github.com/ymck-x/dsh-skill-starter) - 技能管理器：自带 6 个基础技能与 20 个中文工程流程技能包（拷问需求、拆票、TDD、双轴代码审查、复盘），按「你遇到的问题」分组展示；升级技能包不会覆盖你改过的文件。
 - [dsh-mimir](https://github.com/1692775560/dsh-Mimir-Academic-research) - 科研全周期工作台（七视图 Web 面板）：arXiv 搜索/导入/订阅 + AI 相关度评分、Zotero 导入、实验记录与 SSH/GPU 远程作业、LaTeX 边改边编译工作室（11 种顶会模板+快照回滚）、图表统一管理、一键生成带论文原图的组会 PPT；内置 10 个科研 skills（npm：`dsh-mimir`）。
 - [dsh-fund-research](https://github.com/PerryLink/dsh-fund-research) - 中国公募基金确定性研究报告：公开源数据采集（天天基金/东方财富）、纯函数指标计算（业绩拆解/持仓穿透/风格归因/经理画像），版本化报告附逐数字可回溯源快照的附录。
