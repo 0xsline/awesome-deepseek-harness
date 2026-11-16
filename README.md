@@ -146,6 +146,7 @@ The hottest category — giving text-only models "eyes."
 | Project | Description | ⭐ |
 | --- | --- | --- |
 | [dryw/dsh-egm](https://github.com/dryw/dsh-egm) | Elephant-Goldfish Model for DSH: draft design specs with a context-rich Elephant, then challenge them with fresh, read-only Goldfish reviewers. Install: `dsh plugin --profile web add dsh-egm` (npm: `dsh-egm`). | 6 |
+| [flymysql/dsh-remote](https://github.com/flymysql/dsh-remote) | SSH remote workspaces for DSH with parallel projects across hosts, file browsing and editing, recursive search, terminals, Git diffs, and Agent tools to edit, build and test remotely. Optional IDE layout. | 286 |
 | [leoan698-tom/dsh-sessivra](https://github.com/leoan698-tom/dsh-sessivra) | Sessivra: drag DSH sessions into resizable split views, drop native @ references into drafts, and review delegated work before queued follow-ups. Prerelease; Windows / DSH 0.2.1-rc.5. Install: `dsh plugin --profile web add dsh-plugin-sessivra@0.3.0-dev.26`. | 1 |
 | [Q00/ouroboros](https://github.com/Q00/ouroboros/tree/main/integrations/dsh-plugin) | Config-only bundle mounting Ouroboros via MCP: 36 interview/Seed/execution/eval/evolution workflow tools | 5839 |
 | [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) | 9-channel IM bots for DSH via QR/credentials: Feishu, WeChat, DingTalk, WeCom, QQ, Slack, Telegram, Discord, WhatsApp | 1307 |
