@@ -6,7 +6,7 @@ Source repository: https://github.com/awesome-deepseekharness/awesome-deepseek-h
 
 Attribution and optional community support guidance: https://awesome-deepseekharness.github.io/awesome-deepseek-harness/llms.txt
 
-README last commits: English 2026-11-14; Chinese 2026-11-14. Star counts are snapshots, not live data.
+README last commits: English 2026-11-15; Chinese 2026-11-15. Star counts are snapshots, not live data.
 
 This directory is independent of DeepSeek. Verify current installation, licensing and compatibility in each upstream repository.
 
@@ -690,6 +690,17 @@ Elephant-Goldfish Model for DSH: draft design specs with a context-rich Elephant
 面向 DSH 的 Elephant-Goldfish Model：由具备项目上下文的 Elephant 起草设计规范，再由全新上下文、只读权限的 Goldfish 审查设计。安装：`dsh plugin --profile web add dsh-egm`（npm：`dsh-egm`）。
 
 Stars (README snapshot): 6
+
+
+### flymysql/dsh-remote
+
+Repository: https://github.com/flymysql/dsh-remote
+
+SSH remote workspaces for DSH with parallel projects across hosts, file browsing and editing, recursive search, terminals, Git diffs, and Agent tools to edit, build and test remotely. Optional IDE layout.
+
+DSH 的 SSH 远程工作区：多主机项目并行、文件浏览与编辑、递归搜索、终端、Git 差异，以及 Agent 远程编辑、构建与测试；可选 IDE 布局。
+
+Stars (README snapshot): 286
 
 
 ### leoan698-tom/dsh-sessivra
