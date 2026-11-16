@@ -156,6 +156,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Context & Search
 
+- [YunaAloft/dsh-rtk-workbench](https://github.com/YunaAloft/dsh-rtk-workbench) - 把 rtk 接进 DSH：改写受支持的 shell 命令、压缩较大的工具输出，内置 rtk 二进制，并在界面药丸与 `/rtk stats` 中显示省量。
 - [ymck-x/dsh-session-continuity](https://github.com/ymck-x/dsh-session-continuity) - 新会话开始时注入一条很小的接续指针：上一个会话是谁、工作区有没有交接文档；没有交接文档时复用 DSH 已有的压缩摘要，不调用模型。
 - [zoahdev/dsh-github-intelligence](https://github.com/zoahdev/dsh-github-intelligence) - 只读开发者情报工具：16 大生态（GitHub、GitLab、Gitee、npm、PyPI、crates.io、Docker Hub、Hugging Face、Hacker News、Stack Overflow、Reddit、dev.to、RubyGems、NuGet、Go、ArXiv）统一查询，带 TTL 缓存，无需 API Key。
 - [youdotcom-oss/dsh-plugin-youcom](https://github.com/youdotcom-oss/dsh-plugin-youcom) - 为 DeepSeek Harness 提供 You.com 网页搜索与页面抓取，返回来源列表与提取的页面正文，API Key 与端点可配置。
