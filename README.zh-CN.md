@@ -756,6 +756,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [JohnXu22786/docgen](https://github.com/JohnXu22786/docgen) - 文档工坊技能包：纯提示词（Agent Skills）文档生成——README、PR 描述、changelog 与代码审查；零第三方依赖。
 - [dsh-research-report](https://github.com/PerryLink/dsh-research-report) - DeepSeek Harness 可核查研究报告引擎：内容寻址证据账本（claim ↔ 快照绑定、防篡改）与版本化封存报告，每条 claim 带核查结论，manifest SHA-256 封印报告目录。
 - [dsh-brewreel](https://github.com/Finderchangchang/brewreel/tree/main/integrations/deepseek-harness) - BrewReel（精酿）的 DSH 插件：把分镜 JSON 渲染成 1080×1920 竖版宣传片（Remotion），含 doctor、setup、catalog、guide、validate、render、verify 共 7 个工具。
+- [tianacloud/dsh-tiana](https://github.com/tianacloud/dsh-tiana) - DSH 侧栏中的 Tiana 面板：把会话里做好的网页应用、SQLite 数据库或后端 API 部署到 TianaCloud 并拿到可访问网址；可浏览并克隆应用模板（沙箱 iframe 预览、本地热更新），并按空间管理已发布的站点。
 
 ## Office & Documents
 
