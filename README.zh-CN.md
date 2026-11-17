@@ -204,6 +204,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Memory & Knowledge
 
+- [dsh-chronicle](https://github.com/zuoyunlai/dsh-chronicle) - DeepSeek Harness 的编年史：采集会话事件，跨零点收口成 Markdown 周文件，并抽取可长期复用的事实（决策、约定、坑），这些事实跨天合并且可被推翻。10 个工具、只读侧栏面板、规则导出与独立 Obsidian 库；零第三方依赖。
 - [SoloPup Memory](https://github.com/OakcoderX/solopup-memory) - 原生 DSH 文本记忆插件，保留原文出处、全局/项目范围、适用条件与修订历史；MIT 公开测试版。
 - [diqierjia/StrataGate-AgentMemory](https://github.com/diqierjia/StrataGate-AgentMemory) - 本地优先的跨会话记忆：L0-L5 分层短期记忆、事件卡片与知识图谱、带出处追溯的证据门控检索（npm：`stratagate-dsh`）。
 - [busabase/busabase-dsh-plugin](https://github.com/busabase/busabase-dsh-plugin) - 通过 MCP 把 DSH Agent 接入 Busabase 知识与结构化数据，在实时 Inspector 中渲染记录和 ChangeRequest，并将 Agent 写入置于人工审核之后；兼容 DSH 0.1.1-rc.2。
@@ -300,6 +301,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## UI, Themes & Interaction
 
+- [dsh-rightbar-quicknav](https://github.com/zuoyunlai/dsh-rightbar-quicknav) - 右侧栏下方的竖排图标轨：折叠时显示三个图标，悬停展开全部右栏标签，点击直达。
+- [dsh-theme-palette](https://github.com/zuoyunlai/dsh-theme-palette) - DeepSeek Harness 的五套配色（黑白、暖砂、靛蓝、苔绿、自定义三色），明暗两模式各自用 OKLCH 重算整条色阶，并按配色求解文字与承载面的对比度；附配置导入导出短码与高对比档。
 - [online111111/whalechan-dsh-theme](https://github.com/online111111/whalechan-dsh-theme) - 面向 DeepSeek Harness Web GUI 的 Whale-chan 鲸鱼娘同人主题：海洋蓝视觉系统、骑鲸品牌标志、专属工具与权限护盾图标，页面内支持一键切换原生。
 
 - [exoticknight/dsh-just-chat](https://github.com/exoticknight/dsh-just-chat) - 一键打开原生对话入口，每次创建独立工作区和会话。
@@ -933,6 +936,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Runtime & Operations
 
+- [dsh-healthkit](https://github.com/zuoyunlai/dsh-healthkit) - 给 DeepSeek Harness 安装做只读体检：七个加权维度给 0–10 分、列出问题与修法、跨重启核对上次报的问题到底修了没，并给一道只在出现新问题时才失败的基线 CI 门。
 - [ianho7/dsh-port-inspector](https://github.com/ianho7/dsh-port-inspector) - Windows 本地开发端口来源追踪与已验证 DSH 服务的安全处理。
 - [Ghost011118/dsh-plugin-governor-extension](https://github.com/Ghost011118/dsh-plugin-governor-extension) - 基于补丁的 DSH 插件治理扩展：提供插件清单与白名单控制、策略试运行、运行时工具调用准入规则，并通过 dsh-autostart 实现受控重启和自动回滚。
 - [fakechris/dsh-harness-ops](https://github.com/fakechris/dsh-harness-ops) - DSH 自愈运维工具箱：官方每日快照 A/B 双槽轮换（旧插件自动迁移 + 验收门禁原子切换 + 一键回滚）、10s 守护自动拉起 web 并续接被打断的回合，以及 web/agent 全挂时的 out-of-band dsh-doctor（诊断 → 机械修复 → LLM 深度修复 → 拉起）。

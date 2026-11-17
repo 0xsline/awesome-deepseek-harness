@@ -205,6 +205,7 @@ Management panel: Settings → Plugins.
 
 ## Memory & Knowledge
 
+- [dsh-chronicle](https://github.com/zuoyunlai/dsh-chronicle) - Daily chronicle for DeepSeek Harness: collects session events, closes the previous day into a Markdown week file, and extracts durable facts — decisions, conventions, pitfalls — that merge across days and can be superseded. 10 tools, a read-only sidebar panel, rule export, and a standalone Obsidian vault; zero third-party dependencies.
 - [SoloPup Memory](https://github.com/OakcoderX/solopup-memory) - Native DSH text-memory plugin with original-source references, global/project scope, conditions, and correction history; MIT public beta.
 - [diqierjia/StrataGate-AgentMemory](https://github.com/diqierjia/StrataGate-AgentMemory) - Local-first cross-session memory: L0-L5 layered short-term memory, event cards plus a knowledge graph, and evidence-gated retrieval with source tracing (npm: `stratagate-dsh`).
 - [busabase/busabase-dsh-plugin](https://github.com/busabase/busabase-dsh-plugin) - Connects DSH agents to Busabase knowledge and structured data through MCP, renders records and ChangeRequests in a live inspector, and keeps agent writes behind human review; compatible with DSH 0.1.1-rc.2.
@@ -301,6 +302,8 @@ Management panel: Settings → Plugins.
 
 ## UI, Themes & Interaction
 
+- [dsh-rightbar-quicknav](https://github.com/zuoyunlai/dsh-rightbar-quicknav) - Vertical icon rail under the right-sidebar toggle: collapsed it shows three icons, hovering expands every right-sidebar tab, and clicking one opens that tab.
+- [dsh-theme-palette](https://github.com/zuoyunlai/dsh-theme-palette) - Five palettes for DeepSeek Harness — mono, warm sand, indigo, moss and a custom three-colour palette — each rebuilt in OKLCH for light and dark, with text and surface contrast solved per palette. Includes config export/import codes and a high-contrast mode.
 - [online111111/whalechan-dsh-theme](https://github.com/online111111/whalechan-dsh-theme) - Unofficial Whale-chan community fan-art theme for DeepSeek Harness Web GUI: ocean-blue styling, riding-whale branding, dedicated tool/shield icons, and in-page toggle.
 
 - [exoticknight/dsh-just-chat](https://github.com/exoticknight/dsh-just-chat) - One-click native conversation entry points that create independent workspaces and sessions.
@@ -935,6 +938,7 @@ Management panel: Settings → Plugins.
 
 ## Runtime & Operations
 
+- [dsh-healthkit](https://github.com/zuoyunlai/dsh-healthkit) - Read-only health check for a DeepSeek Harness install: a 0–10 score across seven weighted dimensions, findings with fix hints, cross-restart verification of whether past findings were fixed, and a baseline CI gate that only fails on new problems.
 - [ianho7/dsh-port-inspector](https://github.com/ianho7/dsh-port-inspector) - Windows local development port attribution and safe handling for verified DSH services.
 - [Ghost011118/dsh-plugin-governor-extension](https://github.com/Ghost011118/dsh-plugin-governor-extension) - Patch-based DSH plugin governance extension: plugin inventory and whitelist controls, policy trials, runtime tool-call admission rules, plus supervised restart and automatic rollback through dsh-autostart.
 - [fakechris/dsh-harness-ops](https://github.com/fakechris/dsh-harness-ops) - Self-healing DSH ops toolbox: official daily-snapshot A/B slot rotation (auto plugin migration + acceptance-gated atomic switch + one-click rollback), a 10s watchdog that auto-relaunches the web and resumes interrupted turns, and an out-of-band dsh-doctor (diagnosis → mechanical repair → LLM deep repair → relaunch) when web and agent are both down.
