@@ -23,7 +23,7 @@
 </p>
 
 > ⭐ **这个列表帮你省了 1 小时找插件？点个 Star 吧 — 2 秒钟，却是对所有插件作者最大的支持。**
-> 先收藏，下次少找一次。你的 ⭐ 也是社区持续整理这份目录的动力。目前 **45 → 100 颗星是第一里程碑（还差 55）**。想接收仓库动态，请在 GitHub 的 Watch 菜单中选择通知类型。
+> 先收藏，下次少找一次。你的 ⭐ 也是社区持续整理这份目录的动力。目前 **44 → 100 颗星是第一里程碑（还差 56）**。想接收仓库动态，请在 GitHub 的 Watch 菜单中选择通知类型。
 >
 > **把好项目分享出去：** 你做/喜欢的插件在列表里？分享原始仓库，让更多人有机会发现它。[一键分享到 X](https://twitter.com/intent/tweet?text=Awesome%20DeepSeek%20Harness%20%E2%80%94%20%E4%B8%87%E7%89%A9%E7%9A%86%E5%8F%AF%E6%8F%92%E4%BB%B6%20%E2%9A%A1%20%E7%B2%BE%E9%80%89%20dsh%20%E6%8F%92%E4%BB%B6%E3%80%81%E5%B7%A5%E5%85%B7%E4%B8%8E%E6%8A%80%E8%83%BD&url=https://github.com/awesome-deepseekharness/awesome-deepseek-harness&hashtags=dsh,deepseek) · [分享到 Reddit](https://www.reddit.com/submit?url=https://github.com/awesome-deepseekharness/awesome-deepseek-harness&title=Awesome%20DeepSeek%20Harness%20%E2%80%94%20%E4%B8%87%E7%89%A9%E7%9A%86%E5%8F%AF%E6%8F%92%E4%BB%B6%E7%B2%BE%E9%80%89) · [去 Discord 讨论](https://discord.gg/Ycq5dCaS4) · [复制链接](https://github.com/awesome-deepseekharness/awesome-deepseek-harness)
 >
