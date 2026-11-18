@@ -769,6 +769,7 @@ Management panel: Settings → Plugins.
 
 ## Notifications & Channels
 
+- [LeeRolling/dsh-notify-context](https://github.com/LeeRolling/dsh-notify-context) - Context-aware desktop notifications for turn completion, pending approval and pending questions: a per-situation title plus the task summary, silent while the client window is in front, with a rotating diagnostic trace.
 - [dsh-dingtalk-channel](https://github.com/ttmouse/dsh-dingtalk-channel) - DingTalk IM channel via Stream-mode WebSocket: each chat drives its own tooled agent; replies stream back as messages, no public callback URL needed.
 - [dsh-feishu](https://github.com/PGZXB/dsh-feishu) - Feishu (Lark) UI for DeepSeek Harness: panel-driven control console, in-card approvals and questions, live streaming cards, one-QR setup.
 - [dsh-feishu-bot](https://github.com/dsh-external/dsh-feishu-bot) - Feishu bot.
