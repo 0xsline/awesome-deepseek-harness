@@ -1046,6 +1046,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [zhuyansen/new-term-radar](https://github.com/zhuyansen/new-term-radar) - 在 X、Hugging Face、GitHub 和网站地图里找刚出现的 AI 模型、产品和仓库名，并估算它们背后搜索词的量；附 Agent Skill 和 Python MCP 服务器。
 - [sagirimo/BioDSH](https://github.com/sagirimo/BioDSH) - 面向医生和湿实验科研人员的生信分析智能体，提供桌面版和 `dsh-biodsh` 插件包（npm）：BioDSH 智能体预设、17 个与 R 逐项对照过的分析技能（单细胞、bulk RNA-seq limma-voom、生存分析、稳健标准误回归、方差分析）、每条消息从 2000+ 技能库中自动挑选技能，以及按时间/步数的收敛护栏。
 ## Tools & Utilities
+- [dsh-eye](https://github.com/chddydwd/dsh-eye) - DSH 的 Windows 屏幕眼睛：常驻内存环采屏、可回看最近画面、读窗口文字、按名字找控件并返回屏幕坐标、隐私打码（银行/支付类窗口按标题自动整窗糊），全程本机处理，可选离线语音输入。
 - [dsh-skills-tools](https://github.com/hxlog/dsh-skills-tools) - DSH 设置内的 Skills 管理器：从 Git 仓库导入 Agent Skills，按仓库分组管理，逐项启用或停用，并可展开查看 SKILL.md 正文；停用的技能不会注册进模型。
 
 - [dsh-system1](https://github.com/exoticknight/dsh-system1) - 用同一接口接入多种决策提供商与模型：在线可选 TypeSafe 提供的 Jev、Cloudflare 提供的 Clef、Nace 提供的 Drex、meraGPT 提供的 Decider 1；本地可连接 Laya，也支持兼容的自定义 provider。Agent 和插件可用它进行内容分类、候选筛选、按标准评分或图片定位，再用结构化结果继续自己的流程。
