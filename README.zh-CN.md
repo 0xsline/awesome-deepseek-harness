@@ -202,6 +202,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [YunongDai2005/dsh-theone](https://github.com/YunongDai2005/dsh-theone) - 只开一个主聊天：每条消息自动分到所属话题，在该话题自己的会话和项目文件夹里继续；分错可一键换话题，也可撤销。
 - [mili1360/dsh-history-fold](https://github.com/mili1360/dsh-history-fold) - 把会话可见历史里最老的一段替换成一条消息，消息中带抽取式的一行索引和无损本地归档的路径，使每轮请求携带的 token 变少。
 
+- [hAcKlyc/dsh-zsearch](https://github.com/hAcKlyc/dsh-zsearch) - 知乎与全网双源检索，左侧流式回答、右侧带引用的原文，并内置 DSH 插件评价专题。
+
 ## Memory & Knowledge
 
 - [SoloPup Memory](https://github.com/OakcoderX/solopup-memory) - 原生 DSH 文本记忆插件，保留原文出处、全局/项目范围、适用条件与修订历史；MIT 公开测试版。
