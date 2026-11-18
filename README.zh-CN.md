@@ -768,6 +768,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Notifications & Channels
 
+- [LeeRolling/dsh-notify-context](https://github.com/LeeRolling/dsh-notify-context) - 上下文感知的桌面通知：回合完成、等待授权、等待回答时弹系统通知，标题按情况分类并附任务摘要；客户端在前台时不打扰，并保留可轮转的诊断记录。
 - [dsh-dingtalk-channel](https://github.com/ttmouse/dsh-dingtalk-channel) - 钉钉 IM 双向 channel（Stream 模式）：每条单聊/群聊驱动一个带工具的 agent，消息即入口，回复流式回到对话，免公网回调。
 - [dsh-feishu](https://github.com/PGZXB/dsh-feishu) - DeepSeek Harness 的飞书 UI：面板驱动控制台，卡内审批与提问，流式卡片，扫码一键配置。
 - [dsh-feishu-bot](https://github.com/dsh-external/dsh-feishu-bot) - 飞书机器人
