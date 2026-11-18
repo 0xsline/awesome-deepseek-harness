@@ -204,6 +204,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Memory & Knowledge
 
+- [shinji00222/dsh-persona-continuity](https://github.com/shinji00222/dsh-persona-continuity) - 按人格隔离的跨会话长期记忆（本地 SQLite 持久化、后台自动提炼、旧对话导入与按工作区检索），内置受访者问卷模拟与真人数据校准工作台。
 - [SoloPup Memory](https://github.com/OakcoderX/solopup-memory) - 原生 DSH 文本记忆插件，保留原文出处、全局/项目范围、适用条件与修订历史；MIT 公开测试版。
 - [diqierjia/StrataGate-AgentMemory](https://github.com/diqierjia/StrataGate-AgentMemory) - 本地优先的跨会话记忆：L0-L5 分层短期记忆、事件卡片与知识图谱、带出处追溯的证据门控检索（npm：`stratagate-dsh`）。
 - [busabase/busabase-dsh-plugin](https://github.com/busabase/busabase-dsh-plugin) - 通过 MCP 把 DSH Agent 接入 Busabase 知识与结构化数据，在实时 Inspector 中渲染记录和 ChangeRequest，并将 Agent 写入置于人工审核之后；兼容 DSH 0.1.1-rc.2。
