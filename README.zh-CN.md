@@ -253,6 +253,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-statecore](https://github.com/yul761/dsh-statecore) - 基于 StateCore 的可审计项目记忆：自动摄入消息，每步 pre-step 注入预算内的记忆摘要（compaction 后自动重新注入）；五个原生工具 remember/recall/facts/why/forget，附证据链与历史版本链，嵌入式 SQLite，可经 `statecore-mcp` 供 MCP 客户端读取。
 - [memory-lattice](https://github.com/Lumivox-wiz/memory-lattice) - 会遗忘的记忆插件：短期记忆 48 小时自动过期，长期记忆按 SM-2 艾宾浩斯曲线复习，久不用的沉进沉睡区（可唤醒）而不是无限撑爆上下文；长期写入停在审核中心等用户逐条批准，Agent 无法自行批准。运行时零第三方依赖。
 - [CC19990113/dsh-plugin-soul](https://github.com/CC19990113/dsh-plugin-soul) - 每轮把 IDENTITY/SOUL/USER/RULES 四份 Markdown 注入 system prompt（改文件即生效、不用重启）；自改受闸门约束（每日次数 + `why` 必填）；journal→dream 只有跨 2 天出现 3 次以上的证据才升格进 SOUL；自我升级限白名单、必须过 `node --check`、可一键回滚；另带设置页「人格」tab。
+- [dsh-session-history](https://github.com/fujingzhai/youxia-dsh-plugins/tree/main/dsh-session-history) - 把 Claude Code、Codex、Antigravity、Pi、DSH、OpenCode、LobsterAI 以及实验性的 WorkBuddy 的对话整理成原文日志并本地索引，以一个共用技能提供给这些 agent，让它们能查到彼此聊过什么；不做摘要、不用向量、不调用模型。
 
 - [DocsMint](https://github.com/HiAi-gg/dsh-docsmint) - 工作区面板与智能体工具，支持文档搜索、读取、创建和更新，可连接 Cloud OAuth 或自托管 API 密钥。
 
