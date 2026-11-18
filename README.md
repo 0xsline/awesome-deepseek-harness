@@ -203,6 +203,8 @@ Management panel: Settings → Plugins.
 - [YunongDai2005/dsh-theone](https://github.com/YunongDai2005/dsh-theone) - One main chat: each message is routed to the topic it belongs to and continued in that topic's own session and project folder; misroutes can be moved in one click and undone.
 - [mili1360/dsh-history-fold](https://github.com/mili1360/dsh-history-fold) - Replaces the oldest span of a session's visible history with one message carrying an extractive index and the path of a lossless local archive, so each request sends fewer tokens.
 
+- [hAcKlyc/dsh-zsearch](https://github.com/hAcKlyc/dsh-zsearch) - Dual-source Zhihu and web search with cited answers and a built-in DSH plugin review topic.
+
 ## Memory & Knowledge
 
 - [SoloPup Memory](https://github.com/OakcoderX/solopup-memory) - Native DSH text-memory plugin with original-source references, global/project scope, conditions, and correction history; MIT public beta.
