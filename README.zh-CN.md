@@ -153,6 +153,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [westtrade/dsh-cron-schedule](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-cron-schedule) - 定时任务：到点在工作区目录中新建对话并交给它任务，支持 cron 预设、按任务选模型、补跑或跳过漏掉的运行，并提供 cron_* 工具给模型。
 - [westtrade/dsh-goal-vector](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-goal-vector) - 目标向量：命名的优先级目标清单，对话采用后模型在整个会话中遵循；带管理页、输入框选择器和 goal_vector_* 工具。
 - [mili1360/dsh-proactive](https://github.com/mili1360/dsh-proactive) - 在长任务于回合结束之后跑完时唤醒会话，并让模型自己安排唤醒（一次、固定间隔或带抖动的 cron），受静默时段与每日预算限制。
+- [wychmod/dsh-mini-superagent](https://github.com/wychmod/dsh-mini-superagent) - 主会话把任务派给独立的后台子会话执行，立即返回、报告自动回流；侧边栏「派发工作台」看并发、排队、批次进度与失败原因，可取消、重试、归档。提供 10 个 `dispatch_*` 工具，零运行时依赖，纯 ESM。
 
 ## Context & Search
 
