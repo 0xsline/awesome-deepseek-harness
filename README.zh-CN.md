@@ -153,6 +153,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [westtrade/dsh-cron-schedule](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-cron-schedule) - 定时任务：到点在工作区目录中新建对话并交给它任务，支持 cron 预设、按任务选模型、补跑或跳过漏掉的运行，并提供 cron_* 工具给模型。
 - [westtrade/dsh-goal-vector](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-goal-vector) - 目标向量：命名的优先级目标清单，对话采用后模型在整个会话中遵循；带管理页、输入框选择器和 goal_vector_* 工具。
 - [mili1360/dsh-proactive](https://github.com/mili1360/dsh-proactive) - 在长任务于回合结束之后跑完时唤醒会话，并让模型自己安排唤醒（一次、固定间隔或带抖动的 cron），受静默时段与每日预算限制。
+- [kadaliao/dsh-bots](https://github.com/kadaliao/dsh-bots) - Grok 式 bot 团队：每个 bot 有自己的人设、模型、技能、记忆和定时任务；调度员把工作派成任务，看板跟踪每件事，飞书、Telegram、Slack、Discord 里也能给团队派活。
 
 ## Context & Search
 
@@ -297,6 +298,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [JohnXu22786/snippet-expander](https://github.com/JohnXu22786/snippet-expander) - Steno：发送前的行内 #tag 快捷展开——多库、别名、{{变量}}、递归防护。
 - [opencues/opencues](https://github.com/opencues/opencues/tree/master/integrations/dsh) - 输入框内的同义词提示与下划线补全：行尾输入 `_` 即自动填充，拼写错误随打随标。走 `ctx.llm`，无需自备 API key。
 - [dsh-phone-inbox](https://github.com/PerryLink/dsh-phone-inbox) - 列出当前会话通过微信桥实际收到的附件，并按需将其中一个采纳到工作区。
+- [kadaliao/dsh-prompt-en](https://github.com/kadaliao/dsh-prompt-en) - 在每条 prompt 下方写一行英文：其他语言给出译文，英文给出纠错和更地道的说法；教过的说法收进生词本，用 `/vocab` 复习。
 
 ## UI, Themes & Interaction
 
@@ -756,6 +758,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [JohnXu22786/docgen](https://github.com/JohnXu22786/docgen) - 文档工坊技能包：纯提示词（Agent Skills）文档生成——README、PR 描述、changelog 与代码审查；零第三方依赖。
 - [dsh-research-report](https://github.com/PerryLink/dsh-research-report) - DeepSeek Harness 可核查研究报告引擎：内容寻址证据账本（claim ↔ 快照绑定、防篡改）与版本化封存报告，每条 claim 带核查结论，manifest SHA-256 封印报告目录。
 - [dsh-brewreel](https://github.com/Finderchangchang/brewreel/tree/main/integrations/deepseek-harness) - BrewReel（精酿）的 DSH 插件：把分镜 JSON 渲染成 1080×1920 竖版宣传片（Remotion），含 doctor、setup、catalog、guide、validate、render、verify 共 7 个工具。
+- [kadaliao/dsh-images](https://github.com/kadaliao/dsh-images) - `generate_image` 工具，用你供应商的生图模型出图；「图片」面板收成图库，每张图标出费用，支持参考图改图，精灵图自动拼成循环 GIF。
 
 ## Office & Documents
 
@@ -856,6 +859,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-pet-plugin](https://github.com/zuoyunlai/dsh-pet-plugin) - DSH 窗口里的超写实桌宠：五个形象（薇/绯/靛/银/鲸鱼女仆）各有五张表情立绘，跳舞、撩发、走路以 24fps VP9 alpha 视频播放，另有一条 10 秒单镜头舞台片段，按活跃时段主动说话（可选 edge-tts 神经音色），五种特效，小输入框通过一次性宿主模型调用回话、不写进会话。
 
 - [dsh-game-market](https://github.com/heswy/dsh-game-market) - DSH 游戏市场与运行时：Agent 跑长任务时游戏铺满主工作区，右下角小鲸鱼显示状态，进度自动保存可续；内置 5 款游戏，附游戏 SDK/CLI 与社区目录。
+- [kadaliao/dsh-atlas](https://github.com/kadaliao/dsh-atlas) - 把 macOS「照片」图库放到能放大到街道的夜色地球上：足迹、可回放的旅行航线、往年今天，模型能搜照片、移动地图（只读）。
 
 ## Plugin Ecosystem & Development
 
