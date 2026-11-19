@@ -154,6 +154,7 @@ Management panel: Settings → Plugins.
 - [westtrade/dsh-cron-schedule](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-cron-schedule) - Scheduled AI runs: at a set time a new chat is created in a chosen directory and receives the task, with cron presets, per-task model, missed-run handling and cron_* tools for the model.
 - [westtrade/dsh-goal-vector](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-goal-vector) - Goals vectors: named, priority-ordered goal lists a chat adopts so the model follows them for the whole session, with a management page, a composer picker and goal_vector_* tools.
 - [mili1360/dsh-proactive](https://github.com/mili1360/dsh-proactive) - Wakes a session when a long background task finishes after the turn has ended, and lets the model schedule its own wake-ups (once, interval, or cron with jitter) under quiet hours and a daily budget.
+- [kadaliao/dsh-bots](https://github.com/kadaliao/dsh-bots) - Grok-style bot teams: each bot has its own persona, model, skills, memory and scheduled tasks; a dispatcher hands work out as tasks, a board tracks every request, and the team takes messages from Feishu/Lark, Telegram, Slack or Discord.
 
 ## Context & Search
 
@@ -298,6 +299,7 @@ Management panel: Settings → Plugins.
 - [PerryLink/dsh-composer-history](https://github.com/PerryLink/dsh-composer-history) - Terminal-style input history for the web composer (edge-first arrows, draft/caret restore, Ctrl+R search, sliding-context awareness) plus a smart input layer: cross-session snippets, prompt templates with variables, reuse insights, and compaction-summary highlighting.
 - [opencues/opencues](https://github.com/opencues/opencues/tree/master/integrations/dsh) - Word alternatives and underscore-gated fill-ins in the composer: end a line with `_` and it is filled, misspellings are flagged as you type. Routes through `ctx.llm`, so it needs no API key of its own.
 - [dsh-phone-inbox](https://github.com/PerryLink/dsh-phone-inbox) - Lists the attachments the current session actually received through the WeChat bridge and adopts one into the workspace on demand.
+- [kadaliao/dsh-prompt-en](https://github.com/kadaliao/dsh-prompt-en) - English under every prompt: a translation when you write in another language, corrections and better phrasing when you write in English, and a vocabulary book reviewed with `/vocab`.
 
 ## UI, Themes & Interaction
 
@@ -757,6 +759,7 @@ Management panel: Settings → Plugins.
 - [pdf-background-gray-codex-skill](https://github.com/zjsthmjialin/pdf-background-gray-codex-skill) - Whitens gray/off-white scan backgrounds in image-based PDFs while preserving resolution, page geometry and anti-aliased text edges (lossless Flate write-back) via a single Python script.
 - [dsh-research-report](https://github.com/PerryLink/dsh-research-report) - Verifiable research-report engine for DeepSeek Harness: content-addressed evidence ledger (claim-to-snapshot binding, tamper-evident) and versioned sealed reports with per-claim verification verdicts and a manifest SHA-256 seal.
 - [dsh-brewreel](https://github.com/Finderchangchang/brewreel/tree/main/integrations/deepseek-harness) - BrewReel for DSH: turns a storyboard JSON into a 1080x1920 vertical promo video rendered with Remotion (7 tools: doctor, setup, catalog, guide, validate, render, verify).
+- [kadaliao/dsh-images](https://github.com/kadaliao/dsh-images) - `generate_image` tool backed by your provider's image model, with an Images gallery panel, per-picture cost, edits from reference images, and looping GIFs from sprite sheets.
 
 ## Office & Documents
 
@@ -857,6 +860,7 @@ Management panel: Settings → Plugins.
 - [dsh-pet-plugin](https://github.com/zuoyunlai/dsh-pet-plugin) - Photo-real desk pet for the DSH window: five personas (violet, crimson, indigo, silver, whale-maid) with expression sprites plus dance, hair-flip and walk 24 fps alpha clips and a 10 s single-shot stage clip, scheduled lines with an optional edge-tts neural voice, five effects, and a small chat box that answers through a one-shot host model call without writing to your session.
 
 - [dsh-game-market](https://github.com/heswy/dsh-game-market) - DSH game market and runtime: games fill the main workspace while the agent runs long tasks, a whale in the corner shows agent status, and progress auto-saves and resumes; 5 built-in games with a game SDK/CLI and community catalog.
+- [kadaliao/dsh-atlas](https://github.com/kadaliao/dsh-atlas) - Your macOS Photos library on a night globe that zooms to street level: footprints, trips replayed as flight arcs, on this day, and a model that can search your photos and move the map (read-only).
 
 ## Plugin Ecosystem & Development
 
