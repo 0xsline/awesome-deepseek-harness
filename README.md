@@ -59,6 +59,7 @@ DeepSeek Harness is DeepSeek AI's open-source agent harness. Its core philosophy
 | [Nagi-ovo/dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) | A DSH skill that finds, installs, and verifies GitHub plugins | 172 |
 | [AdamPlatin123/dsh-plugin-radar](https://github.com/AdamPlatin123/dsh-plugin-radar) | Radar index repo that auto-scans dsh plugin candidates | 1492 |
 | [LaplaceYoung/oh-my-dsh](https://github.com/LaplaceYoung/oh-my-dsh) | 700+ plugins registered only through extension seams — no agent-loop modification | 58 |
+| [wwewtech/numes-deepseek-harness](https://github.com/wwewtech/numes-deepseek-harness) | Free Numes models in DeepSeek Harness: zero-dependency local proxy with hard `$0` route (`:free` + `max_price` guards), never-give-up retries (5s to 5m), auto-discovery, and paid-model guard. | 0 |
 
 ### 👁️ Vision
 
