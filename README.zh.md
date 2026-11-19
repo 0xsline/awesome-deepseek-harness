@@ -238,6 +238,7 @@ DeepSeek Harness 是 DeepSeek AI 开源的 agent harness。它的核心哲学是
 | [morluto/rea](https://github.com/morluto/rea) | 用 agent 逆向任何东西:从应用行为到原生二进制 | 404 |
 | [reliable-ly0411/babeldoc-pdf-translate](https://github.com/reliable-ly0411/babeldoc-pdf-translate) | 面向 DSH 的 BabelDOC PDF 翻译技能，同时提供 Codex 插件封装：双语输出、自定义术语及本地排版；安装到 `.dsh/skills/babeldoc-pdf-translate` | 0 |
 | [zabuxie/vc-voice-train-skill](https://github.com/zabuxie/vc-voice-train-skill) | RVC 音色训练技能：数据集体检、修复 RVC 20240604 归一化缺陷（静默输出宽带噪声）、客观音质验收（平坦度/谐波/频段）、40k/32k 全流程、云 GPU 训练 SOP | 10 |
+| [kysr04/dsh-pitfall-memory](https://github.com/kysr04/dsh-pitfall-memory) | 面向 DSH 的错题本技能：每次重复出现的失败沉淀成一条 Markdown 条目，最关键的是「检测信号」——三秒内怎么认出又撞上同一堵墙——以及脱离它的命令；同类任务开工前先检索。安装到 `.dsh/skills/dsh-pitfall-memory` | 0 |
 
 ### 🚀 集成 DSH 的应用与运行时
 
