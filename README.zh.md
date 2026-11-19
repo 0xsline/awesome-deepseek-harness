@@ -216,6 +216,7 @@ DeepSeek Harness 是 DeepSeek AI 开源的 agent harness。它的核心哲学是
 | [lengrufeng2008/dsh-code-intel](https://github.com/lengrufeng2008/dsh-code-intel) | 通过本地 language server 的只读语义代码导航：定义、引用、工作区符号、诊断、hover、rename 预览；6 个原生工具，不用 embedding/托管索引，6/6 测试 | 0 |
 | [jjjjjjjjnnjnn/dsh-triage](https://github.com/jjjjjjjjnnjnn/dsh-triage) | 装前判断与事后归因：点名哪一行被准入拒绝、哪个模块 import 失败、哪个能力声明了却从未注册；独立探针带可复算证据。只读，不做装/卸，不作安全背书 | 1 |
 | [tommy00748-tech/dsh-native-notifications](https://github.com/tommy00748-tech/dsh-native-notifications) | 由 DSH 自己弹出的原生桌面通知（待授权、等待作答、任务完成、出错、需要登录），归属 DSH 应用、点击回到会话，提示音可选预设或自定义。安装：`dsh plugin --profile web add github:tommy00748-tech/dsh-native-notifications` | 0 |
+| [wychmod/dsh-mini-superagent](https://github.com/wychmod/dsh-mini-superagent) | 主会话把任务派给独立的后台子会话执行，立即返回、报告自动回流；侧边栏「派发工作台」看并发、排队、批次进度与失败原因，可取消、重试、归档。提供 10 个 `dispatch_*` 工具，零运行时依赖，纯 ESM。安装：`dsh plugin --profile web add dsh-mini-superagent`（npm：`dsh-mini-superagent`）。 | 1 |
 
 ### 📚 Skills 与技能包
 
