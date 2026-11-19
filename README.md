@@ -813,7 +813,7 @@ Management panel: Settings → Plugins.
 
 - [Iven Pet](https://github.com/IvenKooLab/desktop-pet) - Independent 3D plush desktop companion for macOS and Windows, with automatic animations, mouse interactions, and local work-state adapters for DSH and ZCode.
 
-- [dsh-nexttavern](https://github.com/a86582751/dsh-nexttavern) - Roleplay with character-card import/authoring, worldlines, lorebooks and layered long-term memory for DSH 0.1.7-rc.2 / Web.
+- [dsh-nexttavern](https://github.com/a86582751/dsh-nexttavern) - Long-form roleplay for DeepSeek Harness 0.2.2-rc.5+ on Web and official Windows Desktop. Import community cards, choose an opening, and use author interfaces, MVU state, Ruby analysis, EJS, Worldbooks, community presets, regex, and side chat.
 
 - [dsh-chinese-poetry](https://github.com/runcat-tommy/dsh-chinese-poetry) - Token-free Chinese classical-poetry tab in the DSH conversation view: search, filters, 飞花令, daily poem, favorites, festival topics, share-card image, and AI explanation via your own DSH session.
 - [dsh-whale-companion](https://github.com/LeemanCheung/dsh-whale-companion) - Draggable whale companion with local progression, achievements, skins, and privacy-safe activity tracking.
