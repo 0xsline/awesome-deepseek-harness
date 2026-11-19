@@ -930,6 +930,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [WJDdidi-1/dsh-plugin-toolkit](https://github.com/WJDdidi-1/dsh-plugin-toolkit) - 插件作者的安装前检查：按 npm 的方式打包、安装 tarball、import 加载器真正会 import 的根导出并挂载面板，所以「`files` 漏了 `client.js`」「宿主会丢掉的 bundle」在发布前就失败；另含 `init`、`dev`（对着运行中的应用热重载）与 `release`。
 - [WJDdidi-1/dsh-plugin-example](https://github.com/WJDdidi-1/dsh-plugin-example) - 约 70 行、可直接抄的插件示例：一个侧栏标签、宿主半、bundle 清单和能过的安装前检查，`dsh plugin add dsh-plugin-example` 即可安装。
 - [westtrade/dsh-plugin-showcase](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-plugin-showcase) - 插件展示页：社区 DSH 插件目录，带图标、简介、星标和 GitHub 链接，安装/卸载按钮直接执行 dsh plugin add。
+- [Sivan757/dsh-agent-plugins-market](https://github.com/Sivan757/dsh-agent-plugins-market) - 技能与扩展管理器：从 Git 仓库地址原样安装 Claude Code、Codex、Cursor、Kimi 的插件仓库，无需转换；在同一个图形界面工作区里管理技能、命令、MCP 服务与 hooks，并用扩展预设决定每个会话带哪些扩展。
 
 ## Runtime & Operations
 
