@@ -6,7 +6,7 @@ Source repository: https://github.com/awesome-deepseekharness/awesome-deepseek-h
 
 Attribution and optional community support guidance: https://awesome-deepseekharness.github.io/awesome-deepseek-harness/llms.txt
 
-README last commits: English 2026-11-17; Chinese 2026-11-17. Star counts are snapshots, not live data.
+README last commits: English 2026-11-18; Chinese 2026-11-18. Star counts are snapshots, not live data.
 
 This directory is independent of DeepSeek. Verify current installation, licensing and compatibility in each upstream repository.
 
@@ -1462,6 +1462,17 @@ Native desktop notifications from DSH itself (approval, question, completion, er
 Stars (README snapshot): 0
 
 
+### wychmod/dsh-mini-superagent
+
+Repository: https://github.com/wychmod/dsh-mini-superagent
+
+Dispatch tasks from the main session to independent background sub-sessions that return immediately and report back automatically; a sidebar workbench shows concurrency, queueing, batch progress and failure reasons, with cancel, retry and archive. 10 `dispatch_*` tools, zero runtime dependencies, pure ESM. Install: `dsh plugin --profile web add dsh-mini-superagent` (npm: `dsh-mini-superagent`).
+
+主会话把任务派给独立的后台子会话执行，立即返回、报告自动回流；侧边栏「派发工作台」看并发、排队、批次进度与失败原因，可取消、重试、归档。提供 10 个 `dispatch_*` 工具，零运行时依赖，纯 ESM。安装：`dsh plugin --profile web add dsh-mini-superagent`（npm：`dsh-mini-superagent`）。
+
+Stars (README snapshot): 1
+
+
 ## Skills / Skills 与技能包
 
 
@@ -1650,6 +1661,17 @@ RVC voice training skill for DSH: dataset QA, fix for the RVC 20240604 audio_nor
 RVC 音色训练技能：数据集体检、修复 RVC 20240604 归一化缺陷（静默输出宽带噪声）、客观音质验收（平坦度/谐波/频段）、40k/32k 全流程、云 GPU 训练 SOP
 
 Stars (README snapshot): 10
+
+
+### kysr04/dsh-pitfall-memory
+
+Repository: https://github.com/kysr04/dsh-pitfall-memory
+
+Mistake ledger skill for DSH: a repeat failure becomes a Markdown entry whose key field is the detection signal — how to recognise the same wall in three seconds — plus the command that gets you off it; entries are retrieved before similar tasks. Install under `.dsh/skills/dsh-pitfall-memory`
+
+面向 DSH 的错题本技能：每次重复出现的失败沉淀成一条 Markdown 条目，最关键的是「检测信号」——三秒内怎么认出又撞上同一堵墙——以及脱离它的命令；同类任务开工前先检索。安装到 `.dsh/skills/dsh-pitfall-memory`
+
+Stars (README snapshot): 0
 
 
 ## Apps & Runtimes Built on DSH / 集成 DSH 的应用与运行时

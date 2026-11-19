@@ -5,7 +5,7 @@
 The English and Chinese READMEs are the source of the catalog. Project star counts are snapshots, not live data. Check each upstream repository for current installation instructions, licensing and compatibility. DeepSeek Harness is a Developer Preview; APIs can change.
 
 ## Directory
-- [English website](https://awesome-deepseekharness.github.io/awesome-deepseek-harness/): Search and browse 174 projects across 11 categories.
+- [English website](https://awesome-deepseekharness.github.io/awesome-deepseek-harness/): Search and browse 176 projects across 11 categories.
 - [中文网站](https://awesome-deepseekharness.github.io/awesome-deepseek-harness/zh/): 中文项目说明与分类。
 - [Bilingual catalog JSON](https://awesome-deepseekharness.github.io/awesome-deepseek-harness/catalog.json): Structured project names, descriptions, categories, repository URLs and snapshot stars.
 - [Full bilingual text](https://awesome-deepseekharness.github.io/awesome-deepseek-harness/llms-full.txt): All catalog entries and common questions in plain text.

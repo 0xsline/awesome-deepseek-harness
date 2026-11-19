@@ -9,8 +9,8 @@
     "zh-CN"
   ],
   "sourceUpdated": {
-    "en": "2026-11-17",
-    "zh": "2026-11-17"
+    "en": "2026-11-18",
+    "zh": "2026-11-18"
   },
   "sources": {
     "en": "https://github.com/awesome-deepseekharness/awesome-deepseek-harness/blob/main/README.md",
@@ -19,7 +19,7 @@
   "starCountNote": "Project star counts are README snapshots, not live counts. Verify installation and compatibility in the linked upstream repository.",
   "repositoryStars": 45,
   "firstStarGoal": 100,
-  "total": 174,
+  "total": 176,
   "groups": [
     {
       "id": "MKT",
@@ -1119,9 +1119,17 @@
           "stars": 0,
           "zhName": "tommy00748-tech/dsh-native-notifications",
           "zhDesc": "由 DSH 自己弹出的原生桌面通知（待授权、等待作答、任务完成、出错、需要登录），归属 DSH 应用、点击回到会话，提示音可选预设或自定义。安装：`dsh plugin --profile web add github:tommy00748-tech/dsh-native-notifications`"
+        },
+        {
+          "name": "wychmod/dsh-mini-superagent",
+          "url": "https://github.com/wychmod/dsh-mini-superagent",
+          "desc": "Dispatch tasks from the main session to independent background sub-sessions that return immediately and report back automatically; a sidebar workbench shows concurrency, queueing, batch progress and failure reasons, with cancel, retry and archive. 10 `dispatch_*` tools, zero runtime dependencies, pure ESM. Install: `dsh plugin --profile web add dsh-mini-superagent` (npm: `dsh-mini-superagent`).",
+          "stars": 1,
+          "zhName": "wychmod/dsh-mini-superagent",
+          "zhDesc": "主会话把任务派给独立的后台子会话执行，立即返回、报告自动回流；侧边栏「派发工作台」看并发、排队、批次进度与失败原因，可取消、重试、归档。提供 10 个 `dispatch_*` 工具，零运行时依赖，纯 ESM。安装：`dsh plugin --profile web add dsh-mini-superagent`（npm：`dsh-mini-superagent`）。"
         }
       ],
-      "count": 71,
+      "count": 72,
       "prefix": "U7"
     },
     {
@@ -1264,9 +1272,17 @@
           "stars": 10,
           "zhName": "zabuxie/vc-voice-train-skill",
           "zhDesc": "RVC 音色训练技能：数据集体检、修复 RVC 20240604 归一化缺陷（静默输出宽带噪声）、客观音质验收（平坦度/谐波/频段）、40k/32k 全流程、云 GPU 训练 SOP"
+        },
+        {
+          "name": "kysr04/dsh-pitfall-memory",
+          "url": "https://github.com/kysr04/dsh-pitfall-memory",
+          "desc": "Mistake ledger skill for DSH: a repeat failure becomes a Markdown entry whose key field is the detection signal — how to recognise the same wall in three seconds — plus the command that gets you off it; entries are retrieved before similar tasks. Install under `.dsh/skills/dsh-pitfall-memory`",
+          "stars": 0,
+          "zhName": "kysr04/dsh-pitfall-memory",
+          "zhDesc": "面向 DSH 的错题本技能：每次重复出现的失败沉淀成一条 Markdown 条目，最关键的是「检测信号」——三秒内怎么认出又撞上同一堵墙——以及脱离它的命令；同类任务开工前先检索。安装到 `.dsh/skills/dsh-pitfall-memory`"
         }
       ],
-      "count": 17,
+      "count": 18,
       "prefix": "U8"
     },
     {
