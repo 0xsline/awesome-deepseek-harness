@@ -932,6 +932,7 @@ Management panel: Settings → Plugins.
 - [WJDdidi-1/dsh-plugin-toolkit](https://github.com/WJDdidi-1/dsh-plugin-toolkit) - Preflight for plugin authors: packs the plugin the way npm would, installs the tarball, imports the root export the loader mounts and mounts the panel, so a `files` list that forgets `client.js` or a bundle the host would drop fails before release; also `init`, `dev` (reload against a running app) and `release`.
 - [WJDdidi-1/dsh-plugin-example](https://github.com/WJDdidi-1/dsh-plugin-example) - A ~70-line plugin to copy from: one sidebar tab, a host half, a bundle manifest and a passing preflight, installable with `dsh plugin add dsh-plugin-example`.
 - [westtrade/dsh-plugin-showcase](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-plugin-showcase) - Plugin showcase: a catalog page of community DSH plugins with images, descriptions, stars and GitHub links, plus install/remove buttons that run dsh plugin add for you.
+- [qianmokillstar/dsh-plugins](https://github.com/qianmokillstar/dsh-plugins) - Unofficial third-party DSH plugin verification index: 55 hand-tested install records with version, risk and privacy labels, an error-diagnosis page for failed installs, a JSON feed with schema, and embeddable verification badges for plugin authors.
 
 ## Runtime & Operations
 
