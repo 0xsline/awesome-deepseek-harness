@@ -572,6 +572,7 @@ EXTRA_TOPIC_REPOS = [
     {"full_name": "superkonka/dsh-poor-mode", "name": "dsh-poor-mode", "html_url": "https://github.com/superkonka/dsh-poor-mode", "description": "Provider-aware off-peak cost-saving agent preset with immediate or deferred task execution"},
     {"full_name": "Sutera-Diffusus/dsh-whale-musume", "name": "dsh-whale-musume", "html_url": "https://github.com/Sutera-Diffusus/dsh-whale-musume", "description": "Whale-girl desktop pet for the DSH Web UI with local-first growth, work-state poses, dialogue, and achievements"},
     {"full_name": "void2anything/dsh-qingagent", "name": "dsh-qingagent", "html_url": "https://github.com/void2anything/dsh-qingagent", "description": "Writing bridge to the open-source QingAgent client: drafts and revisions render on a typeset rice-paper panel, every edit staged for review before it lands"},
+    {"full_name": "LiPu-jpg/Openwrite", "name": "Openwrite", "html_url": "https://github.com/LiPu-jpg/Openwrite", "description": "长篇小说创作工作台插件：结构化设定库（角色、世界观、分卷大纲）、Vditor 正文工作台与逐章版本锁、六域审稿 DAG、本地 FastEmbed 向量检索与 EPUB 成书导出（npm：dsh-openwrite）"},
 ]
 
 
