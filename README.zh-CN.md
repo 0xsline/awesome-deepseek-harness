@@ -1036,6 +1036,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [maxmilian/dsh-odoo](https://github.com/maxmilian/dsh-odoo) - 经 JSON-RPC 的 Odoo 只读工具：服务器信息、模型字段自省，以及白名单模型上的受限 search_read。草稿创建工具需显式开启 allowWrite 才会注册。
 - [dsh-paperdesk](https://github.com/shiyan688/dsh-paperdesk) - 论文文库与精读工作台：arXiv 检索、本地纯文件文库（题录 / PDF / 抽取的全文）、三层精读笔记（速览 / 理解 / 批判）以 markdown 与 PDF 放在一起；7 个模型工具 + Web 面板。
 - [siweina/dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) - 中文小说写作工作台：提供章节材料、文风检查、改稿计划与跨章连贯性核查，语义分析使用随包提供的本地模型，也可作为 MCP 服务器使用。
+- [LiPu-jpg/Openwrite](https://github.com/LiPu-jpg/Openwrite) - OpenWrite 长篇小说创作工作台：结构化设定库（角色、世界观、分卷大纲）、Vditor 正文工作台与逐章版本锁、六域审稿 DAG、本地 FastEmbed 向量检索与 EPUB 成书导出（npm：`dsh-openwrite`）。
 
 - [pricewin-dsh](https://github.com/PriceDotWin/pricewin-dsh) - 通过 PriceWin 远程 MCP 服务实时比较 Booking.com、Agoda、Trip.com 和 Traveloka 的酒店与机票价格（美元），附带搜索 Skill。
 - [dsh-site-log-check](https://github.com/PerryLink/dsh-site-log-check) - 监理日志核对：依据 GB/T 50319-2013 等公开文件核对监理日志的跨日连续性与旁站覆盖，仅提示差异，不作出定性结论。
