@@ -475,7 +475,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-community-bench](https://github.com/PerryLink/dsh-community-bench) - 增加社区基准标签页，读取公开的、按任务条件计算的 registry，展示所有人看到的同一分数；不在本地计算分数。
 - [westtrade/dsh-project-cost](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-project-cost) - 项目花费统计：按会话 token 用量和 routerai.ru 公开模型价格计算每个工作区目录的支出，带工作区徽标与费用面板。
 - [answertsundere/dsh-canvas-plugin](https://github.com/answertsundere/dsh-canvas-plugin) - 会话分支画布：全幅血缘图、任意消息分叉、并行分支实时流式、确定性对比，以及每会话的 Agent 实况蛛网视图。
-- [khglobal/dsh-universe](https://github.com/khglobal/dsh-universe) - 实时代理监控：把所有工作区的会话、代理和定时任务画成一座实时像素城市，可分别查看失败调用、各模型令牌用量、调用量、定时任务和等你处理的代理，支持时间线回放与读屏友好的列表视图；只读元数据，不发网络请求（npm：@khglobal/dsh-universe；源码可见许可）。
+- [khglobal/dsh-universe](https://github.com/khglobal/dsh-universe) - 实时 AI 代理监控：把所有工作区的 DSH 会话、代理和定时任务画成一座实时像素城市，可分别查看失败调用、各模型令牌用量、调用量、定时任务和等你处理的代理，支持时间线回放与读屏友好的列表视图。0.3.0 起，同一设备上的 Claude（Claude Code 与 Claude 桌面应用）、ChatGPT（Codex）和 WorkBuddy 会话以相邻城市显示。只读元数据，数据不离开本机（npm：@khglobal/dsh-universe；源码可见许可）。
 ## IDE & Clients
 
 - [Minke](https://github.com/lencx/Minke) - 基于 DeepSeek Harness 的桌面 Agent 工作区，支持 macOS、Windows 和 Linux，提供人机共享浏览器控制、集成文件与终端、远程访问和本地模型管理。
