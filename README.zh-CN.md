@@ -756,6 +756,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [JohnXu22786/docgen](https://github.com/JohnXu22786/docgen) - 文档工坊技能包：纯提示词（Agent Skills）文档生成——README、PR 描述、changelog 与代码审查；零第三方依赖。
 - [dsh-research-report](https://github.com/PerryLink/dsh-research-report) - DeepSeek Harness 可核查研究报告引擎：内容寻址证据账本（claim ↔ 快照绑定、防篡改）与版本化封存报告，每条 claim 带核查结论，manifest SHA-256 封印报告目录。
 - [dsh-brewreel](https://github.com/Finderchangchang/brewreel/tree/main/integrations/deepseek-harness) - BrewReel（精酿）的 DSH 插件：把分镜 JSON 渲染成 1080×1920 竖版宣传片（Remotion），含 doctor、setup、catalog、guide、validate、render、verify 共 7 个工具。
+- [khglobal/dsh-nocco](https://github.com/khglobal/dsh-nocco) - 网页应用开发工作台：描述想要的系统，Agent 在本机基于带登录、角色和 SQLite 数据库的 Nuxt 模板把它做出来；对话旁实时预览（可切换桌面、平板、手机宽度），四套设计体系，Excel/CSV 数据行作为初始数据载入，在预览里点选元素告诉 Agent 改哪里，检查点一键撤销（npm：@khglobal/dsh-nocco；MIT）。
 
 ## Office & Documents
 
