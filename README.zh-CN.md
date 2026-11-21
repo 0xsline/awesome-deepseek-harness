@@ -156,6 +156,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Context & Search
 
+- [Archerkattri/dsh-qwen-websearch](https://github.com/Archerkattri/dsh-qwen-websearch) - Qwen Token Plan 联网搜索提供商：通过 Responses API 的 web_search 工具让 web_search 走 Token Plan 额度，由 Qwen3.8 Flash 总结并返回来源链接。
 - [ymck-x/dsh-session-continuity](https://github.com/ymck-x/dsh-session-continuity) - 新会话开始时注入一条很小的接续指针：上一个会话是谁、工作区有没有交接文档；没有交接文档时复用 DSH 已有的压缩摘要，不调用模型。
 - [zoahdev/dsh-github-intelligence](https://github.com/zoahdev/dsh-github-intelligence) - 只读开发者情报工具：16 大生态（GitHub、GitLab、Gitee、npm、PyPI、crates.io、Docker Hub、Hugging Face、Hacker News、Stack Overflow、Reddit、dev.to、RubyGems、NuGet、Go、ArXiv）统一查询，带 TTL 缓存，无需 API Key。
 - [youdotcom-oss/dsh-plugin-youcom](https://github.com/youdotcom-oss/dsh-plugin-youcom) - 为 DeepSeek Harness 提供 You.com 网页搜索与页面抓取，返回来源列表与提取的页面正文，API Key 与端点可配置。
@@ -564,6 +565,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Models & Inference
 
+- [Archerkattri/dsh-qwen4-effort](https://github.com/Archerkattri/dsh-qwen4-effort) - 为已有 Qwen Token Plan 路由上的 Qwen4 模型补齐官方推理等级（Max Preview 为 low/medium/xhigh，Max 为 low/high/xhigh），并保留其他提供商配置。
 - [dsh-zcode-coding-plan](https://github.com/yuyang2230/dsh-zcode-coding-plan) - 将编码任务派给官方 ZCode CLI，支持原生 Agent 工具、多轮续接、上下文缓存与按套餐余量路由。
 - [dsh-zcode-cli-proxy](https://github.com/kyle123740/dsh-zcode-cli-proxy) - 将 ZCode CLI 常驻 app-server 接入 DeepSeek Harness，使用现有 Start Plan 登录支持 GLM 流式输出、图片输入和会话复用；需要安装 ZCode 客户端。
 - [dsh-vertex-gemini](https://github.com/mn288/dsh-vertex-gemini) - 通过 Google Cloud Vertex AI 为 DeepSeek Harness 接入 Gemini，支持应用默认凭据（ADC）、流式响应和工具调用间的思考签名回传。

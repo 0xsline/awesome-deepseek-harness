@@ -157,6 +157,7 @@ Management panel: Settings → Plugins.
 
 ## Context & Search
 
+- [Archerkattri/dsh-qwen-websearch](https://github.com/Archerkattri/dsh-qwen-websearch) - Qwen Token Plan web search provider for DeepSeek Harness: runs web_search on Token Plan credits through the Responses API web_search tool, with Qwen3.8 Flash summaries and source URLs.
 - [ymck-x/dsh-session-continuity](https://github.com/ymck-x/dsh-session-continuity) - Injects a small continuity pointer at the start of a new session, naming the previous session and any handoff file, and reuses DSH's own compaction summary when there is no handoff file.
 - [zoahdev/dsh-github-intelligence](https://github.com/zoahdev/dsh-github-intelligence) - Read-only developer-intelligence tools across 16 ecosystems (GitHub, GitLab, Gitee, npm, PyPI, crates.io, Docker Hub, Hugging Face, Hacker News, Stack Overflow, Reddit, dev.to, RubyGems, NuGet, Go, ArXiv) with TTL caching and no API key.
 - [youdotcom-oss/dsh-plugin-youcom](https://github.com/youdotcom-oss/dsh-plugin-youcom) - You.com web search and page-fetch providers for DeepSeek Harness, returning source lists and extracted page text through a configurable API key and endpoint.
@@ -567,6 +568,7 @@ Management panel: Settings → Plugins.
 
 ## Models & Inference
 
+- [Archerkattri/dsh-qwen4-effort](https://github.com/Archerkattri/dsh-qwen4-effort) - Fills official Qwen4 effort levels (low/medium/xhigh for Max Preview, low/high/xhigh for Max) into Qwen4 models on existing Qwen Token Plan routes, preserving other providers.
 - [dsh-zcode-coding-plan](https://github.com/yuyang2230/dsh-zcode-coding-plan) - Dispatches coding tasks to the official ZCode CLI, with native agent tools, multi-turn resume, context caching and quota-aware routing.
 - [dsh-zcode-cli-proxy](https://github.com/kyle123740/dsh-zcode-cli-proxy) - ZCode CLI app-server relay for DeepSeek Harness, with GLM streaming, image input and session reuse using an existing Start Plan login; requires the ZCode client.
 - [dsh-vertex-gemini](https://github.com/mn288/dsh-vertex-gemini) - Gemini provider for DeepSeek Harness on Google Cloud Vertex AI, with Application Default Credentials, streaming, and thought-signature replay across tool calls.
