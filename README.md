@@ -97,6 +97,8 @@ Management panel: Settings → Plugins.
 - [1420079678-ctrl/agent-body](https://github.com/1420079678-ctrl/agent-body) - Plugin coordination layer: plugins declare their capabilities, commands route to the owning plugin without a model call, tool schemas load on demand to cut prompt tokens, run history consolidates into long-term memory while idle, and failures are classified before any retry.
 - [dsh-yawn](https://github.com/zhming0/dsh-yawn) - Always-on DSH distribution for the web: deploy once on a VM or Kubernetes, and every session runs in its own sandbox (Docker, Kubernetes, or Buildkite).
 
+- [dsh-laya](https://github.com/PerryLink/dsh-laya) - Typed decisions (noul yes/no, choice, score) as a first-class Cordis service (ctx.laya) plus the model-visible laya_ask and laya_plan tools; it is a client of a local laya-mcp serve sidecar and reports when that sidecar is not running instead of failing at the first tool call.
+
 ## Agents & Orchestration
 
 - [linxule/kimi-plugin-cc](https://github.com/linxule/kimi-plugin-cc) - All seven Kimi ask/review/challenge/rescue/pursue/swarm/swarm-write providers through the local Kimi Code CLI, with managed hooks, jobs, budgets, and artifacts; also supports Claude Code and Codex.
@@ -154,6 +156,8 @@ Management panel: Settings → Plugins.
 - [westtrade/dsh-cron-schedule](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-cron-schedule) - Scheduled AI runs: at a set time a new chat is created in a chosen directory and receives the task, with cron presets, per-task model, missed-run handling and cron_* tools for the model.
 - [westtrade/dsh-goal-vector](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-goal-vector) - Goals vectors: named, priority-ordered goal lists a chat adopts so the model follows them for the whole session, with a management page, a composer picker and goal_vector_* tools.
 - [mili1360/dsh-proactive](https://github.com/mili1360/dsh-proactive) - Wakes a session when a long background task finishes after the turn has ended, and lets the model schedule its own wake-ups (once, interval, or cron with jitter) under quiet hours and a daily budget.
+
+- [dsh-doc-anchor](https://github.com/PerryLink/dsh-doc-anchor) - Turns PDF/HTML/LaTeX/Markdown documents into locatable evidence surfaces: content-addressed snapshots of the original bytes plus extracted text, page/section/paragraph/char anchors, table grids and REP v1 evidence records; it produces coordinates rather than rendering or judging.
 
 ## Context & Search
 
@@ -565,6 +569,8 @@ Management panel: Settings → Plugins.
 - [dsh-windows-computer-use](https://github.com/shinji00222/dsh-windows-computer-use) - Windows computer use with a native C# engine: text-only models read UI Automation controls and fill forms in verified batches, stale control refs can be re-found by unique identity, and CAPTCHAs are refused and handed back to the user via the DSH approval prompt; Esc stops the turn.
 - [lukeinx/dsh-remote-wecom](https://github.com/lukeinx/dsh-remote-wecom) - Drive DSH Desktop sessions from a WeCom (企业微信) smart bot on your phone: switch sessions and models, get task results with generated files, answer approvals and questions, steer running turns; QR setup from the Desktop settings page.
 
+- [dsh-param-repair](https://github.com/PerryLink/dsh-param-repair) - Maps 13 canonical request parameters to the real field names of 11 vendors and deterministically repairs broken JSON in successful tool results to pass schema validation; host-side only, with no fabricated data.
+
 ## Models & Inference
 
 - [dsh-zcode-coding-plan](https://github.com/yuyang2230/dsh-zcode-coding-plan) - Dispatches coding tasks to the official ZCode CLI, with native agent tools, multi-turn resume, context caching and quota-aware routing.
@@ -639,6 +645,8 @@ Management panel: Settings → Plugins.
 - [dsh-subagent-custom](https://github.com/xingzhen199186/dsh-subagent-custom) - Subagent model control: a Jev classifier labels each turn, and the subagent's own request is rewritten to the provider, model and reasoning effort that label maps to; per-session inherit/auto/manual selection, one prompt per role injected ahead of the task, and a ledger of recent dispatches.
 - [dsh-model-tidy](https://github.com/star-Cosmo/dsh-model-tidy) - Keeps the DSH model selector tidy: hide models, rename models and channels while preserving the provider billing suffix, and reorder both with arrows. Display-only; never rewrites provider configuration.
 - [cursor-to-dsh](https://github.com/lukeinx/cursor-to-dsh) - Cursor models as the `cursor` LLM provider through the official `@cursor/sdk` and your own API key: live model catalog and reasoning efforts, one Cursor agent per DSH session sending only new content, Cursor built-in tools off and DSH tools executed by DSH within the same Cursor run.
+
+- [dsh-github-bot](https://github.com/PerryLink/dsh-github-bot) - GitHub integration for DSH agents: create, review, merge and search PRs, read and write issues, plus a composite CI action, a polling review bot and a status-check gate; every write waits for human approval and tokens are not written to logs.
 
 ## Git & Engineering
 
@@ -987,6 +995,13 @@ Management panel: Settings → Plugins.
 - [tagayamajin/dsh-backup-skill](https://github.com/tagayamajin/dsh-backup-skill) - A DSH skill (not a plugin) that packs plugins, profiles, plugin settings, offline node_modules and chat history into one migration kit with the same-version installer, then restores a fresh machine with dependency verification, `.modules.yaml` path rewriting and mid-restore restart detection — usable even when DSH itself cannot boot.
 - [maple564/dsh-on-android](https://github.com/maple564/dsh-on-android) - Run `dsh web` inside an Android PRoot/Alpine sandbox (musl, aarch64): one-command install, `dsh-go` launcher, and fixes for the glibc-prebuilt `node-pty`, `--expose-internals` inside `NODE_OPTIONS`, bootstrap-only `DSH_PERMISSION_MODE`, and the missing workspace-write backend; registers a phone mount directory (`/var/minis/mounts/Documents/...`) as the workspace so the harness reads and writes real phone files.
 - [mili1360/dsh-session-vacuum](https://github.com/mili1360/dsh-session-vacuum) - Deletes the write-only streaming fragment rows from session logs on disk so a long session loads into fewer objects; the pruned log is checked against the loader contract before the file is replaced, and the previous file is kept as .orig.
+
+- [dsh-gongwen-word-check](https://github.com/PerryLink/dsh-gongwen-word-check) - Checks an official-document register against a versioned rule pack (document type, issuing-number form and bracket style, date, recipients, duplicate numbers, template placeholders) and reports row/column-level differences instead of a compliance verdict.
+- [dsh-ppap-check](https://github.com/PerryLink/dsh-ppap-check) - Checks a PPAP submission element list for completeness and internal consistency against a versioned rule pack, reporting which row and column differ and leaving the verdict to the reviewer.
+- [dsh-contract-stance](https://github.com/PerryLink/dsh-contract-stance) - Checks a contract clause-stance register against a verbatim-quoted rule library: lists missing or self-contradictory rows and columns before negotiation, without modifying the source files or judging compliance.
+- [dsh-eia-guide-check](https://github.com/PerryLink/dsh-eia-guide-check) - Checks the traceability of an environmental-impact-assessment technical-guideline applicability register against a versioned rule pack, reporting row/column-level differences and leaving the verdict to the reviewer.
+- [dsh-essay-rubric-check](https://github.com/PerryLink/dsh-essay-rubric-check) - Checks an essay scoring rubric for completeness, score arithmetic, source-location fields, unique numbering and header ownership, listing only the differences and leaving the grade to the reviewer.
+- [dsh-grant-cn](https://github.com/PerryLink/dsh-grant-cn) - Pre-submission checks for Chinese grant applications: a 19-item structure/attribute checklist, budget arithmetic and direct/indirect/total consistency, and an application-materials pack scan; outputs JSON/Markdown with REP evidence and returns a keyword checklist, not a review verdict.
 
 ## Domain & Specialist Skills
 
