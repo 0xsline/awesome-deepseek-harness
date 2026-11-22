@@ -97,6 +97,8 @@ Management panel: Settings → Plugins.
 - [1420079678-ctrl/agent-body](https://github.com/1420079678-ctrl/agent-body) - Plugin coordination layer: plugins declare their capabilities, commands route to the owning plugin without a model call, tool schemas load on demand to cut prompt tokens, run history consolidates into long-term memory while idle, and failures are classified before any retry.
 - [dsh-yawn](https://github.com/zhming0/dsh-yawn) - Always-on DSH distribution for the web: deploy once on a VM or Kubernetes, and every session runs in its own sandbox (Docker, Kubernetes, or Buildkite).
 
+- [dsh-laya](https://github.com/PerryLink/dsh-laya) - Typed decisions (noul yes/no, choice, score) as a first-class Cordis service (ctx.laya) plus the model-visible laya_ask and laya_plan tools; it is a client of a local laya-mcp serve sidecar and reports when that sidecar is not running instead of failing at the first tool call.
+
 ## Agents & Orchestration
 
 - [linxule/kimi-plugin-cc](https://github.com/linxule/kimi-plugin-cc) - All seven Kimi ask/review/challenge/rescue/pursue/swarm/swarm-write providers through the local Kimi Code CLI, with managed hooks, jobs, budgets, and artifacts; also supports Claude Code and Codex.
@@ -154,6 +156,8 @@ Management panel: Settings → Plugins.
 - [westtrade/dsh-cron-schedule](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-cron-schedule) - Scheduled AI runs: at a set time a new chat is created in a chosen directory and receives the task, with cron presets, per-task model, missed-run handling and cron_* tools for the model.
 - [westtrade/dsh-goal-vector](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-goal-vector) - Goals vectors: named, priority-ordered goal lists a chat adopts so the model follows them for the whole session, with a management page, a composer picker and goal_vector_* tools.
 - [mili1360/dsh-proactive](https://github.com/mili1360/dsh-proactive) - Wakes a session when a long background task finishes after the turn has ended, and lets the model schedule its own wake-ups (once, interval, or cron with jitter) under quiet hours and a daily budget.
+
+- [dsh-doc-anchor](https://github.com/PerryLink/dsh-doc-anchor) - Turns PDF/HTML/LaTeX/Markdown documents into locatable evidence surfaces: content-addressed snapshots of the original bytes plus extracted text, page/section/paragraph/char anchors, table grids and REP v1 evidence records; it produces coordinates rather than rendering or judging.
 
 ## Context & Search
 
@@ -565,6 +569,8 @@ Management panel: Settings → Plugins.
 - [dsh-windows-computer-use](https://github.com/shinji00222/dsh-windows-computer-use) - Windows computer use with a native C# engine: text-only models read UI Automation controls and fill forms in verified batches, stale control refs can be re-found by unique identity, and CAPTCHAs are refused and handed back to the user via the DSH approval prompt; Esc stops the turn.
 - [lukeinx/dsh-remote-wecom](https://github.com/lukeinx/dsh-remote-wecom) - Drive DSH Desktop sessions from a WeCom (企业微信) smart bot on your phone: switch sessions and models, get task results with generated files, answer approvals and questions, steer running turns; QR setup from the Desktop settings page.
 
+- [dsh-param-repair](https://github.com/PerryLink/dsh-param-repair) - Maps 13 canonical request parameters to the real field names of 11 vendors and deterministically repairs broken JSON in successful tool results to pass schema validation; host-side only, with no fabricated data.
+
 ## Models & Inference
 
 - [dsh-zcode-coding-plan](https://github.com/yuyang2230/dsh-zcode-coding-plan) - Dispatches coding tasks to the official ZCode CLI, with native agent tools, multi-turn resume, context caching and quota-aware routing.
@@ -639,6 +645,10 @@ Management panel: Settings → Plugins.
 - [dsh-subagent-custom](https://github.com/xingzhen199186/dsh-subagent-custom) - Subagent model control: a Jev classifier labels each turn, and the subagent's own request is rewritten to the provider, model and reasoning effort that label maps to; per-session inherit/auto/manual selection, one prompt per role injected ahead of the task, and a ledger of recent dispatches.
 - [dsh-model-tidy](https://github.com/star-Cosmo/dsh-model-tidy) - Keeps the DSH model selector tidy: hide models, rename models and channels while preserving the provider billing suffix, and reorder both with arrows. Display-only; never rewrites provider configuration.
 - [cursor-to-dsh](https://github.com/lukeinx/cursor-to-dsh) - Cursor models as the `cursor` LLM provider through the official `@cursor/sdk` and your own API key: live model catalog and reasoning efforts, one Cursor agent per DSH session sending only new content, Cursor built-in tools off and DSH tools executed by DSH within the same Cursor run.
+
+- [dsh-github-bot](https://github.com/PerryLink/dsh-github-bot) - GitHub integration for DSH agents: create, review, merge and search PRs, read and write issues, plus a composite CI action, a polling review bot and a status-check gate; every write waits for human approval and tokens are not written to logs.
+- [dsh-phocinae](https://github.com/PerryLink/dsh-phocinae) - Local non-generative decision layer: phocinae_ask and phocinae_gate return typed verdicts with calibrated confidence from a small decision model, with fail-closed escalation; needs a local phocinae-server on loopback port 8155.
+- [dsh-provider-params](https://github.com/PerryLink/dsh-provider-params) - Vendor parameter mapping and deterministic JSON repair for DSH.
 
 ## Git & Engineering
 
@@ -736,6 +746,7 @@ Management panel: Settings → Plugins.
 
 - [01men/ybkkasi](https://github.com/01men/ybkkasi) - Enterprise AI asset governance: registers MCP servers, skills, agents, AI apps, model channels, SaaS connectors and NAS storage in one self-hosted ledger with lifecycle state machines, per-tool RBAC, department x agent x skill cost attribution, dependency topology and an append-only audit trail.
 - [SteelUnion/dsh-confirm-gate](https://github.com/SteelUnion/dsh-confirm-gate) - Per-turn counter for persistent operations: it reminds the model, then stops and asks before going further. Read-only actions are not counted.
+- [dsh-security-pack](https://github.com/PerryLink/dsh-security-pack) - Security-audit skill pack + plugin_vet supply-chain gate for DeepSeek Harness: eight bilingual skills and a pre-install gate.
 
 ## Output & Deliverables
 
@@ -757,6 +768,7 @@ Management panel: Settings → Plugins.
 - [pdf-background-gray-codex-skill](https://github.com/zjsthmjialin/pdf-background-gray-codex-skill) - Whitens gray/off-white scan backgrounds in image-based PDFs while preserving resolution, page geometry and anti-aliased text edges (lossless Flate write-back) via a single Python script.
 - [dsh-research-report](https://github.com/PerryLink/dsh-research-report) - Verifiable research-report engine for DeepSeek Harness: content-addressed evidence ledger (claim-to-snapshot binding, tamper-evident) and versioned sealed reports with per-claim verification verdicts and a manifest SHA-256 seal.
 - [dsh-brewreel](https://github.com/Finderchangchang/brewreel/tree/main/integrations/deepseek-harness) - BrewReel for DSH: turns a storyboard JSON into a 1080x1920 vertical promo video rendered with Remotion (7 tools: doctor, setup, catalog, guide, validate, render, verify).
+- [dsh-dataset-card](https://github.com/PerryLink/dsh-dataset-card) - Dataset documentation for DeepSeek Harness: bounded CSV/TSV/JSON/JSONL profiling, redacted PII detection, a Datasheet-style card with missing-section warnings, Markdown/JSON/SARIF output and REP evidence that stores the analysis but never the raw data.
 
 ## Office & Documents
 
@@ -766,6 +778,21 @@ Management panel: Settings → Plugins.
 - [dsh-excel-reconcile](https://github.com/PerryLink/dsh-excel-reconcile) - Joins two spreadsheets on a declared key and compares declared fields within declared tolerances, producing a Markdown report, a JSON result and a diff workbook; it reports differences rather than adjudicating them.
 - [dsh-invoice-ledger](https://github.com/PerryLink/dsh-invoice-ledger) - Checks an invoice ledger for duplicates keyed on code + number, arithmetic consistency, payer mismatch, date anomalies and template placeholders, and emits an anomaly list plus a workbook.
 - [dsh-table-ingest](https://github.com/PerryLink/dsh-table-ingest) - Converts tables in .docx, .xlsx, .xlsm, .csv and .tsv files into the table JSON consumed by the rule checkers, and reports when it could not rather than guessing.
+- [dsh-bankrec](https://github.com/PerryLink/dsh-bankrec) - Bank statement reconciliation: ingest CAMT.053 and MT940, match them against ledger entries and export the workpaper — 6 `bankrec.*` tools.
+- [dsh-einvoice](https://github.com/PerryLink/dsh-einvoice) - Chinese e-invoice (OFD/XML) inbox: ingest, parse, deduplicate, queue for review, record receipts and archive locally — 10 `invoice.*` tools, nothing uploaded.
+- [dsh-ap-three-way](https://github.com/PerryLink/dsh-ap-three-way) - Accounts-payable three-way match: import invoices, purchase orders and goods receipts, apply the tolerance policy and export the exception workpaper — 4 `ap.*` tools.
+- [dsh-payroll-audit](https://github.com/PerryLink/dsh-payroll-audit) - Checks a payroll sheet against published social-insurance, housing-fund and individual-income-tax parameters, with pass, pass_with_gaps, review and fail outcomes and parameters that carry their own review date.
+- [dsh-travel-recon](https://github.com/PerryLink/dsh-travel-recon) - Travel expense reconciliation: ingest orders, invoices and card lines, deduplicate, run the three-way match and a read-only policy check, then export — 5 `travel.*` tools.
+- [dsh-pdf-table](https://github.com/PerryLink/dsh-pdf-table) - Extract tables from text-layer PDFs to CSV for DSH.
+- [dsh-tender-requirements](https://github.com/PerryLink/dsh-tender-requirements) - Extracts deadlines, deposit, validity, ceiling, bid composition and copy counts from a tender document, and reports the items it did not find rather than omitting them.
+- [dsh-gongwen-flow-check](https://github.com/PerryLink/dsh-gongwen-flow-check) - Check a receipt-and-handling register row by row — handler filled, receipt and completion dates parse and follow each other, completion falls inside the recorded deadline, statuses come from your vocabulary, document numbers are unique, and the header names the document — and get back a list of what is inconsistent, where, and what to fix.
+- [dsh-paper-doc-adapter](https://github.com/PerryLink/dsh-paper-doc-adapter) - Reports every mismatch in a parsed exam paper — which row, which field, what is off.
+- [dsh-tender-extract](https://github.com/PerryLink/dsh-tender-extract) - Read a tender clause-extract table and get, row by row, what is off and where — differences only, no verdict.
+- [dsh-demurrage-ledger](https://github.com/PerryLink/dsh-demurrage-ledger) - Point out the numbers in a demurrage and detention ledger that do not add up — row by row, without pronouncing a verdict.
+- [dsh-ar-aging](https://github.com/PerryLink/dsh-ar-aging) - Turn an AR ledger CSV into an aging report: buckets, customer summary, overdue ratio and top overdue customers, then export CSV.
+- [dsh-ar-collection](https://github.com/PerryLink/dsh-ar-collection) - Turn a receivables CSV into a prioritized collection plan, Chinese collection-letter drafts and a collection-list CSV — fully local, never online, never sent.
+- [dsh-progress-payment](https://github.com/PerryLink/dsh-progress-payment) - Confirm this period's progress payment against the contract baseline: integer-cent amounts, cumulative ratio, over-quantity/price/duplicate issue list → review worksheet CSV.
+- [dsh-rfq-compare](https://github.com/PerryLink/dsh-rfq-compare) - Put several suppliers' quotes for the same materials into one table: who is cheapest, by how much, how fast, and which quote is below cost, over budget, or already expired.
 
 ## Notifications & Channels
 
@@ -932,6 +959,14 @@ Management panel: Settings → Plugins.
 - [WJDdidi-1/dsh-plugin-toolkit](https://github.com/WJDdidi-1/dsh-plugin-toolkit) - Preflight for plugin authors: packs the plugin the way npm would, installs the tarball, imports the root export the loader mounts and mounts the panel, so a `files` list that forgets `client.js` or a bundle the host would drop fails before release; also `init`, `dev` (reload against a running app) and `release`.
 - [WJDdidi-1/dsh-plugin-example](https://github.com/WJDdidi-1/dsh-plugin-example) - A ~70-line plugin to copy from: one sidebar tab, a host half, a bundle manifest and a passing preflight, installable with `dsh plugin add dsh-plugin-example`.
 - [westtrade/dsh-plugin-showcase](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-plugin-showcase) - Plugin showcase: a catalog page of community DSH plugins with images, descriptions, stars and GitHub links, plus install/remove buttons that run dsh plugin add for you.
+- [dsh-clinic](https://github.com/PerryLink/dsh-clinic) - Diagnostics, recovery, and readiness checks for DeepSeek Harness plugins.
+- [dsh-check-pack](https://github.com/PerryLink/dsh-check-pack) - One-command installer for the 53-checker PerryLink compliance suite for DeepSeek Harness.
+- [dsh-scaffold](https://github.com/PerryLink/dsh-scaffold) - Shared scaffold and contracts for the PerryLink DSH plugin family.
+- [dsh-primer](https://github.com/PerryLink/dsh-primer) - A practical primer for building DeepSeek Harness plugins.
+- [dsh-policy-ledger](https://github.com/PerryLink/dsh-policy-ledger) - Read-only install doctor: capability snapshot, tarball assert and install diagnosis. Install-only companion to dsh-plugin-doctor (tarball/install-log diagnosis).
+- [dsh-codemod](https://github.com/PerryLink/dsh-codemod) - Migration codemods for DeepSeek Harness plugin APIs.
+- [dsh-eval-pack](https://github.com/PerryLink/dsh-eval-pack) - Public/synthetic eval-pack lint and deterministic JSON grader; not a validated benchmark.
+- [dsh-rulefile-check](https://github.com/PerryLink/dsh-rulefile-check) - Check a rule pack line by line — unique rule ids, complete basis fields, real excerpt length, link-shaped sources and severity ceilings — and get back what is inconsistent, where, and what to fix.
 
 ## Runtime & Operations
 
@@ -987,6 +1022,13 @@ Management panel: Settings → Plugins.
 - [tagayamajin/dsh-backup-skill](https://github.com/tagayamajin/dsh-backup-skill) - A DSH skill (not a plugin) that packs plugins, profiles, plugin settings, offline node_modules and chat history into one migration kit with the same-version installer, then restores a fresh machine with dependency verification, `.modules.yaml` path rewriting and mid-restore restart detection — usable even when DSH itself cannot boot.
 - [maple564/dsh-on-android](https://github.com/maple564/dsh-on-android) - Run `dsh web` inside an Android PRoot/Alpine sandbox (musl, aarch64): one-command install, `dsh-go` launcher, and fixes for the glibc-prebuilt `node-pty`, `--expose-internals` inside `NODE_OPTIONS`, bootstrap-only `DSH_PERMISSION_MODE`, and the missing workspace-write backend; registers a phone mount directory (`/var/minis/mounts/Documents/...`) as the workspace so the harness reads and writes real phone files.
 - [mili1360/dsh-session-vacuum](https://github.com/mili1360/dsh-session-vacuum) - Deletes the write-only streaming fragment rows from session logs on disk so a long session loads into fewer objects; the pruned log is checked against the loader contract before the file is replaced, and the previous file is kept as .orig.
+
+- [dsh-gongwen-word-check](https://github.com/PerryLink/dsh-gongwen-word-check) - Checks an official-document register against a versioned rule pack (document type, issuing-number form and bracket style, date, recipients, duplicate numbers, template placeholders) and reports row/column-level differences instead of a compliance verdict.
+- [dsh-ppap-check](https://github.com/PerryLink/dsh-ppap-check) - Checks a PPAP submission element list for completeness and internal consistency against a versioned rule pack, reporting which row and column differ and leaving the verdict to the reviewer.
+- [dsh-contract-stance](https://github.com/PerryLink/dsh-contract-stance) - Checks a contract clause-stance register against a verbatim-quoted rule library: lists missing or self-contradictory rows and columns before negotiation, without modifying the source files or judging compliance.
+- [dsh-eia-guide-check](https://github.com/PerryLink/dsh-eia-guide-check) - Checks the traceability of an environmental-impact-assessment technical-guideline applicability register against a versioned rule pack, reporting row/column-level differences and leaving the verdict to the reviewer.
+- [dsh-essay-rubric-check](https://github.com/PerryLink/dsh-essay-rubric-check) - Checks an essay scoring rubric for completeness, score arithmetic, source-location fields, unique numbering and header ownership, listing only the differences and leaving the grade to the reviewer.
+- [dsh-grant-cn](https://github.com/PerryLink/dsh-grant-cn) - Pre-submission checks for Chinese grant applications: a 19-item structure/attribute checklist, budget arithmetic and direct/indirect/total consistency, and an application-materials pack scan; outputs JSON/Markdown with REP evidence and returns a keyword checklist, not a review verdict.
 
 ## Domain & Specialist Skills
 
@@ -1045,6 +1087,43 @@ Management panel: Settings → Plugins.
 - [zhuyansen/backlink-guard](https://github.com/zhuyansen/backlink-guard) - Link-source checks for SEO: vets a directory or other link source before you submit, checks that a listing is live and followed, and audits a site's backlinks for link spam; an Agent Skill and a Python MCP server.
 - [zhuyansen/new-term-radar](https://github.com/zhuyansen/new-term-radar) - Finds new AI model, product and repo names on X, Hugging Face, GitHub and sitemaps and sizes the search terms behind them; an Agent Skill and a Python MCP server.
 - [sagirimo/BioDSH](https://github.com/sagirimo/BioDSH) - Bioinformatics agent for clinicians and wet-lab scientists, as a desktop app and the `dsh-biodsh` plugin bundle (npm): BioDSH agent preset, 17 analysis skills checked against R (single-cell, bulk RNA-seq limma-voom, survival, robust-SE regression, ANOVA), per-message skill selection from a 2,000+ skill library, and a time/step convergence guard.
+- [dsh-legal-clause](https://github.com/PerryLink/dsh-legal-clause) - Contract clause work for DeepSeek Harness: build the clause tree, map it against a 12-key playbook, register the playbook and export the unresolved report - 5 legal.* tools; fully local, with no network or model calls.
+- [dsh-lit-watch](https://github.com/PerryLink/dsh-lit-watch) - Literature watch for DeepSeek Harness: save named Crossref bibliographic queries with time windows, run them with a bounded client, keep a seen-DOI store so repeated runs return only genuinely new items, and render a Markdown digest plus SARIF.
+- [dsh-nsfc-form-check](https://github.com/PerryLink/dsh-nsfc-form-check) - Checks the form requirements, anonymization and host-institution information of NSFC (National Natural Science Foundation of China) grant applications against the annual project guidelines.
+- [dsh-qms-capa](https://github.com/PerryLink/dsh-qms-capa) - Registers QMS nonconformities (NCR) with batches and impact assessment, and tracks CAPA / 8D closure.
+- [dsh-claim-check](https://github.com/PerryLink/dsh-claim-check) - Deterministic claim support checking for DeepSeek Harness: verbatim quote spans, number matching, labelled-value contradiction, negation and hedging polarity against the cited sentence, REP v1 evidence/claim/verdict records and SARIF output. A paraphrase is reported as insufficient, never as supported.
+- [dsh-cite-verify](https://github.com/PerryLink/dsh-cite-verify) - Verify that a citation exists and that its metadata is right, for DeepSeek Harness: DOI / PMID / arXiv / BibTeX resolution through Crossref, PubMed and arXiv, field-by-field metadata comparison, and a REP v1 evidence record; not_found is reported as skipped, never as fabricated.
+- [dsh-research-skills](https://github.com/PerryLink/dsh-research-skills) - Seven research SOP skills for DeepSeek Harness.
+- [dsh-retraction-watch](https://github.com/PerryLink/dsh-retraction-watch) - Retraction and correction monitoring for DeepSeek Harness: Crossref work records plus the verified filter=updates query, per-DOI status (retracted/concern/corrected/notice/clear/unknown), an append-only timeline with change detection, REP v1 evidence snapshots and SARIF output. clear means no registered notice, never proof of validity.
+- [dsh-sr-ledger](https://github.com/PerryLink/dsh-sr-ledger) - Systematic-review ledger for DeepSeek Harness: PRISMA 2020 protocol revisions, imported records, dual screening with explicit conflict adjudication, RoB 2 / ROBINS-I / GRADE assessments, derived PRISMA counts with integrity issues, and an export bundle (prisma.json/md, evidence-table.md, ledger.json) backed by a hash-chained append-only journal.
+- [dsh-statcheck](https://github.com/PerryLink/dsh-statcheck) - Recompute the statistics reported in a manuscript and flag self-inconsistent p values for DeepSeek Harness: APA-style t/F/chi-square/r/z parsing, two-tailed and upper-tail p values from zero-dependency distributions, CI-versus-p checks, exact character locators, Markdown and SARIF 2.1.0 output, and a REP v1 evidence record. Arithmetic, not accusation.
+- [dsh-meta-analysis](https://github.com/PerryLink/dsh-meta-analysis) - Meta-analysis arithmetic for DeepSeek Harness: effect-size conversions (OR/RR/d/r/SMD, SE from CI) with named formulas, fixed-effect and DerSimonian-Laird random-effects pooling, Q/df/p, I2, tau2, forest-plot data, Markdown/SARIF reports and a light Egger test for k >= 10. Local, dependency-free, reproducible from the inputs.
+- [dsh-legal-intake](https://github.com/PerryLink/dsh-legal-intake) - Legal request intake: read requests out of EML, deduplicate threads and export the intake ledger — 2 `legal.*` tools.
+- [dsh-canteen-retention-check](https://github.com/PerryLink/dsh-canteen-retention-check) - Checks a canteen food-retention ledger for the four required record elements, the 125 g minimum, the 48-hour cold-storage window and template placeholders left in a cell.
+- [dsh-hs-classify](https://github.com/PerryLink/dsh-hs-classify) - HS code classification consistency check: chapter, heading, subheading and code hierarchy.
+- [dsh-icd-rule-check](https://github.com/PerryLink/dsh-icd-rule-check) - Flags ICD coding pairs that need a coder's attention - dagger and asterisk combinations, combination codes - against GB/T 14396-2016 and published ICD usage notes. Reports the pairs it finds rather than resolving them; the coding decision stays with the coder.
+- [dsh-lawcite-adapter](https://github.com/PerryLink/dsh-lawcite-adapter) - Legal citation check: statute name, article number, text and validity status.
+- [dsh-lc-doc-check](https://github.com/PerryLink/dsh-lc-doc-check) - Letter of credit document check against UCP600: documents, periods and discrepancies.
+- [dsh-nurse-record-check](https://github.com/PerryLink/dsh-nurse-record-check) - Checks nursing records for entry timing, signatures and assessment-form completeness, against 《病历书写基本规范》 and other published documents. Reports what is missing or out of sequence for a human to review.
+- [dsh-pipeline-check](https://github.com/PerryLink/dsh-pipeline-check) - Project document chain integrity check: stage order, completeness and amount parseability.
+- [dsh-ota-review-check](https://github.com/PerryLink/dsh-ota-review-check) - OTA guest-review reply ledger check: content and score, reply deadlines, responder, issue category and duplicate review ids.
+- [dsh-lit-harvest](https://github.com/PerryLink/dsh-lit-harvest) - Deterministic multi-source literature harvesting for DeepSeek Harness.
+- [dsh-bid-ca-precheck](https://github.com/PerryLink/dsh-bid-ca-precheck) - Check a bid compliance response register for completeness and internal consistency — get a list of what is inconsistent, where, and what to fix; the verdict stays with the evaluation committee.
+- [dsh-origin-rvc-check](https://github.com/PerryLink/dsh-origin-rvc-check) - Check an origin determination register line by line — RVC arithmetic and declaration fields — and get back a list of what is inconsistent, where, and what to fix.
+- [dsh-soe-decision-check](https://github.com/PerryLink/dsh-soe-decision-check) - Turn one “three-important-and-one-large” decision register into a list of what is inconsistent, where, and what to fix — differences only, never a compliance verdict.
+- [dsh-guard-plan-qc](https://github.com/PerryLink/dsh-guard-plan-qc) - Turn one labour-protection PPE configuration table into a row-by-row list of which row, which column, and what to fix — the verdict stays with the reviewer.
+- [dsh-hidden-risk-map](https://github.com/PerryLink/dsh-hidden-risk-map) - Map every row of a safety hazard ledger onto candidate clauses of the major-accident-hazard determination standard — see which row is missing which clause, and why; the verdict stays with the reviewer.
+- [dsh-emergency-plan](https://github.com/PerryLink/dsh-emergency-plan) - Check an emergency plan's element completeness clause by clause, and locate every difference by page or line — the judgement stays with the reviewer.
+- [dsh-railway-window](https://github.com/PerryLink/dsh-railway-window) - List, in one pass, every row and column of a railway work-window register that does not add up — the verdict stays with the reviewer.
+- [dsh-review-reply-check](https://github.com/PerryLink/dsh-review-reply-check) - Check every review comment gets an answer — and that the paper trail says what changed and where.
+- [dsh-bid-qual-check](https://github.com/PerryLink/dsh-bid-qual-check) - Walk a bidder qualification condition register row by row and point at exactly which row and column do not close the loop.
+- [dsh-permit-report-check](https://github.com/PerryLink/dsh-permit-report-check) - Check an administrative licensing register row by row — you get a list of which row, which column, and what is off; the permit decision stays with the approver.
+- [dsh-pleading-draft](https://github.com/PerryLink/dsh-pleading-draft) - Check a pleading-element checklist for completeness and internal consistency — you get a list of which row, which column, and what to fix; the verdict stays with the reviewer.
+- [dsh-drill-script-check](https://github.com/PerryLink/dsh-drill-script-check) - Turn one emergency drill script into a difference list — which row, which column, what is off, and how to fix it.
+- [dsh-learning-gap-check](https://github.com/PerryLink/dsh-learning-gap-check) - Close the arithmetic and the loop on a competency-gap and development-plan register in one call — differences only, no verdicts.
+- [dsh-protest-deadline](https://github.com/PerryLink/dsh-protest-deadline) - Turn the gaps and out-of-order dates in a query-and-complaint register into a row-by-row list of what is missing — the verdict stays with the reviewer.
+- [dsh-policy-brief-draft](https://github.com/PerryLink/dsh-policy-brief-draft) - Check a policy brief element by element — completeness and data freshness — and get back which row, which column and what is missing, with the verdict left to the reviewer.
+- [dsh-safety-brief-check](https://github.com/PerryLink/dsh-safety-brief-check) - Check one safety technical briefing record and get back the exact "which rule, which column, what differs, how to fix it" list — the verdict stays with the reviewer.
 ## Tools & Utilities
 - [dsh-skills-tools](https://github.com/hxlog/dsh-skills-tools) - Skills manager for DSH settings: import Agent Skills from Git repositories, group them by repository, toggle each skill, and expand SKILL.md content. Disabled skills stay out of the model context.
 - [dsh-system1](https://github.com/exoticknight/dsh-system1) - Connect multiple decision providers and models through one interface: Jev via TypeSafe, Clef via Cloudflare, Drex via Nace, Decider via meraGPT, self-hosted Laya, and compatible custom providers. Agents and plugins can classify content, filter candidates, score against criteria, or locate objects in images, then use structured results in their workflows.
@@ -1086,6 +1165,34 @@ Management panel: Settings → Plugins.
 - [westtrade/dsh-moleculer](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-moleculer) - Moleculer integration: joins a Moleculer mesh, publishes every service as a model tool, exposes the same set over MCP and reports service joins, leaves and changes to the running model.
 
 - [dsh-download-file](https://github.com/zchrissirhcz/dsh-download-file) - Save any URL (intranet GitLab raw, public GitHub, etc.) to a local file — text or binary — with a text preview and skip-on-exists.
+- [dsh-locator](https://github.com/PerryLink/dsh-locator) - Whole-disk file-name search for DeepSeek Harness without Everything: a self-built cross-platform index, agent tools and a Web search panel; the engine is a prebuilt Go binary shipped for six platforms and the plugin makes no network requests.
+- [dsh-dida](https://github.com/PerryLink/dsh-dida) - TickTick / Dida365 task bridge for DeepSeek Harness: a session-header task panel, agent tools and a settings card.
+- [dsh-zotero-bridge](https://github.com/PerryLink/dsh-zotero-bridge) - Read-only Zotero bridge for DeepSeek Harness (Local API + sqlite copy).
+- [dsh-aqua-input-check](https://github.com/PerryLink/dsh-aqua-input-check) - Aquaculture input register completeness and withdrawal-period date check: deterministic findings with rule IDs.
+- [dsh-evidence-check](https://github.com/PerryLink/dsh-evidence-check) - Evidence-list completeness check: maps facts to evidence and reports gaps with rule IDs.
+- [dsh-hazchem-check](https://github.com/PerryLink/dsh-hazchem-check) - Checks a hazardous-chemical register for internal consistency: that each substance names its hazard class, that stored quantities parse, that a threshold is recorded, that the major-hazard-source verdict agrees with how the stored quantity compares to the threshold the register states, that safety data sheet numbers are present and CAS numbers are not duplicated. Reports differences for a human to review; it does not decide whether a unit constitutes a major hazard source.
+- [dsh-medrec-qc](https://github.com/PerryLink/dsh-medrec-qc) - Checks a medical-record front sheet for field completeness and for internal logical contradictions between its fields, against 国卫办医发〔2016〕24号 and other published documents. Lists what is missing or inconsistent for a human to review; it does not assess clinical correctness.
+- [dsh-construction-doc-check](https://github.com/PerryLink/dsh-construction-doc-check) - Checks a project document archive for missing required document types, stale revisions and empty files, using folder and file names rather than document contents.
+- [dsh-fmea-table-check](https://github.com/PerryLink/dsh-fmea-table-check) - Checks an FMEA worksheet for element completeness and for the arithmetic that follows from it - severity, occurrence and detection against the resulting risk priority number - following published FMEA method standards. Reports inconsistencies; it does not judge whether the ratings themselves are appropriate.
+- [dsh-hazplan-check](https://github.com/PerryLink/dsh-hazplan-check) - HAZOP worksheet check: node, guide word, process parameter, deviation and cause, plus required fields and locally configured risk levels.
+- [dsh-ifc-qto](https://github.com/PerryLink/dsh-ifc-qto) - IFC model quantity take-off with CSV export for quantity checking.
+- [dsh-safety-ledger-check](https://github.com/PerryLink/dsh-safety-ledger-check) - Checks a site safety-qualification ledger for training hours, the four required record elements, and special-operation certificate validity against the dates the person worked.
+- [dsh-power-ticket-check](https://github.com/PerryLink/dsh-power-ticket-check) - Checks an electrical work permit for the elements it must carry and for the issue and permission sequence the current electrical safety regulations require. Reports the differences it finds; it does not judge whether the work was safe or whether the permit was validly authorised.
+- [dsh-repair-order-qc](https://github.com/PerryLink/dsh-repair-order-qc) - Repair order settlement check: item amounts, labour/parts totals and grand total.
+- [dsh-tender-matrix](https://github.com/PerryLink/dsh-tender-matrix) - Checks a bid evaluation scoring matrix for internal arithmetic consistency: that each factor's maximum, the scores recorded and the total agree with each other. Reports the differences it finds; it does not judge whether the evaluation itself was correct or fair.
+- [dsh-archive-check](https://github.com/PerryLink/dsh-archive-check) - Check every row of a filing register for complete description, unique archive numbers, gap-free item numbers, schedule-conform retention terms and parseable creation dates — and get back a list of what is inconsistent, where, and what to fix.
+- [dsh-warranty-calc](https://github.com/PerryLink/dsh-warranty-calc) - Point out, claim by claim, every arithmetic and period inconsistency in a warranty claim register — which row, which column, what differs.
+- [dsh-soilwater-check](https://github.com/PerryLink/dsh-soilwater-check) - Check a soil and groundwater monitoring register for completeness and arithmetic consistency — you get a list of which row, which column, and what to fix; the verdict stays with the reviewer.
+- [dsh-sop-sync-check](https://github.com/PerryLink/dsh-sop-sync-check) - Line up a works-instruction register with the PFMEA and control plan it cites — and get told which row, which column, and what differs.
+- [dsh-export-ctl-check](https://github.com/PerryLink/dsh-export-ctl-check) - Check an export-control item register line by line — which row, which column, what is missing. Differences only, no verdict.
+- [dsh-forecast-penalty](https://github.com/PerryLink/dsh-forecast-penalty) - Check a forecast-accuracy assessment register for completeness and assessment-charge arithmetic — you get a list of which row, which column, and what to fix; the verdict stays with the reviewer.
+- [dsh-power-loss-split](https://github.com/PerryLink/dsh-power-loss-split) - One metering period of line-loss figures, checked in one pass: which row does not close, by how much, and what to fix.
+- [dsh-attendance-check](https://github.com/PerryLink/dsh-attendance-check) - Turn a punch-clock CSV into per-employee daily hours, overtime, over-limit days, missing punches and short breaks, then roll the month up and export a reconciliation CSV.
+- [dsh-contract-renewal](https://github.com/PerryLink/dsh-contract-renewal) - Register contracts → see expired / renewal-window / soon-due exposure as of a date → export CSV.
+- [dsh-import-customs-check](https://github.com/PerryLink/dsh-import-customs-check) - Cross-check the four import documents field by field, then list the customs declaration's missing 12 elements.
+- [dsh-labor-contract](https://github.com/PerryLink/dsh-labor-contract) - Turn one labor-contract text and one employee CSV into a reviewable issue list: missing required clauses, an over-cap probation, probation pay below 80%, and contracts expired or expiring soon — then export the list as CSV.
+- [dsh-settlement-docs](https://github.com/PerryLink/dsh-settlement-docs) - Check a construction final-settlement document checklist against what was actually submitted — missing documents, short copies, missing signatures/stamps, optional documents absent → a review worksheet CSV.
+- [dsh-store-replenish](https://github.com/PerryLink/dsh-store-replenish) - Turn a store-SKU sales/inventory CSV into per-SKU replenishment suggestions, per-store replenishment orders and a replenishment CSV.
 
 ## Related
 
