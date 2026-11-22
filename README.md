@@ -788,6 +788,7 @@ Management panel: Settings → Plugins.
 - [dsh-gongwen-flow-check](https://github.com/PerryLink/dsh-gongwen-flow-check) - Check a receipt-and-handling register row by row — handler filled, receipt and completion dates parse and follow each other, completion falls inside the recorded deadline, statuses come from your vocabulary, document numbers are unique, and the header names the document — and get back a list of what is inconsistent, where, and what to fix.
 - [dsh-paper-doc-adapter](https://github.com/PerryLink/dsh-paper-doc-adapter) - Reports every mismatch in a parsed exam paper — which row, which field, what is off.
 - [dsh-tender-extract](https://github.com/PerryLink/dsh-tender-extract) - Read a tender clause-extract table and get, row by row, what is off and where — differences only, no verdict.
+- [dsh-demurrage-ledger](https://github.com/PerryLink/dsh-demurrage-ledger) - Point out the numbers in a demurrage and detention ledger that do not add up — row by row, without pronouncing a verdict.
 
 ## Notifications & Channels
 
@@ -1111,6 +1112,12 @@ Management panel: Settings → Plugins.
 - [dsh-emergency-plan](https://github.com/PerryLink/dsh-emergency-plan) - Check an emergency plan's element completeness clause by clause, and locate every difference by page or line — the judgement stays with the reviewer.
 - [dsh-railway-window](https://github.com/PerryLink/dsh-railway-window) - List, in one pass, every row and column of a railway work-window register that does not add up — the verdict stays with the reviewer.
 - [dsh-review-reply-check](https://github.com/PerryLink/dsh-review-reply-check) - Check every review comment gets an answer — and that the paper trail says what changed and where.
+- [dsh-bid-qual-check](https://github.com/PerryLink/dsh-bid-qual-check) - Walk a bidder qualification condition register row by row and point at exactly which row and column do not close the loop.
+- [dsh-permit-report-check](https://github.com/PerryLink/dsh-permit-report-check) - Check an administrative licensing register row by row — you get a list of which row, which column, and what is off; the permit decision stays with the approver.
+- [dsh-pleading-draft](https://github.com/PerryLink/dsh-pleading-draft) - Check a pleading-element checklist for completeness and internal consistency — you get a list of which row, which column, and what to fix; the verdict stays with the reviewer.
+- [dsh-drill-script-check](https://github.com/PerryLink/dsh-drill-script-check) - Turn one emergency drill script into a difference list — which row, which column, what is off, and how to fix it.
+- [dsh-learning-gap-check](https://github.com/PerryLink/dsh-learning-gap-check) - Close the arithmetic and the loop on a competency-gap and development-plan register in one call — differences only, no verdicts.
+- [dsh-protest-deadline](https://github.com/PerryLink/dsh-protest-deadline) - Turn the gaps and out-of-order dates in a query-and-complaint register into a row-by-row list of what is missing — the verdict stays with the reviewer.
 ## Tools & Utilities
 - [dsh-skills-tools](https://github.com/hxlog/dsh-skills-tools) - Skills manager for DSH settings: import Agent Skills from Git repositories, group them by repository, toggle each skill, and expand SKILL.md content. Disabled skills stay out of the model context.
 - [dsh-system1](https://github.com/exoticknight/dsh-system1) - Connect multiple decision providers and models through one interface: Jev via TypeSafe, Clef via Cloudflare, Drex via Nace, Decider via meraGPT, self-hosted Laya, and compatible custom providers. Agents and plugins can classify content, filter candidates, score against criteria, or locate objects in images, then use structured results in their workflows.
@@ -1171,6 +1178,9 @@ Management panel: Settings → Plugins.
 - [dsh-warranty-calc](https://github.com/PerryLink/dsh-warranty-calc) - Point out, claim by claim, every arithmetic and period inconsistency in a warranty claim register — which row, which column, what differs.
 - [dsh-soilwater-check](https://github.com/PerryLink/dsh-soilwater-check) - Check a soil and groundwater monitoring register for completeness and arithmetic consistency — you get a list of which row, which column, and what to fix; the verdict stays with the reviewer.
 - [dsh-sop-sync-check](https://github.com/PerryLink/dsh-sop-sync-check) - Line up a works-instruction register with the PFMEA and control plan it cites — and get told which row, which column, and what differs.
+- [dsh-export-ctl-check](https://github.com/PerryLink/dsh-export-ctl-check) - Check an export-control item register line by line — which row, which column, what is missing. Differences only, no verdict.
+- [dsh-forecast-penalty](https://github.com/PerryLink/dsh-forecast-penalty) - Check a forecast-accuracy assessment register for completeness and assessment-charge arithmetic — you get a list of which row, which column, and what to fix; the verdict stays with the reviewer.
+- [dsh-power-loss-split](https://github.com/PerryLink/dsh-power-loss-split) - One metering period of line-loss figures, checked in one pass: which row does not close, by how much, and what to fix.
 
 ## Related
 
