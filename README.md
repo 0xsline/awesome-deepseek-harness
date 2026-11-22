@@ -777,6 +777,8 @@ Management panel: Settings → Plugins.
 - [dsh-excel-reconcile](https://github.com/PerryLink/dsh-excel-reconcile) - Joins two spreadsheets on a declared key and compares declared fields within declared tolerances, producing a Markdown report, a JSON result and a diff workbook; it reports differences rather than adjudicating them.
 - [dsh-invoice-ledger](https://github.com/PerryLink/dsh-invoice-ledger) - Checks an invoice ledger for duplicates keyed on code + number, arithmetic consistency, payer mismatch, date anomalies and template placeholders, and emits an anomaly list plus a workbook.
 - [dsh-table-ingest](https://github.com/PerryLink/dsh-table-ingest) - Converts tables in .docx, .xlsx, .xlsm, .csv and .tsv files into the table JSON consumed by the rule checkers, and reports when it could not rather than guessing.
+- [dsh-bankrec](https://github.com/PerryLink/dsh-bankrec) - Bank statement reconciliation: ingest CAMT.053 and MT940, match them against ledger entries and export the workpaper — 6 `bankrec.*` tools.
+- [dsh-einvoice](https://github.com/PerryLink/dsh-einvoice) - Chinese e-invoice (OFD/XML) inbox: ingest, parse, deduplicate, queue for review, record receipts and archive locally — 10 `invoice.*` tools, nothing uploaded.
 
 ## Notifications & Channels
 
@@ -947,6 +949,7 @@ Management panel: Settings → Plugins.
 - [dsh-check-pack](https://github.com/PerryLink/dsh-check-pack) - One-command installer for the 53-checker PerryLink compliance suite for DeepSeek Harness.
 - [dsh-scaffold](https://github.com/PerryLink/dsh-scaffold) - Shared scaffold and contracts for the PerryLink DSH plugin family.
 - [dsh-primer](https://github.com/PerryLink/dsh-primer) - A practical primer for building DeepSeek Harness plugins.
+- [dsh-policy-ledger](https://github.com/PerryLink/dsh-policy-ledger) - Read-only install doctor: capability snapshot, tarball assert and install diagnosis. Install-only companion to dsh-plugin-doctor (tarball/install-log diagnosis).
 
 ## Runtime & Operations
 
@@ -1077,6 +1080,8 @@ Management panel: Settings → Plugins.
 - [dsh-retraction-watch](https://github.com/PerryLink/dsh-retraction-watch) - Retraction and correction monitoring for DeepSeek Harness: Crossref work records plus the verified filter=updates query, per-DOI status (retracted/concern/corrected/notice/clear/unknown), an append-only timeline with change detection, REP v1 evidence snapshots and SARIF output. clear means no registered notice, never proof of validity.
 - [dsh-sr-ledger](https://github.com/PerryLink/dsh-sr-ledger) - Systematic-review ledger for DeepSeek Harness: PRISMA 2020 protocol revisions, imported records, dual screening with explicit conflict adjudication, RoB 2 / ROBINS-I / GRADE assessments, derived PRISMA counts with integrity issues, and an export bundle (prisma.json/md, evidence-table.md, ledger.json) backed by a hash-chained append-only journal.
 - [dsh-statcheck](https://github.com/PerryLink/dsh-statcheck) - Recompute the statistics reported in a manuscript and flag self-inconsistent p values for DeepSeek Harness: APA-style t/F/chi-square/r/z parsing, two-tailed and upper-tail p values from zero-dependency distributions, CI-versus-p checks, exact character locators, Markdown and SARIF 2.1.0 output, and a REP v1 evidence record. Arithmetic, not accusation.
+- [dsh-meta-analysis](https://github.com/PerryLink/dsh-meta-analysis) - Meta-analysis arithmetic for DeepSeek Harness: effect-size conversions (OR/RR/d/r/SMD, SE from CI) with named formulas, fixed-effect and DerSimonian-Laird random-effects pooling, Q/df/p, I2, tau2, forest-plot data, Markdown/SARIF reports and a light Egger test for k >= 10. Local, dependency-free, reproducible from the inputs.
+- [dsh-legal-intake](https://github.com/PerryLink/dsh-legal-intake) - Legal request intake: read requests out of EML, deduplicate threads and export the intake ledger — 2 `legal.*` tools.
 ## Tools & Utilities
 - [dsh-skills-tools](https://github.com/hxlog/dsh-skills-tools) - Skills manager for DSH settings: import Agent Skills from Git repositories, group them by repository, toggle each skill, and expand SKILL.md content. Disabled skills stay out of the model context.
 - [dsh-system1](https://github.com/exoticknight/dsh-system1) - Connect multiple decision providers and models through one interface: Jev via TypeSafe, Clef via Cloudflare, Drex via Nace, Decider via meraGPT, self-hosted Laya, and compatible custom providers. Agents and plugins can classify content, filter candidates, score against criteria, or locate objects in images, then use structured results in their workflows.
@@ -1121,6 +1126,11 @@ Management panel: Settings → Plugins.
 - [dsh-locator](https://github.com/PerryLink/dsh-locator) - Whole-disk file-name search for DeepSeek Harness without Everything: a self-built cross-platform index, agent tools and a Web search panel; the engine is a prebuilt Go binary shipped for six platforms and the plugin makes no network requests.
 - [dsh-dida](https://github.com/PerryLink/dsh-dida) - TickTick / Dida365 task bridge for DeepSeek Harness: a session-header task panel, agent tools and a settings card.
 - [dsh-zotero-bridge](https://github.com/PerryLink/dsh-zotero-bridge) - Read-only Zotero bridge for DeepSeek Harness (Local API + sqlite copy).
+- [dsh-aqua-input-check](https://github.com/PerryLink/dsh-aqua-input-check) - Aquaculture input register completeness and withdrawal-period date check: deterministic findings with rule IDs.
+- [dsh-evidence-check](https://github.com/PerryLink/dsh-evidence-check) - Evidence-list completeness check: maps facts to evidence and reports gaps with rule IDs.
+- [dsh-hazchem-check](https://github.com/PerryLink/dsh-hazchem-check) - Checks a hazardous-chemical register for internal consistency: that each substance names its hazard class, that stored quantities parse, that a threshold is recorded, that the major-hazard-source verdict agrees with how the stored quantity compares to the threshold the register states, that safety data sheet numbers are present and CAS numbers are not duplicated. Reports differences for a human to review; it does not decide whether a unit constitutes a major hazard source.
+- [dsh-medrec-qc](https://github.com/PerryLink/dsh-medrec-qc) - Checks a medical-record front sheet for field completeness and for internal logical contradictions between its fields, against 国卫办医发〔2016〕24号 and other published documents. Lists what is missing or inconsistent for a human to review; it does not assess clinical correctness.
+- [dsh-construction-doc-check](https://github.com/PerryLink/dsh-construction-doc-check) - Checks a project document archive for missing required document types, stale revisions and empty files, using folder and file names rather than document contents.
 
 ## Related
 
