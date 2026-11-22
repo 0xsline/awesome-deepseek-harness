@@ -787,6 +787,7 @@ Management panel: Settings → Plugins.
 - [dsh-tender-requirements](https://github.com/PerryLink/dsh-tender-requirements) - Extracts deadlines, deposit, validity, ceiling, bid composition and copy counts from a tender document, and reports the items it did not find rather than omitting them.
 - [dsh-gongwen-flow-check](https://github.com/PerryLink/dsh-gongwen-flow-check) - Check a receipt-and-handling register row by row — handler filled, receipt and completion dates parse and follow each other, completion falls inside the recorded deadline, statuses come from your vocabulary, document numbers are unique, and the header names the document — and get back a list of what is inconsistent, where, and what to fix.
 - [dsh-paper-doc-adapter](https://github.com/PerryLink/dsh-paper-doc-adapter) - Reports every mismatch in a parsed exam paper — which row, which field, what is off.
+- [dsh-tender-extract](https://github.com/PerryLink/dsh-tender-extract) - Read a tender clause-extract table and get, row by row, what is off and where — differences only, no verdict.
 
 ## Notifications & Channels
 
@@ -960,6 +961,7 @@ Management panel: Settings → Plugins.
 - [dsh-policy-ledger](https://github.com/PerryLink/dsh-policy-ledger) - Read-only install doctor: capability snapshot, tarball assert and install diagnosis. Install-only companion to dsh-plugin-doctor (tarball/install-log diagnosis).
 - [dsh-codemod](https://github.com/PerryLink/dsh-codemod) - Migration codemods for DeepSeek Harness plugin APIs.
 - [dsh-eval-pack](https://github.com/PerryLink/dsh-eval-pack) - Public/synthetic eval-pack lint and deterministic JSON grader; not a validated benchmark.
+- [dsh-rulefile-check](https://github.com/PerryLink/dsh-rulefile-check) - Check a rule pack line by line — unique rule ids, complete basis fields, real excerpt length, link-shaped sources and severity ceilings — and get back what is inconsistent, where, and what to fix.
 
 ## Runtime & Operations
 
@@ -1104,6 +1106,11 @@ Management panel: Settings → Plugins.
 - [dsh-bid-ca-precheck](https://github.com/PerryLink/dsh-bid-ca-precheck) - Check a bid compliance response register for completeness and internal consistency — get a list of what is inconsistent, where, and what to fix; the verdict stays with the evaluation committee.
 - [dsh-origin-rvc-check](https://github.com/PerryLink/dsh-origin-rvc-check) - Check an origin determination register line by line — RVC arithmetic and declaration fields — and get back a list of what is inconsistent, where, and what to fix.
 - [dsh-soe-decision-check](https://github.com/PerryLink/dsh-soe-decision-check) - Turn one “three-important-and-one-large” decision register into a list of what is inconsistent, where, and what to fix — differences only, never a compliance verdict.
+- [dsh-guard-plan-qc](https://github.com/PerryLink/dsh-guard-plan-qc) - Turn one labour-protection PPE configuration table into a row-by-row list of which row, which column, and what to fix — the verdict stays with the reviewer.
+- [dsh-hidden-risk-map](https://github.com/PerryLink/dsh-hidden-risk-map) - Map every row of a safety hazard ledger onto candidate clauses of the major-accident-hazard determination standard — see which row is missing which clause, and why; the verdict stays with the reviewer.
+- [dsh-emergency-plan](https://github.com/PerryLink/dsh-emergency-plan) - Check an emergency plan's element completeness clause by clause, and locate every difference by page or line — the judgement stays with the reviewer.
+- [dsh-railway-window](https://github.com/PerryLink/dsh-railway-window) - List, in one pass, every row and column of a railway work-window register that does not add up — the verdict stays with the reviewer.
+- [dsh-review-reply-check](https://github.com/PerryLink/dsh-review-reply-check) - Check every review comment gets an answer — and that the paper trail says what changed and where.
 ## Tools & Utilities
 - [dsh-skills-tools](https://github.com/hxlog/dsh-skills-tools) - Skills manager for DSH settings: import Agent Skills from Git repositories, group them by repository, toggle each skill, and expand SKILL.md content. Disabled skills stay out of the model context.
 - [dsh-system1](https://github.com/exoticknight/dsh-system1) - Connect multiple decision providers and models through one interface: Jev via TypeSafe, Clef via Cloudflare, Drex via Nace, Decider via meraGPT, self-hosted Laya, and compatible custom providers. Agents and plugins can classify content, filter candidates, score against criteria, or locate objects in images, then use structured results in their workflows.
@@ -1161,6 +1168,9 @@ Management panel: Settings → Plugins.
 - [dsh-repair-order-qc](https://github.com/PerryLink/dsh-repair-order-qc) - Repair order settlement check: item amounts, labour/parts totals and grand total.
 - [dsh-tender-matrix](https://github.com/PerryLink/dsh-tender-matrix) - Checks a bid evaluation scoring matrix for internal arithmetic consistency: that each factor's maximum, the scores recorded and the total agree with each other. Reports the differences it finds; it does not judge whether the evaluation itself was correct or fair.
 - [dsh-archive-check](https://github.com/PerryLink/dsh-archive-check) - Check every row of a filing register for complete description, unique archive numbers, gap-free item numbers, schedule-conform retention terms and parseable creation dates — and get back a list of what is inconsistent, where, and what to fix.
+- [dsh-warranty-calc](https://github.com/PerryLink/dsh-warranty-calc) - Point out, claim by claim, every arithmetic and period inconsistency in a warranty claim register — which row, which column, what differs.
+- [dsh-soilwater-check](https://github.com/PerryLink/dsh-soilwater-check) - Check a soil and groundwater monitoring register for completeness and arithmetic consistency — you get a list of which row, which column, and what to fix; the verdict stays with the reviewer.
+- [dsh-sop-sync-check](https://github.com/PerryLink/dsh-sop-sync-check) - Line up a works-instruction register with the PFMEA and control plan it cites — and get told which row, which column, and what differs.
 
 ## Related
 
