@@ -647,6 +647,7 @@ Management panel: Settings → Plugins.
 - [cursor-to-dsh](https://github.com/lukeinx/cursor-to-dsh) - Cursor models as the `cursor` LLM provider through the official `@cursor/sdk` and your own API key: live model catalog and reasoning efforts, one Cursor agent per DSH session sending only new content, Cursor built-in tools off and DSH tools executed by DSH within the same Cursor run.
 
 - [dsh-github-bot](https://github.com/PerryLink/dsh-github-bot) - GitHub integration for DSH agents: create, review, merge and search PRs, read and write issues, plus a composite CI action, a polling review bot and a status-check gate; every write waits for human approval and tokens are not written to logs.
+- [dsh-phocinae](https://github.com/PerryLink/dsh-phocinae) - Local non-generative decision layer: phocinae_ask and phocinae_gate return typed verdicts with calibrated confidence from a small decision model, with fail-closed escalation; needs a local phocinae-server on loopback port 8155.
 
 ## Git & Engineering
 
@@ -765,6 +766,7 @@ Management panel: Settings → Plugins.
 - [pdf-background-gray-codex-skill](https://github.com/zjsthmjialin/pdf-background-gray-codex-skill) - Whitens gray/off-white scan backgrounds in image-based PDFs while preserving resolution, page geometry and anti-aliased text edges (lossless Flate write-back) via a single Python script.
 - [dsh-research-report](https://github.com/PerryLink/dsh-research-report) - Verifiable research-report engine for DeepSeek Harness: content-addressed evidence ledger (claim-to-snapshot binding, tamper-evident) and versioned sealed reports with per-claim verification verdicts and a manifest SHA-256 seal.
 - [dsh-brewreel](https://github.com/Finderchangchang/brewreel/tree/main/integrations/deepseek-harness) - BrewReel for DSH: turns a storyboard JSON into a 1080x1920 vertical promo video rendered with Remotion (7 tools: doctor, setup, catalog, guide, validate, render, verify).
+- [dsh-dataset-card](https://github.com/PerryLink/dsh-dataset-card) - Dataset documentation for DeepSeek Harness: bounded CSV/TSV/JSON/JSONL profiling, redacted PII detection, a Datasheet-style card with missing-section warnings, Markdown/JSON/SARIF output and REP evidence that stores the analysis but never the raw data.
 
 ## Office & Documents
 
@@ -1060,6 +1062,12 @@ Management panel: Settings → Plugins.
 - [zhuyansen/backlink-guard](https://github.com/zhuyansen/backlink-guard) - Link-source checks for SEO: vets a directory or other link source before you submit, checks that a listing is live and followed, and audits a site's backlinks for link spam; an Agent Skill and a Python MCP server.
 - [zhuyansen/new-term-radar](https://github.com/zhuyansen/new-term-radar) - Finds new AI model, product and repo names on X, Hugging Face, GitHub and sitemaps and sizes the search terms behind them; an Agent Skill and a Python MCP server.
 - [sagirimo/BioDSH](https://github.com/sagirimo/BioDSH) - Bioinformatics agent for clinicians and wet-lab scientists, as a desktop app and the `dsh-biodsh` plugin bundle (npm): BioDSH agent preset, 17 analysis skills checked against R (single-cell, bulk RNA-seq limma-voom, survival, robust-SE regression, ANOVA), per-message skill selection from a 2,000+ skill library, and a time/step convergence guard.
+- [dsh-legal-clause](https://github.com/PerryLink/dsh-legal-clause) - Contract clause work for DeepSeek Harness: build the clause tree, map it against a 12-key playbook, register the playbook and export the unresolved report - 5 legal.* tools; fully local, with no network or model calls.
+- [dsh-lit-watch](https://github.com/PerryLink/dsh-lit-watch) - Literature watch for DeepSeek Harness: save named Crossref bibliographic queries with time windows, run them with a bounded client, keep a seen-DOI store so repeated runs return only genuinely new items, and render a Markdown digest plus SARIF.
+- [dsh-nsfc-form-check](https://github.com/PerryLink/dsh-nsfc-form-check) - Checks the form requirements, anonymization and host-institution information of NSFC (National Natural Science Foundation of China) grant applications against the annual project guidelines.
+- [dsh-qms-capa](https://github.com/PerryLink/dsh-qms-capa) - Registers QMS nonconformities (NCR) with batches and impact assessment, and tracks CAPA / 8D closure.
+- [dsh-claim-check](https://github.com/PerryLink/dsh-claim-check) - Deterministic claim support checking for DeepSeek Harness: verbatim quote spans, number matching, labelled-value contradiction, negation and hedging polarity against the cited sentence, REP v1 evidence/claim/verdict records and SARIF output. A paraphrase is reported as insufficient, never as supported.
+- [dsh-cite-verify](https://github.com/PerryLink/dsh-cite-verify) - Verify that a citation exists and that its metadata is right, for DeepSeek Harness: DOI / PMID / arXiv / BibTeX resolution through Crossref, PubMed and arXiv, field-by-field metadata comparison, and a REP v1 evidence record; not_found is reported as skipped, never as fabricated.
 ## Tools & Utilities
 - [dsh-skills-tools](https://github.com/hxlog/dsh-skills-tools) - Skills manager for DSH settings: import Agent Skills from Git repositories, group them by repository, toggle each skill, and expand SKILL.md content. Disabled skills stay out of the model context.
 - [dsh-system1](https://github.com/exoticknight/dsh-system1) - Connect multiple decision providers and models through one interface: Jev via TypeSafe, Clef via Cloudflare, Drex via Nace, Decider via meraGPT, self-hosted Laya, and compatible custom providers. Agents and plugins can classify content, filter candidates, score against criteria, or locate objects in images, then use structured results in their workflows.
@@ -1101,6 +1109,8 @@ Management panel: Settings → Plugins.
 - [westtrade/dsh-moleculer](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-moleculer) - Moleculer integration: joins a Moleculer mesh, publishes every service as a model tool, exposes the same set over MCP and reports service joins, leaves and changes to the running model.
 
 - [dsh-download-file](https://github.com/zchrissirhcz/dsh-download-file) - Save any URL (intranet GitLab raw, public GitHub, etc.) to a local file — text or binary — with a text preview and skip-on-exists.
+- [dsh-locator](https://github.com/PerryLink/dsh-locator) - Whole-disk file-name search for DeepSeek Harness without Everything: a self-built cross-platform index, agent tools and a Web search panel; the engine is a prebuilt Go binary shipped for six platforms and the plugin makes no network requests.
+- [dsh-dida](https://github.com/PerryLink/dsh-dida) - TickTick / Dida365 task bridge for DeepSeek Harness: a session-header task panel, agent tools and a settings card.
 
 ## Related
 
