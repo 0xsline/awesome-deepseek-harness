@@ -648,7 +648,7 @@ Management panel: Settings → Plugins.
 
 - [dsh-github-bot](https://github.com/PerryLink/dsh-github-bot) - GitHub integration for DSH agents: create, review, merge and search PRs, read and write issues, plus a composite CI action, a polling review bot and a status-check gate; every write waits for human approval and tokens are not written to logs.
 - [dsh-phocinae](https://github.com/PerryLink/dsh-phocinae) - Local non-generative decision layer: phocinae_ask and phocinae_gate return typed verdicts with calibrated confidence from a small decision model, with fail-closed escalation; needs a local phocinae-server on loopback port 8155.
-- [dsh-provider-params](https://github.com/PerryLink/dsh-provider-params) - Vendor parameter mapping and deterministic JSON repair for DSH
+- [dsh-provider-params](https://github.com/PerryLink/dsh-provider-params) - Vendor parameter mapping and deterministic JSON repair for DSH.
 
 ## Git & Engineering
 
@@ -1100,7 +1100,7 @@ Management panel: Settings → Plugins.
 - [dsh-nurse-record-check](https://github.com/PerryLink/dsh-nurse-record-check) - Checks nursing records for entry timing, signatures and assessment-form completeness, against 《病历书写基本规范》 and other published documents. Reports what is missing or out of sequence for a human to review.
 - [dsh-pipeline-check](https://github.com/PerryLink/dsh-pipeline-check) - Project document chain integrity check: stage order, completeness and amount parseability.
 - [dsh-ota-review-check](https://github.com/PerryLink/dsh-ota-review-check) - OTA guest-review reply ledger check: content and score, reply deadlines, responder, issue category and duplicate review ids.
-- [dsh-lit-harvest](https://github.com/PerryLink/dsh-lit-harvest) - Deterministic multi-source literature harvesting for DeepSeek Harness
+- [dsh-lit-harvest](https://github.com/PerryLink/dsh-lit-harvest) - Deterministic multi-source literature harvesting for DeepSeek Harness.
 - [dsh-bid-ca-precheck](https://github.com/PerryLink/dsh-bid-ca-precheck) - Check a bid compliance response register for completeness and internal consistency — get a list of what is inconsistent, where, and what to fix; the verdict stays with the evaluation committee.
 - [dsh-origin-rvc-check](https://github.com/PerryLink/dsh-origin-rvc-check) - Check an origin determination register line by line — RVC arithmetic and declaration fields — and get back a list of what is inconsistent, where, and what to fix.
 - [dsh-soe-decision-check](https://github.com/PerryLink/dsh-soe-decision-check) - Turn one “three-important-and-one-large” decision register into a list of what is inconsistent, where, and what to fix — differences only, never a compliance verdict.
