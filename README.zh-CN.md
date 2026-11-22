@@ -574,6 +574,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-provider-health](https://github.com/Semidia/dsh-provider-health) - 供应商健康度设置页：只读展示各供应商状态、由近期错误衰减计算的健康度、思考能力、最大 token 与最近错误；数据来自 llm-pi-ai 配置和兼容修复器错误日志。
 - [dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) - 为 DeepSeek Harness 提供原生对话生图能力，支持 Google Gemini、OpenAI Images、OpenAI 兼容 API 和字节 Seedream。
 - [exoticknight/dsh-labnana](https://github.com/exoticknight/dsh-labnana) - 为 DeepSeek Harness 接入 Labnana 图片生成：文生图 / 图生图 / 精准编辑，支持 NanoBanana Pro、Gemini 3.1 Flash Image、GPT-Image-2、Wan2.7、Seedream。
+- [WaveSpeedAI/wavespeed-dsh-skill](https://github.com/WaveSpeedAI/wavespeed-dsh-skill) - 通过开源的 WaveSpeedAI CLI 生成和编辑图像、视频、音频与 3D：搜索模型目录、读取输入参数、运行模型并上传本地文件。
 - [welsione/dsh-model-router](https://github.com/welsione/dsh-model-router) - 统一模型路由：一个逻辑 ModelID 汇聚多家供应商，首 token 前失败自动切换并冷却、健康度择优、按 purpose 三档分级、每候选思考级别，设置面板自动保存即时生效。
 - [dsh-codex-oauth](https://github.com/WNJXYK/dsh-codex-oauth) - DSH 的 ChatGPT/Codex 订阅接入插件，支持 GPT 模型、图像生成、Web 搜索、额度显示，以及浏览器/设备码 OAuth 登录。
 - [dsh-qwen-token-plan-cn-responses](https://github.com/nickhelion/dsh-plugins/tree/main/packages/qwen-token-plan-cn-responses) - 千问 Token Plan 个人版 Responses API 模型提供方：同步官方模型与逐模型内置工具文档，支持 DSH 本地函数和图片，并保留校验过的最近可用目录。
