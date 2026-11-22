@@ -745,6 +745,7 @@ Management panel: Settings → Plugins.
 
 - [01men/ybkkasi](https://github.com/01men/ybkkasi) - Enterprise AI asset governance: registers MCP servers, skills, agents, AI apps, model channels, SaaS connectors and NAS storage in one self-hosted ledger with lifecycle state machines, per-tool RBAC, department x agent x skill cost attribution, dependency topology and an append-only audit trail.
 - [SteelUnion/dsh-confirm-gate](https://github.com/SteelUnion/dsh-confirm-gate) - Per-turn counter for persistent operations: it reminds the model, then stops and asks before going further. Read-only actions are not counted.
+- [dsh-security-pack](https://github.com/PerryLink/dsh-security-pack) - Security-audit skill pack + plugin_vet supply-chain gate for DeepSeek Harness: eight bilingual skills and a pre-install gate.
 
 ## Output & Deliverables
 
@@ -942,6 +943,10 @@ Management panel: Settings → Plugins.
 - [WJDdidi-1/dsh-plugin-toolkit](https://github.com/WJDdidi-1/dsh-plugin-toolkit) - Preflight for plugin authors: packs the plugin the way npm would, installs the tarball, imports the root export the loader mounts and mounts the panel, so a `files` list that forgets `client.js` or a bundle the host would drop fails before release; also `init`, `dev` (reload against a running app) and `release`.
 - [WJDdidi-1/dsh-plugin-example](https://github.com/WJDdidi-1/dsh-plugin-example) - A ~70-line plugin to copy from: one sidebar tab, a host half, a bundle manifest and a passing preflight, installable with `dsh plugin add dsh-plugin-example`.
 - [westtrade/dsh-plugin-showcase](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-plugin-showcase) - Plugin showcase: a catalog page of community DSH plugins with images, descriptions, stars and GitHub links, plus install/remove buttons that run dsh plugin add for you.
+- [dsh-clinic](https://github.com/PerryLink/dsh-clinic) - Diagnostics, recovery, and readiness checks for DeepSeek Harness plugins.
+- [dsh-check-pack](https://github.com/PerryLink/dsh-check-pack) - One-command installer for the 53-checker PerryLink compliance suite for DeepSeek Harness.
+- [dsh-scaffold](https://github.com/PerryLink/dsh-scaffold) - Shared scaffold and contracts for the PerryLink DSH plugin family.
+- [dsh-primer](https://github.com/PerryLink/dsh-primer) - A practical primer for building DeepSeek Harness plugins.
 
 ## Runtime & Operations
 
@@ -1068,6 +1073,10 @@ Management panel: Settings → Plugins.
 - [dsh-qms-capa](https://github.com/PerryLink/dsh-qms-capa) - Registers QMS nonconformities (NCR) with batches and impact assessment, and tracks CAPA / 8D closure.
 - [dsh-claim-check](https://github.com/PerryLink/dsh-claim-check) - Deterministic claim support checking for DeepSeek Harness: verbatim quote spans, number matching, labelled-value contradiction, negation and hedging polarity against the cited sentence, REP v1 evidence/claim/verdict records and SARIF output. A paraphrase is reported as insufficient, never as supported.
 - [dsh-cite-verify](https://github.com/PerryLink/dsh-cite-verify) - Verify that a citation exists and that its metadata is right, for DeepSeek Harness: DOI / PMID / arXiv / BibTeX resolution through Crossref, PubMed and arXiv, field-by-field metadata comparison, and a REP v1 evidence record; not_found is reported as skipped, never as fabricated.
+- [dsh-research-skills](https://github.com/PerryLink/dsh-research-skills) - Seven research SOP skills for DeepSeek Harness.
+- [dsh-retraction-watch](https://github.com/PerryLink/dsh-retraction-watch) - Retraction and correction monitoring for DeepSeek Harness: Crossref work records plus the verified filter=updates query, per-DOI status (retracted/concern/corrected/notice/clear/unknown), an append-only timeline with change detection, REP v1 evidence snapshots and SARIF output. clear means no registered notice, never proof of validity.
+- [dsh-sr-ledger](https://github.com/PerryLink/dsh-sr-ledger) - Systematic-review ledger for DeepSeek Harness: PRISMA 2020 protocol revisions, imported records, dual screening with explicit conflict adjudication, RoB 2 / ROBINS-I / GRADE assessments, derived PRISMA counts with integrity issues, and an export bundle (prisma.json/md, evidence-table.md, ledger.json) backed by a hash-chained append-only journal.
+- [dsh-statcheck](https://github.com/PerryLink/dsh-statcheck) - Recompute the statistics reported in a manuscript and flag self-inconsistent p values for DeepSeek Harness: APA-style t/F/chi-square/r/z parsing, two-tailed and upper-tail p values from zero-dependency distributions, CI-versus-p checks, exact character locators, Markdown and SARIF 2.1.0 output, and a REP v1 evidence record. Arithmetic, not accusation.
 ## Tools & Utilities
 - [dsh-skills-tools](https://github.com/hxlog/dsh-skills-tools) - Skills manager for DSH settings: import Agent Skills from Git repositories, group them by repository, toggle each skill, and expand SKILL.md content. Disabled skills stay out of the model context.
 - [dsh-system1](https://github.com/exoticknight/dsh-system1) - Connect multiple decision providers and models through one interface: Jev via TypeSafe, Clef via Cloudflare, Drex via Nace, Decider via meraGPT, self-hosted Laya, and compatible custom providers. Agents and plugins can classify content, filter candidates, score against criteria, or locate objects in images, then use structured results in their workflows.
@@ -1111,6 +1120,7 @@ Management panel: Settings → Plugins.
 - [dsh-download-file](https://github.com/zchrissirhcz/dsh-download-file) - Save any URL (intranet GitLab raw, public GitHub, etc.) to a local file — text or binary — with a text preview and skip-on-exists.
 - [dsh-locator](https://github.com/PerryLink/dsh-locator) - Whole-disk file-name search for DeepSeek Harness without Everything: a self-built cross-platform index, agent tools and a Web search panel; the engine is a prebuilt Go binary shipped for six platforms and the plugin makes no network requests.
 - [dsh-dida](https://github.com/PerryLink/dsh-dida) - TickTick / Dida365 task bridge for DeepSeek Harness: a session-header task panel, agent tools and a settings card.
+- [dsh-zotero-bridge](https://github.com/PerryLink/dsh-zotero-bridge) - Read-only Zotero bridge for DeepSeek Harness (Local API + sqlite copy).
 
 ## Related
 
