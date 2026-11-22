@@ -781,6 +781,9 @@ Management panel: Settings → Plugins.
 - [dsh-einvoice](https://github.com/PerryLink/dsh-einvoice) - Chinese e-invoice (OFD/XML) inbox: ingest, parse, deduplicate, queue for review, record receipts and archive locally — 10 `invoice.*` tools, nothing uploaded.
 - [dsh-ap-three-way](https://github.com/PerryLink/dsh-ap-three-way) - Accounts-payable three-way match: import invoices, purchase orders and goods receipts, apply the tolerance policy and export the exception workpaper — 4 `ap.*` tools.
 - [dsh-payroll-audit](https://github.com/PerryLink/dsh-payroll-audit) - Checks a payroll sheet against published social-insurance, housing-fund and individual-income-tax parameters, with pass, pass_with_gaps, review and fail outcomes and parameters that carry their own review date.
+- [dsh-travel-recon](https://github.com/PerryLink/dsh-travel-recon) - Travel expense reconciliation: ingest orders, invoices and card lines, deduplicate, run the three-way match and a read-only policy check, then export — 5 `travel.*` tools.
+- [dsh-pdf-table](https://github.com/PerryLink/dsh-pdf-table) - Extract tables from text-layer PDFs to CSV for DSH.
+- [dsh-tender-requirements](https://github.com/PerryLink/dsh-tender-requirements) - Extracts deadlines, deposit, validity, ceiling, bid composition and copy counts from a tender document, and reports the items it did not find rather than omitting them.
 
 ## Notifications & Channels
 
@@ -1088,6 +1091,10 @@ Management panel: Settings → Plugins.
 - [dsh-hs-classify](https://github.com/PerryLink/dsh-hs-classify) - HS code classification consistency check: chapter, heading, subheading and code hierarchy.
 - [dsh-icd-rule-check](https://github.com/PerryLink/dsh-icd-rule-check) - Flags ICD coding pairs that need a coder's attention - dagger and asterisk combinations, combination codes - against GB/T 14396-2016 and published ICD usage notes. Reports the pairs it finds rather than resolving them; the coding decision stays with the coder.
 - [dsh-lawcite-adapter](https://github.com/PerryLink/dsh-lawcite-adapter) - Legal citation check: statute name, article number, text and validity status.
+- [dsh-lc-doc-check](https://github.com/PerryLink/dsh-lc-doc-check) - Letter of credit document check against UCP600: documents, periods and discrepancies.
+- [dsh-nurse-record-check](https://github.com/PerryLink/dsh-nurse-record-check) - Checks nursing records for entry timing, signatures and assessment-form completeness, against 《病历书写基本规范》 and other published documents. Reports what is missing or out of sequence for a human to review.
+- [dsh-pipeline-check](https://github.com/PerryLink/dsh-pipeline-check) - Project document chain integrity check: stage order, completeness and amount parseability.
+- [dsh-ota-review-check](https://github.com/PerryLink/dsh-ota-review-check) - OTA guest-review reply ledger check: content and score, reply deadlines, responder, issue category and duplicate review ids.
 ## Tools & Utilities
 - [dsh-skills-tools](https://github.com/hxlog/dsh-skills-tools) - Skills manager for DSH settings: import Agent Skills from Git repositories, group them by repository, toggle each skill, and expand SKILL.md content. Disabled skills stay out of the model context.
 - [dsh-system1](https://github.com/exoticknight/dsh-system1) - Connect multiple decision providers and models through one interface: Jev via TypeSafe, Clef via Cloudflare, Drex via Nace, Decider via meraGPT, self-hosted Laya, and compatible custom providers. Agents and plugins can classify content, filter candidates, score against criteria, or locate objects in images, then use structured results in their workflows.
@@ -1141,6 +1148,9 @@ Management panel: Settings → Plugins.
 - [dsh-hazplan-check](https://github.com/PerryLink/dsh-hazplan-check) - HAZOP worksheet check: node, guide word, process parameter, deviation and cause, plus required fields and locally configured risk levels.
 - [dsh-ifc-qto](https://github.com/PerryLink/dsh-ifc-qto) - IFC model quantity take-off with CSV export for quantity checking.
 - [dsh-safety-ledger-check](https://github.com/PerryLink/dsh-safety-ledger-check) - Checks a site safety-qualification ledger for training hours, the four required record elements, and special-operation certificate validity against the dates the person worked.
+- [dsh-power-ticket-check](https://github.com/PerryLink/dsh-power-ticket-check) - Checks an electrical work permit for the elements it must carry and for the issue and permission sequence the current electrical safety regulations require. Reports the differences it finds; it does not judge whether the work was safe or whether the permit was validly authorised.
+- [dsh-repair-order-qc](https://github.com/PerryLink/dsh-repair-order-qc) - Repair order settlement check: item amounts, labour/parts totals and grand total.
+- [dsh-tender-matrix](https://github.com/PerryLink/dsh-tender-matrix) - Checks a bid evaluation scoring matrix for internal arithmetic consistency: that each factor's maximum, the scores recorded and the total agree with each other. Reports the differences it finds; it does not judge whether the evaluation itself was correct or fair.
 
 ## Related
 
