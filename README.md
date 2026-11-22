@@ -648,6 +648,7 @@ Management panel: Settings → Plugins.
 
 - [dsh-github-bot](https://github.com/PerryLink/dsh-github-bot) - GitHub integration for DSH agents: create, review, merge and search PRs, read and write issues, plus a composite CI action, a polling review bot and a status-check gate; every write waits for human approval and tokens are not written to logs.
 - [dsh-phocinae](https://github.com/PerryLink/dsh-phocinae) - Local non-generative decision layer: phocinae_ask and phocinae_gate return typed verdicts with calibrated confidence from a small decision model, with fail-closed escalation; needs a local phocinae-server on loopback port 8155.
+- [dsh-provider-params](https://github.com/PerryLink/dsh-provider-params) - Vendor parameter mapping and deterministic JSON repair for DSH
 
 ## Git & Engineering
 
@@ -784,6 +785,8 @@ Management panel: Settings → Plugins.
 - [dsh-travel-recon](https://github.com/PerryLink/dsh-travel-recon) - Travel expense reconciliation: ingest orders, invoices and card lines, deduplicate, run the three-way match and a read-only policy check, then export — 5 `travel.*` tools.
 - [dsh-pdf-table](https://github.com/PerryLink/dsh-pdf-table) - Extract tables from text-layer PDFs to CSV for DSH.
 - [dsh-tender-requirements](https://github.com/PerryLink/dsh-tender-requirements) - Extracts deadlines, deposit, validity, ceiling, bid composition and copy counts from a tender document, and reports the items it did not find rather than omitting them.
+- [dsh-gongwen-flow-check](https://github.com/PerryLink/dsh-gongwen-flow-check) - Check a receipt-and-handling register row by row — handler filled, receipt and completion dates parse and follow each other, completion falls inside the recorded deadline, statuses come from your vocabulary, document numbers are unique, and the header names the document — and get back a list of what is inconsistent, where, and what to fix.
+- [dsh-paper-doc-adapter](https://github.com/PerryLink/dsh-paper-doc-adapter) - Reports every mismatch in a parsed exam paper — which row, which field, what is off.
 
 ## Notifications & Channels
 
@@ -955,6 +958,8 @@ Management panel: Settings → Plugins.
 - [dsh-scaffold](https://github.com/PerryLink/dsh-scaffold) - Shared scaffold and contracts for the PerryLink DSH plugin family.
 - [dsh-primer](https://github.com/PerryLink/dsh-primer) - A practical primer for building DeepSeek Harness plugins.
 - [dsh-policy-ledger](https://github.com/PerryLink/dsh-policy-ledger) - Read-only install doctor: capability snapshot, tarball assert and install diagnosis. Install-only companion to dsh-plugin-doctor (tarball/install-log diagnosis).
+- [dsh-codemod](https://github.com/PerryLink/dsh-codemod) - Migration codemods for DeepSeek Harness plugin APIs.
+- [dsh-eval-pack](https://github.com/PerryLink/dsh-eval-pack) - Public/synthetic eval-pack lint and deterministic JSON grader; not a validated benchmark.
 
 ## Runtime & Operations
 
@@ -1095,6 +1100,10 @@ Management panel: Settings → Plugins.
 - [dsh-nurse-record-check](https://github.com/PerryLink/dsh-nurse-record-check) - Checks nursing records for entry timing, signatures and assessment-form completeness, against 《病历书写基本规范》 and other published documents. Reports what is missing or out of sequence for a human to review.
 - [dsh-pipeline-check](https://github.com/PerryLink/dsh-pipeline-check) - Project document chain integrity check: stage order, completeness and amount parseability.
 - [dsh-ota-review-check](https://github.com/PerryLink/dsh-ota-review-check) - OTA guest-review reply ledger check: content and score, reply deadlines, responder, issue category and duplicate review ids.
+- [dsh-lit-harvest](https://github.com/PerryLink/dsh-lit-harvest) - Deterministic multi-source literature harvesting for DeepSeek Harness
+- [dsh-bid-ca-precheck](https://github.com/PerryLink/dsh-bid-ca-precheck) - Check a bid compliance response register for completeness and internal consistency — get a list of what is inconsistent, where, and what to fix; the verdict stays with the evaluation committee.
+- [dsh-origin-rvc-check](https://github.com/PerryLink/dsh-origin-rvc-check) - Check an origin determination register line by line — RVC arithmetic and declaration fields — and get back a list of what is inconsistent, where, and what to fix.
+- [dsh-soe-decision-check](https://github.com/PerryLink/dsh-soe-decision-check) - Turn one “three-important-and-one-large” decision register into a list of what is inconsistent, where, and what to fix — differences only, never a compliance verdict.
 ## Tools & Utilities
 - [dsh-skills-tools](https://github.com/hxlog/dsh-skills-tools) - Skills manager for DSH settings: import Agent Skills from Git repositories, group them by repository, toggle each skill, and expand SKILL.md content. Disabled skills stay out of the model context.
 - [dsh-system1](https://github.com/exoticknight/dsh-system1) - Connect multiple decision providers and models through one interface: Jev via TypeSafe, Clef via Cloudflare, Drex via Nace, Decider via meraGPT, self-hosted Laya, and compatible custom providers. Agents and plugins can classify content, filter candidates, score against criteria, or locate objects in images, then use structured results in their workflows.
@@ -1151,6 +1160,7 @@ Management panel: Settings → Plugins.
 - [dsh-power-ticket-check](https://github.com/PerryLink/dsh-power-ticket-check) - Checks an electrical work permit for the elements it must carry and for the issue and permission sequence the current electrical safety regulations require. Reports the differences it finds; it does not judge whether the work was safe or whether the permit was validly authorised.
 - [dsh-repair-order-qc](https://github.com/PerryLink/dsh-repair-order-qc) - Repair order settlement check: item amounts, labour/parts totals and grand total.
 - [dsh-tender-matrix](https://github.com/PerryLink/dsh-tender-matrix) - Checks a bid evaluation scoring matrix for internal arithmetic consistency: that each factor's maximum, the scores recorded and the total agree with each other. Reports the differences it finds; it does not judge whether the evaluation itself was correct or fair.
+- [dsh-archive-check](https://github.com/PerryLink/dsh-archive-check) - Check every row of a filing register for complete description, unique archive numbers, gap-free item numbers, schedule-conform retention terms and parseable creation dates — and get back a list of what is inconsistent, where, and what to fix.
 
 ## Related
 
