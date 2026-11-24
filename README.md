@@ -205,6 +205,7 @@ Management panel: Settings → Plugins.
 
 ## Memory & Knowledge
 
+- [shinji00222/dsh-persona-continuity-bot](https://github.com/shinji00222/dsh-persona-continuity-bot) - Per-persona cross-session local Markdown memory (no Git required) with automatic distillation, credential filtering, workspace history recall, and an optional Tobs Bot bundle (DM work-process timeline and multi-persona group chat); tested on DSH 0.2.2-rc.3.
 - [SoloPup Memory](https://github.com/OakcoderX/solopup-memory) - Native DSH text-memory plugin with original-source references, global/project scope, conditions, and correction history; MIT public beta.
 - [diqierjia/StrataGate-AgentMemory](https://github.com/diqierjia/StrataGate-AgentMemory) - Local-first cross-session memory: L0-L5 layered short-term memory, event cards plus a knowledge graph, and evidence-gated retrieval with source tracing (npm: `stratagate-dsh`).
 - [busabase/busabase-dsh-plugin](https://github.com/busabase/busabase-dsh-plugin) - Connects DSH agents to Busabase knowledge and structured data through MCP, renders records and ChangeRequests in a live inspector, and keeps agent writes behind human review; compatible with DSH 0.1.1-rc.2.

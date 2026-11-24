@@ -204,6 +204,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## Memory & Knowledge
 
+- [shinji00222/dsh-persona-continuity-bot](https://github.com/shinji00222/dsh-persona-continuity-bot) - 为 DeepSeek Harness 的每个人格提供独立本地 Markdown 跨会话记忆（无需 Git），支持自动提炼、凭据脱敏、工作区旧对话召回与人格工作台，并可选合并 Tobs Bot 模式（私聊工作过程时间轴、多人格群聊与全体工作区授权）；已在 DSH 0.2.2-rc.3 验证。
 - [SoloPup Memory](https://github.com/OakcoderX/solopup-memory) - 原生 DSH 文本记忆插件，保留原文出处、全局/项目范围、适用条件与修订历史；MIT 公开测试版。
 - [diqierjia/StrataGate-AgentMemory](https://github.com/diqierjia/StrataGate-AgentMemory) - 本地优先的跨会话记忆：L0-L5 分层短期记忆、事件卡片与知识图谱、带出处追溯的证据门控检索（npm：`stratagate-dsh`）。
 - [busabase/busabase-dsh-plugin](https://github.com/busabase/busabase-dsh-plugin) - 通过 MCP 把 DSH Agent 接入 Busabase 知识与结构化数据，在实时 Inspector 中渲染记录和 ChangeRequest，并将 Agent 写入置于人工审核之后；兼容 DSH 0.1.1-rc.2。
