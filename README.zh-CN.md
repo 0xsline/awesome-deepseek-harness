@@ -475,6 +475,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-community-bench](https://github.com/PerryLink/dsh-community-bench) - 增加社区基准标签页，读取公开的、按任务条件计算的 registry，展示所有人看到的同一分数；不在本地计算分数。
 - [westtrade/dsh-project-cost](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-project-cost) - 项目花费统计：按会话 token 用量和 routerai.ru 公开模型价格计算每个工作区目录的支出，带工作区徽标与费用面板。
 - [answertsundere/dsh-canvas-plugin](https://github.com/answertsundere/dsh-canvas-plugin) - 会话分支画布：全幅血缘图、任意消息分叉、并行分支实时流式、确定性对比，以及每会话的 Agent 实况蛛网视图。
+- [benz-ai-x/dsh-research-graph](https://github.com/benz-ai-x/dsh-research-graph) - 会话图谱插件：把工作区会话放上同一张画布，找回会话、从任意已完成的轮次分支、把 2–3 个会话汇合成一个新会话，另有侧栏工作区文件夹和带来源的知识卡片；每个插件版本只适配一个 DSH 版本。
 ## IDE & Clients
 
 - [Minke](https://github.com/lencx/Minke) - 基于 DeepSeek Harness 的桌面 Agent 工作区，支持 macOS、Windows 和 Linux，提供人机共享浏览器控制、集成文件与终端、远程访问和本地模型管理。
