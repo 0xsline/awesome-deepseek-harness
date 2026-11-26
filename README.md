@@ -757,6 +757,7 @@ Management panel: Settings → Plugins.
 - [pdf-background-gray-codex-skill](https://github.com/zjsthmjialin/pdf-background-gray-codex-skill) - Whitens gray/off-white scan backgrounds in image-based PDFs while preserving resolution, page geometry and anti-aliased text edges (lossless Flate write-back) via a single Python script.
 - [dsh-research-report](https://github.com/PerryLink/dsh-research-report) - Verifiable research-report engine for DeepSeek Harness: content-addressed evidence ledger (claim-to-snapshot binding, tamper-evident) and versioned sealed reports with per-claim verification verdicts and a manifest SHA-256 seal.
 - [dsh-brewreel](https://github.com/Finderchangchang/brewreel/tree/main/integrations/deepseek-harness) - BrewReel for DSH: turns a storyboard JSON into a 1080x1920 vertical promo video rendered with Remotion (7 tools: doctor, setup, catalog, guide, validate, render, verify).
+- [liyupi/memecub](https://github.com/liyupi/memecub) - Remote MCP server (5 tools: search_memes, get_meme, match_article, generate_meme, list_categories; 20 keyless searches/day) and bundled Agent Skill for searching Chinese and English reaction memes, auto-placing them into articles, and generating custom memes.
 
 ## Office & Documents
 
