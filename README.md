@@ -257,6 +257,7 @@ Management panel: Settings → Plugins.
 - [DocsMint](https://github.com/HiAi-gg/dsh-docsmint) - Workspace panel and agent tools for document search, reading, creation and updates through Cloud OAuth or self-hosted API keys.
 
 - [waspqj/dsh-study-mode](https://github.com/waspqj/dsh-study-mode) - Learning-mode agent preset plus a sidebar knowledge-base panel: answers retrieve topic library → global topics → model knowledge → web in that order, citing the source on a hit and marking unverified misses; cards are grouped by source file and linked to related cards, with archive, verify and AI-correction actions (npm: `dsh-study-mode`).
+- [natgurlain/dsh-dreaming](https://github.com/natgurlain/dsh-dreaming) - Dreaming for DSH: while you are idle, consolidates past sessions into versioned per-workspace memory and loads a short block of rules into every session. Sessions that read web or tool content contribute only what you typed, every change is reported and can be rolled back, and repeated procedures are drafted as skills that wait for your approval.
 
 ## Input & Editing
 
