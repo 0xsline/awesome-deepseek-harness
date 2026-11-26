@@ -790,6 +790,7 @@ Management panel: Settings → Plugins.
 - [dsh-im-bridge](https://github.com/MHfire/dsh-im-bridge) - WeCom (WeChat Work) channel bridge: WebSocket long connection (no public URL), in-process agents with per-sender persistent sessions visible in the Web GUI, customizable persona, streaming progress animation.
 - [DSH-WX-Msg-Tool](https://github.com/yauntyour/DSH-WX-Msg-Tool) - WeChat ClawBot/iLink channel plugin: QR login in DSH Web, message send/poll/status tools, background polling, and optional per-sender persistent DSH sessions that automatically reply through WeChat.
 - [super-wechat-bridge](https://github.com/Qshuai0213/super-wechat-bridge) - WeChat iLink ClawBot bridge: official Tencent iLink protocol, Web UI settings (QR login / model / preset / permissions / session management with delete), 24h auto-renewal pushes a fresh QR before expiry, zero downtime.
+- [dsh-xiaomi-tts](https://github.com/ppy-web/dsh-plugin-xiaomi-mimo-tts) - Multi-engine TTS & ASR studio (`Xiaomi MiMo`, `Doubao`, `Breeze`, `DeepSeek`, local `MOSS-Nano`) with smart code/URL filtering, live subtitles & orb, `/director` multi-role audio drama synthesis, and desktop-pet/QQBot/dsh-Go integrations.
 - [dsh-voice-chat](https://github.com/dsh-external/dsh-voice-chat) - Voice chat.
 - [dsh-web-ui-notify](https://github.com/dsh-external/dsh-web-ui-notify) - WebUI notifications.
 - [dsh-notification-sounds](https://github.com/qq33357486/dsh-notification-sounds) - Cross-platform browser audio alerts that play bundled Chinese prompts when DSH needs user input or finishes a task.
