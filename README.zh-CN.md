@@ -756,6 +756,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [JohnXu22786/docgen](https://github.com/JohnXu22786/docgen) - 文档工坊技能包：纯提示词（Agent Skills）文档生成——README、PR 描述、changelog 与代码审查；零第三方依赖。
 - [dsh-research-report](https://github.com/PerryLink/dsh-research-report) - DeepSeek Harness 可核查研究报告引擎：内容寻址证据账本（claim ↔ 快照绑定、防篡改）与版本化封存报告，每条 claim 带核查结论，manifest SHA-256 封印报告目录。
 - [dsh-brewreel](https://github.com/Finderchangchang/brewreel/tree/main/integrations/deepseek-harness) - BrewReel（精酿）的 DSH 插件：把分镜 JSON 渲染成 1080×1920 竖版宣传片（Remotion），含 doctor、setup、catalog、guide、validate、render、verify 共 7 个工具。
+- [liyupi/memecub](https://github.com/liyupi/memecub) - 挂载 memecub 远程 MCP 服务（5 个工具：search_memes / get_meme / match_article / generate_meme / list_categories，免 Key 每日可试用 20 次搜图）与内置 Agent Skill，按情绪检索中英文表情包与梗图、自动给文章配图并支持 AI 生成专属表情包。
 
 ## Office & Documents
 
