@@ -1088,6 +1088,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [westtrade/dsh-moleculer](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-moleculer) - Moleculer 集成：接入 Moleculer 网格，把每个服务发布为模型工具，同时以 MCP 暴露同一组工具，并把服务上下线变化告知模型。
 
 - [dsh-download-file](https://github.com/zchrissirhcz/dsh-download-file) - 把任意 URL（内网 GitLab raw、公网 GitHub 等）保存为本地文件，文本/二进制皆可，带文本预览与「已存在即跳过」。
+- [dsh-multithread-downloader](https://github.com/NONON01/dsh-multithread-downloader) - 分片多线程 HTTP/HTTPS 下载器：断点续传（ETag/Last-Modified 复核 + If-Range）、镜像回退、多算法校验、DoH 解析；每条连接被限速时并发从 4/6/8 爬到最多 8 条，已下载字节保留。
 
 ## Related
 
