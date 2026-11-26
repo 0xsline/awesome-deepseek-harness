@@ -254,6 +254,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [DocsMint](https://github.com/HiAi-gg/dsh-docsmint) - 工作区面板与智能体工具，支持文档搜索、读取、创建和更新，可连接 Cloud OAuth 或自托管 API 密钥。
 
 - [waspqj/dsh-study-mode](https://github.com/waspqj/dsh-study-mode) - 学习模式 agent 预设 + 侧边栏知识库面板：回答按 主题库 → 全局主题 → 模型知识 → 网络 四级检索，命中标出处、查不到标未验证；面板按出处文件分组、卡片互链，支持归档/核实/AI 校验补充（npm：`dsh-study-mode`）。
+- [natgurlain/dsh-dreaming](https://github.com/natgurlain/dsh-dreaming) - DSH 的“做梦”：在你空闲时把过往会话整理成按工作区分版本的记忆，并把一小段规则载入每个会话。读过网页或工具内容的会话只采用你亲自输入的内容，每次变更都有报告且可回滚，重复出现的操作步骤会起草为技能，经你批准后才启用。
 
 ## Input & Editing
 
