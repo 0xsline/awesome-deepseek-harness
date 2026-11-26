@@ -301,6 +301,8 @@ Management panel: Settings → Plugins.
 
 ## UI, Themes & Interaction
 
+- [manyuemeiquqi/dsh-gta6](https://github.com/manyuemeiquqi/dsh-gta6) - Vice City theme built on Rockstar's official GTA VI key art: a wanted-level meter wired to the agent's run state, tool-call rows colour-coded by action, and a sidebar panel showing the live session title, token usage, model and reasoning level.
+
 - [online111111/whalechan-dsh-theme](https://github.com/online111111/whalechan-dsh-theme) - Unofficial Whale-chan community fan-art theme for DeepSeek Harness Web GUI: ocean-blue styling, riding-whale branding, dedicated tool/shield icons, and in-page toggle.
 
 - [exoticknight/dsh-just-chat](https://github.com/exoticknight/dsh-just-chat) - One-click native conversation entry points that create independent workspaces and sessions.
