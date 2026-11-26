@@ -1086,6 +1086,7 @@ Management panel: Settings → Plugins.
 - [westtrade/dsh-moleculer](https://github.com/westtrade/deepseek-harness-plugins/tree/main/dsh-moleculer) - Moleculer integration: joins a Moleculer mesh, publishes every service as a model tool, exposes the same set over MCP and reports service joins, leaves and changes to the running model.
 
 - [dsh-download-file](https://github.com/zchrissirhcz/dsh-download-file) - Save any URL (intranet GitLab raw, public GitHub, etc.) to a local file — text or binary — with a text preview and skip-on-exists.
+- [dsh-multithread-downloader](https://github.com/NONON01/dsh-multithread-downloader) - Range-based multi-connection HTTP/HTTPS downloader: resumes with ETag/Last-Modified revalidation and If-Range, falls back across mirrors, verifies md5/sha1/sha256/sha512/crc32, resolves through DoH, and climbs from 4/6/8 connections up to 8 while every connection stays rate-limited.
 
 ## Related
 
