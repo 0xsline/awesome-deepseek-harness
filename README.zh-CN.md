@@ -300,6 +300,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 
 ## UI, Themes & Interaction
 
+- [manyuemeiquqi/dsh-gta6](https://github.com/manyuemeiquqi/dsh-gta6) - 基于 Rockstar 官方 GTA VI 主视觉的 Vice City 主题：通缉星级接 Agent 运行状态，工具调用行按动作分色，右栏实时显示会话标题、token 消耗、模型与推理档位。
+
 - [online111111/whalechan-dsh-theme](https://github.com/online111111/whalechan-dsh-theme) - 面向 DeepSeek Harness Web GUI 的 Whale-chan 鲸鱼娘同人主题：海洋蓝视觉系统、骑鲸品牌标志、专属工具与权限护盾图标，页面内支持一键切换原生。
 
 - [exoticknight/dsh-just-chat](https://github.com/exoticknight/dsh-just-chat) - 一键打开原生对话入口，每次创建独立工作区和会话。
