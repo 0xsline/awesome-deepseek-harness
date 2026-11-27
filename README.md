@@ -298,6 +298,7 @@ Management panel: Settings → Plugins.
 - [PerryLink/dsh-composer-history](https://github.com/PerryLink/dsh-composer-history) - Terminal-style input history for the web composer (edge-first arrows, draft/caret restore, Ctrl+R search, sliding-context awareness) plus a smart input layer: cross-session snippets, prompt templates with variables, reuse insights, and compaction-summary highlighting.
 - [opencues/opencues](https://github.com/opencues/opencues/tree/master/integrations/dsh) - Word alternatives and underscore-gated fill-ins in the composer: end a line with `_` and it is filled, misspellings are flagged as you type. Routes through `ctx.llm`, so it needs no API key of its own.
 - [dsh-phone-inbox](https://github.com/PerryLink/dsh-phone-inbox) - Lists the attachments the current session actually received through the WeChat bridge and adopts one into the workspace on demand.
+- [ackniuw/dsh-image-drag-fix](https://github.com/ackniuw/dsh-image-drag-fix) - Root-cause fix for "Only PNG/JPG/WebP/GIF supported" when dragging images from QQ/WeChat on Windows: the UI types an image by its file extension while the host verifies actual bytes, so a `.jpeg`-named WebP is rejected. Ships the two-file patch, an asar repack script that sidesteps the `asar pack --unpack-dir` Windows bug, and a verified backup-swap-clear-cache procedure.
 
 ## UI, Themes & Interaction
 
