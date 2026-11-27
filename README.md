@@ -820,6 +820,7 @@ Management panel: Settings → Plugins.
 - [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) - Whale-girl companion for DSH Desktop and Web, with work-state poses, growth and achievements, a settings panel, and optional weather and text-to-speech.
 - [dsh-bigfish](https://github.com/gosomea/dsh-bigfish) - Animated DSH Web pet with model-adaptive output pacing, tool-state reactions, replaceable character packs, and a bundled skill for creating or extending pet animations.
 - [dsh-clippy](https://github.com/sjh9714/clippy-harness) - Clippy revived as an office assistant pet that reacts to real agent state, with a classic "illegal operation" dialog on failed turns.
+- [dsh-pet-remielle](https://github.com/Cyrus0719/dsh-pet-remielle) - Windows desktop pet: a transparent, always-on-top Remielle with 754 native animation frames that chats with real DSH agents and takes work orders from the desktop.
 - [dsh-agent-rp](https://github.com/dsh-external/dsh-agent-rp) - SillyTavern migration and next-generation agent roleplay for DSH.
 - [dsh-emoji](https://github.com/dsh-external/dsh-emoji) - Emoji plugin (cordis).
 - [dsh-travel-plugin](https://github.com/dsh-external/dsh-travel-plugin) - Travel plugin.
