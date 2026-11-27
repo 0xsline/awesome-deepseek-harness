@@ -381,6 +381,7 @@ Management panel: Settings → Plugins.
 - [01men/DeptAI-UI-DSH](https://github.com/01men/DeptAI-UI-DSH) - Collaboration front-office for AI agents and humans: department boards, tickets, approvals and industry calculations run inside the DSH conversation and panel, so agents do the work in chat while humans stay accountable in the panel. It calls the 01men/ybkkasi governance base over existing contracts instead of re-implementing governance.
 - [LUgABeEEE/dsh-sidebar-density](https://github.com/LUgABeEEE/dsh-sidebar-density) - Lightweight sidebar UI: five fold switches, three density presets and three width presets, from one footer row plus a settings section; no dependencies, no host service.
 - [Ragnoryok1/dsh-client-locale-ru](https://github.com/Ragnoryok1/dsh-client-locale-ru) - Russian (ru) language pack for the Web GUI: 584 namespaces and 67,724 strings, including dictionaries of 520 third-party plugins, with ru plural forms and screen typography.
+- [Yyhy110421/dsh-sidebar-fold](https://github.com/Yyhy110421/dsh-sidebar-fold) - One button above the workspace collapses the sidebar entry group (Task board, plugins, Skill/MCP, automation, context insights and more) and restores it on a second click; state kept in localStorage.
 
 ## Dashboards & Session UX
 - [dsh-delete-session](https://github.com/qiaozheng9/dsh-delete-session) - Windows desktop enhancement for DSH 0.2.1-rc.5 that permanently deletes conversations and nested subagents, with native confirmation and interrupted-cleanup retry; uses a documented local source installer.
@@ -564,6 +565,7 @@ Management panel: Settings → Plugins.
 - [dsh-mini-remote](https://github.com/xingzhen199186/dsh-mini-remote) - Mobile web remote for a DSH session: three view modes (latest conclusion / chat / full trace with diffs), LAN, Tailscale or Cloudflare Tunnel routes with per-route QR pairing, instruction queueing and approval or question cards on the phone, plus a Feishu long-connection channel.
 - [dsh-windows-computer-use](https://github.com/shinji00222/dsh-windows-computer-use) - Windows computer use with a native C# engine: text-only models read UI Automation controls and fill forms in verified batches, stale control refs can be re-found by unique identity, and CAPTCHAs are refused and handed back to the user via the DSH approval prompt; Esc stops the turn.
 - [lukeinx/dsh-remote-wecom](https://github.com/lukeinx/dsh-remote-wecom) - Drive DSH Desktop sessions from a WeCom (企业微信) smart bot on your phone: switch sessions and models, get task results with generated files, answer approvals and questions, steer running turns; QR setup from the Desktop settings page.
+- [Yyhy110421/dsh-quiet-browser](https://github.com/Yyhy110421/dsh-quiet-browser) - Keeps the built-in browser window out of the foreground: a WinEvent hook daemon applies WS_EX_NOACTIVATE and moves the window to HWND_BOTTOM, while pages still load, click and screenshot. Windows only.
 
 ## Models & Inference
 
