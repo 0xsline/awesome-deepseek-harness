@@ -301,6 +301,8 @@ Management panel: Settings → Plugins.
 
 ## UI, Themes & Interaction
 
+- [afspero/CanvasMind](https://github.com/afspero/CanvasMind) - Full-page canvas workspace: project canvas with 23 node types, Excalidraw whiteboard and a component studio; local JSON storage, reuses the harness default model.
+
 - [online111111/whalechan-dsh-theme](https://github.com/online111111/whalechan-dsh-theme) - Unofficial Whale-chan community fan-art theme for DeepSeek Harness Web GUI: ocean-blue styling, riding-whale branding, dedicated tool/shield icons, and in-page toggle.
 
 - [exoticknight/dsh-just-chat](https://github.com/exoticknight/dsh-just-chat) - One-click native conversation entry points that create independent workspaces and sessions.
