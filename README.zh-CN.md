@@ -659,6 +659,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-involute](https://github.com/dsh-external/dsh-involute) - 内嵌任务管理引擎
 - [dsh-delivery-board](https://github.com/jerryxff26-alt/dsh-delivery-board) - 仓库内交付看板：阶段流水线、交接审计、软 WIP、周报 Markdown，以及本地看板与日历 Timeline（DSH 插件或独立 `npx`）。
 - [fullstack-expert](https://github.com/adithya-hmt/fullstack-expert) - Cordis 原生的证据优先工程工作流层（面向编码智能体）：仓库感知的垂直切片规划（fullstack_plan）、显式通过/失败/未知证据检查（fullstack_check）、先勘察后动手的方法论、带审批门禁的敏感操作守卫与内嵌工程技能（MIT）。
+- [planrun](https://github.com/wangqiqi/planrun) - 面向 DSH 的 plan→run→verify 成长型开发工作流：仓库自身 dogfood 的 .growing/ 镜像（计划、逐任务复盘、教训台账）、28 个内置技能、4 个子代理预设，外加可移植 bash 守卫——复盘必交门、教训排名注入、回合收尾 verify 印记守卫。
 - [dsh-review-loop](https://github.com/wuxiangru915/dsh-review-loop) - 增量代码审查插件：checkpoint 增量队列 + Web 审查面板 + /review 命令，审查意见注入 agent
 - [dsh-test-runner](https://github.com/suimi8/dsh-test-runner) - 结构化测试运行工具（test_run）：自动识别 Vitest/Jest/pytest/node:test，运行测试并为模型解析失败摘要。
 - [dsh-git-branch-switcher](https://github.com/mixin-ai/dsh-git-branch-switcher) - 会话头部 Git 分支胶囊：显示当前项目分支，并可在 Web UI 中直接切换分支。
