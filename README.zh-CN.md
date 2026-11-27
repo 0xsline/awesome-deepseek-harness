@@ -819,6 +819,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-whale-musume](https://github.com/Sutera-Diffusus/dsh-whale-musume) - 适用于 DSH Desktop 与 Web 的鲸鱼娘桌宠，提供工作状态姿态、成长与成就、设置面板，以及可选的天气和语音播报功能。
 - [dsh-bigfish](https://github.com/gosomea/dsh-bigfish) - DSH Web 动画宠物：按模型自适应输出节奏，联动工具状态，支持替换角色包，并附带制作角色和扩展动作的 Skill。
 - [dsh-clippy](https://github.com/sjh9714/clippy-harness) - Clippy 复活为办公室助理宠物：对真实 agent 状态做出反应，失败回合弹出经典「非法操作」对话框。
+- [dsh-pet-remielle](https://github.com/Cyrus0719/dsh-pet-remielle) - Windows 桌面桌宠：透明置顶的蕾米埃尔，754 帧原生动画，可在桌面上直接和真实的 DSH 智能体对话、派活。
 - [dsh-agent-rp](https://github.com/dsh-external/dsh-agent-rp) - SillyTavern 迁移与下一代 DSH Agent RP。
 - [dsh-emoji](https://github.com/dsh-external/dsh-emoji) - emoji 插件（cordis）。
 - [dsh-travel-plugin](https://github.com/dsh-external/dsh-travel-plugin) - 旅行小插件。
