@@ -297,6 +297,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [JohnXu22786/snippet-expander](https://github.com/JohnXu22786/snippet-expander) - Steno：发送前的行内 #tag 快捷展开——多库、别名、{{变量}}、递归防护。
 - [opencues/opencues](https://github.com/opencues/opencues/tree/master/integrations/dsh) - 输入框内的同义词提示与下划线补全：行尾输入 `_` 即自动填充，拼写错误随打随标。走 `ctx.llm`，无需自备 API key。
 - [dsh-phone-inbox](https://github.com/PerryLink/dsh-phone-inbox) - 列出当前会话通过微信桥实际收到的附件，并按需将其中一个采纳到工作区。
+- [ackniuw/dsh-image-drag-fix](https://github.com/ackniuw/dsh-image-drag-fix) - 修复 Windows 上从 QQ/微信拖图报「仅支持 PNG/JPG/WebP/GIF」：前端按扩展名判类型、宿主按字节校验，`.jpeg` 名字的 WebP 必然被拒。含两处改法、绕开 `asar pack --unpack-dir` Windows 缺陷的重打包脚本，以及备份-替换-清缓存的验证流程。
 
 ## UI, Themes & Interaction
 
