@@ -526,6 +526,7 @@ Management panel: Settings → Plugins.
 - [AnyModelBot](https://github.com/modelflare-ai/AnyModelBot) - Local-first desktop, CLI and Docker app that runs DeepSeek Harness as its agent runtime, with WeChat and Feishu channels, per-bot memory, file access and computer use.
 - [deepseek-harness-linux](https://github.com/butterpurse-dot/deepseek-harness-linux) - Community Linux packaging of the official Electron desktop app: AppImage, deb and tar.gz for x64 and arm64, checksums, AppImage auto-update, and an hourly upstream sync.
 - [westtrade/deepseek-desktop](https://github.com/westtrade/deepseek-harness-plugins/tree/main/deepseek-desktop) - Desktop window for DSH on Neutralinojs: boots dsh --profile web, hides to the tray on close, and keeps a single instance instead of opening a second window.
+- [OmniMux](https://github.com/omnimux-ai/omnimux-client) - Local-first Electron desktop studio built on DeepSeek Harness (`0.2.2-rc.5`) for AI e-commerce product videos and UGC ads, combining a product library, 6,380+ built-in cloud assets, inspiration teardown, multimodal workflow canvas, and multi-track timeline editor on macOS and Windows.
 
 ## Browser & Remote
 
