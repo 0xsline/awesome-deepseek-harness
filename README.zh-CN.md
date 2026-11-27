@@ -523,6 +523,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [AnyModelBot](https://github.com/modelflare-ai/AnyModelBot) - 本地优先的桌面、命令行与 Docker 应用，以 DeepSeek Harness 作为智能体运行时，支持微信与飞书渠道、按机器人独立的记忆、文件读写和电脑操作
 - [deepseek-harness-linux](https://github.com/butterpurse-dot/deepseek-harness-linux) - 官方 Electron 桌面端的社区 Linux 打包：x64 与 arm64 的 AppImage、deb 和 tar.gz，提供校验和、AppImage 自动更新，并每小时同步上游。
 - [westtrade/deepseek-desktop](https://github.com/westtrade/deepseek-harness-plugins/tree/main/deepseek-desktop) - DSH 桌面窗口（Neuralino 无关，基于 Neutralinojs）：启动 dsh --profile web，关闭时收进托盘，保持单实例而不再开第二个窗口。
+- [OmniMux](https://github.com/omnimux-ai/omnimux-client) - 基于 DeepSeek Harness（`0.2.2-rc.5`）构建的本地优先 AI 电商带货与 UGC 短视频桌面工作台（macOS / Windows），集成商品库、6,380+ 内置云端资产库、爆款灵感拆解、多模态无限工作流画布与多轨剪辑工坊。
 
 ## Browser & Remote
 
