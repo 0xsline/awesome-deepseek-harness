@@ -383,7 +383,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [Ragnoryok1/dsh-client-locale-ru](https://github.com/Ragnoryok1/dsh-client-locale-ru) - 为 Web 界面提供俄语（ru）语言包：584 个 namespace、67,724 条字符串，含 520 个第三方插件词典，以及俄语复数形式与排版。
 - [jjoni12/dsh-locale-ko](https://github.com/jjoni12/dsh-locale-ko) - 韩语界面语言包，通过官方语言包 API 在 设置 → 通用 → 语言 中添加韩语（한국어）。
 
-- [Howell5/dsh-open-desktop](https://github.com/Howell5/dsh-open-desktop) - 把 DSH 中栏换成可拖拽的 12 列数据卡片墙；每张卡是一条独立 session，自带取数脚本和沙箱里的前端，共 32 个模板。
+- [Howell5/dsh-little-widgets](https://github.com/Howell5/dsh-little-widgets) - 把 DSH 中栏换成可拖拽的 12 列数据卡片墙；每张卡是一条独立 session，自带取数脚本和沙箱里的前端，共 32 个模板。
 
 ## Dashboards & Session UX
 - [dsh-delete-session](https://github.com/qiaozheng9/dsh-delete-session) - 面向 Windows 版 DSH 0.2.1-rc.5 的永久删除对话增强，支持嵌套子代理清理、原生确认弹窗和中断重试，需按仓库说明从源码安装。

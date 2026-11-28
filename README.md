@@ -382,7 +382,7 @@ Management panel: Settings → Plugins.
 - [LUgABeEEE/dsh-sidebar-density](https://github.com/LUgABeEEE/dsh-sidebar-density) - Lightweight sidebar UI: five fold switches, three density presets and three width presets, from one footer row plus a settings section; no dependencies, no host service.
 - [Ragnoryok1/dsh-client-locale-ru](https://github.com/Ragnoryok1/dsh-client-locale-ru) - Russian (ru) language pack for the Web GUI: 584 namespaces and 67,724 strings, including dictionaries of 520 third-party plugins, with ru plural forms and screen typography.
 
-- [Howell5/dsh-open-desktop](https://github.com/Howell5/dsh-open-desktop) - Replaces the middle pane with a draggable 12-column board of live data cards; every card is its own session with a collector script and a sandboxed frontend, and ships 32 templates.
+- [Howell5/dsh-little-widgets](https://github.com/Howell5/dsh-little-widgets) - Replaces the middle pane with a draggable 12-column board of live data cards; every card is its own session with a collector script and a sandboxed frontend, and ships 32 templates.
 
 ## Dashboards & Session UX
 - [dsh-delete-session](https://github.com/qiaozheng9/dsh-delete-session) - Windows desktop enhancement for DSH 0.2.1-rc.5 that permanently deletes conversations and nested subagents, with native confirmation and interrupted-cleanup retry; uses a documented local source installer.
