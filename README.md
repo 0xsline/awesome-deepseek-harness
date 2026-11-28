@@ -808,6 +808,7 @@ Management panel: Settings → Plugins.
 - [dsh-plugin-call-me](https://github.com/radres/dsh-plugin-call-me) - Rings the user's phone through the /call-me iPhone app when a run needs an answer: the agent asks out loud and the spoken reply goes back into the run as text. The app is a paid subscription.
 - [SteelUnion/dsh-softsensor-hub](https://github.com/SteelUnion/dsh-softsensor-hub) - Event hub for DSH: collectors produce events, rules rank them into critical/warn/info, and the store keeps them for later review. It never acts on its own.
 - [SteelUnion/dsh-wechat-queue](https://github.com/SteelUnion/dsh-wechat-queue) - WeChat channel with a durable serial queue: messages land on disk first, one reply at a time, and unfinished work survives a restart.
+- [dsh-gui-turn](https://github.com/SuRanHF/dsh-gui-turn) - Runs one full desktop agent turn over a loopback HTTP route so a bot or script can reuse the desktop app's model, persona and MCP tools: per-turn persona and MCP servers, global tools deny-by-default, loopback-only, everything disposed in finally.
 
 ## Fun & Lifestyle
 

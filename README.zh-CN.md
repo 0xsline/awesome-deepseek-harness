@@ -807,6 +807,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-plugin-call-me](https://github.com/radres/dsh-plugin-call-me) - 通过 /call-me iPhone 应用在运行需要回答时给用户的手机打电话：Agent 把问题读出来，用户口头回答，回答以文字形式回到运行中。该应用为付费订阅。
 - [SteelUnion/dsh-softsensor-hub](https://github.com/SteelUnion/dsh-softsensor-hub) - DSH 事件中枢：采集器产生事件，规则将其分级为 critical/warn/info，存储层留存供事后查看；自身从不代为执行。
 - [SteelUnion/dsh-wechat-queue](https://github.com/SteelUnion/dsh-wechat-queue) - 带持久化串行队列的微信通道：消息先落盘，每次只回一条，未完成的工作可在重启后继续。
+- [dsh-gui-turn](https://github.com/SuRanHF/dsh-gui-turn) - 把桌面端「跑一轮 agent 对话」暴露成本机 loopback HTTP 接口：机器人或脚本复用桌面端已配好的模型、人设与 MCP 工具，人设与 MCP 按轮注入，全局工具默认不放行，仅接受本机调用，每轮资源在 finally 释放。
 
 ## Fun & Lifestyle
 
